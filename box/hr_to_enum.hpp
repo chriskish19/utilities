@@ -1,0 +1,17571 @@
+switch (hr) {
+case STG_S_CONVERTED:
+	return stg_s_converted;
+case STG_S_CONVERTED:
+	return stg_s_converted;
+case STG_S_CONVERTED:
+	return stg_s_converted;
+case STG_S_BLOCK:
+	return stg_s_block;
+case STG_S_BLOCK:
+	return stg_s_block;
+case STG_S_BLOCK:
+	return stg_s_block;
+case STG_S_RETRYNOW:
+	return stg_s_retrynow;
+case STG_S_RETRYNOW:
+	return stg_s_retrynow;
+case STG_S_RETRYNOW:
+	return stg_s_retrynow;
+case STG_S_MONITORING:
+	return stg_s_monitoring;
+case STG_S_MONITORING:
+	return stg_s_monitoring;
+case STG_S_MONITORING:
+	return stg_s_monitoring;
+case STG_S_MULTIPLEOPENS:
+	return stg_s_multipleopens;
+case STG_S_MULTIPLEOPENS:
+	return stg_s_multipleopens;
+case STG_S_MULTIPLEOPENS:
+	return stg_s_multipleopens;
+case STG_S_CONSOLIDATIONFAILED:
+	return stg_s_consolidationfailed;
+case STG_S_CONSOLIDATIONFAILED:
+	return stg_s_consolidationfailed;
+case STG_S_CONSOLIDATIONFAILED:
+	return stg_s_consolidationfailed;
+case STG_S_CANNOTCONSOLIDATE:
+	return stg_s_cannotconsolidate;
+case STG_S_CANNOTCONSOLIDATE:
+	return stg_s_cannotconsolidate;
+case STG_S_CANNOTCONSOLIDATE:
+	return stg_s_cannotconsolidate;
+case OLE_S_USEREG:
+	return ole_s_usereg;
+case OLE_S_USEREG:
+	return ole_s_usereg;
+case OLE_S_USEREG:
+	return ole_s_usereg;
+case OLE_S_STATIC:
+	return ole_s_static;
+case OLE_S_STATIC:
+	return ole_s_static;
+case OLE_S_STATIC:
+	return ole_s_static;
+case OLE_S_MAC_CLIPFORMAT:
+	return ole_s_mac_clipformat;
+case OLE_S_MAC_CLIPFORMAT:
+	return ole_s_mac_clipformat;
+case OLE_S_MAC_CLIPFORMAT:
+	return ole_s_mac_clipformat;
+case DRAGDROP_S_DROP:
+	return dragdrop_s_drop;
+case DRAGDROP_S_DROP:
+	return dragdrop_s_drop;
+case DRAGDROP_S_DROP:
+	return dragdrop_s_drop;
+case DRAGDROP_S_CANCEL:
+	return dragdrop_s_cancel;
+case DRAGDROP_S_CANCEL:
+	return dragdrop_s_cancel;
+case DRAGDROP_S_CANCEL:
+	return dragdrop_s_cancel;
+case DRAGDROP_S_USEDEFAULTCURSORS:
+	return dragdrop_s_usedefaultcursors;
+case DRAGDROP_S_USEDEFAULTCURSORS:
+	return dragdrop_s_usedefaultcursors;
+case DRAGDROP_S_USEDEFAULTCURSORS:
+	return dragdrop_s_usedefaultcursors;
+case DATA_S_SAMEFORMATETC:
+	return data_s_sameformatetc;
+case DATA_S_SAMEFORMATETC:
+	return data_s_sameformatetc;
+case DATA_S_SAMEFORMATETC:
+	return data_s_sameformatetc;
+case VIEW_S_ALREADY_FROZEN:
+	return view_s_already_frozen;
+case VIEW_S_ALREADY_FROZEN:
+	return view_s_already_frozen;
+case VIEW_S_ALREADY_FROZEN:
+	return view_s_already_frozen;
+case CACHE_S_FORMATETC_NOTSUPPORTED:
+	return cache_s_formatetc_notsupported;
+case CACHE_S_FORMATETC_NOTSUPPORTED:
+	return cache_s_formatetc_notsupported;
+case CACHE_S_FORMATETC_NOTSUPPORTED:
+	return cache_s_formatetc_notsupported;
+case CACHE_S_SAMECACHE:
+	return cache_s_samecache;
+case CACHE_S_SAMECACHE:
+	return cache_s_samecache;
+case CACHE_S_SAMECACHE:
+	return cache_s_samecache;
+case CACHE_S_SOMECACHES_NOTUPDATED:
+	return cache_s_somecaches_notupdated;
+case CACHE_S_SOMECACHES_NOTUPDATED:
+	return cache_s_somecaches_notupdated;
+case CACHE_S_SOMECACHES_NOTUPDATED:
+	return cache_s_somecaches_notupdated;
+case OLEOBJ_S_INVALIDVERB:
+	return oleobj_s_invalidverb;
+case OLEOBJ_S_INVALIDVERB:
+	return oleobj_s_invalidverb;
+case OLEOBJ_S_INVALIDVERB:
+	return oleobj_s_invalidverb;
+case OLEOBJ_S_CANNOT_DOVERB_NOW:
+	return oleobj_s_cannot_doverb_now;
+case OLEOBJ_S_CANNOT_DOVERB_NOW:
+	return oleobj_s_cannot_doverb_now;
+case OLEOBJ_S_CANNOT_DOVERB_NOW:
+	return oleobj_s_cannot_doverb_now;
+case OLEOBJ_S_INVALIDHWND:
+	return oleobj_s_invalidhwnd;
+case OLEOBJ_S_INVALIDHWND:
+	return oleobj_s_invalidhwnd;
+case OLEOBJ_S_INVALIDHWND:
+	return oleobj_s_invalidhwnd;
+case INPLACE_S_TRUNCATED:
+	return inplace_s_truncated;
+case INPLACE_S_TRUNCATED:
+	return inplace_s_truncated;
+case INPLACE_S_TRUNCATED:
+	return inplace_s_truncated;
+case INPLACE_S_TRUNCATED:
+	return inplace_s_truncated;
+case INPLACE_S_TRUNCATED:
+	return inplace_s_truncated;
+case INPLACE_S_TRUNCATED:
+	return inplace_s_truncated;
+case MK_S_REDUCED_TO_SELF:
+	return mk_s_reduced_to_self;
+case MK_S_REDUCED_TO_SELF:
+	return mk_s_reduced_to_self;
+case MK_S_REDUCED_TO_SELF:
+	return mk_s_reduced_to_self;
+case MK_S_ME:
+	return mk_s_me;
+case MK_S_ME:
+	return mk_s_me;
+case MK_S_ME:
+	return mk_s_me;
+case MK_S_HIM:
+	return mk_s_him;
+case MK_S_HIM:
+	return mk_s_him;
+case MK_S_HIM:
+	return mk_s_him;
+case MK_S_US:
+	return mk_s_us;
+case MK_S_US:
+	return mk_s_us;
+case MK_S_US:
+	return mk_s_us;
+case MK_S_MONIKERALREADYREGISTERED:
+	return mk_s_monikeralreadyregistered;
+case MK_S_MONIKERALREADYREGISTERED:
+	return mk_s_monikeralreadyregistered;
+case MK_S_MONIKERALREADYREGISTERED:
+	return mk_s_monikeralreadyregistered;
+case EVENT_S_SOME_SUBSCRIBERS_FAILED:
+	return event_s_some_subscribers_failed;
+case EVENT_S_SOME_SUBSCRIBERS_FAILED:
+	return event_s_some_subscribers_failed;
+case EVENT_S_SOME_SUBSCRIBERS_FAILED:
+	return event_s_some_subscribers_failed;
+case EVENT_S_NOSUBSCRIBERS:
+	return event_s_nosubscribers;
+case EVENT_S_NOSUBSCRIBERS:
+	return event_s_nosubscribers;
+case EVENT_S_NOSUBSCRIBERS:
+	return event_s_nosubscribers;
+case SCHED_S_TASK_READY:
+	return sched_s_task_ready;
+case SCHED_S_TASK_READY:
+	return sched_s_task_ready;
+case SCHED_S_TASK_READY:
+	return sched_s_task_ready;
+case SCHED_S_TASK_RUNNING:
+	return sched_s_task_running;
+case SCHED_S_TASK_RUNNING:
+	return sched_s_task_running;
+case SCHED_S_TASK_RUNNING:
+	return sched_s_task_running;
+case SCHED_S_TASK_DISABLED:
+	return sched_s_task_disabled;
+case SCHED_S_TASK_DISABLED:
+	return sched_s_task_disabled;
+case SCHED_S_TASK_DISABLED:
+	return sched_s_task_disabled;
+case SCHED_S_TASK_HAS_NOT_RUN:
+	return sched_s_task_has_not_run;
+case SCHED_S_TASK_HAS_NOT_RUN:
+	return sched_s_task_has_not_run;
+case SCHED_S_TASK_HAS_NOT_RUN:
+	return sched_s_task_has_not_run;
+case SCHED_S_TASK_NO_MORE_RUNS:
+	return sched_s_task_no_more_runs;
+case SCHED_S_TASK_NO_MORE_RUNS:
+	return sched_s_task_no_more_runs;
+case SCHED_S_TASK_NO_MORE_RUNS:
+	return sched_s_task_no_more_runs;
+case SCHED_S_TASK_NOT_SCHEDULED:
+	return sched_s_task_not_scheduled;
+case SCHED_S_TASK_NOT_SCHEDULED:
+	return sched_s_task_not_scheduled;
+case SCHED_S_TASK_NOT_SCHEDULED:
+	return sched_s_task_not_scheduled;
+case SCHED_S_TASK_TERMINATED:
+	return sched_s_task_terminated;
+case SCHED_S_TASK_TERMINATED:
+	return sched_s_task_terminated;
+case SCHED_S_TASK_TERMINATED:
+	return sched_s_task_terminated;
+case SCHED_S_TASK_NO_VALID_TRIGGERS:
+	return sched_s_task_no_valid_triggers;
+case SCHED_S_TASK_NO_VALID_TRIGGERS:
+	return sched_s_task_no_valid_triggers;
+case SCHED_S_TASK_NO_VALID_TRIGGERS:
+	return sched_s_task_no_valid_triggers;
+case SCHED_S_EVENT_TRIGGER:
+	return sched_s_event_trigger;
+case SCHED_S_EVENT_TRIGGER:
+	return sched_s_event_trigger;
+case SCHED_S_EVENT_TRIGGER:
+	return sched_s_event_trigger;
+case SCHED_S_SOME_TRIGGERS_FAILED:
+	return sched_s_some_triggers_failed;
+case SCHED_S_SOME_TRIGGERS_FAILED:
+	return sched_s_some_triggers_failed;
+case SCHED_S_SOME_TRIGGERS_FAILED:
+	return sched_s_some_triggers_failed;
+case SCHED_S_BATCH_LOGON_PROBLEM:
+	return sched_s_batch_logon_problem;
+case SCHED_S_BATCH_LOGON_PROBLEM:
+	return sched_s_batch_logon_problem;
+case SCHED_S_BATCH_LOGON_PROBLEM:
+	return sched_s_batch_logon_problem;
+case XACT_S_ASYNC:
+	return xact_s_async;
+case XACT_S_ASYNC:
+	return xact_s_async;
+case XACT_S_ASYNC:
+	return xact_s_async;
+case XACT_S_READONLY:
+	return xact_s_readonly;
+case XACT_S_READONLY:
+	return xact_s_readonly;
+case XACT_S_READONLY:
+	return xact_s_readonly;
+case XACT_S_SOMENORETAIN:
+	return xact_s_somenoretain;
+case XACT_S_SOMENORETAIN:
+	return xact_s_somenoretain;
+case XACT_S_SOMENORETAIN:
+	return xact_s_somenoretain;
+case XACT_S_OKINFORM:
+	return xact_s_okinform;
+case XACT_S_OKINFORM:
+	return xact_s_okinform;
+case XACT_S_OKINFORM:
+	return xact_s_okinform;
+case XACT_S_MADECHANGESCONTENT:
+	return xact_s_madechangescontent;
+case XACT_S_MADECHANGESCONTENT:
+	return xact_s_madechangescontent;
+case XACT_S_MADECHANGESCONTENT:
+	return xact_s_madechangescontent;
+case XACT_S_MADECHANGESINFORM:
+	return xact_s_madechangesinform;
+case XACT_S_MADECHANGESINFORM:
+	return xact_s_madechangesinform;
+case XACT_S_MADECHANGESINFORM:
+	return xact_s_madechangesinform;
+case XACT_S_ALLNORETAIN:
+	return xact_s_allnoretain;
+case XACT_S_ALLNORETAIN:
+	return xact_s_allnoretain;
+case XACT_S_ALLNORETAIN:
+	return xact_s_allnoretain;
+case XACT_S_ABORTING:
+	return xact_s_aborting;
+case XACT_S_ABORTING:
+	return xact_s_aborting;
+case XACT_S_ABORTING:
+	return xact_s_aborting;
+case XACT_S_SINGLEPHASE:
+	return xact_s_singlephase;
+case XACT_S_SINGLEPHASE:
+	return xact_s_singlephase;
+case XACT_S_SINGLEPHASE:
+	return xact_s_singlephase;
+case XACT_S_LOCALLY_OK:
+	return xact_s_locally_ok;
+case XACT_S_LOCALLY_OK:
+	return xact_s_locally_ok;
+case XACT_S_LOCALLY_OK:
+	return xact_s_locally_ok;
+case XACT_S_LASTRESOURCEMANAGER:
+	return xact_s_lastresourcemanager;
+case XACT_S_LASTRESOURCEMANAGER:
+	return xact_s_lastresourcemanager;
+case XACT_S_LASTRESOURCEMANAGER:
+	return xact_s_lastresourcemanager;
+case CO_S_NOTALLINTERFACES:
+	return co_s_notallinterfaces;
+case CO_S_NOTALLINTERFACES:
+	return co_s_notallinterfaces;
+case CO_S_NOTALLINTERFACES:
+	return co_s_notallinterfaces;
+case CO_S_MACHINENAMENOTFOUND:
+	return co_s_machinenamenotfound;
+case CO_S_MACHINENAMENOTFOUND:
+	return co_s_machinenamenotfound;
+case CO_S_MACHINENAMENOTFOUND:
+	return co_s_machinenamenotfound;
+case SEC_I_CONTINUE_NEEDED:
+	return sec_i_continue_needed;
+case SEC_I_CONTINUE_NEEDED:
+	return sec_i_continue_needed;
+case SEC_I_CONTINUE_NEEDED:
+	return sec_i_continue_needed;
+case SEC_I_COMPLETE_NEEDED:
+	return sec_i_complete_needed;
+case SEC_I_COMPLETE_NEEDED:
+	return sec_i_complete_needed;
+case SEC_I_COMPLETE_NEEDED:
+	return sec_i_complete_needed;
+case SEC_I_COMPLETE_AND_CONTINUE:
+	return sec_i_complete_and_continue;
+case SEC_I_COMPLETE_AND_CONTINUE:
+	return sec_i_complete_and_continue;
+case SEC_I_COMPLETE_AND_CONTINUE:
+	return sec_i_complete_and_continue;
+case SEC_I_LOCAL_LOGON:
+	return sec_i_local_logon;
+case SEC_I_LOCAL_LOGON:
+	return sec_i_local_logon;
+case SEC_I_LOCAL_LOGON:
+	return sec_i_local_logon;
+case SEC_I_CONTEXT_EXPIRED:
+	return sec_i_context_expired;
+case SEC_I_CONTEXT_EXPIRED:
+	return sec_i_context_expired;
+case SEC_I_CONTEXT_EXPIRED:
+	return sec_i_context_expired;
+case SEC_I_INCOMPLETE_CREDENTIALS:
+	return sec_i_incomplete_credentials;
+case SEC_I_INCOMPLETE_CREDENTIALS:
+	return sec_i_incomplete_credentials;
+case SEC_I_INCOMPLETE_CREDENTIALS:
+	return sec_i_incomplete_credentials;
+case SEC_I_RENEGOTIATE:
+	return sec_i_renegotiate;
+case SEC_I_RENEGOTIATE:
+	return sec_i_renegotiate;
+case SEC_I_RENEGOTIATE:
+	return sec_i_renegotiate;
+case SEC_I_NO_LSA_CONTEXT:
+	return sec_i_no_lsa_context;
+case SEC_I_NO_LSA_CONTEXT:
+	return sec_i_no_lsa_context;
+case SEC_I_NO_LSA_CONTEXT:
+	return sec_i_no_lsa_context;
+case SEC_I_SIGNATURE_NEEDED:
+	return sec_i_signature_needed;
+case SEC_I_SIGNATURE_NEEDED:
+	return sec_i_signature_needed;
+case SEC_I_SIGNATURE_NEEDED:
+	return sec_i_signature_needed;
+case CRYPT_I_NEW_PROTECTION_REQUIRED:
+	return crypt_i_new_protection_required;
+case CRYPT_I_NEW_PROTECTION_REQUIRED:
+	return crypt_i_new_protection_required;
+case CRYPT_I_NEW_PROTECTION_REQUIRED:
+	return crypt_i_new_protection_required;
+case NS_S_CALLPENDING:
+	return ns_s_callpending;
+case NS_S_CALLPENDING:
+	return ns_s_callpending;
+case NS_S_CALLPENDING:
+	return ns_s_callpending;
+case NS_S_CALLABORTED:
+	return ns_s_callaborted;
+case NS_S_CALLABORTED:
+	return ns_s_callaborted;
+case NS_S_CALLABORTED:
+	return ns_s_callaborted;
+case NS_S_STREAM_TRUNCATED:
+	return ns_s_stream_truncated;
+case NS_S_STREAM_TRUNCATED:
+	return ns_s_stream_truncated;
+case NS_S_STREAM_TRUNCATED:
+	return ns_s_stream_truncated;
+case NS_S_REBUFFERING:
+	return ns_s_rebuffering;
+case NS_S_REBUFFERING:
+	return ns_s_rebuffering;
+case NS_S_REBUFFERING:
+	return ns_s_rebuffering;
+case NS_S_DEGRADING_QUALITY:
+	return ns_s_degrading_quality;
+case NS_S_DEGRADING_QUALITY:
+	return ns_s_degrading_quality;
+case NS_S_DEGRADING_QUALITY:
+	return ns_s_degrading_quality;
+case NS_S_TRANSCRYPTOR_EOF:
+	return ns_s_transcryptor_eof;
+case NS_S_TRANSCRYPTOR_EOF:
+	return ns_s_transcryptor_eof;
+case NS_S_TRANSCRYPTOR_EOF:
+	return ns_s_transcryptor_eof;
+case NS_S_WMP_UI_VERSIONMISMATCH:
+	return ns_s_wmp_ui_versionmismatch;
+case NS_S_WMP_UI_VERSIONMISMATCH:
+	return ns_s_wmp_ui_versionmismatch;
+case NS_S_WMP_UI_VERSIONMISMATCH:
+	return ns_s_wmp_ui_versionmismatch;
+case NS_S_WMP_EXCEPTION:
+	return ns_s_wmp_exception;
+case NS_S_WMP_EXCEPTION:
+	return ns_s_wmp_exception;
+case NS_S_WMP_EXCEPTION:
+	return ns_s_wmp_exception;
+case NS_S_WMP_LOADED_GIF_IMAGE:
+	return ns_s_wmp_loaded_gif_image;
+case NS_S_WMP_LOADED_GIF_IMAGE:
+	return ns_s_wmp_loaded_gif_image;
+case NS_S_WMP_LOADED_GIF_IMAGE:
+	return ns_s_wmp_loaded_gif_image;
+case NS_S_WMP_LOADED_PNG_IMAGE:
+	return ns_s_wmp_loaded_png_image;
+case NS_S_WMP_LOADED_PNG_IMAGE:
+	return ns_s_wmp_loaded_png_image;
+case NS_S_WMP_LOADED_PNG_IMAGE:
+	return ns_s_wmp_loaded_png_image;
+case NS_S_WMP_LOADED_BMP_IMAGE:
+	return ns_s_wmp_loaded_bmp_image;
+case NS_S_WMP_LOADED_BMP_IMAGE:
+	return ns_s_wmp_loaded_bmp_image;
+case NS_S_WMP_LOADED_BMP_IMAGE:
+	return ns_s_wmp_loaded_bmp_image;
+case NS_S_WMP_LOADED_JPG_IMAGE:
+	return ns_s_wmp_loaded_jpg_image;
+case NS_S_WMP_LOADED_JPG_IMAGE:
+	return ns_s_wmp_loaded_jpg_image;
+case NS_S_WMP_LOADED_JPG_IMAGE:
+	return ns_s_wmp_loaded_jpg_image;
+case NS_S_WMG_FORCE_DROP_FRAME:
+	return ns_s_wmg_force_drop_frame;
+case NS_S_WMG_FORCE_DROP_FRAME:
+	return ns_s_wmg_force_drop_frame;
+case NS_S_WMG_FORCE_DROP_FRAME:
+	return ns_s_wmg_force_drop_frame;
+case NS_S_WMR_ALREADYRENDERED:
+	return ns_s_wmr_alreadyrendered;
+case NS_S_WMR_ALREADYRENDERED:
+	return ns_s_wmr_alreadyrendered;
+case NS_S_WMR_ALREADYRENDERED:
+	return ns_s_wmr_alreadyrendered;
+case NS_S_WMR_PINTYPEPARTIALMATCH:
+	return ns_s_wmr_pintypepartialmatch;
+case NS_S_WMR_PINTYPEPARTIALMATCH:
+	return ns_s_wmr_pintypepartialmatch;
+case NS_S_WMR_PINTYPEPARTIALMATCH:
+	return ns_s_wmr_pintypepartialmatch;
+case NS_S_WMR_PINTYPEFULLMATCH:
+	return ns_s_wmr_pintypefullmatch;
+case NS_S_WMR_PINTYPEFULLMATCH:
+	return ns_s_wmr_pintypefullmatch;
+case NS_S_WMR_PINTYPEFULLMATCH:
+	return ns_s_wmr_pintypefullmatch;
+case NS_S_WMG_ADVISE_DROP_FRAME:
+	return ns_s_wmg_advise_drop_frame;
+case NS_S_WMG_ADVISE_DROP_FRAME:
+	return ns_s_wmg_advise_drop_frame;
+case NS_S_WMG_ADVISE_DROP_FRAME:
+	return ns_s_wmg_advise_drop_frame;
+case NS_S_WMG_ADVISE_DROP_TO_KEYFRAME:
+	return ns_s_wmg_advise_drop_to_keyframe;
+case NS_S_WMG_ADVISE_DROP_TO_KEYFRAME:
+	return ns_s_wmg_advise_drop_to_keyframe;
+case NS_S_WMG_ADVISE_DROP_TO_KEYFRAME:
+	return ns_s_wmg_advise_drop_to_keyframe;
+case NS_S_NEED_TO_BUY_BURN_RIGHTS:
+	return ns_s_need_to_buy_burn_rights;
+case NS_S_NEED_TO_BUY_BURN_RIGHTS:
+	return ns_s_need_to_buy_burn_rights;
+case NS_S_NEED_TO_BUY_BURN_RIGHTS:
+	return ns_s_need_to_buy_burn_rights;
+case NS_S_WMPCORE_PLAYLISTCLEARABORT:
+	return ns_s_wmpcore_playlistclearabort;
+case NS_S_WMPCORE_PLAYLISTCLEARABORT:
+	return ns_s_wmpcore_playlistclearabort;
+case NS_S_WMPCORE_PLAYLISTCLEARABORT:
+	return ns_s_wmpcore_playlistclearabort;
+case NS_S_WMPCORE_PLAYLISTREMOVEITEMABORT:
+	return ns_s_wmpcore_playlistremoveitemabort;
+case NS_S_WMPCORE_PLAYLISTREMOVEITEMABORT:
+	return ns_s_wmpcore_playlistremoveitemabort;
+case NS_S_WMPCORE_PLAYLISTREMOVEITEMABORT:
+	return ns_s_wmpcore_playlistremoveitemabort;
+case NS_S_WMPCORE_PLAYLIST_CREATION_PENDING:
+	return ns_s_wmpcore_playlist_creation_pending;
+case NS_S_WMPCORE_PLAYLIST_CREATION_PENDING:
+	return ns_s_wmpcore_playlist_creation_pending;
+case NS_S_WMPCORE_PLAYLIST_CREATION_PENDING:
+	return ns_s_wmpcore_playlist_creation_pending;
+case NS_S_WMPCORE_MEDIA_VALIDATION_PENDING:
+	return ns_s_wmpcore_media_validation_pending;
+case NS_S_WMPCORE_MEDIA_VALIDATION_PENDING:
+	return ns_s_wmpcore_media_validation_pending;
+case NS_S_WMPCORE_MEDIA_VALIDATION_PENDING:
+	return ns_s_wmpcore_media_validation_pending;
+case NS_S_WMPCORE_PLAYLIST_REPEAT_SECONDARY_SEGMENTS_IGNORED:
+	return ns_s_wmpcore_playlist_repeat_secondary_segments_ignored;
+case NS_S_WMPCORE_PLAYLIST_REPEAT_SECONDARY_SEGMENTS_IGNORED:
+	return ns_s_wmpcore_playlist_repeat_secondary_segments_ignored;
+case NS_S_WMPCORE_PLAYLIST_REPEAT_SECONDARY_SEGMENTS_IGNORED:
+	return ns_s_wmpcore_playlist_repeat_secondary_segments_ignored;
+case NS_S_WMPCORE_COMMAND_NOT_AVAILABLE:
+	return ns_s_wmpcore_command_not_available;
+case NS_S_WMPCORE_COMMAND_NOT_AVAILABLE:
+	return ns_s_wmpcore_command_not_available;
+case NS_S_WMPCORE_COMMAND_NOT_AVAILABLE:
+	return ns_s_wmpcore_command_not_available;
+case NS_S_WMPCORE_PLAYLIST_NAME_AUTO_GENERATED:
+	return ns_s_wmpcore_playlist_name_auto_generated;
+case NS_S_WMPCORE_PLAYLIST_NAME_AUTO_GENERATED:
+	return ns_s_wmpcore_playlist_name_auto_generated;
+case NS_S_WMPCORE_PLAYLIST_NAME_AUTO_GENERATED:
+	return ns_s_wmpcore_playlist_name_auto_generated;
+case NS_S_WMPCORE_PLAYLIST_IMPORT_MISSING_ITEMS:
+	return ns_s_wmpcore_playlist_import_missing_items;
+case NS_S_WMPCORE_PLAYLIST_IMPORT_MISSING_ITEMS:
+	return ns_s_wmpcore_playlist_import_missing_items;
+case NS_S_WMPCORE_PLAYLIST_IMPORT_MISSING_ITEMS:
+	return ns_s_wmpcore_playlist_import_missing_items;
+case NS_S_WMPCORE_PLAYLIST_COLLAPSED_TO_SINGLE_MEDIA:
+	return ns_s_wmpcore_playlist_collapsed_to_single_media;
+case NS_S_WMPCORE_PLAYLIST_COLLAPSED_TO_SINGLE_MEDIA:
+	return ns_s_wmpcore_playlist_collapsed_to_single_media;
+case NS_S_WMPCORE_PLAYLIST_COLLAPSED_TO_SINGLE_MEDIA:
+	return ns_s_wmpcore_playlist_collapsed_to_single_media;
+case NS_S_WMPCORE_MEDIA_CHILD_PLAYLIST_OPEN_PENDING:
+	return ns_s_wmpcore_media_child_playlist_open_pending;
+case NS_S_WMPCORE_MEDIA_CHILD_PLAYLIST_OPEN_PENDING:
+	return ns_s_wmpcore_media_child_playlist_open_pending;
+case NS_S_WMPCORE_MEDIA_CHILD_PLAYLIST_OPEN_PENDING:
+	return ns_s_wmpcore_media_child_playlist_open_pending;
+case NS_S_WMPCORE_MORE_NODES_AVAIABLE:
+	return ns_s_wmpcore_more_nodes_avaiable;
+case NS_S_WMPCORE_MORE_NODES_AVAIABLE:
+	return ns_s_wmpcore_more_nodes_avaiable;
+case NS_S_WMPCORE_MORE_NODES_AVAIABLE:
+	return ns_s_wmpcore_more_nodes_avaiable;
+case NS_S_WMPBR_SUCCESS:
+	return ns_s_wmpbr_success;
+case NS_S_WMPBR_SUCCESS:
+	return ns_s_wmpbr_success;
+case NS_S_WMPBR_SUCCESS:
+	return ns_s_wmpbr_success;
+case NS_S_WMPBR_PARTIALSUCCESS:
+	return ns_s_wmpbr_partialsuccess;
+case NS_S_WMPBR_PARTIALSUCCESS:
+	return ns_s_wmpbr_partialsuccess;
+case NS_S_WMPBR_PARTIALSUCCESS:
+	return ns_s_wmpbr_partialsuccess;
+case NS_S_WMPEFFECT_TRANSPARENT:
+	return ns_s_wmpeffect_transparent;
+case NS_S_WMPEFFECT_TRANSPARENT:
+	return ns_s_wmpeffect_transparent;
+case NS_S_WMPEFFECT_TRANSPARENT:
+	return ns_s_wmpeffect_transparent;
+case NS_S_WMPEFFECT_OPAQUE:
+	return ns_s_wmpeffect_opaque;
+case NS_S_WMPEFFECT_OPAQUE:
+	return ns_s_wmpeffect_opaque;
+case NS_S_WMPEFFECT_OPAQUE:
+	return ns_s_wmpeffect_opaque;
+case NS_S_OPERATION_PENDING:
+	return ns_s_operation_pending;
+case NS_S_OPERATION_PENDING:
+	return ns_s_operation_pending;
+case NS_S_OPERATION_PENDING:
+	return ns_s_operation_pending;
+case NS_S_TRACK_BUY_REQUIRES_ALBUM_PURCHASE:
+	return ns_s_track_buy_requires_album_purchase;
+case NS_S_TRACK_BUY_REQUIRES_ALBUM_PURCHASE:
+	return ns_s_track_buy_requires_album_purchase;
+case NS_S_TRACK_BUY_REQUIRES_ALBUM_PURCHASE:
+	return ns_s_track_buy_requires_album_purchase;
+case NS_S_NAVIGATION_COMPLETE_WITH_ERRORS:
+	return ns_s_navigation_complete_with_errors;
+case NS_S_NAVIGATION_COMPLETE_WITH_ERRORS:
+	return ns_s_navigation_complete_with_errors;
+case NS_S_NAVIGATION_COMPLETE_WITH_ERRORS:
+	return ns_s_navigation_complete_with_errors;
+case NS_S_TRACK_ALREADY_DOWNLOADED:
+	return ns_s_track_already_downloaded;
+case NS_S_TRACK_ALREADY_DOWNLOADED:
+	return ns_s_track_already_downloaded;
+case NS_S_TRACK_ALREADY_DOWNLOADED:
+	return ns_s_track_already_downloaded;
+case NS_S_PUBLISHING_POINT_STARTED_WITH_FAILED_SINKS:
+	return ns_s_publishing_point_started_with_failed_sinks;
+case NS_S_PUBLISHING_POINT_STARTED_WITH_FAILED_SINKS:
+	return ns_s_publishing_point_started_with_failed_sinks;
+case NS_S_PUBLISHING_POINT_STARTED_WITH_FAILED_SINKS:
+	return ns_s_publishing_point_started_with_failed_sinks;
+case NS_S_DRM_LICENSE_ACQUIRED:
+	return ns_s_drm_license_acquired;
+case NS_S_DRM_LICENSE_ACQUIRED:
+	return ns_s_drm_license_acquired;
+case NS_S_DRM_LICENSE_ACQUIRED:
+	return ns_s_drm_license_acquired;
+case NS_S_DRM_INDIVIDUALIZED:
+	return ns_s_drm_individualized;
+case NS_S_DRM_INDIVIDUALIZED:
+	return ns_s_drm_individualized;
+case NS_S_DRM_INDIVIDUALIZED:
+	return ns_s_drm_individualized;
+case NS_S_DRM_MONITOR_CANCELLED:
+	return ns_s_drm_monitor_cancelled;
+case NS_S_DRM_MONITOR_CANCELLED:
+	return ns_s_drm_monitor_cancelled;
+case NS_S_DRM_MONITOR_CANCELLED:
+	return ns_s_drm_monitor_cancelled;
+case NS_S_DRM_ACQUIRE_CANCELLED:
+	return ns_s_drm_acquire_cancelled;
+case NS_S_DRM_ACQUIRE_CANCELLED:
+	return ns_s_drm_acquire_cancelled;
+case NS_S_DRM_ACQUIRE_CANCELLED:
+	return ns_s_drm_acquire_cancelled;
+case NS_S_DRM_BURNABLE_TRACK:
+	return ns_s_drm_burnable_track;
+case NS_S_DRM_BURNABLE_TRACK:
+	return ns_s_drm_burnable_track;
+case NS_S_DRM_BURNABLE_TRACK:
+	return ns_s_drm_burnable_track;
+case NS_S_DRM_BURNABLE_TRACK_WITH_PLAYLIST_RESTRICTION:
+	return ns_s_drm_burnable_track_with_playlist_restriction;
+case NS_S_DRM_BURNABLE_TRACK_WITH_PLAYLIST_RESTRICTION:
+	return ns_s_drm_burnable_track_with_playlist_restriction;
+case NS_S_DRM_BURNABLE_TRACK_WITH_PLAYLIST_RESTRICTION:
+	return ns_s_drm_burnable_track_with_playlist_restriction;
+case NS_S_DRM_NEEDS_INDIVIDUALIZATION:
+	return ns_s_drm_needs_individualization;
+case NS_S_DRM_NEEDS_INDIVIDUALIZATION:
+	return ns_s_drm_needs_individualization;
+case NS_S_DRM_NEEDS_INDIVIDUALIZATION:
+	return ns_s_drm_needs_individualization;
+case NS_S_REBOOT_RECOMMENDED:
+	return ns_s_reboot_recommended;
+case NS_S_REBOOT_RECOMMENDED:
+	return ns_s_reboot_recommended;
+case NS_S_REBOOT_RECOMMENDED:
+	return ns_s_reboot_recommended;
+case NS_S_REBOOT_REQUIRED:
+	return ns_s_reboot_required;
+case NS_S_REBOOT_REQUIRED:
+	return ns_s_reboot_required;
+case NS_S_REBOOT_REQUIRED:
+	return ns_s_reboot_required;
+case NS_S_EOSRECEDING:
+	return ns_s_eosreceding;
+case NS_S_EOSRECEDING:
+	return ns_s_eosreceding;
+case NS_S_EOSRECEDING:
+	return ns_s_eosreceding;
+case NS_S_CHANGENOTICE:
+	return ns_s_changenotice;
+case NS_S_CHANGENOTICE:
+	return ns_s_changenotice;
+case NS_S_CHANGENOTICE:
+	return ns_s_changenotice;
+case ERROR_FLT_IO_COMPLETE:
+	return error_flt_io_complete;
+case ERROR_FLT_IO_COMPLETE:
+	return error_flt_io_complete;
+case ERROR_FLT_IO_COMPLETE:
+	return error_flt_io_complete;
+case ERROR_GRAPHICS_MODE_NOT_PINNED:
+	return error_graphics_mode_not_pinned;
+case ERROR_GRAPHICS_MODE_NOT_PINNED:
+	return error_graphics_mode_not_pinned;
+case ERROR_GRAPHICS_MODE_NOT_PINNED:
+	return error_graphics_mode_not_pinned;
+case ERROR_GRAPHICS_NO_PREFERRED_MODE:
+	return error_graphics_no_preferred_mode;
+case ERROR_GRAPHICS_NO_PREFERRED_MODE:
+	return error_graphics_no_preferred_mode;
+case ERROR_GRAPHICS_NO_PREFERRED_MODE:
+	return error_graphics_no_preferred_mode;
+case ERROR_GRAPHICS_DATASET_IS_EMPTY:
+	return error_graphics_dataset_is_empty;
+case ERROR_GRAPHICS_DATASET_IS_EMPTY:
+	return error_graphics_dataset_is_empty;
+case ERROR_GRAPHICS_DATASET_IS_EMPTY:
+	return error_graphics_dataset_is_empty;
+case ERROR_GRAPHICS_NO_MORE_ELEMENTS_IN_DATASET:
+	return error_graphics_no_more_elements_in_dataset;
+case ERROR_GRAPHICS_NO_MORE_ELEMENTS_IN_DATASET:
+	return error_graphics_no_more_elements_in_dataset;
+case ERROR_GRAPHICS_NO_MORE_ELEMENTS_IN_DATASET:
+	return error_graphics_no_more_elements_in_dataset;
+case ERROR_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_PINNED:
+	return error_graphics_path_content_geometry_transformation_not_pinned;
+case ERROR_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_PINNED:
+	return error_graphics_path_content_geometry_transformation_not_pinned;
+case ERROR_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_PINNED:
+	return error_graphics_path_content_geometry_transformation_not_pinned;
+case PLA_S_PROPERTY_IGNORED:
+	return pla_s_property_ignored;
+case PLA_S_PROPERTY_IGNORED:
+	return pla_s_property_ignored;
+case PLA_S_PROPERTY_IGNORED:
+	return pla_s_property_ignored;
+case ERROR_NDIS_INDICATION_REQUIRED:
+	return error_ndis_indication_required;
+case ERROR_NDIS_INDICATION_REQUIRED:
+	return error_ndis_indication_required;
+case ERROR_NDIS_INDICATION_REQUIRED:
+	return error_ndis_indication_required;
+case TRK_S_OUT_OF_SYNC:
+	return trk_s_out_of_sync;
+case TRK_S_OUT_OF_SYNC:
+	return trk_s_out_of_sync;
+case TRK_S_OUT_OF_SYNC:
+	return trk_s_out_of_sync;
+case TRK_VOLUME_NOT_FOUND:
+	return trk_volume_not_found;
+case TRK_VOLUME_NOT_FOUND:
+	return trk_volume_not_found;
+case TRK_VOLUME_NOT_FOUND:
+	return trk_volume_not_found;
+case TRK_VOLUME_NOT_OWNED:
+	return trk_volume_not_owned;
+case TRK_VOLUME_NOT_OWNED:
+	return trk_volume_not_owned;
+case TRK_VOLUME_NOT_OWNED:
+	return trk_volume_not_owned;
+case TRK_S_NOTIFICATION_QUOTA_EXCEEDED:
+	return trk_s_notification_quota_exceeded;
+case TRK_S_NOTIFICATION_QUOTA_EXCEEDED:
+	return trk_s_notification_quota_exceeded;
+case TRK_S_NOTIFICATION_QUOTA_EXCEEDED:
+	return trk_s_notification_quota_exceeded;
+case NS_I_TIGER_START:
+	return ns_i_tiger_start;
+case NS_I_TIGER_START:
+	return ns_i_tiger_start;
+case NS_I_TIGER_START:
+	return ns_i_tiger_start;
+case NS_I_CUB_START:
+	return ns_i_cub_start;
+case NS_I_CUB_START:
+	return ns_i_cub_start;
+case NS_I_CUB_START:
+	return ns_i_cub_start;
+case NS_I_CUB_RUNNING:
+	return ns_i_cub_running;
+case NS_I_CUB_RUNNING:
+	return ns_i_cub_running;
+case NS_I_CUB_RUNNING:
+	return ns_i_cub_running;
+case NS_I_DISK_START:
+	return ns_i_disk_start;
+case NS_I_DISK_START:
+	return ns_i_disk_start;
+case NS_I_DISK_START:
+	return ns_i_disk_start;
+case NS_I_DISK_REBUILD_STARTED:
+	return ns_i_disk_rebuild_started;
+case NS_I_DISK_REBUILD_STARTED:
+	return ns_i_disk_rebuild_started;
+case NS_I_DISK_REBUILD_STARTED:
+	return ns_i_disk_rebuild_started;
+case NS_I_DISK_REBUILD_FINISHED:
+	return ns_i_disk_rebuild_finished;
+case NS_I_DISK_REBUILD_FINISHED:
+	return ns_i_disk_rebuild_finished;
+case NS_I_DISK_REBUILD_FINISHED:
+	return ns_i_disk_rebuild_finished;
+case NS_I_DISK_REBUILD_ABORTED:
+	return ns_i_disk_rebuild_aborted;
+case NS_I_DISK_REBUILD_ABORTED:
+	return ns_i_disk_rebuild_aborted;
+case NS_I_DISK_REBUILD_ABORTED:
+	return ns_i_disk_rebuild_aborted;
+case NS_I_LIMIT_FUNNELS:
+	return ns_i_limit_funnels;
+case NS_I_LIMIT_FUNNELS:
+	return ns_i_limit_funnels;
+case NS_I_LIMIT_FUNNELS:
+	return ns_i_limit_funnels;
+case NS_I_START_DISK:
+	return ns_i_start_disk;
+case NS_I_START_DISK:
+	return ns_i_start_disk;
+case NS_I_START_DISK:
+	return ns_i_start_disk;
+case NS_I_STOP_DISK:
+	return ns_i_stop_disk;
+case NS_I_STOP_DISK:
+	return ns_i_stop_disk;
+case NS_I_STOP_DISK:
+	return ns_i_stop_disk;
+case NS_I_STOP_CUB:
+	return ns_i_stop_cub;
+case NS_I_STOP_CUB:
+	return ns_i_stop_cub;
+case NS_I_STOP_CUB:
+	return ns_i_stop_cub;
+case NS_I_KILL_USERSESSION:
+	return ns_i_kill_usersession;
+case NS_I_KILL_USERSESSION:
+	return ns_i_kill_usersession;
+case NS_I_KILL_USERSESSION:
+	return ns_i_kill_usersession;
+case NS_I_KILL_CONNECTION:
+	return ns_i_kill_connection;
+case NS_I_KILL_CONNECTION:
+	return ns_i_kill_connection;
+case NS_I_KILL_CONNECTION:
+	return ns_i_kill_connection;
+case NS_I_REBUILD_DISK:
+	return ns_i_rebuild_disk;
+case NS_I_REBUILD_DISK:
+	return ns_i_rebuild_disk;
+case NS_I_REBUILD_DISK:
+	return ns_i_rebuild_disk;
+case MCMADM_I_NO_EVENTS:
+	return mcmadm_i_no_events;
+case MCMADM_I_NO_EVENTS:
+	return mcmadm_i_no_events;
+case MCMADM_I_NO_EVENTS:
+	return mcmadm_i_no_events;
+case NS_I_LOGGING_FAILED:
+	return ns_i_logging_failed;
+case NS_I_LOGGING_FAILED:
+	return ns_i_logging_failed;
+case NS_I_LOGGING_FAILED:
+	return ns_i_logging_failed;
+case NS_I_LIMIT_BANDWIDTH:
+	return ns_i_limit_bandwidth;
+case NS_I_LIMIT_BANDWIDTH:
+	return ns_i_limit_bandwidth;
+case NS_I_LIMIT_BANDWIDTH:
+	return ns_i_limit_bandwidth;
+case NS_I_CUB_UNFAIL_LINK:
+	return ns_i_cub_unfail_link;
+case NS_I_CUB_UNFAIL_LINK:
+	return ns_i_cub_unfail_link;
+case NS_I_CUB_UNFAIL_LINK:
+	return ns_i_cub_unfail_link;
+case NS_I_RESTRIPE_START:
+	return ns_i_restripe_start;
+case NS_I_RESTRIPE_START:
+	return ns_i_restripe_start;
+case NS_I_RESTRIPE_START:
+	return ns_i_restripe_start;
+case NS_I_RESTRIPE_DONE:
+	return ns_i_restripe_done;
+case NS_I_RESTRIPE_DONE:
+	return ns_i_restripe_done;
+case NS_I_RESTRIPE_DONE:
+	return ns_i_restripe_done;
+case NS_I_RESTRIPE_DISK_OUT:
+	return ns_i_restripe_disk_out;
+case NS_I_RESTRIPE_DISK_OUT:
+	return ns_i_restripe_disk_out;
+case NS_I_RESTRIPE_DISK_OUT:
+	return ns_i_restripe_disk_out;
+case NS_I_RESTRIPE_CUB_OUT:
+	return ns_i_restripe_cub_out;
+case NS_I_RESTRIPE_CUB_OUT:
+	return ns_i_restripe_cub_out;
+case NS_I_RESTRIPE_CUB_OUT:
+	return ns_i_restripe_cub_out;
+case NS_I_DISK_STOP:
+	return ns_i_disk_stop;
+case NS_I_DISK_STOP:
+	return ns_i_disk_stop;
+case NS_I_DISK_STOP:
+	return ns_i_disk_stop;
+case NS_I_PLAYLIST_CHANGE_RECEDING:
+	return ns_i_playlist_change_receding;
+case NS_I_PLAYLIST_CHANGE_RECEDING:
+	return ns_i_playlist_change_receding;
+case NS_I_PLAYLIST_CHANGE_RECEDING:
+	return ns_i_playlist_change_receding;
+case NS_I_RECONNECTED:
+	return ns_i_reconnected;
+case NS_I_RECONNECTED:
+	return ns_i_reconnected;
+case NS_I_RECONNECTED:
+	return ns_i_reconnected;
+case NS_I_NOLOG_STOP:
+	return ns_i_nolog_stop;
+case NS_I_NOLOG_STOP:
+	return ns_i_nolog_stop;
+case NS_I_NOLOG_STOP:
+	return ns_i_nolog_stop;
+case NS_I_EXISTING_PACKETIZER:
+	return ns_i_existing_packetizer;
+case NS_I_EXISTING_PACKETIZER:
+	return ns_i_existing_packetizer;
+case NS_I_EXISTING_PACKETIZER:
+	return ns_i_existing_packetizer;
+case NS_I_MANUAL_PROXY:
+	return ns_i_manual_proxy;
+case NS_I_MANUAL_PROXY:
+	return ns_i_manual_proxy;
+case NS_I_MANUAL_PROXY:
+	return ns_i_manual_proxy;
+case ERROR_GRAPHICS_DRIVER_MISMATCH:
+	return error_graphics_driver_mismatch;
+case ERROR_GRAPHICS_DRIVER_MISMATCH:
+	return error_graphics_driver_mismatch;
+case ERROR_GRAPHICS_DRIVER_MISMATCH:
+	return error_graphics_driver_mismatch;
+case ERROR_GRAPHICS_UNKNOWN_CHILD_STATUS:
+	return error_graphics_unknown_child_status;
+case ERROR_GRAPHICS_UNKNOWN_CHILD_STATUS:
+	return error_graphics_unknown_child_status;
+case ERROR_GRAPHICS_UNKNOWN_CHILD_STATUS:
+	return error_graphics_unknown_child_status;
+case ERROR_GRAPHICS_LEADLINK_START_DEFERRED:
+	return error_graphics_leadlink_start_deferred;
+case ERROR_GRAPHICS_LEADLINK_START_DEFERRED:
+	return error_graphics_leadlink_start_deferred;
+case ERROR_GRAPHICS_LEADLINK_START_DEFERRED:
+	return error_graphics_leadlink_start_deferred;
+case ERROR_GRAPHICS_POLLING_TOO_FREQUENTLY:
+	return error_graphics_polling_too_frequently;
+case ERROR_GRAPHICS_POLLING_TOO_FREQUENTLY:
+	return error_graphics_polling_too_frequently;
+case ERROR_GRAPHICS_POLLING_TOO_FREQUENTLY:
+	return error_graphics_polling_too_frequently;
+case ERROR_GRAPHICS_START_DEFERRED:
+	return error_graphics_start_deferred;
+case ERROR_GRAPHICS_START_DEFERRED:
+	return error_graphics_start_deferred;
+case ERROR_GRAPHICS_START_DEFERRED:
+	return error_graphics_start_deferred;
+case E_PENDING:
+	return e_pending;
+case E_PENDING:
+	return e_pending;
+case E_PENDING:
+	return e_pending;
+case E_NOTIMPL:
+	return e_notimpl;
+case E_NOTIMPL:
+	return e_notimpl;
+case E_NOTIMPL:
+	return e_notimpl;
+case E_NOINTERFACE:
+	return e_nointerface;
+case E_NOINTERFACE:
+	return e_nointerface;
+case E_NOINTERFACE:
+	return e_nointerface;
+case E_POINTER:
+	return e_pointer;
+case E_POINTER:
+	return e_pointer;
+case E_POINTER:
+	return e_pointer;
+case E_ABORT:
+	return e_abort;
+case E_ABORT:
+	return e_abort;
+case E_ABORT:
+	return e_abort;
+case E_FAIL:
+	return e_fail;
+case E_FAIL:
+	return e_fail;
+case E_FAIL:
+	return e_fail;
+case CO_E_INIT_TLS:
+	return co_e_init_tls;
+case CO_E_INIT_TLS:
+	return co_e_init_tls;
+case CO_E_INIT_TLS:
+	return co_e_init_tls;
+case CO_E_INIT_SHARED_ALLOCATOR:
+	return co_e_init_shared_allocator;
+case CO_E_INIT_SHARED_ALLOCATOR:
+	return co_e_init_shared_allocator;
+case CO_E_INIT_SHARED_ALLOCATOR:
+	return co_e_init_shared_allocator;
+case CO_E_INIT_MEMORY_ALLOCATOR:
+	return co_e_init_memory_allocator;
+case CO_E_INIT_MEMORY_ALLOCATOR:
+	return co_e_init_memory_allocator;
+case CO_E_INIT_MEMORY_ALLOCATOR:
+	return co_e_init_memory_allocator;
+case CO_E_INIT_CLASS_CACHE:
+	return co_e_init_class_cache;
+case CO_E_INIT_CLASS_CACHE:
+	return co_e_init_class_cache;
+case CO_E_INIT_CLASS_CACHE:
+	return co_e_init_class_cache;
+case CO_E_INIT_RPC_CHANNEL:
+	return co_e_init_rpc_channel;
+case CO_E_INIT_RPC_CHANNEL:
+	return co_e_init_rpc_channel;
+case CO_E_INIT_RPC_CHANNEL:
+	return co_e_init_rpc_channel;
+case CO_E_INIT_TLS_SET_CHANNEL_CONTROL:
+	return co_e_init_tls_set_channel_control;
+case CO_E_INIT_TLS_SET_CHANNEL_CONTROL:
+	return co_e_init_tls_set_channel_control;
+case CO_E_INIT_TLS_SET_CHANNEL_CONTROL:
+	return co_e_init_tls_set_channel_control;
+case CO_E_INIT_TLS_CHANNEL_CONTROL:
+	return co_e_init_tls_channel_control;
+case CO_E_INIT_TLS_CHANNEL_CONTROL:
+	return co_e_init_tls_channel_control;
+case CO_E_INIT_TLS_CHANNEL_CONTROL:
+	return co_e_init_tls_channel_control;
+case CO_E_INIT_UNACCEPTED_USER_ALLOCATOR:
+	return co_e_init_unaccepted_user_allocator;
+case CO_E_INIT_UNACCEPTED_USER_ALLOCATOR:
+	return co_e_init_unaccepted_user_allocator;
+case CO_E_INIT_UNACCEPTED_USER_ALLOCATOR:
+	return co_e_init_unaccepted_user_allocator;
+case CO_E_INIT_SCM_MUTEX_EXISTS:
+	return co_e_init_scm_mutex_exists;
+case CO_E_INIT_SCM_MUTEX_EXISTS:
+	return co_e_init_scm_mutex_exists;
+case CO_E_INIT_SCM_MUTEX_EXISTS:
+	return co_e_init_scm_mutex_exists;
+case CO_E_INIT_SCM_FILE_MAPPING_EXISTS:
+	return co_e_init_scm_file_mapping_exists;
+case CO_E_INIT_SCM_FILE_MAPPING_EXISTS:
+	return co_e_init_scm_file_mapping_exists;
+case CO_E_INIT_SCM_FILE_MAPPING_EXISTS:
+	return co_e_init_scm_file_mapping_exists;
+case CO_E_INIT_SCM_MAP_VIEW_OF_FILE:
+	return co_e_init_scm_map_view_of_file;
+case CO_E_INIT_SCM_MAP_VIEW_OF_FILE:
+	return co_e_init_scm_map_view_of_file;
+case CO_E_INIT_SCM_MAP_VIEW_OF_FILE:
+	return co_e_init_scm_map_view_of_file;
+case CO_E_INIT_SCM_EXEC_FAILURE:
+	return co_e_init_scm_exec_failure;
+case CO_E_INIT_SCM_EXEC_FAILURE:
+	return co_e_init_scm_exec_failure;
+case CO_E_INIT_SCM_EXEC_FAILURE:
+	return co_e_init_scm_exec_failure;
+case CO_E_INIT_ONLY_SINGLE_THREADED:
+	return co_e_init_only_single_threaded;
+case CO_E_INIT_ONLY_SINGLE_THREADED:
+	return co_e_init_only_single_threaded;
+case CO_E_INIT_ONLY_SINGLE_THREADED:
+	return co_e_init_only_single_threaded;
+case CO_E_CANT_REMOTE:
+	return co_e_cant_remote;
+case CO_E_CANT_REMOTE:
+	return co_e_cant_remote;
+case CO_E_CANT_REMOTE:
+	return co_e_cant_remote;
+case CO_E_BAD_SERVER_NAME:
+	return co_e_bad_server_name;
+case CO_E_BAD_SERVER_NAME:
+	return co_e_bad_server_name;
+case CO_E_BAD_SERVER_NAME:
+	return co_e_bad_server_name;
+case CO_E_WRONG_SERVER_IDENTITY:
+	return co_e_wrong_server_identity;
+case CO_E_WRONG_SERVER_IDENTITY:
+	return co_e_wrong_server_identity;
+case CO_E_WRONG_SERVER_IDENTITY:
+	return co_e_wrong_server_identity;
+case CO_E_WRONG_SERVER_IDENTITY:
+	return co_e_wrong_server_identity;
+case CO_E_WRONG_SERVER_IDENTITY:
+	return co_e_wrong_server_identity;
+case CO_E_WRONG_SERVER_IDENTITY:
+	return co_e_wrong_server_identity;
+case CO_E_RUNAS_SYNTAX:
+	return co_e_runas_syntax;
+case CO_E_RUNAS_SYNTAX:
+	return co_e_runas_syntax;
+case CO_E_RUNAS_SYNTAX:
+	return co_e_runas_syntax;
+case CO_E_CREATEPROCESS_FAILURE:
+	return co_e_createprocess_failure;
+case CO_E_CREATEPROCESS_FAILURE:
+	return co_e_createprocess_failure;
+case CO_E_CREATEPROCESS_FAILURE:
+	return co_e_createprocess_failure;
+case CO_E_RUNAS_CREATEPROCESS_FAILURE:
+	return co_e_runas_createprocess_failure;
+case CO_E_RUNAS_CREATEPROCESS_FAILURE:
+	return co_e_runas_createprocess_failure;
+case CO_E_RUNAS_CREATEPROCESS_FAILURE:
+	return co_e_runas_createprocess_failure;
+case CO_E_RUNAS_LOGON_FAILURE:
+	return co_e_runas_logon_failure;
+case CO_E_RUNAS_LOGON_FAILURE:
+	return co_e_runas_logon_failure;
+case CO_E_RUNAS_LOGON_FAILURE:
+	return co_e_runas_logon_failure;
+case CO_E_LAUNCH_PERMSSION_DENIED:
+	return co_e_launch_permssion_denied;
+case CO_E_LAUNCH_PERMSSION_DENIED:
+	return co_e_launch_permssion_denied;
+case CO_E_LAUNCH_PERMSSION_DENIED:
+	return co_e_launch_permssion_denied;
+case CO_E_START_SERVICE_FAILURE:
+	return co_e_start_service_failure;
+case CO_E_START_SERVICE_FAILURE:
+	return co_e_start_service_failure;
+case CO_E_START_SERVICE_FAILURE:
+	return co_e_start_service_failure;
+case CO_E_REMOTE_COMMUNICATION_FAILURE:
+	return co_e_remote_communication_failure;
+case CO_E_REMOTE_COMMUNICATION_FAILURE:
+	return co_e_remote_communication_failure;
+case CO_E_REMOTE_COMMUNICATION_FAILURE:
+	return co_e_remote_communication_failure;
+case CO_E_SERVER_START_TIMEOUT:
+	return co_e_server_start_timeout;
+case CO_E_SERVER_START_TIMEOUT:
+	return co_e_server_start_timeout;
+case CO_E_SERVER_START_TIMEOUT:
+	return co_e_server_start_timeout;
+case CO_E_CLSREG_INCONSISTENT:
+	return co_e_clsreg_inconsistent;
+case CO_E_CLSREG_INCONSISTENT:
+	return co_e_clsreg_inconsistent;
+case CO_E_CLSREG_INCONSISTENT:
+	return co_e_clsreg_inconsistent;
+case CO_E_IIDREG_INCONSISTENT:
+	return co_e_iidreg_inconsistent;
+case CO_E_IIDREG_INCONSISTENT:
+	return co_e_iidreg_inconsistent;
+case CO_E_IIDREG_INCONSISTENT:
+	return co_e_iidreg_inconsistent;
+case CO_E_NOT_SUPPORTED:
+	return co_e_not_supported;
+case CO_E_NOT_SUPPORTED:
+	return co_e_not_supported;
+case CO_E_NOT_SUPPORTED:
+	return co_e_not_supported;
+case CO_E_RELOAD_DLL:
+	return co_e_reload_dll;
+case CO_E_RELOAD_DLL:
+	return co_e_reload_dll;
+case CO_E_RELOAD_DLL:
+	return co_e_reload_dll;
+case CO_E_MSI_ERROR:
+	return co_e_msi_error;
+case CO_E_MSI_ERROR:
+	return co_e_msi_error;
+case CO_E_MSI_ERROR:
+	return co_e_msi_error;
+case CO_E_ATTEMPT_TO_CREATE_OUTSIDE_CLIENT_CONTEXT:
+	return co_e_attempt_to_create_outside_client_context;
+case CO_E_ATTEMPT_TO_CREATE_OUTSIDE_CLIENT_CONTEXT:
+	return co_e_attempt_to_create_outside_client_context;
+case CO_E_ATTEMPT_TO_CREATE_OUTSIDE_CLIENT_CONTEXT:
+	return co_e_attempt_to_create_outside_client_context;
+case CO_E_SERVER_PAUSED:
+	return co_e_server_paused;
+case CO_E_SERVER_PAUSED:
+	return co_e_server_paused;
+case CO_E_SERVER_PAUSED:
+	return co_e_server_paused;
+case CO_E_SERVER_NOT_PAUSED:
+	return co_e_server_not_paused;
+case CO_E_SERVER_NOT_PAUSED:
+	return co_e_server_not_paused;
+case CO_E_SERVER_NOT_PAUSED:
+	return co_e_server_not_paused;
+case CO_E_CLASS_DISABLED:
+	return co_e_class_disabled;
+case CO_E_CLASS_DISABLED:
+	return co_e_class_disabled;
+case CO_E_CLASS_DISABLED:
+	return co_e_class_disabled;
+case CO_E_CLRNOTAVAILABLE:
+	return co_e_clrnotavailable;
+case CO_E_CLRNOTAVAILABLE:
+	return co_e_clrnotavailable;
+case CO_E_CLRNOTAVAILABLE:
+	return co_e_clrnotavailable;
+case CO_E_ASYNC_WORK_REJECTED:
+	return co_e_async_work_rejected;
+case CO_E_ASYNC_WORK_REJECTED:
+	return co_e_async_work_rejected;
+case CO_E_ASYNC_WORK_REJECTED:
+	return co_e_async_work_rejected;
+case CO_E_SERVER_INIT_TIMEOUT:
+	return co_e_server_init_timeout;
+case CO_E_SERVER_INIT_TIMEOUT:
+	return co_e_server_init_timeout;
+case CO_E_SERVER_INIT_TIMEOUT:
+	return co_e_server_init_timeout;
+case CO_E_NO_SECCTX_IN_ACTIVATE:
+	return co_e_no_secctx_in_activate;
+case CO_E_NO_SECCTX_IN_ACTIVATE:
+	return co_e_no_secctx_in_activate;
+case CO_E_NO_SECCTX_IN_ACTIVATE:
+	return co_e_no_secctx_in_activate;
+case CO_E_TRACKER_CONFIG:
+	return co_e_tracker_config;
+case CO_E_TRACKER_CONFIG:
+	return co_e_tracker_config;
+case CO_E_TRACKER_CONFIG:
+	return co_e_tracker_config;
+case CO_E_THREADPOOL_CONFIG:
+	return co_e_threadpool_config;
+case CO_E_THREADPOOL_CONFIG:
+	return co_e_threadpool_config;
+case CO_E_THREADPOOL_CONFIG:
+	return co_e_threadpool_config;
+case CO_E_SXS_CONFIG:
+	return co_e_sxs_config;
+case CO_E_SXS_CONFIG:
+	return co_e_sxs_config;
+case CO_E_SXS_CONFIG:
+	return co_e_sxs_config;
+case CO_E_MALFORMED_SPN:
+	return co_e_malformed_spn;
+case CO_E_MALFORMED_SPN:
+	return co_e_malformed_spn;
+case CO_E_MALFORMED_SPN:
+	return co_e_malformed_spn;
+case E_UNEXPECTED:
+	return e_unexpected;
+case E_UNEXPECTED:
+	return e_unexpected;
+case E_UNEXPECTED:
+	return e_unexpected;
+case RPC_E_CALL_REJECTED:
+	return rpc_e_call_rejected;
+case RPC_E_CALL_REJECTED:
+	return rpc_e_call_rejected;
+case RPC_E_CALL_REJECTED:
+	return rpc_e_call_rejected;
+case RPC_E_CALL_CANCELED:
+	return rpc_e_call_canceled;
+case RPC_E_CALL_CANCELED:
+	return rpc_e_call_canceled;
+case RPC_E_CALL_CANCELED:
+	return rpc_e_call_canceled;
+case RPC_E_CANTPOST_INSENDCALL:
+	return rpc_e_cantpost_insendcall;
+case RPC_E_CANTPOST_INSENDCALL:
+	return rpc_e_cantpost_insendcall;
+case RPC_E_CANTPOST_INSENDCALL:
+	return rpc_e_cantpost_insendcall;
+case RPC_E_CANTCALLOUT_INASYNCCALL:
+	return rpc_e_cantcallout_inasynccall;
+case RPC_E_CANTCALLOUT_INASYNCCALL:
+	return rpc_e_cantcallout_inasynccall;
+case RPC_E_CANTCALLOUT_INASYNCCALL:
+	return rpc_e_cantcallout_inasynccall;
+case RPC_E_CANTCALLOUT_INEXTERNALCALL:
+	return rpc_e_cantcallout_inexternalcall;
+case RPC_E_CANTCALLOUT_INEXTERNALCALL:
+	return rpc_e_cantcallout_inexternalcall;
+case RPC_E_CANTCALLOUT_INEXTERNALCALL:
+	return rpc_e_cantcallout_inexternalcall;
+case RPC_E_CONNECTION_TERMINATED:
+	return rpc_e_connection_terminated;
+case RPC_E_CONNECTION_TERMINATED:
+	return rpc_e_connection_terminated;
+case RPC_E_CONNECTION_TERMINATED:
+	return rpc_e_connection_terminated;
+case RPC_E_SERVER_DIED:
+	return rpc_e_server_died;
+case RPC_E_SERVER_DIED:
+	return rpc_e_server_died;
+case RPC_E_SERVER_DIED:
+	return rpc_e_server_died;
+case RPC_E_CLIENT_DIED:
+	return rpc_e_client_died;
+case RPC_E_CLIENT_DIED:
+	return rpc_e_client_died;
+case RPC_E_CLIENT_DIED:
+	return rpc_e_client_died;
+case RPC_E_INVALID_DATAPACKET:
+	return rpc_e_invalid_datapacket;
+case RPC_E_INVALID_DATAPACKET:
+	return rpc_e_invalid_datapacket;
+case RPC_E_INVALID_DATAPACKET:
+	return rpc_e_invalid_datapacket;
+case RPC_E_CANTTRANSMIT_CALL:
+	return rpc_e_canttransmit_call;
+case RPC_E_CANTTRANSMIT_CALL:
+	return rpc_e_canttransmit_call;
+case RPC_E_CANTTRANSMIT_CALL:
+	return rpc_e_canttransmit_call;
+case RPC_E_CLIENT_CANTMARSHAL_DATA:
+	return rpc_e_client_cantmarshal_data;
+case RPC_E_CLIENT_CANTMARSHAL_DATA:
+	return rpc_e_client_cantmarshal_data;
+case RPC_E_CLIENT_CANTMARSHAL_DATA:
+	return rpc_e_client_cantmarshal_data;
+case RPC_E_CLIENT_CANTUNMARSHAL_DATA:
+	return rpc_e_client_cantunmarshal_data;
+case RPC_E_CLIENT_CANTUNMARSHAL_DATA:
+	return rpc_e_client_cantunmarshal_data;
+case RPC_E_CLIENT_CANTUNMARSHAL_DATA:
+	return rpc_e_client_cantunmarshal_data;
+case RPC_E_SERVER_CANTMARSHAL_DATA:
+	return rpc_e_server_cantmarshal_data;
+case RPC_E_SERVER_CANTMARSHAL_DATA:
+	return rpc_e_server_cantmarshal_data;
+case RPC_E_SERVER_CANTMARSHAL_DATA:
+	return rpc_e_server_cantmarshal_data;
+case RPC_E_SERVER_CANTUNMARSHAL_DATA:
+	return rpc_e_server_cantunmarshal_data;
+case RPC_E_SERVER_CANTUNMARSHAL_DATA:
+	return rpc_e_server_cantunmarshal_data;
+case RPC_E_SERVER_CANTUNMARSHAL_DATA:
+	return rpc_e_server_cantunmarshal_data;
+case RPC_E_INVALID_DATA:
+	return rpc_e_invalid_data;
+case RPC_E_INVALID_DATA:
+	return rpc_e_invalid_data;
+case RPC_E_INVALID_DATA:
+	return rpc_e_invalid_data;
+case RPC_E_INVALID_PARAMETER:
+	return rpc_e_invalid_parameter;
+case RPC_E_INVALID_PARAMETER:
+	return rpc_e_invalid_parameter;
+case RPC_E_INVALID_PARAMETER:
+	return rpc_e_invalid_parameter;
+case RPC_E_CANTCALLOUT_AGAIN:
+	return rpc_e_cantcallout_again;
+case RPC_E_CANTCALLOUT_AGAIN:
+	return rpc_e_cantcallout_again;
+case RPC_E_CANTCALLOUT_AGAIN:
+	return rpc_e_cantcallout_again;
+case RPC_E_SERVER_DIED_DNE:
+	return rpc_e_server_died_dne;
+case RPC_E_SERVER_DIED_DNE:
+	return rpc_e_server_died_dne;
+case RPC_E_SERVER_DIED_DNE:
+	return rpc_e_server_died_dne;
+case RPC_E_SYS_CALL_FAILED:
+	return rpc_e_sys_call_failed;
+case RPC_E_SYS_CALL_FAILED:
+	return rpc_e_sys_call_failed;
+case RPC_E_SYS_CALL_FAILED:
+	return rpc_e_sys_call_failed;
+case RPC_E_OUT_OF_RESOURCES:
+	return rpc_e_out_of_resources;
+case RPC_E_OUT_OF_RESOURCES:
+	return rpc_e_out_of_resources;
+case RPC_E_OUT_OF_RESOURCES:
+	return rpc_e_out_of_resources;
+case RPC_E_ATTEMPTED_MULTITHREAD:
+	return rpc_e_attempted_multithread;
+case RPC_E_ATTEMPTED_MULTITHREAD:
+	return rpc_e_attempted_multithread;
+case RPC_E_ATTEMPTED_MULTITHREAD:
+	return rpc_e_attempted_multithread;
+case RPC_E_NOT_REGISTERED:
+	return rpc_e_not_registered;
+case RPC_E_NOT_REGISTERED:
+	return rpc_e_not_registered;
+case RPC_E_NOT_REGISTERED:
+	return rpc_e_not_registered;
+case RPC_E_FAULT:
+	return rpc_e_fault;
+case RPC_E_FAULT:
+	return rpc_e_fault;
+case RPC_E_FAULT:
+	return rpc_e_fault;
+case RPC_E_SERVERFAULT:
+	return rpc_e_serverfault;
+case RPC_E_SERVERFAULT:
+	return rpc_e_serverfault;
+case RPC_E_SERVERFAULT:
+	return rpc_e_serverfault;
+case RPC_E_CHANGED_MODE:
+	return rpc_e_changed_mode;
+case RPC_E_CHANGED_MODE:
+	return rpc_e_changed_mode;
+case RPC_E_CHANGED_MODE:
+	return rpc_e_changed_mode;
+case RPC_E_INVALIDMETHOD:
+	return rpc_e_invalidmethod;
+case RPC_E_INVALIDMETHOD:
+	return rpc_e_invalidmethod;
+case RPC_E_INVALIDMETHOD:
+	return rpc_e_invalidmethod;
+case RPC_E_DISCONNECTED:
+	return rpc_e_disconnected;
+case RPC_E_DISCONNECTED:
+	return rpc_e_disconnected;
+case RPC_E_DISCONNECTED:
+	return rpc_e_disconnected;
+case RPC_E_RETRY:
+	return rpc_e_retry;
+case RPC_E_RETRY:
+	return rpc_e_retry;
+case RPC_E_RETRY:
+	return rpc_e_retry;
+case RPC_E_SERVERCALL_RETRYLATER:
+	return rpc_e_servercall_retrylater;
+case RPC_E_SERVERCALL_RETRYLATER:
+	return rpc_e_servercall_retrylater;
+case RPC_E_SERVERCALL_RETRYLATER:
+	return rpc_e_servercall_retrylater;
+case RPC_E_SERVERCALL_REJECTED:
+	return rpc_e_servercall_rejected;
+case RPC_E_SERVERCALL_REJECTED:
+	return rpc_e_servercall_rejected;
+case RPC_E_SERVERCALL_REJECTED:
+	return rpc_e_servercall_rejected;
+case RPC_E_INVALID_CALLDATA:
+	return rpc_e_invalid_calldata;
+case RPC_E_INVALID_CALLDATA:
+	return rpc_e_invalid_calldata;
+case RPC_E_INVALID_CALLDATA:
+	return rpc_e_invalid_calldata;
+case RPC_E_CANTCALLOUT_ININPUTSYNCCALL:
+	return rpc_e_cantcallout_ininputsynccall;
+case RPC_E_CANTCALLOUT_ININPUTSYNCCALL:
+	return rpc_e_cantcallout_ininputsynccall;
+case RPC_E_CANTCALLOUT_ININPUTSYNCCALL:
+	return rpc_e_cantcallout_ininputsynccall;
+case RPC_E_WRONG_THREAD:
+	return rpc_e_wrong_thread;
+case RPC_E_WRONG_THREAD:
+	return rpc_e_wrong_thread;
+case RPC_E_WRONG_THREAD:
+	return rpc_e_wrong_thread;
+case RPC_E_THREAD_NOT_INIT:
+	return rpc_e_thread_not_init;
+case RPC_E_THREAD_NOT_INIT:
+	return rpc_e_thread_not_init;
+case RPC_E_THREAD_NOT_INIT:
+	return rpc_e_thread_not_init;
+case RPC_E_VERSION_MISMATCH:
+	return rpc_e_version_mismatch;
+case RPC_E_VERSION_MISMATCH:
+	return rpc_e_version_mismatch;
+case RPC_E_VERSION_MISMATCH:
+	return rpc_e_version_mismatch;
+case RPC_E_INVALID_HEADER:
+	return rpc_e_invalid_header;
+case RPC_E_INVALID_HEADER:
+	return rpc_e_invalid_header;
+case RPC_E_INVALID_HEADER:
+	return rpc_e_invalid_header;
+case RPC_E_INVALID_EXTENSION:
+	return rpc_e_invalid_extension;
+case RPC_E_INVALID_EXTENSION:
+	return rpc_e_invalid_extension;
+case RPC_E_INVALID_EXTENSION:
+	return rpc_e_invalid_extension;
+case RPC_E_INVALID_IPID:
+	return rpc_e_invalid_ipid;
+case RPC_E_INVALID_IPID:
+	return rpc_e_invalid_ipid;
+case RPC_E_INVALID_IPID:
+	return rpc_e_invalid_ipid;
+case RPC_E_INVALID_OBJECT:
+	return rpc_e_invalid_object;
+case RPC_E_INVALID_OBJECT:
+	return rpc_e_invalid_object;
+case RPC_E_INVALID_OBJECT:
+	return rpc_e_invalid_object;
+case RPC_S_CALLPENDING:
+	return rpc_s_callpending;
+case RPC_S_CALLPENDING:
+	return rpc_s_callpending;
+case RPC_S_CALLPENDING:
+	return rpc_s_callpending;
+case RPC_S_WAITONTIMER:
+	return rpc_s_waitontimer;
+case RPC_S_WAITONTIMER:
+	return rpc_s_waitontimer;
+case RPC_S_WAITONTIMER:
+	return rpc_s_waitontimer;
+case RPC_E_CALL_COMPLETE:
+	return rpc_e_call_complete;
+case RPC_E_CALL_COMPLETE:
+	return rpc_e_call_complete;
+case RPC_E_CALL_COMPLETE:
+	return rpc_e_call_complete;
+case RPC_E_UNSECURE_CALL:
+	return rpc_e_unsecure_call;
+case RPC_E_UNSECURE_CALL:
+	return rpc_e_unsecure_call;
+case RPC_E_UNSECURE_CALL:
+	return rpc_e_unsecure_call;
+case RPC_E_TOO_LATE:
+	return rpc_e_too_late;
+case RPC_E_TOO_LATE:
+	return rpc_e_too_late;
+case RPC_E_TOO_LATE:
+	return rpc_e_too_late;
+case RPC_E_NO_GOOD_SECURITY_PACKAGES:
+	return rpc_e_no_good_security_packages;
+case RPC_E_NO_GOOD_SECURITY_PACKAGES:
+	return rpc_e_no_good_security_packages;
+case RPC_E_NO_GOOD_SECURITY_PACKAGES:
+	return rpc_e_no_good_security_packages;
+case RPC_E_ACCESS_DENIED:
+	return rpc_e_access_denied;
+case RPC_E_ACCESS_DENIED:
+	return rpc_e_access_denied;
+case RPC_E_ACCESS_DENIED:
+	return rpc_e_access_denied;
+case RPC_E_REMOTE_DISABLED:
+	return rpc_e_remote_disabled;
+case RPC_E_REMOTE_DISABLED:
+	return rpc_e_remote_disabled;
+case RPC_E_REMOTE_DISABLED:
+	return rpc_e_remote_disabled;
+case RPC_E_INVALID_OBJREF:
+	return rpc_e_invalid_objref;
+case RPC_E_INVALID_OBJREF:
+	return rpc_e_invalid_objref;
+case RPC_E_INVALID_OBJREF:
+	return rpc_e_invalid_objref;
+case RPC_E_NO_CONTEXT:
+	return rpc_e_no_context;
+case RPC_E_NO_CONTEXT:
+	return rpc_e_no_context;
+case RPC_E_NO_CONTEXT:
+	return rpc_e_no_context;
+case RPC_E_TIMEOUT:
+	return rpc_e_timeout;
+case RPC_E_TIMEOUT:
+	return rpc_e_timeout;
+case RPC_E_TIMEOUT:
+	return rpc_e_timeout;
+case RPC_E_NO_SYNC:
+	return rpc_e_no_sync;
+case RPC_E_NO_SYNC:
+	return rpc_e_no_sync;
+case RPC_E_NO_SYNC:
+	return rpc_e_no_sync;
+case RPC_E_FULLSIC_REQUIRED:
+	return rpc_e_fullsic_required;
+case RPC_E_FULLSIC_REQUIRED:
+	return rpc_e_fullsic_required;
+case RPC_E_FULLSIC_REQUIRED:
+	return rpc_e_fullsic_required;
+case RPC_E_INVALID_STD_NAME:
+	return rpc_e_invalid_std_name;
+case RPC_E_INVALID_STD_NAME:
+	return rpc_e_invalid_std_name;
+case RPC_E_INVALID_STD_NAME:
+	return rpc_e_invalid_std_name;
+case CO_E_FAILEDTOIMPERSONATE:
+	return co_e_failedtoimpersonate;
+case CO_E_FAILEDTOIMPERSONATE:
+	return co_e_failedtoimpersonate;
+case CO_E_FAILEDTOIMPERSONATE:
+	return co_e_failedtoimpersonate;
+case CO_E_FAILEDTOGETSECCTX:
+	return co_e_failedtogetsecctx;
+case CO_E_FAILEDTOGETSECCTX:
+	return co_e_failedtogetsecctx;
+case CO_E_FAILEDTOGETSECCTX:
+	return co_e_failedtogetsecctx;
+case CO_E_FAILEDTOOPENTHREADTOKEN:
+	return co_e_failedtoopenthreadtoken;
+case CO_E_FAILEDTOOPENTHREADTOKEN:
+	return co_e_failedtoopenthreadtoken;
+case CO_E_FAILEDTOOPENTHREADTOKEN:
+	return co_e_failedtoopenthreadtoken;
+case CO_E_FAILEDTOGETTOKENINFO:
+	return co_e_failedtogettokeninfo;
+case CO_E_FAILEDTOGETTOKENINFO:
+	return co_e_failedtogettokeninfo;
+case CO_E_FAILEDTOGETTOKENINFO:
+	return co_e_failedtogettokeninfo;
+case CO_E_TRUSTEEDOESNTMATCHCLIENT:
+	return co_e_trusteedoesntmatchclient;
+case CO_E_TRUSTEEDOESNTMATCHCLIENT:
+	return co_e_trusteedoesntmatchclient;
+case CO_E_TRUSTEEDOESNTMATCHCLIENT:
+	return co_e_trusteedoesntmatchclient;
+case CO_E_FAILEDTOQUERYCLIENTBLANKET:
+	return co_e_failedtoqueryclientblanket;
+case CO_E_FAILEDTOQUERYCLIENTBLANKET:
+	return co_e_failedtoqueryclientblanket;
+case CO_E_FAILEDTOQUERYCLIENTBLANKET:
+	return co_e_failedtoqueryclientblanket;
+case CO_E_FAILEDTOSETDACL:
+	return co_e_failedtosetdacl;
+case CO_E_FAILEDTOSETDACL:
+	return co_e_failedtosetdacl;
+case CO_E_FAILEDTOSETDACL:
+	return co_e_failedtosetdacl;
+case CO_E_ACCESSCHECKFAILED:
+	return co_e_accesscheckfailed;
+case CO_E_ACCESSCHECKFAILED:
+	return co_e_accesscheckfailed;
+case CO_E_ACCESSCHECKFAILED:
+	return co_e_accesscheckfailed;
+case CO_E_NETACCESSAPIFAILED:
+	return co_e_netaccessapifailed;
+case CO_E_NETACCESSAPIFAILED:
+	return co_e_netaccessapifailed;
+case CO_E_NETACCESSAPIFAILED:
+	return co_e_netaccessapifailed;
+case CO_E_WRONGTRUSTEENAMESYNTAX:
+	return co_e_wrongtrusteenamesyntax;
+case CO_E_WRONGTRUSTEENAMESYNTAX:
+	return co_e_wrongtrusteenamesyntax;
+case CO_E_WRONGTRUSTEENAMESYNTAX:
+	return co_e_wrongtrusteenamesyntax;
+case CO_E_INVALIDSID:
+	return co_e_invalidsid;
+case CO_E_INVALIDSID:
+	return co_e_invalidsid;
+case CO_E_INVALIDSID:
+	return co_e_invalidsid;
+case CO_E_CONVERSIONFAILED:
+	return co_e_conversionfailed;
+case CO_E_CONVERSIONFAILED:
+	return co_e_conversionfailed;
+case CO_E_CONVERSIONFAILED:
+	return co_e_conversionfailed;
+case CO_E_NOMATCHINGSIDFOUND:
+	return co_e_nomatchingsidfound;
+case CO_E_NOMATCHINGSIDFOUND:
+	return co_e_nomatchingsidfound;
+case CO_E_NOMATCHINGSIDFOUND:
+	return co_e_nomatchingsidfound;
+case CO_E_LOOKUPACCSIDFAILED:
+	return co_e_lookupaccsidfailed;
+case CO_E_LOOKUPACCSIDFAILED:
+	return co_e_lookupaccsidfailed;
+case CO_E_LOOKUPACCSIDFAILED:
+	return co_e_lookupaccsidfailed;
+case CO_E_NOMATCHINGNAMEFOUND:
+	return co_e_nomatchingnamefound;
+case CO_E_NOMATCHINGNAMEFOUND:
+	return co_e_nomatchingnamefound;
+case CO_E_NOMATCHINGNAMEFOUND:
+	return co_e_nomatchingnamefound;
+case CO_E_LOOKUPACCNAMEFAILED:
+	return co_e_lookupaccnamefailed;
+case CO_E_LOOKUPACCNAMEFAILED:
+	return co_e_lookupaccnamefailed;
+case CO_E_LOOKUPACCNAMEFAILED:
+	return co_e_lookupaccnamefailed;
+case CO_E_SETSERLHNDLFAILED:
+	return co_e_setserlhndlfailed;
+case CO_E_SETSERLHNDLFAILED:
+	return co_e_setserlhndlfailed;
+case CO_E_SETSERLHNDLFAILED:
+	return co_e_setserlhndlfailed;
+case CO_E_FAILEDTOGETWINDIR:
+	return co_e_failedtogetwindir;
+case CO_E_FAILEDTOGETWINDIR:
+	return co_e_failedtogetwindir;
+case CO_E_FAILEDTOGETWINDIR:
+	return co_e_failedtogetwindir;
+case CO_E_PATHTOOLONG:
+	return co_e_pathtoolong;
+case CO_E_PATHTOOLONG:
+	return co_e_pathtoolong;
+case CO_E_PATHTOOLONG:
+	return co_e_pathtoolong;
+case CO_E_FAILEDTOGENUUID:
+	return co_e_failedtogenuuid;
+case CO_E_FAILEDTOGENUUID:
+	return co_e_failedtogenuuid;
+case CO_E_FAILEDTOGENUUID:
+	return co_e_failedtogenuuid;
+case CO_E_FAILEDTOCREATEFILE:
+	return co_e_failedtocreatefile;
+case CO_E_FAILEDTOCREATEFILE:
+	return co_e_failedtocreatefile;
+case CO_E_FAILEDTOCREATEFILE:
+	return co_e_failedtocreatefile;
+case CO_E_FAILEDTOCLOSEHANDLE:
+	return co_e_failedtoclosehandle;
+case CO_E_FAILEDTOCLOSEHANDLE:
+	return co_e_failedtoclosehandle;
+case CO_E_FAILEDTOCLOSEHANDLE:
+	return co_e_failedtoclosehandle;
+case CO_E_EXCEEDSYSACLLIMIT:
+	return co_e_exceedsysacllimit;
+case CO_E_EXCEEDSYSACLLIMIT:
+	return co_e_exceedsysacllimit;
+case CO_E_EXCEEDSYSACLLIMIT:
+	return co_e_exceedsysacllimit;
+case CO_E_ACESINWRONGORDER:
+	return co_e_acesinwrongorder;
+case CO_E_ACESINWRONGORDER:
+	return co_e_acesinwrongorder;
+case CO_E_ACESINWRONGORDER:
+	return co_e_acesinwrongorder;
+case CO_E_INCOMPATIBLESTREAMVERSION:
+	return co_e_incompatiblestreamversion;
+case CO_E_INCOMPATIBLESTREAMVERSION:
+	return co_e_incompatiblestreamversion;
+case CO_E_INCOMPATIBLESTREAMVERSION:
+	return co_e_incompatiblestreamversion;
+case CO_E_FAILEDTOOPENPROCESSTOKEN:
+	return co_e_failedtoopenprocesstoken;
+case CO_E_FAILEDTOOPENPROCESSTOKEN:
+	return co_e_failedtoopenprocesstoken;
+case CO_E_FAILEDTOOPENPROCESSTOKEN:
+	return co_e_failedtoopenprocesstoken;
+case CO_E_DECODEFAILED:
+	return co_e_decodefailed;
+case CO_E_DECODEFAILED:
+	return co_e_decodefailed;
+case CO_E_DECODEFAILED:
+	return co_e_decodefailed;
+case CO_E_ACNOTINITIALIZED:
+	return co_e_acnotinitialized;
+case CO_E_ACNOTINITIALIZED:
+	return co_e_acnotinitialized;
+case CO_E_ACNOTINITIALIZED:
+	return co_e_acnotinitialized;
+case CO_E_CANCEL_DISABLED:
+	return co_e_cancel_disabled;
+case CO_E_CANCEL_DISABLED:
+	return co_e_cancel_disabled;
+case CO_E_CANCEL_DISABLED:
+	return co_e_cancel_disabled;
+case RPC_E_UNEXPECTED:
+	return rpc_e_unexpected;
+case RPC_E_UNEXPECTED:
+	return rpc_e_unexpected;
+case RPC_E_UNEXPECTED:
+	return rpc_e_unexpected;
+case DISP_E_UNKNOWNINTERFACE:
+	return disp_e_unknowninterface;
+case DISP_E_UNKNOWNINTERFACE:
+	return disp_e_unknowninterface;
+case DISP_E_UNKNOWNINTERFACE:
+	return disp_e_unknowninterface;
+case DISP_E_MEMBERNOTFOUND:
+	return disp_e_membernotfound;
+case DISP_E_MEMBERNOTFOUND:
+	return disp_e_membernotfound;
+case DISP_E_MEMBERNOTFOUND:
+	return disp_e_membernotfound;
+case DISP_E_PARAMNOTFOUND:
+	return disp_e_paramnotfound;
+case DISP_E_PARAMNOTFOUND:
+	return disp_e_paramnotfound;
+case DISP_E_PARAMNOTFOUND:
+	return disp_e_paramnotfound;
+case DISP_E_TYPEMISMATCH:
+	return disp_e_typemismatch;
+case DISP_E_TYPEMISMATCH:
+	return disp_e_typemismatch;
+case DISP_E_TYPEMISMATCH:
+	return disp_e_typemismatch;
+case DISP_E_UNKNOWNNAME:
+	return disp_e_unknownname;
+case DISP_E_UNKNOWNNAME:
+	return disp_e_unknownname;
+case DISP_E_UNKNOWNNAME:
+	return disp_e_unknownname;
+case DISP_E_NONAMEDARGS:
+	return disp_e_nonamedargs;
+case DISP_E_NONAMEDARGS:
+	return disp_e_nonamedargs;
+case DISP_E_NONAMEDARGS:
+	return disp_e_nonamedargs;
+case DISP_E_BADVARTYPE:
+	return disp_e_badvartype;
+case DISP_E_BADVARTYPE:
+	return disp_e_badvartype;
+case DISP_E_BADVARTYPE:
+	return disp_e_badvartype;
+case DISP_E_EXCEPTION:
+	return disp_e_exception;
+case DISP_E_EXCEPTION:
+	return disp_e_exception;
+case DISP_E_EXCEPTION:
+	return disp_e_exception;
+case DISP_E_OVERFLOW:
+	return disp_e_overflow;
+case DISP_E_OVERFLOW:
+	return disp_e_overflow;
+case DISP_E_OVERFLOW:
+	return disp_e_overflow;
+case DISP_E_BADINDEX:
+	return disp_e_badindex;
+case DISP_E_BADINDEX:
+	return disp_e_badindex;
+case DISP_E_BADINDEX:
+	return disp_e_badindex;
+case DISP_E_UNKNOWNLCID:
+	return disp_e_unknownlcid;
+case DISP_E_UNKNOWNLCID:
+	return disp_e_unknownlcid;
+case DISP_E_UNKNOWNLCID:
+	return disp_e_unknownlcid;
+case DISP_E_ARRAYISLOCKED:
+	return disp_e_arrayislocked;
+case DISP_E_ARRAYISLOCKED:
+	return disp_e_arrayislocked;
+case DISP_E_ARRAYISLOCKED:
+	return disp_e_arrayislocked;
+case DISP_E_BADPARAMCOUNT:
+	return disp_e_badparamcount;
+case DISP_E_BADPARAMCOUNT:
+	return disp_e_badparamcount;
+case DISP_E_BADPARAMCOUNT:
+	return disp_e_badparamcount;
+case DISP_E_PARAMNOTOPTIONAL:
+	return disp_e_paramnotoptional;
+case DISP_E_PARAMNOTOPTIONAL:
+	return disp_e_paramnotoptional;
+case DISP_E_PARAMNOTOPTIONAL:
+	return disp_e_paramnotoptional;
+case DISP_E_BADCALLEE:
+	return disp_e_badcallee;
+case DISP_E_BADCALLEE:
+	return disp_e_badcallee;
+case DISP_E_BADCALLEE:
+	return disp_e_badcallee;
+case DISP_E_NOTACOLLECTION:
+	return disp_e_notacollection;
+case DISP_E_NOTACOLLECTION:
+	return disp_e_notacollection;
+case DISP_E_NOTACOLLECTION:
+	return disp_e_notacollection;
+case DISP_E_DIVBYZERO:
+	return disp_e_divbyzero;
+case DISP_E_DIVBYZERO:
+	return disp_e_divbyzero;
+case DISP_E_DIVBYZERO:
+	return disp_e_divbyzero;
+case DISP_E_BUFFERTOOSMALL:
+	return disp_e_buffertoosmall;
+case DISP_E_BUFFERTOOSMALL:
+	return disp_e_buffertoosmall;
+case DISP_E_BUFFERTOOSMALL:
+	return disp_e_buffertoosmall;
+case TYPE_E_BUFFERTOOSMALL:
+	return type_e_buffertoosmall;
+case TYPE_E_BUFFERTOOSMALL:
+	return type_e_buffertoosmall;
+case TYPE_E_BUFFERTOOSMALL:
+	return type_e_buffertoosmall;
+case TYPE_E_FIELDNOTFOUND:
+	return type_e_fieldnotfound;
+case TYPE_E_FIELDNOTFOUND:
+	return type_e_fieldnotfound;
+case TYPE_E_FIELDNOTFOUND:
+	return type_e_fieldnotfound;
+case TYPE_E_INVDATAREAD:
+	return type_e_invdataread;
+case TYPE_E_INVDATAREAD:
+	return type_e_invdataread;
+case TYPE_E_INVDATAREAD:
+	return type_e_invdataread;
+case TYPE_E_UNSUPFORMAT:
+	return type_e_unsupformat;
+case TYPE_E_UNSUPFORMAT:
+	return type_e_unsupformat;
+case TYPE_E_UNSUPFORMAT:
+	return type_e_unsupformat;
+case TYPE_E_REGISTRYACCESS:
+	return type_e_registryaccess;
+case TYPE_E_REGISTRYACCESS:
+	return type_e_registryaccess;
+case TYPE_E_REGISTRYACCESS:
+	return type_e_registryaccess;
+case TYPE_E_LIBNOTREGISTERED:
+	return type_e_libnotregistered;
+case TYPE_E_LIBNOTREGISTERED:
+	return type_e_libnotregistered;
+case TYPE_E_LIBNOTREGISTERED:
+	return type_e_libnotregistered;
+case TYPE_E_UNDEFINEDTYPE:
+	return type_e_undefinedtype;
+case TYPE_E_UNDEFINEDTYPE:
+	return type_e_undefinedtype;
+case TYPE_E_UNDEFINEDTYPE:
+	return type_e_undefinedtype;
+case TYPE_E_QUALIFIEDNAMEDISALLOWED:
+	return type_e_qualifiednamedisallowed;
+case TYPE_E_QUALIFIEDNAMEDISALLOWED:
+	return type_e_qualifiednamedisallowed;
+case TYPE_E_QUALIFIEDNAMEDISALLOWED:
+	return type_e_qualifiednamedisallowed;
+case TYPE_E_INVALIDSTATE:
+	return type_e_invalidstate;
+case TYPE_E_INVALIDSTATE:
+	return type_e_invalidstate;
+case TYPE_E_INVALIDSTATE:
+	return type_e_invalidstate;
+case TYPE_E_WRONGTYPEKIND:
+	return type_e_wrongtypekind;
+case TYPE_E_WRONGTYPEKIND:
+	return type_e_wrongtypekind;
+case TYPE_E_WRONGTYPEKIND:
+	return type_e_wrongtypekind;
+case TYPE_E_ELEMENTNOTFOUND:
+	return type_e_elementnotfound;
+case TYPE_E_ELEMENTNOTFOUND:
+	return type_e_elementnotfound;
+case TYPE_E_ELEMENTNOTFOUND:
+	return type_e_elementnotfound;
+case TYPE_E_AMBIGUOUSNAME:
+	return type_e_ambiguousname;
+case TYPE_E_AMBIGUOUSNAME:
+	return type_e_ambiguousname;
+case TYPE_E_AMBIGUOUSNAME:
+	return type_e_ambiguousname;
+case TYPE_E_NAMECONFLICT:
+	return type_e_nameconflict;
+case TYPE_E_NAMECONFLICT:
+	return type_e_nameconflict;
+case TYPE_E_NAMECONFLICT:
+	return type_e_nameconflict;
+case TYPE_E_UNKNOWNLCID:
+	return type_e_unknownlcid;
+case TYPE_E_UNKNOWNLCID:
+	return type_e_unknownlcid;
+case TYPE_E_UNKNOWNLCID:
+	return type_e_unknownlcid;
+case TYPE_E_DLLFUNCTIONNOTFOUND:
+	return type_e_dllfunctionnotfound;
+case TYPE_E_DLLFUNCTIONNOTFOUND:
+	return type_e_dllfunctionnotfound;
+case TYPE_E_DLLFUNCTIONNOTFOUND:
+	return type_e_dllfunctionnotfound;
+case TYPE_E_BADMODULEKIND:
+	return type_e_badmodulekind;
+case TYPE_E_BADMODULEKIND:
+	return type_e_badmodulekind;
+case TYPE_E_BADMODULEKIND:
+	return type_e_badmodulekind;
+case TYPE_E_SIZETOOBIG:
+	return type_e_sizetoobig;
+case TYPE_E_SIZETOOBIG:
+	return type_e_sizetoobig;
+case TYPE_E_SIZETOOBIG:
+	return type_e_sizetoobig;
+case TYPE_E_DUPLICATEID:
+	return type_e_duplicateid;
+case TYPE_E_DUPLICATEID:
+	return type_e_duplicateid;
+case TYPE_E_DUPLICATEID:
+	return type_e_duplicateid;
+case TYPE_E_INVALIDID:
+	return type_e_invalidid;
+case TYPE_E_INVALIDID:
+	return type_e_invalidid;
+case TYPE_E_INVALIDID:
+	return type_e_invalidid;
+case TYPE_E_TYPEMISMATCH:
+	return type_e_typemismatch;
+case TYPE_E_TYPEMISMATCH:
+	return type_e_typemismatch;
+case TYPE_E_TYPEMISMATCH:
+	return type_e_typemismatch;
+case TYPE_E_OUTOFBOUNDS:
+	return type_e_outofbounds;
+case TYPE_E_OUTOFBOUNDS:
+	return type_e_outofbounds;
+case TYPE_E_OUTOFBOUNDS:
+	return type_e_outofbounds;
+case TYPE_E_IOERROR:
+	return type_e_ioerror;
+case TYPE_E_IOERROR:
+	return type_e_ioerror;
+case TYPE_E_IOERROR:
+	return type_e_ioerror;
+case TYPE_E_CANTCREATETMPFILE:
+	return type_e_cantcreatetmpfile;
+case TYPE_E_CANTCREATETMPFILE:
+	return type_e_cantcreatetmpfile;
+case TYPE_E_CANTCREATETMPFILE:
+	return type_e_cantcreatetmpfile;
+case TYPE_E_CANTLOADLIBRARY:
+	return type_e_cantloadlibrary;
+case TYPE_E_CANTLOADLIBRARY:
+	return type_e_cantloadlibrary;
+case TYPE_E_CANTLOADLIBRARY:
+	return type_e_cantloadlibrary;
+case TYPE_E_INCONSISTENTPROPFUNCS:
+	return type_e_inconsistentpropfuncs;
+case TYPE_E_INCONSISTENTPROPFUNCS:
+	return type_e_inconsistentpropfuncs;
+case TYPE_E_INCONSISTENTPROPFUNCS:
+	return type_e_inconsistentpropfuncs;
+case TYPE_E_CIRCULARTYPE:
+	return type_e_circulartype;
+case TYPE_E_CIRCULARTYPE:
+	return type_e_circulartype;
+case TYPE_E_CIRCULARTYPE:
+	return type_e_circulartype;
+case STG_E_INVALIDFUNCTION:
+	return stg_e_invalidfunction;
+case STG_E_INVALIDFUNCTION:
+	return stg_e_invalidfunction;
+case STG_E_INVALIDFUNCTION:
+	return stg_e_invalidfunction;
+case STG_E_FILENOTFOUND:
+	return stg_e_filenotfound;
+case STG_E_FILENOTFOUND:
+	return stg_e_filenotfound;
+case STG_E_FILENOTFOUND:
+	return stg_e_filenotfound;
+case STG_E_PATHNOTFOUND:
+	return stg_e_pathnotfound;
+case STG_E_PATHNOTFOUND:
+	return stg_e_pathnotfound;
+case STG_E_PATHNOTFOUND:
+	return stg_e_pathnotfound;
+case STG_E_TOOMANYOPENFILES:
+	return stg_e_toomanyopenfiles;
+case STG_E_TOOMANYOPENFILES:
+	return stg_e_toomanyopenfiles;
+case STG_E_TOOMANYOPENFILES:
+	return stg_e_toomanyopenfiles;
+case STG_E_ACCESSDENIED:
+	return stg_e_accessdenied;
+case STG_E_ACCESSDENIED:
+	return stg_e_accessdenied;
+case STG_E_ACCESSDENIED:
+	return stg_e_accessdenied;
+case STG_E_INVALIDHANDLE:
+	return stg_e_invalidhandle;
+case STG_E_INVALIDHANDLE:
+	return stg_e_invalidhandle;
+case STG_E_INVALIDHANDLE:
+	return stg_e_invalidhandle;
+case STG_E_INSUFFICIENTMEMORY:
+	return stg_e_insufficientmemory;
+case STG_E_INSUFFICIENTMEMORY:
+	return stg_e_insufficientmemory;
+case STG_E_INSUFFICIENTMEMORY:
+	return stg_e_insufficientmemory;
+case STG_E_INVALIDPOINTER:
+	return stg_e_invalidpointer;
+case STG_E_INVALIDPOINTER:
+	return stg_e_invalidpointer;
+case STG_E_INVALIDPOINTER:
+	return stg_e_invalidpointer;
+case STG_E_NOMOREFILES:
+	return stg_e_nomorefiles;
+case STG_E_NOMOREFILES:
+	return stg_e_nomorefiles;
+case STG_E_NOMOREFILES:
+	return stg_e_nomorefiles;
+case STG_E_DISKISWRITEPROTECTED:
+	return stg_e_diskiswriteprotected;
+case STG_E_DISKISWRITEPROTECTED:
+	return stg_e_diskiswriteprotected;
+case STG_E_DISKISWRITEPROTECTED:
+	return stg_e_diskiswriteprotected;
+case STG_E_SEEKERROR:
+	return stg_e_seekerror;
+case STG_E_SEEKERROR:
+	return stg_e_seekerror;
+case STG_E_SEEKERROR:
+	return stg_e_seekerror;
+case STG_E_WRITEFAULT:
+	return stg_e_writefault;
+case STG_E_WRITEFAULT:
+	return stg_e_writefault;
+case STG_E_WRITEFAULT:
+	return stg_e_writefault;
+case STG_E_READFAULT:
+	return stg_e_readfault;
+case STG_E_READFAULT:
+	return stg_e_readfault;
+case STG_E_READFAULT:
+	return stg_e_readfault;
+case STG_E_SHAREVIOLATION:
+	return stg_e_shareviolation;
+case STG_E_SHAREVIOLATION:
+	return stg_e_shareviolation;
+case STG_E_SHAREVIOLATION:
+	return stg_e_shareviolation;
+case STG_E_LOCKVIOLATION:
+	return stg_e_lockviolation;
+case STG_E_LOCKVIOLATION:
+	return stg_e_lockviolation;
+case STG_E_LOCKVIOLATION:
+	return stg_e_lockviolation;
+case STG_E_FILEALREADYEXISTS:
+	return stg_e_filealreadyexists;
+case STG_E_FILEALREADYEXISTS:
+	return stg_e_filealreadyexists;
+case STG_E_FILEALREADYEXISTS:
+	return stg_e_filealreadyexists;
+case STG_E_INVALIDPARAMETER:
+	return stg_e_invalidparameter;
+case STG_E_INVALIDPARAMETER:
+	return stg_e_invalidparameter;
+case STG_E_INVALIDPARAMETER:
+	return stg_e_invalidparameter;
+case STG_E_MEDIUMFULL:
+	return stg_e_mediumfull;
+case STG_E_MEDIUMFULL:
+	return stg_e_mediumfull;
+case STG_E_MEDIUMFULL:
+	return stg_e_mediumfull;
+case STG_E_PROPSETMISMATCHED:
+	return stg_e_propsetmismatched;
+case STG_E_PROPSETMISMATCHED:
+	return stg_e_propsetmismatched;
+case STG_E_PROPSETMISMATCHED:
+	return stg_e_propsetmismatched;
+case STG_E_ABNORMALAPIEXIT:
+	return stg_e_abnormalapiexit;
+case STG_E_ABNORMALAPIEXIT:
+	return stg_e_abnormalapiexit;
+case STG_E_ABNORMALAPIEXIT:
+	return stg_e_abnormalapiexit;
+case STG_E_INVALIDHEADER:
+	return stg_e_invalidheader;
+case STG_E_INVALIDHEADER:
+	return stg_e_invalidheader;
+case STG_E_INVALIDHEADER:
+	return stg_e_invalidheader;
+case STG_E_INVALIDNAME:
+	return stg_e_invalidname;
+case STG_E_INVALIDNAME:
+	return stg_e_invalidname;
+case STG_E_INVALIDNAME:
+	return stg_e_invalidname;
+case STG_E_UNKNOWN:
+	return stg_e_unknown;
+case STG_E_UNKNOWN:
+	return stg_e_unknown;
+case STG_E_UNKNOWN:
+	return stg_e_unknown;
+case STG_E_UNIMPLEMENTEDFUNCTION:
+	return stg_e_unimplementedfunction;
+case STG_E_UNIMPLEMENTEDFUNCTION:
+	return stg_e_unimplementedfunction;
+case STG_E_UNIMPLEMENTEDFUNCTION:
+	return stg_e_unimplementedfunction;
+case STG_E_INVALIDFLAG:
+	return stg_e_invalidflag;
+case STG_E_INVALIDFLAG:
+	return stg_e_invalidflag;
+case STG_E_INVALIDFLAG:
+	return stg_e_invalidflag;
+case STG_E_INUSE:
+	return stg_e_inuse;
+case STG_E_INUSE:
+	return stg_e_inuse;
+case STG_E_INUSE:
+	return stg_e_inuse;
+case STG_E_NOTCURRENT:
+	return stg_e_notcurrent;
+case STG_E_NOTCURRENT:
+	return stg_e_notcurrent;
+case STG_E_NOTCURRENT:
+	return stg_e_notcurrent;
+case STG_E_REVERTED:
+	return stg_e_reverted;
+case STG_E_REVERTED:
+	return stg_e_reverted;
+case STG_E_REVERTED:
+	return stg_e_reverted;
+case STG_E_CANTSAVE:
+	return stg_e_cantsave;
+case STG_E_CANTSAVE:
+	return stg_e_cantsave;
+case STG_E_CANTSAVE:
+	return stg_e_cantsave;
+case STG_E_OLDFORMAT:
+	return stg_e_oldformat;
+case STG_E_OLDFORMAT:
+	return stg_e_oldformat;
+case STG_E_OLDFORMAT:
+	return stg_e_oldformat;
+case STG_E_OLDDLL:
+	return stg_e_olddll;
+case STG_E_OLDDLL:
+	return stg_e_olddll;
+case STG_E_OLDDLL:
+	return stg_e_olddll;
+case STG_E_SHAREREQUIRED:
+	return stg_e_sharerequired;
+case STG_E_SHAREREQUIRED:
+	return stg_e_sharerequired;
+case STG_E_SHAREREQUIRED:
+	return stg_e_sharerequired;
+case STG_E_NOTFILEBASEDSTORAGE:
+	return stg_e_notfilebasedstorage;
+case STG_E_NOTFILEBASEDSTORAGE:
+	return stg_e_notfilebasedstorage;
+case STG_E_NOTFILEBASEDSTORAGE:
+	return stg_e_notfilebasedstorage;
+case STG_E_EXTANTMARSHALLINGS:
+	return stg_e_extantmarshallings;
+case STG_E_EXTANTMARSHALLINGS:
+	return stg_e_extantmarshallings;
+case STG_E_EXTANTMARSHALLINGS:
+	return stg_e_extantmarshallings;
+case STG_E_DOCFILECORRUPT:
+	return stg_e_docfilecorrupt;
+case STG_E_DOCFILECORRUPT:
+	return stg_e_docfilecorrupt;
+case STG_E_DOCFILECORRUPT:
+	return stg_e_docfilecorrupt;
+case STG_E_BADBASEADDRESS:
+	return stg_e_badbaseaddress;
+case STG_E_BADBASEADDRESS:
+	return stg_e_badbaseaddress;
+case STG_E_BADBASEADDRESS:
+	return stg_e_badbaseaddress;
+case STG_E_DOCFILETOOLARGE:
+	return stg_e_docfiletoolarge;
+case STG_E_DOCFILETOOLARGE:
+	return stg_e_docfiletoolarge;
+case STG_E_DOCFILETOOLARGE:
+	return stg_e_docfiletoolarge;
+case STG_E_NOTSIMPLEFORMAT:
+	return stg_e_notsimpleformat;
+case STG_E_NOTSIMPLEFORMAT:
+	return stg_e_notsimpleformat;
+case STG_E_NOTSIMPLEFORMAT:
+	return stg_e_notsimpleformat;
+case STG_E_INCOMPLETE:
+	return stg_e_incomplete;
+case STG_E_INCOMPLETE:
+	return stg_e_incomplete;
+case STG_E_INCOMPLETE:
+	return stg_e_incomplete;
+case STG_E_TERMINATED:
+	return stg_e_terminated;
+case STG_E_TERMINATED:
+	return stg_e_terminated;
+case STG_E_TERMINATED:
+	return stg_e_terminated;
+case STG_E_STATUS_COPY_PROTECTION_FAILURE:
+	return stg_e_status_copy_protection_failure;
+case STG_E_STATUS_COPY_PROTECTION_FAILURE:
+	return stg_e_status_copy_protection_failure;
+case STG_E_STATUS_COPY_PROTECTION_FAILURE:
+	return stg_e_status_copy_protection_failure;
+case STG_E_CSS_AUTHENTICATION_FAILURE:
+	return stg_e_css_authentication_failure;
+case STG_E_CSS_AUTHENTICATION_FAILURE:
+	return stg_e_css_authentication_failure;
+case STG_E_CSS_AUTHENTICATION_FAILURE:
+	return stg_e_css_authentication_failure;
+case STG_E_CSS_KEY_NOT_PRESENT:
+	return stg_e_css_key_not_present;
+case STG_E_CSS_KEY_NOT_PRESENT:
+	return stg_e_css_key_not_present;
+case STG_E_CSS_KEY_NOT_PRESENT:
+	return stg_e_css_key_not_present;
+case STG_E_CSS_KEY_NOT_ESTABLISHED:
+	return stg_e_css_key_not_established;
+case STG_E_CSS_KEY_NOT_ESTABLISHED:
+	return stg_e_css_key_not_established;
+case STG_E_CSS_KEY_NOT_ESTABLISHED:
+	return stg_e_css_key_not_established;
+case STG_E_CSS_SCRAMBLED_SECTOR:
+	return stg_e_css_scrambled_sector;
+case STG_E_CSS_SCRAMBLED_SECTOR:
+	return stg_e_css_scrambled_sector;
+case STG_E_CSS_SCRAMBLED_SECTOR:
+	return stg_e_css_scrambled_sector;
+case STG_E_CSS_REGION_MISMATCH:
+	return stg_e_css_region_mismatch;
+case STG_E_CSS_REGION_MISMATCH:
+	return stg_e_css_region_mismatch;
+case STG_E_CSS_REGION_MISMATCH:
+	return stg_e_css_region_mismatch;
+case STG_E_RESETS_EXHAUSTED:
+	return stg_e_resets_exhausted;
+case STG_E_RESETS_EXHAUSTED:
+	return stg_e_resets_exhausted;
+case STG_E_RESETS_EXHAUSTED:
+	return stg_e_resets_exhausted;
+case OLE_E_OLEVERB:
+	return ole_e_oleverb;
+case OLE_E_OLEVERB:
+	return ole_e_oleverb;
+case OLE_E_OLEVERB:
+	return ole_e_oleverb;
+case OLE_E_ADVF:
+	return ole_e_advf;
+case OLE_E_ADVF:
+	return ole_e_advf;
+case OLE_E_ADVF:
+	return ole_e_advf;
+case OLE_E_ENUM_NOMORE:
+	return ole_e_enum_nomore;
+case OLE_E_ENUM_NOMORE:
+	return ole_e_enum_nomore;
+case OLE_E_ENUM_NOMORE:
+	return ole_e_enum_nomore;
+case OLE_E_ADVISENOTSUPPORTED:
+	return ole_e_advisenotsupported;
+case OLE_E_ADVISENOTSUPPORTED:
+	return ole_e_advisenotsupported;
+case OLE_E_ADVISENOTSUPPORTED:
+	return ole_e_advisenotsupported;
+case OLE_E_NOCONNECTION:
+	return ole_e_noconnection;
+case OLE_E_NOCONNECTION:
+	return ole_e_noconnection;
+case OLE_E_NOCONNECTION:
+	return ole_e_noconnection;
+case OLE_E_NOTRUNNING:
+	return ole_e_notrunning;
+case OLE_E_NOTRUNNING:
+	return ole_e_notrunning;
+case OLE_E_NOTRUNNING:
+	return ole_e_notrunning;
+case OLE_E_NOCACHE:
+	return ole_e_nocache;
+case OLE_E_NOCACHE:
+	return ole_e_nocache;
+case OLE_E_NOCACHE:
+	return ole_e_nocache;
+case OLE_E_BLANK:
+	return ole_e_blank;
+case OLE_E_BLANK:
+	return ole_e_blank;
+case OLE_E_BLANK:
+	return ole_e_blank;
+case OLE_E_CLASSDIFF:
+	return ole_e_classdiff;
+case OLE_E_CLASSDIFF:
+	return ole_e_classdiff;
+case OLE_E_CLASSDIFF:
+	return ole_e_classdiff;
+case OLE_E_CANT_GETMONIKER:
+	return ole_e_cant_getmoniker;
+case OLE_E_CANT_GETMONIKER:
+	return ole_e_cant_getmoniker;
+case OLE_E_CANT_GETMONIKER:
+	return ole_e_cant_getmoniker;
+case OLE_E_CANT_BINDTOSOURCE:
+	return ole_e_cant_bindtosource;
+case OLE_E_CANT_BINDTOSOURCE:
+	return ole_e_cant_bindtosource;
+case OLE_E_CANT_BINDTOSOURCE:
+	return ole_e_cant_bindtosource;
+case OLE_E_STATIC:
+	return ole_e_static;
+case OLE_E_STATIC:
+	return ole_e_static;
+case OLE_E_STATIC:
+	return ole_e_static;
+case OLE_E_PROMPTSAVECANCELLED:
+	return ole_e_promptsavecancelled;
+case OLE_E_PROMPTSAVECANCELLED:
+	return ole_e_promptsavecancelled;
+case OLE_E_PROMPTSAVECANCELLED:
+	return ole_e_promptsavecancelled;
+case OLE_E_INVALIDRECT:
+	return ole_e_invalidrect;
+case OLE_E_INVALIDRECT:
+	return ole_e_invalidrect;
+case OLE_E_INVALIDRECT:
+	return ole_e_invalidrect;
+case OLE_E_WRONGCOMPOBJ:
+	return ole_e_wrongcompobj;
+case OLE_E_WRONGCOMPOBJ:
+	return ole_e_wrongcompobj;
+case OLE_E_WRONGCOMPOBJ:
+	return ole_e_wrongcompobj;
+case OLE_E_INVALIDHWND:
+	return ole_e_invalidhwnd;
+case OLE_E_INVALIDHWND:
+	return ole_e_invalidhwnd;
+case OLE_E_INVALIDHWND:
+	return ole_e_invalidhwnd;
+case OLE_E_NOT_INPLACEACTIVE:
+	return ole_e_not_inplaceactive;
+case OLE_E_NOT_INPLACEACTIVE:
+	return ole_e_not_inplaceactive;
+case OLE_E_NOT_INPLACEACTIVE:
+	return ole_e_not_inplaceactive;
+case OLE_E_CANTCONVERT:
+	return ole_e_cantconvert;
+case OLE_E_CANTCONVERT:
+	return ole_e_cantconvert;
+case OLE_E_CANTCONVERT:
+	return ole_e_cantconvert;
+case OLE_E_NOSTORAGE:
+	return ole_e_nostorage;
+case OLE_E_NOSTORAGE:
+	return ole_e_nostorage;
+case OLE_E_NOSTORAGE:
+	return ole_e_nostorage;
+case DV_E_FORMATETC:
+	return dv_e_formatetc;
+case DV_E_FORMATETC:
+	return dv_e_formatetc;
+case DV_E_FORMATETC:
+	return dv_e_formatetc;
+case DV_E_DVTARGETDEVICE:
+	return dv_e_dvtargetdevice;
+case DV_E_DVTARGETDEVICE:
+	return dv_e_dvtargetdevice;
+case DV_E_DVTARGETDEVICE:
+	return dv_e_dvtargetdevice;
+case DV_E_STGMEDIUM:
+	return dv_e_stgmedium;
+case DV_E_STGMEDIUM:
+	return dv_e_stgmedium;
+case DV_E_STGMEDIUM:
+	return dv_e_stgmedium;
+case DV_E_STATDATA:
+	return dv_e_statdata;
+case DV_E_STATDATA:
+	return dv_e_statdata;
+case DV_E_STATDATA:
+	return dv_e_statdata;
+case DV_E_LINDEX:
+	return dv_e_lindex;
+case DV_E_LINDEX:
+	return dv_e_lindex;
+case DV_E_LINDEX:
+	return dv_e_lindex;
+case DV_E_TYMED:
+	return dv_e_tymed;
+case DV_E_TYMED:
+	return dv_e_tymed;
+case DV_E_TYMED:
+	return dv_e_tymed;
+case DV_E_CLIPFORMAT:
+	return dv_e_clipformat;
+case DV_E_CLIPFORMAT:
+	return dv_e_clipformat;
+case DV_E_CLIPFORMAT:
+	return dv_e_clipformat;
+case DV_E_DVASPECT:
+	return dv_e_dvaspect;
+case DV_E_DVASPECT:
+	return dv_e_dvaspect;
+case DV_E_DVASPECT:
+	return dv_e_dvaspect;
+case DV_E_DVTARGETDEVICE_SIZE:
+	return dv_e_dvtargetdevice_size;
+case DV_E_DVTARGETDEVICE_SIZE:
+	return dv_e_dvtargetdevice_size;
+case DV_E_DVTARGETDEVICE_SIZE:
+	return dv_e_dvtargetdevice_size;
+case DV_E_NOIVIEWOBJECT:
+	return dv_e_noiviewobject;
+case DV_E_NOIVIEWOBJECT:
+	return dv_e_noiviewobject;
+case DV_E_NOIVIEWOBJECT:
+	return dv_e_noiviewobject;
+case DRAGDROP_E_NOTREGISTERED:
+	return dragdrop_e_notregistered;
+case DRAGDROP_E_NOTREGISTERED:
+	return dragdrop_e_notregistered;
+case DRAGDROP_E_NOTREGISTERED:
+	return dragdrop_e_notregistered;
+case DRAGDROP_E_ALREADYREGISTERED:
+	return dragdrop_e_alreadyregistered;
+case DRAGDROP_E_ALREADYREGISTERED:
+	return dragdrop_e_alreadyregistered;
+case DRAGDROP_E_ALREADYREGISTERED:
+	return dragdrop_e_alreadyregistered;
+case DRAGDROP_E_INVALIDHWND:
+	return dragdrop_e_invalidhwnd;
+case DRAGDROP_E_INVALIDHWND:
+	return dragdrop_e_invalidhwnd;
+case DRAGDROP_E_INVALIDHWND:
+	return dragdrop_e_invalidhwnd;
+case CLASS_E_NOAGGREGATION:
+	return class_e_noaggregation;
+case CLASS_E_NOAGGREGATION:
+	return class_e_noaggregation;
+case CLASS_E_NOAGGREGATION:
+	return class_e_noaggregation;
+case CLASS_E_CLASSNOTAVAILABLE:
+	return class_e_classnotavailable;
+case CLASS_E_CLASSNOTAVAILABLE:
+	return class_e_classnotavailable;
+case CLASS_E_CLASSNOTAVAILABLE:
+	return class_e_classnotavailable;
+case CLASS_E_NOTLICENSED:
+	return class_e_notlicensed;
+case CLASS_E_NOTLICENSED:
+	return class_e_notlicensed;
+case CLASS_E_NOTLICENSED:
+	return class_e_notlicensed;
+case VIEW_E_DRAW:
+	return view_e_draw;
+case VIEW_E_DRAW:
+	return view_e_draw;
+case VIEW_E_DRAW:
+	return view_e_draw;
+case REGDB_E_READREGDB:
+	return regdb_e_readregdb;
+case REGDB_E_READREGDB:
+	return regdb_e_readregdb;
+case REGDB_E_READREGDB:
+	return regdb_e_readregdb;
+case REGDB_E_WRITEREGDB:
+	return regdb_e_writeregdb;
+case REGDB_E_WRITEREGDB:
+	return regdb_e_writeregdb;
+case REGDB_E_WRITEREGDB:
+	return regdb_e_writeregdb;
+case REGDB_E_KEYMISSING:
+	return regdb_e_keymissing;
+case REGDB_E_KEYMISSING:
+	return regdb_e_keymissing;
+case REGDB_E_KEYMISSING:
+	return regdb_e_keymissing;
+case REGDB_E_INVALIDVALUE:
+	return regdb_e_invalidvalue;
+case REGDB_E_INVALIDVALUE:
+	return regdb_e_invalidvalue;
+case REGDB_E_INVALIDVALUE:
+	return regdb_e_invalidvalue;
+case REGDB_E_CLASSNOTREG:
+	return regdb_e_classnotreg;
+case REGDB_E_CLASSNOTREG:
+	return regdb_e_classnotreg;
+case REGDB_E_CLASSNOTREG:
+	return regdb_e_classnotreg;
+case REGDB_E_IIDNOTREG:
+	return regdb_e_iidnotreg;
+case REGDB_E_IIDNOTREG:
+	return regdb_e_iidnotreg;
+case REGDB_E_IIDNOTREG:
+	return regdb_e_iidnotreg;
+case REGDB_E_BADTHREADINGMODEL:
+	return regdb_e_badthreadingmodel;
+case REGDB_E_BADTHREADINGMODEL:
+	return regdb_e_badthreadingmodel;
+case REGDB_E_BADTHREADINGMODEL:
+	return regdb_e_badthreadingmodel;
+case CAT_E_CATIDNOEXIST:
+	return cat_e_catidnoexist;
+case CAT_E_CATIDNOEXIST:
+	return cat_e_catidnoexist;
+case CAT_E_CATIDNOEXIST:
+	return cat_e_catidnoexist;
+case CAT_E_NODESCRIPTION:
+	return cat_e_nodescription;
+case CAT_E_NODESCRIPTION:
+	return cat_e_nodescription;
+case CAT_E_NODESCRIPTION:
+	return cat_e_nodescription;
+case CS_E_PACKAGE_NOTFOUND:
+	return cs_e_package_notfound;
+case CS_E_PACKAGE_NOTFOUND:
+	return cs_e_package_notfound;
+case CS_E_PACKAGE_NOTFOUND:
+	return cs_e_package_notfound;
+case CS_E_NOT_DELETABLE:
+	return cs_e_not_deletable;
+case CS_E_NOT_DELETABLE:
+	return cs_e_not_deletable;
+case CS_E_NOT_DELETABLE:
+	return cs_e_not_deletable;
+case CS_E_CLASS_NOTFOUND:
+	return cs_e_class_notfound;
+case CS_E_CLASS_NOTFOUND:
+	return cs_e_class_notfound;
+case CS_E_CLASS_NOTFOUND:
+	return cs_e_class_notfound;
+case CS_E_INVALID_VERSION:
+	return cs_e_invalid_version;
+case CS_E_INVALID_VERSION:
+	return cs_e_invalid_version;
+case CS_E_INVALID_VERSION:
+	return cs_e_invalid_version;
+case CS_E_NO_CLASSSTORE:
+	return cs_e_no_classstore;
+case CS_E_NO_CLASSSTORE:
+	return cs_e_no_classstore;
+case CS_E_NO_CLASSSTORE:
+	return cs_e_no_classstore;
+case CS_E_OBJECT_NOTFOUND:
+	return cs_e_object_notfound;
+case CS_E_OBJECT_NOTFOUND:
+	return cs_e_object_notfound;
+case CS_E_OBJECT_NOTFOUND:
+	return cs_e_object_notfound;
+case CS_E_OBJECT_ALREADY_EXISTS:
+	return cs_e_object_already_exists;
+case CS_E_OBJECT_ALREADY_EXISTS:
+	return cs_e_object_already_exists;
+case CS_E_OBJECT_ALREADY_EXISTS:
+	return cs_e_object_already_exists;
+case CS_E_INVALID_PATH:
+	return cs_e_invalid_path;
+case CS_E_INVALID_PATH:
+	return cs_e_invalid_path;
+case CS_E_INVALID_PATH:
+	return cs_e_invalid_path;
+case CS_E_NETWORK_ERROR:
+	return cs_e_network_error;
+case CS_E_NETWORK_ERROR:
+	return cs_e_network_error;
+case CS_E_NETWORK_ERROR:
+	return cs_e_network_error;
+case CS_E_ADMIN_LIMIT_EXCEEDED:
+	return cs_e_admin_limit_exceeded;
+case CS_E_ADMIN_LIMIT_EXCEEDED:
+	return cs_e_admin_limit_exceeded;
+case CS_E_ADMIN_LIMIT_EXCEEDED:
+	return cs_e_admin_limit_exceeded;
+case CS_E_SCHEMA_MISMATCH:
+	return cs_e_schema_mismatch;
+case CS_E_SCHEMA_MISMATCH:
+	return cs_e_schema_mismatch;
+case CS_E_SCHEMA_MISMATCH:
+	return cs_e_schema_mismatch;
+case CS_E_INTERNAL_ERROR:
+	return cs_e_internal_error;
+case CS_E_INTERNAL_ERROR:
+	return cs_e_internal_error;
+case CS_E_INTERNAL_ERROR:
+	return cs_e_internal_error;
+case CACHE_E_NOCACHE_UPDATED:
+	return cache_e_nocache_updated;
+case CACHE_E_NOCACHE_UPDATED:
+	return cache_e_nocache_updated;
+case CACHE_E_NOCACHE_UPDATED:
+	return cache_e_nocache_updated;
+case OLEOBJ_E_NOVERBS:
+	return oleobj_e_noverbs;
+case OLEOBJ_E_NOVERBS:
+	return oleobj_e_noverbs;
+case OLEOBJ_E_NOVERBS:
+	return oleobj_e_noverbs;
+case OLEOBJ_E_INVALIDVERB:
+	return oleobj_e_invalidverb;
+case OLEOBJ_E_INVALIDVERB:
+	return oleobj_e_invalidverb;
+case OLEOBJ_E_INVALIDVERB:
+	return oleobj_e_invalidverb;
+case INPLACE_E_NOTUNDOABLE:
+	return inplace_e_notundoable;
+case INPLACE_E_NOTUNDOABLE:
+	return inplace_e_notundoable;
+case INPLACE_E_NOTUNDOABLE:
+	return inplace_e_notundoable;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case INPLACE_E_NOTOOLSPACE:
+	return inplace_e_notoolspace;
+case CLIPBRD_E_CANT_OPEN:
+	return clipbrd_e_cant_open;
+case CLIPBRD_E_CANT_OPEN:
+	return clipbrd_e_cant_open;
+case CLIPBRD_E_CANT_OPEN:
+	return clipbrd_e_cant_open;
+case CLIPBRD_E_CANT_EMPTY:
+	return clipbrd_e_cant_empty;
+case CLIPBRD_E_CANT_EMPTY:
+	return clipbrd_e_cant_empty;
+case CLIPBRD_E_CANT_EMPTY:
+	return clipbrd_e_cant_empty;
+case CLIPBRD_E_CANT_SET:
+	return clipbrd_e_cant_set;
+case CLIPBRD_E_CANT_SET:
+	return clipbrd_e_cant_set;
+case CLIPBRD_E_CANT_SET:
+	return clipbrd_e_cant_set;
+case CLIPBRD_E_BAD_DATA:
+	return clipbrd_e_bad_data;
+case CLIPBRD_E_BAD_DATA:
+	return clipbrd_e_bad_data;
+case CLIPBRD_E_BAD_DATA:
+	return clipbrd_e_bad_data;
+case CLIPBRD_E_CANT_CLOSE:
+	return clipbrd_e_cant_close;
+case CLIPBRD_E_CANT_CLOSE:
+	return clipbrd_e_cant_close;
+case CLIPBRD_E_CANT_CLOSE:
+	return clipbrd_e_cant_close;
+case MK_E_CONNECTMANUALLY:
+	return mk_e_connectmanually;
+case MK_E_CONNECTMANUALLY:
+	return mk_e_connectmanually;
+case MK_E_CONNECTMANUALLY:
+	return mk_e_connectmanually;
+case MK_E_EXCEEDEDDEADLINE:
+	return mk_e_exceededdeadline;
+case MK_E_EXCEEDEDDEADLINE:
+	return mk_e_exceededdeadline;
+case MK_E_EXCEEDEDDEADLINE:
+	return mk_e_exceededdeadline;
+case MK_E_NEEDGENERIC:
+	return mk_e_needgeneric;
+case MK_E_NEEDGENERIC:
+	return mk_e_needgeneric;
+case MK_E_NEEDGENERIC:
+	return mk_e_needgeneric;
+case MK_E_UNAVAILABLE:
+	return mk_e_unavailable;
+case MK_E_UNAVAILABLE:
+	return mk_e_unavailable;
+case MK_E_UNAVAILABLE:
+	return mk_e_unavailable;
+case MK_E_SYNTAX:
+	return mk_e_syntax;
+case MK_E_SYNTAX:
+	return mk_e_syntax;
+case MK_E_SYNTAX:
+	return mk_e_syntax;
+case MK_E_NOOBJECT:
+	return mk_e_noobject;
+case MK_E_NOOBJECT:
+	return mk_e_noobject;
+case MK_E_NOOBJECT:
+	return mk_e_noobject;
+case MK_E_INVALIDEXTENSION:
+	return mk_e_invalidextension;
+case MK_E_INVALIDEXTENSION:
+	return mk_e_invalidextension;
+case MK_E_INVALIDEXTENSION:
+	return mk_e_invalidextension;
+case MK_E_INTERMEDIATEINTERFACENOTSUPPORTED:
+	return mk_e_intermediateinterfacenotsupported;
+case MK_E_INTERMEDIATEINTERFACENOTSUPPORTED:
+	return mk_e_intermediateinterfacenotsupported;
+case MK_E_INTERMEDIATEINTERFACENOTSUPPORTED:
+	return mk_e_intermediateinterfacenotsupported;
+case MK_E_NOTBINDABLE:
+	return mk_e_notbindable;
+case MK_E_NOTBINDABLE:
+	return mk_e_notbindable;
+case MK_E_NOTBINDABLE:
+	return mk_e_notbindable;
+case MK_E_NOTBOUND:
+	return mk_e_notbound;
+case MK_E_NOTBOUND:
+	return mk_e_notbound;
+case MK_E_NOTBOUND:
+	return mk_e_notbound;
+case MK_E_CANTOPENFILE:
+	return mk_e_cantopenfile;
+case MK_E_CANTOPENFILE:
+	return mk_e_cantopenfile;
+case MK_E_CANTOPENFILE:
+	return mk_e_cantopenfile;
+case MK_E_MUSTBOTHERUSER:
+	return mk_e_mustbotheruser;
+case MK_E_MUSTBOTHERUSER:
+	return mk_e_mustbotheruser;
+case MK_E_MUSTBOTHERUSER:
+	return mk_e_mustbotheruser;
+case MK_E_NOINVERSE:
+	return mk_e_noinverse;
+case MK_E_NOINVERSE:
+	return mk_e_noinverse;
+case MK_E_NOINVERSE:
+	return mk_e_noinverse;
+case MK_E_NOSTORAGE:
+	return mk_e_nostorage;
+case MK_E_NOSTORAGE:
+	return mk_e_nostorage;
+case MK_E_NOSTORAGE:
+	return mk_e_nostorage;
+case MK_E_NOPREFIX:
+	return mk_e_noprefix;
+case MK_E_NOPREFIX:
+	return mk_e_noprefix;
+case MK_E_NOPREFIX:
+	return mk_e_noprefix;
+case MK_E_ENUMERATION_FAILED:
+	return mk_e_enumeration_failed;
+case MK_E_ENUMERATION_FAILED:
+	return mk_e_enumeration_failed;
+case MK_E_ENUMERATION_FAILED:
+	return mk_e_enumeration_failed;
+case CO_E_NOTINITIALIZED:
+	return co_e_notinitialized;
+case CO_E_NOTINITIALIZED:
+	return co_e_notinitialized;
+case CO_E_NOTINITIALIZED:
+	return co_e_notinitialized;
+case CO_E_ALREADYINITIALIZED:
+	return co_e_alreadyinitialized;
+case CO_E_ALREADYINITIALIZED:
+	return co_e_alreadyinitialized;
+case CO_E_ALREADYINITIALIZED:
+	return co_e_alreadyinitialized;
+case CO_E_CANTDETERMINECLASS:
+	return co_e_cantdetermineclass;
+case CO_E_CANTDETERMINECLASS:
+	return co_e_cantdetermineclass;
+case CO_E_CANTDETERMINECLASS:
+	return co_e_cantdetermineclass;
+case CO_E_CLASSSTRING:
+	return co_e_classstring;
+case CO_E_CLASSSTRING:
+	return co_e_classstring;
+case CO_E_CLASSSTRING:
+	return co_e_classstring;
+case CO_E_IIDSTRING:
+	return co_e_iidstring;
+case CO_E_IIDSTRING:
+	return co_e_iidstring;
+case CO_E_IIDSTRING:
+	return co_e_iidstring;
+case CO_E_APPNOTFOUND:
+	return co_e_appnotfound;
+case CO_E_APPNOTFOUND:
+	return co_e_appnotfound;
+case CO_E_APPNOTFOUND:
+	return co_e_appnotfound;
+case CO_E_APPSINGLEUSE:
+	return co_e_appsingleuse;
+case CO_E_APPSINGLEUSE:
+	return co_e_appsingleuse;
+case CO_E_APPSINGLEUSE:
+	return co_e_appsingleuse;
+case CO_E_ERRORINAPP:
+	return co_e_errorinapp;
+case CO_E_ERRORINAPP:
+	return co_e_errorinapp;
+case CO_E_ERRORINAPP:
+	return co_e_errorinapp;
+case CO_E_DLLNOTFOUND:
+	return co_e_dllnotfound;
+case CO_E_DLLNOTFOUND:
+	return co_e_dllnotfound;
+case CO_E_DLLNOTFOUND:
+	return co_e_dllnotfound;
+case CO_E_ERRORINDLL:
+	return co_e_errorindll;
+case CO_E_ERRORINDLL:
+	return co_e_errorindll;
+case CO_E_ERRORINDLL:
+	return co_e_errorindll;
+case CO_E_WRONGOSFORAPP:
+	return co_e_wrongosforapp;
+case CO_E_WRONGOSFORAPP:
+	return co_e_wrongosforapp;
+case CO_E_WRONGOSFORAPP:
+	return co_e_wrongosforapp;
+case CO_E_OBJNOTREG:
+	return co_e_objnotreg;
+case CO_E_OBJNOTREG:
+	return co_e_objnotreg;
+case CO_E_OBJNOTREG:
+	return co_e_objnotreg;
+case CO_E_OBJISREG:
+	return co_e_objisreg;
+case CO_E_OBJISREG:
+	return co_e_objisreg;
+case CO_E_OBJISREG:
+	return co_e_objisreg;
+case CO_E_OBJNOTCONNECTED:
+	return co_e_objnotconnected;
+case CO_E_OBJNOTCONNECTED:
+	return co_e_objnotconnected;
+case CO_E_OBJNOTCONNECTED:
+	return co_e_objnotconnected;
+case CO_E_APPDIDNTREG:
+	return co_e_appdidntreg;
+case CO_E_APPDIDNTREG:
+	return co_e_appdidntreg;
+case CO_E_APPDIDNTREG:
+	return co_e_appdidntreg;
+case CO_E_RELEASED:
+	return co_e_released;
+case CO_E_RELEASED:
+	return co_e_released;
+case CO_E_RELEASED:
+	return co_e_released;
+case EVENT_E_ALL_SUBSCRIBERS_FAILED:
+	return event_e_all_subscribers_failed;
+case EVENT_E_ALL_SUBSCRIBERS_FAILED:
+	return event_e_all_subscribers_failed;
+case EVENT_E_ALL_SUBSCRIBERS_FAILED:
+	return event_e_all_subscribers_failed;
+case EVENT_E_QUERYSYNTAX:
+	return event_e_querysyntax;
+case EVENT_E_QUERYSYNTAX:
+	return event_e_querysyntax;
+case EVENT_E_QUERYSYNTAX:
+	return event_e_querysyntax;
+case EVENT_E_QUERYFIELD:
+	return event_e_queryfield;
+case EVENT_E_QUERYFIELD:
+	return event_e_queryfield;
+case EVENT_E_QUERYFIELD:
+	return event_e_queryfield;
+case EVENT_E_INTERNALEXCEPTION:
+	return event_e_internalexception;
+case EVENT_E_INTERNALEXCEPTION:
+	return event_e_internalexception;
+case EVENT_E_INTERNALEXCEPTION:
+	return event_e_internalexception;
+case EVENT_E_INTERNALERROR:
+	return event_e_internalerror;
+case EVENT_E_INTERNALERROR:
+	return event_e_internalerror;
+case EVENT_E_INTERNALERROR:
+	return event_e_internalerror;
+case EVENT_E_INVALID_PER_USER_SID:
+	return event_e_invalid_per_user_sid;
+case EVENT_E_INVALID_PER_USER_SID:
+	return event_e_invalid_per_user_sid;
+case EVENT_E_INVALID_PER_USER_SID:
+	return event_e_invalid_per_user_sid;
+case EVENT_E_USER_EXCEPTION:
+	return event_e_user_exception;
+case EVENT_E_USER_EXCEPTION:
+	return event_e_user_exception;
+case EVENT_E_USER_EXCEPTION:
+	return event_e_user_exception;
+case EVENT_E_TOO_MANY_METHODS:
+	return event_e_too_many_methods;
+case EVENT_E_TOO_MANY_METHODS:
+	return event_e_too_many_methods;
+case EVENT_E_TOO_MANY_METHODS:
+	return event_e_too_many_methods;
+case EVENT_E_MISSING_EVENTCLASS:
+	return event_e_missing_eventclass;
+case EVENT_E_MISSING_EVENTCLASS:
+	return event_e_missing_eventclass;
+case EVENT_E_MISSING_EVENTCLASS:
+	return event_e_missing_eventclass;
+case EVENT_E_NOT_ALL_REMOVED:
+	return event_e_not_all_removed;
+case EVENT_E_NOT_ALL_REMOVED:
+	return event_e_not_all_removed;
+case EVENT_E_NOT_ALL_REMOVED:
+	return event_e_not_all_removed;
+case EVENT_E_COMPLUS_NOT_INSTALLED:
+	return event_e_complus_not_installed;
+case EVENT_E_COMPLUS_NOT_INSTALLED:
+	return event_e_complus_not_installed;
+case EVENT_E_COMPLUS_NOT_INSTALLED:
+	return event_e_complus_not_installed;
+case EVENT_E_CANT_MODIFY_OR_DELETE_UNCONFIGURED_OBJECT:
+	return event_e_cant_modify_or_delete_unconfigured_object;
+case EVENT_E_CANT_MODIFY_OR_DELETE_UNCONFIGURED_OBJECT:
+	return event_e_cant_modify_or_delete_unconfigured_object;
+case EVENT_E_CANT_MODIFY_OR_DELETE_UNCONFIGURED_OBJECT:
+	return event_e_cant_modify_or_delete_unconfigured_object;
+case EVENT_E_CANT_MODIFY_OR_DELETE_CONFIGURED_OBJECT:
+	return event_e_cant_modify_or_delete_configured_object;
+case EVENT_E_CANT_MODIFY_OR_DELETE_CONFIGURED_OBJECT:
+	return event_e_cant_modify_or_delete_configured_object;
+case EVENT_E_CANT_MODIFY_OR_DELETE_CONFIGURED_OBJECT:
+	return event_e_cant_modify_or_delete_configured_object;
+case EVENT_E_INVALID_EVENT_CLASS_PARTITION:
+	return event_e_invalid_event_class_partition;
+case EVENT_E_INVALID_EVENT_CLASS_PARTITION:
+	return event_e_invalid_event_class_partition;
+case EVENT_E_INVALID_EVENT_CLASS_PARTITION:
+	return event_e_invalid_event_class_partition;
+case EVENT_E_PER_USER_SID_NOT_LOGGED_ON:
+	return event_e_per_user_sid_not_logged_on;
+case EVENT_E_PER_USER_SID_NOT_LOGGED_ON:
+	return event_e_per_user_sid_not_logged_on;
+case EVENT_E_PER_USER_SID_NOT_LOGGED_ON:
+	return event_e_per_user_sid_not_logged_on;
+case SCHED_E_TRIGGER_NOT_FOUND:
+	return sched_e_trigger_not_found;
+case SCHED_E_TRIGGER_NOT_FOUND:
+	return sched_e_trigger_not_found;
+case SCHED_E_TRIGGER_NOT_FOUND:
+	return sched_e_trigger_not_found;
+case SCHED_E_TASK_NOT_READY:
+	return sched_e_task_not_ready;
+case SCHED_E_TASK_NOT_READY:
+	return sched_e_task_not_ready;
+case SCHED_E_TASK_NOT_READY:
+	return sched_e_task_not_ready;
+case SCHED_E_TASK_NOT_RUNNING:
+	return sched_e_task_not_running;
+case SCHED_E_TASK_NOT_RUNNING:
+	return sched_e_task_not_running;
+case SCHED_E_TASK_NOT_RUNNING:
+	return sched_e_task_not_running;
+case SCHED_E_SERVICE_NOT_INSTALLED:
+	return sched_e_service_not_installed;
+case SCHED_E_SERVICE_NOT_INSTALLED:
+	return sched_e_service_not_installed;
+case SCHED_E_SERVICE_NOT_INSTALLED:
+	return sched_e_service_not_installed;
+case SCHED_E_CANNOT_OPEN_TASK:
+	return sched_e_cannot_open_task;
+case SCHED_E_CANNOT_OPEN_TASK:
+	return sched_e_cannot_open_task;
+case SCHED_E_CANNOT_OPEN_TASK:
+	return sched_e_cannot_open_task;
+case SCHED_E_INVALID_TASK:
+	return sched_e_invalid_task;
+case SCHED_E_INVALID_TASK:
+	return sched_e_invalid_task;
+case SCHED_E_INVALID_TASK:
+	return sched_e_invalid_task;
+case SCHED_E_ACCOUNT_INFORMATION_NOT_SET:
+	return sched_e_account_information_not_set;
+case SCHED_E_ACCOUNT_INFORMATION_NOT_SET:
+	return sched_e_account_information_not_set;
+case SCHED_E_ACCOUNT_INFORMATION_NOT_SET:
+	return sched_e_account_information_not_set;
+case SCHED_E_ACCOUNT_NAME_NOT_FOUND:
+	return sched_e_account_name_not_found;
+case SCHED_E_ACCOUNT_NAME_NOT_FOUND:
+	return sched_e_account_name_not_found;
+case SCHED_E_ACCOUNT_NAME_NOT_FOUND:
+	return sched_e_account_name_not_found;
+case SCHED_E_ACCOUNT_DBASE_CORRUPT:
+	return sched_e_account_dbase_corrupt;
+case SCHED_E_ACCOUNT_DBASE_CORRUPT:
+	return sched_e_account_dbase_corrupt;
+case SCHED_E_ACCOUNT_DBASE_CORRUPT:
+	return sched_e_account_dbase_corrupt;
+case SCHED_E_NO_SECURITY_SERVICES:
+	return sched_e_no_security_services;
+case SCHED_E_NO_SECURITY_SERVICES:
+	return sched_e_no_security_services;
+case SCHED_E_NO_SECURITY_SERVICES:
+	return sched_e_no_security_services;
+case SCHED_E_UNKNOWN_OBJECT_VERSION:
+	return sched_e_unknown_object_version;
+case SCHED_E_UNKNOWN_OBJECT_VERSION:
+	return sched_e_unknown_object_version;
+case SCHED_E_UNKNOWN_OBJECT_VERSION:
+	return sched_e_unknown_object_version;
+case SCHED_E_UNSUPPORTED_ACCOUNT_OPTION:
+	return sched_e_unsupported_account_option;
+case SCHED_E_UNSUPPORTED_ACCOUNT_OPTION:
+	return sched_e_unsupported_account_option;
+case SCHED_E_UNSUPPORTED_ACCOUNT_OPTION:
+	return sched_e_unsupported_account_option;
+case SCHED_E_SERVICE_NOT_RUNNING:
+	return sched_e_service_not_running;
+case SCHED_E_SERVICE_NOT_RUNNING:
+	return sched_e_service_not_running;
+case SCHED_E_SERVICE_NOT_RUNNING:
+	return sched_e_service_not_running;
+case SCHED_E_UNEXPECTEDNODE:
+	return sched_e_unexpectednode;
+case SCHED_E_UNEXPECTEDNODE:
+	return sched_e_unexpectednode;
+case SCHED_E_UNEXPECTEDNODE:
+	return sched_e_unexpectednode;
+case SCHED_E_NAMESPACE:
+	return sched_e_namespace;
+case SCHED_E_NAMESPACE:
+	return sched_e_namespace;
+case SCHED_E_NAMESPACE:
+	return sched_e_namespace;
+case SCHED_E_INVALIDVALUE:
+	return sched_e_invalidvalue;
+case SCHED_E_INVALIDVALUE:
+	return sched_e_invalidvalue;
+case SCHED_E_INVALIDVALUE:
+	return sched_e_invalidvalue;
+case SCHED_E_MISSINGNODE:
+	return sched_e_missingnode;
+case SCHED_E_MISSINGNODE:
+	return sched_e_missingnode;
+case SCHED_E_MISSINGNODE:
+	return sched_e_missingnode;
+case SCHED_E_MALFORMEDXML:
+	return sched_e_malformedxml;
+case SCHED_E_MALFORMEDXML:
+	return sched_e_malformedxml;
+case SCHED_E_MALFORMEDXML:
+	return sched_e_malformedxml;
+case SCHED_E_TOO_MANY_NODES:
+	return sched_e_too_many_nodes;
+case SCHED_E_TOO_MANY_NODES:
+	return sched_e_too_many_nodes;
+case SCHED_E_TOO_MANY_NODES:
+	return sched_e_too_many_nodes;
+case SCHED_E_PAST_END_BOUNDARY:
+	return sched_e_past_end_boundary;
+case SCHED_E_PAST_END_BOUNDARY:
+	return sched_e_past_end_boundary;
+case SCHED_E_PAST_END_BOUNDARY:
+	return sched_e_past_end_boundary;
+case SCHED_E_ALREADY_RUNNING:
+	return sched_e_already_running;
+case SCHED_E_ALREADY_RUNNING:
+	return sched_e_already_running;
+case SCHED_E_ALREADY_RUNNING:
+	return sched_e_already_running;
+case SCHED_E_USER_NOT_LOGGED_ON:
+	return sched_e_user_not_logged_on;
+case SCHED_E_USER_NOT_LOGGED_ON:
+	return sched_e_user_not_logged_on;
+case SCHED_E_USER_NOT_LOGGED_ON:
+	return sched_e_user_not_logged_on;
+case SCHED_E_INVALID_TASK_HASH:
+	return sched_e_invalid_task_hash;
+case SCHED_E_INVALID_TASK_HASH:
+	return sched_e_invalid_task_hash;
+case SCHED_E_INVALID_TASK_HASH:
+	return sched_e_invalid_task_hash;
+case SCHED_E_SERVICE_NOT_AVAILABLE:
+	return sched_e_service_not_available;
+case SCHED_E_SERVICE_NOT_AVAILABLE:
+	return sched_e_service_not_available;
+case SCHED_E_SERVICE_NOT_AVAILABLE:
+	return sched_e_service_not_available;
+case SCHED_E_SERVICE_TOO_BUSY:
+	return sched_e_service_too_busy;
+case SCHED_E_SERVICE_TOO_BUSY:
+	return sched_e_service_too_busy;
+case SCHED_E_SERVICE_TOO_BUSY:
+	return sched_e_service_too_busy;
+case SCHED_E_TASK_ATTEMPTED:
+	return sched_e_task_attempted;
+case SCHED_E_TASK_ATTEMPTED:
+	return sched_e_task_attempted;
+case SCHED_E_TASK_ATTEMPTED:
+	return sched_e_task_attempted;
+case XACT_E_ALREADYOTHERSINGLEPHASE:
+	return xact_e_alreadyothersinglephase;
+case XACT_E_ALREADYOTHERSINGLEPHASE:
+	return xact_e_alreadyothersinglephase;
+case XACT_E_ALREADYOTHERSINGLEPHASE:
+	return xact_e_alreadyothersinglephase;
+case XACT_E_CANTRETAIN:
+	return xact_e_cantretain;
+case XACT_E_CANTRETAIN:
+	return xact_e_cantretain;
+case XACT_E_CANTRETAIN:
+	return xact_e_cantretain;
+case XACT_E_COMMITFAILED:
+	return xact_e_commitfailed;
+case XACT_E_COMMITFAILED:
+	return xact_e_commitfailed;
+case XACT_E_COMMITFAILED:
+	return xact_e_commitfailed;
+case XACT_E_COMMITPREVENTED:
+	return xact_e_commitprevented;
+case XACT_E_COMMITPREVENTED:
+	return xact_e_commitprevented;
+case XACT_E_COMMITPREVENTED:
+	return xact_e_commitprevented;
+case XACT_E_HEURISTICABORT:
+	return xact_e_heuristicabort;
+case XACT_E_HEURISTICABORT:
+	return xact_e_heuristicabort;
+case XACT_E_HEURISTICABORT:
+	return xact_e_heuristicabort;
+case XACT_E_HEURISTICCOMMIT:
+	return xact_e_heuristiccommit;
+case XACT_E_HEURISTICCOMMIT:
+	return xact_e_heuristiccommit;
+case XACT_E_HEURISTICCOMMIT:
+	return xact_e_heuristiccommit;
+case XACT_E_HEURISTICDAMAGE:
+	return xact_e_heuristicdamage;
+case XACT_E_HEURISTICDAMAGE:
+	return xact_e_heuristicdamage;
+case XACT_E_HEURISTICDAMAGE:
+	return xact_e_heuristicdamage;
+case XACT_E_HEURISTICDANGER:
+	return xact_e_heuristicdanger;
+case XACT_E_HEURISTICDANGER:
+	return xact_e_heuristicdanger;
+case XACT_E_HEURISTICDANGER:
+	return xact_e_heuristicdanger;
+case XACT_E_ISOLATIONLEVEL:
+	return xact_e_isolationlevel;
+case XACT_E_ISOLATIONLEVEL:
+	return xact_e_isolationlevel;
+case XACT_E_ISOLATIONLEVEL:
+	return xact_e_isolationlevel;
+case XACT_E_NOASYNC:
+	return xact_e_noasync;
+case XACT_E_NOASYNC:
+	return xact_e_noasync;
+case XACT_E_NOASYNC:
+	return xact_e_noasync;
+case XACT_E_NOENLIST:
+	return xact_e_noenlist;
+case XACT_E_NOENLIST:
+	return xact_e_noenlist;
+case XACT_E_NOENLIST:
+	return xact_e_noenlist;
+case XACT_E_NOISORETAIN:
+	return xact_e_noisoretain;
+case XACT_E_NOISORETAIN:
+	return xact_e_noisoretain;
+case XACT_E_NOISORETAIN:
+	return xact_e_noisoretain;
+case XACT_E_NORESOURCE:
+	return xact_e_noresource;
+case XACT_E_NORESOURCE:
+	return xact_e_noresource;
+case XACT_E_NORESOURCE:
+	return xact_e_noresource;
+case XACT_E_NOTCURRENT:
+	return xact_e_notcurrent;
+case XACT_E_NOTCURRENT:
+	return xact_e_notcurrent;
+case XACT_E_NOTCURRENT:
+	return xact_e_notcurrent;
+case XACT_E_NOTRANSACTION:
+	return xact_e_notransaction;
+case XACT_E_NOTRANSACTION:
+	return xact_e_notransaction;
+case XACT_E_NOTRANSACTION:
+	return xact_e_notransaction;
+case XACT_E_NOTSUPPORTED:
+	return xact_e_notsupported;
+case XACT_E_NOTSUPPORTED:
+	return xact_e_notsupported;
+case XACT_E_NOTSUPPORTED:
+	return xact_e_notsupported;
+case XACT_E_UNKNOWNRMGRID:
+	return xact_e_unknownrmgrid;
+case XACT_E_UNKNOWNRMGRID:
+	return xact_e_unknownrmgrid;
+case XACT_E_UNKNOWNRMGRID:
+	return xact_e_unknownrmgrid;
+case XACT_E_WRONGSTATE:
+	return xact_e_wrongstate;
+case XACT_E_WRONGSTATE:
+	return xact_e_wrongstate;
+case XACT_E_WRONGSTATE:
+	return xact_e_wrongstate;
+case XACT_E_WRONGUOW:
+	return xact_e_wronguow;
+case XACT_E_WRONGUOW:
+	return xact_e_wronguow;
+case XACT_E_WRONGUOW:
+	return xact_e_wronguow;
+case XACT_E_XTIONEXISTS:
+	return xact_e_xtionexists;
+case XACT_E_XTIONEXISTS:
+	return xact_e_xtionexists;
+case XACT_E_XTIONEXISTS:
+	return xact_e_xtionexists;
+case XACT_E_NOIMPORTOBJECT:
+	return xact_e_noimportobject;
+case XACT_E_NOIMPORTOBJECT:
+	return xact_e_noimportobject;
+case XACT_E_NOIMPORTOBJECT:
+	return xact_e_noimportobject;
+case XACT_E_INVALIDCOOKIE:
+	return xact_e_invalidcookie;
+case XACT_E_INVALIDCOOKIE:
+	return xact_e_invalidcookie;
+case XACT_E_INVALIDCOOKIE:
+	return xact_e_invalidcookie;
+case XACT_E_INDOUBT:
+	return xact_e_indoubt;
+case XACT_E_INDOUBT:
+	return xact_e_indoubt;
+case XACT_E_INDOUBT:
+	return xact_e_indoubt;
+case XACT_E_NOTIMEOUT:
+	return xact_e_notimeout;
+case XACT_E_NOTIMEOUT:
+	return xact_e_notimeout;
+case XACT_E_NOTIMEOUT:
+	return xact_e_notimeout;
+case XACT_E_ALREADYINPROGRESS:
+	return xact_e_alreadyinprogress;
+case XACT_E_ALREADYINPROGRESS:
+	return xact_e_alreadyinprogress;
+case XACT_E_ALREADYINPROGRESS:
+	return xact_e_alreadyinprogress;
+case XACT_E_ABORTED:
+	return xact_e_aborted;
+case XACT_E_ABORTED:
+	return xact_e_aborted;
+case XACT_E_ABORTED:
+	return xact_e_aborted;
+case XACT_E_LOGFULL:
+	return xact_e_logfull;
+case XACT_E_LOGFULL:
+	return xact_e_logfull;
+case XACT_E_LOGFULL:
+	return xact_e_logfull;
+case XACT_E_TMNOTAVAILABLE:
+	return xact_e_tmnotavailable;
+case XACT_E_TMNOTAVAILABLE:
+	return xact_e_tmnotavailable;
+case XACT_E_TMNOTAVAILABLE:
+	return xact_e_tmnotavailable;
+case XACT_E_CONNECTION_DOWN:
+	return xact_e_connection_down;
+case XACT_E_CONNECTION_DOWN:
+	return xact_e_connection_down;
+case XACT_E_CONNECTION_DOWN:
+	return xact_e_connection_down;
+case XACT_E_CONNECTION_DENIED:
+	return xact_e_connection_denied;
+case XACT_E_CONNECTION_DENIED:
+	return xact_e_connection_denied;
+case XACT_E_CONNECTION_DENIED:
+	return xact_e_connection_denied;
+case XACT_E_REENLISTTIMEOUT:
+	return xact_e_reenlisttimeout;
+case XACT_E_REENLISTTIMEOUT:
+	return xact_e_reenlisttimeout;
+case XACT_E_REENLISTTIMEOUT:
+	return xact_e_reenlisttimeout;
+case XACT_E_TIP_CONNECT_FAILED:
+	return xact_e_tip_connect_failed;
+case XACT_E_TIP_CONNECT_FAILED:
+	return xact_e_tip_connect_failed;
+case XACT_E_TIP_CONNECT_FAILED:
+	return xact_e_tip_connect_failed;
+case XACT_E_TIP_PROTOCOL_ERROR:
+	return xact_e_tip_protocol_error;
+case XACT_E_TIP_PROTOCOL_ERROR:
+	return xact_e_tip_protocol_error;
+case XACT_E_TIP_PROTOCOL_ERROR:
+	return xact_e_tip_protocol_error;
+case XACT_E_TIP_PULL_FAILED:
+	return xact_e_tip_pull_failed;
+case XACT_E_TIP_PULL_FAILED:
+	return xact_e_tip_pull_failed;
+case XACT_E_TIP_PULL_FAILED:
+	return xact_e_tip_pull_failed;
+case XACT_E_DEST_TMNOTAVAILABLE:
+	return xact_e_dest_tmnotavailable;
+case XACT_E_DEST_TMNOTAVAILABLE:
+	return xact_e_dest_tmnotavailable;
+case XACT_E_DEST_TMNOTAVAILABLE:
+	return xact_e_dest_tmnotavailable;
+case XACT_E_TIP_DISABLED:
+	return xact_e_tip_disabled;
+case XACT_E_TIP_DISABLED:
+	return xact_e_tip_disabled;
+case XACT_E_TIP_DISABLED:
+	return xact_e_tip_disabled;
+case XACT_E_NETWORK_TX_DISABLED:
+	return xact_e_network_tx_disabled;
+case XACT_E_NETWORK_TX_DISABLED:
+	return xact_e_network_tx_disabled;
+case XACT_E_NETWORK_TX_DISABLED:
+	return xact_e_network_tx_disabled;
+case XACT_E_PARTNER_NETWORK_TX_DISABLED:
+	return xact_e_partner_network_tx_disabled;
+case XACT_E_PARTNER_NETWORK_TX_DISABLED:
+	return xact_e_partner_network_tx_disabled;
+case XACT_E_PARTNER_NETWORK_TX_DISABLED:
+	return xact_e_partner_network_tx_disabled;
+case XACT_E_XA_TX_DISABLED:
+	return xact_e_xa_tx_disabled;
+case XACT_E_XA_TX_DISABLED:
+	return xact_e_xa_tx_disabled;
+case XACT_E_XA_TX_DISABLED:
+	return xact_e_xa_tx_disabled;
+case XACT_E_UNABLE_TO_READ_DTC_CONFIG:
+	return xact_e_unable_to_read_dtc_config;
+case XACT_E_UNABLE_TO_READ_DTC_CONFIG:
+	return xact_e_unable_to_read_dtc_config;
+case XACT_E_UNABLE_TO_READ_DTC_CONFIG:
+	return xact_e_unable_to_read_dtc_config;
+case XACT_E_UNABLE_TO_LOAD_DTC_PROXY:
+	return xact_e_unable_to_load_dtc_proxy;
+case XACT_E_UNABLE_TO_LOAD_DTC_PROXY:
+	return xact_e_unable_to_load_dtc_proxy;
+case XACT_E_UNABLE_TO_LOAD_DTC_PROXY:
+	return xact_e_unable_to_load_dtc_proxy;
+case XACT_E_ABORTING:
+	return xact_e_aborting;
+case XACT_E_ABORTING:
+	return xact_e_aborting;
+case XACT_E_ABORTING:
+	return xact_e_aborting;
+case XACT_E_CLERKNOTFOUND:
+	return xact_e_clerknotfound;
+case XACT_E_CLERKNOTFOUND:
+	return xact_e_clerknotfound;
+case XACT_E_CLERKNOTFOUND:
+	return xact_e_clerknotfound;
+case XACT_E_CLERKEXISTS:
+	return xact_e_clerkexists;
+case XACT_E_CLERKEXISTS:
+	return xact_e_clerkexists;
+case XACT_E_CLERKEXISTS:
+	return xact_e_clerkexists;
+case XACT_E_RECOVERYINPROGRESS:
+	return xact_e_recoveryinprogress;
+case XACT_E_RECOVERYINPROGRESS:
+	return xact_e_recoveryinprogress;
+case XACT_E_RECOVERYINPROGRESS:
+	return xact_e_recoveryinprogress;
+case XACT_E_TRANSACTIONCLOSED:
+	return xact_e_transactionclosed;
+case XACT_E_TRANSACTIONCLOSED:
+	return xact_e_transactionclosed;
+case XACT_E_TRANSACTIONCLOSED:
+	return xact_e_transactionclosed;
+case XACT_E_INVALIDLSN:
+	return xact_e_invalidlsn;
+case XACT_E_INVALIDLSN:
+	return xact_e_invalidlsn;
+case XACT_E_INVALIDLSN:
+	return xact_e_invalidlsn;
+case XACT_E_REPLAYREQUEST:
+	return xact_e_replayrequest;
+case XACT_E_REPLAYREQUEST:
+	return xact_e_replayrequest;
+case XACT_E_REPLAYREQUEST:
+	return xact_e_replayrequest;
+case XACT_E_CONNECTION_REQUEST_DENIED:
+	return xact_e_connection_request_denied;
+case XACT_E_CONNECTION_REQUEST_DENIED:
+	return xact_e_connection_request_denied;
+case XACT_E_CONNECTION_REQUEST_DENIED:
+	return xact_e_connection_request_denied;
+case XACT_E_TOOMANY_ENLISTMENTS:
+	return xact_e_toomany_enlistments;
+case XACT_E_TOOMANY_ENLISTMENTS:
+	return xact_e_toomany_enlistments;
+case XACT_E_TOOMANY_ENLISTMENTS:
+	return xact_e_toomany_enlistments;
+case XACT_E_DUPLICATE_GUID:
+	return xact_e_duplicate_guid;
+case XACT_E_DUPLICATE_GUID:
+	return xact_e_duplicate_guid;
+case XACT_E_DUPLICATE_GUID:
+	return xact_e_duplicate_guid;
+case XACT_E_NOTSINGLEPHASE:
+	return xact_e_notsinglephase;
+case XACT_E_NOTSINGLEPHASE:
+	return xact_e_notsinglephase;
+case XACT_E_NOTSINGLEPHASE:
+	return xact_e_notsinglephase;
+case XACT_E_RECOVERYALREADYDONE:
+	return xact_e_recoveryalreadydone;
+case XACT_E_RECOVERYALREADYDONE:
+	return xact_e_recoveryalreadydone;
+case XACT_E_RECOVERYALREADYDONE:
+	return xact_e_recoveryalreadydone;
+case XACT_E_PROTOCOL:
+	return xact_e_protocol;
+case XACT_E_PROTOCOL:
+	return xact_e_protocol;
+case XACT_E_PROTOCOL:
+	return xact_e_protocol;
+case XACT_E_RM_FAILURE:
+	return xact_e_rm_failure;
+case XACT_E_RM_FAILURE:
+	return xact_e_rm_failure;
+case XACT_E_RM_FAILURE:
+	return xact_e_rm_failure;
+case XACT_E_RECOVERY_FAILED:
+	return xact_e_recovery_failed;
+case XACT_E_RECOVERY_FAILED:
+	return xact_e_recovery_failed;
+case XACT_E_RECOVERY_FAILED:
+	return xact_e_recovery_failed;
+case XACT_E_LU_NOT_FOUND:
+	return xact_e_lu_not_found;
+case XACT_E_LU_NOT_FOUND:
+	return xact_e_lu_not_found;
+case XACT_E_LU_NOT_FOUND:
+	return xact_e_lu_not_found;
+case XACT_E_DUPLICATE_LU:
+	return xact_e_duplicate_lu;
+case XACT_E_DUPLICATE_LU:
+	return xact_e_duplicate_lu;
+case XACT_E_DUPLICATE_LU:
+	return xact_e_duplicate_lu;
+case XACT_E_LU_NOT_CONNECTED:
+	return xact_e_lu_not_connected;
+case XACT_E_LU_NOT_CONNECTED:
+	return xact_e_lu_not_connected;
+case XACT_E_LU_NOT_CONNECTED:
+	return xact_e_lu_not_connected;
+case XACT_E_DUPLICATE_TRANSID:
+	return xact_e_duplicate_transid;
+case XACT_E_DUPLICATE_TRANSID:
+	return xact_e_duplicate_transid;
+case XACT_E_DUPLICATE_TRANSID:
+	return xact_e_duplicate_transid;
+case XACT_E_LU_BUSY:
+	return xact_e_lu_busy;
+case XACT_E_LU_BUSY:
+	return xact_e_lu_busy;
+case XACT_E_LU_BUSY:
+	return xact_e_lu_busy;
+case XACT_E_LU_NO_RECOVERY_PROCESS:
+	return xact_e_lu_no_recovery_process;
+case XACT_E_LU_NO_RECOVERY_PROCESS:
+	return xact_e_lu_no_recovery_process;
+case XACT_E_LU_NO_RECOVERY_PROCESS:
+	return xact_e_lu_no_recovery_process;
+case XACT_E_LU_DOWN:
+	return xact_e_lu_down;
+case XACT_E_LU_DOWN:
+	return xact_e_lu_down;
+case XACT_E_LU_DOWN:
+	return xact_e_lu_down;
+case XACT_E_LU_RECOVERING:
+	return xact_e_lu_recovering;
+case XACT_E_LU_RECOVERING:
+	return xact_e_lu_recovering;
+case XACT_E_LU_RECOVERING:
+	return xact_e_lu_recovering;
+case XACT_E_LU_RECOVERY_MISMATCH:
+	return xact_e_lu_recovery_mismatch;
+case XACT_E_LU_RECOVERY_MISMATCH:
+	return xact_e_lu_recovery_mismatch;
+case XACT_E_LU_RECOVERY_MISMATCH:
+	return xact_e_lu_recovery_mismatch;
+case XACT_E_RM_UNAVAILABLE:
+	return xact_e_rm_unavailable;
+case XACT_E_RM_UNAVAILABLE:
+	return xact_e_rm_unavailable;
+case XACT_E_RM_UNAVAILABLE:
+	return xact_e_rm_unavailable;
+case CONTEXT_E_ABORTED:
+	return context_e_aborted;
+case CONTEXT_E_ABORTED:
+	return context_e_aborted;
+case CONTEXT_E_ABORTED:
+	return context_e_aborted;
+case CONTEXT_E_ABORTING:
+	return context_e_aborting;
+case CONTEXT_E_ABORTING:
+	return context_e_aborting;
+case CONTEXT_E_ABORTING:
+	return context_e_aborting;
+case CONTEXT_E_NOCONTEXT:
+	return context_e_nocontext;
+case CONTEXT_E_NOCONTEXT:
+	return context_e_nocontext;
+case CONTEXT_E_NOCONTEXT:
+	return context_e_nocontext;
+case CONTEXT_E_WOULD_DEADLOCK:
+	return context_e_would_deadlock;
+case CONTEXT_E_WOULD_DEADLOCK:
+	return context_e_would_deadlock;
+case CONTEXT_E_WOULD_DEADLOCK:
+	return context_e_would_deadlock;
+case CONTEXT_E_SYNCH_TIMEOUT:
+	return context_e_synch_timeout;
+case CONTEXT_E_SYNCH_TIMEOUT:
+	return context_e_synch_timeout;
+case CONTEXT_E_SYNCH_TIMEOUT:
+	return context_e_synch_timeout;
+case CONTEXT_E_OLDREF:
+	return context_e_oldref;
+case CONTEXT_E_OLDREF:
+	return context_e_oldref;
+case CONTEXT_E_OLDREF:
+	return context_e_oldref;
+case CONTEXT_E_ROLENOTFOUND:
+	return context_e_rolenotfound;
+case CONTEXT_E_ROLENOTFOUND:
+	return context_e_rolenotfound;
+case CONTEXT_E_ROLENOTFOUND:
+	return context_e_rolenotfound;
+case CONTEXT_E_TMNOTAVAILABLE:
+	return context_e_tmnotavailable;
+case CONTEXT_E_TMNOTAVAILABLE:
+	return context_e_tmnotavailable;
+case CONTEXT_E_TMNOTAVAILABLE:
+	return context_e_tmnotavailable;
+case CO_E_ACTIVATIONFAILED:
+	return co_e_activationfailed;
+case CO_E_ACTIVATIONFAILED:
+	return co_e_activationfailed;
+case CO_E_ACTIVATIONFAILED:
+	return co_e_activationfailed;
+case CO_E_ACTIVATIONFAILED_EVENTLOGGED:
+	return co_e_activationfailed_eventlogged;
+case CO_E_ACTIVATIONFAILED_EVENTLOGGED:
+	return co_e_activationfailed_eventlogged;
+case CO_E_ACTIVATIONFAILED_EVENTLOGGED:
+	return co_e_activationfailed_eventlogged;
+case CO_E_ACTIVATIONFAILED_CATALOGERROR:
+	return co_e_activationfailed_catalogerror;
+case CO_E_ACTIVATIONFAILED_CATALOGERROR:
+	return co_e_activationfailed_catalogerror;
+case CO_E_ACTIVATIONFAILED_CATALOGERROR:
+	return co_e_activationfailed_catalogerror;
+case CO_E_ACTIVATIONFAILED_TIMEOUT:
+	return co_e_activationfailed_timeout;
+case CO_E_ACTIVATIONFAILED_TIMEOUT:
+	return co_e_activationfailed_timeout;
+case CO_E_ACTIVATIONFAILED_TIMEOUT:
+	return co_e_activationfailed_timeout;
+case CO_E_INITIALIZATIONFAILED:
+	return co_e_initializationfailed;
+case CO_E_INITIALIZATIONFAILED:
+	return co_e_initializationfailed;
+case CO_E_INITIALIZATIONFAILED:
+	return co_e_initializationfailed;
+case CONTEXT_E_NOJIT:
+	return context_e_nojit;
+case CONTEXT_E_NOJIT:
+	return context_e_nojit;
+case CONTEXT_E_NOJIT:
+	return context_e_nojit;
+case CONTEXT_E_NOTRANSACTION:
+	return context_e_notransaction;
+case CONTEXT_E_NOTRANSACTION:
+	return context_e_notransaction;
+case CONTEXT_E_NOTRANSACTION:
+	return context_e_notransaction;
+case CO_E_THREADINGMODEL_CHANGED:
+	return co_e_threadingmodel_changed;
+case CO_E_THREADINGMODEL_CHANGED:
+	return co_e_threadingmodel_changed;
+case CO_E_THREADINGMODEL_CHANGED:
+	return co_e_threadingmodel_changed;
+case CO_E_NOIISINTRINSICS:
+	return co_e_noiisintrinsics;
+case CO_E_NOIISINTRINSICS:
+	return co_e_noiisintrinsics;
+case CO_E_NOIISINTRINSICS:
+	return co_e_noiisintrinsics;
+case CO_E_NOCOOKIES:
+	return co_e_nocookies;
+case CO_E_NOCOOKIES:
+	return co_e_nocookies;
+case CO_E_NOCOOKIES:
+	return co_e_nocookies;
+case CO_E_DBERROR:
+	return co_e_dberror;
+case CO_E_DBERROR:
+	return co_e_dberror;
+case CO_E_DBERROR:
+	return co_e_dberror;
+case CO_E_NOTPOOLED:
+	return co_e_notpooled;
+case CO_E_NOTPOOLED:
+	return co_e_notpooled;
+case CO_E_NOTPOOLED:
+	return co_e_notpooled;
+case CO_E_NOTCONSTRUCTED:
+	return co_e_notconstructed;
+case CO_E_NOTCONSTRUCTED:
+	return co_e_notconstructed;
+case CO_E_NOTCONSTRUCTED:
+	return co_e_notconstructed;
+case CO_E_NOSYNCHRONIZATION:
+	return co_e_nosynchronization;
+case CO_E_NOSYNCHRONIZATION:
+	return co_e_nosynchronization;
+case CO_E_NOSYNCHRONIZATION:
+	return co_e_nosynchronization;
+case CO_E_ISOLEVELMISMATCH:
+	return co_e_isolevelmismatch;
+case CO_E_ISOLEVELMISMATCH:
+	return co_e_isolevelmismatch;
+case CO_E_ISOLEVELMISMATCH:
+	return co_e_isolevelmismatch;
+case CO_E_CALL_OUT_OF_TX_SCOPE_NOT_ALLOWED:
+	return co_e_call_out_of_tx_scope_not_allowed;
+case CO_E_CALL_OUT_OF_TX_SCOPE_NOT_ALLOWED:
+	return co_e_call_out_of_tx_scope_not_allowed;
+case CO_E_CALL_OUT_OF_TX_SCOPE_NOT_ALLOWED:
+	return co_e_call_out_of_tx_scope_not_allowed;
+case CO_E_EXIT_TRANSACTION_SCOPE_NOT_CALLED:
+	return co_e_exit_transaction_scope_not_called;
+case CO_E_EXIT_TRANSACTION_SCOPE_NOT_CALLED:
+	return co_e_exit_transaction_scope_not_called;
+case CO_E_EXIT_TRANSACTION_SCOPE_NOT_CALLED:
+	return co_e_exit_transaction_scope_not_called;
+case E_ACCESSDENIED:
+	return e_accessdenied;
+case E_ACCESSDENIED:
+	return e_accessdenied;
+case E_ACCESSDENIED:
+	return e_accessdenied;
+case E_OUTOFMEMORY:
+	return e_outofmemory;
+case E_OUTOFMEMORY:
+	return e_outofmemory;
+case E_OUTOFMEMORY:
+	return e_outofmemory;
+case ERROR_NOT_SUPPORTED:
+	return error_not_supported;
+case ERROR_NOT_SUPPORTED:
+	return error_not_supported;
+case ERROR_NOT_SUPPORTED:
+	return error_not_supported;
+case E_INVALIDARG:
+	return e_invalidarg;
+case E_INVALIDARG:
+	return e_invalidarg;
+case E_INVALIDARG:
+	return e_invalidarg;
+case ERROR_DISK_FULL:
+	return error_disk_full;
+case ERROR_DISK_FULL:
+	return error_disk_full;
+case ERROR_DISK_FULL:
+	return error_disk_full;
+case CO_E_CLASS_CREATE_FAILED:
+	return co_e_class_create_failed;
+case CO_E_CLASS_CREATE_FAILED:
+	return co_e_class_create_failed;
+case CO_E_CLASS_CREATE_FAILED:
+	return co_e_class_create_failed;
+case CO_E_SCM_ERROR:
+	return co_e_scm_error;
+case CO_E_SCM_ERROR:
+	return co_e_scm_error;
+case CO_E_SCM_ERROR:
+	return co_e_scm_error;
+case CO_E_SCM_RPC_FAILURE:
+	return co_e_scm_rpc_failure;
+case CO_E_SCM_RPC_FAILURE:
+	return co_e_scm_rpc_failure;
+case CO_E_SCM_RPC_FAILURE:
+	return co_e_scm_rpc_failure;
+case CO_E_BAD_PATH:
+	return co_e_bad_path;
+case CO_E_BAD_PATH:
+	return co_e_bad_path;
+case CO_E_BAD_PATH:
+	return co_e_bad_path;
+case CO_E_SERVER_EXEC_FAILURE:
+	return co_e_server_exec_failure;
+case CO_E_SERVER_EXEC_FAILURE:
+	return co_e_server_exec_failure;
+case CO_E_SERVER_EXEC_FAILURE:
+	return co_e_server_exec_failure;
+case CO_E_OBJSRV_RPC_FAILURE:
+	return co_e_objsrv_rpc_failure;
+case CO_E_OBJSRV_RPC_FAILURE:
+	return co_e_objsrv_rpc_failure;
+case CO_E_OBJSRV_RPC_FAILURE:
+	return co_e_objsrv_rpc_failure;
+case MK_E_NO_NORMALIZED:
+	return mk_e_no_normalized;
+case MK_E_NO_NORMALIZED:
+	return mk_e_no_normalized;
+case MK_E_NO_NORMALIZED:
+	return mk_e_no_normalized;
+case CO_E_SERVER_STOPPING:
+	return co_e_server_stopping;
+case CO_E_SERVER_STOPPING:
+	return co_e_server_stopping;
+case CO_E_SERVER_STOPPING:
+	return co_e_server_stopping;
+case MEM_E_INVALID_ROOT:
+	return mem_e_invalid_root;
+case MEM_E_INVALID_ROOT:
+	return mem_e_invalid_root;
+case MEM_E_INVALID_ROOT:
+	return mem_e_invalid_root;
+case MEM_E_INVALID_LINK:
+	return mem_e_invalid_link;
+case MEM_E_INVALID_LINK:
+	return mem_e_invalid_link;
+case MEM_E_INVALID_LINK:
+	return mem_e_invalid_link;
+case MEM_E_INVALID_SIZE:
+	return mem_e_invalid_size;
+case MEM_E_INVALID_SIZE:
+	return mem_e_invalid_size;
+case MEM_E_INVALID_SIZE:
+	return mem_e_invalid_size;
+case CO_E_MISSING_DISPLAYNAME:
+	return co_e_missing_displayname;
+case CO_E_MISSING_DISPLAYNAME:
+	return co_e_missing_displayname;
+case CO_E_MISSING_DISPLAYNAME:
+	return co_e_missing_displayname;
+case CO_E_RUNAS_VALUE_MUST_BE_AAA:
+	return co_e_runas_value_must_be_aaa;
+case CO_E_RUNAS_VALUE_MUST_BE_AAA:
+	return co_e_runas_value_must_be_aaa;
+case CO_E_RUNAS_VALUE_MUST_BE_AAA:
+	return co_e_runas_value_must_be_aaa;
+case CO_E_ELEVATION_DISABLED:
+	return co_e_elevation_disabled;
+case CO_E_ELEVATION_DISABLED:
+	return co_e_elevation_disabled;
+case CO_E_ELEVATION_DISABLED:
+	return co_e_elevation_disabled;
+case NTE_BAD_UID:
+	return nte_bad_uid;
+case NTE_BAD_UID:
+	return nte_bad_uid;
+case NTE_BAD_UID:
+	return nte_bad_uid;
+case NTE_BAD_HASH:
+	return nte_bad_hash;
+case NTE_BAD_HASH:
+	return nte_bad_hash;
+case NTE_BAD_HASH:
+	return nte_bad_hash;
+case NTE_BAD_KEY:
+	return nte_bad_key;
+case NTE_BAD_KEY:
+	return nte_bad_key;
+case NTE_BAD_KEY:
+	return nte_bad_key;
+case NTE_BAD_LEN:
+	return nte_bad_len;
+case NTE_BAD_LEN:
+	return nte_bad_len;
+case NTE_BAD_LEN:
+	return nte_bad_len;
+case NTE_BAD_DATA:
+	return nte_bad_data;
+case NTE_BAD_DATA:
+	return nte_bad_data;
+case NTE_BAD_DATA:
+	return nte_bad_data;
+case NTE_BAD_SIGNATURE:
+	return nte_bad_signature;
+case NTE_BAD_SIGNATURE:
+	return nte_bad_signature;
+case NTE_BAD_SIGNATURE:
+	return nte_bad_signature;
+case NTE_BAD_VER:
+	return nte_bad_ver;
+case NTE_BAD_VER:
+	return nte_bad_ver;
+case NTE_BAD_VER:
+	return nte_bad_ver;
+case NTE_BAD_ALGID:
+	return nte_bad_algid;
+case NTE_BAD_ALGID:
+	return nte_bad_algid;
+case NTE_BAD_ALGID:
+	return nte_bad_algid;
+case NTE_BAD_FLAGS:
+	return nte_bad_flags;
+case NTE_BAD_FLAGS:
+	return nte_bad_flags;
+case NTE_BAD_FLAGS:
+	return nte_bad_flags;
+case NTE_BAD_TYPE:
+	return nte_bad_type;
+case NTE_BAD_TYPE:
+	return nte_bad_type;
+case NTE_BAD_TYPE:
+	return nte_bad_type;
+case NTE_BAD_KEY_STATE:
+	return nte_bad_key_state;
+case NTE_BAD_KEY_STATE:
+	return nte_bad_key_state;
+case NTE_BAD_KEY_STATE:
+	return nte_bad_key_state;
+case NTE_BAD_HASH_STATE:
+	return nte_bad_hash_state;
+case NTE_BAD_HASH_STATE:
+	return nte_bad_hash_state;
+case NTE_BAD_HASH_STATE:
+	return nte_bad_hash_state;
+case NTE_NO_KEY:
+	return nte_no_key;
+case NTE_NO_KEY:
+	return nte_no_key;
+case NTE_NO_KEY:
+	return nte_no_key;
+case NTE_NO_MEMORY:
+	return nte_no_memory;
+case NTE_NO_MEMORY:
+	return nte_no_memory;
+case NTE_NO_MEMORY:
+	return nte_no_memory;
+case NTE_EXISTS:
+	return nte_exists;
+case NTE_EXISTS:
+	return nte_exists;
+case NTE_EXISTS:
+	return nte_exists;
+case NTE_PERM:
+	return nte_perm;
+case NTE_PERM:
+	return nte_perm;
+case NTE_PERM:
+	return nte_perm;
+case NTE_NOT_FOUND:
+	return nte_not_found;
+case NTE_NOT_FOUND:
+	return nte_not_found;
+case NTE_NOT_FOUND:
+	return nte_not_found;
+case NTE_DOUBLE_ENCRYPT:
+	return nte_double_encrypt;
+case NTE_DOUBLE_ENCRYPT:
+	return nte_double_encrypt;
+case NTE_DOUBLE_ENCRYPT:
+	return nte_double_encrypt;
+case NTE_BAD_PROVIDER:
+	return nte_bad_provider;
+case NTE_BAD_PROVIDER:
+	return nte_bad_provider;
+case NTE_BAD_PROVIDER:
+	return nte_bad_provider;
+case NTE_BAD_PROV_TYPE:
+	return nte_bad_prov_type;
+case NTE_BAD_PROV_TYPE:
+	return nte_bad_prov_type;
+case NTE_BAD_PROV_TYPE:
+	return nte_bad_prov_type;
+case NTE_BAD_PUBLIC_KEY:
+	return nte_bad_public_key;
+case NTE_BAD_PUBLIC_KEY:
+	return nte_bad_public_key;
+case NTE_BAD_PUBLIC_KEY:
+	return nte_bad_public_key;
+case NTE_BAD_KEYSET:
+	return nte_bad_keyset;
+case NTE_BAD_KEYSET:
+	return nte_bad_keyset;
+case NTE_BAD_KEYSET:
+	return nte_bad_keyset;
+case NTE_PROV_TYPE_NOT_DEF:
+	return nte_prov_type_not_def;
+case NTE_PROV_TYPE_NOT_DEF:
+	return nte_prov_type_not_def;
+case NTE_PROV_TYPE_NOT_DEF:
+	return nte_prov_type_not_def;
+case NTE_PROV_TYPE_ENTRY_BAD:
+	return nte_prov_type_entry_bad;
+case NTE_PROV_TYPE_ENTRY_BAD:
+	return nte_prov_type_entry_bad;
+case NTE_PROV_TYPE_ENTRY_BAD:
+	return nte_prov_type_entry_bad;
+case NTE_KEYSET_NOT_DEF:
+	return nte_keyset_not_def;
+case NTE_KEYSET_NOT_DEF:
+	return nte_keyset_not_def;
+case NTE_KEYSET_NOT_DEF:
+	return nte_keyset_not_def;
+case NTE_KEYSET_ENTRY_BAD:
+	return nte_keyset_entry_bad;
+case NTE_KEYSET_ENTRY_BAD:
+	return nte_keyset_entry_bad;
+case NTE_KEYSET_ENTRY_BAD:
+	return nte_keyset_entry_bad;
+case NTE_PROV_TYPE_NO_MATCH:
+	return nte_prov_type_no_match;
+case NTE_PROV_TYPE_NO_MATCH:
+	return nte_prov_type_no_match;
+case NTE_PROV_TYPE_NO_MATCH:
+	return nte_prov_type_no_match;
+case NTE_SIGNATURE_FILE_BAD:
+	return nte_signature_file_bad;
+case NTE_SIGNATURE_FILE_BAD:
+	return nte_signature_file_bad;
+case NTE_SIGNATURE_FILE_BAD:
+	return nte_signature_file_bad;
+case NTE_PROVIDER_DLL_FAIL:
+	return nte_provider_dll_fail;
+case NTE_PROVIDER_DLL_FAIL:
+	return nte_provider_dll_fail;
+case NTE_PROVIDER_DLL_FAIL:
+	return nte_provider_dll_fail;
+case NTE_PROV_DLL_NOT_FOUND:
+	return nte_prov_dll_not_found;
+case NTE_PROV_DLL_NOT_FOUND:
+	return nte_prov_dll_not_found;
+case NTE_PROV_DLL_NOT_FOUND:
+	return nte_prov_dll_not_found;
+case NTE_BAD_KEYSET_PARAM:
+	return nte_bad_keyset_param;
+case NTE_BAD_KEYSET_PARAM:
+	return nte_bad_keyset_param;
+case NTE_BAD_KEYSET_PARAM:
+	return nte_bad_keyset_param;
+case NTE_FAIL:
+	return nte_fail;
+case NTE_FAIL:
+	return nte_fail;
+case NTE_FAIL:
+	return nte_fail;
+case NTE_SYS_ERR:
+	return nte_sys_err;
+case NTE_SYS_ERR:
+	return nte_sys_err;
+case NTE_SYS_ERR:
+	return nte_sys_err;
+case NTE_SILENT_CONTEXT:
+	return nte_silent_context;
+case NTE_SILENT_CONTEXT:
+	return nte_silent_context;
+case NTE_SILENT_CONTEXT:
+	return nte_silent_context;
+case NTE_TOKEN_KEYSET_STORAGE_FULL:
+	return nte_token_keyset_storage_full;
+case NTE_TOKEN_KEYSET_STORAGE_FULL:
+	return nte_token_keyset_storage_full;
+case NTE_TOKEN_KEYSET_STORAGE_FULL:
+	return nte_token_keyset_storage_full;
+case NTE_TEMPORARY_PROFILE:
+	return nte_temporary_profile;
+case NTE_TEMPORARY_PROFILE:
+	return nte_temporary_profile;
+case NTE_TEMPORARY_PROFILE:
+	return nte_temporary_profile;
+case NTE_FIXEDPARAMETER:
+	return nte_fixedparameter;
+case NTE_FIXEDPARAMETER:
+	return nte_fixedparameter;
+case NTE_FIXEDPARAMETER:
+	return nte_fixedparameter;
+case NTE_INVALID_HANDLE:
+	return nte_invalid_handle;
+case NTE_INVALID_HANDLE:
+	return nte_invalid_handle;
+case NTE_INVALID_HANDLE:
+	return nte_invalid_handle;
+case NTE_INVALID_PARAMETER:
+	return nte_invalid_parameter;
+case NTE_INVALID_PARAMETER:
+	return nte_invalid_parameter;
+case NTE_INVALID_PARAMETER:
+	return nte_invalid_parameter;
+case NTE_BUFFER_TOO_SMALL:
+	return nte_buffer_too_small;
+case NTE_BUFFER_TOO_SMALL:
+	return nte_buffer_too_small;
+case NTE_BUFFER_TOO_SMALL:
+	return nte_buffer_too_small;
+case NTE_NOT_SUPPORTED:
+	return nte_not_supported;
+case NTE_NOT_SUPPORTED:
+	return nte_not_supported;
+case NTE_NOT_SUPPORTED:
+	return nte_not_supported;
+case NTE_NO_MORE_ITEMS:
+	return nte_no_more_items;
+case NTE_NO_MORE_ITEMS:
+	return nte_no_more_items;
+case NTE_NO_MORE_ITEMS:
+	return nte_no_more_items;
+case NTE_BUFFERS_OVERLAP:
+	return nte_buffers_overlap;
+case NTE_BUFFERS_OVERLAP:
+	return nte_buffers_overlap;
+case NTE_BUFFERS_OVERLAP:
+	return nte_buffers_overlap;
+case NTE_DECRYPTION_FAILURE:
+	return nte_decryption_failure;
+case NTE_DECRYPTION_FAILURE:
+	return nte_decryption_failure;
+case NTE_DECRYPTION_FAILURE:
+	return nte_decryption_failure;
+case NTE_INTERNAL_ERROR:
+	return nte_internal_error;
+case NTE_INTERNAL_ERROR:
+	return nte_internal_error;
+case NTE_INTERNAL_ERROR:
+	return nte_internal_error;
+case NTE_UI_REQUIRED:
+	return nte_ui_required;
+case NTE_UI_REQUIRED:
+	return nte_ui_required;
+case NTE_UI_REQUIRED:
+	return nte_ui_required;
+case NTE_HMAC_NOT_SUPPORTED:
+	return nte_hmac_not_supported;
+case NTE_HMAC_NOT_SUPPORTED:
+	return nte_hmac_not_supported;
+case NTE_HMAC_NOT_SUPPORTED:
+	return nte_hmac_not_supported;
+case SEC_E_INSUFFICIENT_MEMORY:
+	return sec_e_insufficient_memory;
+case SEC_E_INSUFFICIENT_MEMORY:
+	return sec_e_insufficient_memory;
+case SEC_E_INSUFFICIENT_MEMORY:
+	return sec_e_insufficient_memory;
+case SEC_E_INVALID_HANDLE:
+	return sec_e_invalid_handle;
+case SEC_E_INVALID_HANDLE:
+	return sec_e_invalid_handle;
+case SEC_E_INVALID_HANDLE:
+	return sec_e_invalid_handle;
+case SEC_E_UNSUPPORTED_FUNCTION:
+	return sec_e_unsupported_function;
+case SEC_E_UNSUPPORTED_FUNCTION:
+	return sec_e_unsupported_function;
+case SEC_E_UNSUPPORTED_FUNCTION:
+	return sec_e_unsupported_function;
+case SEC_E_TARGET_UNKNOWN:
+	return sec_e_target_unknown;
+case SEC_E_TARGET_UNKNOWN:
+	return sec_e_target_unknown;
+case SEC_E_TARGET_UNKNOWN:
+	return sec_e_target_unknown;
+case SEC_E_INTERNAL_ERROR:
+	return sec_e_internal_error;
+case SEC_E_INTERNAL_ERROR:
+	return sec_e_internal_error;
+case SEC_E_INTERNAL_ERROR:
+	return sec_e_internal_error;
+case SEC_E_SECPKG_NOT_FOUND:
+	return sec_e_secpkg_not_found;
+case SEC_E_SECPKG_NOT_FOUND:
+	return sec_e_secpkg_not_found;
+case SEC_E_SECPKG_NOT_FOUND:
+	return sec_e_secpkg_not_found;
+case SEC_E_NOT_OWNER:
+	return sec_e_not_owner;
+case SEC_E_NOT_OWNER:
+	return sec_e_not_owner;
+case SEC_E_NOT_OWNER:
+	return sec_e_not_owner;
+case SEC_E_CANNOT_INSTALL:
+	return sec_e_cannot_install;
+case SEC_E_CANNOT_INSTALL:
+	return sec_e_cannot_install;
+case SEC_E_CANNOT_INSTALL:
+	return sec_e_cannot_install;
+case SEC_E_INVALID_TOKEN:
+	return sec_e_invalid_token;
+case SEC_E_INVALID_TOKEN:
+	return sec_e_invalid_token;
+case SEC_E_INVALID_TOKEN:
+	return sec_e_invalid_token;
+case SEC_E_CANNOT_PACK:
+	return sec_e_cannot_pack;
+case SEC_E_CANNOT_PACK:
+	return sec_e_cannot_pack;
+case SEC_E_CANNOT_PACK:
+	return sec_e_cannot_pack;
+case SEC_E_QOP_NOT_SUPPORTED:
+	return sec_e_qop_not_supported;
+case SEC_E_QOP_NOT_SUPPORTED:
+	return sec_e_qop_not_supported;
+case SEC_E_QOP_NOT_SUPPORTED:
+	return sec_e_qop_not_supported;
+case SEC_E_NO_IMPERSONATION:
+	return sec_e_no_impersonation;
+case SEC_E_NO_IMPERSONATION:
+	return sec_e_no_impersonation;
+case SEC_E_NO_IMPERSONATION:
+	return sec_e_no_impersonation;
+case SEC_E_LOGON_DENIED:
+	return sec_e_logon_denied;
+case SEC_E_LOGON_DENIED:
+	return sec_e_logon_denied;
+case SEC_E_LOGON_DENIED:
+	return sec_e_logon_denied;
+case SEC_E_UNKNOWN_CREDENTIALS:
+	return sec_e_unknown_credentials;
+case SEC_E_UNKNOWN_CREDENTIALS:
+	return sec_e_unknown_credentials;
+case SEC_E_UNKNOWN_CREDENTIALS:
+	return sec_e_unknown_credentials;
+case SEC_E_NO_CREDENTIALS:
+	return sec_e_no_credentials;
+case SEC_E_NO_CREDENTIALS:
+	return sec_e_no_credentials;
+case SEC_E_NO_CREDENTIALS:
+	return sec_e_no_credentials;
+case SEC_E_MESSAGE_ALTERED:
+	return sec_e_message_altered;
+case SEC_E_MESSAGE_ALTERED:
+	return sec_e_message_altered;
+case SEC_E_MESSAGE_ALTERED:
+	return sec_e_message_altered;
+case SEC_E_OUT_OF_SEQUENCE:
+	return sec_e_out_of_sequence;
+case SEC_E_OUT_OF_SEQUENCE:
+	return sec_e_out_of_sequence;
+case SEC_E_OUT_OF_SEQUENCE:
+	return sec_e_out_of_sequence;
+case SEC_E_NO_AUTHENTICATING_AUTHORITY:
+	return sec_e_no_authenticating_authority;
+case SEC_E_NO_AUTHENTICATING_AUTHORITY:
+	return sec_e_no_authenticating_authority;
+case SEC_E_NO_AUTHENTICATING_AUTHORITY:
+	return sec_e_no_authenticating_authority;
+case SEC_E_BAD_PKGID:
+	return sec_e_bad_pkgid;
+case SEC_E_BAD_PKGID:
+	return sec_e_bad_pkgid;
+case SEC_E_BAD_PKGID:
+	return sec_e_bad_pkgid;
+case SEC_E_CONTEXT_EXPIRED:
+	return sec_e_context_expired;
+case SEC_E_CONTEXT_EXPIRED:
+	return sec_e_context_expired;
+case SEC_E_CONTEXT_EXPIRED:
+	return sec_e_context_expired;
+case SEC_E_INCOMPLETE_MESSAGE:
+	return sec_e_incomplete_message;
+case SEC_E_INCOMPLETE_MESSAGE:
+	return sec_e_incomplete_message;
+case SEC_E_INCOMPLETE_MESSAGE:
+	return sec_e_incomplete_message;
+case SEC_E_INCOMPLETE_CREDENTIALS:
+	return sec_e_incomplete_credentials;
+case SEC_E_INCOMPLETE_CREDENTIALS:
+	return sec_e_incomplete_credentials;
+case SEC_E_INCOMPLETE_CREDENTIALS:
+	return sec_e_incomplete_credentials;
+case SEC_E_BUFFER_TOO_SMALL:
+	return sec_e_buffer_too_small;
+case SEC_E_BUFFER_TOO_SMALL:
+	return sec_e_buffer_too_small;
+case SEC_E_BUFFER_TOO_SMALL:
+	return sec_e_buffer_too_small;
+case SEC_E_WRONG_PRINCIPAL:
+	return sec_e_wrong_principal;
+case SEC_E_WRONG_PRINCIPAL:
+	return sec_e_wrong_principal;
+case SEC_E_WRONG_PRINCIPAL:
+	return sec_e_wrong_principal;
+case SEC_E_TIME_SKEW:
+	return sec_e_time_skew;
+case SEC_E_TIME_SKEW:
+	return sec_e_time_skew;
+case SEC_E_TIME_SKEW:
+	return sec_e_time_skew;
+case SEC_E_UNTRUSTED_ROOT:
+	return sec_e_untrusted_root;
+case SEC_E_UNTRUSTED_ROOT:
+	return sec_e_untrusted_root;
+case SEC_E_UNTRUSTED_ROOT:
+	return sec_e_untrusted_root;
+case SEC_E_ILLEGAL_MESSAGE:
+	return sec_e_illegal_message;
+case SEC_E_ILLEGAL_MESSAGE:
+	return sec_e_illegal_message;
+case SEC_E_ILLEGAL_MESSAGE:
+	return sec_e_illegal_message;
+case SEC_E_CERT_UNKNOWN:
+	return sec_e_cert_unknown;
+case SEC_E_CERT_UNKNOWN:
+	return sec_e_cert_unknown;
+case SEC_E_CERT_UNKNOWN:
+	return sec_e_cert_unknown;
+case SEC_E_CERT_EXPIRED:
+	return sec_e_cert_expired;
+case SEC_E_CERT_EXPIRED:
+	return sec_e_cert_expired;
+case SEC_E_CERT_EXPIRED:
+	return sec_e_cert_expired;
+case SEC_E_ENCRYPT_FAILURE:
+	return sec_e_encrypt_failure;
+case SEC_E_ENCRYPT_FAILURE:
+	return sec_e_encrypt_failure;
+case SEC_E_ENCRYPT_FAILURE:
+	return sec_e_encrypt_failure;
+case SEC_E_DECRYPT_FAILURE:
+	return sec_e_decrypt_failure;
+case SEC_E_DECRYPT_FAILURE:
+	return sec_e_decrypt_failure;
+case SEC_E_DECRYPT_FAILURE:
+	return sec_e_decrypt_failure;
+case SEC_E_ALGORITHM_MISMATCH:
+	return sec_e_algorithm_mismatch;
+case SEC_E_ALGORITHM_MISMATCH:
+	return sec_e_algorithm_mismatch;
+case SEC_E_ALGORITHM_MISMATCH:
+	return sec_e_algorithm_mismatch;
+case SEC_E_SECURITY_QOS_FAILED:
+	return sec_e_security_qos_failed;
+case SEC_E_SECURITY_QOS_FAILED:
+	return sec_e_security_qos_failed;
+case SEC_E_SECURITY_QOS_FAILED:
+	return sec_e_security_qos_failed;
+case SEC_E_UNFINISHED_CONTEXT_DELETED:
+	return sec_e_unfinished_context_deleted;
+case SEC_E_UNFINISHED_CONTEXT_DELETED:
+	return sec_e_unfinished_context_deleted;
+case SEC_E_UNFINISHED_CONTEXT_DELETED:
+	return sec_e_unfinished_context_deleted;
+case SEC_E_NO_TGT_REPLY:
+	return sec_e_no_tgt_reply;
+case SEC_E_NO_TGT_REPLY:
+	return sec_e_no_tgt_reply;
+case SEC_E_NO_TGT_REPLY:
+	return sec_e_no_tgt_reply;
+case SEC_E_NO_IP_ADDRESSES:
+	return sec_e_no_ip_addresses;
+case SEC_E_NO_IP_ADDRESSES:
+	return sec_e_no_ip_addresses;
+case SEC_E_NO_IP_ADDRESSES:
+	return sec_e_no_ip_addresses;
+case SEC_E_WRONG_CREDENTIAL_HANDLE:
+	return sec_e_wrong_credential_handle;
+case SEC_E_WRONG_CREDENTIAL_HANDLE:
+	return sec_e_wrong_credential_handle;
+case SEC_E_WRONG_CREDENTIAL_HANDLE:
+	return sec_e_wrong_credential_handle;
+case SEC_E_CRYPTO_SYSTEM_INVALID:
+	return sec_e_crypto_system_invalid;
+case SEC_E_CRYPTO_SYSTEM_INVALID:
+	return sec_e_crypto_system_invalid;
+case SEC_E_CRYPTO_SYSTEM_INVALID:
+	return sec_e_crypto_system_invalid;
+case SEC_E_MAX_REFERRALS_EXCEEDED:
+	return sec_e_max_referrals_exceeded;
+case SEC_E_MAX_REFERRALS_EXCEEDED:
+	return sec_e_max_referrals_exceeded;
+case SEC_E_MAX_REFERRALS_EXCEEDED:
+	return sec_e_max_referrals_exceeded;
+case SEC_E_MUST_BE_KDC:
+	return sec_e_must_be_kdc;
+case SEC_E_MUST_BE_KDC:
+	return sec_e_must_be_kdc;
+case SEC_E_MUST_BE_KDC:
+	return sec_e_must_be_kdc;
+case SEC_E_STRONG_CRYPTO_NOT_SUPPORTED:
+	return sec_e_strong_crypto_not_supported;
+case SEC_E_STRONG_CRYPTO_NOT_SUPPORTED:
+	return sec_e_strong_crypto_not_supported;
+case SEC_E_STRONG_CRYPTO_NOT_SUPPORTED:
+	return sec_e_strong_crypto_not_supported;
+case SEC_E_TOO_MANY_PRINCIPALS:
+	return sec_e_too_many_principals;
+case SEC_E_TOO_MANY_PRINCIPALS:
+	return sec_e_too_many_principals;
+case SEC_E_TOO_MANY_PRINCIPALS:
+	return sec_e_too_many_principals;
+case SEC_E_NO_PA_DATA:
+	return sec_e_no_pa_data;
+case SEC_E_NO_PA_DATA:
+	return sec_e_no_pa_data;
+case SEC_E_NO_PA_DATA:
+	return sec_e_no_pa_data;
+case SEC_E_PKINIT_NAME_MISMATCH:
+	return sec_e_pkinit_name_mismatch;
+case SEC_E_PKINIT_NAME_MISMATCH:
+	return sec_e_pkinit_name_mismatch;
+case SEC_E_PKINIT_NAME_MISMATCH:
+	return sec_e_pkinit_name_mismatch;
+case SEC_E_SMARTCARD_LOGON_REQUIRED:
+	return sec_e_smartcard_logon_required;
+case SEC_E_SMARTCARD_LOGON_REQUIRED:
+	return sec_e_smartcard_logon_required;
+case SEC_E_SMARTCARD_LOGON_REQUIRED:
+	return sec_e_smartcard_logon_required;
+case SEC_E_SHUTDOWN_IN_PROGRESS:
+	return sec_e_shutdown_in_progress;
+case SEC_E_SHUTDOWN_IN_PROGRESS:
+	return sec_e_shutdown_in_progress;
+case SEC_E_SHUTDOWN_IN_PROGRESS:
+	return sec_e_shutdown_in_progress;
+case SEC_E_KDC_INVALID_REQUEST:
+	return sec_e_kdc_invalid_request;
+case SEC_E_KDC_INVALID_REQUEST:
+	return sec_e_kdc_invalid_request;
+case SEC_E_KDC_INVALID_REQUEST:
+	return sec_e_kdc_invalid_request;
+case SEC_E_KDC_UNABLE_TO_REFER:
+	return sec_e_kdc_unable_to_refer;
+case SEC_E_KDC_UNABLE_TO_REFER:
+	return sec_e_kdc_unable_to_refer;
+case SEC_E_KDC_UNABLE_TO_REFER:
+	return sec_e_kdc_unable_to_refer;
+case SEC_E_KDC_UNKNOWN_ETYPE:
+	return sec_e_kdc_unknown_etype;
+case SEC_E_KDC_UNKNOWN_ETYPE:
+	return sec_e_kdc_unknown_etype;
+case SEC_E_KDC_UNKNOWN_ETYPE:
+	return sec_e_kdc_unknown_etype;
+case SEC_E_UNSUPPORTED_PREAUTH:
+	return sec_e_unsupported_preauth;
+case SEC_E_UNSUPPORTED_PREAUTH:
+	return sec_e_unsupported_preauth;
+case SEC_E_UNSUPPORTED_PREAUTH:
+	return sec_e_unsupported_preauth;
+case SEC_E_DELEGATION_REQUIRED:
+	return sec_e_delegation_required;
+case SEC_E_DELEGATION_REQUIRED:
+	return sec_e_delegation_required;
+case SEC_E_DELEGATION_REQUIRED:
+	return sec_e_delegation_required;
+case SEC_E_BAD_BINDINGS:
+	return sec_e_bad_bindings;
+case SEC_E_BAD_BINDINGS:
+	return sec_e_bad_bindings;
+case SEC_E_BAD_BINDINGS:
+	return sec_e_bad_bindings;
+case SEC_E_MULTIPLE_ACCOUNTS:
+	return sec_e_multiple_accounts;
+case SEC_E_MULTIPLE_ACCOUNTS:
+	return sec_e_multiple_accounts;
+case SEC_E_MULTIPLE_ACCOUNTS:
+	return sec_e_multiple_accounts;
+case SEC_E_NO_KERB_KEY:
+	return sec_e_no_kerb_key;
+case SEC_E_NO_KERB_KEY:
+	return sec_e_no_kerb_key;
+case SEC_E_NO_KERB_KEY:
+	return sec_e_no_kerb_key;
+case SEC_E_CERT_WRONG_USAGE:
+	return sec_e_cert_wrong_usage;
+case SEC_E_CERT_WRONG_USAGE:
+	return sec_e_cert_wrong_usage;
+case SEC_E_CERT_WRONG_USAGE:
+	return sec_e_cert_wrong_usage;
+case SEC_E_DOWNGRADE_DETECTED:
+	return sec_e_downgrade_detected;
+case SEC_E_DOWNGRADE_DETECTED:
+	return sec_e_downgrade_detected;
+case SEC_E_DOWNGRADE_DETECTED:
+	return sec_e_downgrade_detected;
+case SEC_E_SMARTCARD_CERT_REVOKED:
+	return sec_e_smartcard_cert_revoked;
+case SEC_E_SMARTCARD_CERT_REVOKED:
+	return sec_e_smartcard_cert_revoked;
+case SEC_E_SMARTCARD_CERT_REVOKED:
+	return sec_e_smartcard_cert_revoked;
+case SEC_E_ISSUING_CA_UNTRUSTED:
+	return sec_e_issuing_ca_untrusted;
+case SEC_E_ISSUING_CA_UNTRUSTED:
+	return sec_e_issuing_ca_untrusted;
+case SEC_E_ISSUING_CA_UNTRUSTED:
+	return sec_e_issuing_ca_untrusted;
+case SEC_E_REVOCATION_OFFLINE_C:
+	return sec_e_revocation_offline_c;
+case SEC_E_REVOCATION_OFFLINE_C:
+	return sec_e_revocation_offline_c;
+case SEC_E_REVOCATION_OFFLINE_C:
+	return sec_e_revocation_offline_c;
+case SEC_E_PKINIT_CLIENT_FAILURE:
+	return sec_e_pkinit_client_failure;
+case SEC_E_PKINIT_CLIENT_FAILURE:
+	return sec_e_pkinit_client_failure;
+case SEC_E_PKINIT_CLIENT_FAILURE:
+	return sec_e_pkinit_client_failure;
+case SEC_E_SMARTCARD_CERT_EXPIRED:
+	return sec_e_smartcard_cert_expired;
+case SEC_E_SMARTCARD_CERT_EXPIRED:
+	return sec_e_smartcard_cert_expired;
+case SEC_E_SMARTCARD_CERT_EXPIRED:
+	return sec_e_smartcard_cert_expired;
+case SEC_E_SMARTCARD_CERT_EXPIRED:
+	return sec_e_smartcard_cert_expired;
+case SEC_E_SMARTCARD_CERT_EXPIRED:
+	return sec_e_smartcard_cert_expired;
+case SEC_E_SMARTCARD_CERT_EXPIRED:
+	return sec_e_smartcard_cert_expired;
+case SEC_E_CROSSREALM_DELEGATION_FAILURE:
+	return sec_e_crossrealm_delegation_failure;
+case SEC_E_CROSSREALM_DELEGATION_FAILURE:
+	return sec_e_crossrealm_delegation_failure;
+case SEC_E_CROSSREALM_DELEGATION_FAILURE:
+	return sec_e_crossrealm_delegation_failure;
+case SEC_E_REVOCATION_OFFLINE_KDC:
+	return sec_e_revocation_offline_kdc;
+case SEC_E_REVOCATION_OFFLINE_KDC:
+	return sec_e_revocation_offline_kdc;
+case SEC_E_REVOCATION_OFFLINE_KDC:
+	return sec_e_revocation_offline_kdc;
+case SEC_E_ISSUING_CA_UNTRUSTED_KDC:
+	return sec_e_issuing_ca_untrusted_kdc;
+case SEC_E_ISSUING_CA_UNTRUSTED_KDC:
+	return sec_e_issuing_ca_untrusted_kdc;
+case SEC_E_ISSUING_CA_UNTRUSTED_KDC:
+	return sec_e_issuing_ca_untrusted_kdc;
+case SEC_E_KDC_CERT_EXPIRED:
+	return sec_e_kdc_cert_expired;
+case SEC_E_KDC_CERT_EXPIRED:
+	return sec_e_kdc_cert_expired;
+case SEC_E_KDC_CERT_EXPIRED:
+	return sec_e_kdc_cert_expired;
+case SEC_E_KDC_CERT_REVOKED:
+	return sec_e_kdc_cert_revoked;
+case SEC_E_KDC_CERT_REVOKED:
+	return sec_e_kdc_cert_revoked;
+case SEC_E_KDC_CERT_REVOKED:
+	return sec_e_kdc_cert_revoked;
+case SEC_E_INVALID_PARAMETER:
+	return sec_e_invalid_parameter;
+case SEC_E_INVALID_PARAMETER:
+	return sec_e_invalid_parameter;
+case SEC_E_INVALID_PARAMETER:
+	return sec_e_invalid_parameter;
+case SEC_E_DELEGATION_POLICY:
+	return sec_e_delegation_policy;
+case SEC_E_DELEGATION_POLICY:
+	return sec_e_delegation_policy;
+case SEC_E_DELEGATION_POLICY:
+	return sec_e_delegation_policy;
+case SEC_E_POLICY_NLTM_ONLY:
+	return sec_e_policy_nltm_only;
+case SEC_E_POLICY_NLTM_ONLY:
+	return sec_e_policy_nltm_only;
+case SEC_E_POLICY_NLTM_ONLY:
+	return sec_e_policy_nltm_only;
+case CRYPT_E_MSG_ERROR:
+	return crypt_e_msg_error;
+case CRYPT_E_MSG_ERROR:
+	return crypt_e_msg_error;
+case CRYPT_E_MSG_ERROR:
+	return crypt_e_msg_error;
+case CRYPT_E_UNKNOWN_ALGO:
+	return crypt_e_unknown_algo;
+case CRYPT_E_UNKNOWN_ALGO:
+	return crypt_e_unknown_algo;
+case CRYPT_E_UNKNOWN_ALGO:
+	return crypt_e_unknown_algo;
+case CRYPT_E_OID_FORMAT:
+	return crypt_e_oid_format;
+case CRYPT_E_OID_FORMAT:
+	return crypt_e_oid_format;
+case CRYPT_E_OID_FORMAT:
+	return crypt_e_oid_format;
+case CRYPT_E_INVALID_MSG_TYPE:
+	return crypt_e_invalid_msg_type;
+case CRYPT_E_INVALID_MSG_TYPE:
+	return crypt_e_invalid_msg_type;
+case CRYPT_E_INVALID_MSG_TYPE:
+	return crypt_e_invalid_msg_type;
+case CRYPT_E_UNEXPECTED_ENCODING:
+	return crypt_e_unexpected_encoding;
+case CRYPT_E_UNEXPECTED_ENCODING:
+	return crypt_e_unexpected_encoding;
+case CRYPT_E_UNEXPECTED_ENCODING:
+	return crypt_e_unexpected_encoding;
+case CRYPT_E_AUTH_ATTR_MISSING:
+	return crypt_e_auth_attr_missing;
+case CRYPT_E_AUTH_ATTR_MISSING:
+	return crypt_e_auth_attr_missing;
+case CRYPT_E_AUTH_ATTR_MISSING:
+	return crypt_e_auth_attr_missing;
+case CRYPT_E_HASH_VALUE:
+	return crypt_e_hash_value;
+case CRYPT_E_HASH_VALUE:
+	return crypt_e_hash_value;
+case CRYPT_E_HASH_VALUE:
+	return crypt_e_hash_value;
+case CRYPT_E_INVALID_INDEX:
+	return crypt_e_invalid_index;
+case CRYPT_E_INVALID_INDEX:
+	return crypt_e_invalid_index;
+case CRYPT_E_INVALID_INDEX:
+	return crypt_e_invalid_index;
+case CRYPT_E_ALREADY_DECRYPTED:
+	return crypt_e_already_decrypted;
+case CRYPT_E_ALREADY_DECRYPTED:
+	return crypt_e_already_decrypted;
+case CRYPT_E_ALREADY_DECRYPTED:
+	return crypt_e_already_decrypted;
+case CRYPT_E_NOT_DECRYPTED:
+	return crypt_e_not_decrypted;
+case CRYPT_E_NOT_DECRYPTED:
+	return crypt_e_not_decrypted;
+case CRYPT_E_NOT_DECRYPTED:
+	return crypt_e_not_decrypted;
+case CRYPT_E_RECIPIENT_NOT_FOUND:
+	return crypt_e_recipient_not_found;
+case CRYPT_E_RECIPIENT_NOT_FOUND:
+	return crypt_e_recipient_not_found;
+case CRYPT_E_RECIPIENT_NOT_FOUND:
+	return crypt_e_recipient_not_found;
+case CRYPT_E_CONTROL_TYPE:
+	return crypt_e_control_type;
+case CRYPT_E_CONTROL_TYPE:
+	return crypt_e_control_type;
+case CRYPT_E_CONTROL_TYPE:
+	return crypt_e_control_type;
+case CRYPT_E_ISSUER_SERIALNUMBER:
+	return crypt_e_issuer_serialnumber;
+case CRYPT_E_ISSUER_SERIALNUMBER:
+	return crypt_e_issuer_serialnumber;
+case CRYPT_E_ISSUER_SERIALNUMBER:
+	return crypt_e_issuer_serialnumber;
+case CRYPT_E_SIGNER_NOT_FOUND:
+	return crypt_e_signer_not_found;
+case CRYPT_E_SIGNER_NOT_FOUND:
+	return crypt_e_signer_not_found;
+case CRYPT_E_SIGNER_NOT_FOUND:
+	return crypt_e_signer_not_found;
+case CRYPT_E_ATTRIBUTES_MISSING:
+	return crypt_e_attributes_missing;
+case CRYPT_E_ATTRIBUTES_MISSING:
+	return crypt_e_attributes_missing;
+case CRYPT_E_ATTRIBUTES_MISSING:
+	return crypt_e_attributes_missing;
+case CRYPT_E_STREAM_MSG_NOT_READY:
+	return crypt_e_stream_msg_not_ready;
+case CRYPT_E_STREAM_MSG_NOT_READY:
+	return crypt_e_stream_msg_not_ready;
+case CRYPT_E_STREAM_MSG_NOT_READY:
+	return crypt_e_stream_msg_not_ready;
+case CRYPT_E_STREAM_INSUFFICIENT_DATA:
+	return crypt_e_stream_insufficient_data;
+case CRYPT_E_STREAM_INSUFFICIENT_DATA:
+	return crypt_e_stream_insufficient_data;
+case CRYPT_E_STREAM_INSUFFICIENT_DATA:
+	return crypt_e_stream_insufficient_data;
+case CRYPT_E_BAD_LEN:
+	return crypt_e_bad_len;
+case CRYPT_E_BAD_LEN:
+	return crypt_e_bad_len;
+case CRYPT_E_BAD_LEN:
+	return crypt_e_bad_len;
+case CRYPT_E_BAD_ENCODE:
+	return crypt_e_bad_encode;
+case CRYPT_E_BAD_ENCODE:
+	return crypt_e_bad_encode;
+case CRYPT_E_BAD_ENCODE:
+	return crypt_e_bad_encode;
+case CRYPT_E_FILE_ERROR:
+	return crypt_e_file_error;
+case CRYPT_E_FILE_ERROR:
+	return crypt_e_file_error;
+case CRYPT_E_FILE_ERROR:
+	return crypt_e_file_error;
+case CRYPT_E_NOT_FOUND:
+	return crypt_e_not_found;
+case CRYPT_E_NOT_FOUND:
+	return crypt_e_not_found;
+case CRYPT_E_NOT_FOUND:
+	return crypt_e_not_found;
+case CRYPT_E_EXISTS:
+	return crypt_e_exists;
+case CRYPT_E_EXISTS:
+	return crypt_e_exists;
+case CRYPT_E_EXISTS:
+	return crypt_e_exists;
+case CRYPT_E_NO_PROVIDER:
+	return crypt_e_no_provider;
+case CRYPT_E_NO_PROVIDER:
+	return crypt_e_no_provider;
+case CRYPT_E_NO_PROVIDER:
+	return crypt_e_no_provider;
+case CRYPT_E_SELF_SIGNED:
+	return crypt_e_self_signed;
+case CRYPT_E_SELF_SIGNED:
+	return crypt_e_self_signed;
+case CRYPT_E_SELF_SIGNED:
+	return crypt_e_self_signed;
+case CRYPT_E_DELETED_PREV:
+	return crypt_e_deleted_prev;
+case CRYPT_E_DELETED_PREV:
+	return crypt_e_deleted_prev;
+case CRYPT_E_DELETED_PREV:
+	return crypt_e_deleted_prev;
+case CRYPT_E_NO_MATCH:
+	return crypt_e_no_match;
+case CRYPT_E_NO_MATCH:
+	return crypt_e_no_match;
+case CRYPT_E_NO_MATCH:
+	return crypt_e_no_match;
+case CRYPT_E_UNEXPECTED_MSG_TYPE:
+	return crypt_e_unexpected_msg_type;
+case CRYPT_E_UNEXPECTED_MSG_TYPE:
+	return crypt_e_unexpected_msg_type;
+case CRYPT_E_UNEXPECTED_MSG_TYPE:
+	return crypt_e_unexpected_msg_type;
+case CRYPT_E_NO_KEY_PROPERTY:
+	return crypt_e_no_key_property;
+case CRYPT_E_NO_KEY_PROPERTY:
+	return crypt_e_no_key_property;
+case CRYPT_E_NO_KEY_PROPERTY:
+	return crypt_e_no_key_property;
+case CRYPT_E_NO_DECRYPT_CERT:
+	return crypt_e_no_decrypt_cert;
+case CRYPT_E_NO_DECRYPT_CERT:
+	return crypt_e_no_decrypt_cert;
+case CRYPT_E_NO_DECRYPT_CERT:
+	return crypt_e_no_decrypt_cert;
+case CRYPT_E_BAD_MSG:
+	return crypt_e_bad_msg;
+case CRYPT_E_BAD_MSG:
+	return crypt_e_bad_msg;
+case CRYPT_E_BAD_MSG:
+	return crypt_e_bad_msg;
+case CRYPT_E_NO_SIGNER:
+	return crypt_e_no_signer;
+case CRYPT_E_NO_SIGNER:
+	return crypt_e_no_signer;
+case CRYPT_E_NO_SIGNER:
+	return crypt_e_no_signer;
+case CRYPT_E_PENDING_CLOSE:
+	return crypt_e_pending_close;
+case CRYPT_E_PENDING_CLOSE:
+	return crypt_e_pending_close;
+case CRYPT_E_PENDING_CLOSE:
+	return crypt_e_pending_close;
+case CRYPT_E_REVOKED:
+	return crypt_e_revoked;
+case CRYPT_E_REVOKED:
+	return crypt_e_revoked;
+case CRYPT_E_REVOKED:
+	return crypt_e_revoked;
+case CRYPT_E_NO_REVOCATION_DLL:
+	return crypt_e_no_revocation_dll;
+case CRYPT_E_NO_REVOCATION_DLL:
+	return crypt_e_no_revocation_dll;
+case CRYPT_E_NO_REVOCATION_DLL:
+	return crypt_e_no_revocation_dll;
+case CRYPT_E_NO_REVOCATION_CHECK:
+	return crypt_e_no_revocation_check;
+case CRYPT_E_NO_REVOCATION_CHECK:
+	return crypt_e_no_revocation_check;
+case CRYPT_E_NO_REVOCATION_CHECK:
+	return crypt_e_no_revocation_check;
+case CRYPT_E_REVOCATION_OFFLINE:
+	return crypt_e_revocation_offline;
+case CRYPT_E_REVOCATION_OFFLINE:
+	return crypt_e_revocation_offline;
+case CRYPT_E_REVOCATION_OFFLINE:
+	return crypt_e_revocation_offline;
+case CRYPT_E_NOT_IN_REVOCATION_DATABASE:
+	return crypt_e_not_in_revocation_database;
+case CRYPT_E_NOT_IN_REVOCATION_DATABASE:
+	return crypt_e_not_in_revocation_database;
+case CRYPT_E_NOT_IN_REVOCATION_DATABASE:
+	return crypt_e_not_in_revocation_database;
+case CRYPT_E_INVALID_NUMERIC_STRING:
+	return crypt_e_invalid_numeric_string;
+case CRYPT_E_INVALID_NUMERIC_STRING:
+	return crypt_e_invalid_numeric_string;
+case CRYPT_E_INVALID_NUMERIC_STRING:
+	return crypt_e_invalid_numeric_string;
+case CRYPT_E_INVALID_PRINTABLE_STRING:
+	return crypt_e_invalid_printable_string;
+case CRYPT_E_INVALID_PRINTABLE_STRING:
+	return crypt_e_invalid_printable_string;
+case CRYPT_E_INVALID_PRINTABLE_STRING:
+	return crypt_e_invalid_printable_string;
+case CRYPT_E_INVALID_PRINTABLE_STRING:
+	return crypt_e_invalid_printable_string;
+case CRYPT_E_INVALID_PRINTABLE_STRING:
+	return crypt_e_invalid_printable_string;
+case CRYPT_E_INVALID_PRINTABLE_STRING:
+	return crypt_e_invalid_printable_string;
+case CRYPT_E_INVALID_PRINTABLE_STRING:
+	return crypt_e_invalid_printable_string;
+case CRYPT_E_INVALID_PRINTABLE_STRING:
+	return crypt_e_invalid_printable_string;
+case CRYPT_E_INVALID_PRINTABLE_STRING:
+	return crypt_e_invalid_printable_string;
+case CRYPT_E_NOT_CHAR_STRING:
+	return crypt_e_not_char_string;
+case CRYPT_E_NOT_CHAR_STRING:
+	return crypt_e_not_char_string;
+case CRYPT_E_NOT_CHAR_STRING:
+	return crypt_e_not_char_string;
+case CRYPT_E_FILERESIZED:
+	return crypt_e_fileresized;
+case CRYPT_E_FILERESIZED:
+	return crypt_e_fileresized;
+case CRYPT_E_FILERESIZED:
+	return crypt_e_fileresized;
+case CRYPT_E_SECURITY_SETTINGS:
+	return crypt_e_security_settings;
+case CRYPT_E_SECURITY_SETTINGS:
+	return crypt_e_security_settings;
+case CRYPT_E_SECURITY_SETTINGS:
+	return crypt_e_security_settings;
+case CRYPT_E_NO_VERIFY_USAGE_DLL:
+	return crypt_e_no_verify_usage_dll;
+case CRYPT_E_NO_VERIFY_USAGE_DLL:
+	return crypt_e_no_verify_usage_dll;
+case CRYPT_E_NO_VERIFY_USAGE_DLL:
+	return crypt_e_no_verify_usage_dll;
+case CRYPT_E_NO_VERIFY_USAGE_CHECK:
+	return crypt_e_no_verify_usage_check;
+case CRYPT_E_NO_VERIFY_USAGE_CHECK:
+	return crypt_e_no_verify_usage_check;
+case CRYPT_E_NO_VERIFY_USAGE_CHECK:
+	return crypt_e_no_verify_usage_check;
+case CRYPT_E_VERIFY_USAGE_OFFLINE:
+	return crypt_e_verify_usage_offline;
+case CRYPT_E_VERIFY_USAGE_OFFLINE:
+	return crypt_e_verify_usage_offline;
+case CRYPT_E_VERIFY_USAGE_OFFLINE:
+	return crypt_e_verify_usage_offline;
+case CRYPT_E_NOT_IN_CTL:
+	return crypt_e_not_in_ctl;
+case CRYPT_E_NOT_IN_CTL:
+	return crypt_e_not_in_ctl;
+case CRYPT_E_NOT_IN_CTL:
+	return crypt_e_not_in_ctl;
+case CRYPT_E_NO_TRUSTED_SIGNER:
+	return crypt_e_no_trusted_signer;
+case CRYPT_E_NO_TRUSTED_SIGNER:
+	return crypt_e_no_trusted_signer;
+case CRYPT_E_NO_TRUSTED_SIGNER:
+	return crypt_e_no_trusted_signer;
+case CRYPT_E_MISSING_PUBKEY_PARA:
+	return crypt_e_missing_pubkey_para;
+case CRYPT_E_MISSING_PUBKEY_PARA:
+	return crypt_e_missing_pubkey_para;
+case CRYPT_E_MISSING_PUBKEY_PARA:
+	return crypt_e_missing_pubkey_para;
+case CRYPT_E_OSS_ERROR:
+	return crypt_e_oss_error;
+case CRYPT_E_OSS_ERROR:
+	return crypt_e_oss_error;
+case CRYPT_E_OSS_ERROR:
+	return crypt_e_oss_error;
+case OSS_MORE_BUF:
+	return oss_more_buf;
+case OSS_MORE_BUF:
+	return oss_more_buf;
+case OSS_MORE_BUF:
+	return oss_more_buf;
+case OSS_NEGATIVE_UINTEGER:
+	return oss_negative_uinteger;
+case OSS_NEGATIVE_UINTEGER:
+	return oss_negative_uinteger;
+case OSS_NEGATIVE_UINTEGER:
+	return oss_negative_uinteger;
+case OSS_PDU_RANGE:
+	return oss_pdu_range;
+case OSS_PDU_RANGE:
+	return oss_pdu_range;
+case OSS_PDU_RANGE:
+	return oss_pdu_range;
+case OSS_MORE_INPUT:
+	return oss_more_input;
+case OSS_MORE_INPUT:
+	return oss_more_input;
+case OSS_MORE_INPUT:
+	return oss_more_input;
+case OSS_DATA_ERROR:
+	return oss_data_error;
+case OSS_DATA_ERROR:
+	return oss_data_error;
+case OSS_DATA_ERROR:
+	return oss_data_error;
+case OSS_BAD_ARG:
+	return oss_bad_arg;
+case OSS_BAD_ARG:
+	return oss_bad_arg;
+case OSS_BAD_ARG:
+	return oss_bad_arg;
+case OSS_BAD_VERSION:
+	return oss_bad_version;
+case OSS_BAD_VERSION:
+	return oss_bad_version;
+case OSS_BAD_VERSION:
+	return oss_bad_version;
+case OSS_OUT_MEMORY:
+	return oss_out_memory;
+case OSS_OUT_MEMORY:
+	return oss_out_memory;
+case OSS_OUT_MEMORY:
+	return oss_out_memory;
+case OSS_PDU_MISMATCH:
+	return oss_pdu_mismatch;
+case OSS_PDU_MISMATCH:
+	return oss_pdu_mismatch;
+case OSS_PDU_MISMATCH:
+	return oss_pdu_mismatch;
+case OSS_LIMITED:
+	return oss_limited;
+case OSS_LIMITED:
+	return oss_limited;
+case OSS_LIMITED:
+	return oss_limited;
+case OSS_BAD_PTR:
+	return oss_bad_ptr;
+case OSS_BAD_PTR:
+	return oss_bad_ptr;
+case OSS_BAD_PTR:
+	return oss_bad_ptr;
+case OSS_BAD_TIME:
+	return oss_bad_time;
+case OSS_BAD_TIME:
+	return oss_bad_time;
+case OSS_BAD_TIME:
+	return oss_bad_time;
+case OSS_INDEFINITE_NOT_SUPPORTED:
+	return oss_indefinite_not_supported;
+case OSS_INDEFINITE_NOT_SUPPORTED:
+	return oss_indefinite_not_supported;
+case OSS_INDEFINITE_NOT_SUPPORTED:
+	return oss_indefinite_not_supported;
+case OSS_MEM_ERROR:
+	return oss_mem_error;
+case OSS_MEM_ERROR:
+	return oss_mem_error;
+case OSS_MEM_ERROR:
+	return oss_mem_error;
+case OSS_BAD_TABLE:
+	return oss_bad_table;
+case OSS_BAD_TABLE:
+	return oss_bad_table;
+case OSS_BAD_TABLE:
+	return oss_bad_table;
+case OSS_TOO_LONG:
+	return oss_too_long;
+case OSS_TOO_LONG:
+	return oss_too_long;
+case OSS_TOO_LONG:
+	return oss_too_long;
+case OSS_CONSTRAINT_VIOLATED:
+	return oss_constraint_violated;
+case OSS_CONSTRAINT_VIOLATED:
+	return oss_constraint_violated;
+case OSS_CONSTRAINT_VIOLATED:
+	return oss_constraint_violated;
+case OSS_FATAL_ERROR:
+	return oss_fatal_error;
+case OSS_FATAL_ERROR:
+	return oss_fatal_error;
+case OSS_FATAL_ERROR:
+	return oss_fatal_error;
+case OSS_ACCESS_SERIALIZATION_ERROR:
+	return oss_access_serialization_error;
+case OSS_ACCESS_SERIALIZATION_ERROR:
+	return oss_access_serialization_error;
+case OSS_ACCESS_SERIALIZATION_ERROR:
+	return oss_access_serialization_error;
+case OSS_NULL_TBL:
+	return oss_null_tbl;
+case OSS_NULL_TBL:
+	return oss_null_tbl;
+case OSS_NULL_TBL:
+	return oss_null_tbl;
+case OSS_NULL_FCN:
+	return oss_null_fcn;
+case OSS_NULL_FCN:
+	return oss_null_fcn;
+case OSS_NULL_FCN:
+	return oss_null_fcn;
+case OSS_BAD_ENCRULES:
+	return oss_bad_encrules;
+case OSS_BAD_ENCRULES:
+	return oss_bad_encrules;
+case OSS_BAD_ENCRULES:
+	return oss_bad_encrules;
+case OSS_UNAVAIL_ENCRULES:
+	return oss_unavail_encrules;
+case OSS_UNAVAIL_ENCRULES:
+	return oss_unavail_encrules;
+case OSS_UNAVAIL_ENCRULES:
+	return oss_unavail_encrules;
+case OSS_CANT_OPEN_TRACE_WINDOW:
+	return oss_cant_open_trace_window;
+case OSS_CANT_OPEN_TRACE_WINDOW:
+	return oss_cant_open_trace_window;
+case OSS_CANT_OPEN_TRACE_WINDOW:
+	return oss_cant_open_trace_window;
+case OSS_UNIMPLEMENTED:
+	return oss_unimplemented;
+case OSS_UNIMPLEMENTED:
+	return oss_unimplemented;
+case OSS_UNIMPLEMENTED:
+	return oss_unimplemented;
+case OSS_OID_DLL_NOT_LINKED:
+	return oss_oid_dll_not_linked;
+case OSS_OID_DLL_NOT_LINKED:
+	return oss_oid_dll_not_linked;
+case OSS_OID_DLL_NOT_LINKED:
+	return oss_oid_dll_not_linked;
+case OSS_CANT_OPEN_TRACE_FILE:
+	return oss_cant_open_trace_file;
+case OSS_CANT_OPEN_TRACE_FILE:
+	return oss_cant_open_trace_file;
+case OSS_CANT_OPEN_TRACE_FILE:
+	return oss_cant_open_trace_file;
+case OSS_TRACE_FILE_ALREADY_OPEN:
+	return oss_trace_file_already_open;
+case OSS_TRACE_FILE_ALREADY_OPEN:
+	return oss_trace_file_already_open;
+case OSS_TRACE_FILE_ALREADY_OPEN:
+	return oss_trace_file_already_open;
+case OSS_TABLE_MISMATCH:
+	return oss_table_mismatch;
+case OSS_TABLE_MISMATCH:
+	return oss_table_mismatch;
+case OSS_TABLE_MISMATCH:
+	return oss_table_mismatch;
+case OSS_TYPE_NOT_SUPPORTED:
+	return oss_type_not_supported;
+case OSS_TYPE_NOT_SUPPORTED:
+	return oss_type_not_supported;
+case OSS_TYPE_NOT_SUPPORTED:
+	return oss_type_not_supported;
+case OSS_REAL_DLL_NOT_LINKED:
+	return oss_real_dll_not_linked;
+case OSS_REAL_DLL_NOT_LINKED:
+	return oss_real_dll_not_linked;
+case OSS_REAL_DLL_NOT_LINKED:
+	return oss_real_dll_not_linked;
+case OSS_REAL_CODE_NOT_LINKED:
+	return oss_real_code_not_linked;
+case OSS_REAL_CODE_NOT_LINKED:
+	return oss_real_code_not_linked;
+case OSS_REAL_CODE_NOT_LINKED:
+	return oss_real_code_not_linked;
+case OSS_OUT_OF_RANGE:
+	return oss_out_of_range;
+case OSS_OUT_OF_RANGE:
+	return oss_out_of_range;
+case OSS_OUT_OF_RANGE:
+	return oss_out_of_range;
+case OSS_COPIER_DLL_NOT_LINKED:
+	return oss_copier_dll_not_linked;
+case OSS_COPIER_DLL_NOT_LINKED:
+	return oss_copier_dll_not_linked;
+case OSS_COPIER_DLL_NOT_LINKED:
+	return oss_copier_dll_not_linked;
+case OSS_CONSTRAINT_DLL_NOT_LINKED:
+	return oss_constraint_dll_not_linked;
+case OSS_CONSTRAINT_DLL_NOT_LINKED:
+	return oss_constraint_dll_not_linked;
+case OSS_CONSTRAINT_DLL_NOT_LINKED:
+	return oss_constraint_dll_not_linked;
+case OSS_COMPARATOR_DLL_NOT_LINKED:
+	return oss_comparator_dll_not_linked;
+case OSS_COMPARATOR_DLL_NOT_LINKED:
+	return oss_comparator_dll_not_linked;
+case OSS_COMPARATOR_DLL_NOT_LINKED:
+	return oss_comparator_dll_not_linked;
+case OSS_COMPARATOR_CODE_NOT_LINKED:
+	return oss_comparator_code_not_linked;
+case OSS_COMPARATOR_CODE_NOT_LINKED:
+	return oss_comparator_code_not_linked;
+case OSS_COMPARATOR_CODE_NOT_LINKED:
+	return oss_comparator_code_not_linked;
+case OSS_MEM_MGR_DLL_NOT_LINKED:
+	return oss_mem_mgr_dll_not_linked;
+case OSS_MEM_MGR_DLL_NOT_LINKED:
+	return oss_mem_mgr_dll_not_linked;
+case OSS_MEM_MGR_DLL_NOT_LINKED:
+	return oss_mem_mgr_dll_not_linked;
+case OSS_PDV_DLL_NOT_LINKED:
+	return oss_pdv_dll_not_linked;
+case OSS_PDV_DLL_NOT_LINKED:
+	return oss_pdv_dll_not_linked;
+case OSS_PDV_DLL_NOT_LINKED:
+	return oss_pdv_dll_not_linked;
+case OSS_PDV_CODE_NOT_LINKED:
+	return oss_pdv_code_not_linked;
+case OSS_PDV_CODE_NOT_LINKED:
+	return oss_pdv_code_not_linked;
+case OSS_PDV_CODE_NOT_LINKED:
+	return oss_pdv_code_not_linked;
+case OSS_API_DLL_NOT_LINKED:
+	return oss_api_dll_not_linked;
+case OSS_API_DLL_NOT_LINKED:
+	return oss_api_dll_not_linked;
+case OSS_API_DLL_NOT_LINKED:
+	return oss_api_dll_not_linked;
+case OSS_BERDER_DLL_NOT_LINKED:
+	return oss_berder_dll_not_linked;
+case OSS_BERDER_DLL_NOT_LINKED:
+	return oss_berder_dll_not_linked;
+case OSS_BERDER_DLL_NOT_LINKED:
+	return oss_berder_dll_not_linked;
+case OSS_PER_DLL_NOT_LINKED:
+	return oss_per_dll_not_linked;
+case OSS_PER_DLL_NOT_LINKED:
+	return oss_per_dll_not_linked;
+case OSS_PER_DLL_NOT_LINKED:
+	return oss_per_dll_not_linked;
+case OSS_OPEN_TYPE_ERROR:
+	return oss_open_type_error;
+case OSS_OPEN_TYPE_ERROR:
+	return oss_open_type_error;
+case OSS_OPEN_TYPE_ERROR:
+	return oss_open_type_error;
+case OSS_MUTEX_NOT_CREATED:
+	return oss_mutex_not_created;
+case OSS_MUTEX_NOT_CREATED:
+	return oss_mutex_not_created;
+case OSS_MUTEX_NOT_CREATED:
+	return oss_mutex_not_created;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case OSS_CANT_CLOSE_TRACE_FILE:
+	return oss_cant_close_trace_file;
+case CERTSRV_E_BAD_REQUESTSUBJECT:
+	return certsrv_e_bad_requestsubject;
+case CERTSRV_E_BAD_REQUESTSUBJECT:
+	return certsrv_e_bad_requestsubject;
+case CERTSRV_E_BAD_REQUESTSUBJECT:
+	return certsrv_e_bad_requestsubject;
+case CERTSRV_E_NO_REQUEST:
+	return certsrv_e_no_request;
+case CERTSRV_E_NO_REQUEST:
+	return certsrv_e_no_request;
+case CERTSRV_E_NO_REQUEST:
+	return certsrv_e_no_request;
+case CERTSRV_E_BAD_REQUESTSTATUS:
+	return certsrv_e_bad_requeststatus;
+case CERTSRV_E_BAD_REQUESTSTATUS:
+	return certsrv_e_bad_requeststatus;
+case CERTSRV_E_BAD_REQUESTSTATUS:
+	return certsrv_e_bad_requeststatus;
+case CERTSRV_E_PROPERTY_EMPTY:
+	return certsrv_e_property_empty;
+case CERTSRV_E_PROPERTY_EMPTY:
+	return certsrv_e_property_empty;
+case CERTSRV_E_PROPERTY_EMPTY:
+	return certsrv_e_property_empty;
+case CERTSRV_E_INVALID_CA_CERTIFICATE:
+	return certsrv_e_invalid_ca_certificate;
+case CERTSRV_E_INVALID_CA_CERTIFICATE:
+	return certsrv_e_invalid_ca_certificate;
+case CERTSRV_E_INVALID_CA_CERTIFICATE:
+	return certsrv_e_invalid_ca_certificate;
+case CERTSRV_E_SERVER_SUSPENDED:
+	return certsrv_e_server_suspended;
+case CERTSRV_E_SERVER_SUSPENDED:
+	return certsrv_e_server_suspended;
+case CERTSRV_E_SERVER_SUSPENDED:
+	return certsrv_e_server_suspended;
+case CERTSRV_E_ENCODING_LENGTH:
+	return certsrv_e_encoding_length;
+case CERTSRV_E_ENCODING_LENGTH:
+	return certsrv_e_encoding_length;
+case CERTSRV_E_ENCODING_LENGTH:
+	return certsrv_e_encoding_length;
+case CERTSRV_E_ROLECONFLICT:
+	return certsrv_e_roleconflict;
+case CERTSRV_E_ROLECONFLICT:
+	return certsrv_e_roleconflict;
+case CERTSRV_E_ROLECONFLICT:
+	return certsrv_e_roleconflict;
+case CERTSRV_E_RESTRICTEDOFFICER:
+	return certsrv_e_restrictedofficer;
+case CERTSRV_E_RESTRICTEDOFFICER:
+	return certsrv_e_restrictedofficer;
+case CERTSRV_E_RESTRICTEDOFFICER:
+	return certsrv_e_restrictedofficer;
+case CERTSRV_E_KEY_ARCHIVAL_NOT_CONFIGURED:
+	return certsrv_e_key_archival_not_configured;
+case CERTSRV_E_KEY_ARCHIVAL_NOT_CONFIGURED:
+	return certsrv_e_key_archival_not_configured;
+case CERTSRV_E_KEY_ARCHIVAL_NOT_CONFIGURED:
+	return certsrv_e_key_archival_not_configured;
+case CERTSRV_E_NO_VALID_KRA:
+	return certsrv_e_no_valid_kra;
+case CERTSRV_E_NO_VALID_KRA:
+	return certsrv_e_no_valid_kra;
+case CERTSRV_E_NO_VALID_KRA:
+	return certsrv_e_no_valid_kra;
+case CERTSRV_E_BAD_REQUEST_KEY_ARCHIVAL:
+	return certsrv_e_bad_request_key_archival;
+case CERTSRV_E_BAD_REQUEST_KEY_ARCHIVAL:
+	return certsrv_e_bad_request_key_archival;
+case CERTSRV_E_BAD_REQUEST_KEY_ARCHIVAL:
+	return certsrv_e_bad_request_key_archival;
+case CERTSRV_E_NO_CAADMIN_DEFINED:
+	return certsrv_e_no_caadmin_defined;
+case CERTSRV_E_NO_CAADMIN_DEFINED:
+	return certsrv_e_no_caadmin_defined;
+case CERTSRV_E_NO_CAADMIN_DEFINED:
+	return certsrv_e_no_caadmin_defined;
+case CERTSRV_E_BAD_RENEWAL_CERT_ATTRIBUTE:
+	return certsrv_e_bad_renewal_cert_attribute;
+case CERTSRV_E_BAD_RENEWAL_CERT_ATTRIBUTE:
+	return certsrv_e_bad_renewal_cert_attribute;
+case CERTSRV_E_BAD_RENEWAL_CERT_ATTRIBUTE:
+	return certsrv_e_bad_renewal_cert_attribute;
+case CERTSRV_E_NO_DB_SESSIONS:
+	return certsrv_e_no_db_sessions;
+case CERTSRV_E_NO_DB_SESSIONS:
+	return certsrv_e_no_db_sessions;
+case CERTSRV_E_NO_DB_SESSIONS:
+	return certsrv_e_no_db_sessions;
+case CERTSRV_E_ALIGNMENT_FAULT:
+	return certsrv_e_alignment_fault;
+case CERTSRV_E_ALIGNMENT_FAULT:
+	return certsrv_e_alignment_fault;
+case CERTSRV_E_ALIGNMENT_FAULT:
+	return certsrv_e_alignment_fault;
+case CERTSRV_E_ENROLL_DENIED:
+	return certsrv_e_enroll_denied;
+case CERTSRV_E_ENROLL_DENIED:
+	return certsrv_e_enroll_denied;
+case CERTSRV_E_ENROLL_DENIED:
+	return certsrv_e_enroll_denied;
+case CERTSRV_E_TEMPLATE_DENIED:
+	return certsrv_e_template_denied;
+case CERTSRV_E_TEMPLATE_DENIED:
+	return certsrv_e_template_denied;
+case CERTSRV_E_TEMPLATE_DENIED:
+	return certsrv_e_template_denied;
+case CERTSRV_E_DOWNLEVEL_DC_SSL_OR_UPGRADE:
+	return certsrv_e_downlevel_dc_ssl_or_upgrade;
+case CERTSRV_E_DOWNLEVEL_DC_SSL_OR_UPGRADE:
+	return certsrv_e_downlevel_dc_ssl_or_upgrade;
+case CERTSRV_E_DOWNLEVEL_DC_SSL_OR_UPGRADE:
+	return certsrv_e_downlevel_dc_ssl_or_upgrade;
+case CERTSRV_E_UNSUPPORTED_CERT_TYPE:
+	return certsrv_e_unsupported_cert_type;
+case CERTSRV_E_UNSUPPORTED_CERT_TYPE:
+	return certsrv_e_unsupported_cert_type;
+case CERTSRV_E_UNSUPPORTED_CERT_TYPE:
+	return certsrv_e_unsupported_cert_type;
+case CERTSRV_E_NO_CERT_TYPE:
+	return certsrv_e_no_cert_type;
+case CERTSRV_E_NO_CERT_TYPE:
+	return certsrv_e_no_cert_type;
+case CERTSRV_E_NO_CERT_TYPE:
+	return certsrv_e_no_cert_type;
+case CERTSRV_E_TEMPLATE_CONFLICT:
+	return certsrv_e_template_conflict;
+case CERTSRV_E_TEMPLATE_CONFLICT:
+	return certsrv_e_template_conflict;
+case CERTSRV_E_TEMPLATE_CONFLICT:
+	return certsrv_e_template_conflict;
+case CERTSRV_E_SUBJECT_ALT_NAME_REQUIRED:
+	return certsrv_e_subject_alt_name_required;
+case CERTSRV_E_SUBJECT_ALT_NAME_REQUIRED:
+	return certsrv_e_subject_alt_name_required;
+case CERTSRV_E_SUBJECT_ALT_NAME_REQUIRED:
+	return certsrv_e_subject_alt_name_required;
+case CERTSRV_E_ARCHIVED_KEY_REQUIRED:
+	return certsrv_e_archived_key_required;
+case CERTSRV_E_ARCHIVED_KEY_REQUIRED:
+	return certsrv_e_archived_key_required;
+case CERTSRV_E_ARCHIVED_KEY_REQUIRED:
+	return certsrv_e_archived_key_required;
+case CERTSRV_E_SMIME_REQUIRED:
+	return certsrv_e_smime_required;
+case CERTSRV_E_SMIME_REQUIRED:
+	return certsrv_e_smime_required;
+case CERTSRV_E_SMIME_REQUIRED:
+	return certsrv_e_smime_required;
+case CERTSRV_E_BAD_RENEWAL_SUBJECT:
+	return certsrv_e_bad_renewal_subject;
+case CERTSRV_E_BAD_RENEWAL_SUBJECT:
+	return certsrv_e_bad_renewal_subject;
+case CERTSRV_E_BAD_RENEWAL_SUBJECT:
+	return certsrv_e_bad_renewal_subject;
+case CERTSRV_E_BAD_TEMPLATE_VERSION:
+	return certsrv_e_bad_template_version;
+case CERTSRV_E_BAD_TEMPLATE_VERSION:
+	return certsrv_e_bad_template_version;
+case CERTSRV_E_BAD_TEMPLATE_VERSION:
+	return certsrv_e_bad_template_version;
+case CERTSRV_E_TEMPLATE_POLICY_REQUIRED:
+	return certsrv_e_template_policy_required;
+case CERTSRV_E_TEMPLATE_POLICY_REQUIRED:
+	return certsrv_e_template_policy_required;
+case CERTSRV_E_TEMPLATE_POLICY_REQUIRED:
+	return certsrv_e_template_policy_required;
+case CERTSRV_E_SIGNATURE_POLICY_REQUIRED:
+	return certsrv_e_signature_policy_required;
+case CERTSRV_E_SIGNATURE_POLICY_REQUIRED:
+	return certsrv_e_signature_policy_required;
+case CERTSRV_E_SIGNATURE_POLICY_REQUIRED:
+	return certsrv_e_signature_policy_required;
+case CERTSRV_E_SIGNATURE_COUNT:
+	return certsrv_e_signature_count;
+case CERTSRV_E_SIGNATURE_COUNT:
+	return certsrv_e_signature_count;
+case CERTSRV_E_SIGNATURE_COUNT:
+	return certsrv_e_signature_count;
+case CERTSRV_E_SIGNATURE_REJECTED:
+	return certsrv_e_signature_rejected;
+case CERTSRV_E_SIGNATURE_REJECTED:
+	return certsrv_e_signature_rejected;
+case CERTSRV_E_SIGNATURE_REJECTED:
+	return certsrv_e_signature_rejected;
+case CERTSRV_E_ISSUANCE_POLICY_REQUIRED:
+	return certsrv_e_issuance_policy_required;
+case CERTSRV_E_ISSUANCE_POLICY_REQUIRED:
+	return certsrv_e_issuance_policy_required;
+case CERTSRV_E_ISSUANCE_POLICY_REQUIRED:
+	return certsrv_e_issuance_policy_required;
+case CERTSRV_E_SUBJECT_UPN_REQUIRED:
+	return certsrv_e_subject_upn_required;
+case CERTSRV_E_SUBJECT_UPN_REQUIRED:
+	return certsrv_e_subject_upn_required;
+case CERTSRV_E_SUBJECT_UPN_REQUIRED:
+	return certsrv_e_subject_upn_required;
+case CERTSRV_E_SUBJECT_DIRECTORY_GUID_REQUIRED:
+	return certsrv_e_subject_directory_guid_required;
+case CERTSRV_E_SUBJECT_DIRECTORY_GUID_REQUIRED:
+	return certsrv_e_subject_directory_guid_required;
+case CERTSRV_E_SUBJECT_DIRECTORY_GUID_REQUIRED:
+	return certsrv_e_subject_directory_guid_required;
+case CERTSRV_E_SUBJECT_DNS_REQUIRED:
+	return certsrv_e_subject_dns_required;
+case CERTSRV_E_SUBJECT_DNS_REQUIRED:
+	return certsrv_e_subject_dns_required;
+case CERTSRV_E_SUBJECT_DNS_REQUIRED:
+	return certsrv_e_subject_dns_required;
+case CERTSRV_E_ARCHIVED_KEY_UNEXPECTED:
+	return certsrv_e_archived_key_unexpected;
+case CERTSRV_E_ARCHIVED_KEY_UNEXPECTED:
+	return certsrv_e_archived_key_unexpected;
+case CERTSRV_E_ARCHIVED_KEY_UNEXPECTED:
+	return certsrv_e_archived_key_unexpected;
+case CERTSRV_E_KEY_LENGTH:
+	return certsrv_e_key_length;
+case CERTSRV_E_KEY_LENGTH:
+	return certsrv_e_key_length;
+case CERTSRV_E_KEY_LENGTH:
+	return certsrv_e_key_length;
+case CERTSRV_E_SUBJECT_EMAIL_REQUIRED:
+	return certsrv_e_subject_email_required;
+case CERTSRV_E_SUBJECT_EMAIL_REQUIRED:
+	return certsrv_e_subject_email_required;
+case CERTSRV_E_SUBJECT_EMAIL_REQUIRED:
+	return certsrv_e_subject_email_required;
+case CERTSRV_E_UNKNOWN_CERT_TYPE:
+	return certsrv_e_unknown_cert_type;
+case CERTSRV_E_UNKNOWN_CERT_TYPE:
+	return certsrv_e_unknown_cert_type;
+case CERTSRV_E_UNKNOWN_CERT_TYPE:
+	return certsrv_e_unknown_cert_type;
+case CERTSRV_E_CERT_TYPE_OVERLAP:
+	return certsrv_e_cert_type_overlap;
+case CERTSRV_E_CERT_TYPE_OVERLAP:
+	return certsrv_e_cert_type_overlap;
+case CERTSRV_E_CERT_TYPE_OVERLAP:
+	return certsrv_e_cert_type_overlap;
+case CERTSRV_E_TOO_MANY_SIGNATURES:
+	return certsrv_e_too_many_signatures;
+case CERTSRV_E_TOO_MANY_SIGNATURES:
+	return certsrv_e_too_many_signatures;
+case CERTSRV_E_TOO_MANY_SIGNATURES:
+	return certsrv_e_too_many_signatures;
+case CERTSRV_E_RENEWAL_BAD_PUBLIC_KEY:
+	return certsrv_e_renewal_bad_public_key;
+case CERTSRV_E_RENEWAL_BAD_PUBLIC_KEY:
+	return certsrv_e_renewal_bad_public_key;
+case CERTSRV_E_RENEWAL_BAD_PUBLIC_KEY:
+	return certsrv_e_renewal_bad_public_key;
+case CERTSRV_E_INVALID_EK:
+	return certsrv_e_invalid_ek;
+case CERTSRV_E_INVALID_EK:
+	return certsrv_e_invalid_ek;
+case CERTSRV_E_INVALID_EK:
+	return certsrv_e_invalid_ek;
+case CERTSRV_E_KEY_ATTESTATION:
+	return certsrv_e_key_attestation;
+case CERTSRV_E_KEY_ATTESTATION:
+	return certsrv_e_key_attestation;
+case CERTSRV_E_KEY_ATTESTATION:
+	return certsrv_e_key_attestation;
+case XENROLL_E_KEY_NOT_EXPORTABLE:
+	return xenroll_e_key_not_exportable;
+case XENROLL_E_KEY_NOT_EXPORTABLE:
+	return xenroll_e_key_not_exportable;
+case XENROLL_E_KEY_NOT_EXPORTABLE:
+	return xenroll_e_key_not_exportable;
+case XENROLL_E_CANNOT_ADD_ROOT_CERT:
+	return xenroll_e_cannot_add_root_cert;
+case XENROLL_E_CANNOT_ADD_ROOT_CERT:
+	return xenroll_e_cannot_add_root_cert;
+case XENROLL_E_CANNOT_ADD_ROOT_CERT:
+	return xenroll_e_cannot_add_root_cert;
+case XENROLL_E_RESPONSE_KA_HASH_NOT_FOUND:
+	return xenroll_e_response_ka_hash_not_found;
+case XENROLL_E_RESPONSE_KA_HASH_NOT_FOUND:
+	return xenroll_e_response_ka_hash_not_found;
+case XENROLL_E_RESPONSE_KA_HASH_NOT_FOUND:
+	return xenroll_e_response_ka_hash_not_found;
+case XENROLL_E_RESPONSE_UNEXPECTED_KA_HASH:
+	return xenroll_e_response_unexpected_ka_hash;
+case XENROLL_E_RESPONSE_UNEXPECTED_KA_HASH:
+	return xenroll_e_response_unexpected_ka_hash;
+case XENROLL_E_RESPONSE_UNEXPECTED_KA_HASH:
+	return xenroll_e_response_unexpected_ka_hash;
+case XENROLL_E_RESPONSE_KA_HASH_MISMATCH:
+	return xenroll_e_response_ka_hash_mismatch;
+case XENROLL_E_RESPONSE_KA_HASH_MISMATCH:
+	return xenroll_e_response_ka_hash_mismatch;
+case XENROLL_E_RESPONSE_KA_HASH_MISMATCH:
+	return xenroll_e_response_ka_hash_mismatch;
+case XENROLL_E_KEYSPEC_SMIME_MISMATCH:
+	return xenroll_e_keyspec_smime_mismatch;
+case XENROLL_E_KEYSPEC_SMIME_MISMATCH:
+	return xenroll_e_keyspec_smime_mismatch;
+case XENROLL_E_KEYSPEC_SMIME_MISMATCH:
+	return xenroll_e_keyspec_smime_mismatch;
+case TRUST_E_SYSTEM_ERROR:
+	return trust_e_system_error;
+case TRUST_E_SYSTEM_ERROR:
+	return trust_e_system_error;
+case TRUST_E_SYSTEM_ERROR:
+	return trust_e_system_error;
+case TRUST_E_NO_SIGNER_CERT:
+	return trust_e_no_signer_cert;
+case TRUST_E_NO_SIGNER_CERT:
+	return trust_e_no_signer_cert;
+case TRUST_E_NO_SIGNER_CERT:
+	return trust_e_no_signer_cert;
+case TRUST_E_COUNTER_SIGNER:
+	return trust_e_counter_signer;
+case TRUST_E_COUNTER_SIGNER:
+	return trust_e_counter_signer;
+case TRUST_E_COUNTER_SIGNER:
+	return trust_e_counter_signer;
+case TRUST_E_CERT_SIGNATURE:
+	return trust_e_cert_signature;
+case TRUST_E_CERT_SIGNATURE:
+	return trust_e_cert_signature;
+case TRUST_E_CERT_SIGNATURE:
+	return trust_e_cert_signature;
+case TRUST_E_TIME_STAMP:
+	return trust_e_time_stamp;
+case TRUST_E_TIME_STAMP:
+	return trust_e_time_stamp;
+case TRUST_E_TIME_STAMP:
+	return trust_e_time_stamp;
+case TRUST_E_BAD_DIGEST:
+	return trust_e_bad_digest;
+case TRUST_E_BAD_DIGEST:
+	return trust_e_bad_digest;
+case TRUST_E_BAD_DIGEST:
+	return trust_e_bad_digest;
+case TRUST_E_BASIC_CONSTRAINTS:
+	return trust_e_basic_constraints;
+case TRUST_E_BASIC_CONSTRAINTS:
+	return trust_e_basic_constraints;
+case TRUST_E_BASIC_CONSTRAINTS:
+	return trust_e_basic_constraints;
+case TRUST_E_FINANCIAL_CRITERIA:
+	return trust_e_financial_criteria;
+case TRUST_E_FINANCIAL_CRITERIA:
+	return trust_e_financial_criteria;
+case TRUST_E_FINANCIAL_CRITERIA:
+	return trust_e_financial_criteria;
+case MSSIPOTF_E_OUTOFMEMRANGE:
+	return mssipotf_e_outofmemrange;
+case MSSIPOTF_E_OUTOFMEMRANGE:
+	return mssipotf_e_outofmemrange;
+case MSSIPOTF_E_OUTOFMEMRANGE:
+	return mssipotf_e_outofmemrange;
+case MSSIPOTF_E_CANTGETOBJECT:
+	return mssipotf_e_cantgetobject;
+case MSSIPOTF_E_CANTGETOBJECT:
+	return mssipotf_e_cantgetobject;
+case MSSIPOTF_E_CANTGETOBJECT:
+	return mssipotf_e_cantgetobject;
+case MSSIPOTF_E_NOHEADTABLE:
+	return mssipotf_e_noheadtable;
+case MSSIPOTF_E_NOHEADTABLE:
+	return mssipotf_e_noheadtable;
+case MSSIPOTF_E_NOHEADTABLE:
+	return mssipotf_e_noheadtable;
+case MSSIPOTF_E_BAD_MAGICNUMBER:
+	return mssipotf_e_bad_magicnumber;
+case MSSIPOTF_E_BAD_MAGICNUMBER:
+	return mssipotf_e_bad_magicnumber;
+case MSSIPOTF_E_BAD_MAGICNUMBER:
+	return mssipotf_e_bad_magicnumber;
+case MSSIPOTF_E_BAD_OFFSET_TABLE:
+	return mssipotf_e_bad_offset_table;
+case MSSIPOTF_E_BAD_OFFSET_TABLE:
+	return mssipotf_e_bad_offset_table;
+case MSSIPOTF_E_BAD_OFFSET_TABLE:
+	return mssipotf_e_bad_offset_table;
+case MSSIPOTF_E_TABLE_TAGORDER:
+	return mssipotf_e_table_tagorder;
+case MSSIPOTF_E_TABLE_TAGORDER:
+	return mssipotf_e_table_tagorder;
+case MSSIPOTF_E_TABLE_TAGORDER:
+	return mssipotf_e_table_tagorder;
+case MSSIPOTF_E_TABLE_LONGWORD:
+	return mssipotf_e_table_longword;
+case MSSIPOTF_E_TABLE_LONGWORD:
+	return mssipotf_e_table_longword;
+case MSSIPOTF_E_TABLE_LONGWORD:
+	return mssipotf_e_table_longword;
+case MSSIPOTF_E_BAD_FIRST_TABLE_PLACEMENT:
+	return mssipotf_e_bad_first_table_placement;
+case MSSIPOTF_E_BAD_FIRST_TABLE_PLACEMENT:
+	return mssipotf_e_bad_first_table_placement;
+case MSSIPOTF_E_BAD_FIRST_TABLE_PLACEMENT:
+	return mssipotf_e_bad_first_table_placement;
+case MSSIPOTF_E_TABLES_OVERLAP:
+	return mssipotf_e_tables_overlap;
+case MSSIPOTF_E_TABLES_OVERLAP:
+	return mssipotf_e_tables_overlap;
+case MSSIPOTF_E_TABLES_OVERLAP:
+	return mssipotf_e_tables_overlap;
+case MSSIPOTF_E_TABLE_PADBYTES:
+	return mssipotf_e_table_padbytes;
+case MSSIPOTF_E_TABLE_PADBYTES:
+	return mssipotf_e_table_padbytes;
+case MSSIPOTF_E_TABLE_PADBYTES:
+	return mssipotf_e_table_padbytes;
+case MSSIPOTF_E_FILETOOSMALL:
+	return mssipotf_e_filetoosmall;
+case MSSIPOTF_E_FILETOOSMALL:
+	return mssipotf_e_filetoosmall;
+case MSSIPOTF_E_FILETOOSMALL:
+	return mssipotf_e_filetoosmall;
+case MSSIPOTF_E_TABLE_CHECKSUM:
+	return mssipotf_e_table_checksum;
+case MSSIPOTF_E_TABLE_CHECKSUM:
+	return mssipotf_e_table_checksum;
+case MSSIPOTF_E_TABLE_CHECKSUM:
+	return mssipotf_e_table_checksum;
+case MSSIPOTF_E_FILE_CHECKSUM:
+	return mssipotf_e_file_checksum;
+case MSSIPOTF_E_FILE_CHECKSUM:
+	return mssipotf_e_file_checksum;
+case MSSIPOTF_E_FILE_CHECKSUM:
+	return mssipotf_e_file_checksum;
+case MSSIPOTF_E_FAILED_POLICY:
+	return mssipotf_e_failed_policy;
+case MSSIPOTF_E_FAILED_POLICY:
+	return mssipotf_e_failed_policy;
+case MSSIPOTF_E_FAILED_POLICY:
+	return mssipotf_e_failed_policy;
+case MSSIPOTF_E_FAILED_HINTS_CHECK:
+	return mssipotf_e_failed_hints_check;
+case MSSIPOTF_E_FAILED_HINTS_CHECK:
+	return mssipotf_e_failed_hints_check;
+case MSSIPOTF_E_FAILED_HINTS_CHECK:
+	return mssipotf_e_failed_hints_check;
+case MSSIPOTF_E_NOT_OPENTYPE:
+	return mssipotf_e_not_opentype;
+case MSSIPOTF_E_NOT_OPENTYPE:
+	return mssipotf_e_not_opentype;
+case MSSIPOTF_E_NOT_OPENTYPE:
+	return mssipotf_e_not_opentype;
+case MSSIPOTF_E_FILE:
+	return mssipotf_e_file;
+case MSSIPOTF_E_FILE:
+	return mssipotf_e_file;
+case MSSIPOTF_E_FILE:
+	return mssipotf_e_file;
+case MSSIPOTF_E_CRYPT:
+	return mssipotf_e_crypt;
+case MSSIPOTF_E_CRYPT:
+	return mssipotf_e_crypt;
+case MSSIPOTF_E_CRYPT:
+	return mssipotf_e_crypt;
+case MSSIPOTF_E_BADVERSION:
+	return mssipotf_e_badversion;
+case MSSIPOTF_E_BADVERSION:
+	return mssipotf_e_badversion;
+case MSSIPOTF_E_BADVERSION:
+	return mssipotf_e_badversion;
+case MSSIPOTF_E_DSIG_STRUCTURE:
+	return mssipotf_e_dsig_structure;
+case MSSIPOTF_E_DSIG_STRUCTURE:
+	return mssipotf_e_dsig_structure;
+case MSSIPOTF_E_DSIG_STRUCTURE:
+	return mssipotf_e_dsig_structure;
+case MSSIPOTF_E_PCONST_CHECK:
+	return mssipotf_e_pconst_check;
+case MSSIPOTF_E_PCONST_CHECK:
+	return mssipotf_e_pconst_check;
+case MSSIPOTF_E_PCONST_CHECK:
+	return mssipotf_e_pconst_check;
+case MSSIPOTF_E_STRUCTURE:
+	return mssipotf_e_structure;
+case MSSIPOTF_E_STRUCTURE:
+	return mssipotf_e_structure;
+case MSSIPOTF_E_STRUCTURE:
+	return mssipotf_e_structure;
+case ERROR_CRED_REQUIRES_CONFIRMATION:
+	return error_cred_requires_confirmation;
+case ERROR_CRED_REQUIRES_CONFIRMATION:
+	return error_cred_requires_confirmation;
+case ERROR_CRED_REQUIRES_CONFIRMATION:
+	return error_cred_requires_confirmation;
+case TRUST_E_PROVIDER_UNKNOWN:
+	return trust_e_provider_unknown;
+case TRUST_E_PROVIDER_UNKNOWN:
+	return trust_e_provider_unknown;
+case TRUST_E_PROVIDER_UNKNOWN:
+	return trust_e_provider_unknown;
+case TRUST_E_ACTION_UNKNOWN:
+	return trust_e_action_unknown;
+case TRUST_E_ACTION_UNKNOWN:
+	return trust_e_action_unknown;
+case TRUST_E_ACTION_UNKNOWN:
+	return trust_e_action_unknown;
+case TRUST_E_SUBJECT_FORM_UNKNOWN:
+	return trust_e_subject_form_unknown;
+case TRUST_E_SUBJECT_FORM_UNKNOWN:
+	return trust_e_subject_form_unknown;
+case TRUST_E_SUBJECT_FORM_UNKNOWN:
+	return trust_e_subject_form_unknown;
+case TRUST_E_SUBJECT_NOT_TRUSTED:
+	return trust_e_subject_not_trusted;
+case TRUST_E_SUBJECT_NOT_TRUSTED:
+	return trust_e_subject_not_trusted;
+case TRUST_E_SUBJECT_NOT_TRUSTED:
+	return trust_e_subject_not_trusted;
+case DIGSIG_E_ENCODE:
+	return digsig_e_encode;
+case DIGSIG_E_ENCODE:
+	return digsig_e_encode;
+case DIGSIG_E_ENCODE:
+	return digsig_e_encode;
+case DIGSIG_E_DECODE:
+	return digsig_e_decode;
+case DIGSIG_E_DECODE:
+	return digsig_e_decode;
+case DIGSIG_E_DECODE:
+	return digsig_e_decode;
+case DIGSIG_E_EXTENSIBILITY:
+	return digsig_e_extensibility;
+case DIGSIG_E_EXTENSIBILITY:
+	return digsig_e_extensibility;
+case DIGSIG_E_EXTENSIBILITY:
+	return digsig_e_extensibility;
+case DIGSIG_E_CRYPTO:
+	return digsig_e_crypto;
+case DIGSIG_E_CRYPTO:
+	return digsig_e_crypto;
+case DIGSIG_E_CRYPTO:
+	return digsig_e_crypto;
+case PERSIST_E_SIZEDEFINITE:
+	return persist_e_sizedefinite;
+case PERSIST_E_SIZEDEFINITE:
+	return persist_e_sizedefinite;
+case PERSIST_E_SIZEDEFINITE:
+	return persist_e_sizedefinite;
+case PERSIST_E_SIZEINDEFINITE:
+	return persist_e_sizeindefinite;
+case PERSIST_E_SIZEINDEFINITE:
+	return persist_e_sizeindefinite;
+case PERSIST_E_SIZEINDEFINITE:
+	return persist_e_sizeindefinite;
+case PERSIST_E_NOTSELFSIZING:
+	return persist_e_notselfsizing;
+case PERSIST_E_NOTSELFSIZING:
+	return persist_e_notselfsizing;
+case PERSIST_E_NOTSELFSIZING:
+	return persist_e_notselfsizing;
+case TRUST_E_NOSIGNATURE:
+	return trust_e_nosignature;
+case TRUST_E_NOSIGNATURE:
+	return trust_e_nosignature;
+case TRUST_E_NOSIGNATURE:
+	return trust_e_nosignature;
+case CERT_E_EXPIRED:
+	return cert_e_expired;
+case CERT_E_EXPIRED:
+	return cert_e_expired;
+case CERT_E_EXPIRED:
+	return cert_e_expired;
+case CERT_E_VALIDITYPERIODNESTING:
+	return cert_e_validityperiodnesting;
+case CERT_E_VALIDITYPERIODNESTING:
+	return cert_e_validityperiodnesting;
+case CERT_E_VALIDITYPERIODNESTING:
+	return cert_e_validityperiodnesting;
+case CERT_E_ROLE:
+	return cert_e_role;
+case CERT_E_ROLE:
+	return cert_e_role;
+case CERT_E_ROLE:
+	return cert_e_role;
+case CERT_E_PATHLENCONST:
+	return cert_e_pathlenconst;
+case CERT_E_PATHLENCONST:
+	return cert_e_pathlenconst;
+case CERT_E_PATHLENCONST:
+	return cert_e_pathlenconst;
+case CERT_E_CRITICAL:
+	return cert_e_critical;
+case CERT_E_CRITICAL:
+	return cert_e_critical;
+case CERT_E_CRITICAL:
+	return cert_e_critical;
+case CERT_E_PURPOSE:
+	return cert_e_purpose;
+case CERT_E_PURPOSE:
+	return cert_e_purpose;
+case CERT_E_PURPOSE:
+	return cert_e_purpose;
+case CERT_E_ISSUERCHAINING:
+	return cert_e_issuerchaining;
+case CERT_E_ISSUERCHAINING:
+	return cert_e_issuerchaining;
+case CERT_E_ISSUERCHAINING:
+	return cert_e_issuerchaining;
+case CERT_E_MALFORMED:
+	return cert_e_malformed;
+case CERT_E_MALFORMED:
+	return cert_e_malformed;
+case CERT_E_MALFORMED:
+	return cert_e_malformed;
+case CERT_E_UNTRUSTEDROOT:
+	return cert_e_untrustedroot;
+case CERT_E_UNTRUSTEDROOT:
+	return cert_e_untrustedroot;
+case CERT_E_UNTRUSTEDROOT:
+	return cert_e_untrustedroot;
+case CERT_E_CHAINING:
+	return cert_e_chaining;
+case CERT_E_CHAINING:
+	return cert_e_chaining;
+case CERT_E_CHAINING:
+	return cert_e_chaining;
+case TRUST_E_FAIL:
+	return trust_e_fail;
+case TRUST_E_FAIL:
+	return trust_e_fail;
+case TRUST_E_FAIL:
+	return trust_e_fail;
+case CERT_E_REVOKED:
+	return cert_e_revoked;
+case CERT_E_REVOKED:
+	return cert_e_revoked;
+case CERT_E_REVOKED:
+	return cert_e_revoked;
+case CERT_E_UNTRUSTEDTESTROOT:
+	return cert_e_untrustedtestroot;
+case CERT_E_UNTRUSTEDTESTROOT:
+	return cert_e_untrustedtestroot;
+case CERT_E_UNTRUSTEDTESTROOT:
+	return cert_e_untrustedtestroot;
+case CERT_E_REVOCATION_FAILURE:
+	return cert_e_revocation_failure;
+case CERT_E_REVOCATION_FAILURE:
+	return cert_e_revocation_failure;
+case CERT_E_REVOCATION_FAILURE:
+	return cert_e_revocation_failure;
+case CERT_E_CN_NO_MATCH:
+	return cert_e_cn_no_match;
+case CERT_E_CN_NO_MATCH:
+	return cert_e_cn_no_match;
+case CERT_E_CN_NO_MATCH:
+	return cert_e_cn_no_match;
+case CERT_E_WRONG_USAGE:
+	return cert_e_wrong_usage;
+case CERT_E_WRONG_USAGE:
+	return cert_e_wrong_usage;
+case CERT_E_WRONG_USAGE:
+	return cert_e_wrong_usage;
+case TRUST_E_EXPLICIT_DISTRUST:
+	return trust_e_explicit_distrust;
+case TRUST_E_EXPLICIT_DISTRUST:
+	return trust_e_explicit_distrust;
+case TRUST_E_EXPLICIT_DISTRUST:
+	return trust_e_explicit_distrust;
+case CERT_E_UNTRUSTEDCA:
+	return cert_e_untrustedca;
+case CERT_E_UNTRUSTEDCA:
+	return cert_e_untrustedca;
+case CERT_E_UNTRUSTEDCA:
+	return cert_e_untrustedca;
+case CERT_E_INVALID_POLICY:
+	return cert_e_invalid_policy;
+case CERT_E_INVALID_POLICY:
+	return cert_e_invalid_policy;
+case CERT_E_INVALID_POLICY:
+	return cert_e_invalid_policy;
+case CERT_E_INVALID_NAME:
+	return cert_e_invalid_name;
+case CERT_E_INVALID_NAME:
+	return cert_e_invalid_name;
+case CERT_E_INVALID_NAME:
+	return cert_e_invalid_name;
+case NS_W_SERVER_BANDWIDTH_LIMIT:
+	return ns_w_server_bandwidth_limit;
+case NS_W_SERVER_BANDWIDTH_LIMIT:
+	return ns_w_server_bandwidth_limit;
+case NS_W_SERVER_BANDWIDTH_LIMIT:
+	return ns_w_server_bandwidth_limit;
+case NS_W_FILE_BANDWIDTH_LIMIT:
+	return ns_w_file_bandwidth_limit;
+case NS_W_FILE_BANDWIDTH_LIMIT:
+	return ns_w_file_bandwidth_limit;
+case NS_W_FILE_BANDWIDTH_LIMIT:
+	return ns_w_file_bandwidth_limit;
+case NS_W_UNKNOWN_EVENT:
+	return ns_w_unknown_event;
+case NS_W_UNKNOWN_EVENT:
+	return ns_w_unknown_event;
+case NS_W_UNKNOWN_EVENT:
+	return ns_w_unknown_event;
+case NS_I_CATATONIC_FAILURE:
+	return ns_i_catatonic_failure;
+case NS_I_CATATONIC_FAILURE:
+	return ns_i_catatonic_failure;
+case NS_I_CATATONIC_FAILURE:
+	return ns_i_catatonic_failure;
+case NS_I_CATATONIC_AUTO_UNFAIL:
+	return ns_i_catatonic_auto_unfail;
+case NS_I_CATATONIC_AUTO_UNFAIL:
+	return ns_i_catatonic_auto_unfail;
+case NS_I_CATATONIC_AUTO_UNFAIL:
+	return ns_i_catatonic_auto_unfail;
+case SPAPI_E_EXPECTED_SECTION_NAME:
+	return spapi_e_expected_section_name;
+case SPAPI_E_EXPECTED_SECTION_NAME:
+	return spapi_e_expected_section_name;
+case SPAPI_E_EXPECTED_SECTION_NAME:
+	return spapi_e_expected_section_name;
+case SPAPI_E_BAD_SECTION_NAME_LINE:
+	return spapi_e_bad_section_name_line;
+case SPAPI_E_BAD_SECTION_NAME_LINE:
+	return spapi_e_bad_section_name_line;
+case SPAPI_E_BAD_SECTION_NAME_LINE:
+	return spapi_e_bad_section_name_line;
+case SPAPI_E_SECTION_NAME_TOO_LONG:
+	return spapi_e_section_name_too_long;
+case SPAPI_E_SECTION_NAME_TOO_LONG:
+	return spapi_e_section_name_too_long;
+case SPAPI_E_SECTION_NAME_TOO_LONG:
+	return spapi_e_section_name_too_long;
+case SPAPI_E_GENERAL_SYNTAX:
+	return spapi_e_general_syntax;
+case SPAPI_E_GENERAL_SYNTAX:
+	return spapi_e_general_syntax;
+case SPAPI_E_GENERAL_SYNTAX:
+	return spapi_e_general_syntax;
+case SPAPI_E_WRONG_INF_STYLE:
+	return spapi_e_wrong_inf_style;
+case SPAPI_E_WRONG_INF_STYLE:
+	return spapi_e_wrong_inf_style;
+case SPAPI_E_WRONG_INF_STYLE:
+	return spapi_e_wrong_inf_style;
+case SPAPI_E_SECTION_NOT_FOUND:
+	return spapi_e_section_not_found;
+case SPAPI_E_SECTION_NOT_FOUND:
+	return spapi_e_section_not_found;
+case SPAPI_E_SECTION_NOT_FOUND:
+	return spapi_e_section_not_found;
+case SPAPI_E_LINE_NOT_FOUND:
+	return spapi_e_line_not_found;
+case SPAPI_E_LINE_NOT_FOUND:
+	return spapi_e_line_not_found;
+case SPAPI_E_LINE_NOT_FOUND:
+	return spapi_e_line_not_found;
+case SPAPI_E_NO_BACKUP:
+	return spapi_e_no_backup;
+case SPAPI_E_NO_BACKUP:
+	return spapi_e_no_backup;
+case SPAPI_E_NO_BACKUP:
+	return spapi_e_no_backup;
+case SPAPI_E_NO_ASSOCIATED_CLASS:
+	return spapi_e_no_associated_class;
+case SPAPI_E_NO_ASSOCIATED_CLASS:
+	return spapi_e_no_associated_class;
+case SPAPI_E_NO_ASSOCIATED_CLASS:
+	return spapi_e_no_associated_class;
+case SPAPI_E_CLASS_MISMATCH:
+	return spapi_e_class_mismatch;
+case SPAPI_E_CLASS_MISMATCH:
+	return spapi_e_class_mismatch;
+case SPAPI_E_CLASS_MISMATCH:
+	return spapi_e_class_mismatch;
+case SPAPI_E_DUPLICATE_FOUND:
+	return spapi_e_duplicate_found;
+case SPAPI_E_DUPLICATE_FOUND:
+	return spapi_e_duplicate_found;
+case SPAPI_E_DUPLICATE_FOUND:
+	return spapi_e_duplicate_found;
+case SPAPI_E_NO_DRIVER_SELECTED:
+	return spapi_e_no_driver_selected;
+case SPAPI_E_NO_DRIVER_SELECTED:
+	return spapi_e_no_driver_selected;
+case SPAPI_E_NO_DRIVER_SELECTED:
+	return spapi_e_no_driver_selected;
+case SPAPI_E_KEY_DOES_NOT_EXIST:
+	return spapi_e_key_does_not_exist;
+case SPAPI_E_KEY_DOES_NOT_EXIST:
+	return spapi_e_key_does_not_exist;
+case SPAPI_E_KEY_DOES_NOT_EXIST:
+	return spapi_e_key_does_not_exist;
+case SPAPI_E_INVALID_DEVINST_NAME:
+	return spapi_e_invalid_devinst_name;
+case SPAPI_E_INVALID_DEVINST_NAME:
+	return spapi_e_invalid_devinst_name;
+case SPAPI_E_INVALID_DEVINST_NAME:
+	return spapi_e_invalid_devinst_name;
+case SPAPI_E_INVALID_CLASS:
+	return spapi_e_invalid_class;
+case SPAPI_E_INVALID_CLASS:
+	return spapi_e_invalid_class;
+case SPAPI_E_INVALID_CLASS:
+	return spapi_e_invalid_class;
+case SPAPI_E_DEVINST_ALREADY_EXISTS:
+	return spapi_e_devinst_already_exists;
+case SPAPI_E_DEVINST_ALREADY_EXISTS:
+	return spapi_e_devinst_already_exists;
+case SPAPI_E_DEVINST_ALREADY_EXISTS:
+	return spapi_e_devinst_already_exists;
+case SPAPI_E_DEVINFO_NOT_REGISTERED:
+	return spapi_e_devinfo_not_registered;
+case SPAPI_E_DEVINFO_NOT_REGISTERED:
+	return spapi_e_devinfo_not_registered;
+case SPAPI_E_DEVINFO_NOT_REGISTERED:
+	return spapi_e_devinfo_not_registered;
+case SPAPI_E_INVALID_REG_PROPERTY:
+	return spapi_e_invalid_reg_property;
+case SPAPI_E_INVALID_REG_PROPERTY:
+	return spapi_e_invalid_reg_property;
+case SPAPI_E_INVALID_REG_PROPERTY:
+	return spapi_e_invalid_reg_property;
+case SPAPI_E_NO_INF:
+	return spapi_e_no_inf;
+case SPAPI_E_NO_INF:
+	return spapi_e_no_inf;
+case SPAPI_E_NO_INF:
+	return spapi_e_no_inf;
+case SPAPI_E_NO_SUCH_DEVINST:
+	return spapi_e_no_such_devinst;
+case SPAPI_E_NO_SUCH_DEVINST:
+	return spapi_e_no_such_devinst;
+case SPAPI_E_NO_SUCH_DEVINST:
+	return spapi_e_no_such_devinst;
+case SPAPI_E_CANT_LOAD_CLASS_ICON:
+	return spapi_e_cant_load_class_icon;
+case SPAPI_E_CANT_LOAD_CLASS_ICON:
+	return spapi_e_cant_load_class_icon;
+case SPAPI_E_CANT_LOAD_CLASS_ICON:
+	return spapi_e_cant_load_class_icon;
+case SPAPI_E_INVALID_CLASS_INSTALLER:
+	return spapi_e_invalid_class_installer;
+case SPAPI_E_INVALID_CLASS_INSTALLER:
+	return spapi_e_invalid_class_installer;
+case SPAPI_E_INVALID_CLASS_INSTALLER:
+	return spapi_e_invalid_class_installer;
+case SPAPI_E_DI_DO_DEFAULT:
+	return spapi_e_di_do_default;
+case SPAPI_E_DI_DO_DEFAULT:
+	return spapi_e_di_do_default;
+case SPAPI_E_DI_DO_DEFAULT:
+	return spapi_e_di_do_default;
+case SPAPI_E_DI_NOFILECOPY:
+	return spapi_e_di_nofilecopy;
+case SPAPI_E_DI_NOFILECOPY:
+	return spapi_e_di_nofilecopy;
+case SPAPI_E_DI_NOFILECOPY:
+	return spapi_e_di_nofilecopy;
+case SPAPI_E_INVALID_HWPROFILE:
+	return spapi_e_invalid_hwprofile;
+case SPAPI_E_INVALID_HWPROFILE:
+	return spapi_e_invalid_hwprofile;
+case SPAPI_E_INVALID_HWPROFILE:
+	return spapi_e_invalid_hwprofile;
+case SPAPI_E_NO_DEVICE_SELECTED:
+	return spapi_e_no_device_selected;
+case SPAPI_E_NO_DEVICE_SELECTED:
+	return spapi_e_no_device_selected;
+case SPAPI_E_NO_DEVICE_SELECTED:
+	return spapi_e_no_device_selected;
+case SPAPI_E_DEVINFO_LIST_LOCKED:
+	return spapi_e_devinfo_list_locked;
+case SPAPI_E_DEVINFO_LIST_LOCKED:
+	return spapi_e_devinfo_list_locked;
+case SPAPI_E_DEVINFO_LIST_LOCKED:
+	return spapi_e_devinfo_list_locked;
+case SPAPI_E_DEVINFO_DATA_LOCKED:
+	return spapi_e_devinfo_data_locked;
+case SPAPI_E_DEVINFO_DATA_LOCKED:
+	return spapi_e_devinfo_data_locked;
+case SPAPI_E_DEVINFO_DATA_LOCKED:
+	return spapi_e_devinfo_data_locked;
+case SPAPI_E_DI_BAD_PATH:
+	return spapi_e_di_bad_path;
+case SPAPI_E_DI_BAD_PATH:
+	return spapi_e_di_bad_path;
+case SPAPI_E_DI_BAD_PATH:
+	return spapi_e_di_bad_path;
+case SPAPI_E_NO_CLASSINSTALL_PARAMS:
+	return spapi_e_no_classinstall_params;
+case SPAPI_E_NO_CLASSINSTALL_PARAMS:
+	return spapi_e_no_classinstall_params;
+case SPAPI_E_NO_CLASSINSTALL_PARAMS:
+	return spapi_e_no_classinstall_params;
+case SPAPI_E_FILEQUEUE_LOCKED:
+	return spapi_e_filequeue_locked;
+case SPAPI_E_FILEQUEUE_LOCKED:
+	return spapi_e_filequeue_locked;
+case SPAPI_E_FILEQUEUE_LOCKED:
+	return spapi_e_filequeue_locked;
+case SPAPI_E_BAD_SERVICE_INSTALLSECT:
+	return spapi_e_bad_service_installsect;
+case SPAPI_E_BAD_SERVICE_INSTALLSECT:
+	return spapi_e_bad_service_installsect;
+case SPAPI_E_BAD_SERVICE_INSTALLSECT:
+	return spapi_e_bad_service_installsect;
+case SPAPI_E_NO_CLASS_DRIVER_LIST:
+	return spapi_e_no_class_driver_list;
+case SPAPI_E_NO_CLASS_DRIVER_LIST:
+	return spapi_e_no_class_driver_list;
+case SPAPI_E_NO_CLASS_DRIVER_LIST:
+	return spapi_e_no_class_driver_list;
+case SPAPI_E_NO_ASSOCIATED_SERVICE:
+	return spapi_e_no_associated_service;
+case SPAPI_E_NO_ASSOCIATED_SERVICE:
+	return spapi_e_no_associated_service;
+case SPAPI_E_NO_ASSOCIATED_SERVICE:
+	return spapi_e_no_associated_service;
+case SPAPI_E_NO_DEFAULT_DEVICE_INTERFACE:
+	return spapi_e_no_default_device_interface;
+case SPAPI_E_NO_DEFAULT_DEVICE_INTERFACE:
+	return spapi_e_no_default_device_interface;
+case SPAPI_E_NO_DEFAULT_DEVICE_INTERFACE:
+	return spapi_e_no_default_device_interface;
+case SPAPI_E_DEVICE_INTERFACE_ACTIVE:
+	return spapi_e_device_interface_active;
+case SPAPI_E_DEVICE_INTERFACE_ACTIVE:
+	return spapi_e_device_interface_active;
+case SPAPI_E_DEVICE_INTERFACE_ACTIVE:
+	return spapi_e_device_interface_active;
+case SPAPI_E_DEVICE_INTERFACE_REMOVED:
+	return spapi_e_device_interface_removed;
+case SPAPI_E_DEVICE_INTERFACE_REMOVED:
+	return spapi_e_device_interface_removed;
+case SPAPI_E_DEVICE_INTERFACE_REMOVED:
+	return spapi_e_device_interface_removed;
+case SPAPI_E_BAD_INTERFACE_INSTALLSECT:
+	return spapi_e_bad_interface_installsect;
+case SPAPI_E_BAD_INTERFACE_INSTALLSECT:
+	return spapi_e_bad_interface_installsect;
+case SPAPI_E_BAD_INTERFACE_INSTALLSECT:
+	return spapi_e_bad_interface_installsect;
+case SPAPI_E_NO_SUCH_INTERFACE_CLASS:
+	return spapi_e_no_such_interface_class;
+case SPAPI_E_NO_SUCH_INTERFACE_CLASS:
+	return spapi_e_no_such_interface_class;
+case SPAPI_E_NO_SUCH_INTERFACE_CLASS:
+	return spapi_e_no_such_interface_class;
+case SPAPI_E_INVALID_REFERENCE_STRING:
+	return spapi_e_invalid_reference_string;
+case SPAPI_E_INVALID_REFERENCE_STRING:
+	return spapi_e_invalid_reference_string;
+case SPAPI_E_INVALID_REFERENCE_STRING:
+	return spapi_e_invalid_reference_string;
+case SPAPI_E_INVALID_MACHINENAME:
+	return spapi_e_invalid_machinename;
+case SPAPI_E_INVALID_MACHINENAME:
+	return spapi_e_invalid_machinename;
+case SPAPI_E_INVALID_MACHINENAME:
+	return spapi_e_invalid_machinename;
+case SPAPI_E_REMOTE_COMM_FAILURE:
+	return spapi_e_remote_comm_failure;
+case SPAPI_E_REMOTE_COMM_FAILURE:
+	return spapi_e_remote_comm_failure;
+case SPAPI_E_REMOTE_COMM_FAILURE:
+	return spapi_e_remote_comm_failure;
+case SPAPI_E_MACHINE_UNAVAILABLE:
+	return spapi_e_machine_unavailable;
+case SPAPI_E_MACHINE_UNAVAILABLE:
+	return spapi_e_machine_unavailable;
+case SPAPI_E_MACHINE_UNAVAILABLE:
+	return spapi_e_machine_unavailable;
+case SPAPI_E_NO_CONFIGMGR_SERVICES:
+	return spapi_e_no_configmgr_services;
+case SPAPI_E_NO_CONFIGMGR_SERVICES:
+	return spapi_e_no_configmgr_services;
+case SPAPI_E_NO_CONFIGMGR_SERVICES:
+	return spapi_e_no_configmgr_services;
+case SPAPI_E_INVALID_PROPPAGE_PROVIDER:
+	return spapi_e_invalid_proppage_provider;
+case SPAPI_E_INVALID_PROPPAGE_PROVIDER:
+	return spapi_e_invalid_proppage_provider;
+case SPAPI_E_INVALID_PROPPAGE_PROVIDER:
+	return spapi_e_invalid_proppage_provider;
+case SPAPI_E_NO_SUCH_DEVICE_INTERFACE:
+	return spapi_e_no_such_device_interface;
+case SPAPI_E_NO_SUCH_DEVICE_INTERFACE:
+	return spapi_e_no_such_device_interface;
+case SPAPI_E_NO_SUCH_DEVICE_INTERFACE:
+	return spapi_e_no_such_device_interface;
+case SPAPI_E_DI_POSTPROCESSING_REQUIRED:
+	return spapi_e_di_postprocessing_required;
+case SPAPI_E_DI_POSTPROCESSING_REQUIRED:
+	return spapi_e_di_postprocessing_required;
+case SPAPI_E_DI_POSTPROCESSING_REQUIRED:
+	return spapi_e_di_postprocessing_required;
+case SPAPI_E_INVALID_COINSTALLER:
+	return spapi_e_invalid_coinstaller;
+case SPAPI_E_INVALID_COINSTALLER:
+	return spapi_e_invalid_coinstaller;
+case SPAPI_E_INVALID_COINSTALLER:
+	return spapi_e_invalid_coinstaller;
+case SPAPI_E_NO_COMPAT_DRIVERS:
+	return spapi_e_no_compat_drivers;
+case SPAPI_E_NO_COMPAT_DRIVERS:
+	return spapi_e_no_compat_drivers;
+case SPAPI_E_NO_COMPAT_DRIVERS:
+	return spapi_e_no_compat_drivers;
+case SPAPI_E_NO_DEVICE_ICON:
+	return spapi_e_no_device_icon;
+case SPAPI_E_NO_DEVICE_ICON:
+	return spapi_e_no_device_icon;
+case SPAPI_E_NO_DEVICE_ICON:
+	return spapi_e_no_device_icon;
+case SPAPI_E_INVALID_INF_LOGCONFIG:
+	return spapi_e_invalid_inf_logconfig;
+case SPAPI_E_INVALID_INF_LOGCONFIG:
+	return spapi_e_invalid_inf_logconfig;
+case SPAPI_E_INVALID_INF_LOGCONFIG:
+	return spapi_e_invalid_inf_logconfig;
+case SPAPI_E_DI_DONT_INSTALL:
+	return spapi_e_di_dont_install;
+case SPAPI_E_DI_DONT_INSTALL:
+	return spapi_e_di_dont_install;
+case SPAPI_E_DI_DONT_INSTALL:
+	return spapi_e_di_dont_install;
+case SPAPI_E_INVALID_FILTER_DRIVER:
+	return spapi_e_invalid_filter_driver;
+case SPAPI_E_INVALID_FILTER_DRIVER:
+	return spapi_e_invalid_filter_driver;
+case SPAPI_E_INVALID_FILTER_DRIVER:
+	return spapi_e_invalid_filter_driver;
+case SPAPI_E_NON_WINDOWS_NT_DRIVER:
+	return spapi_e_non_windows_nt_driver;
+case SPAPI_E_NON_WINDOWS_NT_DRIVER:
+	return spapi_e_non_windows_nt_driver;
+case SPAPI_E_NON_WINDOWS_NT_DRIVER:
+	return spapi_e_non_windows_nt_driver;
+case SPAPI_E_NON_WINDOWS_DRIVER:
+	return spapi_e_non_windows_driver;
+case SPAPI_E_NON_WINDOWS_DRIVER:
+	return spapi_e_non_windows_driver;
+case SPAPI_E_NON_WINDOWS_DRIVER:
+	return spapi_e_non_windows_driver;
+case SPAPI_E_NO_CATALOG_FOR_OEM_INF:
+	return spapi_e_no_catalog_for_oem_inf;
+case SPAPI_E_NO_CATALOG_FOR_OEM_INF:
+	return spapi_e_no_catalog_for_oem_inf;
+case SPAPI_E_NO_CATALOG_FOR_OEM_INF:
+	return spapi_e_no_catalog_for_oem_inf;
+case SPAPI_E_DEVINSTALL_QUEUE_NONNATIVE:
+	return spapi_e_devinstall_queue_nonnative;
+case SPAPI_E_DEVINSTALL_QUEUE_NONNATIVE:
+	return spapi_e_devinstall_queue_nonnative;
+case SPAPI_E_DEVINSTALL_QUEUE_NONNATIVE:
+	return spapi_e_devinstall_queue_nonnative;
+case SPAPI_E_NOT_DISABLEABLE:
+	return spapi_e_not_disableable;
+case SPAPI_E_NOT_DISABLEABLE:
+	return spapi_e_not_disableable;
+case SPAPI_E_NOT_DISABLEABLE:
+	return spapi_e_not_disableable;
+case SPAPI_E_CANT_REMOVE_DEVINST:
+	return spapi_e_cant_remove_devinst;
+case SPAPI_E_CANT_REMOVE_DEVINST:
+	return spapi_e_cant_remove_devinst;
+case SPAPI_E_CANT_REMOVE_DEVINST:
+	return spapi_e_cant_remove_devinst;
+case SPAPI_E_INVALID_TARGET:
+	return spapi_e_invalid_target;
+case SPAPI_E_INVALID_TARGET:
+	return spapi_e_invalid_target;
+case SPAPI_E_INVALID_TARGET:
+	return spapi_e_invalid_target;
+case SPAPI_E_DRIVER_NONNATIVE:
+	return spapi_e_driver_nonnative;
+case SPAPI_E_DRIVER_NONNATIVE:
+	return spapi_e_driver_nonnative;
+case SPAPI_E_DRIVER_NONNATIVE:
+	return spapi_e_driver_nonnative;
+case SPAPI_E_DRIVER_NONNATIVE:
+	return spapi_e_driver_nonnative;
+case SPAPI_E_DRIVER_NONNATIVE:
+	return spapi_e_driver_nonnative;
+case SPAPI_E_DRIVER_NONNATIVE:
+	return spapi_e_driver_nonnative;
+case SPAPI_E_SET_SYSTEM_RESTORE_POINT:
+	return spapi_e_set_system_restore_point;
+case SPAPI_E_SET_SYSTEM_RESTORE_POINT:
+	return spapi_e_set_system_restore_point;
+case SPAPI_E_SET_SYSTEM_RESTORE_POINT:
+	return spapi_e_set_system_restore_point;
+case SPAPI_E_INCORRECTLY_COPIED_INF:
+	return spapi_e_incorrectly_copied_inf;
+case SPAPI_E_INCORRECTLY_COPIED_INF:
+	return spapi_e_incorrectly_copied_inf;
+case SPAPI_E_INCORRECTLY_COPIED_INF:
+	return spapi_e_incorrectly_copied_inf;
+case SPAPI_E_SCE_DISABLED:
+	return spapi_e_sce_disabled;
+case SPAPI_E_SCE_DISABLED:
+	return spapi_e_sce_disabled;
+case SPAPI_E_SCE_DISABLED:
+	return spapi_e_sce_disabled;
+case SPAPI_E_UNKNOWN_EXCEPTION:
+	return spapi_e_unknown_exception;
+case SPAPI_E_UNKNOWN_EXCEPTION:
+	return spapi_e_unknown_exception;
+case SPAPI_E_UNKNOWN_EXCEPTION:
+	return spapi_e_unknown_exception;
+case SPAPI_E_PNP_REGISTRY_ERROR:
+	return spapi_e_pnp_registry_error;
+case SPAPI_E_PNP_REGISTRY_ERROR:
+	return spapi_e_pnp_registry_error;
+case SPAPI_E_PNP_REGISTRY_ERROR:
+	return spapi_e_pnp_registry_error;
+case SPAPI_E_REMOTE_REQUEST_UNSUPPORTED:
+	return spapi_e_remote_request_unsupported;
+case SPAPI_E_REMOTE_REQUEST_UNSUPPORTED:
+	return spapi_e_remote_request_unsupported;
+case SPAPI_E_REMOTE_REQUEST_UNSUPPORTED:
+	return spapi_e_remote_request_unsupported;
+case SPAPI_E_NOT_AN_INSTALLED_OEM_INF:
+	return spapi_e_not_an_installed_oem_inf;
+case SPAPI_E_NOT_AN_INSTALLED_OEM_INF:
+	return spapi_e_not_an_installed_oem_inf;
+case SPAPI_E_NOT_AN_INSTALLED_OEM_INF:
+	return spapi_e_not_an_installed_oem_inf;
+case SPAPI_E_INF_IN_USE_BY_DEVICES:
+	return spapi_e_inf_in_use_by_devices;
+case SPAPI_E_INF_IN_USE_BY_DEVICES:
+	return spapi_e_inf_in_use_by_devices;
+case SPAPI_E_INF_IN_USE_BY_DEVICES:
+	return spapi_e_inf_in_use_by_devices;
+case SPAPI_E_DI_FUNCTION_OBSOLETE:
+	return spapi_e_di_function_obsolete;
+case SPAPI_E_DI_FUNCTION_OBSOLETE:
+	return spapi_e_di_function_obsolete;
+case SPAPI_E_DI_FUNCTION_OBSOLETE:
+	return spapi_e_di_function_obsolete;
+case SPAPI_E_NO_AUTHENTICODE_CATALOG:
+	return spapi_e_no_authenticode_catalog;
+case SPAPI_E_NO_AUTHENTICODE_CATALOG:
+	return spapi_e_no_authenticode_catalog;
+case SPAPI_E_NO_AUTHENTICODE_CATALOG:
+	return spapi_e_no_authenticode_catalog;
+case SPAPI_E_AUTHENTICODE_DISALLOWED:
+	return spapi_e_authenticode_disallowed;
+case SPAPI_E_AUTHENTICODE_DISALLOWED:
+	return spapi_e_authenticode_disallowed;
+case SPAPI_E_AUTHENTICODE_DISALLOWED:
+	return spapi_e_authenticode_disallowed;
+case SPAPI_E_AUTHENTICODE_TRUSTED_PUBLISHER:
+	return spapi_e_authenticode_trusted_publisher;
+case SPAPI_E_AUTHENTICODE_TRUSTED_PUBLISHER:
+	return spapi_e_authenticode_trusted_publisher;
+case SPAPI_E_AUTHENTICODE_TRUSTED_PUBLISHER:
+	return spapi_e_authenticode_trusted_publisher;
+case SPAPI_E_AUTHENTICODE_TRUST_NOT_ESTABLISHED:
+	return spapi_e_authenticode_trust_not_established;
+case SPAPI_E_AUTHENTICODE_TRUST_NOT_ESTABLISHED:
+	return spapi_e_authenticode_trust_not_established;
+case SPAPI_E_AUTHENTICODE_TRUST_NOT_ESTABLISHED:
+	return spapi_e_authenticode_trust_not_established;
+case SPAPI_E_AUTHENTICODE_PUBLISHER_NOT_TRUSTED:
+	return spapi_e_authenticode_publisher_not_trusted;
+case SPAPI_E_AUTHENTICODE_PUBLISHER_NOT_TRUSTED:
+	return spapi_e_authenticode_publisher_not_trusted;
+case SPAPI_E_AUTHENTICODE_PUBLISHER_NOT_TRUSTED:
+	return spapi_e_authenticode_publisher_not_trusted;
+case SPAPI_E_SIGNATURE_OSATTRIBUTE_MISMATCH:
+	return spapi_e_signature_osattribute_mismatch;
+case SPAPI_E_SIGNATURE_OSATTRIBUTE_MISMATCH:
+	return spapi_e_signature_osattribute_mismatch;
+case SPAPI_E_SIGNATURE_OSATTRIBUTE_MISMATCH:
+	return spapi_e_signature_osattribute_mismatch;
+case SPAPI_E_ONLY_VALIDATE_VIA_AUTHENTICODE:
+	return spapi_e_only_validate_via_authenticode;
+case SPAPI_E_ONLY_VALIDATE_VIA_AUTHENTICODE:
+	return spapi_e_only_validate_via_authenticode;
+case SPAPI_E_ONLY_VALIDATE_VIA_AUTHENTICODE:
+	return spapi_e_only_validate_via_authenticode;
+case SPAPI_E_DEVICE_INSTALLER_NOT_READY:
+	return spapi_e_device_installer_not_ready;
+case SPAPI_E_DEVICE_INSTALLER_NOT_READY:
+	return spapi_e_device_installer_not_ready;
+case SPAPI_E_DEVICE_INSTALLER_NOT_READY:
+	return spapi_e_device_installer_not_ready;
+case SPAPI_E_DRIVER_STORE_ADD_FAILED:
+	return spapi_e_driver_store_add_failed;
+case SPAPI_E_DRIVER_STORE_ADD_FAILED:
+	return spapi_e_driver_store_add_failed;
+case SPAPI_E_DRIVER_STORE_ADD_FAILED:
+	return spapi_e_driver_store_add_failed;
+case SPAPI_E_DEVICE_INSTALL_BLOCKED:
+	return spapi_e_device_install_blocked;
+case SPAPI_E_DEVICE_INSTALL_BLOCKED:
+	return spapi_e_device_install_blocked;
+case SPAPI_E_DEVICE_INSTALL_BLOCKED:
+	return spapi_e_device_install_blocked;
+case SPAPI_E_DRIVER_INSTALL_BLOCKED:
+	return spapi_e_driver_install_blocked;
+case SPAPI_E_DRIVER_INSTALL_BLOCKED:
+	return spapi_e_driver_install_blocked;
+case SPAPI_E_DRIVER_INSTALL_BLOCKED:
+	return spapi_e_driver_install_blocked;
+case SPAPI_E_WRONG_INF_TYPE:
+	return spapi_e_wrong_inf_type;
+case SPAPI_E_WRONG_INF_TYPE:
+	return spapi_e_wrong_inf_type;
+case SPAPI_E_WRONG_INF_TYPE:
+	return spapi_e_wrong_inf_type;
+case SPAPI_E_FILE_HASH_NOT_IN_CATALOG:
+	return spapi_e_file_hash_not_in_catalog;
+case SPAPI_E_FILE_HASH_NOT_IN_CATALOG:
+	return spapi_e_file_hash_not_in_catalog;
+case SPAPI_E_FILE_HASH_NOT_IN_CATALOG:
+	return spapi_e_file_hash_not_in_catalog;
+case SPAPI_E_DRIVER_STORE_DELETE_FAILED:
+	return spapi_e_driver_store_delete_failed;
+case SPAPI_E_DRIVER_STORE_DELETE_FAILED:
+	return spapi_e_driver_store_delete_failed;
+case SPAPI_E_DRIVER_STORE_DELETE_FAILED:
+	return spapi_e_driver_store_delete_failed;
+case SPAPI_E_UNRECOVERABLE_STACK_OVERFLOW:
+	return spapi_e_unrecoverable_stack_overflow;
+case SPAPI_E_UNRECOVERABLE_STACK_OVERFLOW:
+	return spapi_e_unrecoverable_stack_overflow;
+case SPAPI_E_UNRECOVERABLE_STACK_OVERFLOW:
+	return spapi_e_unrecoverable_stack_overflow;
+case SPAPI_E_ERROR_NOT_INSTALLED:
+	return spapi_e_error_not_installed;
+case SPAPI_E_ERROR_NOT_INSTALLED:
+	return spapi_e_error_not_installed;
+case SPAPI_E_ERROR_NOT_INSTALLED:
+	return spapi_e_error_not_installed;
+case SCARD_F_INTERNAL_ERROR:
+	return scard_f_internal_error;
+case SCARD_F_INTERNAL_ERROR:
+	return scard_f_internal_error;
+case SCARD_F_INTERNAL_ERROR:
+	return scard_f_internal_error;
+case SCARD_E_CANCELLED:
+	return scard_e_cancelled;
+case SCARD_E_CANCELLED:
+	return scard_e_cancelled;
+case SCARD_E_CANCELLED:
+	return scard_e_cancelled;
+case SCARD_E_INVALID_HANDLE:
+	return scard_e_invalid_handle;
+case SCARD_E_INVALID_HANDLE:
+	return scard_e_invalid_handle;
+case SCARD_E_INVALID_HANDLE:
+	return scard_e_invalid_handle;
+case SCARD_E_INVALID_PARAMETER:
+	return scard_e_invalid_parameter;
+case SCARD_E_INVALID_PARAMETER:
+	return scard_e_invalid_parameter;
+case SCARD_E_INVALID_PARAMETER:
+	return scard_e_invalid_parameter;
+case SCARD_E_INVALID_TARGET:
+	return scard_e_invalid_target;
+case SCARD_E_INVALID_TARGET:
+	return scard_e_invalid_target;
+case SCARD_E_INVALID_TARGET:
+	return scard_e_invalid_target;
+case SCARD_E_NO_MEMORY:
+	return scard_e_no_memory;
+case SCARD_E_NO_MEMORY:
+	return scard_e_no_memory;
+case SCARD_E_NO_MEMORY:
+	return scard_e_no_memory;
+case SCARD_F_WAITED_TOO_LONG:
+	return scard_f_waited_too_long;
+case SCARD_F_WAITED_TOO_LONG:
+	return scard_f_waited_too_long;
+case SCARD_F_WAITED_TOO_LONG:
+	return scard_f_waited_too_long;
+case SCARD_E_INSUFFICIENT_BUFFER:
+	return scard_e_insufficient_buffer;
+case SCARD_E_INSUFFICIENT_BUFFER:
+	return scard_e_insufficient_buffer;
+case SCARD_E_INSUFFICIENT_BUFFER:
+	return scard_e_insufficient_buffer;
+case SCARD_E_UNKNOWN_READER:
+	return scard_e_unknown_reader;
+case SCARD_E_UNKNOWN_READER:
+	return scard_e_unknown_reader;
+case SCARD_E_UNKNOWN_READER:
+	return scard_e_unknown_reader;
+case SCARD_E_TIMEOUT:
+	return scard_e_timeout;
+case SCARD_E_TIMEOUT:
+	return scard_e_timeout;
+case SCARD_E_TIMEOUT:
+	return scard_e_timeout;
+case SCARD_E_SHARING_VIOLATION:
+	return scard_e_sharing_violation;
+case SCARD_E_SHARING_VIOLATION:
+	return scard_e_sharing_violation;
+case SCARD_E_SHARING_VIOLATION:
+	return scard_e_sharing_violation;
+case SCARD_E_NO_SMARTCARD:
+	return scard_e_no_smartcard;
+case SCARD_E_NO_SMARTCARD:
+	return scard_e_no_smartcard;
+case SCARD_E_NO_SMARTCARD:
+	return scard_e_no_smartcard;
+case SCARD_E_UNKNOWN_CARD:
+	return scard_e_unknown_card;
+case SCARD_E_UNKNOWN_CARD:
+	return scard_e_unknown_card;
+case SCARD_E_UNKNOWN_CARD:
+	return scard_e_unknown_card;
+case SCARD_E_CANT_DISPOSE:
+	return scard_e_cant_dispose;
+case SCARD_E_CANT_DISPOSE:
+	return scard_e_cant_dispose;
+case SCARD_E_CANT_DISPOSE:
+	return scard_e_cant_dispose;
+case SCARD_E_PROTO_MISMATCH:
+	return scard_e_proto_mismatch;
+case SCARD_E_PROTO_MISMATCH:
+	return scard_e_proto_mismatch;
+case SCARD_E_PROTO_MISMATCH:
+	return scard_e_proto_mismatch;
+case SCARD_E_NOT_READY:
+	return scard_e_not_ready;
+case SCARD_E_NOT_READY:
+	return scard_e_not_ready;
+case SCARD_E_NOT_READY:
+	return scard_e_not_ready;
+case SCARD_E_INVALID_VALUE:
+	return scard_e_invalid_value;
+case SCARD_E_INVALID_VALUE:
+	return scard_e_invalid_value;
+case SCARD_E_INVALID_VALUE:
+	return scard_e_invalid_value;
+case SCARD_E_SYSTEM_CANCELLED:
+	return scard_e_system_cancelled;
+case SCARD_E_SYSTEM_CANCELLED:
+	return scard_e_system_cancelled;
+case SCARD_E_SYSTEM_CANCELLED:
+	return scard_e_system_cancelled;
+case SCARD_F_COMM_ERROR:
+	return scard_f_comm_error;
+case SCARD_F_COMM_ERROR:
+	return scard_f_comm_error;
+case SCARD_F_COMM_ERROR:
+	return scard_f_comm_error;
+case SCARD_F_UNKNOWN_ERROR:
+	return scard_f_unknown_error;
+case SCARD_F_UNKNOWN_ERROR:
+	return scard_f_unknown_error;
+case SCARD_F_UNKNOWN_ERROR:
+	return scard_f_unknown_error;
+case SCARD_E_INVALID_ATR:
+	return scard_e_invalid_atr;
+case SCARD_E_INVALID_ATR:
+	return scard_e_invalid_atr;
+case SCARD_E_INVALID_ATR:
+	return scard_e_invalid_atr;
+case SCARD_E_NOT_TRANSACTED:
+	return scard_e_not_transacted;
+case SCARD_E_NOT_TRANSACTED:
+	return scard_e_not_transacted;
+case SCARD_E_NOT_TRANSACTED:
+	return scard_e_not_transacted;
+case SCARD_E_READER_UNAVAILABLE:
+	return scard_e_reader_unavailable;
+case SCARD_E_READER_UNAVAILABLE:
+	return scard_e_reader_unavailable;
+case SCARD_E_READER_UNAVAILABLE:
+	return scard_e_reader_unavailable;
+case SCARD_P_SHUTDOWN:
+	return scard_p_shutdown;
+case SCARD_P_SHUTDOWN:
+	return scard_p_shutdown;
+case SCARD_P_SHUTDOWN:
+	return scard_p_shutdown;
+case SCARD_E_PCI_TOO_SMALL:
+	return scard_e_pci_too_small;
+case SCARD_E_PCI_TOO_SMALL:
+	return scard_e_pci_too_small;
+case SCARD_E_PCI_TOO_SMALL:
+	return scard_e_pci_too_small;
+case SCARD_E_READER_UNSUPPORTED:
+	return scard_e_reader_unsupported;
+case SCARD_E_READER_UNSUPPORTED:
+	return scard_e_reader_unsupported;
+case SCARD_E_READER_UNSUPPORTED:
+	return scard_e_reader_unsupported;
+case SCARD_E_DUPLICATE_READER:
+	return scard_e_duplicate_reader;
+case SCARD_E_DUPLICATE_READER:
+	return scard_e_duplicate_reader;
+case SCARD_E_DUPLICATE_READER:
+	return scard_e_duplicate_reader;
+case SCARD_E_CARD_UNSUPPORTED:
+	return scard_e_card_unsupported;
+case SCARD_E_CARD_UNSUPPORTED:
+	return scard_e_card_unsupported;
+case SCARD_E_CARD_UNSUPPORTED:
+	return scard_e_card_unsupported;
+case SCARD_E_NO_SERVICE:
+	return scard_e_no_service;
+case SCARD_E_NO_SERVICE:
+	return scard_e_no_service;
+case SCARD_E_NO_SERVICE:
+	return scard_e_no_service;
+case SCARD_E_SERVICE_STOPPED:
+	return scard_e_service_stopped;
+case SCARD_E_SERVICE_STOPPED:
+	return scard_e_service_stopped;
+case SCARD_E_SERVICE_STOPPED:
+	return scard_e_service_stopped;
+case SCARD_E_UNEXPECTED:
+	return scard_e_unexpected;
+case SCARD_E_UNEXPECTED:
+	return scard_e_unexpected;
+case SCARD_E_UNEXPECTED:
+	return scard_e_unexpected;
+case SCARD_E_ICC_INSTALLATION:
+	return scard_e_icc_installation;
+case SCARD_E_ICC_INSTALLATION:
+	return scard_e_icc_installation;
+case SCARD_E_ICC_INSTALLATION:
+	return scard_e_icc_installation;
+case SCARD_E_ICC_CREATEORDER:
+	return scard_e_icc_createorder;
+case SCARD_E_ICC_CREATEORDER:
+	return scard_e_icc_createorder;
+case SCARD_E_ICC_CREATEORDER:
+	return scard_e_icc_createorder;
+case SCARD_E_UNSUPPORTED_FEATURE:
+	return scard_e_unsupported_feature;
+case SCARD_E_UNSUPPORTED_FEATURE:
+	return scard_e_unsupported_feature;
+case SCARD_E_UNSUPPORTED_FEATURE:
+	return scard_e_unsupported_feature;
+case SCARD_E_DIR_NOT_FOUND:
+	return scard_e_dir_not_found;
+case SCARD_E_DIR_NOT_FOUND:
+	return scard_e_dir_not_found;
+case SCARD_E_DIR_NOT_FOUND:
+	return scard_e_dir_not_found;
+case SCARD_E_FILE_NOT_FOUND:
+	return scard_e_file_not_found;
+case SCARD_E_FILE_NOT_FOUND:
+	return scard_e_file_not_found;
+case SCARD_E_FILE_NOT_FOUND:
+	return scard_e_file_not_found;
+case SCARD_E_NO_DIR:
+	return scard_e_no_dir;
+case SCARD_E_NO_DIR:
+	return scard_e_no_dir;
+case SCARD_E_NO_DIR:
+	return scard_e_no_dir;
+case SCARD_E_NO_FILE:
+	return scard_e_no_file;
+case SCARD_E_NO_FILE:
+	return scard_e_no_file;
+case SCARD_E_NO_FILE:
+	return scard_e_no_file;
+case SCARD_E_NO_ACCESS:
+	return scard_e_no_access;
+case SCARD_E_NO_ACCESS:
+	return scard_e_no_access;
+case SCARD_E_NO_ACCESS:
+	return scard_e_no_access;
+case SCARD_E_WRITE_TOO_MANY:
+	return scard_e_write_too_many;
+case SCARD_E_WRITE_TOO_MANY:
+	return scard_e_write_too_many;
+case SCARD_E_WRITE_TOO_MANY:
+	return scard_e_write_too_many;
+case SCARD_E_BAD_SEEK:
+	return scard_e_bad_seek;
+case SCARD_E_BAD_SEEK:
+	return scard_e_bad_seek;
+case SCARD_E_BAD_SEEK:
+	return scard_e_bad_seek;
+case SCARD_E_INVALID_CHV:
+	return scard_e_invalid_chv;
+case SCARD_E_INVALID_CHV:
+	return scard_e_invalid_chv;
+case SCARD_E_INVALID_CHV:
+	return scard_e_invalid_chv;
+case SCARD_E_UNKNOWN_RES_MNG:
+	return scard_e_unknown_res_mng;
+case SCARD_E_UNKNOWN_RES_MNG:
+	return scard_e_unknown_res_mng;
+case SCARD_E_UNKNOWN_RES_MNG:
+	return scard_e_unknown_res_mng;
+case SCARD_E_NO_SUCH_CERTIFICATE:
+	return scard_e_no_such_certificate;
+case SCARD_E_NO_SUCH_CERTIFICATE:
+	return scard_e_no_such_certificate;
+case SCARD_E_NO_SUCH_CERTIFICATE:
+	return scard_e_no_such_certificate;
+case SCARD_E_CERTIFICATE_UNAVAILABLE:
+	return scard_e_certificate_unavailable;
+case SCARD_E_CERTIFICATE_UNAVAILABLE:
+	return scard_e_certificate_unavailable;
+case SCARD_E_CERTIFICATE_UNAVAILABLE:
+	return scard_e_certificate_unavailable;
+case SCARD_E_NO_READERS_AVAILABLE:
+	return scard_e_no_readers_available;
+case SCARD_E_NO_READERS_AVAILABLE:
+	return scard_e_no_readers_available;
+case SCARD_E_NO_READERS_AVAILABLE:
+	return scard_e_no_readers_available;
+case SCARD_E_COMM_DATA_LOST:
+	return scard_e_comm_data_lost;
+case SCARD_E_COMM_DATA_LOST:
+	return scard_e_comm_data_lost;
+case SCARD_E_COMM_DATA_LOST:
+	return scard_e_comm_data_lost;
+case SCARD_E_NO_KEY_CONTAINER:
+	return scard_e_no_key_container;
+case SCARD_E_NO_KEY_CONTAINER:
+	return scard_e_no_key_container;
+case SCARD_E_NO_KEY_CONTAINER:
+	return scard_e_no_key_container;
+case SCARD_E_SERVER_TOO_BUSY:
+	return scard_e_server_too_busy;
+case SCARD_E_SERVER_TOO_BUSY:
+	return scard_e_server_too_busy;
+case SCARD_E_SERVER_TOO_BUSY:
+	return scard_e_server_too_busy;
+case SCARD_W_UNSUPPORTED_CARD:
+	return scard_w_unsupported_card;
+case SCARD_W_UNSUPPORTED_CARD:
+	return scard_w_unsupported_card;
+case SCARD_W_UNSUPPORTED_CARD:
+	return scard_w_unsupported_card;
+case SCARD_W_UNRESPONSIVE_CARD:
+	return scard_w_unresponsive_card;
+case SCARD_W_UNRESPONSIVE_CARD:
+	return scard_w_unresponsive_card;
+case SCARD_W_UNRESPONSIVE_CARD:
+	return scard_w_unresponsive_card;
+case SCARD_W_UNPOWERED_CARD:
+	return scard_w_unpowered_card;
+case SCARD_W_UNPOWERED_CARD:
+	return scard_w_unpowered_card;
+case SCARD_W_UNPOWERED_CARD:
+	return scard_w_unpowered_card;
+case SCARD_W_RESET_CARD:
+	return scard_w_reset_card;
+case SCARD_W_RESET_CARD:
+	return scard_w_reset_card;
+case SCARD_W_RESET_CARD:
+	return scard_w_reset_card;
+case SCARD_W_REMOVED_CARD:
+	return scard_w_removed_card;
+case SCARD_W_REMOVED_CARD:
+	return scard_w_removed_card;
+case SCARD_W_REMOVED_CARD:
+	return scard_w_removed_card;
+case SCARD_W_SECURITY_VIOLATION:
+	return scard_w_security_violation;
+case SCARD_W_SECURITY_VIOLATION:
+	return scard_w_security_violation;
+case SCARD_W_SECURITY_VIOLATION:
+	return scard_w_security_violation;
+case SCARD_W_WRONG_CHV:
+	return scard_w_wrong_chv;
+case SCARD_W_WRONG_CHV:
+	return scard_w_wrong_chv;
+case SCARD_W_WRONG_CHV:
+	return scard_w_wrong_chv;
+case SCARD_W_CHV_BLOCKED:
+	return scard_w_chv_blocked;
+case SCARD_W_CHV_BLOCKED:
+	return scard_w_chv_blocked;
+case SCARD_W_CHV_BLOCKED:
+	return scard_w_chv_blocked;
+case SCARD_W_EOF:
+	return scard_w_eof;
+case SCARD_W_EOF:
+	return scard_w_eof;
+case SCARD_W_EOF:
+	return scard_w_eof;
+case SCARD_W_CANCELLED_BY_USER:
+	return scard_w_cancelled_by_user;
+case SCARD_W_CANCELLED_BY_USER:
+	return scard_w_cancelled_by_user;
+case SCARD_W_CANCELLED_BY_USER:
+	return scard_w_cancelled_by_user;
+case SCARD_W_CARD_NOT_AUTHENTICATED:
+	return scard_w_card_not_authenticated;
+case SCARD_W_CARD_NOT_AUTHENTICATED:
+	return scard_w_card_not_authenticated;
+case SCARD_W_CARD_NOT_AUTHENTICATED:
+	return scard_w_card_not_authenticated;
+case COMADMIN_E_OBJECTERRORS:
+	return comadmin_e_objecterrors;
+case COMADMIN_E_OBJECTERRORS:
+	return comadmin_e_objecterrors;
+case COMADMIN_E_OBJECTERRORS:
+	return comadmin_e_objecterrors;
+case COMADMIN_E_OBJECTINVALID:
+	return comadmin_e_objectinvalid;
+case COMADMIN_E_OBJECTINVALID:
+	return comadmin_e_objectinvalid;
+case COMADMIN_E_OBJECTINVALID:
+	return comadmin_e_objectinvalid;
+case COMADMIN_E_KEYMISSING:
+	return comadmin_e_keymissing;
+case COMADMIN_E_KEYMISSING:
+	return comadmin_e_keymissing;
+case COMADMIN_E_KEYMISSING:
+	return comadmin_e_keymissing;
+case COMADMIN_E_ALREADYINSTALLED:
+	return comadmin_e_alreadyinstalled;
+case COMADMIN_E_ALREADYINSTALLED:
+	return comadmin_e_alreadyinstalled;
+case COMADMIN_E_ALREADYINSTALLED:
+	return comadmin_e_alreadyinstalled;
+case COMADMIN_E_APP_FILE_WRITEFAIL:
+	return comadmin_e_app_file_writefail;
+case COMADMIN_E_APP_FILE_WRITEFAIL:
+	return comadmin_e_app_file_writefail;
+case COMADMIN_E_APP_FILE_WRITEFAIL:
+	return comadmin_e_app_file_writefail;
+case COMADMIN_E_APP_FILE_READFAIL:
+	return comadmin_e_app_file_readfail;
+case COMADMIN_E_APP_FILE_READFAIL:
+	return comadmin_e_app_file_readfail;
+case COMADMIN_E_APP_FILE_READFAIL:
+	return comadmin_e_app_file_readfail;
+case COMADMIN_E_APP_FILE_VERSION:
+	return comadmin_e_app_file_version;
+case COMADMIN_E_APP_FILE_VERSION:
+	return comadmin_e_app_file_version;
+case COMADMIN_E_APP_FILE_VERSION:
+	return comadmin_e_app_file_version;
+case COMADMIN_E_BADPATH:
+	return comadmin_e_badpath;
+case COMADMIN_E_BADPATH:
+	return comadmin_e_badpath;
+case COMADMIN_E_BADPATH:
+	return comadmin_e_badpath;
+case COMADMIN_E_APPLICATIONEXISTS:
+	return comadmin_e_applicationexists;
+case COMADMIN_E_APPLICATIONEXISTS:
+	return comadmin_e_applicationexists;
+case COMADMIN_E_APPLICATIONEXISTS:
+	return comadmin_e_applicationexists;
+case COMADMIN_E_ROLEEXISTS:
+	return comadmin_e_roleexists;
+case COMADMIN_E_ROLEEXISTS:
+	return comadmin_e_roleexists;
+case COMADMIN_E_ROLEEXISTS:
+	return comadmin_e_roleexists;
+case COMADMIN_E_CANTCOPYFILE:
+	return comadmin_e_cantcopyfile;
+case COMADMIN_E_CANTCOPYFILE:
+	return comadmin_e_cantcopyfile;
+case COMADMIN_E_CANTCOPYFILE:
+	return comadmin_e_cantcopyfile;
+case COMADMIN_E_NOUSER:
+	return comadmin_e_nouser;
+case COMADMIN_E_NOUSER:
+	return comadmin_e_nouser;
+case COMADMIN_E_NOUSER:
+	return comadmin_e_nouser;
+case COMADMIN_E_INVALIDUSERIDS:
+	return comadmin_e_invaliduserids;
+case COMADMIN_E_INVALIDUSERIDS:
+	return comadmin_e_invaliduserids;
+case COMADMIN_E_INVALIDUSERIDS:
+	return comadmin_e_invaliduserids;
+case COMADMIN_E_NOREGISTRYCLSID:
+	return comadmin_e_noregistryclsid;
+case COMADMIN_E_NOREGISTRYCLSID:
+	return comadmin_e_noregistryclsid;
+case COMADMIN_E_NOREGISTRYCLSID:
+	return comadmin_e_noregistryclsid;
+case COMADMIN_E_BADREGISTRYPROGID:
+	return comadmin_e_badregistryprogid;
+case COMADMIN_E_BADREGISTRYPROGID:
+	return comadmin_e_badregistryprogid;
+case COMADMIN_E_BADREGISTRYPROGID:
+	return comadmin_e_badregistryprogid;
+case COMADMIN_E_AUTHENTICATIONLEVEL:
+	return comadmin_e_authenticationlevel;
+case COMADMIN_E_AUTHENTICATIONLEVEL:
+	return comadmin_e_authenticationlevel;
+case COMADMIN_E_AUTHENTICATIONLEVEL:
+	return comadmin_e_authenticationlevel;
+case COMADMIN_E_USERPASSWDNOTVALID:
+	return comadmin_e_userpasswdnotvalid;
+case COMADMIN_E_USERPASSWDNOTVALID:
+	return comadmin_e_userpasswdnotvalid;
+case COMADMIN_E_USERPASSWDNOTVALID:
+	return comadmin_e_userpasswdnotvalid;
+case COMADMIN_E_CLSIDORIIDMISMATCH:
+	return comadmin_e_clsidoriidmismatch;
+case COMADMIN_E_CLSIDORIIDMISMATCH:
+	return comadmin_e_clsidoriidmismatch;
+case COMADMIN_E_CLSIDORIIDMISMATCH:
+	return comadmin_e_clsidoriidmismatch;
+case COMADMIN_E_REMOTEINTERFACE:
+	return comadmin_e_remoteinterface;
+case COMADMIN_E_REMOTEINTERFACE:
+	return comadmin_e_remoteinterface;
+case COMADMIN_E_REMOTEINTERFACE:
+	return comadmin_e_remoteinterface;
+case COMADMIN_E_DLLREGISTERSERVER:
+	return comadmin_e_dllregisterserver;
+case COMADMIN_E_DLLREGISTERSERVER:
+	return comadmin_e_dllregisterserver;
+case COMADMIN_E_DLLREGISTERSERVER:
+	return comadmin_e_dllregisterserver;
+case COMADMIN_E_NOSERVERSHARE:
+	return comadmin_e_noservershare;
+case COMADMIN_E_NOSERVERSHARE:
+	return comadmin_e_noservershare;
+case COMADMIN_E_NOSERVERSHARE:
+	return comadmin_e_noservershare;
+case COMADMIN_E_DLLLOADFAILED:
+	return comadmin_e_dllloadfailed;
+case COMADMIN_E_DLLLOADFAILED:
+	return comadmin_e_dllloadfailed;
+case COMADMIN_E_DLLLOADFAILED:
+	return comadmin_e_dllloadfailed;
+case COMADMIN_E_BADREGISTRYLIBID:
+	return comadmin_e_badregistrylibid;
+case COMADMIN_E_BADREGISTRYLIBID:
+	return comadmin_e_badregistrylibid;
+case COMADMIN_E_BADREGISTRYLIBID:
+	return comadmin_e_badregistrylibid;
+case COMADMIN_E_APPDIRNOTFOUND:
+	return comadmin_e_appdirnotfound;
+case COMADMIN_E_APPDIRNOTFOUND:
+	return comadmin_e_appdirnotfound;
+case COMADMIN_E_APPDIRNOTFOUND:
+	return comadmin_e_appdirnotfound;
+case COMADMIN_E_REGISTRARFAILED:
+	return comadmin_e_registrarfailed;
+case COMADMIN_E_REGISTRARFAILED:
+	return comadmin_e_registrarfailed;
+case COMADMIN_E_REGISTRARFAILED:
+	return comadmin_e_registrarfailed;
+case COMADMIN_E_COMPFILE_DOESNOTEXIST:
+	return comadmin_e_compfile_doesnotexist;
+case COMADMIN_E_COMPFILE_DOESNOTEXIST:
+	return comadmin_e_compfile_doesnotexist;
+case COMADMIN_E_COMPFILE_DOESNOTEXIST:
+	return comadmin_e_compfile_doesnotexist;
+case COMADMIN_E_COMPFILE_LOADDLLFAIL:
+	return comadmin_e_compfile_loaddllfail;
+case COMADMIN_E_COMPFILE_LOADDLLFAIL:
+	return comadmin_e_compfile_loaddllfail;
+case COMADMIN_E_COMPFILE_LOADDLLFAIL:
+	return comadmin_e_compfile_loaddllfail;
+case COMADMIN_E_COMPFILE_GETCLASSOBJ:
+	return comadmin_e_compfile_getclassobj;
+case COMADMIN_E_COMPFILE_GETCLASSOBJ:
+	return comadmin_e_compfile_getclassobj;
+case COMADMIN_E_COMPFILE_GETCLASSOBJ:
+	return comadmin_e_compfile_getclassobj;
+case COMADMIN_E_COMPFILE_CLASSNOTAVAIL:
+	return comadmin_e_compfile_classnotavail;
+case COMADMIN_E_COMPFILE_CLASSNOTAVAIL:
+	return comadmin_e_compfile_classnotavail;
+case COMADMIN_E_COMPFILE_CLASSNOTAVAIL:
+	return comadmin_e_compfile_classnotavail;
+case COMADMIN_E_COMPFILE_BADTLB:
+	return comadmin_e_compfile_badtlb;
+case COMADMIN_E_COMPFILE_BADTLB:
+	return comadmin_e_compfile_badtlb;
+case COMADMIN_E_COMPFILE_BADTLB:
+	return comadmin_e_compfile_badtlb;
+case COMADMIN_E_COMPFILE_NOTINSTALLABLE:
+	return comadmin_e_compfile_notinstallable;
+case COMADMIN_E_COMPFILE_NOTINSTALLABLE:
+	return comadmin_e_compfile_notinstallable;
+case COMADMIN_E_COMPFILE_NOTINSTALLABLE:
+	return comadmin_e_compfile_notinstallable;
+case COMADMIN_E_NOTCHANGEABLE:
+	return comadmin_e_notchangeable;
+case COMADMIN_E_NOTCHANGEABLE:
+	return comadmin_e_notchangeable;
+case COMADMIN_E_NOTCHANGEABLE:
+	return comadmin_e_notchangeable;
+case COMADMIN_E_NOTDELETEABLE:
+	return comadmin_e_notdeleteable;
+case COMADMIN_E_NOTDELETEABLE:
+	return comadmin_e_notdeleteable;
+case COMADMIN_E_NOTDELETEABLE:
+	return comadmin_e_notdeleteable;
+case COMADMIN_E_SESSION:
+	return comadmin_e_session;
+case COMADMIN_E_SESSION:
+	return comadmin_e_session;
+case COMADMIN_E_SESSION:
+	return comadmin_e_session;
+case COMADMIN_E_COMP_MOVE_LOCKED:
+	return comadmin_e_comp_move_locked;
+case COMADMIN_E_COMP_MOVE_LOCKED:
+	return comadmin_e_comp_move_locked;
+case COMADMIN_E_COMP_MOVE_LOCKED:
+	return comadmin_e_comp_move_locked;
+case COMADMIN_E_COMP_MOVE_BAD_DEST:
+	return comadmin_e_comp_move_bad_dest;
+case COMADMIN_E_COMP_MOVE_BAD_DEST:
+	return comadmin_e_comp_move_bad_dest;
+case COMADMIN_E_COMP_MOVE_BAD_DEST:
+	return comadmin_e_comp_move_bad_dest;
+case COMADMIN_E_REGISTERTLB:
+	return comadmin_e_registertlb;
+case COMADMIN_E_REGISTERTLB:
+	return comadmin_e_registertlb;
+case COMADMIN_E_REGISTERTLB:
+	return comadmin_e_registertlb;
+case COMADMIN_E_SYSTEMAPP:
+	return comadmin_e_systemapp;
+case COMADMIN_E_SYSTEMAPP:
+	return comadmin_e_systemapp;
+case COMADMIN_E_SYSTEMAPP:
+	return comadmin_e_systemapp;
+case COMADMIN_E_COMPFILE_NOREGISTRAR:
+	return comadmin_e_compfile_noregistrar;
+case COMADMIN_E_COMPFILE_NOREGISTRAR:
+	return comadmin_e_compfile_noregistrar;
+case COMADMIN_E_COMPFILE_NOREGISTRAR:
+	return comadmin_e_compfile_noregistrar;
+case COMADMIN_E_COREQCOMPINSTALLED:
+	return comadmin_e_coreqcompinstalled;
+case COMADMIN_E_COREQCOMPINSTALLED:
+	return comadmin_e_coreqcompinstalled;
+case COMADMIN_E_COREQCOMPINSTALLED:
+	return comadmin_e_coreqcompinstalled;
+case COMADMIN_E_SERVICENOTINSTALLED:
+	return comadmin_e_servicenotinstalled;
+case COMADMIN_E_SERVICENOTINSTALLED:
+	return comadmin_e_servicenotinstalled;
+case COMADMIN_E_SERVICENOTINSTALLED:
+	return comadmin_e_servicenotinstalled;
+case COMADMIN_E_PROPERTYSAVEFAILED:
+	return comadmin_e_propertysavefailed;
+case COMADMIN_E_PROPERTYSAVEFAILED:
+	return comadmin_e_propertysavefailed;
+case COMADMIN_E_PROPERTYSAVEFAILED:
+	return comadmin_e_propertysavefailed;
+case COMADMIN_E_OBJECTEXISTS:
+	return comadmin_e_objectexists;
+case COMADMIN_E_OBJECTEXISTS:
+	return comadmin_e_objectexists;
+case COMADMIN_E_OBJECTEXISTS:
+	return comadmin_e_objectexists;
+case COMADMIN_E_COMPONENTEXISTS:
+	return comadmin_e_componentexists;
+case COMADMIN_E_COMPONENTEXISTS:
+	return comadmin_e_componentexists;
+case COMADMIN_E_COMPONENTEXISTS:
+	return comadmin_e_componentexists;
+case COMADMIN_E_REGFILE_CORRUPT:
+	return comadmin_e_regfile_corrupt;
+case COMADMIN_E_REGFILE_CORRUPT:
+	return comadmin_e_regfile_corrupt;
+case COMADMIN_E_REGFILE_CORRUPT:
+	return comadmin_e_regfile_corrupt;
+case COMADMIN_E_PROPERTY_OVERFLOW:
+	return comadmin_e_property_overflow;
+case COMADMIN_E_PROPERTY_OVERFLOW:
+	return comadmin_e_property_overflow;
+case COMADMIN_E_PROPERTY_OVERFLOW:
+	return comadmin_e_property_overflow;
+case COMADMIN_E_NOTINREGISTRY:
+	return comadmin_e_notinregistry;
+case COMADMIN_E_NOTINREGISTRY:
+	return comadmin_e_notinregistry;
+case COMADMIN_E_NOTINREGISTRY:
+	return comadmin_e_notinregistry;
+case COMADMIN_E_OBJECTNOTPOOLABLE:
+	return comadmin_e_objectnotpoolable;
+case COMADMIN_E_OBJECTNOTPOOLABLE:
+	return comadmin_e_objectnotpoolable;
+case COMADMIN_E_OBJECTNOTPOOLABLE:
+	return comadmin_e_objectnotpoolable;
+case COMADMIN_E_APPLID_MATCHES_CLSID:
+	return comadmin_e_applid_matches_clsid;
+case COMADMIN_E_APPLID_MATCHES_CLSID:
+	return comadmin_e_applid_matches_clsid;
+case COMADMIN_E_APPLID_MATCHES_CLSID:
+	return comadmin_e_applid_matches_clsid;
+case COMADMIN_E_ROLE_DOES_NOT_EXIST:
+	return comadmin_e_role_does_not_exist;
+case COMADMIN_E_ROLE_DOES_NOT_EXIST:
+	return comadmin_e_role_does_not_exist;
+case COMADMIN_E_ROLE_DOES_NOT_EXIST:
+	return comadmin_e_role_does_not_exist;
+case COMADMIN_E_START_APP_NEEDS_COMPONENTS:
+	return comadmin_e_start_app_needs_components;
+case COMADMIN_E_START_APP_NEEDS_COMPONENTS:
+	return comadmin_e_start_app_needs_components;
+case COMADMIN_E_START_APP_NEEDS_COMPONENTS:
+	return comadmin_e_start_app_needs_components;
+case COMADMIN_E_REQUIRES_DIFFERENT_PLATFORM:
+	return comadmin_e_requires_different_platform;
+case COMADMIN_E_REQUIRES_DIFFERENT_PLATFORM:
+	return comadmin_e_requires_different_platform;
+case COMADMIN_E_REQUIRES_DIFFERENT_PLATFORM:
+	return comadmin_e_requires_different_platform;
+case COMADMIN_E_CAN_NOT_EXPORT_APP_PROXY:
+	return comadmin_e_can_not_export_app_proxy;
+case COMADMIN_E_CAN_NOT_EXPORT_APP_PROXY:
+	return comadmin_e_can_not_export_app_proxy;
+case COMADMIN_E_CAN_NOT_EXPORT_APP_PROXY:
+	return comadmin_e_can_not_export_app_proxy;
+case COMADMIN_E_CAN_NOT_START_APP:
+	return comadmin_e_can_not_start_app;
+case COMADMIN_E_CAN_NOT_START_APP:
+	return comadmin_e_can_not_start_app;
+case COMADMIN_E_CAN_NOT_START_APP:
+	return comadmin_e_can_not_start_app;
+case COMADMIN_E_CAN_NOT_EXPORT_SYS_APP:
+	return comadmin_e_can_not_export_sys_app;
+case COMADMIN_E_CAN_NOT_EXPORT_SYS_APP:
+	return comadmin_e_can_not_export_sys_app;
+case COMADMIN_E_CAN_NOT_EXPORT_SYS_APP:
+	return comadmin_e_can_not_export_sys_app;
+case COMADMIN_E_CANT_SUBSCRIBE_TO_COMPONENT:
+	return comadmin_e_cant_subscribe_to_component;
+case COMADMIN_E_CANT_SUBSCRIBE_TO_COMPONENT:
+	return comadmin_e_cant_subscribe_to_component;
+case COMADMIN_E_CANT_SUBSCRIBE_TO_COMPONENT:
+	return comadmin_e_cant_subscribe_to_component;
+case COMADMIN_E_EVENTCLASS_CANT_BE_SUBSCRIBER:
+	return comadmin_e_eventclass_cant_be_subscriber;
+case COMADMIN_E_EVENTCLASS_CANT_BE_SUBSCRIBER:
+	return comadmin_e_eventclass_cant_be_subscriber;
+case COMADMIN_E_EVENTCLASS_CANT_BE_SUBSCRIBER:
+	return comadmin_e_eventclass_cant_be_subscriber;
+case COMADMIN_E_LIB_APP_PROXY_INCOMPATIBLE:
+	return comadmin_e_lib_app_proxy_incompatible;
+case COMADMIN_E_LIB_APP_PROXY_INCOMPATIBLE:
+	return comadmin_e_lib_app_proxy_incompatible;
+case COMADMIN_E_LIB_APP_PROXY_INCOMPATIBLE:
+	return comadmin_e_lib_app_proxy_incompatible;
+case COMADMIN_E_BASE_PARTITION_ONLY:
+	return comadmin_e_base_partition_only;
+case COMADMIN_E_BASE_PARTITION_ONLY:
+	return comadmin_e_base_partition_only;
+case COMADMIN_E_BASE_PARTITION_ONLY:
+	return comadmin_e_base_partition_only;
+case COMADMIN_E_START_APP_DISABLED:
+	return comadmin_e_start_app_disabled;
+case COMADMIN_E_START_APP_DISABLED:
+	return comadmin_e_start_app_disabled;
+case COMADMIN_E_START_APP_DISABLED:
+	return comadmin_e_start_app_disabled;
+case COMADMIN_E_CAT_DUPLICATE_PARTITION_NAME:
+	return comadmin_e_cat_duplicate_partition_name;
+case COMADMIN_E_CAT_DUPLICATE_PARTITION_NAME:
+	return comadmin_e_cat_duplicate_partition_name;
+case COMADMIN_E_CAT_DUPLICATE_PARTITION_NAME:
+	return comadmin_e_cat_duplicate_partition_name;
+case COMADMIN_E_CAT_INVALID_PARTITION_NAME:
+	return comadmin_e_cat_invalid_partition_name;
+case COMADMIN_E_CAT_INVALID_PARTITION_NAME:
+	return comadmin_e_cat_invalid_partition_name;
+case COMADMIN_E_CAT_INVALID_PARTITION_NAME:
+	return comadmin_e_cat_invalid_partition_name;
+case COMADMIN_E_CAT_PARTITION_IN_USE:
+	return comadmin_e_cat_partition_in_use;
+case COMADMIN_E_CAT_PARTITION_IN_USE:
+	return comadmin_e_cat_partition_in_use;
+case COMADMIN_E_CAT_PARTITION_IN_USE:
+	return comadmin_e_cat_partition_in_use;
+case COMADMIN_E_FILE_PARTITION_DUPLICATE_FILES:
+	return comadmin_e_file_partition_duplicate_files;
+case COMADMIN_E_FILE_PARTITION_DUPLICATE_FILES:
+	return comadmin_e_file_partition_duplicate_files;
+case COMADMIN_E_FILE_PARTITION_DUPLICATE_FILES:
+	return comadmin_e_file_partition_duplicate_files;
+case COMADMIN_E_CAT_IMPORTED_COMPONENTS_NOT_ALLOWED:
+	return comadmin_e_cat_imported_components_not_allowed;
+case COMADMIN_E_CAT_IMPORTED_COMPONENTS_NOT_ALLOWED:
+	return comadmin_e_cat_imported_components_not_allowed;
+case COMADMIN_E_CAT_IMPORTED_COMPONENTS_NOT_ALLOWED:
+	return comadmin_e_cat_imported_components_not_allowed;
+case COMADMIN_E_AMBIGUOUS_APPLICATION_NAME:
+	return comadmin_e_ambiguous_application_name;
+case COMADMIN_E_AMBIGUOUS_APPLICATION_NAME:
+	return comadmin_e_ambiguous_application_name;
+case COMADMIN_E_AMBIGUOUS_APPLICATION_NAME:
+	return comadmin_e_ambiguous_application_name;
+case COMADMIN_E_AMBIGUOUS_PARTITION_NAME:
+	return comadmin_e_ambiguous_partition_name;
+case COMADMIN_E_AMBIGUOUS_PARTITION_NAME:
+	return comadmin_e_ambiguous_partition_name;
+case COMADMIN_E_AMBIGUOUS_PARTITION_NAME:
+	return comadmin_e_ambiguous_partition_name;
+case COMADMIN_E_REGDB_NOTINITIALIZED:
+	return comadmin_e_regdb_notinitialized;
+case COMADMIN_E_REGDB_NOTINITIALIZED:
+	return comadmin_e_regdb_notinitialized;
+case COMADMIN_E_REGDB_NOTINITIALIZED:
+	return comadmin_e_regdb_notinitialized;
+case COMADMIN_E_REGDB_NOTOPEN:
+	return comadmin_e_regdb_notopen;
+case COMADMIN_E_REGDB_NOTOPEN:
+	return comadmin_e_regdb_notopen;
+case COMADMIN_E_REGDB_NOTOPEN:
+	return comadmin_e_regdb_notopen;
+case COMADMIN_E_REGDB_SYSTEMERR:
+	return comadmin_e_regdb_systemerr;
+case COMADMIN_E_REGDB_SYSTEMERR:
+	return comadmin_e_regdb_systemerr;
+case COMADMIN_E_REGDB_SYSTEMERR:
+	return comadmin_e_regdb_systemerr;
+case COMADMIN_E_REGDB_ALREADYRUNNING:
+	return comadmin_e_regdb_alreadyrunning;
+case COMADMIN_E_REGDB_ALREADYRUNNING:
+	return comadmin_e_regdb_alreadyrunning;
+case COMADMIN_E_REGDB_ALREADYRUNNING:
+	return comadmin_e_regdb_alreadyrunning;
+case COMADMIN_E_MIG_VERSIONNOTSUPPORTED:
+	return comadmin_e_mig_versionnotsupported;
+case COMADMIN_E_MIG_VERSIONNOTSUPPORTED:
+	return comadmin_e_mig_versionnotsupported;
+case COMADMIN_E_MIG_VERSIONNOTSUPPORTED:
+	return comadmin_e_mig_versionnotsupported;
+case COMADMIN_E_MIG_SCHEMANOTFOUND:
+	return comadmin_e_mig_schemanotfound;
+case COMADMIN_E_MIG_SCHEMANOTFOUND:
+	return comadmin_e_mig_schemanotfound;
+case COMADMIN_E_MIG_SCHEMANOTFOUND:
+	return comadmin_e_mig_schemanotfound;
+case COMADMIN_E_CAT_BITNESSMISMATCH:
+	return comadmin_e_cat_bitnessmismatch;
+case COMADMIN_E_CAT_BITNESSMISMATCH:
+	return comadmin_e_cat_bitnessmismatch;
+case COMADMIN_E_CAT_BITNESSMISMATCH:
+	return comadmin_e_cat_bitnessmismatch;
+case COMADMIN_E_CAT_UNACCEPTABLEBITNESS:
+	return comadmin_e_cat_unacceptablebitness;
+case COMADMIN_E_CAT_UNACCEPTABLEBITNESS:
+	return comadmin_e_cat_unacceptablebitness;
+case COMADMIN_E_CAT_UNACCEPTABLEBITNESS:
+	return comadmin_e_cat_unacceptablebitness;
+case COMADMIN_E_CAT_WRONGAPPBITNESS:
+	return comadmin_e_cat_wrongappbitness;
+case COMADMIN_E_CAT_WRONGAPPBITNESS:
+	return comadmin_e_cat_wrongappbitness;
+case COMADMIN_E_CAT_WRONGAPPBITNESS:
+	return comadmin_e_cat_wrongappbitness;
+case COMADMIN_E_CAT_PAUSE_RESUME_NOT_SUPPORTED:
+	return comadmin_e_cat_pause_resume_not_supported;
+case COMADMIN_E_CAT_PAUSE_RESUME_NOT_SUPPORTED:
+	return comadmin_e_cat_pause_resume_not_supported;
+case COMADMIN_E_CAT_PAUSE_RESUME_NOT_SUPPORTED:
+	return comadmin_e_cat_pause_resume_not_supported;
+case COMADMIN_E_CAT_SERVERFAULT:
+	return comadmin_e_cat_serverfault;
+case COMADMIN_E_CAT_SERVERFAULT:
+	return comadmin_e_cat_serverfault;
+case COMADMIN_E_CAT_SERVERFAULT:
+	return comadmin_e_cat_serverfault;
+case COMQC_E_APPLICATION_NOT_QUEUED:
+	return comqc_e_application_not_queued;
+case COMQC_E_APPLICATION_NOT_QUEUED:
+	return comqc_e_application_not_queued;
+case COMQC_E_APPLICATION_NOT_QUEUED:
+	return comqc_e_application_not_queued;
+case COMQC_E_NO_QUEUEABLE_INTERFACES:
+	return comqc_e_no_queueable_interfaces;
+case COMQC_E_NO_QUEUEABLE_INTERFACES:
+	return comqc_e_no_queueable_interfaces;
+case COMQC_E_NO_QUEUEABLE_INTERFACES:
+	return comqc_e_no_queueable_interfaces;
+case COMQC_E_QUEUING_SERVICE_NOT_AVAILABLE:
+	return comqc_e_queuing_service_not_available;
+case COMQC_E_QUEUING_SERVICE_NOT_AVAILABLE:
+	return comqc_e_queuing_service_not_available;
+case COMQC_E_QUEUING_SERVICE_NOT_AVAILABLE:
+	return comqc_e_queuing_service_not_available;
+case COMQC_E_NO_IPERSISTSTREAM:
+	return comqc_e_no_ipersiststream;
+case COMQC_E_NO_IPERSISTSTREAM:
+	return comqc_e_no_ipersiststream;
+case COMQC_E_NO_IPERSISTSTREAM:
+	return comqc_e_no_ipersiststream;
+case COMQC_E_BAD_MESSAGE:
+	return comqc_e_bad_message;
+case COMQC_E_BAD_MESSAGE:
+	return comqc_e_bad_message;
+case COMQC_E_BAD_MESSAGE:
+	return comqc_e_bad_message;
+case COMQC_E_UNAUTHENTICATED:
+	return comqc_e_unauthenticated;
+case COMQC_E_UNAUTHENTICATED:
+	return comqc_e_unauthenticated;
+case COMQC_E_UNAUTHENTICATED:
+	return comqc_e_unauthenticated;
+case COMQC_E_UNTRUSTED_ENQUEUER:
+	return comqc_e_untrusted_enqueuer;
+case COMQC_E_UNTRUSTED_ENQUEUER:
+	return comqc_e_untrusted_enqueuer;
+case COMQC_E_UNTRUSTED_ENQUEUER:
+	return comqc_e_untrusted_enqueuer;
+case MSDTC_E_DUPLICATE_RESOURCE:
+	return msdtc_e_duplicate_resource;
+case MSDTC_E_DUPLICATE_RESOURCE:
+	return msdtc_e_duplicate_resource;
+case MSDTC_E_DUPLICATE_RESOURCE:
+	return msdtc_e_duplicate_resource;
+case COMADMIN_E_OBJECT_PARENT_MISSING:
+	return comadmin_e_object_parent_missing;
+case COMADMIN_E_OBJECT_PARENT_MISSING:
+	return comadmin_e_object_parent_missing;
+case COMADMIN_E_OBJECT_PARENT_MISSING:
+	return comadmin_e_object_parent_missing;
+case COMADMIN_E_OBJECT_DOES_NOT_EXIST:
+	return comadmin_e_object_does_not_exist;
+case COMADMIN_E_OBJECT_DOES_NOT_EXIST:
+	return comadmin_e_object_does_not_exist;
+case COMADMIN_E_OBJECT_DOES_NOT_EXIST:
+	return comadmin_e_object_does_not_exist;
+case COMADMIN_E_APP_NOT_RUNNING:
+	return comadmin_e_app_not_running;
+case COMADMIN_E_APP_NOT_RUNNING:
+	return comadmin_e_app_not_running;
+case COMADMIN_E_APP_NOT_RUNNING:
+	return comadmin_e_app_not_running;
+case COMADMIN_E_INVALID_PARTITION:
+	return comadmin_e_invalid_partition;
+case COMADMIN_E_INVALID_PARTITION:
+	return comadmin_e_invalid_partition;
+case COMADMIN_E_INVALID_PARTITION:
+	return comadmin_e_invalid_partition;
+case COMADMIN_E_SVCAPP_NOT_POOLABLE_OR_RECYCLABLE:
+	return comadmin_e_svcapp_not_poolable_or_recyclable;
+case COMADMIN_E_SVCAPP_NOT_POOLABLE_OR_RECYCLABLE:
+	return comadmin_e_svcapp_not_poolable_or_recyclable;
+case COMADMIN_E_SVCAPP_NOT_POOLABLE_OR_RECYCLABLE:
+	return comadmin_e_svcapp_not_poolable_or_recyclable;
+case COMADMIN_E_USER_IN_SET:
+	return comadmin_e_user_in_set;
+case COMADMIN_E_USER_IN_SET:
+	return comadmin_e_user_in_set;
+case COMADMIN_E_USER_IN_SET:
+	return comadmin_e_user_in_set;
+case COMADMIN_E_CANTRECYCLELIBRARYAPPS:
+	return comadmin_e_cantrecyclelibraryapps;
+case COMADMIN_E_CANTRECYCLELIBRARYAPPS:
+	return comadmin_e_cantrecyclelibraryapps;
+case COMADMIN_E_CANTRECYCLELIBRARYAPPS:
+	return comadmin_e_cantrecyclelibraryapps;
+case COMADMIN_E_CANTRECYCLESERVICEAPPS:
+	return comadmin_e_cantrecycleserviceapps;
+case COMADMIN_E_CANTRECYCLESERVICEAPPS:
+	return comadmin_e_cantrecycleserviceapps;
+case COMADMIN_E_CANTRECYCLESERVICEAPPS:
+	return comadmin_e_cantrecycleserviceapps;
+case COMADMIN_E_PROCESSALREADYRECYCLED:
+	return comadmin_e_processalreadyrecycled;
+case COMADMIN_E_PROCESSALREADYRECYCLED:
+	return comadmin_e_processalreadyrecycled;
+case COMADMIN_E_PROCESSALREADYRECYCLED:
+	return comadmin_e_processalreadyrecycled;
+case COMADMIN_E_PAUSEDPROCESSMAYNOTBERECYCLED:
+	return comadmin_e_pausedprocessmaynotberecycled;
+case COMADMIN_E_PAUSEDPROCESSMAYNOTBERECYCLED:
+	return comadmin_e_pausedprocessmaynotberecycled;
+case COMADMIN_E_PAUSEDPROCESSMAYNOTBERECYCLED:
+	return comadmin_e_pausedprocessmaynotberecycled;
+case COMADMIN_E_CANTMAKEINPROCSERVICE:
+	return comadmin_e_cantmakeinprocservice;
+case COMADMIN_E_CANTMAKEINPROCSERVICE:
+	return comadmin_e_cantmakeinprocservice;
+case COMADMIN_E_CANTMAKEINPROCSERVICE:
+	return comadmin_e_cantmakeinprocservice;
+case COMADMIN_E_PROGIDINUSEBYCLSID:
+	return comadmin_e_progidinusebyclsid;
+case COMADMIN_E_PROGIDINUSEBYCLSID:
+	return comadmin_e_progidinusebyclsid;
+case COMADMIN_E_PROGIDINUSEBYCLSID:
+	return comadmin_e_progidinusebyclsid;
+case COMADMIN_E_DEFAULT_PARTITION_NOT_IN_SET:
+	return comadmin_e_default_partition_not_in_set;
+case COMADMIN_E_DEFAULT_PARTITION_NOT_IN_SET:
+	return comadmin_e_default_partition_not_in_set;
+case COMADMIN_E_DEFAULT_PARTITION_NOT_IN_SET:
+	return comadmin_e_default_partition_not_in_set;
+case COMADMIN_E_RECYCLEDPROCESSMAYNOTBEPAUSED:
+	return comadmin_e_recycledprocessmaynotbepaused;
+case COMADMIN_E_RECYCLEDPROCESSMAYNOTBEPAUSED:
+	return comadmin_e_recycledprocessmaynotbepaused;
+case COMADMIN_E_RECYCLEDPROCESSMAYNOTBEPAUSED:
+	return comadmin_e_recycledprocessmaynotbepaused;
+case COMADMIN_E_PARTITION_ACCESSDENIED:
+	return comadmin_e_partition_accessdenied;
+case COMADMIN_E_PARTITION_ACCESSDENIED:
+	return comadmin_e_partition_accessdenied;
+case COMADMIN_E_PARTITION_ACCESSDENIED:
+	return comadmin_e_partition_accessdenied;
+case COMADMIN_E_PARTITION_MSI_ONLY:
+	return comadmin_e_partition_msi_only;
+case COMADMIN_E_PARTITION_MSI_ONLY:
+	return comadmin_e_partition_msi_only;
+case COMADMIN_E_PARTITION_MSI_ONLY:
+	return comadmin_e_partition_msi_only;
+case COMADMIN_E_PARTITION_MSI_ONLY:
+	return comadmin_e_partition_msi_only;
+case COMADMIN_E_PARTITION_MSI_ONLY:
+	return comadmin_e_partition_msi_only;
+case COMADMIN_E_PARTITION_MSI_ONLY:
+	return comadmin_e_partition_msi_only;
+case COMADMIN_E_LEGACYCOMPS_NOT_ALLOWED_IN_NONBASE_PARTITIONS:
+	return comadmin_e_legacycomps_not_allowed_in_nonbase_partitions;
+case COMADMIN_E_LEGACYCOMPS_NOT_ALLOWED_IN_NONBASE_PARTITIONS:
+	return comadmin_e_legacycomps_not_allowed_in_nonbase_partitions;
+case COMADMIN_E_LEGACYCOMPS_NOT_ALLOWED_IN_NONBASE_PARTITIONS:
+	return comadmin_e_legacycomps_not_allowed_in_nonbase_partitions;
+case COMADMIN_E_COMP_MOVE_SOURCE:
+	return comadmin_e_comp_move_source;
+case COMADMIN_E_COMP_MOVE_SOURCE:
+	return comadmin_e_comp_move_source;
+case COMADMIN_E_COMP_MOVE_SOURCE:
+	return comadmin_e_comp_move_source;
+case COMADMIN_E_COMP_MOVE_DEST:
+	return comadmin_e_comp_move_dest;
+case COMADMIN_E_COMP_MOVE_DEST:
+	return comadmin_e_comp_move_dest;
+case COMADMIN_E_COMP_MOVE_DEST:
+	return comadmin_e_comp_move_dest;
+case COMADMIN_E_COMP_MOVE_PRIVATE:
+	return comadmin_e_comp_move_private;
+case COMADMIN_E_COMP_MOVE_PRIVATE:
+	return comadmin_e_comp_move_private;
+case COMADMIN_E_COMP_MOVE_PRIVATE:
+	return comadmin_e_comp_move_private;
+case COMADMIN_E_BASEPARTITION_REQUIRED_IN_SET:
+	return comadmin_e_basepartition_required_in_set;
+case COMADMIN_E_BASEPARTITION_REQUIRED_IN_SET:
+	return comadmin_e_basepartition_required_in_set;
+case COMADMIN_E_BASEPARTITION_REQUIRED_IN_SET:
+	return comadmin_e_basepartition_required_in_set;
+case COMADMIN_E_CANNOT_ALIAS_EVENTCLASS:
+	return comadmin_e_cannot_alias_eventclass;
+case COMADMIN_E_CANNOT_ALIAS_EVENTCLASS:
+	return comadmin_e_cannot_alias_eventclass;
+case COMADMIN_E_CANNOT_ALIAS_EVENTCLASS:
+	return comadmin_e_cannot_alias_eventclass;
+case COMADMIN_E_PRIVATE_ACCESSDENIED:
+	return comadmin_e_private_accessdenied;
+case COMADMIN_E_PRIVATE_ACCESSDENIED:
+	return comadmin_e_private_accessdenied;
+case COMADMIN_E_PRIVATE_ACCESSDENIED:
+	return comadmin_e_private_accessdenied;
+case COMADMIN_E_SAFERINVALID:
+	return comadmin_e_saferinvalid;
+case COMADMIN_E_SAFERINVALID:
+	return comadmin_e_saferinvalid;
+case COMADMIN_E_SAFERINVALID:
+	return comadmin_e_saferinvalid;
+case COMADMIN_E_REGISTRY_ACCESSDENIED:
+	return comadmin_e_registry_accessdenied;
+case COMADMIN_E_REGISTRY_ACCESSDENIED:
+	return comadmin_e_registry_accessdenied;
+case COMADMIN_E_REGISTRY_ACCESSDENIED:
+	return comadmin_e_registry_accessdenied;
+case COMADMIN_E_PARTITIONS_DISABLED:
+	return comadmin_e_partitions_disabled;
+case COMADMIN_E_PARTITIONS_DISABLED:
+	return comadmin_e_partitions_disabled;
+case COMADMIN_E_PARTITIONS_DISABLED:
+	return comadmin_e_partitions_disabled;
+case ERROR_FLT_NO_HANDLER_DEFINED:
+	return error_flt_no_handler_defined;
+case ERROR_FLT_NO_HANDLER_DEFINED:
+	return error_flt_no_handler_defined;
+case ERROR_FLT_NO_HANDLER_DEFINED:
+	return error_flt_no_handler_defined;
+case ERROR_FLT_CONTEXT_ALREADY_DEFINED:
+	return error_flt_context_already_defined;
+case ERROR_FLT_CONTEXT_ALREADY_DEFINED:
+	return error_flt_context_already_defined;
+case ERROR_FLT_CONTEXT_ALREADY_DEFINED:
+	return error_flt_context_already_defined;
+case ERROR_FLT_INVALID_ASYNCHRONOUS_REQUEST:
+	return error_flt_invalid_asynchronous_request;
+case ERROR_FLT_INVALID_ASYNCHRONOUS_REQUEST:
+	return error_flt_invalid_asynchronous_request;
+case ERROR_FLT_INVALID_ASYNCHRONOUS_REQUEST:
+	return error_flt_invalid_asynchronous_request;
+case ERROR_FLT_DISALLOW_FAST_IO:
+	return error_flt_disallow_fast_io;
+case ERROR_FLT_DISALLOW_FAST_IO:
+	return error_flt_disallow_fast_io;
+case ERROR_FLT_DISALLOW_FAST_IO:
+	return error_flt_disallow_fast_io;
+case ERROR_FLT_INVALID_NAME_REQUEST:
+	return error_flt_invalid_name_request;
+case ERROR_FLT_INVALID_NAME_REQUEST:
+	return error_flt_invalid_name_request;
+case ERROR_FLT_INVALID_NAME_REQUEST:
+	return error_flt_invalid_name_request;
+case ERROR_FLT_NOT_SAFE_TO_POST_OPERATION:
+	return error_flt_not_safe_to_post_operation;
+case ERROR_FLT_NOT_SAFE_TO_POST_OPERATION:
+	return error_flt_not_safe_to_post_operation;
+case ERROR_FLT_NOT_SAFE_TO_POST_OPERATION:
+	return error_flt_not_safe_to_post_operation;
+case ERROR_FLT_NOT_INITIALIZED:
+	return error_flt_not_initialized;
+case ERROR_FLT_NOT_INITIALIZED:
+	return error_flt_not_initialized;
+case ERROR_FLT_NOT_INITIALIZED:
+	return error_flt_not_initialized;
+case ERROR_FLT_FILTER_NOT_READY:
+	return error_flt_filter_not_ready;
+case ERROR_FLT_FILTER_NOT_READY:
+	return error_flt_filter_not_ready;
+case ERROR_FLT_FILTER_NOT_READY:
+	return error_flt_filter_not_ready;
+case ERROR_FLT_POST_OPERATION_CLEANUP:
+	return error_flt_post_operation_cleanup;
+case ERROR_FLT_POST_OPERATION_CLEANUP:
+	return error_flt_post_operation_cleanup;
+case ERROR_FLT_POST_OPERATION_CLEANUP:
+	return error_flt_post_operation_cleanup;
+case ERROR_FLT_INTERNAL_ERROR:
+	return error_flt_internal_error;
+case ERROR_FLT_INTERNAL_ERROR:
+	return error_flt_internal_error;
+case ERROR_FLT_INTERNAL_ERROR:
+	return error_flt_internal_error;
+case ERROR_FLT_DELETING_OBJECT:
+	return error_flt_deleting_object;
+case ERROR_FLT_DELETING_OBJECT:
+	return error_flt_deleting_object;
+case ERROR_FLT_DELETING_OBJECT:
+	return error_flt_deleting_object;
+case ERROR_FLT_MUST_BE_NONPAGED_POOL:
+	return error_flt_must_be_nonpaged_pool;
+case ERROR_FLT_MUST_BE_NONPAGED_POOL:
+	return error_flt_must_be_nonpaged_pool;
+case ERROR_FLT_MUST_BE_NONPAGED_POOL:
+	return error_flt_must_be_nonpaged_pool;
+case ERROR_FLT_DUPLICATE_ENTRY:
+	return error_flt_duplicate_entry;
+case ERROR_FLT_DUPLICATE_ENTRY:
+	return error_flt_duplicate_entry;
+case ERROR_FLT_DUPLICATE_ENTRY:
+	return error_flt_duplicate_entry;
+case ERROR_FLT_CBDQ_DISABLED:
+	return error_flt_cbdq_disabled;
+case ERROR_FLT_CBDQ_DISABLED:
+	return error_flt_cbdq_disabled;
+case ERROR_FLT_CBDQ_DISABLED:
+	return error_flt_cbdq_disabled;
+case ERROR_FLT_DO_NOT_ATTACH:
+	return error_flt_do_not_attach;
+case ERROR_FLT_DO_NOT_ATTACH:
+	return error_flt_do_not_attach;
+case ERROR_FLT_DO_NOT_ATTACH:
+	return error_flt_do_not_attach;
+case ERROR_FLT_DO_NOT_DETACH:
+	return error_flt_do_not_detach;
+case ERROR_FLT_DO_NOT_DETACH:
+	return error_flt_do_not_detach;
+case ERROR_FLT_DO_NOT_DETACH:
+	return error_flt_do_not_detach;
+case ERROR_FLT_INSTANCE_ALTITUDE_COLLISION:
+	return error_flt_instance_altitude_collision;
+case ERROR_FLT_INSTANCE_ALTITUDE_COLLISION:
+	return error_flt_instance_altitude_collision;
+case ERROR_FLT_INSTANCE_ALTITUDE_COLLISION:
+	return error_flt_instance_altitude_collision;
+case ERROR_FLT_INSTANCE_NAME_COLLISION:
+	return error_flt_instance_name_collision;
+case ERROR_FLT_INSTANCE_NAME_COLLISION:
+	return error_flt_instance_name_collision;
+case ERROR_FLT_INSTANCE_NAME_COLLISION:
+	return error_flt_instance_name_collision;
+case ERROR_FLT_FILTER_NOT_FOUND:
+	return error_flt_filter_not_found;
+case ERROR_FLT_FILTER_NOT_FOUND:
+	return error_flt_filter_not_found;
+case ERROR_FLT_FILTER_NOT_FOUND:
+	return error_flt_filter_not_found;
+case ERROR_FLT_VOLUME_NOT_FOUND:
+	return error_flt_volume_not_found;
+case ERROR_FLT_VOLUME_NOT_FOUND:
+	return error_flt_volume_not_found;
+case ERROR_FLT_VOLUME_NOT_FOUND:
+	return error_flt_volume_not_found;
+case ERROR_FLT_INSTANCE_NOT_FOUND:
+	return error_flt_instance_not_found;
+case ERROR_FLT_INSTANCE_NOT_FOUND:
+	return error_flt_instance_not_found;
+case ERROR_FLT_INSTANCE_NOT_FOUND:
+	return error_flt_instance_not_found;
+case ERROR_FLT_CONTEXT_ALLOCATION_NOT_FOUND:
+	return error_flt_context_allocation_not_found;
+case ERROR_FLT_CONTEXT_ALLOCATION_NOT_FOUND:
+	return error_flt_context_allocation_not_found;
+case ERROR_FLT_CONTEXT_ALLOCATION_NOT_FOUND:
+	return error_flt_context_allocation_not_found;
+case ERROR_FLT_INVALID_CONTEXT_REGISTRATION:
+	return error_flt_invalid_context_registration;
+case ERROR_FLT_INVALID_CONTEXT_REGISTRATION:
+	return error_flt_invalid_context_registration;
+case ERROR_FLT_INVALID_CONTEXT_REGISTRATION:
+	return error_flt_invalid_context_registration;
+case ERROR_FLT_NAME_CACHE_MISS:
+	return error_flt_name_cache_miss;
+case ERROR_FLT_NAME_CACHE_MISS:
+	return error_flt_name_cache_miss;
+case ERROR_FLT_NAME_CACHE_MISS:
+	return error_flt_name_cache_miss;
+case ERROR_FLT_NO_DEVICE_OBJECT:
+	return error_flt_no_device_object;
+case ERROR_FLT_NO_DEVICE_OBJECT:
+	return error_flt_no_device_object;
+case ERROR_FLT_NO_DEVICE_OBJECT:
+	return error_flt_no_device_object;
+case ERROR_FLT_VOLUME_ALREADY_MOUNTED:
+	return error_flt_volume_already_mounted;
+case ERROR_FLT_VOLUME_ALREADY_MOUNTED:
+	return error_flt_volume_already_mounted;
+case ERROR_FLT_VOLUME_ALREADY_MOUNTED:
+	return error_flt_volume_already_mounted;
+case ERROR_FLT_ALREADY_ENLISTED:
+	return error_flt_already_enlisted;
+case ERROR_FLT_ALREADY_ENLISTED:
+	return error_flt_already_enlisted;
+case ERROR_FLT_ALREADY_ENLISTED:
+	return error_flt_already_enlisted;
+case ERROR_FLT_CONTEXT_ALREADY_LINKED:
+	return error_flt_context_already_linked;
+case ERROR_FLT_CONTEXT_ALREADY_LINKED:
+	return error_flt_context_already_linked;
+case ERROR_FLT_CONTEXT_ALREADY_LINKED:
+	return error_flt_context_already_linked;
+case ERROR_FLT_NO_WAITER_FOR_REPLY:
+	return error_flt_no_waiter_for_reply;
+case ERROR_FLT_NO_WAITER_FOR_REPLY:
+	return error_flt_no_waiter_for_reply;
+case ERROR_FLT_NO_WAITER_FOR_REPLY:
+	return error_flt_no_waiter_for_reply;
+case ERROR_HUNG_DISPLAY_DRIVER_THREAD:
+	return error_hung_display_driver_thread;
+case ERROR_HUNG_DISPLAY_DRIVER_THREAD:
+	return error_hung_display_driver_thread;
+case ERROR_HUNG_DISPLAY_DRIVER_THREAD:
+	return error_hung_display_driver_thread;
+case ERROR_MONITOR_NO_DESCRIPTOR:
+	return error_monitor_no_descriptor;
+case ERROR_MONITOR_NO_DESCRIPTOR:
+	return error_monitor_no_descriptor;
+case ERROR_MONITOR_NO_DESCRIPTOR:
+	return error_monitor_no_descriptor;
+case ERROR_MONITOR_UNKNOWN_DESCRIPTOR_FORMAT:
+	return error_monitor_unknown_descriptor_format;
+case ERROR_MONITOR_UNKNOWN_DESCRIPTOR_FORMAT:
+	return error_monitor_unknown_descriptor_format;
+case ERROR_MONITOR_UNKNOWN_DESCRIPTOR_FORMAT:
+	return error_monitor_unknown_descriptor_format;
+case DWM_E_COMPOSITIONDISABLED:
+	return dwm_e_compositiondisabled;
+case DWM_E_COMPOSITIONDISABLED:
+	return dwm_e_compositiondisabled;
+case DWM_E_COMPOSITIONDISABLED:
+	return dwm_e_compositiondisabled;
+case DWM_E_REMOTING_NOT_SUPPORTED:
+	return dwm_e_remoting_not_supported;
+case DWM_E_REMOTING_NOT_SUPPORTED:
+	return dwm_e_remoting_not_supported;
+case DWM_E_REMOTING_NOT_SUPPORTED:
+	return dwm_e_remoting_not_supported;
+case DWM_E_NO_REDIRECTION_SURFACE_AVAILABLE:
+	return dwm_e_no_redirection_surface_available;
+case DWM_E_NO_REDIRECTION_SURFACE_AVAILABLE:
+	return dwm_e_no_redirection_surface_available;
+case DWM_E_NO_REDIRECTION_SURFACE_AVAILABLE:
+	return dwm_e_no_redirection_surface_available;
+case DWM_E_NOT_QUEUING_PRESENTS:
+	return dwm_e_not_queuing_presents;
+case DWM_E_NOT_QUEUING_PRESENTS:
+	return dwm_e_not_queuing_presents;
+case DWM_E_NOT_QUEUING_PRESENTS:
+	return dwm_e_not_queuing_presents;
+case TPM_E_ERROR_MASK:
+	return tpm_e_error_mask;
+case TPM_E_ERROR_MASK:
+	return tpm_e_error_mask;
+case TPM_E_ERROR_MASK:
+	return tpm_e_error_mask;
+case TPM_E_AUTHFAIL:
+	return tpm_e_authfail;
+case TPM_E_AUTHFAIL:
+	return tpm_e_authfail;
+case TPM_E_AUTHFAIL:
+	return tpm_e_authfail;
+case TPM_E_BADINDEX:
+	return tpm_e_badindex;
+case TPM_E_BADINDEX:
+	return tpm_e_badindex;
+case TPM_E_BADINDEX:
+	return tpm_e_badindex;
+case TPM_E_BAD_PARAMETER:
+	return tpm_e_bad_parameter;
+case TPM_E_BAD_PARAMETER:
+	return tpm_e_bad_parameter;
+case TPM_E_BAD_PARAMETER:
+	return tpm_e_bad_parameter;
+case TPM_E_AUDITFAILURE:
+	return tpm_e_auditfailure;
+case TPM_E_AUDITFAILURE:
+	return tpm_e_auditfailure;
+case TPM_E_AUDITFAILURE:
+	return tpm_e_auditfailure;
+case TPM_E_CLEAR_DISABLED:
+	return tpm_e_clear_disabled;
+case TPM_E_CLEAR_DISABLED:
+	return tpm_e_clear_disabled;
+case TPM_E_CLEAR_DISABLED:
+	return tpm_e_clear_disabled;
+case TPM_E_DEACTIVATED:
+	return tpm_e_deactivated;
+case TPM_E_DEACTIVATED:
+	return tpm_e_deactivated;
+case TPM_E_DEACTIVATED:
+	return tpm_e_deactivated;
+case TPM_E_DISABLED:
+	return tpm_e_disabled;
+case TPM_E_DISABLED:
+	return tpm_e_disabled;
+case TPM_E_DISABLED:
+	return tpm_e_disabled;
+case TPM_E_DISABLED_CMD:
+	return tpm_e_disabled_cmd;
+case TPM_E_DISABLED_CMD:
+	return tpm_e_disabled_cmd;
+case TPM_E_DISABLED_CMD:
+	return tpm_e_disabled_cmd;
+case TPM_E_FAIL:
+	return tpm_e_fail;
+case TPM_E_FAIL:
+	return tpm_e_fail;
+case TPM_E_FAIL:
+	return tpm_e_fail;
+case TPM_E_BAD_ORDINAL:
+	return tpm_e_bad_ordinal;
+case TPM_E_BAD_ORDINAL:
+	return tpm_e_bad_ordinal;
+case TPM_E_BAD_ORDINAL:
+	return tpm_e_bad_ordinal;
+case TPM_E_INSTALL_DISABLED:
+	return tpm_e_install_disabled;
+case TPM_E_INSTALL_DISABLED:
+	return tpm_e_install_disabled;
+case TPM_E_INSTALL_DISABLED:
+	return tpm_e_install_disabled;
+case TPM_E_INVALID_KEYHANDLE:
+	return tpm_e_invalid_keyhandle;
+case TPM_E_INVALID_KEYHANDLE:
+	return tpm_e_invalid_keyhandle;
+case TPM_E_INVALID_KEYHANDLE:
+	return tpm_e_invalid_keyhandle;
+case TPM_E_KEYNOTFOUND:
+	return tpm_e_keynotfound;
+case TPM_E_KEYNOTFOUND:
+	return tpm_e_keynotfound;
+case TPM_E_KEYNOTFOUND:
+	return tpm_e_keynotfound;
+case TPM_E_INAPPROPRIATE_ENC:
+	return tpm_e_inappropriate_enc;
+case TPM_E_INAPPROPRIATE_ENC:
+	return tpm_e_inappropriate_enc;
+case TPM_E_INAPPROPRIATE_ENC:
+	return tpm_e_inappropriate_enc;
+case TPM_E_MIGRATEFAIL:
+	return tpm_e_migratefail;
+case TPM_E_MIGRATEFAIL:
+	return tpm_e_migratefail;
+case TPM_E_MIGRATEFAIL:
+	return tpm_e_migratefail;
+case TPM_E_INVALID_PCR_INFO:
+	return tpm_e_invalid_pcr_info;
+case TPM_E_INVALID_PCR_INFO:
+	return tpm_e_invalid_pcr_info;
+case TPM_E_INVALID_PCR_INFO:
+	return tpm_e_invalid_pcr_info;
+case TPM_E_NOSPACE:
+	return tpm_e_nospace;
+case TPM_E_NOSPACE:
+	return tpm_e_nospace;
+case TPM_E_NOSPACE:
+	return tpm_e_nospace;
+case TPM_E_NOSRK:
+	return tpm_e_nosrk;
+case TPM_E_NOSRK:
+	return tpm_e_nosrk;
+case TPM_E_NOSRK:
+	return tpm_e_nosrk;
+case TPM_E_NOTSEALED_BLOB:
+	return tpm_e_notsealed_blob;
+case TPM_E_NOTSEALED_BLOB:
+	return tpm_e_notsealed_blob;
+case TPM_E_NOTSEALED_BLOB:
+	return tpm_e_notsealed_blob;
+case TPM_E_OWNER_SET:
+	return tpm_e_owner_set;
+case TPM_E_OWNER_SET:
+	return tpm_e_owner_set;
+case TPM_E_OWNER_SET:
+	return tpm_e_owner_set;
+case TPM_E_RESOURCES:
+	return tpm_e_resources;
+case TPM_E_RESOURCES:
+	return tpm_e_resources;
+case TPM_E_RESOURCES:
+	return tpm_e_resources;
+case TPM_E_SHORTRANDOM:
+	return tpm_e_shortrandom;
+case TPM_E_SHORTRANDOM:
+	return tpm_e_shortrandom;
+case TPM_E_SHORTRANDOM:
+	return tpm_e_shortrandom;
+case TPM_E_SIZE:
+	return tpm_e_size;
+case TPM_E_SIZE:
+	return tpm_e_size;
+case TPM_E_SIZE:
+	return tpm_e_size;
+case TPM_E_WRONGPCRVAL:
+	return tpm_e_wrongpcrval;
+case TPM_E_WRONGPCRVAL:
+	return tpm_e_wrongpcrval;
+case TPM_E_WRONGPCRVAL:
+	return tpm_e_wrongpcrval;
+case TPM_E_BAD_PARAM_SIZE:
+	return tpm_e_bad_param_size;
+case TPM_E_BAD_PARAM_SIZE:
+	return tpm_e_bad_param_size;
+case TPM_E_BAD_PARAM_SIZE:
+	return tpm_e_bad_param_size;
+case TPM_E_SHA_THREAD:
+	return tpm_e_sha_thread;
+case TPM_E_SHA_THREAD:
+	return tpm_e_sha_thread;
+case TPM_E_SHA_THREAD:
+	return tpm_e_sha_thread;
+case TPM_E_SHA_ERROR:
+	return tpm_e_sha_error;
+case TPM_E_SHA_ERROR:
+	return tpm_e_sha_error;
+case TPM_E_SHA_ERROR:
+	return tpm_e_sha_error;
+case TPM_E_FAILEDSELFTEST:
+	return tpm_e_failedselftest;
+case TPM_E_FAILEDSELFTEST:
+	return tpm_e_failedselftest;
+case TPM_E_FAILEDSELFTEST:
+	return tpm_e_failedselftest;
+case TPM_E_FAILEDSELFTEST:
+	return tpm_e_failedselftest;
+case TPM_E_FAILEDSELFTEST:
+	return tpm_e_failedselftest;
+case TPM_E_FAILEDSELFTEST:
+	return tpm_e_failedselftest;
+case TPM_E_BADTAG:
+	return tpm_e_badtag;
+case TPM_E_BADTAG:
+	return tpm_e_badtag;
+case TPM_E_BADTAG:
+	return tpm_e_badtag;
+case TPM_E_IOERROR:
+	return tpm_e_ioerror;
+case TPM_E_IOERROR:
+	return tpm_e_ioerror;
+case TPM_E_IOERROR:
+	return tpm_e_ioerror;
+case TPM_E_ENCRYPT_ERROR:
+	return tpm_e_encrypt_error;
+case TPM_E_ENCRYPT_ERROR:
+	return tpm_e_encrypt_error;
+case TPM_E_ENCRYPT_ERROR:
+	return tpm_e_encrypt_error;
+case TPM_E_DECRYPT_ERROR:
+	return tpm_e_decrypt_error;
+case TPM_E_DECRYPT_ERROR:
+	return tpm_e_decrypt_error;
+case TPM_E_DECRYPT_ERROR:
+	return tpm_e_decrypt_error;
+case TPM_E_INVALID_AUTHHANDLE:
+	return tpm_e_invalid_authhandle;
+case TPM_E_INVALID_AUTHHANDLE:
+	return tpm_e_invalid_authhandle;
+case TPM_E_INVALID_AUTHHANDLE:
+	return tpm_e_invalid_authhandle;
+case TPM_E_NO_ENDORSEMENT:
+	return tpm_e_no_endorsement;
+case TPM_E_NO_ENDORSEMENT:
+	return tpm_e_no_endorsement;
+case TPM_E_NO_ENDORSEMENT:
+	return tpm_e_no_endorsement;
+case TPM_E_INVALID_KEYUSAGE:
+	return tpm_e_invalid_keyusage;
+case TPM_E_INVALID_KEYUSAGE:
+	return tpm_e_invalid_keyusage;
+case TPM_E_INVALID_KEYUSAGE:
+	return tpm_e_invalid_keyusage;
+case TPM_E_WRONG_ENTITYTYPE:
+	return tpm_e_wrong_entitytype;
+case TPM_E_WRONG_ENTITYTYPE:
+	return tpm_e_wrong_entitytype;
+case TPM_E_WRONG_ENTITYTYPE:
+	return tpm_e_wrong_entitytype;
+case TPM_E_INVALID_POSTINIT:
+	return tpm_e_invalid_postinit;
+case TPM_E_INVALID_POSTINIT:
+	return tpm_e_invalid_postinit;
+case TPM_E_INVALID_POSTINIT:
+	return tpm_e_invalid_postinit;
+case TPM_E_INAPPROPRIATE_SIG:
+	return tpm_e_inappropriate_sig;
+case TPM_E_INAPPROPRIATE_SIG:
+	return tpm_e_inappropriate_sig;
+case TPM_E_INAPPROPRIATE_SIG:
+	return tpm_e_inappropriate_sig;
+case TPM_E_BAD_KEY_PROPERTY:
+	return tpm_e_bad_key_property;
+case TPM_E_BAD_KEY_PROPERTY:
+	return tpm_e_bad_key_property;
+case TPM_E_BAD_KEY_PROPERTY:
+	return tpm_e_bad_key_property;
+case TPM_E_BAD_MIGRATION:
+	return tpm_e_bad_migration;
+case TPM_E_BAD_MIGRATION:
+	return tpm_e_bad_migration;
+case TPM_E_BAD_MIGRATION:
+	return tpm_e_bad_migration;
+case TPM_E_BAD_SCHEME:
+	return tpm_e_bad_scheme;
+case TPM_E_BAD_SCHEME:
+	return tpm_e_bad_scheme;
+case TPM_E_BAD_SCHEME:
+	return tpm_e_bad_scheme;
+case TPM_E_BAD_DATASIZE:
+	return tpm_e_bad_datasize;
+case TPM_E_BAD_DATASIZE:
+	return tpm_e_bad_datasize;
+case TPM_E_BAD_DATASIZE:
+	return tpm_e_bad_datasize;
+case TPM_E_BAD_MODE:
+	return tpm_e_bad_mode;
+case TPM_E_BAD_MODE:
+	return tpm_e_bad_mode;
+case TPM_E_BAD_MODE:
+	return tpm_e_bad_mode;
+case TPM_E_BAD_PRESENCE:
+	return tpm_e_bad_presence;
+case TPM_E_BAD_PRESENCE:
+	return tpm_e_bad_presence;
+case TPM_E_BAD_PRESENCE:
+	return tpm_e_bad_presence;
+case TPM_E_BAD_VERSION:
+	return tpm_e_bad_version;
+case TPM_E_BAD_VERSION:
+	return tpm_e_bad_version;
+case TPM_E_BAD_VERSION:
+	return tpm_e_bad_version;
+case TPM_E_NO_WRAP_TRANSPORT:
+	return tpm_e_no_wrap_transport;
+case TPM_E_NO_WRAP_TRANSPORT:
+	return tpm_e_no_wrap_transport;
+case TPM_E_NO_WRAP_TRANSPORT:
+	return tpm_e_no_wrap_transport;
+case TPM_E_AUDITFAIL_UNSUCCESSFUL:
+	return tpm_e_auditfail_unsuccessful;
+case TPM_E_AUDITFAIL_UNSUCCESSFUL:
+	return tpm_e_auditfail_unsuccessful;
+case TPM_E_AUDITFAIL_UNSUCCESSFUL:
+	return tpm_e_auditfail_unsuccessful;
+case TPM_E_AUDITFAIL_SUCCESSFUL:
+	return tpm_e_auditfail_successful;
+case TPM_E_AUDITFAIL_SUCCESSFUL:
+	return tpm_e_auditfail_successful;
+case TPM_E_AUDITFAIL_SUCCESSFUL:
+	return tpm_e_auditfail_successful;
+case TPM_E_NOTRESETABLE:
+	return tpm_e_notresetable;
+case TPM_E_NOTRESETABLE:
+	return tpm_e_notresetable;
+case TPM_E_NOTRESETABLE:
+	return tpm_e_notresetable;
+case TPM_E_NOTLOCAL:
+	return tpm_e_notlocal;
+case TPM_E_NOTLOCAL:
+	return tpm_e_notlocal;
+case TPM_E_NOTLOCAL:
+	return tpm_e_notlocal;
+case TPM_E_BAD_TYPE:
+	return tpm_e_bad_type;
+case TPM_E_BAD_TYPE:
+	return tpm_e_bad_type;
+case TPM_E_BAD_TYPE:
+	return tpm_e_bad_type;
+case TPM_E_INVALID_RESOURCE:
+	return tpm_e_invalid_resource;
+case TPM_E_INVALID_RESOURCE:
+	return tpm_e_invalid_resource;
+case TPM_E_INVALID_RESOURCE:
+	return tpm_e_invalid_resource;
+case TPM_E_NOTFIPS:
+	return tpm_e_notfips;
+case TPM_E_NOTFIPS:
+	return tpm_e_notfips;
+case TPM_E_NOTFIPS:
+	return tpm_e_notfips;
+case TPM_E_INVALID_FAMILY:
+	return tpm_e_invalid_family;
+case TPM_E_INVALID_FAMILY:
+	return tpm_e_invalid_family;
+case TPM_E_INVALID_FAMILY:
+	return tpm_e_invalid_family;
+case TPM_E_NO_NV_PERMISSION:
+	return tpm_e_no_nv_permission;
+case TPM_E_NO_NV_PERMISSION:
+	return tpm_e_no_nv_permission;
+case TPM_E_NO_NV_PERMISSION:
+	return tpm_e_no_nv_permission;
+case TPM_E_REQUIRES_SIGN:
+	return tpm_e_requires_sign;
+case TPM_E_REQUIRES_SIGN:
+	return tpm_e_requires_sign;
+case TPM_E_REQUIRES_SIGN:
+	return tpm_e_requires_sign;
+case TPM_E_KEY_NOTSUPPORTED:
+	return tpm_e_key_notsupported;
+case TPM_E_KEY_NOTSUPPORTED:
+	return tpm_e_key_notsupported;
+case TPM_E_KEY_NOTSUPPORTED:
+	return tpm_e_key_notsupported;
+case TPM_E_AUTH_CONFLICT:
+	return tpm_e_auth_conflict;
+case TPM_E_AUTH_CONFLICT:
+	return tpm_e_auth_conflict;
+case TPM_E_AUTH_CONFLICT:
+	return tpm_e_auth_conflict;
+case TPM_E_AREA_LOCKED:
+	return tpm_e_area_locked;
+case TPM_E_AREA_LOCKED:
+	return tpm_e_area_locked;
+case TPM_E_AREA_LOCKED:
+	return tpm_e_area_locked;
+case TPM_E_BAD_LOCALITY:
+	return tpm_e_bad_locality;
+case TPM_E_BAD_LOCALITY:
+	return tpm_e_bad_locality;
+case TPM_E_BAD_LOCALITY:
+	return tpm_e_bad_locality;
+case TPM_E_READ_ONLY:
+	return tpm_e_read_only;
+case TPM_E_READ_ONLY:
+	return tpm_e_read_only;
+case TPM_E_READ_ONLY:
+	return tpm_e_read_only;
+case TPM_E_PER_NOWRITE:
+	return tpm_e_per_nowrite;
+case TPM_E_PER_NOWRITE:
+	return tpm_e_per_nowrite;
+case TPM_E_PER_NOWRITE:
+	return tpm_e_per_nowrite;
+case TPM_E_FAMILYCOUNT:
+	return tpm_e_familycount;
+case TPM_E_FAMILYCOUNT:
+	return tpm_e_familycount;
+case TPM_E_FAMILYCOUNT:
+	return tpm_e_familycount;
+case TPM_E_WRITE_LOCKED:
+	return tpm_e_write_locked;
+case TPM_E_WRITE_LOCKED:
+	return tpm_e_write_locked;
+case TPM_E_WRITE_LOCKED:
+	return tpm_e_write_locked;
+case TPM_E_BAD_ATTRIBUTES:
+	return tpm_e_bad_attributes;
+case TPM_E_BAD_ATTRIBUTES:
+	return tpm_e_bad_attributes;
+case TPM_E_BAD_ATTRIBUTES:
+	return tpm_e_bad_attributes;
+case TPM_E_INVALID_STRUCTURE:
+	return tpm_e_invalid_structure;
+case TPM_E_INVALID_STRUCTURE:
+	return tpm_e_invalid_structure;
+case TPM_E_INVALID_STRUCTURE:
+	return tpm_e_invalid_structure;
+case TPM_E_KEY_OWNER_CONTROL:
+	return tpm_e_key_owner_control;
+case TPM_E_KEY_OWNER_CONTROL:
+	return tpm_e_key_owner_control;
+case TPM_E_KEY_OWNER_CONTROL:
+	return tpm_e_key_owner_control;
+case TPM_E_BAD_COUNTER:
+	return tpm_e_bad_counter;
+case TPM_E_BAD_COUNTER:
+	return tpm_e_bad_counter;
+case TPM_E_BAD_COUNTER:
+	return tpm_e_bad_counter;
+case TPM_E_NOT_FULLWRITE:
+	return tpm_e_not_fullwrite;
+case TPM_E_NOT_FULLWRITE:
+	return tpm_e_not_fullwrite;
+case TPM_E_NOT_FULLWRITE:
+	return tpm_e_not_fullwrite;
+case TPM_E_CONTEXT_GAP:
+	return tpm_e_context_gap;
+case TPM_E_CONTEXT_GAP:
+	return tpm_e_context_gap;
+case TPM_E_CONTEXT_GAP:
+	return tpm_e_context_gap;
+case TPM_E_MAXNVWRITES:
+	return tpm_e_maxnvwrites;
+case TPM_E_MAXNVWRITES:
+	return tpm_e_maxnvwrites;
+case TPM_E_MAXNVWRITES:
+	return tpm_e_maxnvwrites;
+case TPM_E_NOOPERATOR:
+	return tpm_e_nooperator;
+case TPM_E_NOOPERATOR:
+	return tpm_e_nooperator;
+case TPM_E_NOOPERATOR:
+	return tpm_e_nooperator;
+case TPM_E_RESOURCEMISSING:
+	return tpm_e_resourcemissing;
+case TPM_E_RESOURCEMISSING:
+	return tpm_e_resourcemissing;
+case TPM_E_RESOURCEMISSING:
+	return tpm_e_resourcemissing;
+case TPM_E_DELEGATE_LOCK:
+	return tpm_e_delegate_lock;
+case TPM_E_DELEGATE_LOCK:
+	return tpm_e_delegate_lock;
+case TPM_E_DELEGATE_LOCK:
+	return tpm_e_delegate_lock;
+case TPM_E_DELEGATE_FAMILY:
+	return tpm_e_delegate_family;
+case TPM_E_DELEGATE_FAMILY:
+	return tpm_e_delegate_family;
+case TPM_E_DELEGATE_FAMILY:
+	return tpm_e_delegate_family;
+case TPM_E_DELEGATE_ADMIN:
+	return tpm_e_delegate_admin;
+case TPM_E_DELEGATE_ADMIN:
+	return tpm_e_delegate_admin;
+case TPM_E_DELEGATE_ADMIN:
+	return tpm_e_delegate_admin;
+case TPM_E_TRANSPORT_NOTEXCLUSIVE:
+	return tpm_e_transport_notexclusive;
+case TPM_E_TRANSPORT_NOTEXCLUSIVE:
+	return tpm_e_transport_notexclusive;
+case TPM_E_TRANSPORT_NOTEXCLUSIVE:
+	return tpm_e_transport_notexclusive;
+case TPM_E_OWNER_CONTROL:
+	return tpm_e_owner_control;
+case TPM_E_OWNER_CONTROL:
+	return tpm_e_owner_control;
+case TPM_E_OWNER_CONTROL:
+	return tpm_e_owner_control;
+case TPM_E_DAA_RESOURCES:
+	return tpm_e_daa_resources;
+case TPM_E_DAA_RESOURCES:
+	return tpm_e_daa_resources;
+case TPM_E_DAA_RESOURCES:
+	return tpm_e_daa_resources;
+case TPM_E_DAA_RESOURCES:
+	return tpm_e_daa_resources;
+case TPM_E_DAA_RESOURCES:
+	return tpm_e_daa_resources;
+case TPM_E_DAA_RESOURCES:
+	return tpm_e_daa_resources;
+case TPM_E_DAA_RESOURCES:
+	return tpm_e_daa_resources;
+case TPM_E_DAA_RESOURCES:
+	return tpm_e_daa_resources;
+case TPM_E_DAA_RESOURCES:
+	return tpm_e_daa_resources;
+case TPM_E_DAA_ISSUER_SETTINGS:
+	return tpm_e_daa_issuer_settings;
+case TPM_E_DAA_ISSUER_SETTINGS:
+	return tpm_e_daa_issuer_settings;
+case TPM_E_DAA_ISSUER_SETTINGS:
+	return tpm_e_daa_issuer_settings;
+case TPM_E_DAA_TPM_SETTINGS:
+	return tpm_e_daa_tpm_settings;
+case TPM_E_DAA_TPM_SETTINGS:
+	return tpm_e_daa_tpm_settings;
+case TPM_E_DAA_TPM_SETTINGS:
+	return tpm_e_daa_tpm_settings;
+case TPM_E_DAA_STAGE:
+	return tpm_e_daa_stage;
+case TPM_E_DAA_STAGE:
+	return tpm_e_daa_stage;
+case TPM_E_DAA_STAGE:
+	return tpm_e_daa_stage;
+case TPM_E_DAA_ISSUER_VALIDITY:
+	return tpm_e_daa_issuer_validity;
+case TPM_E_DAA_ISSUER_VALIDITY:
+	return tpm_e_daa_issuer_validity;
+case TPM_E_DAA_ISSUER_VALIDITY:
+	return tpm_e_daa_issuer_validity;
+case TPM_E_DAA_WRONG_W:
+	return tpm_e_daa_wrong_w;
+case TPM_E_DAA_WRONG_W:
+	return tpm_e_daa_wrong_w;
+case TPM_E_DAA_WRONG_W:
+	return tpm_e_daa_wrong_w;
+case TPM_E_BAD_HANDLE:
+	return tpm_e_bad_handle;
+case TPM_E_BAD_HANDLE:
+	return tpm_e_bad_handle;
+case TPM_E_BAD_HANDLE:
+	return tpm_e_bad_handle;
+case TPM_E_BAD_DELEGATE:
+	return tpm_e_bad_delegate;
+case TPM_E_BAD_DELEGATE:
+	return tpm_e_bad_delegate;
+case TPM_E_BAD_DELEGATE:
+	return tpm_e_bad_delegate;
+case TPM_E_BADCONTEXT:
+	return tpm_e_badcontext;
+case TPM_E_BADCONTEXT:
+	return tpm_e_badcontext;
+case TPM_E_BADCONTEXT:
+	return tpm_e_badcontext;
+case TPM_E_TOOMANYCONTEXTS:
+	return tpm_e_toomanycontexts;
+case TPM_E_TOOMANYCONTEXTS:
+	return tpm_e_toomanycontexts;
+case TPM_E_TOOMANYCONTEXTS:
+	return tpm_e_toomanycontexts;
+case TPM_E_MA_TICKET_SIGNATURE:
+	return tpm_e_ma_ticket_signature;
+case TPM_E_MA_TICKET_SIGNATURE:
+	return tpm_e_ma_ticket_signature;
+case TPM_E_MA_TICKET_SIGNATURE:
+	return tpm_e_ma_ticket_signature;
+case TPM_E_MA_DESTINATION:
+	return tpm_e_ma_destination;
+case TPM_E_MA_DESTINATION:
+	return tpm_e_ma_destination;
+case TPM_E_MA_DESTINATION:
+	return tpm_e_ma_destination;
+case TPM_E_MA_SOURCE:
+	return tpm_e_ma_source;
+case TPM_E_MA_SOURCE:
+	return tpm_e_ma_source;
+case TPM_E_MA_SOURCE:
+	return tpm_e_ma_source;
+case TPM_E_MA_AUTHORITY:
+	return tpm_e_ma_authority;
+case TPM_E_MA_AUTHORITY:
+	return tpm_e_ma_authority;
+case TPM_E_MA_AUTHORITY:
+	return tpm_e_ma_authority;
+case TPM_E_PERMANENTEK:
+	return tpm_e_permanentek;
+case TPM_E_PERMANENTEK:
+	return tpm_e_permanentek;
+case TPM_E_PERMANENTEK:
+	return tpm_e_permanentek;
+case TPM_E_BAD_SIGNATURE:
+	return tpm_e_bad_signature;
+case TPM_E_BAD_SIGNATURE:
+	return tpm_e_bad_signature;
+case TPM_E_BAD_SIGNATURE:
+	return tpm_e_bad_signature;
+case TPM_E_NOCONTEXTSPACE:
+	return tpm_e_nocontextspace;
+case TPM_E_NOCONTEXTSPACE:
+	return tpm_e_nocontextspace;
+case TPM_E_NOCONTEXTSPACE:
+	return tpm_e_nocontextspace;
+case TPM_E_COMMAND_BLOCKED:
+	return tpm_e_command_blocked;
+case TPM_E_COMMAND_BLOCKED:
+	return tpm_e_command_blocked;
+case TPM_E_COMMAND_BLOCKED:
+	return tpm_e_command_blocked;
+case TPM_E_INVALID_HANDLE:
+	return tpm_e_invalid_handle;
+case TPM_E_INVALID_HANDLE:
+	return tpm_e_invalid_handle;
+case TPM_E_INVALID_HANDLE:
+	return tpm_e_invalid_handle;
+case TPM_E_DUPLICATE_VHANDLE:
+	return tpm_e_duplicate_vhandle;
+case TPM_E_DUPLICATE_VHANDLE:
+	return tpm_e_duplicate_vhandle;
+case TPM_E_DUPLICATE_VHANDLE:
+	return tpm_e_duplicate_vhandle;
+case TPM_E_EMBEDDED_COMMAND_BLOCKED:
+	return tpm_e_embedded_command_blocked;
+case TPM_E_EMBEDDED_COMMAND_BLOCKED:
+	return tpm_e_embedded_command_blocked;
+case TPM_E_EMBEDDED_COMMAND_BLOCKED:
+	return tpm_e_embedded_command_blocked;
+case TPM_E_EMBEDDED_COMMAND_UNSUPPORTED:
+	return tpm_e_embedded_command_unsupported;
+case TPM_E_EMBEDDED_COMMAND_UNSUPPORTED:
+	return tpm_e_embedded_command_unsupported;
+case TPM_E_EMBEDDED_COMMAND_UNSUPPORTED:
+	return tpm_e_embedded_command_unsupported;
+case TPM_E_RETRY:
+	return tpm_e_retry;
+case TPM_E_RETRY:
+	return tpm_e_retry;
+case TPM_E_RETRY:
+	return tpm_e_retry;
+case TPM_E_NEEDS_SELFTEST:
+	return tpm_e_needs_selftest;
+case TPM_E_NEEDS_SELFTEST:
+	return tpm_e_needs_selftest;
+case TPM_E_NEEDS_SELFTEST:
+	return tpm_e_needs_selftest;
+case TPM_E_DOING_SELFTEST:
+	return tpm_e_doing_selftest;
+case TPM_E_DOING_SELFTEST:
+	return tpm_e_doing_selftest;
+case TPM_E_DOING_SELFTEST:
+	return tpm_e_doing_selftest;
+case TPM_E_DEFEND_LOCK_RUNNING:
+	return tpm_e_defend_lock_running;
+case TPM_E_DEFEND_LOCK_RUNNING:
+	return tpm_e_defend_lock_running;
+case TPM_E_DEFEND_LOCK_RUNNING:
+	return tpm_e_defend_lock_running;
+case TBS_E_INTERNAL_ERROR:
+	return tbs_e_internal_error;
+case TBS_E_INTERNAL_ERROR:
+	return tbs_e_internal_error;
+case TBS_E_INTERNAL_ERROR:
+	return tbs_e_internal_error;
+case TBS_E_BAD_PARAMETER:
+	return tbs_e_bad_parameter;
+case TBS_E_BAD_PARAMETER:
+	return tbs_e_bad_parameter;
+case TBS_E_BAD_PARAMETER:
+	return tbs_e_bad_parameter;
+case TBS_E_INVALID_OUTPUT_POINTER:
+	return tbs_e_invalid_output_pointer;
+case TBS_E_INVALID_OUTPUT_POINTER:
+	return tbs_e_invalid_output_pointer;
+case TBS_E_INVALID_OUTPUT_POINTER:
+	return tbs_e_invalid_output_pointer;
+case TBS_E_INVALID_CONTEXT:
+	return tbs_e_invalid_context;
+case TBS_E_INVALID_CONTEXT:
+	return tbs_e_invalid_context;
+case TBS_E_INVALID_CONTEXT:
+	return tbs_e_invalid_context;
+case TBS_E_INSUFFICIENT_BUFFER:
+	return tbs_e_insufficient_buffer;
+case TBS_E_INSUFFICIENT_BUFFER:
+	return tbs_e_insufficient_buffer;
+case TBS_E_INSUFFICIENT_BUFFER:
+	return tbs_e_insufficient_buffer;
+case TBS_E_IOERROR:
+	return tbs_e_ioerror;
+case TBS_E_IOERROR:
+	return tbs_e_ioerror;
+case TBS_E_IOERROR:
+	return tbs_e_ioerror;
+case TBS_E_INVALID_CONTEXT_PARAM:
+	return tbs_e_invalid_context_param;
+case TBS_E_INVALID_CONTEXT_PARAM:
+	return tbs_e_invalid_context_param;
+case TBS_E_INVALID_CONTEXT_PARAM:
+	return tbs_e_invalid_context_param;
+case TBS_E_SERVICE_NOT_RUNNING:
+	return tbs_e_service_not_running;
+case TBS_E_SERVICE_NOT_RUNNING:
+	return tbs_e_service_not_running;
+case TBS_E_SERVICE_NOT_RUNNING:
+	return tbs_e_service_not_running;
+case TBS_E_TOO_MANY_TBS_CONTEXTS:
+	return tbs_e_too_many_tbs_contexts;
+case TBS_E_TOO_MANY_TBS_CONTEXTS:
+	return tbs_e_too_many_tbs_contexts;
+case TBS_E_TOO_MANY_TBS_CONTEXTS:
+	return tbs_e_too_many_tbs_contexts;
+case TBS_E_TOO_MANY_RESOURCES:
+	return tbs_e_too_many_resources;
+case TBS_E_TOO_MANY_RESOURCES:
+	return tbs_e_too_many_resources;
+case TBS_E_TOO_MANY_RESOURCES:
+	return tbs_e_too_many_resources;
+case TBS_E_SERVICE_START_PENDING:
+	return tbs_e_service_start_pending;
+case TBS_E_SERVICE_START_PENDING:
+	return tbs_e_service_start_pending;
+case TBS_E_SERVICE_START_PENDING:
+	return tbs_e_service_start_pending;
+case TBS_E_PPI_NOT_SUPPORTED:
+	return tbs_e_ppi_not_supported;
+case TBS_E_PPI_NOT_SUPPORTED:
+	return tbs_e_ppi_not_supported;
+case TBS_E_PPI_NOT_SUPPORTED:
+	return tbs_e_ppi_not_supported;
+case TBS_E_COMMAND_CANCELED:
+	return tbs_e_command_canceled;
+case TBS_E_COMMAND_CANCELED:
+	return tbs_e_command_canceled;
+case TBS_E_COMMAND_CANCELED:
+	return tbs_e_command_canceled;
+case TBS_E_BUFFER_TOO_LARGE:
+	return tbs_e_buffer_too_large;
+case TBS_E_BUFFER_TOO_LARGE:
+	return tbs_e_buffer_too_large;
+case TBS_E_BUFFER_TOO_LARGE:
+	return tbs_e_buffer_too_large;
+case TPMAPI_E_INVALID_STATE:
+	return tpmapi_e_invalid_state;
+case TPMAPI_E_INVALID_STATE:
+	return tpmapi_e_invalid_state;
+case TPMAPI_E_INVALID_STATE:
+	return tpmapi_e_invalid_state;
+case TPMAPI_E_NOT_ENOUGH_DATA:
+	return tpmapi_e_not_enough_data;
+case TPMAPI_E_NOT_ENOUGH_DATA:
+	return tpmapi_e_not_enough_data;
+case TPMAPI_E_NOT_ENOUGH_DATA:
+	return tpmapi_e_not_enough_data;
+case TPMAPI_E_TOO_MUCH_DATA:
+	return tpmapi_e_too_much_data;
+case TPMAPI_E_TOO_MUCH_DATA:
+	return tpmapi_e_too_much_data;
+case TPMAPI_E_TOO_MUCH_DATA:
+	return tpmapi_e_too_much_data;
+case TPMAPI_E_INVALID_OUTPUT_POINTER:
+	return tpmapi_e_invalid_output_pointer;
+case TPMAPI_E_INVALID_OUTPUT_POINTER:
+	return tpmapi_e_invalid_output_pointer;
+case TPMAPI_E_INVALID_OUTPUT_POINTER:
+	return tpmapi_e_invalid_output_pointer;
+case TPMAPI_E_INVALID_PARAMETER:
+	return tpmapi_e_invalid_parameter;
+case TPMAPI_E_INVALID_PARAMETER:
+	return tpmapi_e_invalid_parameter;
+case TPMAPI_E_INVALID_PARAMETER:
+	return tpmapi_e_invalid_parameter;
+case TPMAPI_E_OUT_OF_MEMORY:
+	return tpmapi_e_out_of_memory;
+case TPMAPI_E_OUT_OF_MEMORY:
+	return tpmapi_e_out_of_memory;
+case TPMAPI_E_OUT_OF_MEMORY:
+	return tpmapi_e_out_of_memory;
+case TPMAPI_E_BUFFER_TOO_SMALL:
+	return tpmapi_e_buffer_too_small;
+case TPMAPI_E_BUFFER_TOO_SMALL:
+	return tpmapi_e_buffer_too_small;
+case TPMAPI_E_BUFFER_TOO_SMALL:
+	return tpmapi_e_buffer_too_small;
+case TPMAPI_E_INTERNAL_ERROR:
+	return tpmapi_e_internal_error;
+case TPMAPI_E_INTERNAL_ERROR:
+	return tpmapi_e_internal_error;
+case TPMAPI_E_INTERNAL_ERROR:
+	return tpmapi_e_internal_error;
+case TPMAPI_E_ACCESS_DENIED:
+	return tpmapi_e_access_denied;
+case TPMAPI_E_ACCESS_DENIED:
+	return tpmapi_e_access_denied;
+case TPMAPI_E_ACCESS_DENIED:
+	return tpmapi_e_access_denied;
+case TPMAPI_E_AUTHORIZATION_FAILED:
+	return tpmapi_e_authorization_failed;
+case TPMAPI_E_AUTHORIZATION_FAILED:
+	return tpmapi_e_authorization_failed;
+case TPMAPI_E_AUTHORIZATION_FAILED:
+	return tpmapi_e_authorization_failed;
+case TPMAPI_E_INVALID_CONTEXT_HANDLE:
+	return tpmapi_e_invalid_context_handle;
+case TPMAPI_E_INVALID_CONTEXT_HANDLE:
+	return tpmapi_e_invalid_context_handle;
+case TPMAPI_E_INVALID_CONTEXT_HANDLE:
+	return tpmapi_e_invalid_context_handle;
+case TPMAPI_E_TBS_COMMUNICATION_ERROR:
+	return tpmapi_e_tbs_communication_error;
+case TPMAPI_E_TBS_COMMUNICATION_ERROR:
+	return tpmapi_e_tbs_communication_error;
+case TPMAPI_E_TBS_COMMUNICATION_ERROR:
+	return tpmapi_e_tbs_communication_error;
+case TPMAPI_E_TPM_COMMAND_ERROR:
+	return tpmapi_e_tpm_command_error;
+case TPMAPI_E_TPM_COMMAND_ERROR:
+	return tpmapi_e_tpm_command_error;
+case TPMAPI_E_TPM_COMMAND_ERROR:
+	return tpmapi_e_tpm_command_error;
+case TPMAPI_E_MESSAGE_TOO_LARGE:
+	return tpmapi_e_message_too_large;
+case TPMAPI_E_MESSAGE_TOO_LARGE:
+	return tpmapi_e_message_too_large;
+case TPMAPI_E_MESSAGE_TOO_LARGE:
+	return tpmapi_e_message_too_large;
+case TPMAPI_E_INVALID_ENCODING:
+	return tpmapi_e_invalid_encoding;
+case TPMAPI_E_INVALID_ENCODING:
+	return tpmapi_e_invalid_encoding;
+case TPMAPI_E_INVALID_ENCODING:
+	return tpmapi_e_invalid_encoding;
+case TPMAPI_E_INVALID_KEY_SIZE:
+	return tpmapi_e_invalid_key_size;
+case TPMAPI_E_INVALID_KEY_SIZE:
+	return tpmapi_e_invalid_key_size;
+case TPMAPI_E_INVALID_KEY_SIZE:
+	return tpmapi_e_invalid_key_size;
+case TPMAPI_E_ENCRYPTION_FAILED:
+	return tpmapi_e_encryption_failed;
+case TPMAPI_E_ENCRYPTION_FAILED:
+	return tpmapi_e_encryption_failed;
+case TPMAPI_E_ENCRYPTION_FAILED:
+	return tpmapi_e_encryption_failed;
+case TPMAPI_E_INVALID_KEY_PARAMS:
+	return tpmapi_e_invalid_key_params;
+case TPMAPI_E_INVALID_KEY_PARAMS:
+	return tpmapi_e_invalid_key_params;
+case TPMAPI_E_INVALID_KEY_PARAMS:
+	return tpmapi_e_invalid_key_params;
+case TPMAPI_E_INVALID_MIGRATION_AUTHORIZATION_BLOB:
+	return tpmapi_e_invalid_migration_authorization_blob;
+case TPMAPI_E_INVALID_MIGRATION_AUTHORIZATION_BLOB:
+	return tpmapi_e_invalid_migration_authorization_blob;
+case TPMAPI_E_INVALID_MIGRATION_AUTHORIZATION_BLOB:
+	return tpmapi_e_invalid_migration_authorization_blob;
+case TPMAPI_E_INVALID_PCR_INDEX:
+	return tpmapi_e_invalid_pcr_index;
+case TPMAPI_E_INVALID_PCR_INDEX:
+	return tpmapi_e_invalid_pcr_index;
+case TPMAPI_E_INVALID_PCR_INDEX:
+	return tpmapi_e_invalid_pcr_index;
+case TPMAPI_E_INVALID_DELEGATE_BLOB:
+	return tpmapi_e_invalid_delegate_blob;
+case TPMAPI_E_INVALID_DELEGATE_BLOB:
+	return tpmapi_e_invalid_delegate_blob;
+case TPMAPI_E_INVALID_DELEGATE_BLOB:
+	return tpmapi_e_invalid_delegate_blob;
+case TPMAPI_E_INVALID_CONTEXT_PARAMS:
+	return tpmapi_e_invalid_context_params;
+case TPMAPI_E_INVALID_CONTEXT_PARAMS:
+	return tpmapi_e_invalid_context_params;
+case TPMAPI_E_INVALID_CONTEXT_PARAMS:
+	return tpmapi_e_invalid_context_params;
+case TPMAPI_E_INVALID_KEY_BLOB:
+	return tpmapi_e_invalid_key_blob;
+case TPMAPI_E_INVALID_KEY_BLOB:
+	return tpmapi_e_invalid_key_blob;
+case TPMAPI_E_INVALID_KEY_BLOB:
+	return tpmapi_e_invalid_key_blob;
+case TPMAPI_E_INVALID_PCR_DATA:
+	return tpmapi_e_invalid_pcr_data;
+case TPMAPI_E_INVALID_PCR_DATA:
+	return tpmapi_e_invalid_pcr_data;
+case TPMAPI_E_INVALID_PCR_DATA:
+	return tpmapi_e_invalid_pcr_data;
+case TPMAPI_E_INVALID_OWNER_AUTH:
+	return tpmapi_e_invalid_owner_auth;
+case TPMAPI_E_INVALID_OWNER_AUTH:
+	return tpmapi_e_invalid_owner_auth;
+case TPMAPI_E_INVALID_OWNER_AUTH:
+	return tpmapi_e_invalid_owner_auth;
+case TBSIMP_E_BUFFER_TOO_SMALL:
+	return tbsimp_e_buffer_too_small;
+case TBSIMP_E_BUFFER_TOO_SMALL:
+	return tbsimp_e_buffer_too_small;
+case TBSIMP_E_BUFFER_TOO_SMALL:
+	return tbsimp_e_buffer_too_small;
+case TBSIMP_E_CLEANUP_FAILED:
+	return tbsimp_e_cleanup_failed;
+case TBSIMP_E_CLEANUP_FAILED:
+	return tbsimp_e_cleanup_failed;
+case TBSIMP_E_CLEANUP_FAILED:
+	return tbsimp_e_cleanup_failed;
+case TBSIMP_E_INVALID_CONTEXT_HANDLE:
+	return tbsimp_e_invalid_context_handle;
+case TBSIMP_E_INVALID_CONTEXT_HANDLE:
+	return tbsimp_e_invalid_context_handle;
+case TBSIMP_E_INVALID_CONTEXT_HANDLE:
+	return tbsimp_e_invalid_context_handle;
+case TBSIMP_E_INVALID_CONTEXT_PARAM:
+	return tbsimp_e_invalid_context_param;
+case TBSIMP_E_INVALID_CONTEXT_PARAM:
+	return tbsimp_e_invalid_context_param;
+case TBSIMP_E_INVALID_CONTEXT_PARAM:
+	return tbsimp_e_invalid_context_param;
+case TBSIMP_E_TPM_ERROR:
+	return tbsimp_e_tpm_error;
+case TBSIMP_E_TPM_ERROR:
+	return tbsimp_e_tpm_error;
+case TBSIMP_E_TPM_ERROR:
+	return tbsimp_e_tpm_error;
+case TBSIMP_E_HASH_BAD_KEY:
+	return tbsimp_e_hash_bad_key;
+case TBSIMP_E_HASH_BAD_KEY:
+	return tbsimp_e_hash_bad_key;
+case TBSIMP_E_HASH_BAD_KEY:
+	return tbsimp_e_hash_bad_key;
+case TBSIMP_E_DUPLICATE_VHANDLE:
+	return tbsimp_e_duplicate_vhandle;
+case TBSIMP_E_DUPLICATE_VHANDLE:
+	return tbsimp_e_duplicate_vhandle;
+case TBSIMP_E_DUPLICATE_VHANDLE:
+	return tbsimp_e_duplicate_vhandle;
+case TBSIMP_E_INVALID_OUTPUT_POINTER:
+	return tbsimp_e_invalid_output_pointer;
+case TBSIMP_E_INVALID_OUTPUT_POINTER:
+	return tbsimp_e_invalid_output_pointer;
+case TBSIMP_E_INVALID_OUTPUT_POINTER:
+	return tbsimp_e_invalid_output_pointer;
+case TBSIMP_E_INVALID_PARAMETER:
+	return tbsimp_e_invalid_parameter;
+case TBSIMP_E_INVALID_PARAMETER:
+	return tbsimp_e_invalid_parameter;
+case TBSIMP_E_INVALID_PARAMETER:
+	return tbsimp_e_invalid_parameter;
+case TBSIMP_E_RPC_INIT_FAILED:
+	return tbsimp_e_rpc_init_failed;
+case TBSIMP_E_RPC_INIT_FAILED:
+	return tbsimp_e_rpc_init_failed;
+case TBSIMP_E_RPC_INIT_FAILED:
+	return tbsimp_e_rpc_init_failed;
+case TBSIMP_E_SCHEDULER_NOT_RUNNING:
+	return tbsimp_e_scheduler_not_running;
+case TBSIMP_E_SCHEDULER_NOT_RUNNING:
+	return tbsimp_e_scheduler_not_running;
+case TBSIMP_E_SCHEDULER_NOT_RUNNING:
+	return tbsimp_e_scheduler_not_running;
+case TBSIMP_E_COMMAND_CANCELED:
+	return tbsimp_e_command_canceled;
+case TBSIMP_E_COMMAND_CANCELED:
+	return tbsimp_e_command_canceled;
+case TBSIMP_E_COMMAND_CANCELED:
+	return tbsimp_e_command_canceled;
+case TBSIMP_E_OUT_OF_MEMORY:
+	return tbsimp_e_out_of_memory;
+case TBSIMP_E_OUT_OF_MEMORY:
+	return tbsimp_e_out_of_memory;
+case TBSIMP_E_OUT_OF_MEMORY:
+	return tbsimp_e_out_of_memory;
+case TBSIMP_E_LIST_NO_MORE_ITEMS:
+	return tbsimp_e_list_no_more_items;
+case TBSIMP_E_LIST_NO_MORE_ITEMS:
+	return tbsimp_e_list_no_more_items;
+case TBSIMP_E_LIST_NO_MORE_ITEMS:
+	return tbsimp_e_list_no_more_items;
+case TBSIMP_E_LIST_NOT_FOUND:
+	return tbsimp_e_list_not_found;
+case TBSIMP_E_LIST_NOT_FOUND:
+	return tbsimp_e_list_not_found;
+case TBSIMP_E_LIST_NOT_FOUND:
+	return tbsimp_e_list_not_found;
+case TBSIMP_E_NOT_ENOUGH_SPACE:
+	return tbsimp_e_not_enough_space;
+case TBSIMP_E_NOT_ENOUGH_SPACE:
+	return tbsimp_e_not_enough_space;
+case TBSIMP_E_NOT_ENOUGH_SPACE:
+	return tbsimp_e_not_enough_space;
+case TBSIMP_E_NOT_ENOUGH_TPM_CONTEXTS:
+	return tbsimp_e_not_enough_tpm_contexts;
+case TBSIMP_E_NOT_ENOUGH_TPM_CONTEXTS:
+	return tbsimp_e_not_enough_tpm_contexts;
+case TBSIMP_E_NOT_ENOUGH_TPM_CONTEXTS:
+	return tbsimp_e_not_enough_tpm_contexts;
+case TBSIMP_E_COMMAND_FAILED:
+	return tbsimp_e_command_failed;
+case TBSIMP_E_COMMAND_FAILED:
+	return tbsimp_e_command_failed;
+case TBSIMP_E_COMMAND_FAILED:
+	return tbsimp_e_command_failed;
+case TBSIMP_E_UNKNOWN_ORDINAL:
+	return tbsimp_e_unknown_ordinal;
+case TBSIMP_E_UNKNOWN_ORDINAL:
+	return tbsimp_e_unknown_ordinal;
+case TBSIMP_E_UNKNOWN_ORDINAL:
+	return tbsimp_e_unknown_ordinal;
+case TBSIMP_E_RESOURCE_EXPIRED:
+	return tbsimp_e_resource_expired;
+case TBSIMP_E_RESOURCE_EXPIRED:
+	return tbsimp_e_resource_expired;
+case TBSIMP_E_RESOURCE_EXPIRED:
+	return tbsimp_e_resource_expired;
+case TBSIMP_E_INVALID_RESOURCE:
+	return tbsimp_e_invalid_resource;
+case TBSIMP_E_INVALID_RESOURCE:
+	return tbsimp_e_invalid_resource;
+case TBSIMP_E_INVALID_RESOURCE:
+	return tbsimp_e_invalid_resource;
+case TBSIMP_E_NOTHING_TO_UNLOAD:
+	return tbsimp_e_nothing_to_unload;
+case TBSIMP_E_NOTHING_TO_UNLOAD:
+	return tbsimp_e_nothing_to_unload;
+case TBSIMP_E_NOTHING_TO_UNLOAD:
+	return tbsimp_e_nothing_to_unload;
+case TBSIMP_E_HASH_TABLE_FULL:
+	return tbsimp_e_hash_table_full;
+case TBSIMP_E_HASH_TABLE_FULL:
+	return tbsimp_e_hash_table_full;
+case TBSIMP_E_HASH_TABLE_FULL:
+	return tbsimp_e_hash_table_full;
+case TBSIMP_E_TOO_MANY_TBS_CONTEXTS:
+	return tbsimp_e_too_many_tbs_contexts;
+case TBSIMP_E_TOO_MANY_TBS_CONTEXTS:
+	return tbsimp_e_too_many_tbs_contexts;
+case TBSIMP_E_TOO_MANY_TBS_CONTEXTS:
+	return tbsimp_e_too_many_tbs_contexts;
+case TBSIMP_E_TOO_MANY_RESOURCES:
+	return tbsimp_e_too_many_resources;
+case TBSIMP_E_TOO_MANY_RESOURCES:
+	return tbsimp_e_too_many_resources;
+case TBSIMP_E_TOO_MANY_RESOURCES:
+	return tbsimp_e_too_many_resources;
+case TBSIMP_E_PPI_NOT_SUPPORTED:
+	return tbsimp_e_ppi_not_supported;
+case TBSIMP_E_PPI_NOT_SUPPORTED:
+	return tbsimp_e_ppi_not_supported;
+case TBSIMP_E_PPI_NOT_SUPPORTED:
+	return tbsimp_e_ppi_not_supported;
+case TBSIMP_E_TPM_INCOMPATIBLE:
+	return tbsimp_e_tpm_incompatible;
+case TBSIMP_E_TPM_INCOMPATIBLE:
+	return tbsimp_e_tpm_incompatible;
+case TBSIMP_E_TPM_INCOMPATIBLE:
+	return tbsimp_e_tpm_incompatible;
+case TPM_E_PPI_ACPI_FAILURE:
+	return tpm_e_ppi_acpi_failure;
+case TPM_E_PPI_ACPI_FAILURE:
+	return tpm_e_ppi_acpi_failure;
+case TPM_E_PPI_ACPI_FAILURE:
+	return tpm_e_ppi_acpi_failure;
+case TPM_E_PPI_USER_ABORT:
+	return tpm_e_ppi_user_abort;
+case TPM_E_PPI_USER_ABORT:
+	return tpm_e_ppi_user_abort;
+case TPM_E_PPI_USER_ABORT:
+	return tpm_e_ppi_user_abort;
+case TPM_E_PPI_BIOS_FAILURE:
+	return tpm_e_ppi_bios_failure;
+case TPM_E_PPI_BIOS_FAILURE:
+	return tpm_e_ppi_bios_failure;
+case TPM_E_PPI_BIOS_FAILURE:
+	return tpm_e_ppi_bios_failure;
+case TPM_E_PPI_NOT_SUPPORTED:
+	return tpm_e_ppi_not_supported;
+case TPM_E_PPI_NOT_SUPPORTED:
+	return tpm_e_ppi_not_supported;
+case TPM_E_PPI_NOT_SUPPORTED:
+	return tpm_e_ppi_not_supported;
+case PLA_E_DCS_NOT_FOUND:
+	return pla_e_dcs_not_found;
+case PLA_E_DCS_NOT_FOUND:
+	return pla_e_dcs_not_found;
+case PLA_E_DCS_NOT_FOUND:
+	return pla_e_dcs_not_found;
+case PLA_E_TOO_MANY_FOLDERS:
+	return pla_e_too_many_folders;
+case PLA_E_TOO_MANY_FOLDERS:
+	return pla_e_too_many_folders;
+case PLA_E_TOO_MANY_FOLDERS:
+	return pla_e_too_many_folders;
+case PLA_E_NO_MIN_DISK:
+	return pla_e_no_min_disk;
+case PLA_E_NO_MIN_DISK:
+	return pla_e_no_min_disk;
+case PLA_E_NO_MIN_DISK:
+	return pla_e_no_min_disk;
+case PLA_E_DCS_IN_USE:
+	return pla_e_dcs_in_use;
+case PLA_E_DCS_IN_USE:
+	return pla_e_dcs_in_use;
+case PLA_E_DCS_IN_USE:
+	return pla_e_dcs_in_use;
+case PLA_E_DCS_ALREADY_EXISTS:
+	return pla_e_dcs_already_exists;
+case PLA_E_DCS_ALREADY_EXISTS:
+	return pla_e_dcs_already_exists;
+case PLA_E_DCS_ALREADY_EXISTS:
+	return pla_e_dcs_already_exists;
+case PLA_E_PROPERTY_CONFLICT:
+	return pla_e_property_conflict;
+case PLA_E_PROPERTY_CONFLICT:
+	return pla_e_property_conflict;
+case PLA_E_PROPERTY_CONFLICT:
+	return pla_e_property_conflict;
+case PLA_E_DCS_SINGLETON_REQUIRED:
+	return pla_e_dcs_singleton_required;
+case PLA_E_DCS_SINGLETON_REQUIRED:
+	return pla_e_dcs_singleton_required;
+case PLA_E_DCS_SINGLETON_REQUIRED:
+	return pla_e_dcs_singleton_required;
+case PLA_E_CREDENTIALS_REQUIRED:
+	return pla_e_credentials_required;
+case PLA_E_CREDENTIALS_REQUIRED:
+	return pla_e_credentials_required;
+case PLA_E_CREDENTIALS_REQUIRED:
+	return pla_e_credentials_required;
+case PLA_E_DCS_NOT_RUNNING:
+	return pla_e_dcs_not_running;
+case PLA_E_DCS_NOT_RUNNING:
+	return pla_e_dcs_not_running;
+case PLA_E_DCS_NOT_RUNNING:
+	return pla_e_dcs_not_running;
+case PLA_E_CONFLICT_INCL_EXCL_API:
+	return pla_e_conflict_incl_excl_api;
+case PLA_E_CONFLICT_INCL_EXCL_API:
+	return pla_e_conflict_incl_excl_api;
+case PLA_E_CONFLICT_INCL_EXCL_API:
+	return pla_e_conflict_incl_excl_api;
+case PLA_E_NETWORK_EXE_NOT_VALID:
+	return pla_e_network_exe_not_valid;
+case PLA_E_NETWORK_EXE_NOT_VALID:
+	return pla_e_network_exe_not_valid;
+case PLA_E_NETWORK_EXE_NOT_VALID:
+	return pla_e_network_exe_not_valid;
+case PLA_E_EXE_ALREADY_CONFIGURED:
+	return pla_e_exe_already_configured;
+case PLA_E_EXE_ALREADY_CONFIGURED:
+	return pla_e_exe_already_configured;
+case PLA_E_EXE_ALREADY_CONFIGURED:
+	return pla_e_exe_already_configured;
+case PLA_E_EXE_PATH_NOT_VALID:
+	return pla_e_exe_path_not_valid;
+case PLA_E_EXE_PATH_NOT_VALID:
+	return pla_e_exe_path_not_valid;
+case PLA_E_EXE_PATH_NOT_VALID:
+	return pla_e_exe_path_not_valid;
+case PLA_E_DC_ALREADY_EXISTS:
+	return pla_e_dc_already_exists;
+case PLA_E_DC_ALREADY_EXISTS:
+	return pla_e_dc_already_exists;
+case PLA_E_DC_ALREADY_EXISTS:
+	return pla_e_dc_already_exists;
+case PLA_E_DCS_START_WAIT_TIMEOUT:
+	return pla_e_dcs_start_wait_timeout;
+case PLA_E_DCS_START_WAIT_TIMEOUT:
+	return pla_e_dcs_start_wait_timeout;
+case PLA_E_DCS_START_WAIT_TIMEOUT:
+	return pla_e_dcs_start_wait_timeout;
+case PLA_E_DC_START_WAIT_TIMEOUT:
+	return pla_e_dc_start_wait_timeout;
+case PLA_E_DC_START_WAIT_TIMEOUT:
+	return pla_e_dc_start_wait_timeout;
+case PLA_E_DC_START_WAIT_TIMEOUT:
+	return pla_e_dc_start_wait_timeout;
+case PLA_E_REPORT_WAIT_TIMEOUT:
+	return pla_e_report_wait_timeout;
+case PLA_E_REPORT_WAIT_TIMEOUT:
+	return pla_e_report_wait_timeout;
+case PLA_E_REPORT_WAIT_TIMEOUT:
+	return pla_e_report_wait_timeout;
+case PLA_E_NO_DUPLICATES:
+	return pla_e_no_duplicates;
+case PLA_E_NO_DUPLICATES:
+	return pla_e_no_duplicates;
+case PLA_E_NO_DUPLICATES:
+	return pla_e_no_duplicates;
+case PLA_E_EXE_FULL_PATH_REQUIRED:
+	return pla_e_exe_full_path_required;
+case PLA_E_EXE_FULL_PATH_REQUIRED:
+	return pla_e_exe_full_path_required;
+case PLA_E_EXE_FULL_PATH_REQUIRED:
+	return pla_e_exe_full_path_required;
+case PLA_E_INVALID_SESSION_NAME:
+	return pla_e_invalid_session_name;
+case PLA_E_INVALID_SESSION_NAME:
+	return pla_e_invalid_session_name;
+case PLA_E_INVALID_SESSION_NAME:
+	return pla_e_invalid_session_name;
+case PLA_E_PLA_CHANNEL_NOT_ENABLED:
+	return pla_e_pla_channel_not_enabled;
+case PLA_E_PLA_CHANNEL_NOT_ENABLED:
+	return pla_e_pla_channel_not_enabled;
+case PLA_E_PLA_CHANNEL_NOT_ENABLED:
+	return pla_e_pla_channel_not_enabled;
+case PLA_E_TASKSCHED_CHANNEL_NOT_ENABLED:
+	return pla_e_tasksched_channel_not_enabled;
+case PLA_E_TASKSCHED_CHANNEL_NOT_ENABLED:
+	return pla_e_tasksched_channel_not_enabled;
+case PLA_E_TASKSCHED_CHANNEL_NOT_ENABLED:
+	return pla_e_tasksched_channel_not_enabled;
+case FVE_E_LOCKED_VOLUME:
+	return fve_e_locked_volume;
+case FVE_E_LOCKED_VOLUME:
+	return fve_e_locked_volume;
+case FVE_E_LOCKED_VOLUME:
+	return fve_e_locked_volume;
+case FVE_E_NOT_ENCRYPTED:
+	return fve_e_not_encrypted;
+case FVE_E_NOT_ENCRYPTED:
+	return fve_e_not_encrypted;
+case FVE_E_NOT_ENCRYPTED:
+	return fve_e_not_encrypted;
+case FVE_E_NO_TPM_BIOS:
+	return fve_e_no_tpm_bios;
+case FVE_E_NO_TPM_BIOS:
+	return fve_e_no_tpm_bios;
+case FVE_E_NO_TPM_BIOS:
+	return fve_e_no_tpm_bios;
+case FVE_E_NO_MBR_METRIC:
+	return fve_e_no_mbr_metric;
+case FVE_E_NO_MBR_METRIC:
+	return fve_e_no_mbr_metric;
+case FVE_E_NO_MBR_METRIC:
+	return fve_e_no_mbr_metric;
+case FVE_E_NO_BOOTSECTOR_METRIC:
+	return fve_e_no_bootsector_metric;
+case FVE_E_NO_BOOTSECTOR_METRIC:
+	return fve_e_no_bootsector_metric;
+case FVE_E_NO_BOOTSECTOR_METRIC:
+	return fve_e_no_bootsector_metric;
+case FVE_E_NO_BOOTMGR_METRIC:
+	return fve_e_no_bootmgr_metric;
+case FVE_E_NO_BOOTMGR_METRIC:
+	return fve_e_no_bootmgr_metric;
+case FVE_E_NO_BOOTMGR_METRIC:
+	return fve_e_no_bootmgr_metric;
+case FVE_E_WRONG_BOOTMGR:
+	return fve_e_wrong_bootmgr;
+case FVE_E_WRONG_BOOTMGR:
+	return fve_e_wrong_bootmgr;
+case FVE_E_WRONG_BOOTMGR:
+	return fve_e_wrong_bootmgr;
+case FVE_E_SECURE_KEY_REQUIRED:
+	return fve_e_secure_key_required;
+case FVE_E_SECURE_KEY_REQUIRED:
+	return fve_e_secure_key_required;
+case FVE_E_SECURE_KEY_REQUIRED:
+	return fve_e_secure_key_required;
+case FVE_E_NOT_ACTIVATED:
+	return fve_e_not_activated;
+case FVE_E_NOT_ACTIVATED:
+	return fve_e_not_activated;
+case FVE_E_NOT_ACTIVATED:
+	return fve_e_not_activated;
+case FVE_E_ACTION_NOT_ALLOWED:
+	return fve_e_action_not_allowed;
+case FVE_E_ACTION_NOT_ALLOWED:
+	return fve_e_action_not_allowed;
+case FVE_E_ACTION_NOT_ALLOWED:
+	return fve_e_action_not_allowed;
+case FVE_E_AD_SCHEMA_NOT_INSTALLED:
+	return fve_e_ad_schema_not_installed;
+case FVE_E_AD_SCHEMA_NOT_INSTALLED:
+	return fve_e_ad_schema_not_installed;
+case FVE_E_AD_SCHEMA_NOT_INSTALLED:
+	return fve_e_ad_schema_not_installed;
+case FVE_E_AD_INVALID_DATATYPE:
+	return fve_e_ad_invalid_datatype;
+case FVE_E_AD_INVALID_DATATYPE:
+	return fve_e_ad_invalid_datatype;
+case FVE_E_AD_INVALID_DATATYPE:
+	return fve_e_ad_invalid_datatype;
+case FVE_E_AD_INVALID_DATASIZE:
+	return fve_e_ad_invalid_datasize;
+case FVE_E_AD_INVALID_DATASIZE:
+	return fve_e_ad_invalid_datasize;
+case FVE_E_AD_INVALID_DATASIZE:
+	return fve_e_ad_invalid_datasize;
+case FVE_E_AD_NO_VALUES:
+	return fve_e_ad_no_values;
+case FVE_E_AD_NO_VALUES:
+	return fve_e_ad_no_values;
+case FVE_E_AD_NO_VALUES:
+	return fve_e_ad_no_values;
+case FVE_E_AD_ATTR_NOT_SET:
+	return fve_e_ad_attr_not_set;
+case FVE_E_AD_ATTR_NOT_SET:
+	return fve_e_ad_attr_not_set;
+case FVE_E_AD_ATTR_NOT_SET:
+	return fve_e_ad_attr_not_set;
+case FVE_E_AD_GUID_NOT_FOUND:
+	return fve_e_ad_guid_not_found;
+case FVE_E_AD_GUID_NOT_FOUND:
+	return fve_e_ad_guid_not_found;
+case FVE_E_AD_GUID_NOT_FOUND:
+	return fve_e_ad_guid_not_found;
+case FVE_E_BAD_INFORMATION:
+	return fve_e_bad_information;
+case FVE_E_BAD_INFORMATION:
+	return fve_e_bad_information;
+case FVE_E_BAD_INFORMATION:
+	return fve_e_bad_information;
+case FVE_E_TOO_SMALL:
+	return fve_e_too_small;
+case FVE_E_TOO_SMALL:
+	return fve_e_too_small;
+case FVE_E_TOO_SMALL:
+	return fve_e_too_small;
+case FVE_E_SYSTEM_VOLUME:
+	return fve_e_system_volume;
+case FVE_E_SYSTEM_VOLUME:
+	return fve_e_system_volume;
+case FVE_E_SYSTEM_VOLUME:
+	return fve_e_system_volume;
+case FVE_E_FAILED_WRONG_FS:
+	return fve_e_failed_wrong_fs;
+case FVE_E_FAILED_WRONG_FS:
+	return fve_e_failed_wrong_fs;
+case FVE_E_FAILED_WRONG_FS:
+	return fve_e_failed_wrong_fs;
+case FVE_E_FAILED_BAD_FS:
+	return fve_e_failed_bad_fs;
+case FVE_E_FAILED_BAD_FS:
+	return fve_e_failed_bad_fs;
+case FVE_E_FAILED_BAD_FS:
+	return fve_e_failed_bad_fs;
+case FVE_E_NOT_SUPPORTED:
+	return fve_e_not_supported;
+case FVE_E_NOT_SUPPORTED:
+	return fve_e_not_supported;
+case FVE_E_NOT_SUPPORTED:
+	return fve_e_not_supported;
+case FVE_E_BAD_DATA:
+	return fve_e_bad_data;
+case FVE_E_BAD_DATA:
+	return fve_e_bad_data;
+case FVE_E_BAD_DATA:
+	return fve_e_bad_data;
+case FVE_E_VOLUME_NOT_BOUND:
+	return fve_e_volume_not_bound;
+case FVE_E_VOLUME_NOT_BOUND:
+	return fve_e_volume_not_bound;
+case FVE_E_VOLUME_NOT_BOUND:
+	return fve_e_volume_not_bound;
+case FVE_E_TPM_NOT_OWNED:
+	return fve_e_tpm_not_owned;
+case FVE_E_TPM_NOT_OWNED:
+	return fve_e_tpm_not_owned;
+case FVE_E_TPM_NOT_OWNED:
+	return fve_e_tpm_not_owned;
+case FVE_E_NOT_DATA_VOLUME:
+	return fve_e_not_data_volume;
+case FVE_E_NOT_DATA_VOLUME:
+	return fve_e_not_data_volume;
+case FVE_E_NOT_DATA_VOLUME:
+	return fve_e_not_data_volume;
+case FVE_E_AD_INSUFFICIENT_BUFFER:
+	return fve_e_ad_insufficient_buffer;
+case FVE_E_AD_INSUFFICIENT_BUFFER:
+	return fve_e_ad_insufficient_buffer;
+case FVE_E_AD_INSUFFICIENT_BUFFER:
+	return fve_e_ad_insufficient_buffer;
+case FVE_E_CONV_READ:
+	return fve_e_conv_read;
+case FVE_E_CONV_READ:
+	return fve_e_conv_read;
+case FVE_E_CONV_READ:
+	return fve_e_conv_read;
+case FVE_E_CONV_WRITE:
+	return fve_e_conv_write;
+case FVE_E_CONV_WRITE:
+	return fve_e_conv_write;
+case FVE_E_CONV_WRITE:
+	return fve_e_conv_write;
+case FVE_E_KEY_REQUIRED:
+	return fve_e_key_required;
+case FVE_E_KEY_REQUIRED:
+	return fve_e_key_required;
+case FVE_E_KEY_REQUIRED:
+	return fve_e_key_required;
+case FVE_E_CLUSTERING_NOT_SUPPORTED:
+	return fve_e_clustering_not_supported;
+case FVE_E_CLUSTERING_NOT_SUPPORTED:
+	return fve_e_clustering_not_supported;
+case FVE_E_CLUSTERING_NOT_SUPPORTED:
+	return fve_e_clustering_not_supported;
+case FVE_E_VOLUME_BOUND_ALREADY:
+	return fve_e_volume_bound_already;
+case FVE_E_VOLUME_BOUND_ALREADY:
+	return fve_e_volume_bound_already;
+case FVE_E_VOLUME_BOUND_ALREADY:
+	return fve_e_volume_bound_already;
+case FVE_E_OS_NOT_PROTECTED:
+	return fve_e_os_not_protected;
+case FVE_E_OS_NOT_PROTECTED:
+	return fve_e_os_not_protected;
+case FVE_E_OS_NOT_PROTECTED:
+	return fve_e_os_not_protected;
+case FVE_E_PROTECTION_DISABLED:
+	return fve_e_protection_disabled;
+case FVE_E_PROTECTION_DISABLED:
+	return fve_e_protection_disabled;
+case FVE_E_PROTECTION_DISABLED:
+	return fve_e_protection_disabled;
+case FVE_E_RECOVERY_KEY_REQUIRED:
+	return fve_e_recovery_key_required;
+case FVE_E_RECOVERY_KEY_REQUIRED:
+	return fve_e_recovery_key_required;
+case FVE_E_RECOVERY_KEY_REQUIRED:
+	return fve_e_recovery_key_required;
+case FVE_E_FOREIGN_VOLUME:
+	return fve_e_foreign_volume;
+case FVE_E_FOREIGN_VOLUME:
+	return fve_e_foreign_volume;
+case FVE_E_FOREIGN_VOLUME:
+	return fve_e_foreign_volume;
+case FVE_E_OVERLAPPED_UPDATE:
+	return fve_e_overlapped_update;
+case FVE_E_OVERLAPPED_UPDATE:
+	return fve_e_overlapped_update;
+case FVE_E_OVERLAPPED_UPDATE:
+	return fve_e_overlapped_update;
+case FVE_E_TPM_SRK_AUTH_NOT_ZERO:
+	return fve_e_tpm_srk_auth_not_zero;
+case FVE_E_TPM_SRK_AUTH_NOT_ZERO:
+	return fve_e_tpm_srk_auth_not_zero;
+case FVE_E_TPM_SRK_AUTH_NOT_ZERO:
+	return fve_e_tpm_srk_auth_not_zero;
+case FVE_E_FAILED_SECTOR_SIZE:
+	return fve_e_failed_sector_size;
+case FVE_E_FAILED_SECTOR_SIZE:
+	return fve_e_failed_sector_size;
+case FVE_E_FAILED_SECTOR_SIZE:
+	return fve_e_failed_sector_size;
+case FVE_E_FAILED_AUTHENTICATION:
+	return fve_e_failed_authentication;
+case FVE_E_FAILED_AUTHENTICATION:
+	return fve_e_failed_authentication;
+case FVE_E_FAILED_AUTHENTICATION:
+	return fve_e_failed_authentication;
+case FVE_E_NOT_OS_VOLUME:
+	return fve_e_not_os_volume;
+case FVE_E_NOT_OS_VOLUME:
+	return fve_e_not_os_volume;
+case FVE_E_NOT_OS_VOLUME:
+	return fve_e_not_os_volume;
+case FVE_E_AUTOUNLOCK_ENABLED:
+	return fve_e_autounlock_enabled;
+case FVE_E_AUTOUNLOCK_ENABLED:
+	return fve_e_autounlock_enabled;
+case FVE_E_AUTOUNLOCK_ENABLED:
+	return fve_e_autounlock_enabled;
+case FVE_E_WRONG_BOOTSECTOR:
+	return fve_e_wrong_bootsector;
+case FVE_E_WRONG_BOOTSECTOR:
+	return fve_e_wrong_bootsector;
+case FVE_E_WRONG_BOOTSECTOR:
+	return fve_e_wrong_bootsector;
+case FVE_E_WRONG_SYSTEM_FS:
+	return fve_e_wrong_system_fs;
+case FVE_E_WRONG_SYSTEM_FS:
+	return fve_e_wrong_system_fs;
+case FVE_E_WRONG_SYSTEM_FS:
+	return fve_e_wrong_system_fs;
+case FVE_E_POLICY_PASSWORD_REQUIRED:
+	return fve_e_policy_password_required;
+case FVE_E_POLICY_PASSWORD_REQUIRED:
+	return fve_e_policy_password_required;
+case FVE_E_POLICY_PASSWORD_REQUIRED:
+	return fve_e_policy_password_required;
+case FVE_E_CANNOT_SET_FVEK_ENCRYPTED:
+	return fve_e_cannot_set_fvek_encrypted;
+case FVE_E_CANNOT_SET_FVEK_ENCRYPTED:
+	return fve_e_cannot_set_fvek_encrypted;
+case FVE_E_CANNOT_SET_FVEK_ENCRYPTED:
+	return fve_e_cannot_set_fvek_encrypted;
+case FVE_E_CANNOT_ENCRYPT_NO_KEY:
+	return fve_e_cannot_encrypt_no_key;
+case FVE_E_CANNOT_ENCRYPT_NO_KEY:
+	return fve_e_cannot_encrypt_no_key;
+case FVE_E_CANNOT_ENCRYPT_NO_KEY:
+	return fve_e_cannot_encrypt_no_key;
+case FVE_E_BOOTABLE_CDDVD:
+	return fve_e_bootable_cddvd;
+case FVE_E_BOOTABLE_CDDVD:
+	return fve_e_bootable_cddvd;
+case FVE_E_BOOTABLE_CDDVD:
+	return fve_e_bootable_cddvd;
+case FVE_E_PROTECTOR_EXISTS:
+	return fve_e_protector_exists;
+case FVE_E_PROTECTOR_EXISTS:
+	return fve_e_protector_exists;
+case FVE_E_PROTECTOR_EXISTS:
+	return fve_e_protector_exists;
+case FVE_E_RELATIVE_PATH:
+	return fve_e_relative_path;
+case FVE_E_RELATIVE_PATH:
+	return fve_e_relative_path;
+case FVE_E_RELATIVE_PATH:
+	return fve_e_relative_path;
+case FWP_E_CALLOUT_NOT_FOUND:
+	return fwp_e_callout_not_found;
+case FWP_E_CALLOUT_NOT_FOUND:
+	return fwp_e_callout_not_found;
+case FWP_E_CALLOUT_NOT_FOUND:
+	return fwp_e_callout_not_found;
+case FWP_E_CONDITION_NOT_FOUND:
+	return fwp_e_condition_not_found;
+case FWP_E_CONDITION_NOT_FOUND:
+	return fwp_e_condition_not_found;
+case FWP_E_CONDITION_NOT_FOUND:
+	return fwp_e_condition_not_found;
+case FWP_E_FILTER_NOT_FOUND:
+	return fwp_e_filter_not_found;
+case FWP_E_FILTER_NOT_FOUND:
+	return fwp_e_filter_not_found;
+case FWP_E_FILTER_NOT_FOUND:
+	return fwp_e_filter_not_found;
+case FWP_E_LAYER_NOT_FOUND:
+	return fwp_e_layer_not_found;
+case FWP_E_LAYER_NOT_FOUND:
+	return fwp_e_layer_not_found;
+case FWP_E_LAYER_NOT_FOUND:
+	return fwp_e_layer_not_found;
+case FWP_E_PROVIDER_NOT_FOUND:
+	return fwp_e_provider_not_found;
+case FWP_E_PROVIDER_NOT_FOUND:
+	return fwp_e_provider_not_found;
+case FWP_E_PROVIDER_NOT_FOUND:
+	return fwp_e_provider_not_found;
+case FWP_E_PROVIDER_CONTEXT_NOT_FOUND:
+	return fwp_e_provider_context_not_found;
+case FWP_E_PROVIDER_CONTEXT_NOT_FOUND:
+	return fwp_e_provider_context_not_found;
+case FWP_E_PROVIDER_CONTEXT_NOT_FOUND:
+	return fwp_e_provider_context_not_found;
+case FWP_E_SUBLAYER_NOT_FOUND:
+	return fwp_e_sublayer_not_found;
+case FWP_E_SUBLAYER_NOT_FOUND:
+	return fwp_e_sublayer_not_found;
+case FWP_E_SUBLAYER_NOT_FOUND:
+	return fwp_e_sublayer_not_found;
+case FWP_E_NOT_FOUND:
+	return fwp_e_not_found;
+case FWP_E_NOT_FOUND:
+	return fwp_e_not_found;
+case FWP_E_NOT_FOUND:
+	return fwp_e_not_found;
+case FWP_E_ALREADY_EXISTS:
+	return fwp_e_already_exists;
+case FWP_E_ALREADY_EXISTS:
+	return fwp_e_already_exists;
+case FWP_E_ALREADY_EXISTS:
+	return fwp_e_already_exists;
+case FWP_E_IN_USE:
+	return fwp_e_in_use;
+case FWP_E_IN_USE:
+	return fwp_e_in_use;
+case FWP_E_IN_USE:
+	return fwp_e_in_use;
+case FWP_E_DYNAMIC_SESSION_IN_PROGRESS:
+	return fwp_e_dynamic_session_in_progress;
+case FWP_E_DYNAMIC_SESSION_IN_PROGRESS:
+	return fwp_e_dynamic_session_in_progress;
+case FWP_E_DYNAMIC_SESSION_IN_PROGRESS:
+	return fwp_e_dynamic_session_in_progress;
+case FWP_E_WRONG_SESSION:
+	return fwp_e_wrong_session;
+case FWP_E_WRONG_SESSION:
+	return fwp_e_wrong_session;
+case FWP_E_WRONG_SESSION:
+	return fwp_e_wrong_session;
+case FWP_E_NO_TXN_IN_PROGRESS:
+	return fwp_e_no_txn_in_progress;
+case FWP_E_NO_TXN_IN_PROGRESS:
+	return fwp_e_no_txn_in_progress;
+case FWP_E_NO_TXN_IN_PROGRESS:
+	return fwp_e_no_txn_in_progress;
+case FWP_E_TXN_IN_PROGRESS:
+	return fwp_e_txn_in_progress;
+case FWP_E_TXN_IN_PROGRESS:
+	return fwp_e_txn_in_progress;
+case FWP_E_TXN_IN_PROGRESS:
+	return fwp_e_txn_in_progress;
+case FWP_E_TXN_ABORTED:
+	return fwp_e_txn_aborted;
+case FWP_E_TXN_ABORTED:
+	return fwp_e_txn_aborted;
+case FWP_E_TXN_ABORTED:
+	return fwp_e_txn_aborted;
+case FWP_E_SESSION_ABORTED:
+	return fwp_e_session_aborted;
+case FWP_E_SESSION_ABORTED:
+	return fwp_e_session_aborted;
+case FWP_E_SESSION_ABORTED:
+	return fwp_e_session_aborted;
+case FWP_E_INCOMPATIBLE_TXN:
+	return fwp_e_incompatible_txn;
+case FWP_E_INCOMPATIBLE_TXN:
+	return fwp_e_incompatible_txn;
+case FWP_E_INCOMPATIBLE_TXN:
+	return fwp_e_incompatible_txn;
+case FWP_E_TIMEOUT:
+	return fwp_e_timeout;
+case FWP_E_TIMEOUT:
+	return fwp_e_timeout;
+case FWP_E_TIMEOUT:
+	return fwp_e_timeout;
+case FWP_E_NET_EVENTS_DISABLED:
+	return fwp_e_net_events_disabled;
+case FWP_E_NET_EVENTS_DISABLED:
+	return fwp_e_net_events_disabled;
+case FWP_E_NET_EVENTS_DISABLED:
+	return fwp_e_net_events_disabled;
+case FWP_E_INCOMPATIBLE_LAYER:
+	return fwp_e_incompatible_layer;
+case FWP_E_INCOMPATIBLE_LAYER:
+	return fwp_e_incompatible_layer;
+case FWP_E_INCOMPATIBLE_LAYER:
+	return fwp_e_incompatible_layer;
+case FWP_E_KM_CLIENTS_ONLY:
+	return fwp_e_km_clients_only;
+case FWP_E_KM_CLIENTS_ONLY:
+	return fwp_e_km_clients_only;
+case FWP_E_KM_CLIENTS_ONLY:
+	return fwp_e_km_clients_only;
+case FWP_E_LIFETIME_MISMATCH:
+	return fwp_e_lifetime_mismatch;
+case FWP_E_LIFETIME_MISMATCH:
+	return fwp_e_lifetime_mismatch;
+case FWP_E_LIFETIME_MISMATCH:
+	return fwp_e_lifetime_mismatch;
+case FWP_E_BUILTIN_OBJECT:
+	return fwp_e_builtin_object;
+case FWP_E_BUILTIN_OBJECT:
+	return fwp_e_builtin_object;
+case FWP_E_BUILTIN_OBJECT:
+	return fwp_e_builtin_object;
+case FWP_E_TOO_MANY_BOOTTIME_FILTERS:
+	return fwp_e_too_many_boottime_filters;
+case FWP_E_TOO_MANY_BOOTTIME_FILTERS:
+	return fwp_e_too_many_boottime_filters;
+case FWP_E_TOO_MANY_BOOTTIME_FILTERS:
+	return fwp_e_too_many_boottime_filters;
+case FWP_E_NOTIFICATION_DROPPED:
+	return fwp_e_notification_dropped;
+case FWP_E_NOTIFICATION_DROPPED:
+	return fwp_e_notification_dropped;
+case FWP_E_NOTIFICATION_DROPPED:
+	return fwp_e_notification_dropped;
+case FWP_E_TRAFFIC_MISMATCH:
+	return fwp_e_traffic_mismatch;
+case FWP_E_TRAFFIC_MISMATCH:
+	return fwp_e_traffic_mismatch;
+case FWP_E_TRAFFIC_MISMATCH:
+	return fwp_e_traffic_mismatch;
+case FWP_E_INCOMPATIBLE_SA_STATE:
+	return fwp_e_incompatible_sa_state;
+case FWP_E_INCOMPATIBLE_SA_STATE:
+	return fwp_e_incompatible_sa_state;
+case FWP_E_INCOMPATIBLE_SA_STATE:
+	return fwp_e_incompatible_sa_state;
+case FWP_E_NULL_POINTER:
+	return fwp_e_null_pointer;
+case FWP_E_NULL_POINTER:
+	return fwp_e_null_pointer;
+case FWP_E_NULL_POINTER:
+	return fwp_e_null_pointer;
+case FWP_E_INVALID_ENUMERATOR:
+	return fwp_e_invalid_enumerator;
+case FWP_E_INVALID_ENUMERATOR:
+	return fwp_e_invalid_enumerator;
+case FWP_E_INVALID_ENUMERATOR:
+	return fwp_e_invalid_enumerator;
+case FWP_E_INVALID_FLAGS:
+	return fwp_e_invalid_flags;
+case FWP_E_INVALID_FLAGS:
+	return fwp_e_invalid_flags;
+case FWP_E_INVALID_FLAGS:
+	return fwp_e_invalid_flags;
+case FWP_E_INVALID_NET_MASK:
+	return fwp_e_invalid_net_mask;
+case FWP_E_INVALID_NET_MASK:
+	return fwp_e_invalid_net_mask;
+case FWP_E_INVALID_NET_MASK:
+	return fwp_e_invalid_net_mask;
+case FWP_E_INVALID_RANGE:
+	return fwp_e_invalid_range;
+case FWP_E_INVALID_RANGE:
+	return fwp_e_invalid_range;
+case FWP_E_INVALID_RANGE:
+	return fwp_e_invalid_range;
+case FWP_E_INVALID_INTERVAL:
+	return fwp_e_invalid_interval;
+case FWP_E_INVALID_INTERVAL:
+	return fwp_e_invalid_interval;
+case FWP_E_INVALID_INTERVAL:
+	return fwp_e_invalid_interval;
+case FWP_E_ZERO_LENGTH_ARRAY:
+	return fwp_e_zero_length_array;
+case FWP_E_ZERO_LENGTH_ARRAY:
+	return fwp_e_zero_length_array;
+case FWP_E_ZERO_LENGTH_ARRAY:
+	return fwp_e_zero_length_array;
+case FWP_E_NULL_DISPLAY_NAME:
+	return fwp_e_null_display_name;
+case FWP_E_NULL_DISPLAY_NAME:
+	return fwp_e_null_display_name;
+case FWP_E_NULL_DISPLAY_NAME:
+	return fwp_e_null_display_name;
+case FWP_E_INVALID_ACTION_TYPE:
+	return fwp_e_invalid_action_type;
+case FWP_E_INVALID_ACTION_TYPE:
+	return fwp_e_invalid_action_type;
+case FWP_E_INVALID_ACTION_TYPE:
+	return fwp_e_invalid_action_type;
+case FWP_E_INVALID_WEIGHT:
+	return fwp_e_invalid_weight;
+case FWP_E_INVALID_WEIGHT:
+	return fwp_e_invalid_weight;
+case FWP_E_INVALID_WEIGHT:
+	return fwp_e_invalid_weight;
+case FWP_E_MATCH_TYPE_MISMATCH:
+	return fwp_e_match_type_mismatch;
+case FWP_E_MATCH_TYPE_MISMATCH:
+	return fwp_e_match_type_mismatch;
+case FWP_E_MATCH_TYPE_MISMATCH:
+	return fwp_e_match_type_mismatch;
+case FWP_E_TYPE_MISMATCH:
+	return fwp_e_type_mismatch;
+case FWP_E_TYPE_MISMATCH:
+	return fwp_e_type_mismatch;
+case FWP_E_TYPE_MISMATCH:
+	return fwp_e_type_mismatch;
+case FWP_E_OUT_OF_BOUNDS:
+	return fwp_e_out_of_bounds;
+case FWP_E_OUT_OF_BOUNDS:
+	return fwp_e_out_of_bounds;
+case FWP_E_OUT_OF_BOUNDS:
+	return fwp_e_out_of_bounds;
+case FWP_E_RESERVED:
+	return fwp_e_reserved;
+case FWP_E_RESERVED:
+	return fwp_e_reserved;
+case FWP_E_RESERVED:
+	return fwp_e_reserved;
+case FWP_E_DUPLICATE_CONDITION:
+	return fwp_e_duplicate_condition;
+case FWP_E_DUPLICATE_CONDITION:
+	return fwp_e_duplicate_condition;
+case FWP_E_DUPLICATE_CONDITION:
+	return fwp_e_duplicate_condition;
+case FWP_E_DUPLICATE_KEYMOD:
+	return fwp_e_duplicate_keymod;
+case FWP_E_DUPLICATE_KEYMOD:
+	return fwp_e_duplicate_keymod;
+case FWP_E_DUPLICATE_KEYMOD:
+	return fwp_e_duplicate_keymod;
+case FWP_E_ACTION_INCOMPATIBLE_WITH_LAYER:
+	return fwp_e_action_incompatible_with_layer;
+case FWP_E_ACTION_INCOMPATIBLE_WITH_LAYER:
+	return fwp_e_action_incompatible_with_layer;
+case FWP_E_ACTION_INCOMPATIBLE_WITH_LAYER:
+	return fwp_e_action_incompatible_with_layer;
+case FWP_E_ACTION_INCOMPATIBLE_WITH_SUBLAYER:
+	return fwp_e_action_incompatible_with_sublayer;
+case FWP_E_ACTION_INCOMPATIBLE_WITH_SUBLAYER:
+	return fwp_e_action_incompatible_with_sublayer;
+case FWP_E_ACTION_INCOMPATIBLE_WITH_SUBLAYER:
+	return fwp_e_action_incompatible_with_sublayer;
+case FWP_E_CONTEXT_INCOMPATIBLE_WITH_LAYER:
+	return fwp_e_context_incompatible_with_layer;
+case FWP_E_CONTEXT_INCOMPATIBLE_WITH_LAYER:
+	return fwp_e_context_incompatible_with_layer;
+case FWP_E_CONTEXT_INCOMPATIBLE_WITH_LAYER:
+	return fwp_e_context_incompatible_with_layer;
+case FWP_E_CONTEXT_INCOMPATIBLE_WITH_CALLOUT:
+	return fwp_e_context_incompatible_with_callout;
+case FWP_E_CONTEXT_INCOMPATIBLE_WITH_CALLOUT:
+	return fwp_e_context_incompatible_with_callout;
+case FWP_E_CONTEXT_INCOMPATIBLE_WITH_CALLOUT:
+	return fwp_e_context_incompatible_with_callout;
+case FWP_E_INCOMPATIBLE_AUTH_METHOD:
+	return fwp_e_incompatible_auth_method;
+case FWP_E_INCOMPATIBLE_AUTH_METHOD:
+	return fwp_e_incompatible_auth_method;
+case FWP_E_INCOMPATIBLE_AUTH_METHOD:
+	return fwp_e_incompatible_auth_method;
+case FWP_E_INCOMPATIBLE_DH_GROUP:
+	return fwp_e_incompatible_dh_group;
+case FWP_E_INCOMPATIBLE_DH_GROUP:
+	return fwp_e_incompatible_dh_group;
+case FWP_E_INCOMPATIBLE_DH_GROUP:
+	return fwp_e_incompatible_dh_group;
+case FWP_E_EM_NOT_SUPPORTED:
+	return fwp_e_em_not_supported;
+case FWP_E_EM_NOT_SUPPORTED:
+	return fwp_e_em_not_supported;
+case FWP_E_EM_NOT_SUPPORTED:
+	return fwp_e_em_not_supported;
+case FWP_E_NEVER_MATCH:
+	return fwp_e_never_match;
+case FWP_E_NEVER_MATCH:
+	return fwp_e_never_match;
+case FWP_E_NEVER_MATCH:
+	return fwp_e_never_match;
+case FWP_E_PROVIDER_CONTEXT_MISMATCH:
+	return fwp_e_provider_context_mismatch;
+case FWP_E_PROVIDER_CONTEXT_MISMATCH:
+	return fwp_e_provider_context_mismatch;
+case FWP_E_PROVIDER_CONTEXT_MISMATCH:
+	return fwp_e_provider_context_mismatch;
+case FWP_E_INVALID_PARAMETER:
+	return fwp_e_invalid_parameter;
+case FWP_E_INVALID_PARAMETER:
+	return fwp_e_invalid_parameter;
+case FWP_E_INVALID_PARAMETER:
+	return fwp_e_invalid_parameter;
+case FWP_E_TOO_MANY_SUBLAYERS:
+	return fwp_e_too_many_sublayers;
+case FWP_E_TOO_MANY_SUBLAYERS:
+	return fwp_e_too_many_sublayers;
+case FWP_E_TOO_MANY_SUBLAYERS:
+	return fwp_e_too_many_sublayers;
+case FWP_E_CALLOUT_NOTIFICATION_FAILED:
+	return fwp_e_callout_notification_failed;
+case FWP_E_CALLOUT_NOTIFICATION_FAILED:
+	return fwp_e_callout_notification_failed;
+case FWP_E_CALLOUT_NOTIFICATION_FAILED:
+	return fwp_e_callout_notification_failed;
+case FWP_E_INCOMPATIBLE_AUTH_CONFIG:
+	return fwp_e_incompatible_auth_config;
+case FWP_E_INCOMPATIBLE_AUTH_CONFIG:
+	return fwp_e_incompatible_auth_config;
+case FWP_E_INCOMPATIBLE_AUTH_CONFIG:
+	return fwp_e_incompatible_auth_config;
+case FWP_E_INCOMPATIBLE_CIPHER_CONFIG:
+	return fwp_e_incompatible_cipher_config;
+case FWP_E_INCOMPATIBLE_CIPHER_CONFIG:
+	return fwp_e_incompatible_cipher_config;
+case FWP_E_INCOMPATIBLE_CIPHER_CONFIG:
+	return fwp_e_incompatible_cipher_config;
+case ERROR_NDIS_INTERFACE_CLOSING:
+	return error_ndis_interface_closing;
+case ERROR_NDIS_INTERFACE_CLOSING:
+	return error_ndis_interface_closing;
+case ERROR_NDIS_INTERFACE_CLOSING:
+	return error_ndis_interface_closing;
+case ERROR_NDIS_BAD_VERSION:
+	return error_ndis_bad_version;
+case ERROR_NDIS_BAD_VERSION:
+	return error_ndis_bad_version;
+case ERROR_NDIS_BAD_VERSION:
+	return error_ndis_bad_version;
+case ERROR_NDIS_BAD_CHARACTERISTICS:
+	return error_ndis_bad_characteristics;
+case ERROR_NDIS_BAD_CHARACTERISTICS:
+	return error_ndis_bad_characteristics;
+case ERROR_NDIS_BAD_CHARACTERISTICS:
+	return error_ndis_bad_characteristics;
+case ERROR_NDIS_ADAPTER_NOT_FOUND:
+	return error_ndis_adapter_not_found;
+case ERROR_NDIS_ADAPTER_NOT_FOUND:
+	return error_ndis_adapter_not_found;
+case ERROR_NDIS_ADAPTER_NOT_FOUND:
+	return error_ndis_adapter_not_found;
+case ERROR_NDIS_OPEN_FAILED:
+	return error_ndis_open_failed;
+case ERROR_NDIS_OPEN_FAILED:
+	return error_ndis_open_failed;
+case ERROR_NDIS_OPEN_FAILED:
+	return error_ndis_open_failed;
+case ERROR_NDIS_DEVICE_FAILED:
+	return error_ndis_device_failed;
+case ERROR_NDIS_DEVICE_FAILED:
+	return error_ndis_device_failed;
+case ERROR_NDIS_DEVICE_FAILED:
+	return error_ndis_device_failed;
+case ERROR_NDIS_MULTICAST_FULL:
+	return error_ndis_multicast_full;
+case ERROR_NDIS_MULTICAST_FULL:
+	return error_ndis_multicast_full;
+case ERROR_NDIS_MULTICAST_FULL:
+	return error_ndis_multicast_full;
+case ERROR_NDIS_MULTICAST_EXISTS:
+	return error_ndis_multicast_exists;
+case ERROR_NDIS_MULTICAST_EXISTS:
+	return error_ndis_multicast_exists;
+case ERROR_NDIS_MULTICAST_EXISTS:
+	return error_ndis_multicast_exists;
+case ERROR_NDIS_MULTICAST_NOT_FOUND:
+	return error_ndis_multicast_not_found;
+case ERROR_NDIS_MULTICAST_NOT_FOUND:
+	return error_ndis_multicast_not_found;
+case ERROR_NDIS_MULTICAST_NOT_FOUND:
+	return error_ndis_multicast_not_found;
+case ERROR_NDIS_REQUEST_ABORTED:
+	return error_ndis_request_aborted;
+case ERROR_NDIS_REQUEST_ABORTED:
+	return error_ndis_request_aborted;
+case ERROR_NDIS_REQUEST_ABORTED:
+	return error_ndis_request_aborted;
+case ERROR_NDIS_RESET_IN_PROGRESS:
+	return error_ndis_reset_in_progress;
+case ERROR_NDIS_RESET_IN_PROGRESS:
+	return error_ndis_reset_in_progress;
+case ERROR_NDIS_RESET_IN_PROGRESS:
+	return error_ndis_reset_in_progress;
+case ERROR_NDIS_INVALID_PACKET:
+	return error_ndis_invalid_packet;
+case ERROR_NDIS_INVALID_PACKET:
+	return error_ndis_invalid_packet;
+case ERROR_NDIS_INVALID_PACKET:
+	return error_ndis_invalid_packet;
+case ERROR_NDIS_INVALID_DEVICE_REQUEST:
+	return error_ndis_invalid_device_request;
+case ERROR_NDIS_INVALID_DEVICE_REQUEST:
+	return error_ndis_invalid_device_request;
+case ERROR_NDIS_INVALID_DEVICE_REQUEST:
+	return error_ndis_invalid_device_request;
+case ERROR_NDIS_ADAPTER_NOT_READY:
+	return error_ndis_adapter_not_ready;
+case ERROR_NDIS_ADAPTER_NOT_READY:
+	return error_ndis_adapter_not_ready;
+case ERROR_NDIS_ADAPTER_NOT_READY:
+	return error_ndis_adapter_not_ready;
+case ERROR_NDIS_INVALID_LENGTH:
+	return error_ndis_invalid_length;
+case ERROR_NDIS_INVALID_LENGTH:
+	return error_ndis_invalid_length;
+case ERROR_NDIS_INVALID_LENGTH:
+	return error_ndis_invalid_length;
+case ERROR_NDIS_INVALID_DATA:
+	return error_ndis_invalid_data;
+case ERROR_NDIS_INVALID_DATA:
+	return error_ndis_invalid_data;
+case ERROR_NDIS_INVALID_DATA:
+	return error_ndis_invalid_data;
+case ERROR_NDIS_BUFFER_TOO_SHORT:
+	return error_ndis_buffer_too_short;
+case ERROR_NDIS_BUFFER_TOO_SHORT:
+	return error_ndis_buffer_too_short;
+case ERROR_NDIS_BUFFER_TOO_SHORT:
+	return error_ndis_buffer_too_short;
+case ERROR_NDIS_INVALID_OID:
+	return error_ndis_invalid_oid;
+case ERROR_NDIS_INVALID_OID:
+	return error_ndis_invalid_oid;
+case ERROR_NDIS_INVALID_OID:
+	return error_ndis_invalid_oid;
+case ERROR_NDIS_ADAPTER_REMOVED:
+	return error_ndis_adapter_removed;
+case ERROR_NDIS_ADAPTER_REMOVED:
+	return error_ndis_adapter_removed;
+case ERROR_NDIS_ADAPTER_REMOVED:
+	return error_ndis_adapter_removed;
+case ERROR_NDIS_UNSUPPORTED_MEDIA:
+	return error_ndis_unsupported_media;
+case ERROR_NDIS_UNSUPPORTED_MEDIA:
+	return error_ndis_unsupported_media;
+case ERROR_NDIS_UNSUPPORTED_MEDIA:
+	return error_ndis_unsupported_media;
+case ERROR_NDIS_GROUP_ADDRESS_IN_USE:
+	return error_ndis_group_address_in_use;
+case ERROR_NDIS_GROUP_ADDRESS_IN_USE:
+	return error_ndis_group_address_in_use;
+case ERROR_NDIS_GROUP_ADDRESS_IN_USE:
+	return error_ndis_group_address_in_use;
+case ERROR_NDIS_FILE_NOT_FOUND:
+	return error_ndis_file_not_found;
+case ERROR_NDIS_FILE_NOT_FOUND:
+	return error_ndis_file_not_found;
+case ERROR_NDIS_FILE_NOT_FOUND:
+	return error_ndis_file_not_found;
+case ERROR_NDIS_ERROR_READING_FILE:
+	return error_ndis_error_reading_file;
+case ERROR_NDIS_ERROR_READING_FILE:
+	return error_ndis_error_reading_file;
+case ERROR_NDIS_ERROR_READING_FILE:
+	return error_ndis_error_reading_file;
+case ERROR_NDIS_ALREADY_MAPPED:
+	return error_ndis_already_mapped;
+case ERROR_NDIS_ALREADY_MAPPED:
+	return error_ndis_already_mapped;
+case ERROR_NDIS_ALREADY_MAPPED:
+	return error_ndis_already_mapped;
+case ERROR_NDIS_RESOURCE_CONFLICT:
+	return error_ndis_resource_conflict;
+case ERROR_NDIS_RESOURCE_CONFLICT:
+	return error_ndis_resource_conflict;
+case ERROR_NDIS_RESOURCE_CONFLICT:
+	return error_ndis_resource_conflict;
+case ERROR_NDIS_MEDIA_DISCONNECTED:
+	return error_ndis_media_disconnected;
+case ERROR_NDIS_MEDIA_DISCONNECTED:
+	return error_ndis_media_disconnected;
+case ERROR_NDIS_MEDIA_DISCONNECTED:
+	return error_ndis_media_disconnected;
+case ERROR_NDIS_INVALID_ADDRESS:
+	return error_ndis_invalid_address;
+case ERROR_NDIS_INVALID_ADDRESS:
+	return error_ndis_invalid_address;
+case ERROR_NDIS_INVALID_ADDRESS:
+	return error_ndis_invalid_address;
+case ERROR_NDIS_PAUSED:
+	return error_ndis_paused;
+case ERROR_NDIS_PAUSED:
+	return error_ndis_paused;
+case ERROR_NDIS_PAUSED:
+	return error_ndis_paused;
+case ERROR_NDIS_INTERFACE_NOT_FOUND:
+	return error_ndis_interface_not_found;
+case ERROR_NDIS_INTERFACE_NOT_FOUND:
+	return error_ndis_interface_not_found;
+case ERROR_NDIS_INTERFACE_NOT_FOUND:
+	return error_ndis_interface_not_found;
+case ERROR_NDIS_UNSUPPORTED_REVISION:
+	return error_ndis_unsupported_revision;
+case ERROR_NDIS_UNSUPPORTED_REVISION:
+	return error_ndis_unsupported_revision;
+case ERROR_NDIS_UNSUPPORTED_REVISION:
+	return error_ndis_unsupported_revision;
+case ERROR_NDIS_INVALID_PORT:
+	return error_ndis_invalid_port;
+case ERROR_NDIS_INVALID_PORT:
+	return error_ndis_invalid_port;
+case ERROR_NDIS_INVALID_PORT:
+	return error_ndis_invalid_port;
+case ERROR_NDIS_INVALID_PORT_STATE:
+	return error_ndis_invalid_port_state;
+case ERROR_NDIS_INVALID_PORT_STATE:
+	return error_ndis_invalid_port_state;
+case ERROR_NDIS_INVALID_PORT_STATE:
+	return error_ndis_invalid_port_state;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case ERROR_NDIS_NOT_SUPPORTED:
+	return error_ndis_not_supported;
+case TRK_E_NOT_FOUND:
+	return trk_e_not_found;
+case TRK_E_NOT_FOUND:
+	return trk_e_not_found;
+case TRK_E_NOT_FOUND:
+	return trk_e_not_found;
+case TRK_E_VOLUME_QUOTA_EXCEEDED:
+	return trk_e_volume_quota_exceeded;
+case TRK_E_VOLUME_QUOTA_EXCEEDED:
+	return trk_e_volume_quota_exceeded;
+case TRK_E_VOLUME_QUOTA_EXCEEDED:
+	return trk_e_volume_quota_exceeded;
+case TRK_SERVER_TOO_BUSY:
+	return trk_server_too_busy;
+case TRK_SERVER_TOO_BUSY:
+	return trk_server_too_busy;
+case TRK_SERVER_TOO_BUSY:
+	return trk_server_too_busy;
+case ERROR_AUDITING_DISABLED:
+	return error_auditing_disabled;
+case ERROR_AUDITING_DISABLED:
+	return error_auditing_disabled;
+case ERROR_AUDITING_DISABLED:
+	return error_auditing_disabled;
+case ERROR_ALL_SIDS_FILTERED:
+	return error_all_sids_filtered;
+case ERROR_ALL_SIDS_FILTERED:
+	return error_all_sids_filtered;
+case ERROR_ALL_SIDS_FILTERED:
+	return error_all_sids_filtered;
+case ERROR_BIZRULES_NOT_ENABLED:
+	return error_bizrules_not_enabled;
+case ERROR_BIZRULES_NOT_ENABLED:
+	return error_bizrules_not_enabled;
+case ERROR_BIZRULES_NOT_ENABLED:
+	return error_bizrules_not_enabled;
+case NS_E_NOCONNECTION:
+	return ns_e_noconnection;
+case NS_E_NOCONNECTION:
+	return ns_e_noconnection;
+case NS_E_NOCONNECTION:
+	return ns_e_noconnection;
+case NS_E_CANNOTCONNECT:
+	return ns_e_cannotconnect;
+case NS_E_CANNOTCONNECT:
+	return ns_e_cannotconnect;
+case NS_E_CANNOTCONNECT:
+	return ns_e_cannotconnect;
+case NS_E_CANNOTDESTROYTITLE:
+	return ns_e_cannotdestroytitle;
+case NS_E_CANNOTDESTROYTITLE:
+	return ns_e_cannotdestroytitle;
+case NS_E_CANNOTDESTROYTITLE:
+	return ns_e_cannotdestroytitle;
+case NS_E_CANNOTRENAMETITLE:
+	return ns_e_cannotrenametitle;
+case NS_E_CANNOTRENAMETITLE:
+	return ns_e_cannotrenametitle;
+case NS_E_CANNOTRENAMETITLE:
+	return ns_e_cannotrenametitle;
+case NS_E_CANNOTOFFLINEDISK:
+	return ns_e_cannotofflinedisk;
+case NS_E_CANNOTOFFLINEDISK:
+	return ns_e_cannotofflinedisk;
+case NS_E_CANNOTOFFLINEDISK:
+	return ns_e_cannotofflinedisk;
+case NS_E_CANNOTONLINEDISK:
+	return ns_e_cannotonlinedisk;
+case NS_E_CANNOTONLINEDISK:
+	return ns_e_cannotonlinedisk;
+case NS_E_CANNOTONLINEDISK:
+	return ns_e_cannotonlinedisk;
+case NS_E_NOREGISTEREDWALKER:
+	return ns_e_noregisteredwalker;
+case NS_E_NOREGISTEREDWALKER:
+	return ns_e_noregisteredwalker;
+case NS_E_NOREGISTEREDWALKER:
+	return ns_e_noregisteredwalker;
+case NS_E_NOFUNNEL:
+	return ns_e_nofunnel;
+case NS_E_NOFUNNEL:
+	return ns_e_nofunnel;
+case NS_E_NOFUNNEL:
+	return ns_e_nofunnel;
+case NS_E_NO_LOCALPLAY:
+	return ns_e_no_localplay;
+case NS_E_NO_LOCALPLAY:
+	return ns_e_no_localplay;
+case NS_E_NO_LOCALPLAY:
+	return ns_e_no_localplay;
+case NS_E_NETWORK_BUSY:
+	return ns_e_network_busy;
+case NS_E_NETWORK_BUSY:
+	return ns_e_network_busy;
+case NS_E_NETWORK_BUSY:
+	return ns_e_network_busy;
+case NS_E_TOO_MANY_SESS:
+	return ns_e_too_many_sess;
+case NS_E_TOO_MANY_SESS:
+	return ns_e_too_many_sess;
+case NS_E_TOO_MANY_SESS:
+	return ns_e_too_many_sess;
+case NS_E_ALREADY_CONNECTED:
+	return ns_e_already_connected;
+case NS_E_ALREADY_CONNECTED:
+	return ns_e_already_connected;
+case NS_E_ALREADY_CONNECTED:
+	return ns_e_already_connected;
+case NS_E_INVALID_INDEX:
+	return ns_e_invalid_index;
+case NS_E_INVALID_INDEX:
+	return ns_e_invalid_index;
+case NS_E_INVALID_INDEX:
+	return ns_e_invalid_index;
+case NS_E_PROTOCOL_MISMATCH:
+	return ns_e_protocol_mismatch;
+case NS_E_PROTOCOL_MISMATCH:
+	return ns_e_protocol_mismatch;
+case NS_E_PROTOCOL_MISMATCH:
+	return ns_e_protocol_mismatch;
+case NS_E_TIMEOUT:
+	return ns_e_timeout;
+case NS_E_TIMEOUT:
+	return ns_e_timeout;
+case NS_E_TIMEOUT:
+	return ns_e_timeout;
+case NS_E_NET_WRITE:
+	return ns_e_net_write;
+case NS_E_NET_WRITE:
+	return ns_e_net_write;
+case NS_E_NET_WRITE:
+	return ns_e_net_write;
+case NS_E_NET_READ:
+	return ns_e_net_read;
+case NS_E_NET_READ:
+	return ns_e_net_read;
+case NS_E_NET_READ:
+	return ns_e_net_read;
+case NS_E_DISK_WRITE:
+	return ns_e_disk_write;
+case NS_E_DISK_WRITE:
+	return ns_e_disk_write;
+case NS_E_DISK_WRITE:
+	return ns_e_disk_write;
+case NS_E_DISK_READ:
+	return ns_e_disk_read;
+case NS_E_DISK_READ:
+	return ns_e_disk_read;
+case NS_E_DISK_READ:
+	return ns_e_disk_read;
+case NS_E_FILE_WRITE:
+	return ns_e_file_write;
+case NS_E_FILE_WRITE:
+	return ns_e_file_write;
+case NS_E_FILE_WRITE:
+	return ns_e_file_write;
+case NS_E_FILE_READ:
+	return ns_e_file_read;
+case NS_E_FILE_READ:
+	return ns_e_file_read;
+case NS_E_FILE_READ:
+	return ns_e_file_read;
+case NS_E_FILE_NOT_FOUND:
+	return ns_e_file_not_found;
+case NS_E_FILE_NOT_FOUND:
+	return ns_e_file_not_found;
+case NS_E_FILE_NOT_FOUND:
+	return ns_e_file_not_found;
+case NS_E_FILE_EXISTS:
+	return ns_e_file_exists;
+case NS_E_FILE_EXISTS:
+	return ns_e_file_exists;
+case NS_E_FILE_EXISTS:
+	return ns_e_file_exists;
+case NS_E_INVALID_NAME:
+	return ns_e_invalid_name;
+case NS_E_INVALID_NAME:
+	return ns_e_invalid_name;
+case NS_E_INVALID_NAME:
+	return ns_e_invalid_name;
+case NS_E_FILE_OPEN_FAILED:
+	return ns_e_file_open_failed;
+case NS_E_FILE_OPEN_FAILED:
+	return ns_e_file_open_failed;
+case NS_E_FILE_OPEN_FAILED:
+	return ns_e_file_open_failed;
+case NS_E_FILE_ALLOCATION_FAILED:
+	return ns_e_file_allocation_failed;
+case NS_E_FILE_ALLOCATION_FAILED:
+	return ns_e_file_allocation_failed;
+case NS_E_FILE_ALLOCATION_FAILED:
+	return ns_e_file_allocation_failed;
+case NS_E_FILE_INIT_FAILED:
+	return ns_e_file_init_failed;
+case NS_E_FILE_INIT_FAILED:
+	return ns_e_file_init_failed;
+case NS_E_FILE_INIT_FAILED:
+	return ns_e_file_init_failed;
+case NS_E_FILE_PLAY_FAILED:
+	return ns_e_file_play_failed;
+case NS_E_FILE_PLAY_FAILED:
+	return ns_e_file_play_failed;
+case NS_E_FILE_PLAY_FAILED:
+	return ns_e_file_play_failed;
+case NS_E_SET_DISK_UID_FAILED:
+	return ns_e_set_disk_uid_failed;
+case NS_E_SET_DISK_UID_FAILED:
+	return ns_e_set_disk_uid_failed;
+case NS_E_SET_DISK_UID_FAILED:
+	return ns_e_set_disk_uid_failed;
+case NS_E_INDUCED:
+	return ns_e_induced;
+case NS_E_INDUCED:
+	return ns_e_induced;
+case NS_E_INDUCED:
+	return ns_e_induced;
+case NS_E_CCLINK_DOWN:
+	return ns_e_cclink_down;
+case NS_E_CCLINK_DOWN:
+	return ns_e_cclink_down;
+case NS_E_CCLINK_DOWN:
+	return ns_e_cclink_down;
+case NS_E_INTERNAL:
+	return ns_e_internal;
+case NS_E_INTERNAL:
+	return ns_e_internal;
+case NS_E_INTERNAL:
+	return ns_e_internal;
+case NS_E_BUSY:
+	return ns_e_busy;
+case NS_E_BUSY:
+	return ns_e_busy;
+case NS_E_BUSY:
+	return ns_e_busy;
+case NS_E_UNRECOGNIZED_STREAM_TYPE:
+	return ns_e_unrecognized_stream_type;
+case NS_E_UNRECOGNIZED_STREAM_TYPE:
+	return ns_e_unrecognized_stream_type;
+case NS_E_UNRECOGNIZED_STREAM_TYPE:
+	return ns_e_unrecognized_stream_type;
+case NS_E_NETWORK_SERVICE_FAILURE:
+	return ns_e_network_service_failure;
+case NS_E_NETWORK_SERVICE_FAILURE:
+	return ns_e_network_service_failure;
+case NS_E_NETWORK_SERVICE_FAILURE:
+	return ns_e_network_service_failure;
+case NS_E_NETWORK_RESOURCE_FAILURE:
+	return ns_e_network_resource_failure;
+case NS_E_NETWORK_RESOURCE_FAILURE:
+	return ns_e_network_resource_failure;
+case NS_E_NETWORK_RESOURCE_FAILURE:
+	return ns_e_network_resource_failure;
+case NS_E_CONNECTION_FAILURE:
+	return ns_e_connection_failure;
+case NS_E_CONNECTION_FAILURE:
+	return ns_e_connection_failure;
+case NS_E_CONNECTION_FAILURE:
+	return ns_e_connection_failure;
+case NS_E_SHUTDOWN:
+	return ns_e_shutdown;
+case NS_E_SHUTDOWN:
+	return ns_e_shutdown;
+case NS_E_SHUTDOWN:
+	return ns_e_shutdown;
+case NS_E_INVALID_REQUEST:
+	return ns_e_invalid_request;
+case NS_E_INVALID_REQUEST:
+	return ns_e_invalid_request;
+case NS_E_INVALID_REQUEST:
+	return ns_e_invalid_request;
+case NS_E_INSUFFICIENT_BANDWIDTH:
+	return ns_e_insufficient_bandwidth;
+case NS_E_INSUFFICIENT_BANDWIDTH:
+	return ns_e_insufficient_bandwidth;
+case NS_E_INSUFFICIENT_BANDWIDTH:
+	return ns_e_insufficient_bandwidth;
+case NS_E_NOT_REBUILDING:
+	return ns_e_not_rebuilding;
+case NS_E_NOT_REBUILDING:
+	return ns_e_not_rebuilding;
+case NS_E_NOT_REBUILDING:
+	return ns_e_not_rebuilding;
+case NS_E_LATE_OPERATION:
+	return ns_e_late_operation;
+case NS_E_LATE_OPERATION:
+	return ns_e_late_operation;
+case NS_E_LATE_OPERATION:
+	return ns_e_late_operation;
+case NS_E_INVALID_DATA:
+	return ns_e_invalid_data;
+case NS_E_INVALID_DATA:
+	return ns_e_invalid_data;
+case NS_E_INVALID_DATA:
+	return ns_e_invalid_data;
+case NS_E_FILE_BANDWIDTH_LIMIT:
+	return ns_e_file_bandwidth_limit;
+case NS_E_FILE_BANDWIDTH_LIMIT:
+	return ns_e_file_bandwidth_limit;
+case NS_E_FILE_BANDWIDTH_LIMIT:
+	return ns_e_file_bandwidth_limit;
+case NS_E_OPEN_FILE_LIMIT:
+	return ns_e_open_file_limit;
+case NS_E_OPEN_FILE_LIMIT:
+	return ns_e_open_file_limit;
+case NS_E_OPEN_FILE_LIMIT:
+	return ns_e_open_file_limit;
+case NS_E_BAD_CONTROL_DATA:
+	return ns_e_bad_control_data;
+case NS_E_BAD_CONTROL_DATA:
+	return ns_e_bad_control_data;
+case NS_E_BAD_CONTROL_DATA:
+	return ns_e_bad_control_data;
+case NS_E_NO_STREAM:
+	return ns_e_no_stream;
+case NS_E_NO_STREAM:
+	return ns_e_no_stream;
+case NS_E_NO_STREAM:
+	return ns_e_no_stream;
+case NS_E_STREAM_END:
+	return ns_e_stream_end;
+case NS_E_STREAM_END:
+	return ns_e_stream_end;
+case NS_E_STREAM_END:
+	return ns_e_stream_end;
+case NS_E_SERVER_NOT_FOUND:
+	return ns_e_server_not_found;
+case NS_E_SERVER_NOT_FOUND:
+	return ns_e_server_not_found;
+case NS_E_SERVER_NOT_FOUND:
+	return ns_e_server_not_found;
+case NS_E_DUPLICATE_NAME:
+	return ns_e_duplicate_name;
+case NS_E_DUPLICATE_NAME:
+	return ns_e_duplicate_name;
+case NS_E_DUPLICATE_NAME:
+	return ns_e_duplicate_name;
+case NS_E_DUPLICATE_ADDRESS:
+	return ns_e_duplicate_address;
+case NS_E_DUPLICATE_ADDRESS:
+	return ns_e_duplicate_address;
+case NS_E_DUPLICATE_ADDRESS:
+	return ns_e_duplicate_address;
+case NS_E_BAD_MULTICAST_ADDRESS:
+	return ns_e_bad_multicast_address;
+case NS_E_BAD_MULTICAST_ADDRESS:
+	return ns_e_bad_multicast_address;
+case NS_E_BAD_MULTICAST_ADDRESS:
+	return ns_e_bad_multicast_address;
+case NS_E_BAD_ADAPTER_ADDRESS:
+	return ns_e_bad_adapter_address;
+case NS_E_BAD_ADAPTER_ADDRESS:
+	return ns_e_bad_adapter_address;
+case NS_E_BAD_ADAPTER_ADDRESS:
+	return ns_e_bad_adapter_address;
+case NS_E_BAD_DELIVERY_MODE:
+	return ns_e_bad_delivery_mode;
+case NS_E_BAD_DELIVERY_MODE:
+	return ns_e_bad_delivery_mode;
+case NS_E_BAD_DELIVERY_MODE:
+	return ns_e_bad_delivery_mode;
+case NS_E_INVALID_CHANNEL:
+	return ns_e_invalid_channel;
+case NS_E_INVALID_CHANNEL:
+	return ns_e_invalid_channel;
+case NS_E_INVALID_CHANNEL:
+	return ns_e_invalid_channel;
+case NS_E_INVALID_STREAM:
+	return ns_e_invalid_stream;
+case NS_E_INVALID_STREAM:
+	return ns_e_invalid_stream;
+case NS_E_INVALID_STREAM:
+	return ns_e_invalid_stream;
+case NS_E_INVALID_ARCHIVE:
+	return ns_e_invalid_archive;
+case NS_E_INVALID_ARCHIVE:
+	return ns_e_invalid_archive;
+case NS_E_INVALID_ARCHIVE:
+	return ns_e_invalid_archive;
+case NS_E_NOTITLES:
+	return ns_e_notitles;
+case NS_E_NOTITLES:
+	return ns_e_notitles;
+case NS_E_NOTITLES:
+	return ns_e_notitles;
+case NS_E_INVALID_CLIENT:
+	return ns_e_invalid_client;
+case NS_E_INVALID_CLIENT:
+	return ns_e_invalid_client;
+case NS_E_INVALID_CLIENT:
+	return ns_e_invalid_client;
+case NS_E_INVALID_BLACKHOLE_ADDRESS:
+	return ns_e_invalid_blackhole_address;
+case NS_E_INVALID_BLACKHOLE_ADDRESS:
+	return ns_e_invalid_blackhole_address;
+case NS_E_INVALID_BLACKHOLE_ADDRESS:
+	return ns_e_invalid_blackhole_address;
+case NS_E_INCOMPATIBLE_FORMAT:
+	return ns_e_incompatible_format;
+case NS_E_INCOMPATIBLE_FORMAT:
+	return ns_e_incompatible_format;
+case NS_E_INCOMPATIBLE_FORMAT:
+	return ns_e_incompatible_format;
+case NS_E_INVALID_KEY:
+	return ns_e_invalid_key;
+case NS_E_INVALID_KEY:
+	return ns_e_invalid_key;
+case NS_E_INVALID_KEY:
+	return ns_e_invalid_key;
+case NS_E_INVALID_PORT:
+	return ns_e_invalid_port;
+case NS_E_INVALID_PORT:
+	return ns_e_invalid_port;
+case NS_E_INVALID_PORT:
+	return ns_e_invalid_port;
+case NS_E_INVALID_TTL:
+	return ns_e_invalid_ttl;
+case NS_E_INVALID_TTL:
+	return ns_e_invalid_ttl;
+case NS_E_INVALID_TTL:
+	return ns_e_invalid_ttl;
+case NS_E_STRIDE_REFUSED:
+	return ns_e_stride_refused;
+case NS_E_STRIDE_REFUSED:
+	return ns_e_stride_refused;
+case NS_E_STRIDE_REFUSED:
+	return ns_e_stride_refused;
+case NS_E_MMSAUTOSERVER_CANTFINDWALKER:
+	return ns_e_mmsautoserver_cantfindwalker;
+case NS_E_MMSAUTOSERVER_CANTFINDWALKER:
+	return ns_e_mmsautoserver_cantfindwalker;
+case NS_E_MMSAUTOSERVER_CANTFINDWALKER:
+	return ns_e_mmsautoserver_cantfindwalker;
+case NS_E_MAX_BITRATE:
+	return ns_e_max_bitrate;
+case NS_E_MAX_BITRATE:
+	return ns_e_max_bitrate;
+case NS_E_MAX_BITRATE:
+	return ns_e_max_bitrate;
+case NS_E_LOGFILEPERIOD:
+	return ns_e_logfileperiod;
+case NS_E_LOGFILEPERIOD:
+	return ns_e_logfileperiod;
+case NS_E_LOGFILEPERIOD:
+	return ns_e_logfileperiod;
+case NS_E_MAX_CLIENTS:
+	return ns_e_max_clients;
+case NS_E_MAX_CLIENTS:
+	return ns_e_max_clients;
+case NS_E_MAX_CLIENTS:
+	return ns_e_max_clients;
+case NS_E_LOG_FILE_SIZE:
+	return ns_e_log_file_size;
+case NS_E_LOG_FILE_SIZE:
+	return ns_e_log_file_size;
+case NS_E_LOG_FILE_SIZE:
+	return ns_e_log_file_size;
+case NS_E_MAX_FILERATE:
+	return ns_e_max_filerate;
+case NS_E_MAX_FILERATE:
+	return ns_e_max_filerate;
+case NS_E_MAX_FILERATE:
+	return ns_e_max_filerate;
+case NS_E_WALKER_UNKNOWN:
+	return ns_e_walker_unknown;
+case NS_E_WALKER_UNKNOWN:
+	return ns_e_walker_unknown;
+case NS_E_WALKER_UNKNOWN:
+	return ns_e_walker_unknown;
+case NS_E_WALKER_SERVER:
+	return ns_e_walker_server;
+case NS_E_WALKER_SERVER:
+	return ns_e_walker_server;
+case NS_E_WALKER_SERVER:
+	return ns_e_walker_server;
+case NS_E_WALKER_USAGE:
+	return ns_e_walker_usage;
+case NS_E_WALKER_USAGE:
+	return ns_e_walker_usage;
+case NS_E_WALKER_USAGE:
+	return ns_e_walker_usage;
+case NS_E_TIGER_FAIL:
+	return ns_e_tiger_fail;
+case NS_E_TIGER_FAIL:
+	return ns_e_tiger_fail;
+case NS_E_TIGER_FAIL:
+	return ns_e_tiger_fail;
+case NS_E_CUB_FAIL:
+	return ns_e_cub_fail;
+case NS_E_CUB_FAIL:
+	return ns_e_cub_fail;
+case NS_E_CUB_FAIL:
+	return ns_e_cub_fail;
+case NS_E_DISK_FAIL:
+	return ns_e_disk_fail;
+case NS_E_DISK_FAIL:
+	return ns_e_disk_fail;
+case NS_E_DISK_FAIL:
+	return ns_e_disk_fail;
+case NS_E_MAX_FUNNELS_ALERT:
+	return ns_e_max_funnels_alert;
+case NS_E_MAX_FUNNELS_ALERT:
+	return ns_e_max_funnels_alert;
+case NS_E_MAX_FUNNELS_ALERT:
+	return ns_e_max_funnels_alert;
+case NS_E_ALLOCATE_FILE_FAIL:
+	return ns_e_allocate_file_fail;
+case NS_E_ALLOCATE_FILE_FAIL:
+	return ns_e_allocate_file_fail;
+case NS_E_ALLOCATE_FILE_FAIL:
+	return ns_e_allocate_file_fail;
+case NS_E_PAGING_ERROR:
+	return ns_e_paging_error;
+case NS_E_PAGING_ERROR:
+	return ns_e_paging_error;
+case NS_E_PAGING_ERROR:
+	return ns_e_paging_error;
+case NS_E_PAGING_ERROR:
+	return ns_e_paging_error;
+case NS_E_PAGING_ERROR:
+	return ns_e_paging_error;
+case NS_E_PAGING_ERROR:
+	return ns_e_paging_error;
+case NS_E_BAD_DISK_UID:
+	return ns_e_bad_disk_uid;
+case NS_E_BAD_DISK_UID:
+	return ns_e_bad_disk_uid;
+case NS_E_BAD_DISK_UID:
+	return ns_e_bad_disk_uid;
+case NS_E_BAD_FSMAJOR_VERSION:
+	return ns_e_bad_fsmajor_version;
+case NS_E_BAD_FSMAJOR_VERSION:
+	return ns_e_bad_fsmajor_version;
+case NS_E_BAD_FSMAJOR_VERSION:
+	return ns_e_bad_fsmajor_version;
+case NS_E_BAD_STAMPNUMBER:
+	return ns_e_bad_stampnumber;
+case NS_E_BAD_STAMPNUMBER:
+	return ns_e_bad_stampnumber;
+case NS_E_BAD_STAMPNUMBER:
+	return ns_e_bad_stampnumber;
+case NS_E_PARTIALLY_REBUILT_DISK:
+	return ns_e_partially_rebuilt_disk;
+case NS_E_PARTIALLY_REBUILT_DISK:
+	return ns_e_partially_rebuilt_disk;
+case NS_E_PARTIALLY_REBUILT_DISK:
+	return ns_e_partially_rebuilt_disk;
+case NS_E_ENACTPLAN_GIVEUP:
+	return ns_e_enactplan_giveup;
+case NS_E_ENACTPLAN_GIVEUP:
+	return ns_e_enactplan_giveup;
+case NS_E_ENACTPLAN_GIVEUP:
+	return ns_e_enactplan_giveup;
+case MCMADM_E_REGKEY_NOT_FOUND:
+	return mcmadm_e_regkey_not_found;
+case MCMADM_E_REGKEY_NOT_FOUND:
+	return mcmadm_e_regkey_not_found;
+case MCMADM_E_REGKEY_NOT_FOUND:
+	return mcmadm_e_regkey_not_found;
+case NS_E_NO_FORMATS:
+	return ns_e_no_formats;
+case NS_E_NO_FORMATS:
+	return ns_e_no_formats;
+case NS_E_NO_FORMATS:
+	return ns_e_no_formats;
+case NS_E_NO_REFERENCES:
+	return ns_e_no_references;
+case NS_E_NO_REFERENCES:
+	return ns_e_no_references;
+case NS_E_NO_REFERENCES:
+	return ns_e_no_references;
+case NS_E_WAVE_OPEN:
+	return ns_e_wave_open;
+case NS_E_WAVE_OPEN:
+	return ns_e_wave_open;
+case NS_E_WAVE_OPEN:
+	return ns_e_wave_open;
+case NS_E_CANNOTCONNECTEVENTS:
+	return ns_e_cannotconnectevents;
+case NS_E_CANNOTCONNECTEVENTS:
+	return ns_e_cannotconnectevents;
+case NS_E_CANNOTCONNECTEVENTS:
+	return ns_e_cannotconnectevents;
+case NS_E_NO_DEVICE:
+	return ns_e_no_device;
+case NS_E_NO_DEVICE:
+	return ns_e_no_device;
+case NS_E_NO_DEVICE:
+	return ns_e_no_device;
+case NS_E_NO_SPECIFIED_DEVICE:
+	return ns_e_no_specified_device;
+case NS_E_NO_SPECIFIED_DEVICE:
+	return ns_e_no_specified_device;
+case NS_E_NO_SPECIFIED_DEVICE:
+	return ns_e_no_specified_device;
+case NS_E_MONITOR_GIVEUP:
+	return ns_e_monitor_giveup;
+case NS_E_MONITOR_GIVEUP:
+	return ns_e_monitor_giveup;
+case NS_E_MONITOR_GIVEUP:
+	return ns_e_monitor_giveup;
+case NS_E_REMIRRORED_DISK:
+	return ns_e_remirrored_disk;
+case NS_E_REMIRRORED_DISK:
+	return ns_e_remirrored_disk;
+case NS_E_REMIRRORED_DISK:
+	return ns_e_remirrored_disk;
+case NS_E_INSUFFICIENT_DATA:
+	return ns_e_insufficient_data;
+case NS_E_INSUFFICIENT_DATA:
+	return ns_e_insufficient_data;
+case NS_E_INSUFFICIENT_DATA:
+	return ns_e_insufficient_data;
+case NS_E_ASSERT:
+	return ns_e_assert;
+case NS_E_ASSERT:
+	return ns_e_assert;
+case NS_E_BAD_ADAPTER_NAME:
+	return ns_e_bad_adapter_name;
+case NS_E_BAD_ADAPTER_NAME:
+	return ns_e_bad_adapter_name;
+case NS_E_BAD_ADAPTER_NAME:
+	return ns_e_bad_adapter_name;
+case NS_E_NOT_LICENSED:
+	return ns_e_not_licensed;
+case NS_E_NOT_LICENSED:
+	return ns_e_not_licensed;
+case NS_E_NOT_LICENSED:
+	return ns_e_not_licensed;
+case NS_E_NO_SERVER_CONTACT:
+	return ns_e_no_server_contact;
+case NS_E_NO_SERVER_CONTACT:
+	return ns_e_no_server_contact;
+case NS_E_NO_SERVER_CONTACT:
+	return ns_e_no_server_contact;
+case NS_E_TOO_MANY_TITLES:
+	return ns_e_too_many_titles;
+case NS_E_TOO_MANY_TITLES:
+	return ns_e_too_many_titles;
+case NS_E_TOO_MANY_TITLES:
+	return ns_e_too_many_titles;
+case NS_E_TITLE_SIZE_EXCEEDED:
+	return ns_e_title_size_exceeded;
+case NS_E_TITLE_SIZE_EXCEEDED:
+	return ns_e_title_size_exceeded;
+case NS_E_TITLE_SIZE_EXCEEDED:
+	return ns_e_title_size_exceeded;
+case NS_E_UDP_DISABLED:
+	return ns_e_udp_disabled;
+case NS_E_UDP_DISABLED:
+	return ns_e_udp_disabled;
+case NS_E_UDP_DISABLED:
+	return ns_e_udp_disabled;
+case NS_E_TCP_DISABLED:
+	return ns_e_tcp_disabled;
+case NS_E_TCP_DISABLED:
+	return ns_e_tcp_disabled;
+case NS_E_TCP_DISABLED:
+	return ns_e_tcp_disabled;
+case NS_E_HTTP_DISABLED:
+	return ns_e_http_disabled;
+case NS_E_HTTP_DISABLED:
+	return ns_e_http_disabled;
+case NS_E_HTTP_DISABLED:
+	return ns_e_http_disabled;
+case NS_E_LICENSE_EXPIRED:
+	return ns_e_license_expired;
+case NS_E_LICENSE_EXPIRED:
+	return ns_e_license_expired;
+case NS_E_LICENSE_EXPIRED:
+	return ns_e_license_expired;
+case NS_E_TITLE_BITRATE:
+	return ns_e_title_bitrate;
+case NS_E_TITLE_BITRATE:
+	return ns_e_title_bitrate;
+case NS_E_TITLE_BITRATE:
+	return ns_e_title_bitrate;
+case NS_E_EMPTY_PROGRAM_NAME:
+	return ns_e_empty_program_name;
+case NS_E_EMPTY_PROGRAM_NAME:
+	return ns_e_empty_program_name;
+case NS_E_EMPTY_PROGRAM_NAME:
+	return ns_e_empty_program_name;
+case NS_E_MISSING_CHANNEL:
+	return ns_e_missing_channel;
+case NS_E_MISSING_CHANNEL:
+	return ns_e_missing_channel;
+case NS_E_MISSING_CHANNEL:
+	return ns_e_missing_channel;
+case NS_E_NO_CHANNELS:
+	return ns_e_no_channels;
+case NS_E_NO_CHANNELS:
+	return ns_e_no_channels;
+case NS_E_NO_CHANNELS:
+	return ns_e_no_channels;
+case NS_E_NO_CHANNELS:
+	return ns_e_no_channels;
+case NS_E_NO_CHANNELS:
+	return ns_e_no_channels;
+case NS_E_NO_CHANNELS:
+	return ns_e_no_channels;
+case NS_E_CUB_FAIL_LINK:
+	return ns_e_cub_fail_link;
+case NS_E_CUB_FAIL_LINK:
+	return ns_e_cub_fail_link;
+case NS_E_CUB_FAIL_LINK:
+	return ns_e_cub_fail_link;
+case NS_E_BAD_CUB_UID:
+	return ns_e_bad_cub_uid;
+case NS_E_BAD_CUB_UID:
+	return ns_e_bad_cub_uid;
+case NS_E_BAD_CUB_UID:
+	return ns_e_bad_cub_uid;
+case NS_E_GLITCH_MODE:
+	return ns_e_glitch_mode;
+case NS_E_GLITCH_MODE:
+	return ns_e_glitch_mode;
+case NS_E_GLITCH_MODE:
+	return ns_e_glitch_mode;
+case NS_E_NO_MEDIA_PROTOCOL:
+	return ns_e_no_media_protocol;
+case NS_E_NO_MEDIA_PROTOCOL:
+	return ns_e_no_media_protocol;
+case NS_E_NO_MEDIA_PROTOCOL:
+	return ns_e_no_media_protocol;
+case NS_E_NOTHING_TO_DO:
+	return ns_e_nothing_to_do;
+case NS_E_NOTHING_TO_DO:
+	return ns_e_nothing_to_do;
+case NS_E_NOTHING_TO_DO:
+	return ns_e_nothing_to_do;
+case NS_E_NO_MULTICAST:
+	return ns_e_no_multicast;
+case NS_E_NO_MULTICAST:
+	return ns_e_no_multicast;
+case NS_E_NO_MULTICAST:
+	return ns_e_no_multicast;
+case NS_E_INVALID_INPUT_FORMAT:
+	return ns_e_invalid_input_format;
+case NS_E_INVALID_INPUT_FORMAT:
+	return ns_e_invalid_input_format;
+case NS_E_INVALID_INPUT_FORMAT:
+	return ns_e_invalid_input_format;
+case NS_E_MSAUDIO_NOT_INSTALLED:
+	return ns_e_msaudio_not_installed;
+case NS_E_MSAUDIO_NOT_INSTALLED:
+	return ns_e_msaudio_not_installed;
+case NS_E_MSAUDIO_NOT_INSTALLED:
+	return ns_e_msaudio_not_installed;
+case NS_E_UNEXPECTED_MSAUDIO_ERROR:
+	return ns_e_unexpected_msaudio_error;
+case NS_E_UNEXPECTED_MSAUDIO_ERROR:
+	return ns_e_unexpected_msaudio_error;
+case NS_E_UNEXPECTED_MSAUDIO_ERROR:
+	return ns_e_unexpected_msaudio_error;
+case NS_E_INVALID_OUTPUT_FORMAT:
+	return ns_e_invalid_output_format;
+case NS_E_INVALID_OUTPUT_FORMAT:
+	return ns_e_invalid_output_format;
+case NS_E_INVALID_OUTPUT_FORMAT:
+	return ns_e_invalid_output_format;
+case NS_E_NOT_CONFIGURED:
+	return ns_e_not_configured;
+case NS_E_NOT_CONFIGURED:
+	return ns_e_not_configured;
+case NS_E_NOT_CONFIGURED:
+	return ns_e_not_configured;
+case NS_E_PROTECTED_CONTENT:
+	return ns_e_protected_content;
+case NS_E_PROTECTED_CONTENT:
+	return ns_e_protected_content;
+case NS_E_PROTECTED_CONTENT:
+	return ns_e_protected_content;
+case NS_E_LICENSE_REQUIRED:
+	return ns_e_license_required;
+case NS_E_LICENSE_REQUIRED:
+	return ns_e_license_required;
+case NS_E_LICENSE_REQUIRED:
+	return ns_e_license_required;
+case NS_E_TAMPERED_CONTENT:
+	return ns_e_tampered_content;
+case NS_E_TAMPERED_CONTENT:
+	return ns_e_tampered_content;
+case NS_E_TAMPERED_CONTENT:
+	return ns_e_tampered_content;
+case NS_E_LICENSE_OUTOFDATE:
+	return ns_e_license_outofdate;
+case NS_E_LICENSE_OUTOFDATE:
+	return ns_e_license_outofdate;
+case NS_E_LICENSE_OUTOFDATE:
+	return ns_e_license_outofdate;
+case NS_E_LICENSE_INCORRECT_RIGHTS:
+	return ns_e_license_incorrect_rights;
+case NS_E_LICENSE_INCORRECT_RIGHTS:
+	return ns_e_license_incorrect_rights;
+case NS_E_LICENSE_INCORRECT_RIGHTS:
+	return ns_e_license_incorrect_rights;
+case NS_E_AUDIO_CODEC_NOT_INSTALLED:
+	return ns_e_audio_codec_not_installed;
+case NS_E_AUDIO_CODEC_NOT_INSTALLED:
+	return ns_e_audio_codec_not_installed;
+case NS_E_AUDIO_CODEC_NOT_INSTALLED:
+	return ns_e_audio_codec_not_installed;
+case NS_E_AUDIO_CODEC_ERROR:
+	return ns_e_audio_codec_error;
+case NS_E_AUDIO_CODEC_ERROR:
+	return ns_e_audio_codec_error;
+case NS_E_AUDIO_CODEC_ERROR:
+	return ns_e_audio_codec_error;
+case NS_E_VIDEO_CODEC_NOT_INSTALLED:
+	return ns_e_video_codec_not_installed;
+case NS_E_VIDEO_CODEC_NOT_INSTALLED:
+	return ns_e_video_codec_not_installed;
+case NS_E_VIDEO_CODEC_NOT_INSTALLED:
+	return ns_e_video_codec_not_installed;
+case NS_E_VIDEO_CODEC_ERROR:
+	return ns_e_video_codec_error;
+case NS_E_VIDEO_CODEC_ERROR:
+	return ns_e_video_codec_error;
+case NS_E_VIDEO_CODEC_ERROR:
+	return ns_e_video_codec_error;
+case NS_E_INVALIDPROFILE:
+	return ns_e_invalidprofile;
+case NS_E_INVALIDPROFILE:
+	return ns_e_invalidprofile;
+case NS_E_INVALIDPROFILE:
+	return ns_e_invalidprofile;
+case NS_E_INCOMPATIBLE_VERSION:
+	return ns_e_incompatible_version;
+case NS_E_INCOMPATIBLE_VERSION:
+	return ns_e_incompatible_version;
+case NS_E_INCOMPATIBLE_VERSION:
+	return ns_e_incompatible_version;
+case NS_E_OFFLINE_MODE:
+	return ns_e_offline_mode;
+case NS_E_OFFLINE_MODE:
+	return ns_e_offline_mode;
+case NS_E_OFFLINE_MODE:
+	return ns_e_offline_mode;
+case NS_E_NOT_CONNECTED:
+	return ns_e_not_connected;
+case NS_E_NOT_CONNECTED:
+	return ns_e_not_connected;
+case NS_E_NOT_CONNECTED:
+	return ns_e_not_connected;
+case NS_E_TOO_MUCH_DATA:
+	return ns_e_too_much_data;
+case NS_E_TOO_MUCH_DATA:
+	return ns_e_too_much_data;
+case NS_E_TOO_MUCH_DATA:
+	return ns_e_too_much_data;
+case NS_E_UNSUPPORTED_PROPERTY:
+	return ns_e_unsupported_property;
+case NS_E_UNSUPPORTED_PROPERTY:
+	return ns_e_unsupported_property;
+case NS_E_UNSUPPORTED_PROPERTY:
+	return ns_e_unsupported_property;
+case NS_E_UNSUPPORTED_PROPERTY:
+	return ns_e_unsupported_property;
+case NS_E_UNSUPPORTED_PROPERTY:
+	return ns_e_unsupported_property;
+case NS_E_UNSUPPORTED_PROPERTY:
+	return ns_e_unsupported_property;
+case NS_E_NO_MORE_SAMPLES:
+	return ns_e_no_more_samples;
+case NS_E_NO_MORE_SAMPLES:
+	return ns_e_no_more_samples;
+case NS_E_NO_MORE_SAMPLES:
+	return ns_e_no_more_samples;
+case NS_E_INVALID_SAMPLING_RATE:
+	return ns_e_invalid_sampling_rate;
+case NS_E_INVALID_SAMPLING_RATE:
+	return ns_e_invalid_sampling_rate;
+case NS_E_INVALID_SAMPLING_RATE:
+	return ns_e_invalid_sampling_rate;
+case NS_E_MAX_PACKET_SIZE_TOO_SMALL:
+	return ns_e_max_packet_size_too_small;
+case NS_E_MAX_PACKET_SIZE_TOO_SMALL:
+	return ns_e_max_packet_size_too_small;
+case NS_E_MAX_PACKET_SIZE_TOO_SMALL:
+	return ns_e_max_packet_size_too_small;
+case NS_E_LATE_PACKET:
+	return ns_e_late_packet;
+case NS_E_LATE_PACKET:
+	return ns_e_late_packet;
+case NS_E_LATE_PACKET:
+	return ns_e_late_packet;
+case NS_E_DUPLICATE_PACKET:
+	return ns_e_duplicate_packet;
+case NS_E_DUPLICATE_PACKET:
+	return ns_e_duplicate_packet;
+case NS_E_DUPLICATE_PACKET:
+	return ns_e_duplicate_packet;
+case NS_E_SDK_BUFFERTOOSMALL:
+	return ns_e_sdk_buffertoosmall;
+case NS_E_SDK_BUFFERTOOSMALL:
+	return ns_e_sdk_buffertoosmall;
+case NS_E_SDK_BUFFERTOOSMALL:
+	return ns_e_sdk_buffertoosmall;
+case NS_E_INVALID_NUM_PASSES:
+	return ns_e_invalid_num_passes;
+case NS_E_INVALID_NUM_PASSES:
+	return ns_e_invalid_num_passes;
+case NS_E_INVALID_NUM_PASSES:
+	return ns_e_invalid_num_passes;
+case NS_E_ATTRIBUTE_READ_ONLY:
+	return ns_e_attribute_read_only;
+case NS_E_ATTRIBUTE_READ_ONLY:
+	return ns_e_attribute_read_only;
+case NS_E_ATTRIBUTE_READ_ONLY:
+	return ns_e_attribute_read_only;
+case NS_E_ATTRIBUTE_NOT_ALLOWED:
+	return ns_e_attribute_not_allowed;
+case NS_E_ATTRIBUTE_NOT_ALLOWED:
+	return ns_e_attribute_not_allowed;
+case NS_E_ATTRIBUTE_NOT_ALLOWED:
+	return ns_e_attribute_not_allowed;
+case NS_E_INVALID_EDL:
+	return ns_e_invalid_edl;
+case NS_E_INVALID_EDL:
+	return ns_e_invalid_edl;
+case NS_E_INVALID_EDL:
+	return ns_e_invalid_edl;
+case NS_E_DATA_UNIT_EXTENSION_TOO_LARGE:
+	return ns_e_data_unit_extension_too_large;
+case NS_E_DATA_UNIT_EXTENSION_TOO_LARGE:
+	return ns_e_data_unit_extension_too_large;
+case NS_E_DATA_UNIT_EXTENSION_TOO_LARGE:
+	return ns_e_data_unit_extension_too_large;
+case NS_E_CODEC_DMO_ERROR:
+	return ns_e_codec_dmo_error;
+case NS_E_CODEC_DMO_ERROR:
+	return ns_e_codec_dmo_error;
+case NS_E_CODEC_DMO_ERROR:
+	return ns_e_codec_dmo_error;
+case NS_E_FEATURE_DISABLED_BY_GROUP_POLICY:
+	return ns_e_feature_disabled_by_group_policy;
+case NS_E_FEATURE_DISABLED_BY_GROUP_POLICY:
+	return ns_e_feature_disabled_by_group_policy;
+case NS_E_FEATURE_DISABLED_BY_GROUP_POLICY:
+	return ns_e_feature_disabled_by_group_policy;
+case NS_E_FEATURE_DISABLED_IN_SKU:
+	return ns_e_feature_disabled_in_sku;
+case NS_E_FEATURE_DISABLED_IN_SKU:
+	return ns_e_feature_disabled_in_sku;
+case NS_E_FEATURE_DISABLED_IN_SKU:
+	return ns_e_feature_disabled_in_sku;
+case NS_E_NO_CD:
+	return ns_e_no_cd;
+case NS_E_NO_CD:
+	return ns_e_no_cd;
+case NS_E_NO_CD:
+	return ns_e_no_cd;
+case NS_E_CANT_READ_DIGITAL:
+	return ns_e_cant_read_digital;
+case NS_E_CANT_READ_DIGITAL:
+	return ns_e_cant_read_digital;
+case NS_E_CANT_READ_DIGITAL:
+	return ns_e_cant_read_digital;
+case NS_E_DEVICE_DISCONNECTED:
+	return ns_e_device_disconnected;
+case NS_E_DEVICE_DISCONNECTED:
+	return ns_e_device_disconnected;
+case NS_E_DEVICE_DISCONNECTED:
+	return ns_e_device_disconnected;
+case NS_E_DEVICE_NOT_SUPPORT_FORMAT:
+	return ns_e_device_not_support_format;
+case NS_E_DEVICE_NOT_SUPPORT_FORMAT:
+	return ns_e_device_not_support_format;
+case NS_E_DEVICE_NOT_SUPPORT_FORMAT:
+	return ns_e_device_not_support_format;
+case NS_E_SLOW_READ_DIGITAL:
+	return ns_e_slow_read_digital;
+case NS_E_SLOW_READ_DIGITAL:
+	return ns_e_slow_read_digital;
+case NS_E_SLOW_READ_DIGITAL:
+	return ns_e_slow_read_digital;
+case NS_E_MIXER_INVALID_LINE:
+	return ns_e_mixer_invalid_line;
+case NS_E_MIXER_INVALID_LINE:
+	return ns_e_mixer_invalid_line;
+case NS_E_MIXER_INVALID_LINE:
+	return ns_e_mixer_invalid_line;
+case NS_E_MIXER_INVALID_CONTROL:
+	return ns_e_mixer_invalid_control;
+case NS_E_MIXER_INVALID_CONTROL:
+	return ns_e_mixer_invalid_control;
+case NS_E_MIXER_INVALID_CONTROL:
+	return ns_e_mixer_invalid_control;
+case NS_E_MIXER_INVALID_VALUE:
+	return ns_e_mixer_invalid_value;
+case NS_E_MIXER_INVALID_VALUE:
+	return ns_e_mixer_invalid_value;
+case NS_E_MIXER_INVALID_VALUE:
+	return ns_e_mixer_invalid_value;
+case NS_E_MIXER_UNKNOWN_MMRESULT:
+	return ns_e_mixer_unknown_mmresult;
+case NS_E_MIXER_UNKNOWN_MMRESULT:
+	return ns_e_mixer_unknown_mmresult;
+case NS_E_MIXER_UNKNOWN_MMRESULT:
+	return ns_e_mixer_unknown_mmresult;
+case NS_E_USER_STOP:
+	return ns_e_user_stop;
+case NS_E_USER_STOP:
+	return ns_e_user_stop;
+case NS_E_USER_STOP:
+	return ns_e_user_stop;
+case NS_E_USER_STOP:
+	return ns_e_user_stop;
+case NS_E_USER_STOP:
+	return ns_e_user_stop;
+case NS_E_USER_STOP:
+	return ns_e_user_stop;
+case NS_E_CD_READ_ERROR_NO_CORRECTION:
+	return ns_e_cd_read_error_no_correction;
+case NS_E_CD_READ_ERROR_NO_CORRECTION:
+	return ns_e_cd_read_error_no_correction;
+case NS_E_CD_READ_ERROR_NO_CORRECTION:
+	return ns_e_cd_read_error_no_correction;
+case NS_E_CD_READ_ERROR:
+	return ns_e_cd_read_error;
+case NS_E_CD_READ_ERROR:
+	return ns_e_cd_read_error;
+case NS_E_CD_READ_ERROR:
+	return ns_e_cd_read_error;
+case NS_E_CD_SLOW_COPY:
+	return ns_e_cd_slow_copy;
+case NS_E_CD_SLOW_COPY:
+	return ns_e_cd_slow_copy;
+case NS_E_CD_SLOW_COPY:
+	return ns_e_cd_slow_copy;
+case NS_E_CD_COPYTO_CD:
+	return ns_e_cd_copyto_cd;
+case NS_E_CD_COPYTO_CD:
+	return ns_e_cd_copyto_cd;
+case NS_E_CD_COPYTO_CD:
+	return ns_e_cd_copyto_cd;
+case NS_E_MIXER_NODRIVER:
+	return ns_e_mixer_nodriver;
+case NS_E_MIXER_NODRIVER:
+	return ns_e_mixer_nodriver;
+case NS_E_MIXER_NODRIVER:
+	return ns_e_mixer_nodriver;
+case NS_E_REDBOOK_ENABLED_WHILE_COPYING:
+	return ns_e_redbook_enabled_while_copying;
+case NS_E_REDBOOK_ENABLED_WHILE_COPYING:
+	return ns_e_redbook_enabled_while_copying;
+case NS_E_REDBOOK_ENABLED_WHILE_COPYING:
+	return ns_e_redbook_enabled_while_copying;
+case NS_E_CD_REFRESH:
+	return ns_e_cd_refresh;
+case NS_E_CD_REFRESH:
+	return ns_e_cd_refresh;
+case NS_E_CD_REFRESH:
+	return ns_e_cd_refresh;
+case NS_E_CD_DRIVER_PROBLEM:
+	return ns_e_cd_driver_problem;
+case NS_E_CD_DRIVER_PROBLEM:
+	return ns_e_cd_driver_problem;
+case NS_E_CD_DRIVER_PROBLEM:
+	return ns_e_cd_driver_problem;
+case NS_E_WONT_DO_DIGITAL:
+	return ns_e_wont_do_digital;
+case NS_E_WONT_DO_DIGITAL:
+	return ns_e_wont_do_digital;
+case NS_E_WONT_DO_DIGITAL:
+	return ns_e_wont_do_digital;
+case NS_E_WMPXML_NOERROR:
+	return ns_e_wmpxml_noerror;
+case NS_E_WMPXML_NOERROR:
+	return ns_e_wmpxml_noerror;
+case NS_E_WMPXML_NOERROR:
+	return ns_e_wmpxml_noerror;
+case NS_E_WMPXML_ENDOFDATA:
+	return ns_e_wmpxml_endofdata;
+case NS_E_WMPXML_ENDOFDATA:
+	return ns_e_wmpxml_endofdata;
+case NS_E_WMPXML_ENDOFDATA:
+	return ns_e_wmpxml_endofdata;
+case NS_E_WMPXML_PARSEERROR:
+	return ns_e_wmpxml_parseerror;
+case NS_E_WMPXML_PARSEERROR:
+	return ns_e_wmpxml_parseerror;
+case NS_E_WMPXML_PARSEERROR:
+	return ns_e_wmpxml_parseerror;
+case NS_E_WMPXML_ATTRIBUTENOTFOUND:
+	return ns_e_wmpxml_attributenotfound;
+case NS_E_WMPXML_ATTRIBUTENOTFOUND:
+	return ns_e_wmpxml_attributenotfound;
+case NS_E_WMPXML_ATTRIBUTENOTFOUND:
+	return ns_e_wmpxml_attributenotfound;
+case NS_E_WMPXML_PINOTFOUND:
+	return ns_e_wmpxml_pinotfound;
+case NS_E_WMPXML_PINOTFOUND:
+	return ns_e_wmpxml_pinotfound;
+case NS_E_WMPXML_PINOTFOUND:
+	return ns_e_wmpxml_pinotfound;
+case NS_E_WMPXML_EMPTYDOC:
+	return ns_e_wmpxml_emptydoc;
+case NS_E_WMPXML_EMPTYDOC:
+	return ns_e_wmpxml_emptydoc;
+case NS_E_WMPXML_EMPTYDOC:
+	return ns_e_wmpxml_emptydoc;
+case NS_E_WMP_PATH_ALREADY_IN_LIBRARY:
+	return ns_e_wmp_path_already_in_library;
+case NS_E_WMP_PATH_ALREADY_IN_LIBRARY:
+	return ns_e_wmp_path_already_in_library;
+case NS_E_WMP_PATH_ALREADY_IN_LIBRARY:
+	return ns_e_wmp_path_already_in_library;
+case NS_E_WMP_FILESCANALREADYSTARTED:
+	return ns_e_wmp_filescanalreadystarted;
+case NS_E_WMP_FILESCANALREADYSTARTED:
+	return ns_e_wmp_filescanalreadystarted;
+case NS_E_WMP_FILESCANALREADYSTARTED:
+	return ns_e_wmp_filescanalreadystarted;
+case NS_E_WMP_HME_INVALIDOBJECTID:
+	return ns_e_wmp_hme_invalidobjectid;
+case NS_E_WMP_HME_INVALIDOBJECTID:
+	return ns_e_wmp_hme_invalidobjectid;
+case NS_E_WMP_HME_INVALIDOBJECTID:
+	return ns_e_wmp_hme_invalidobjectid;
+case NS_E_WMP_MF_CODE_EXPIRED:
+	return ns_e_wmp_mf_code_expired;
+case NS_E_WMP_MF_CODE_EXPIRED:
+	return ns_e_wmp_mf_code_expired;
+case NS_E_WMP_MF_CODE_EXPIRED:
+	return ns_e_wmp_mf_code_expired;
+case NS_E_WMP_HME_NOTSEARCHABLEFORITEMS:
+	return ns_e_wmp_hme_notsearchableforitems;
+case NS_E_WMP_HME_NOTSEARCHABLEFORITEMS:
+	return ns_e_wmp_hme_notsearchableforitems;
+case NS_E_WMP_HME_NOTSEARCHABLEFORITEMS:
+	return ns_e_wmp_hme_notsearchableforitems;
+case NS_E_WMP_ADDTOLIBRARY_FAILED:
+	return ns_e_wmp_addtolibrary_failed;
+case NS_E_WMP_ADDTOLIBRARY_FAILED:
+	return ns_e_wmp_addtolibrary_failed;
+case NS_E_WMP_ADDTOLIBRARY_FAILED:
+	return ns_e_wmp_addtolibrary_failed;
+case NS_E_WMP_WINDOWSAPIFAILURE:
+	return ns_e_wmp_windowsapifailure;
+case NS_E_WMP_WINDOWSAPIFAILURE:
+	return ns_e_wmp_windowsapifailure;
+case NS_E_WMP_WINDOWSAPIFAILURE:
+	return ns_e_wmp_windowsapifailure;
+case NS_E_WMP_RECORDING_NOT_ALLOWED:
+	return ns_e_wmp_recording_not_allowed;
+case NS_E_WMP_RECORDING_NOT_ALLOWED:
+	return ns_e_wmp_recording_not_allowed;
+case NS_E_WMP_RECORDING_NOT_ALLOWED:
+	return ns_e_wmp_recording_not_allowed;
+case NS_E_DEVICE_NOT_READY:
+	return ns_e_device_not_ready;
+case NS_E_DEVICE_NOT_READY:
+	return ns_e_device_not_ready;
+case NS_E_DEVICE_NOT_READY:
+	return ns_e_device_not_ready;
+case NS_E_DAMAGED_FILE:
+	return ns_e_damaged_file;
+case NS_E_DAMAGED_FILE:
+	return ns_e_damaged_file;
+case NS_E_DAMAGED_FILE:
+	return ns_e_damaged_file;
+case NS_E_MPDB_GENERIC:
+	return ns_e_mpdb_generic;
+case NS_E_MPDB_GENERIC:
+	return ns_e_mpdb_generic;
+case NS_E_MPDB_GENERIC:
+	return ns_e_mpdb_generic;
+case NS_E_FILE_FAILED_CHECKS:
+	return ns_e_file_failed_checks;
+case NS_E_FILE_FAILED_CHECKS:
+	return ns_e_file_failed_checks;
+case NS_E_FILE_FAILED_CHECKS:
+	return ns_e_file_failed_checks;
+case NS_E_MEDIA_LIBRARY_FAILED:
+	return ns_e_media_library_failed;
+case NS_E_MEDIA_LIBRARY_FAILED:
+	return ns_e_media_library_failed;
+case NS_E_MEDIA_LIBRARY_FAILED:
+	return ns_e_media_library_failed;
+case NS_E_SHARING_VIOLATION:
+	return ns_e_sharing_violation;
+case NS_E_SHARING_VIOLATION:
+	return ns_e_sharing_violation;
+case NS_E_SHARING_VIOLATION:
+	return ns_e_sharing_violation;
+case NS_E_NO_ERROR_STRING_FOUND:
+	return ns_e_no_error_string_found;
+case NS_E_NO_ERROR_STRING_FOUND:
+	return ns_e_no_error_string_found;
+case NS_E_NO_ERROR_STRING_FOUND:
+	return ns_e_no_error_string_found;
+case NS_E_WMPOCX_NO_REMOTE_CORE:
+	return ns_e_wmpocx_no_remote_core;
+case NS_E_WMPOCX_NO_REMOTE_CORE:
+	return ns_e_wmpocx_no_remote_core;
+case NS_E_WMPOCX_NO_REMOTE_CORE:
+	return ns_e_wmpocx_no_remote_core;
+case NS_E_WMPOCX_NO_ACTIVE_CORE:
+	return ns_e_wmpocx_no_active_core;
+case NS_E_WMPOCX_NO_ACTIVE_CORE:
+	return ns_e_wmpocx_no_active_core;
+case NS_E_WMPOCX_NO_ACTIVE_CORE:
+	return ns_e_wmpocx_no_active_core;
+case NS_E_WMPOCX_NOT_RUNNING_REMOTELY:
+	return ns_e_wmpocx_not_running_remotely;
+case NS_E_WMPOCX_NOT_RUNNING_REMOTELY:
+	return ns_e_wmpocx_not_running_remotely;
+case NS_E_WMPOCX_NOT_RUNNING_REMOTELY:
+	return ns_e_wmpocx_not_running_remotely;
+case NS_E_WMPOCX_NO_REMOTE_WINDOW:
+	return ns_e_wmpocx_no_remote_window;
+case NS_E_WMPOCX_NO_REMOTE_WINDOW:
+	return ns_e_wmpocx_no_remote_window;
+case NS_E_WMPOCX_NO_REMOTE_WINDOW:
+	return ns_e_wmpocx_no_remote_window;
+case NS_E_WMPOCX_ERRORMANAGERNOTAVAILABLE:
+	return ns_e_wmpocx_errormanagernotavailable;
+case NS_E_WMPOCX_ERRORMANAGERNOTAVAILABLE:
+	return ns_e_wmpocx_errormanagernotavailable;
+case NS_E_WMPOCX_ERRORMANAGERNOTAVAILABLE:
+	return ns_e_wmpocx_errormanagernotavailable;
+case NS_E_PLUGIN_NOTSHUTDOWN:
+	return ns_e_plugin_notshutdown;
+case NS_E_PLUGIN_NOTSHUTDOWN:
+	return ns_e_plugin_notshutdown;
+case NS_E_PLUGIN_NOTSHUTDOWN:
+	return ns_e_plugin_notshutdown;
+case NS_E_WMP_CANNOT_FIND_FOLDER:
+	return ns_e_wmp_cannot_find_folder;
+case NS_E_WMP_CANNOT_FIND_FOLDER:
+	return ns_e_wmp_cannot_find_folder;
+case NS_E_WMP_CANNOT_FIND_FOLDER:
+	return ns_e_wmp_cannot_find_folder;
+case NS_E_WMP_STREAMING_RECORDING_NOT_ALLOWED:
+	return ns_e_wmp_streaming_recording_not_allowed;
+case NS_E_WMP_STREAMING_RECORDING_NOT_ALLOWED:
+	return ns_e_wmp_streaming_recording_not_allowed;
+case NS_E_WMP_STREAMING_RECORDING_NOT_ALLOWED:
+	return ns_e_wmp_streaming_recording_not_allowed;
+case NS_E_WMP_PLUGINDLL_NOTFOUND:
+	return ns_e_wmp_plugindll_notfound;
+case NS_E_WMP_PLUGINDLL_NOTFOUND:
+	return ns_e_wmp_plugindll_notfound;
+case NS_E_WMP_PLUGINDLL_NOTFOUND:
+	return ns_e_wmp_plugindll_notfound;
+case NS_E_NEED_TO_ASK_USER:
+	return ns_e_need_to_ask_user;
+case NS_E_NEED_TO_ASK_USER:
+	return ns_e_need_to_ask_user;
+case NS_E_NEED_TO_ASK_USER:
+	return ns_e_need_to_ask_user;
+case NS_E_WMPOCX_PLAYER_NOT_DOCKED:
+	return ns_e_wmpocx_player_not_docked;
+case NS_E_WMPOCX_PLAYER_NOT_DOCKED:
+	return ns_e_wmpocx_player_not_docked;
+case NS_E_WMPOCX_PLAYER_NOT_DOCKED:
+	return ns_e_wmpocx_player_not_docked;
+case NS_E_WMP_EXTERNAL_NOTREADY:
+	return ns_e_wmp_external_notready;
+case NS_E_WMP_EXTERNAL_NOTREADY:
+	return ns_e_wmp_external_notready;
+case NS_E_WMP_EXTERNAL_NOTREADY:
+	return ns_e_wmp_external_notready;
+case NS_E_WMP_MLS_STALE_DATA:
+	return ns_e_wmp_mls_stale_data;
+case NS_E_WMP_MLS_STALE_DATA:
+	return ns_e_wmp_mls_stale_data;
+case NS_E_WMP_MLS_STALE_DATA:
+	return ns_e_wmp_mls_stale_data;
+case NS_E_WMP_UI_SUBCONTROLSNOTSUPPORTED:
+	return ns_e_wmp_ui_subcontrolsnotsupported;
+case NS_E_WMP_UI_SUBCONTROLSNOTSUPPORTED:
+	return ns_e_wmp_ui_subcontrolsnotsupported;
+case NS_E_WMP_UI_SUBCONTROLSNOTSUPPORTED:
+	return ns_e_wmp_ui_subcontrolsnotsupported;
+case NS_E_WMP_UI_VERSIONMISMATCH:
+	return ns_e_wmp_ui_versionmismatch;
+case NS_E_WMP_UI_VERSIONMISMATCH:
+	return ns_e_wmp_ui_versionmismatch;
+case NS_E_WMP_UI_VERSIONMISMATCH:
+	return ns_e_wmp_ui_versionmismatch;
+case NS_E_WMP_UI_NOTATHEMEFILE:
+	return ns_e_wmp_ui_notathemefile;
+case NS_E_WMP_UI_NOTATHEMEFILE:
+	return ns_e_wmp_ui_notathemefile;
+case NS_E_WMP_UI_NOTATHEMEFILE:
+	return ns_e_wmp_ui_notathemefile;
+case NS_E_WMP_UI_SUBELEMENTNOTFOUND:
+	return ns_e_wmp_ui_subelementnotfound;
+case NS_E_WMP_UI_SUBELEMENTNOTFOUND:
+	return ns_e_wmp_ui_subelementnotfound;
+case NS_E_WMP_UI_SUBELEMENTNOTFOUND:
+	return ns_e_wmp_ui_subelementnotfound;
+case NS_E_WMP_UI_VERSIONPARSE:
+	return ns_e_wmp_ui_versionparse;
+case NS_E_WMP_UI_VERSIONPARSE:
+	return ns_e_wmp_ui_versionparse;
+case NS_E_WMP_UI_VERSIONPARSE:
+	return ns_e_wmp_ui_versionparse;
+case NS_E_WMP_UI_VIEWIDNOTFOUND:
+	return ns_e_wmp_ui_viewidnotfound;
+case NS_E_WMP_UI_VIEWIDNOTFOUND:
+	return ns_e_wmp_ui_viewidnotfound;
+case NS_E_WMP_UI_VIEWIDNOTFOUND:
+	return ns_e_wmp_ui_viewidnotfound;
+case NS_E_WMP_UI_PASSTHROUGH:
+	return ns_e_wmp_ui_passthrough;
+case NS_E_WMP_UI_PASSTHROUGH:
+	return ns_e_wmp_ui_passthrough;
+case NS_E_WMP_UI_PASSTHROUGH:
+	return ns_e_wmp_ui_passthrough;
+case NS_E_WMP_UI_OBJECTNOTFOUND:
+	return ns_e_wmp_ui_objectnotfound;
+case NS_E_WMP_UI_OBJECTNOTFOUND:
+	return ns_e_wmp_ui_objectnotfound;
+case NS_E_WMP_UI_OBJECTNOTFOUND:
+	return ns_e_wmp_ui_objectnotfound;
+case NS_E_WMP_UI_SECONDHANDLER:
+	return ns_e_wmp_ui_secondhandler;
+case NS_E_WMP_UI_SECONDHANDLER:
+	return ns_e_wmp_ui_secondhandler;
+case NS_E_WMP_UI_SECONDHANDLER:
+	return ns_e_wmp_ui_secondhandler;
+case NS_E_WMP_UI_NOSKININZIP:
+	return ns_e_wmp_ui_noskininzip;
+case NS_E_WMP_UI_NOSKININZIP:
+	return ns_e_wmp_ui_noskininzip;
+case NS_E_WMP_UI_NOSKININZIP:
+	return ns_e_wmp_ui_noskininzip;
+case NS_E_WMP_URLDOWNLOADFAILED:
+	return ns_e_wmp_urldownloadfailed;
+case NS_E_WMP_URLDOWNLOADFAILED:
+	return ns_e_wmp_urldownloadfailed;
+case NS_E_WMP_URLDOWNLOADFAILED:
+	return ns_e_wmp_urldownloadfailed;
+case NS_E_WMPOCX_UNABLE_TO_LOAD_SKIN:
+	return ns_e_wmpocx_unable_to_load_skin;
+case NS_E_WMPOCX_UNABLE_TO_LOAD_SKIN:
+	return ns_e_wmpocx_unable_to_load_skin;
+case NS_E_WMPOCX_UNABLE_TO_LOAD_SKIN:
+	return ns_e_wmpocx_unable_to_load_skin;
+case NS_E_WMP_INVALID_SKIN:
+	return ns_e_wmp_invalid_skin;
+case NS_E_WMP_INVALID_SKIN:
+	return ns_e_wmp_invalid_skin;
+case NS_E_WMP_INVALID_SKIN:
+	return ns_e_wmp_invalid_skin;
+case NS_E_WMP_SENDMAILFAILED:
+	return ns_e_wmp_sendmailfailed;
+case NS_E_WMP_SENDMAILFAILED:
+	return ns_e_wmp_sendmailfailed;
+case NS_E_WMP_SENDMAILFAILED:
+	return ns_e_wmp_sendmailfailed;
+case NS_E_WMP_LOCKEDINSKINMODE:
+	return ns_e_wmp_lockedinskinmode;
+case NS_E_WMP_LOCKEDINSKINMODE:
+	return ns_e_wmp_lockedinskinmode;
+case NS_E_WMP_LOCKEDINSKINMODE:
+	return ns_e_wmp_lockedinskinmode;
+case NS_E_WMP_FAILED_TO_SAVE_FILE:
+	return ns_e_wmp_failed_to_save_file;
+case NS_E_WMP_FAILED_TO_SAVE_FILE:
+	return ns_e_wmp_failed_to_save_file;
+case NS_E_WMP_FAILED_TO_SAVE_FILE:
+	return ns_e_wmp_failed_to_save_file;
+case NS_E_WMP_SAVEAS_READONLY:
+	return ns_e_wmp_saveas_readonly;
+case NS_E_WMP_SAVEAS_READONLY:
+	return ns_e_wmp_saveas_readonly;
+case NS_E_WMP_SAVEAS_READONLY:
+	return ns_e_wmp_saveas_readonly;
+case NS_E_WMP_FAILED_TO_SAVE_PLAYLIST:
+	return ns_e_wmp_failed_to_save_playlist;
+case NS_E_WMP_FAILED_TO_SAVE_PLAYLIST:
+	return ns_e_wmp_failed_to_save_playlist;
+case NS_E_WMP_FAILED_TO_SAVE_PLAYLIST:
+	return ns_e_wmp_failed_to_save_playlist;
+case NS_E_WMP_FAILED_TO_OPEN_WMD:
+	return ns_e_wmp_failed_to_open_wmd;
+case NS_E_WMP_FAILED_TO_OPEN_WMD:
+	return ns_e_wmp_failed_to_open_wmd;
+case NS_E_WMP_FAILED_TO_OPEN_WMD:
+	return ns_e_wmp_failed_to_open_wmd;
+case NS_E_WMP_CANT_PLAY_PROTECTED:
+	return ns_e_wmp_cant_play_protected;
+case NS_E_WMP_CANT_PLAY_PROTECTED:
+	return ns_e_wmp_cant_play_protected;
+case NS_E_WMP_CANT_PLAY_PROTECTED:
+	return ns_e_wmp_cant_play_protected;
+case NS_E_SHARING_STATE_OUT_OF_SYNC:
+	return ns_e_sharing_state_out_of_sync;
+case NS_E_SHARING_STATE_OUT_OF_SYNC:
+	return ns_e_sharing_state_out_of_sync;
+case NS_E_SHARING_STATE_OUT_OF_SYNC:
+	return ns_e_sharing_state_out_of_sync;
+case NS_E_WMPOCX_REMOTE_PLAYER_ALREADY_RUNNING:
+	return ns_e_wmpocx_remote_player_already_running;
+case NS_E_WMPOCX_REMOTE_PLAYER_ALREADY_RUNNING:
+	return ns_e_wmpocx_remote_player_already_running;
+case NS_E_WMPOCX_REMOTE_PLAYER_ALREADY_RUNNING:
+	return ns_e_wmpocx_remote_player_already_running;
+case NS_E_WMP_RBC_JPGMAPPINGIMAGE:
+	return ns_e_wmp_rbc_jpgmappingimage;
+case NS_E_WMP_RBC_JPGMAPPINGIMAGE:
+	return ns_e_wmp_rbc_jpgmappingimage;
+case NS_E_WMP_RBC_JPGMAPPINGIMAGE:
+	return ns_e_wmp_rbc_jpgmappingimage;
+case NS_E_WMP_JPGTRANSPARENCY:
+	return ns_e_wmp_jpgtransparency;
+case NS_E_WMP_JPGTRANSPARENCY:
+	return ns_e_wmp_jpgtransparency;
+case NS_E_WMP_JPGTRANSPARENCY:
+	return ns_e_wmp_jpgtransparency;
+case NS_E_WMP_INVALID_MAX_VAL:
+	return ns_e_wmp_invalid_max_val;
+case NS_E_WMP_INVALID_MAX_VAL:
+	return ns_e_wmp_invalid_max_val;
+case NS_E_WMP_INVALID_MAX_VAL:
+	return ns_e_wmp_invalid_max_val;
+case NS_E_WMP_INVALID_MIN_VAL:
+	return ns_e_wmp_invalid_min_val;
+case NS_E_WMP_INVALID_MIN_VAL:
+	return ns_e_wmp_invalid_min_val;
+case NS_E_WMP_INVALID_MIN_VAL:
+	return ns_e_wmp_invalid_min_val;
+case NS_E_WMP_CS_JPGPOSITIONIMAGE:
+	return ns_e_wmp_cs_jpgpositionimage;
+case NS_E_WMP_CS_JPGPOSITIONIMAGE:
+	return ns_e_wmp_cs_jpgpositionimage;
+case NS_E_WMP_CS_JPGPOSITIONIMAGE:
+	return ns_e_wmp_cs_jpgpositionimage;
+case NS_E_WMP_CS_NOTEVENLYDIVISIBLE:
+	return ns_e_wmp_cs_notevenlydivisible;
+case NS_E_WMP_CS_NOTEVENLYDIVISIBLE:
+	return ns_e_wmp_cs_notevenlydivisible;
+case NS_E_WMP_CS_NOTEVENLYDIVISIBLE:
+	return ns_e_wmp_cs_notevenlydivisible;
+case NS_E_WMPZIP_NOTAZIPFILE:
+	return ns_e_wmpzip_notazipfile;
+case NS_E_WMPZIP_NOTAZIPFILE:
+	return ns_e_wmpzip_notazipfile;
+case NS_E_WMPZIP_NOTAZIPFILE:
+	return ns_e_wmpzip_notazipfile;
+case NS_E_WMPZIP_CORRUPT:
+	return ns_e_wmpzip_corrupt;
+case NS_E_WMPZIP_CORRUPT:
+	return ns_e_wmpzip_corrupt;
+case NS_E_WMPZIP_CORRUPT:
+	return ns_e_wmpzip_corrupt;
+case NS_E_WMPZIP_FILENOTFOUND:
+	return ns_e_wmpzip_filenotfound;
+case NS_E_WMPZIP_FILENOTFOUND:
+	return ns_e_wmpzip_filenotfound;
+case NS_E_WMPZIP_FILENOTFOUND:
+	return ns_e_wmpzip_filenotfound;
+case NS_E_WMP_IMAGE_FILETYPE_UNSUPPORTED:
+	return ns_e_wmp_image_filetype_unsupported;
+case NS_E_WMP_IMAGE_FILETYPE_UNSUPPORTED:
+	return ns_e_wmp_image_filetype_unsupported;
+case NS_E_WMP_IMAGE_FILETYPE_UNSUPPORTED:
+	return ns_e_wmp_image_filetype_unsupported;
+case NS_E_WMP_IMAGE_INVALID_FORMAT:
+	return ns_e_wmp_image_invalid_format;
+case NS_E_WMP_IMAGE_INVALID_FORMAT:
+	return ns_e_wmp_image_invalid_format;
+case NS_E_WMP_IMAGE_INVALID_FORMAT:
+	return ns_e_wmp_image_invalid_format;
+case NS_E_WMP_GIF_UNEXPECTED_ENDOFFILE:
+	return ns_e_wmp_gif_unexpected_endoffile;
+case NS_E_WMP_GIF_UNEXPECTED_ENDOFFILE:
+	return ns_e_wmp_gif_unexpected_endoffile;
+case NS_E_WMP_GIF_UNEXPECTED_ENDOFFILE:
+	return ns_e_wmp_gif_unexpected_endoffile;
+case NS_E_WMP_GIF_INVALID_FORMAT:
+	return ns_e_wmp_gif_invalid_format;
+case NS_E_WMP_GIF_INVALID_FORMAT:
+	return ns_e_wmp_gif_invalid_format;
+case NS_E_WMP_GIF_INVALID_FORMAT:
+	return ns_e_wmp_gif_invalid_format;
+case NS_E_WMP_GIF_BAD_VERSION_NUMBER:
+	return ns_e_wmp_gif_bad_version_number;
+case NS_E_WMP_GIF_BAD_VERSION_NUMBER:
+	return ns_e_wmp_gif_bad_version_number;
+case NS_E_WMP_GIF_BAD_VERSION_NUMBER:
+	return ns_e_wmp_gif_bad_version_number;
+case NS_E_WMP_GIF_NO_IMAGE_IN_FILE:
+	return ns_e_wmp_gif_no_image_in_file;
+case NS_E_WMP_GIF_NO_IMAGE_IN_FILE:
+	return ns_e_wmp_gif_no_image_in_file;
+case NS_E_WMP_GIF_NO_IMAGE_IN_FILE:
+	return ns_e_wmp_gif_no_image_in_file;
+case NS_E_WMP_PNG_INVALIDFORMAT:
+	return ns_e_wmp_png_invalidformat;
+case NS_E_WMP_PNG_INVALIDFORMAT:
+	return ns_e_wmp_png_invalidformat;
+case NS_E_WMP_PNG_INVALIDFORMAT:
+	return ns_e_wmp_png_invalidformat;
+case NS_E_WMP_PNG_UNSUPPORTED_BITDEPTH:
+	return ns_e_wmp_png_unsupported_bitdepth;
+case NS_E_WMP_PNG_UNSUPPORTED_BITDEPTH:
+	return ns_e_wmp_png_unsupported_bitdepth;
+case NS_E_WMP_PNG_UNSUPPORTED_BITDEPTH:
+	return ns_e_wmp_png_unsupported_bitdepth;
+case NS_E_WMP_PNG_UNSUPPORTED_COMPRESSION:
+	return ns_e_wmp_png_unsupported_compression;
+case NS_E_WMP_PNG_UNSUPPORTED_COMPRESSION:
+	return ns_e_wmp_png_unsupported_compression;
+case NS_E_WMP_PNG_UNSUPPORTED_COMPRESSION:
+	return ns_e_wmp_png_unsupported_compression;
+case NS_E_WMP_PNG_UNSUPPORTED_FILTER:
+	return ns_e_wmp_png_unsupported_filter;
+case NS_E_WMP_PNG_UNSUPPORTED_FILTER:
+	return ns_e_wmp_png_unsupported_filter;
+case NS_E_WMP_PNG_UNSUPPORTED_FILTER:
+	return ns_e_wmp_png_unsupported_filter;
+case NS_E_WMP_PNG_UNSUPPORTED_INTERLACE:
+	return ns_e_wmp_png_unsupported_interlace;
+case NS_E_WMP_PNG_UNSUPPORTED_INTERLACE:
+	return ns_e_wmp_png_unsupported_interlace;
+case NS_E_WMP_PNG_UNSUPPORTED_INTERLACE:
+	return ns_e_wmp_png_unsupported_interlace;
+case NS_E_WMP_PNG_UNSUPPORTED_BAD_CRC:
+	return ns_e_wmp_png_unsupported_bad_crc;
+case NS_E_WMP_PNG_UNSUPPORTED_BAD_CRC:
+	return ns_e_wmp_png_unsupported_bad_crc;
+case NS_E_WMP_PNG_UNSUPPORTED_BAD_CRC:
+	return ns_e_wmp_png_unsupported_bad_crc;
+case NS_E_WMP_BMP_INVALID_BITMASK:
+	return ns_e_wmp_bmp_invalid_bitmask;
+case NS_E_WMP_BMP_INVALID_BITMASK:
+	return ns_e_wmp_bmp_invalid_bitmask;
+case NS_E_WMP_BMP_INVALID_BITMASK:
+	return ns_e_wmp_bmp_invalid_bitmask;
+case NS_E_WMP_BMP_TOPDOWN_DIB_UNSUPPORTED:
+	return ns_e_wmp_bmp_topdown_dib_unsupported;
+case NS_E_WMP_BMP_TOPDOWN_DIB_UNSUPPORTED:
+	return ns_e_wmp_bmp_topdown_dib_unsupported;
+case NS_E_WMP_BMP_TOPDOWN_DIB_UNSUPPORTED:
+	return ns_e_wmp_bmp_topdown_dib_unsupported;
+case NS_E_WMP_BMP_BITMAP_NOT_CREATED:
+	return ns_e_wmp_bmp_bitmap_not_created;
+case NS_E_WMP_BMP_BITMAP_NOT_CREATED:
+	return ns_e_wmp_bmp_bitmap_not_created;
+case NS_E_WMP_BMP_BITMAP_NOT_CREATED:
+	return ns_e_wmp_bmp_bitmap_not_created;
+case NS_E_WMP_BMP_COMPRESSION_UNSUPPORTED:
+	return ns_e_wmp_bmp_compression_unsupported;
+case NS_E_WMP_BMP_COMPRESSION_UNSUPPORTED:
+	return ns_e_wmp_bmp_compression_unsupported;
+case NS_E_WMP_BMP_COMPRESSION_UNSUPPORTED:
+	return ns_e_wmp_bmp_compression_unsupported;
+case NS_E_WMP_BMP_INVALID_FORMAT:
+	return ns_e_wmp_bmp_invalid_format;
+case NS_E_WMP_BMP_INVALID_FORMAT:
+	return ns_e_wmp_bmp_invalid_format;
+case NS_E_WMP_BMP_INVALID_FORMAT:
+	return ns_e_wmp_bmp_invalid_format;
+case NS_E_WMP_JPG_JERR_ARITHCODING_NOTIMPL:
+	return ns_e_wmp_jpg_jerr_arithcoding_notimpl;
+case NS_E_WMP_JPG_JERR_ARITHCODING_NOTIMPL:
+	return ns_e_wmp_jpg_jerr_arithcoding_notimpl;
+case NS_E_WMP_JPG_JERR_ARITHCODING_NOTIMPL:
+	return ns_e_wmp_jpg_jerr_arithcoding_notimpl;
+case NS_E_WMP_JPG_INVALID_FORMAT:
+	return ns_e_wmp_jpg_invalid_format;
+case NS_E_WMP_JPG_INVALID_FORMAT:
+	return ns_e_wmp_jpg_invalid_format;
+case NS_E_WMP_JPG_INVALID_FORMAT:
+	return ns_e_wmp_jpg_invalid_format;
+case NS_E_WMP_JPG_BAD_DCTSIZE:
+	return ns_e_wmp_jpg_bad_dctsize;
+case NS_E_WMP_JPG_BAD_DCTSIZE:
+	return ns_e_wmp_jpg_bad_dctsize;
+case NS_E_WMP_JPG_BAD_DCTSIZE:
+	return ns_e_wmp_jpg_bad_dctsize;
+case NS_E_WMP_JPG_BAD_VERSION_NUMBER:
+	return ns_e_wmp_jpg_bad_version_number;
+case NS_E_WMP_JPG_BAD_VERSION_NUMBER:
+	return ns_e_wmp_jpg_bad_version_number;
+case NS_E_WMP_JPG_BAD_VERSION_NUMBER:
+	return ns_e_wmp_jpg_bad_version_number;
+case NS_E_WMP_JPG_BAD_PRECISION:
+	return ns_e_wmp_jpg_bad_precision;
+case NS_E_WMP_JPG_BAD_PRECISION:
+	return ns_e_wmp_jpg_bad_precision;
+case NS_E_WMP_JPG_BAD_PRECISION:
+	return ns_e_wmp_jpg_bad_precision;
+case NS_E_WMP_JPG_BAD_PRECISION:
+	return ns_e_wmp_jpg_bad_precision;
+case NS_E_WMP_JPG_BAD_PRECISION:
+	return ns_e_wmp_jpg_bad_precision;
+case NS_E_WMP_JPG_BAD_PRECISION:
+	return ns_e_wmp_jpg_bad_precision;
+case NS_E_WMP_JPG_NO_IMAGE_IN_FILE:
+	return ns_e_wmp_jpg_no_image_in_file;
+case NS_E_WMP_JPG_NO_IMAGE_IN_FILE:
+	return ns_e_wmp_jpg_no_image_in_file;
+case NS_E_WMP_JPG_NO_IMAGE_IN_FILE:
+	return ns_e_wmp_jpg_no_image_in_file;
+case NS_E_WMP_JPG_READ_ERROR:
+	return ns_e_wmp_jpg_read_error;
+case NS_E_WMP_JPG_READ_ERROR:
+	return ns_e_wmp_jpg_read_error;
+case NS_E_WMP_JPG_READ_ERROR:
+	return ns_e_wmp_jpg_read_error;
+case NS_E_WMP_JPG_FRACT_SAMPLE_NOTIMPL:
+	return ns_e_wmp_jpg_fract_sample_notimpl;
+case NS_E_WMP_JPG_FRACT_SAMPLE_NOTIMPL:
+	return ns_e_wmp_jpg_fract_sample_notimpl;
+case NS_E_WMP_JPG_FRACT_SAMPLE_NOTIMPL:
+	return ns_e_wmp_jpg_fract_sample_notimpl;
+case NS_E_WMP_JPG_IMAGE_TOO_BIG:
+	return ns_e_wmp_jpg_image_too_big;
+case NS_E_WMP_JPG_IMAGE_TOO_BIG:
+	return ns_e_wmp_jpg_image_too_big;
+case NS_E_WMP_JPG_IMAGE_TOO_BIG:
+	return ns_e_wmp_jpg_image_too_big;
+case NS_E_WMP_JPG_UNEXPECTED_ENDOFFILE:
+	return ns_e_wmp_jpg_unexpected_endoffile;
+case NS_E_WMP_JPG_UNEXPECTED_ENDOFFILE:
+	return ns_e_wmp_jpg_unexpected_endoffile;
+case NS_E_WMP_JPG_UNEXPECTED_ENDOFFILE:
+	return ns_e_wmp_jpg_unexpected_endoffile;
+case NS_E_WMP_JPG_SOF_UNSUPPORTED:
+	return ns_e_wmp_jpg_sof_unsupported;
+case NS_E_WMP_JPG_SOF_UNSUPPORTED:
+	return ns_e_wmp_jpg_sof_unsupported;
+case NS_E_WMP_JPG_SOF_UNSUPPORTED:
+	return ns_e_wmp_jpg_sof_unsupported;
+case NS_E_WMP_JPG_UNKNOWN_MARKER:
+	return ns_e_wmp_jpg_unknown_marker;
+case NS_E_WMP_JPG_UNKNOWN_MARKER:
+	return ns_e_wmp_jpg_unknown_marker;
+case NS_E_WMP_JPG_UNKNOWN_MARKER:
+	return ns_e_wmp_jpg_unknown_marker;
+case NS_E_WMP_FAILED_TO_OPEN_IMAGE:
+	return ns_e_wmp_failed_to_open_image;
+case NS_E_WMP_FAILED_TO_OPEN_IMAGE:
+	return ns_e_wmp_failed_to_open_image;
+case NS_E_WMP_FAILED_TO_OPEN_IMAGE:
+	return ns_e_wmp_failed_to_open_image;
+case NS_E_WMP_DAI_SONGTOOSHORT:
+	return ns_e_wmp_dai_songtooshort;
+case NS_E_WMP_DAI_SONGTOOSHORT:
+	return ns_e_wmp_dai_songtooshort;
+case NS_E_WMP_DAI_SONGTOOSHORT:
+	return ns_e_wmp_dai_songtooshort;
+case NS_E_WMG_RATEUNAVAILABLE:
+	return ns_e_wmg_rateunavailable;
+case NS_E_WMG_RATEUNAVAILABLE:
+	return ns_e_wmg_rateunavailable;
+case NS_E_WMG_RATEUNAVAILABLE:
+	return ns_e_wmg_rateunavailable;
+case NS_E_WMG_PLUGINUNAVAILABLE:
+	return ns_e_wmg_pluginunavailable;
+case NS_E_WMG_PLUGINUNAVAILABLE:
+	return ns_e_wmg_pluginunavailable;
+case NS_E_WMG_PLUGINUNAVAILABLE:
+	return ns_e_wmg_pluginunavailable;
+case NS_E_WMG_CANNOTQUEUE:
+	return ns_e_wmg_cannotqueue;
+case NS_E_WMG_CANNOTQUEUE:
+	return ns_e_wmg_cannotqueue;
+case NS_E_WMG_CANNOTQUEUE:
+	return ns_e_wmg_cannotqueue;
+case NS_E_WMG_PREROLLLICENSEACQUISITIONNOTALLOWED:
+	return ns_e_wmg_prerolllicenseacquisitionnotallowed;
+case NS_E_WMG_PREROLLLICENSEACQUISITIONNOTALLOWED:
+	return ns_e_wmg_prerolllicenseacquisitionnotallowed;
+case NS_E_WMG_PREROLLLICENSEACQUISITIONNOTALLOWED:
+	return ns_e_wmg_prerolllicenseacquisitionnotallowed;
+case NS_E_WMG_UNEXPECTEDPREROLLSTATUS:
+	return ns_e_wmg_unexpectedprerollstatus;
+case NS_E_WMG_UNEXPECTEDPREROLLSTATUS:
+	return ns_e_wmg_unexpectedprerollstatus;
+case NS_E_WMG_UNEXPECTEDPREROLLSTATUS:
+	return ns_e_wmg_unexpectedprerollstatus;
+case NS_E_WMG_INVALID_COPP_CERTIFICATE:
+	return ns_e_wmg_invalid_copp_certificate;
+case NS_E_WMG_INVALID_COPP_CERTIFICATE:
+	return ns_e_wmg_invalid_copp_certificate;
+case NS_E_WMG_INVALID_COPP_CERTIFICATE:
+	return ns_e_wmg_invalid_copp_certificate;
+case NS_E_WMG_COPP_SECURITY_INVALID:
+	return ns_e_wmg_copp_security_invalid;
+case NS_E_WMG_COPP_SECURITY_INVALID:
+	return ns_e_wmg_copp_security_invalid;
+case NS_E_WMG_COPP_SECURITY_INVALID:
+	return ns_e_wmg_copp_security_invalid;
+case NS_E_WMG_COPP_UNSUPPORTED:
+	return ns_e_wmg_copp_unsupported;
+case NS_E_WMG_COPP_UNSUPPORTED:
+	return ns_e_wmg_copp_unsupported;
+case NS_E_WMG_COPP_UNSUPPORTED:
+	return ns_e_wmg_copp_unsupported;
+case NS_E_WMG_INVALIDSTATE:
+	return ns_e_wmg_invalidstate;
+case NS_E_WMG_INVALIDSTATE:
+	return ns_e_wmg_invalidstate;
+case NS_E_WMG_INVALIDSTATE:
+	return ns_e_wmg_invalidstate;
+case NS_E_WMG_SINKALREADYEXISTS:
+	return ns_e_wmg_sinkalreadyexists;
+case NS_E_WMG_SINKALREADYEXISTS:
+	return ns_e_wmg_sinkalreadyexists;
+case NS_E_WMG_SINKALREADYEXISTS:
+	return ns_e_wmg_sinkalreadyexists;
+case NS_E_WMG_NOSDKINTERFACE:
+	return ns_e_wmg_nosdkinterface;
+case NS_E_WMG_NOSDKINTERFACE:
+	return ns_e_wmg_nosdkinterface;
+case NS_E_WMG_NOSDKINTERFACE:
+	return ns_e_wmg_nosdkinterface;
+case NS_E_WMG_NOTALLOUTPUTSRENDERED:
+	return ns_e_wmg_notalloutputsrendered;
+case NS_E_WMG_NOTALLOUTPUTSRENDERED:
+	return ns_e_wmg_notalloutputsrendered;
+case NS_E_WMG_NOTALLOUTPUTSRENDERED:
+	return ns_e_wmg_notalloutputsrendered;
+case NS_E_WMG_FILETRANSFERNOTALLOWED:
+	return ns_e_wmg_filetransfernotallowed;
+case NS_E_WMG_FILETRANSFERNOTALLOWED:
+	return ns_e_wmg_filetransfernotallowed;
+case NS_E_WMG_FILETRANSFERNOTALLOWED:
+	return ns_e_wmg_filetransfernotallowed;
+case NS_E_WMR_UNSUPPORTEDSTREAM:
+	return ns_e_wmr_unsupportedstream;
+case NS_E_WMR_UNSUPPORTEDSTREAM:
+	return ns_e_wmr_unsupportedstream;
+case NS_E_WMR_UNSUPPORTEDSTREAM:
+	return ns_e_wmr_unsupportedstream;
+case NS_E_WMR_PINNOTFOUND:
+	return ns_e_wmr_pinnotfound;
+case NS_E_WMR_PINNOTFOUND:
+	return ns_e_wmr_pinnotfound;
+case NS_E_WMR_PINNOTFOUND:
+	return ns_e_wmr_pinnotfound;
+case NS_E_WMR_WAITINGONFORMATSWITCH:
+	return ns_e_wmr_waitingonformatswitch;
+case NS_E_WMR_WAITINGONFORMATSWITCH:
+	return ns_e_wmr_waitingonformatswitch;
+case NS_E_WMR_WAITINGONFORMATSWITCH:
+	return ns_e_wmr_waitingonformatswitch;
+case NS_E_WMR_NOSOURCEFILTER:
+	return ns_e_wmr_nosourcefilter;
+case NS_E_WMR_NOSOURCEFILTER:
+	return ns_e_wmr_nosourcefilter;
+case NS_E_WMR_NOSOURCEFILTER:
+	return ns_e_wmr_nosourcefilter;
+case NS_E_WMR_PINTYPENOMATCH:
+	return ns_e_wmr_pintypenomatch;
+case NS_E_WMR_PINTYPENOMATCH:
+	return ns_e_wmr_pintypenomatch;
+case NS_E_WMR_PINTYPENOMATCH:
+	return ns_e_wmr_pintypenomatch;
+case NS_E_WMR_NOCALLBACKAVAILABLE:
+	return ns_e_wmr_nocallbackavailable;
+case NS_E_WMR_NOCALLBACKAVAILABLE:
+	return ns_e_wmr_nocallbackavailable;
+case NS_E_WMR_NOCALLBACKAVAILABLE:
+	return ns_e_wmr_nocallbackavailable;
+case NS_E_WMR_SAMPLEPROPERTYNOTSET:
+	return ns_e_wmr_samplepropertynotset;
+case NS_E_WMR_SAMPLEPROPERTYNOTSET:
+	return ns_e_wmr_samplepropertynotset;
+case NS_E_WMR_SAMPLEPROPERTYNOTSET:
+	return ns_e_wmr_samplepropertynotset;
+case NS_E_WMR_CANNOT_RENDER_BINARY_STREAM:
+	return ns_e_wmr_cannot_render_binary_stream;
+case NS_E_WMR_CANNOT_RENDER_BINARY_STREAM:
+	return ns_e_wmr_cannot_render_binary_stream;
+case NS_E_WMR_CANNOT_RENDER_BINARY_STREAM:
+	return ns_e_wmr_cannot_render_binary_stream;
+case NS_E_WMG_LICENSE_TAMPERED:
+	return ns_e_wmg_license_tampered;
+case NS_E_WMG_LICENSE_TAMPERED:
+	return ns_e_wmg_license_tampered;
+case NS_E_WMG_LICENSE_TAMPERED:
+	return ns_e_wmg_license_tampered;
+case NS_E_WMR_WILLNOT_RENDER_BINARY_STREAM:
+	return ns_e_wmr_willnot_render_binary_stream;
+case NS_E_WMR_WILLNOT_RENDER_BINARY_STREAM:
+	return ns_e_wmr_willnot_render_binary_stream;
+case NS_E_WMR_WILLNOT_RENDER_BINARY_STREAM:
+	return ns_e_wmr_willnot_render_binary_stream;
+case NS_E_WMX_UNRECOGNIZED_PLAYLIST_FORMAT:
+	return ns_e_wmx_unrecognized_playlist_format;
+case NS_E_WMX_UNRECOGNIZED_PLAYLIST_FORMAT:
+	return ns_e_wmx_unrecognized_playlist_format;
+case NS_E_WMX_UNRECOGNIZED_PLAYLIST_FORMAT:
+	return ns_e_wmx_unrecognized_playlist_format;
+case NS_E_ASX_INVALIDFORMAT:
+	return ns_e_asx_invalidformat;
+case NS_E_ASX_INVALIDFORMAT:
+	return ns_e_asx_invalidformat;
+case NS_E_ASX_INVALIDFORMAT:
+	return ns_e_asx_invalidformat;
+case NS_E_ASX_INVALIDVERSION:
+	return ns_e_asx_invalidversion;
+case NS_E_ASX_INVALIDVERSION:
+	return ns_e_asx_invalidversion;
+case NS_E_ASX_INVALIDVERSION:
+	return ns_e_asx_invalidversion;
+case NS_E_ASX_INVALID_REPEAT_BLOCK:
+	return ns_e_asx_invalid_repeat_block;
+case NS_E_ASX_INVALID_REPEAT_BLOCK:
+	return ns_e_asx_invalid_repeat_block;
+case NS_E_ASX_INVALID_REPEAT_BLOCK:
+	return ns_e_asx_invalid_repeat_block;
+case NS_E_ASX_NOTHING_TO_WRITE:
+	return ns_e_asx_nothing_to_write;
+case NS_E_ASX_NOTHING_TO_WRITE:
+	return ns_e_asx_nothing_to_write;
+case NS_E_ASX_NOTHING_TO_WRITE:
+	return ns_e_asx_nothing_to_write;
+case NS_E_URLLIST_INVALIDFORMAT:
+	return ns_e_urllist_invalidformat;
+case NS_E_URLLIST_INVALIDFORMAT:
+	return ns_e_urllist_invalidformat;
+case NS_E_URLLIST_INVALIDFORMAT:
+	return ns_e_urllist_invalidformat;
+case NS_E_WMX_ATTRIBUTE_DOES_NOT_EXIST:
+	return ns_e_wmx_attribute_does_not_exist;
+case NS_E_WMX_ATTRIBUTE_DOES_NOT_EXIST:
+	return ns_e_wmx_attribute_does_not_exist;
+case NS_E_WMX_ATTRIBUTE_DOES_NOT_EXIST:
+	return ns_e_wmx_attribute_does_not_exist;
+case NS_E_WMX_ATTRIBUTE_ALREADY_EXISTS:
+	return ns_e_wmx_attribute_already_exists;
+case NS_E_WMX_ATTRIBUTE_ALREADY_EXISTS:
+	return ns_e_wmx_attribute_already_exists;
+case NS_E_WMX_ATTRIBUTE_ALREADY_EXISTS:
+	return ns_e_wmx_attribute_already_exists;
+case NS_E_WMX_ATTRIBUTE_UNRETRIEVABLE:
+	return ns_e_wmx_attribute_unretrievable;
+case NS_E_WMX_ATTRIBUTE_UNRETRIEVABLE:
+	return ns_e_wmx_attribute_unretrievable;
+case NS_E_WMX_ATTRIBUTE_UNRETRIEVABLE:
+	return ns_e_wmx_attribute_unretrievable;
+case NS_E_WMX_ITEM_DOES_NOT_EXIST:
+	return ns_e_wmx_item_does_not_exist;
+case NS_E_WMX_ITEM_DOES_NOT_EXIST:
+	return ns_e_wmx_item_does_not_exist;
+case NS_E_WMX_ITEM_DOES_NOT_EXIST:
+	return ns_e_wmx_item_does_not_exist;
+case NS_E_WMX_ITEM_TYPE_ILLEGAL:
+	return ns_e_wmx_item_type_illegal;
+case NS_E_WMX_ITEM_TYPE_ILLEGAL:
+	return ns_e_wmx_item_type_illegal;
+case NS_E_WMX_ITEM_TYPE_ILLEGAL:
+	return ns_e_wmx_item_type_illegal;
+case NS_E_WMX_ITEM_UNSETTABLE:
+	return ns_e_wmx_item_unsettable;
+case NS_E_WMX_ITEM_UNSETTABLE:
+	return ns_e_wmx_item_unsettable;
+case NS_E_WMX_ITEM_UNSETTABLE:
+	return ns_e_wmx_item_unsettable;
+case NS_E_WMX_PLAYLIST_EMPTY:
+	return ns_e_wmx_playlist_empty;
+case NS_E_WMX_PLAYLIST_EMPTY:
+	return ns_e_wmx_playlist_empty;
+case NS_E_WMX_PLAYLIST_EMPTY:
+	return ns_e_wmx_playlist_empty;
+case NS_E_MLS_SMARTPLAYLIST_FILTER_NOT_REGISTERED:
+	return ns_e_mls_smartplaylist_filter_not_registered;
+case NS_E_MLS_SMARTPLAYLIST_FILTER_NOT_REGISTERED:
+	return ns_e_mls_smartplaylist_filter_not_registered;
+case NS_E_MLS_SMARTPLAYLIST_FILTER_NOT_REGISTERED:
+	return ns_e_mls_smartplaylist_filter_not_registered;
+case NS_E_WMX_INVALID_FORMAT_OVER_NESTING:
+	return ns_e_wmx_invalid_format_over_nesting;
+case NS_E_WMX_INVALID_FORMAT_OVER_NESTING:
+	return ns_e_wmx_invalid_format_over_nesting;
+case NS_E_WMX_INVALID_FORMAT_OVER_NESTING:
+	return ns_e_wmx_invalid_format_over_nesting;
+case NS_E_WMPCORE_NOSOURCEURLSTRING:
+	return ns_e_wmpcore_nosourceurlstring;
+case NS_E_WMPCORE_NOSOURCEURLSTRING:
+	return ns_e_wmpcore_nosourceurlstring;
+case NS_E_WMPCORE_NOSOURCEURLSTRING:
+	return ns_e_wmpcore_nosourceurlstring;
+case NS_E_WMPCORE_COCREATEFAILEDFORGITOBJECT:
+	return ns_e_wmpcore_cocreatefailedforgitobject;
+case NS_E_WMPCORE_COCREATEFAILEDFORGITOBJECT:
+	return ns_e_wmpcore_cocreatefailedforgitobject;
+case NS_E_WMPCORE_COCREATEFAILEDFORGITOBJECT:
+	return ns_e_wmpcore_cocreatefailedforgitobject;
+case NS_E_WMPCORE_FAILEDTOGETMARSHALLEDEVENTHANDLERINTERFACE:
+	return ns_e_wmpcore_failedtogetmarshalledeventhandlerinterface;
+case NS_E_WMPCORE_FAILEDTOGETMARSHALLEDEVENTHANDLERINTERFACE:
+	return ns_e_wmpcore_failedtogetmarshalledeventhandlerinterface;
+case NS_E_WMPCORE_FAILEDTOGETMARSHALLEDEVENTHANDLERINTERFACE:
+	return ns_e_wmpcore_failedtogetmarshalledeventhandlerinterface;
+case NS_E_WMPCORE_BUFFERTOOSMALL:
+	return ns_e_wmpcore_buffertoosmall;
+case NS_E_WMPCORE_BUFFERTOOSMALL:
+	return ns_e_wmpcore_buffertoosmall;
+case NS_E_WMPCORE_BUFFERTOOSMALL:
+	return ns_e_wmpcore_buffertoosmall;
+case NS_E_WMPCORE_UNAVAILABLE:
+	return ns_e_wmpcore_unavailable;
+case NS_E_WMPCORE_UNAVAILABLE:
+	return ns_e_wmpcore_unavailable;
+case NS_E_WMPCORE_UNAVAILABLE:
+	return ns_e_wmpcore_unavailable;
+case NS_E_WMPCORE_INVALIDPLAYLISTMODE:
+	return ns_e_wmpcore_invalidplaylistmode;
+case NS_E_WMPCORE_INVALIDPLAYLISTMODE:
+	return ns_e_wmpcore_invalidplaylistmode;
+case NS_E_WMPCORE_INVALIDPLAYLISTMODE:
+	return ns_e_wmpcore_invalidplaylistmode;
+case NS_E_WMPCORE_ITEMNOTINPLAYLIST:
+	return ns_e_wmpcore_itemnotinplaylist;
+case NS_E_WMPCORE_ITEMNOTINPLAYLIST:
+	return ns_e_wmpcore_itemnotinplaylist;
+case NS_E_WMPCORE_ITEMNOTINPLAYLIST:
+	return ns_e_wmpcore_itemnotinplaylist;
+case NS_E_WMPCORE_PLAYLISTEMPTY:
+	return ns_e_wmpcore_playlistempty;
+case NS_E_WMPCORE_PLAYLISTEMPTY:
+	return ns_e_wmpcore_playlistempty;
+case NS_E_WMPCORE_PLAYLISTEMPTY:
+	return ns_e_wmpcore_playlistempty;
+case NS_E_WMPCORE_NOBROWSER:
+	return ns_e_wmpcore_nobrowser;
+case NS_E_WMPCORE_NOBROWSER:
+	return ns_e_wmpcore_nobrowser;
+case NS_E_WMPCORE_NOBROWSER:
+	return ns_e_wmpcore_nobrowser;
+case NS_E_WMPCORE_UNRECOGNIZED_MEDIA_URL:
+	return ns_e_wmpcore_unrecognized_media_url;
+case NS_E_WMPCORE_UNRECOGNIZED_MEDIA_URL:
+	return ns_e_wmpcore_unrecognized_media_url;
+case NS_E_WMPCORE_UNRECOGNIZED_MEDIA_URL:
+	return ns_e_wmpcore_unrecognized_media_url;
+case NS_E_WMPCORE_GRAPH_NOT_IN_LIST:
+	return ns_e_wmpcore_graph_not_in_list;
+case NS_E_WMPCORE_GRAPH_NOT_IN_LIST:
+	return ns_e_wmpcore_graph_not_in_list;
+case NS_E_WMPCORE_GRAPH_NOT_IN_LIST:
+	return ns_e_wmpcore_graph_not_in_list;
+case NS_E_WMPCORE_PLAYLIST_EMPTY_OR_SINGLE_MEDIA:
+	return ns_e_wmpcore_playlist_empty_or_single_media;
+case NS_E_WMPCORE_PLAYLIST_EMPTY_OR_SINGLE_MEDIA:
+	return ns_e_wmpcore_playlist_empty_or_single_media;
+case NS_E_WMPCORE_PLAYLIST_EMPTY_OR_SINGLE_MEDIA:
+	return ns_e_wmpcore_playlist_empty_or_single_media;
+case NS_E_WMPCORE_ERRORSINKNOTREGISTERED:
+	return ns_e_wmpcore_errorsinknotregistered;
+case NS_E_WMPCORE_ERRORSINKNOTREGISTERED:
+	return ns_e_wmpcore_errorsinknotregistered;
+case NS_E_WMPCORE_ERRORSINKNOTREGISTERED:
+	return ns_e_wmpcore_errorsinknotregistered;
+case NS_E_WMPCORE_ERRORMANAGERNOTAVAILABLE:
+	return ns_e_wmpcore_errormanagernotavailable;
+case NS_E_WMPCORE_ERRORMANAGERNOTAVAILABLE:
+	return ns_e_wmpcore_errormanagernotavailable;
+case NS_E_WMPCORE_ERRORMANAGERNOTAVAILABLE:
+	return ns_e_wmpcore_errormanagernotavailable;
+case NS_E_WMPCORE_WEBHELPFAILED:
+	return ns_e_wmpcore_webhelpfailed;
+case NS_E_WMPCORE_WEBHELPFAILED:
+	return ns_e_wmpcore_webhelpfailed;
+case NS_E_WMPCORE_WEBHELPFAILED:
+	return ns_e_wmpcore_webhelpfailed;
+case NS_E_WMPCORE_MEDIA_ERROR_RESUME_FAILED:
+	return ns_e_wmpcore_media_error_resume_failed;
+case NS_E_WMPCORE_MEDIA_ERROR_RESUME_FAILED:
+	return ns_e_wmpcore_media_error_resume_failed;
+case NS_E_WMPCORE_MEDIA_ERROR_RESUME_FAILED:
+	return ns_e_wmpcore_media_error_resume_failed;
+case NS_E_WMPCORE_NO_REF_IN_ENTRY:
+	return ns_e_wmpcore_no_ref_in_entry;
+case NS_E_WMPCORE_NO_REF_IN_ENTRY:
+	return ns_e_wmpcore_no_ref_in_entry;
+case NS_E_WMPCORE_NO_REF_IN_ENTRY:
+	return ns_e_wmpcore_no_ref_in_entry;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_NAME_EMPTY:
+	return ns_e_wmpcore_wmx_list_attribute_name_empty;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_NAME_EMPTY:
+	return ns_e_wmpcore_wmx_list_attribute_name_empty;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_NAME_EMPTY:
+	return ns_e_wmpcore_wmx_list_attribute_name_empty;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_NAME_ILLEGAL:
+	return ns_e_wmpcore_wmx_list_attribute_name_illegal;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_NAME_ILLEGAL:
+	return ns_e_wmpcore_wmx_list_attribute_name_illegal;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_NAME_ILLEGAL:
+	return ns_e_wmpcore_wmx_list_attribute_name_illegal;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_VALUE_EMPTY:
+	return ns_e_wmpcore_wmx_list_attribute_value_empty;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_VALUE_EMPTY:
+	return ns_e_wmpcore_wmx_list_attribute_value_empty;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_VALUE_EMPTY:
+	return ns_e_wmpcore_wmx_list_attribute_value_empty;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_VALUE_ILLEGAL:
+	return ns_e_wmpcore_wmx_list_attribute_value_illegal;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_VALUE_ILLEGAL:
+	return ns_e_wmpcore_wmx_list_attribute_value_illegal;
+case NS_E_WMPCORE_WMX_LIST_ATTRIBUTE_VALUE_ILLEGAL:
+	return ns_e_wmpcore_wmx_list_attribute_value_illegal;
+case NS_E_WMPCORE_WMX_LIST_ITEM_ATTRIBUTE_NAME_EMPTY:
+	return ns_e_wmpcore_wmx_list_item_attribute_name_empty;
+case NS_E_WMPCORE_WMX_LIST_ITEM_ATTRIBUTE_NAME_EMPTY:
+	return ns_e_wmpcore_wmx_list_item_attribute_name_empty;
+case NS_E_WMPCORE_WMX_LIST_ITEM_ATTRIBUTE_NAME_EMPTY:
+	return ns_e_wmpcore_wmx_list_item_attribute_name_empty;
+case NS_E_WMPCORE_WMX_LIST_ITEM_ATTRIBUTE_NAME_ILLEGAL:
+	return ns_e_wmpcore_wmx_list_item_attribute_name_illegal;
+case NS_E_WMPCORE_WMX_LIST_ITEM_ATTRIBUTE_NAME_ILLEGAL:
+	return ns_e_wmpcore_wmx_list_item_attribute_name_illegal;
+case NS_E_WMPCORE_WMX_LIST_ITEM_ATTRIBUTE_NAME_ILLEGAL:
+	return ns_e_wmpcore_wmx_list_item_attribute_name_illegal;
+case NS_E_WMPCORE_WMX_LIST_ITEM_ATTRIBUTE_VALUE_EMPTY:
+	return ns_e_wmpcore_wmx_list_item_attribute_value_empty;
+case NS_E_WMPCORE_WMX_LIST_ITEM_ATTRIBUTE_VALUE_EMPTY:
+	return ns_e_wmpcore_wmx_list_item_attribute_value_empty;
+case NS_E_WMPCORE_WMX_LIST_ITEM_ATTRIBUTE_VALUE_EMPTY:
+	return ns_e_wmpcore_wmx_list_item_attribute_value_empty;
+case NS_E_WMPCORE_LIST_ENTRY_NO_REF:
+	return ns_e_wmpcore_list_entry_no_ref;
+case NS_E_WMPCORE_LIST_ENTRY_NO_REF:
+	return ns_e_wmpcore_list_entry_no_ref;
+case NS_E_WMPCORE_LIST_ENTRY_NO_REF:
+	return ns_e_wmpcore_list_entry_no_ref;
+case NS_E_WMPCORE_MISNAMED_FILE:
+	return ns_e_wmpcore_misnamed_file;
+case NS_E_WMPCORE_MISNAMED_FILE:
+	return ns_e_wmpcore_misnamed_file;
+case NS_E_WMPCORE_MISNAMED_FILE:
+	return ns_e_wmpcore_misnamed_file;
+case NS_E_WMPCORE_CODEC_NOT_TRUSTED:
+	return ns_e_wmpcore_codec_not_trusted;
+case NS_E_WMPCORE_CODEC_NOT_TRUSTED:
+	return ns_e_wmpcore_codec_not_trusted;
+case NS_E_WMPCORE_CODEC_NOT_TRUSTED:
+	return ns_e_wmpcore_codec_not_trusted;
+case NS_E_WMPCORE_CODEC_NOT_FOUND:
+	return ns_e_wmpcore_codec_not_found;
+case NS_E_WMPCORE_CODEC_NOT_FOUND:
+	return ns_e_wmpcore_codec_not_found;
+case NS_E_WMPCORE_CODEC_NOT_FOUND:
+	return ns_e_wmpcore_codec_not_found;
+case NS_E_WMPCORE_CODEC_DOWNLOAD_NOT_ALLOWED:
+	return ns_e_wmpcore_codec_download_not_allowed;
+case NS_E_WMPCORE_CODEC_DOWNLOAD_NOT_ALLOWED:
+	return ns_e_wmpcore_codec_download_not_allowed;
+case NS_E_WMPCORE_CODEC_DOWNLOAD_NOT_ALLOWED:
+	return ns_e_wmpcore_codec_download_not_allowed;
+case NS_E_WMPCORE_ERROR_DOWNLOADING_PLAYLIST:
+	return ns_e_wmpcore_error_downloading_playlist;
+case NS_E_WMPCORE_ERROR_DOWNLOADING_PLAYLIST:
+	return ns_e_wmpcore_error_downloading_playlist;
+case NS_E_WMPCORE_ERROR_DOWNLOADING_PLAYLIST:
+	return ns_e_wmpcore_error_downloading_playlist;
+case NS_E_WMPCORE_FAILED_TO_BUILD_PLAYLIST:
+	return ns_e_wmpcore_failed_to_build_playlist;
+case NS_E_WMPCORE_FAILED_TO_BUILD_PLAYLIST:
+	return ns_e_wmpcore_failed_to_build_playlist;
+case NS_E_WMPCORE_FAILED_TO_BUILD_PLAYLIST:
+	return ns_e_wmpcore_failed_to_build_playlist;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_NONE:
+	return ns_e_wmpcore_playlist_item_alternate_none;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_NONE:
+	return ns_e_wmpcore_playlist_item_alternate_none;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_NONE:
+	return ns_e_wmpcore_playlist_item_alternate_none;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_EXHAUSTED:
+	return ns_e_wmpcore_playlist_item_alternate_exhausted;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_EXHAUSTED:
+	return ns_e_wmpcore_playlist_item_alternate_exhausted;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_EXHAUSTED:
+	return ns_e_wmpcore_playlist_item_alternate_exhausted;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_NAME_NOT_FOUND:
+	return ns_e_wmpcore_playlist_item_alternate_name_not_found;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_NAME_NOT_FOUND:
+	return ns_e_wmpcore_playlist_item_alternate_name_not_found;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_NAME_NOT_FOUND:
+	return ns_e_wmpcore_playlist_item_alternate_name_not_found;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_MORPH_FAILED:
+	return ns_e_wmpcore_playlist_item_alternate_morph_failed;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_MORPH_FAILED:
+	return ns_e_wmpcore_playlist_item_alternate_morph_failed;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_MORPH_FAILED:
+	return ns_e_wmpcore_playlist_item_alternate_morph_failed;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_INIT_FAILED:
+	return ns_e_wmpcore_playlist_item_alternate_init_failed;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_INIT_FAILED:
+	return ns_e_wmpcore_playlist_item_alternate_init_failed;
+case NS_E_WMPCORE_PLAYLIST_ITEM_ALTERNATE_INIT_FAILED:
+	return ns_e_wmpcore_playlist_item_alternate_init_failed;
+case NS_E_WMPCORE_MEDIA_ALTERNATE_REF_EMPTY:
+	return ns_e_wmpcore_media_alternate_ref_empty;
+case NS_E_WMPCORE_MEDIA_ALTERNATE_REF_EMPTY:
+	return ns_e_wmpcore_media_alternate_ref_empty;
+case NS_E_WMPCORE_MEDIA_ALTERNATE_REF_EMPTY:
+	return ns_e_wmpcore_media_alternate_ref_empty;
+case NS_E_WMPCORE_PLAYLIST_NO_EVENT_NAME:
+	return ns_e_wmpcore_playlist_no_event_name;
+case NS_E_WMPCORE_PLAYLIST_NO_EVENT_NAME:
+	return ns_e_wmpcore_playlist_no_event_name;
+case NS_E_WMPCORE_PLAYLIST_NO_EVENT_NAME:
+	return ns_e_wmpcore_playlist_no_event_name;
+case NS_E_WMPCORE_PLAYLIST_EVENT_ATTRIBUTE_ABSENT:
+	return ns_e_wmpcore_playlist_event_attribute_absent;
+case NS_E_WMPCORE_PLAYLIST_EVENT_ATTRIBUTE_ABSENT:
+	return ns_e_wmpcore_playlist_event_attribute_absent;
+case NS_E_WMPCORE_PLAYLIST_EVENT_ATTRIBUTE_ABSENT:
+	return ns_e_wmpcore_playlist_event_attribute_absent;
+case NS_E_WMPCORE_PLAYLIST_EVENT_EMPTY:
+	return ns_e_wmpcore_playlist_event_empty;
+case NS_E_WMPCORE_PLAYLIST_EVENT_EMPTY:
+	return ns_e_wmpcore_playlist_event_empty;
+case NS_E_WMPCORE_PLAYLIST_EVENT_EMPTY:
+	return ns_e_wmpcore_playlist_event_empty;
+case NS_E_WMPCORE_PLAYLIST_STACK_EMPTY:
+	return ns_e_wmpcore_playlist_stack_empty;
+case NS_E_WMPCORE_PLAYLIST_STACK_EMPTY:
+	return ns_e_wmpcore_playlist_stack_empty;
+case NS_E_WMPCORE_PLAYLIST_STACK_EMPTY:
+	return ns_e_wmpcore_playlist_stack_empty;
+case NS_E_WMPCORE_CURRENT_MEDIA_NOT_ACTIVE:
+	return ns_e_wmpcore_current_media_not_active;
+case NS_E_WMPCORE_CURRENT_MEDIA_NOT_ACTIVE:
+	return ns_e_wmpcore_current_media_not_active;
+case NS_E_WMPCORE_CURRENT_MEDIA_NOT_ACTIVE:
+	return ns_e_wmpcore_current_media_not_active;
+case NS_E_WMPCORE_USER_CANCEL:
+	return ns_e_wmpcore_user_cancel;
+case NS_E_WMPCORE_USER_CANCEL:
+	return ns_e_wmpcore_user_cancel;
+case NS_E_WMPCORE_USER_CANCEL:
+	return ns_e_wmpcore_user_cancel;
+case NS_E_WMPCORE_PLAYLIST_REPEAT_EMPTY:
+	return ns_e_wmpcore_playlist_repeat_empty;
+case NS_E_WMPCORE_PLAYLIST_REPEAT_EMPTY:
+	return ns_e_wmpcore_playlist_repeat_empty;
+case NS_E_WMPCORE_PLAYLIST_REPEAT_EMPTY:
+	return ns_e_wmpcore_playlist_repeat_empty;
+case NS_E_WMPCORE_PLAYLIST_REPEAT_START_MEDIA_NONE:
+	return ns_e_wmpcore_playlist_repeat_start_media_none;
+case NS_E_WMPCORE_PLAYLIST_REPEAT_START_MEDIA_NONE:
+	return ns_e_wmpcore_playlist_repeat_start_media_none;
+case NS_E_WMPCORE_PLAYLIST_REPEAT_START_MEDIA_NONE:
+	return ns_e_wmpcore_playlist_repeat_start_media_none;
+case NS_E_WMPCORE_PLAYLIST_REPEAT_END_MEDIA_NONE:
+	return ns_e_wmpcore_playlist_repeat_end_media_none;
+case NS_E_WMPCORE_PLAYLIST_REPEAT_END_MEDIA_NONE:
+	return ns_e_wmpcore_playlist_repeat_end_media_none;
+case NS_E_WMPCORE_PLAYLIST_REPEAT_END_MEDIA_NONE:
+	return ns_e_wmpcore_playlist_repeat_end_media_none;
+case NS_E_WMPCORE_INVALID_PLAYLIST_URL:
+	return ns_e_wmpcore_invalid_playlist_url;
+case NS_E_WMPCORE_INVALID_PLAYLIST_URL:
+	return ns_e_wmpcore_invalid_playlist_url;
+case NS_E_WMPCORE_INVALID_PLAYLIST_URL:
+	return ns_e_wmpcore_invalid_playlist_url;
+case NS_E_WMPCORE_MISMATCHED_RUNTIME:
+	return ns_e_wmpcore_mismatched_runtime;
+case NS_E_WMPCORE_MISMATCHED_RUNTIME:
+	return ns_e_wmpcore_mismatched_runtime;
+case NS_E_WMPCORE_MISMATCHED_RUNTIME:
+	return ns_e_wmpcore_mismatched_runtime;
+case NS_E_WMPCORE_PLAYLIST_IMPORT_FAILED_NO_ITEMS:
+	return ns_e_wmpcore_playlist_import_failed_no_items;
+case NS_E_WMPCORE_PLAYLIST_IMPORT_FAILED_NO_ITEMS:
+	return ns_e_wmpcore_playlist_import_failed_no_items;
+case NS_E_WMPCORE_PLAYLIST_IMPORT_FAILED_NO_ITEMS:
+	return ns_e_wmpcore_playlist_import_failed_no_items;
+case NS_E_WMPCORE_VIDEO_TRANSFORM_FILTER_INSERTION:
+	return ns_e_wmpcore_video_transform_filter_insertion;
+case NS_E_WMPCORE_VIDEO_TRANSFORM_FILTER_INSERTION:
+	return ns_e_wmpcore_video_transform_filter_insertion;
+case NS_E_WMPCORE_VIDEO_TRANSFORM_FILTER_INSERTION:
+	return ns_e_wmpcore_video_transform_filter_insertion;
+case NS_E_WMPCORE_MEDIA_UNAVAILABLE:
+	return ns_e_wmpcore_media_unavailable;
+case NS_E_WMPCORE_MEDIA_UNAVAILABLE:
+	return ns_e_wmpcore_media_unavailable;
+case NS_E_WMPCORE_MEDIA_UNAVAILABLE:
+	return ns_e_wmpcore_media_unavailable;
+case NS_E_WMPCORE_WMX_ENTRYREF_NO_REF:
+	return ns_e_wmpcore_wmx_entryref_no_ref;
+case NS_E_WMPCORE_WMX_ENTRYREF_NO_REF:
+	return ns_e_wmpcore_wmx_entryref_no_ref;
+case NS_E_WMPCORE_WMX_ENTRYREF_NO_REF:
+	return ns_e_wmpcore_wmx_entryref_no_ref;
+case NS_E_WMPCORE_NO_PLAYABLE_MEDIA_IN_PLAYLIST:
+	return ns_e_wmpcore_no_playable_media_in_playlist;
+case NS_E_WMPCORE_NO_PLAYABLE_MEDIA_IN_PLAYLIST:
+	return ns_e_wmpcore_no_playable_media_in_playlist;
+case NS_E_WMPCORE_NO_PLAYABLE_MEDIA_IN_PLAYLIST:
+	return ns_e_wmpcore_no_playable_media_in_playlist;
+case NS_E_WMPCORE_PLAYLIST_EMPTY_NESTED_PLAYLIST_SKIPPED_ITEMS:
+	return ns_e_wmpcore_playlist_empty_nested_playlist_skipped_items;
+case NS_E_WMPCORE_PLAYLIST_EMPTY_NESTED_PLAYLIST_SKIPPED_ITEMS:
+	return ns_e_wmpcore_playlist_empty_nested_playlist_skipped_items;
+case NS_E_WMPCORE_PLAYLIST_EMPTY_NESTED_PLAYLIST_SKIPPED_ITEMS:
+	return ns_e_wmpcore_playlist_empty_nested_playlist_skipped_items;
+case NS_E_WMPCORE_BUSY:
+	return ns_e_wmpcore_busy;
+case NS_E_WMPCORE_BUSY:
+	return ns_e_wmpcore_busy;
+case NS_E_WMPCORE_BUSY:
+	return ns_e_wmpcore_busy;
+case NS_E_WMPCORE_MEDIA_CHILD_PLAYLIST_UNAVAILABLE:
+	return ns_e_wmpcore_media_child_playlist_unavailable;
+case NS_E_WMPCORE_MEDIA_CHILD_PLAYLIST_UNAVAILABLE:
+	return ns_e_wmpcore_media_child_playlist_unavailable;
+case NS_E_WMPCORE_MEDIA_CHILD_PLAYLIST_UNAVAILABLE:
+	return ns_e_wmpcore_media_child_playlist_unavailable;
+case NS_E_WMPCORE_MEDIA_NO_CHILD_PLAYLIST:
+	return ns_e_wmpcore_media_no_child_playlist;
+case NS_E_WMPCORE_MEDIA_NO_CHILD_PLAYLIST:
+	return ns_e_wmpcore_media_no_child_playlist;
+case NS_E_WMPCORE_MEDIA_NO_CHILD_PLAYLIST:
+	return ns_e_wmpcore_media_no_child_playlist;
+case NS_E_WMPCORE_FILE_NOT_FOUND:
+	return ns_e_wmpcore_file_not_found;
+case NS_E_WMPCORE_FILE_NOT_FOUND:
+	return ns_e_wmpcore_file_not_found;
+case NS_E_WMPCORE_FILE_NOT_FOUND:
+	return ns_e_wmpcore_file_not_found;
+case NS_E_WMPCORE_TEMP_FILE_NOT_FOUND:
+	return ns_e_wmpcore_temp_file_not_found;
+case NS_E_WMPCORE_TEMP_FILE_NOT_FOUND:
+	return ns_e_wmpcore_temp_file_not_found;
+case NS_E_WMPCORE_TEMP_FILE_NOT_FOUND:
+	return ns_e_wmpcore_temp_file_not_found;
+case NS_E_WMDM_REVOKED:
+	return ns_e_wmdm_revoked;
+case NS_E_WMDM_REVOKED:
+	return ns_e_wmdm_revoked;
+case NS_E_WMDM_REVOKED:
+	return ns_e_wmdm_revoked;
+case NS_E_DDRAW_GENERIC:
+	return ns_e_ddraw_generic;
+case NS_E_DDRAW_GENERIC:
+	return ns_e_ddraw_generic;
+case NS_E_DDRAW_GENERIC:
+	return ns_e_ddraw_generic;
+case NS_E_DISPLAY_MODE_CHANGE_FAILED:
+	return ns_e_display_mode_change_failed;
+case NS_E_DISPLAY_MODE_CHANGE_FAILED:
+	return ns_e_display_mode_change_failed;
+case NS_E_DISPLAY_MODE_CHANGE_FAILED:
+	return ns_e_display_mode_change_failed;
+case NS_E_PLAYLIST_CONTAINS_ERRORS:
+	return ns_e_playlist_contains_errors;
+case NS_E_PLAYLIST_CONTAINS_ERRORS:
+	return ns_e_playlist_contains_errors;
+case NS_E_PLAYLIST_CONTAINS_ERRORS:
+	return ns_e_playlist_contains_errors;
+case NS_E_CHANGING_PROXY_NAME:
+	return ns_e_changing_proxy_name;
+case NS_E_CHANGING_PROXY_NAME:
+	return ns_e_changing_proxy_name;
+case NS_E_CHANGING_PROXY_NAME:
+	return ns_e_changing_proxy_name;
+case NS_E_CHANGING_PROXY_PORT:
+	return ns_e_changing_proxy_port;
+case NS_E_CHANGING_PROXY_PORT:
+	return ns_e_changing_proxy_port;
+case NS_E_CHANGING_PROXY_PORT:
+	return ns_e_changing_proxy_port;
+case NS_E_CHANGING_PROXY_EXCEPTIONLIST:
+	return ns_e_changing_proxy_exceptionlist;
+case NS_E_CHANGING_PROXY_EXCEPTIONLIST:
+	return ns_e_changing_proxy_exceptionlist;
+case NS_E_CHANGING_PROXY_EXCEPTIONLIST:
+	return ns_e_changing_proxy_exceptionlist;
+case NS_E_CHANGING_PROXYBYPASS:
+	return ns_e_changing_proxybypass;
+case NS_E_CHANGING_PROXYBYPASS:
+	return ns_e_changing_proxybypass;
+case NS_E_CHANGING_PROXYBYPASS:
+	return ns_e_changing_proxybypass;
+case NS_E_CHANGING_PROXY_PROTOCOL_NOT_FOUND:
+	return ns_e_changing_proxy_protocol_not_found;
+case NS_E_CHANGING_PROXY_PROTOCOL_NOT_FOUND:
+	return ns_e_changing_proxy_protocol_not_found;
+case NS_E_CHANGING_PROXY_PROTOCOL_NOT_FOUND:
+	return ns_e_changing_proxy_protocol_not_found;
+case NS_E_GRAPH_NOAUDIOLANGUAGE:
+	return ns_e_graph_noaudiolanguage;
+case NS_E_GRAPH_NOAUDIOLANGUAGE:
+	return ns_e_graph_noaudiolanguage;
+case NS_E_GRAPH_NOAUDIOLANGUAGE:
+	return ns_e_graph_noaudiolanguage;
+case NS_E_GRAPH_NOAUDIOLANGUAGESELECTED:
+	return ns_e_graph_noaudiolanguageselected;
+case NS_E_GRAPH_NOAUDIOLANGUAGESELECTED:
+	return ns_e_graph_noaudiolanguageselected;
+case NS_E_GRAPH_NOAUDIOLANGUAGESELECTED:
+	return ns_e_graph_noaudiolanguageselected;
+case NS_E_CORECD_NOTAMEDIACD:
+	return ns_e_corecd_notamediacd;
+case NS_E_CORECD_NOTAMEDIACD:
+	return ns_e_corecd_notamediacd;
+case NS_E_CORECD_NOTAMEDIACD:
+	return ns_e_corecd_notamediacd;
+case NS_E_WMPCORE_MEDIA_URL_TOO_LONG:
+	return ns_e_wmpcore_media_url_too_long;
+case NS_E_WMPCORE_MEDIA_URL_TOO_LONG:
+	return ns_e_wmpcore_media_url_too_long;
+case NS_E_WMPCORE_MEDIA_URL_TOO_LONG:
+	return ns_e_wmpcore_media_url_too_long;
+case NS_E_WMPFLASH_CANT_FIND_COM_SERVER:
+	return ns_e_wmpflash_cant_find_com_server;
+case NS_E_WMPFLASH_CANT_FIND_COM_SERVER:
+	return ns_e_wmpflash_cant_find_com_server;
+case NS_E_WMPFLASH_CANT_FIND_COM_SERVER:
+	return ns_e_wmpflash_cant_find_com_server;
+case NS_E_WMPFLASH_INCOMPATIBLEVERSION:
+	return ns_e_wmpflash_incompatibleversion;
+case NS_E_WMPFLASH_INCOMPATIBLEVERSION:
+	return ns_e_wmpflash_incompatibleversion;
+case NS_E_WMPFLASH_INCOMPATIBLEVERSION:
+	return ns_e_wmpflash_incompatibleversion;
+case NS_E_WMPOCXGRAPH_IE_DISALLOWS_ACTIVEX_CONTROLS:
+	return ns_e_wmpocxgraph_ie_disallows_activex_controls;
+case NS_E_WMPOCXGRAPH_IE_DISALLOWS_ACTIVEX_CONTROLS:
+	return ns_e_wmpocxgraph_ie_disallows_activex_controls;
+case NS_E_WMPOCXGRAPH_IE_DISALLOWS_ACTIVEX_CONTROLS:
+	return ns_e_wmpocxgraph_ie_disallows_activex_controls;
+case NS_E_NEED_CORE_REFERENCE:
+	return ns_e_need_core_reference;
+case NS_E_NEED_CORE_REFERENCE:
+	return ns_e_need_core_reference;
+case NS_E_NEED_CORE_REFERENCE:
+	return ns_e_need_core_reference;
+case NS_E_MEDIACD_READ_ERROR:
+	return ns_e_mediacd_read_error;
+case NS_E_MEDIACD_READ_ERROR:
+	return ns_e_mediacd_read_error;
+case NS_E_MEDIACD_READ_ERROR:
+	return ns_e_mediacd_read_error;
+case NS_E_IE_DISALLOWS_ACTIVEX_CONTROLS:
+	return ns_e_ie_disallows_activex_controls;
+case NS_E_IE_DISALLOWS_ACTIVEX_CONTROLS:
+	return ns_e_ie_disallows_activex_controls;
+case NS_E_IE_DISALLOWS_ACTIVEX_CONTROLS:
+	return ns_e_ie_disallows_activex_controls;
+case NS_E_FLASH_PLAYBACK_NOT_ALLOWED:
+	return ns_e_flash_playback_not_allowed;
+case NS_E_FLASH_PLAYBACK_NOT_ALLOWED:
+	return ns_e_flash_playback_not_allowed;
+case NS_E_FLASH_PLAYBACK_NOT_ALLOWED:
+	return ns_e_flash_playback_not_allowed;
+case NS_E_UNABLE_TO_CREATE_RIP_LOCATION:
+	return ns_e_unable_to_create_rip_location;
+case NS_E_UNABLE_TO_CREATE_RIP_LOCATION:
+	return ns_e_unable_to_create_rip_location;
+case NS_E_UNABLE_TO_CREATE_RIP_LOCATION:
+	return ns_e_unable_to_create_rip_location;
+case NS_E_WMPCORE_SOME_CODECS_MISSING:
+	return ns_e_wmpcore_some_codecs_missing;
+case NS_E_WMPCORE_SOME_CODECS_MISSING:
+	return ns_e_wmpcore_some_codecs_missing;
+case NS_E_WMPCORE_SOME_CODECS_MISSING:
+	return ns_e_wmpcore_some_codecs_missing;
+case NS_E_WMP_RIP_FAILED:
+	return ns_e_wmp_rip_failed;
+case NS_E_WMP_RIP_FAILED:
+	return ns_e_wmp_rip_failed;
+case NS_E_WMP_RIP_FAILED:
+	return ns_e_wmp_rip_failed;
+case NS_E_WMP_FAILED_TO_RIP_TRACK:
+	return ns_e_wmp_failed_to_rip_track;
+case NS_E_WMP_FAILED_TO_RIP_TRACK:
+	return ns_e_wmp_failed_to_rip_track;
+case NS_E_WMP_FAILED_TO_RIP_TRACK:
+	return ns_e_wmp_failed_to_rip_track;
+case NS_E_WMP_ERASE_FAILED:
+	return ns_e_wmp_erase_failed;
+case NS_E_WMP_ERASE_FAILED:
+	return ns_e_wmp_erase_failed;
+case NS_E_WMP_ERASE_FAILED:
+	return ns_e_wmp_erase_failed;
+case NS_E_WMP_FORMAT_FAILED:
+	return ns_e_wmp_format_failed;
+case NS_E_WMP_FORMAT_FAILED:
+	return ns_e_wmp_format_failed;
+case NS_E_WMP_FORMAT_FAILED:
+	return ns_e_wmp_format_failed;
+case NS_E_WMP_CANNOT_BURN_NON_LOCAL_FILE:
+	return ns_e_wmp_cannot_burn_non_local_file;
+case NS_E_WMP_CANNOT_BURN_NON_LOCAL_FILE:
+	return ns_e_wmp_cannot_burn_non_local_file;
+case NS_E_WMP_CANNOT_BURN_NON_LOCAL_FILE:
+	return ns_e_wmp_cannot_burn_non_local_file;
+case NS_E_WMP_FILE_TYPE_CANNOT_BURN_TO_AUDIO_CD:
+	return ns_e_wmp_file_type_cannot_burn_to_audio_cd;
+case NS_E_WMP_FILE_TYPE_CANNOT_BURN_TO_AUDIO_CD:
+	return ns_e_wmp_file_type_cannot_burn_to_audio_cd;
+case NS_E_WMP_FILE_TYPE_CANNOT_BURN_TO_AUDIO_CD:
+	return ns_e_wmp_file_type_cannot_burn_to_audio_cd;
+case NS_E_WMP_FILE_DOES_NOT_FIT_ON_CD:
+	return ns_e_wmp_file_does_not_fit_on_cd;
+case NS_E_WMP_FILE_DOES_NOT_FIT_ON_CD:
+	return ns_e_wmp_file_does_not_fit_on_cd;
+case NS_E_WMP_FILE_DOES_NOT_FIT_ON_CD:
+	return ns_e_wmp_file_does_not_fit_on_cd;
+case NS_E_WMP_FILE_NO_DURATION:
+	return ns_e_wmp_file_no_duration;
+case NS_E_WMP_FILE_NO_DURATION:
+	return ns_e_wmp_file_no_duration;
+case NS_E_WMP_FILE_NO_DURATION:
+	return ns_e_wmp_file_no_duration;
+case NS_E_PDA_FAILED_TO_BURN:
+	return ns_e_pda_failed_to_burn;
+case NS_E_PDA_FAILED_TO_BURN:
+	return ns_e_pda_failed_to_burn;
+case NS_E_PDA_FAILED_TO_BURN:
+	return ns_e_pda_failed_to_burn;
+case NS_E_FAILED_DOWNLOAD_ABORT_BURN:
+	return ns_e_failed_download_abort_burn;
+case NS_E_FAILED_DOWNLOAD_ABORT_BURN:
+	return ns_e_failed_download_abort_burn;
+case NS_E_FAILED_DOWNLOAD_ABORT_BURN:
+	return ns_e_failed_download_abort_burn;
+case NS_E_WMPCORE_DEVICE_DRIVERS_MISSING:
+	return ns_e_wmpcore_device_drivers_missing;
+case NS_E_WMPCORE_DEVICE_DRIVERS_MISSING:
+	return ns_e_wmpcore_device_drivers_missing;
+case NS_E_WMPCORE_DEVICE_DRIVERS_MISSING:
+	return ns_e_wmpcore_device_drivers_missing;
+case NS_E_WMPIM_USEROFFLINE:
+	return ns_e_wmpim_useroffline;
+case NS_E_WMPIM_USEROFFLINE:
+	return ns_e_wmpim_useroffline;
+case NS_E_WMPIM_USEROFFLINE:
+	return ns_e_wmpim_useroffline;
+case NS_E_WMPIM_USERCANCELED:
+	return ns_e_wmpim_usercanceled;
+case NS_E_WMPIM_USERCANCELED:
+	return ns_e_wmpim_usercanceled;
+case NS_E_WMPIM_USERCANCELED:
+	return ns_e_wmpim_usercanceled;
+case NS_E_WMPIM_DIALUPFAILED:
+	return ns_e_wmpim_dialupfailed;
+case NS_E_WMPIM_DIALUPFAILED:
+	return ns_e_wmpim_dialupfailed;
+case NS_E_WMPIM_DIALUPFAILED:
+	return ns_e_wmpim_dialupfailed;
+case NS_E_WINSOCK_ERROR_STRING:
+	return ns_e_winsock_error_string;
+case NS_E_WINSOCK_ERROR_STRING:
+	return ns_e_winsock_error_string;
+case NS_E_WINSOCK_ERROR_STRING:
+	return ns_e_winsock_error_string;
+case NS_E_WMPBR_NOLISTENER:
+	return ns_e_wmpbr_nolistener;
+case NS_E_WMPBR_NOLISTENER:
+	return ns_e_wmpbr_nolistener;
+case NS_E_WMPBR_NOLISTENER:
+	return ns_e_wmpbr_nolistener;
+case NS_E_WMPBR_BACKUPCANCEL:
+	return ns_e_wmpbr_backupcancel;
+case NS_E_WMPBR_BACKUPCANCEL:
+	return ns_e_wmpbr_backupcancel;
+case NS_E_WMPBR_BACKUPCANCEL:
+	return ns_e_wmpbr_backupcancel;
+case NS_E_WMPBR_RESTORECANCEL:
+	return ns_e_wmpbr_restorecancel;
+case NS_E_WMPBR_RESTORECANCEL:
+	return ns_e_wmpbr_restorecancel;
+case NS_E_WMPBR_RESTORECANCEL:
+	return ns_e_wmpbr_restorecancel;
+case NS_E_WMPBR_ERRORWITHURL:
+	return ns_e_wmpbr_errorwithurl;
+case NS_E_WMPBR_ERRORWITHURL:
+	return ns_e_wmpbr_errorwithurl;
+case NS_E_WMPBR_ERRORWITHURL:
+	return ns_e_wmpbr_errorwithurl;
+case NS_E_WMPBR_NAMECOLLISION:
+	return ns_e_wmpbr_namecollision;
+case NS_E_WMPBR_NAMECOLLISION:
+	return ns_e_wmpbr_namecollision;
+case NS_E_WMPBR_NAMECOLLISION:
+	return ns_e_wmpbr_namecollision;
+case NS_E_WMPBR_DRIVE_INVALID:
+	return ns_e_wmpbr_drive_invalid;
+case NS_E_WMPBR_DRIVE_INVALID:
+	return ns_e_wmpbr_drive_invalid;
+case NS_E_WMPBR_DRIVE_INVALID:
+	return ns_e_wmpbr_drive_invalid;
+case NS_E_WMPBR_BACKUPRESTOREFAILED:
+	return ns_e_wmpbr_backuprestorefailed;
+case NS_E_WMPBR_BACKUPRESTOREFAILED:
+	return ns_e_wmpbr_backuprestorefailed;
+case NS_E_WMPBR_BACKUPRESTOREFAILED:
+	return ns_e_wmpbr_backuprestorefailed;
+case NS_E_WMP_CONVERT_FILE_FAILED:
+	return ns_e_wmp_convert_file_failed;
+case NS_E_WMP_CONVERT_FILE_FAILED:
+	return ns_e_wmp_convert_file_failed;
+case NS_E_WMP_CONVERT_FILE_FAILED:
+	return ns_e_wmp_convert_file_failed;
+case NS_E_WMP_CONVERT_NO_RIGHTS_ERRORURL:
+	return ns_e_wmp_convert_no_rights_errorurl;
+case NS_E_WMP_CONVERT_NO_RIGHTS_ERRORURL:
+	return ns_e_wmp_convert_no_rights_errorurl;
+case NS_E_WMP_CONVERT_NO_RIGHTS_ERRORURL:
+	return ns_e_wmp_convert_no_rights_errorurl;
+case NS_E_WMP_CONVERT_NO_RIGHTS_NOERRORURL:
+	return ns_e_wmp_convert_no_rights_noerrorurl;
+case NS_E_WMP_CONVERT_NO_RIGHTS_NOERRORURL:
+	return ns_e_wmp_convert_no_rights_noerrorurl;
+case NS_E_WMP_CONVERT_NO_RIGHTS_NOERRORURL:
+	return ns_e_wmp_convert_no_rights_noerrorurl;
+case NS_E_WMP_CONVERT_FILE_CORRUPT:
+	return ns_e_wmp_convert_file_corrupt;
+case NS_E_WMP_CONVERT_FILE_CORRUPT:
+	return ns_e_wmp_convert_file_corrupt;
+case NS_E_WMP_CONVERT_FILE_CORRUPT:
+	return ns_e_wmp_convert_file_corrupt;
+case NS_E_WMP_CONVERT_PLUGIN_UNAVAILABLE_ERRORURL:
+	return ns_e_wmp_convert_plugin_unavailable_errorurl;
+case NS_E_WMP_CONVERT_PLUGIN_UNAVAILABLE_ERRORURL:
+	return ns_e_wmp_convert_plugin_unavailable_errorurl;
+case NS_E_WMP_CONVERT_PLUGIN_UNAVAILABLE_ERRORURL:
+	return ns_e_wmp_convert_plugin_unavailable_errorurl;
+case NS_E_WMP_CONVERT_PLUGIN_UNAVAILABLE_NOERRORURL:
+	return ns_e_wmp_convert_plugin_unavailable_noerrorurl;
+case NS_E_WMP_CONVERT_PLUGIN_UNAVAILABLE_NOERRORURL:
+	return ns_e_wmp_convert_plugin_unavailable_noerrorurl;
+case NS_E_WMP_CONVERT_PLUGIN_UNAVAILABLE_NOERRORURL:
+	return ns_e_wmp_convert_plugin_unavailable_noerrorurl;
+case NS_E_WMP_CONVERT_PLUGIN_UNKNOWN_FILE_OWNER:
+	return ns_e_wmp_convert_plugin_unknown_file_owner;
+case NS_E_WMP_CONVERT_PLUGIN_UNKNOWN_FILE_OWNER:
+	return ns_e_wmp_convert_plugin_unknown_file_owner;
+case NS_E_WMP_CONVERT_PLUGIN_UNKNOWN_FILE_OWNER:
+	return ns_e_wmp_convert_plugin_unknown_file_owner;
+case NS_E_DVD_DISC_COPY_PROTECT_OUTPUT_NS:
+	return ns_e_dvd_disc_copy_protect_output_ns;
+case NS_E_DVD_DISC_COPY_PROTECT_OUTPUT_NS:
+	return ns_e_dvd_disc_copy_protect_output_ns;
+case NS_E_DVD_DISC_COPY_PROTECT_OUTPUT_NS:
+	return ns_e_dvd_disc_copy_protect_output_ns;
+case NS_E_DVD_DISC_COPY_PROTECT_OUTPUT_FAILED:
+	return ns_e_dvd_disc_copy_protect_output_failed;
+case NS_E_DVD_DISC_COPY_PROTECT_OUTPUT_FAILED:
+	return ns_e_dvd_disc_copy_protect_output_failed;
+case NS_E_DVD_DISC_COPY_PROTECT_OUTPUT_FAILED:
+	return ns_e_dvd_disc_copy_protect_output_failed;
+case NS_E_DVD_NO_SUBPICTURE_STREAM:
+	return ns_e_dvd_no_subpicture_stream;
+case NS_E_DVD_NO_SUBPICTURE_STREAM:
+	return ns_e_dvd_no_subpicture_stream;
+case NS_E_DVD_NO_SUBPICTURE_STREAM:
+	return ns_e_dvd_no_subpicture_stream;
+case NS_E_DVD_COPY_PROTECT:
+	return ns_e_dvd_copy_protect;
+case NS_E_DVD_COPY_PROTECT:
+	return ns_e_dvd_copy_protect;
+case NS_E_DVD_COPY_PROTECT:
+	return ns_e_dvd_copy_protect;
+case NS_E_DVD_AUTHORING_PROBLEM:
+	return ns_e_dvd_authoring_problem;
+case NS_E_DVD_AUTHORING_PROBLEM:
+	return ns_e_dvd_authoring_problem;
+case NS_E_DVD_AUTHORING_PROBLEM:
+	return ns_e_dvd_authoring_problem;
+case NS_E_DVD_INVALID_DISC_REGION:
+	return ns_e_dvd_invalid_disc_region;
+case NS_E_DVD_INVALID_DISC_REGION:
+	return ns_e_dvd_invalid_disc_region;
+case NS_E_DVD_INVALID_DISC_REGION:
+	return ns_e_dvd_invalid_disc_region;
+case NS_E_DVD_COMPATIBLE_VIDEO_CARD:
+	return ns_e_dvd_compatible_video_card;
+case NS_E_DVD_COMPATIBLE_VIDEO_CARD:
+	return ns_e_dvd_compatible_video_card;
+case NS_E_DVD_COMPATIBLE_VIDEO_CARD:
+	return ns_e_dvd_compatible_video_card;
+case NS_E_DVD_MACROVISION:
+	return ns_e_dvd_macrovision;
+case NS_E_DVD_MACROVISION:
+	return ns_e_dvd_macrovision;
+case NS_E_DVD_MACROVISION:
+	return ns_e_dvd_macrovision;
+case NS_E_DVD_SYSTEM_DECODER_REGION:
+	return ns_e_dvd_system_decoder_region;
+case NS_E_DVD_SYSTEM_DECODER_REGION:
+	return ns_e_dvd_system_decoder_region;
+case NS_E_DVD_SYSTEM_DECODER_REGION:
+	return ns_e_dvd_system_decoder_region;
+case NS_E_DVD_DISC_DECODER_REGION:
+	return ns_e_dvd_disc_decoder_region;
+case NS_E_DVD_DISC_DECODER_REGION:
+	return ns_e_dvd_disc_decoder_region;
+case NS_E_DVD_DISC_DECODER_REGION:
+	return ns_e_dvd_disc_decoder_region;
+case NS_E_DVD_NO_VIDEO_STREAM:
+	return ns_e_dvd_no_video_stream;
+case NS_E_DVD_NO_VIDEO_STREAM:
+	return ns_e_dvd_no_video_stream;
+case NS_E_DVD_NO_VIDEO_STREAM:
+	return ns_e_dvd_no_video_stream;
+case NS_E_DVD_NO_AUDIO_STREAM:
+	return ns_e_dvd_no_audio_stream;
+case NS_E_DVD_NO_AUDIO_STREAM:
+	return ns_e_dvd_no_audio_stream;
+case NS_E_DVD_NO_AUDIO_STREAM:
+	return ns_e_dvd_no_audio_stream;
+case NS_E_DVD_GRAPH_BUILDING:
+	return ns_e_dvd_graph_building;
+case NS_E_DVD_GRAPH_BUILDING:
+	return ns_e_dvd_graph_building;
+case NS_E_DVD_GRAPH_BUILDING:
+	return ns_e_dvd_graph_building;
+case NS_E_DVD_NO_DECODER:
+	return ns_e_dvd_no_decoder;
+case NS_E_DVD_NO_DECODER:
+	return ns_e_dvd_no_decoder;
+case NS_E_DVD_NO_DECODER:
+	return ns_e_dvd_no_decoder;
+case NS_E_DVD_PARENTAL:
+	return ns_e_dvd_parental;
+case NS_E_DVD_PARENTAL:
+	return ns_e_dvd_parental;
+case NS_E_DVD_PARENTAL:
+	return ns_e_dvd_parental;
+case NS_E_DVD_CANNOT_JUMP:
+	return ns_e_dvd_cannot_jump;
+case NS_E_DVD_CANNOT_JUMP:
+	return ns_e_dvd_cannot_jump;
+case NS_E_DVD_CANNOT_JUMP:
+	return ns_e_dvd_cannot_jump;
+case NS_E_DVD_DEVICE_CONTENTION:
+	return ns_e_dvd_device_contention;
+case NS_E_DVD_DEVICE_CONTENTION:
+	return ns_e_dvd_device_contention;
+case NS_E_DVD_DEVICE_CONTENTION:
+	return ns_e_dvd_device_contention;
+case NS_E_DVD_NO_VIDEO_MEMORY:
+	return ns_e_dvd_no_video_memory;
+case NS_E_DVD_NO_VIDEO_MEMORY:
+	return ns_e_dvd_no_video_memory;
+case NS_E_DVD_NO_VIDEO_MEMORY:
+	return ns_e_dvd_no_video_memory;
+case NS_E_DVD_CANNOT_COPY_PROTECTED:
+	return ns_e_dvd_cannot_copy_protected;
+case NS_E_DVD_CANNOT_COPY_PROTECTED:
+	return ns_e_dvd_cannot_copy_protected;
+case NS_E_DVD_CANNOT_COPY_PROTECTED:
+	return ns_e_dvd_cannot_copy_protected;
+case NS_E_DVD_REQUIRED_PROPERTY_NOT_SET:
+	return ns_e_dvd_required_property_not_set;
+case NS_E_DVD_REQUIRED_PROPERTY_NOT_SET:
+	return ns_e_dvd_required_property_not_set;
+case NS_E_DVD_REQUIRED_PROPERTY_NOT_SET:
+	return ns_e_dvd_required_property_not_set;
+case NS_E_DVD_INVALID_TITLE_CHAPTER:
+	return ns_e_dvd_invalid_title_chapter;
+case NS_E_DVD_INVALID_TITLE_CHAPTER:
+	return ns_e_dvd_invalid_title_chapter;
+case NS_E_DVD_INVALID_TITLE_CHAPTER:
+	return ns_e_dvd_invalid_title_chapter;
+case NS_E_NO_CD_BURNER:
+	return ns_e_no_cd_burner;
+case NS_E_NO_CD_BURNER:
+	return ns_e_no_cd_burner;
+case NS_E_NO_CD_BURNER:
+	return ns_e_no_cd_burner;
+case NS_E_DEVICE_IS_NOT_READY:
+	return ns_e_device_is_not_ready;
+case NS_E_DEVICE_IS_NOT_READY:
+	return ns_e_device_is_not_ready;
+case NS_E_DEVICE_IS_NOT_READY:
+	return ns_e_device_is_not_ready;
+case NS_E_PDA_UNSUPPORTED_FORMAT:
+	return ns_e_pda_unsupported_format;
+case NS_E_PDA_UNSUPPORTED_FORMAT:
+	return ns_e_pda_unsupported_format;
+case NS_E_PDA_UNSUPPORTED_FORMAT:
+	return ns_e_pda_unsupported_format;
+case NS_E_NO_PDA:
+	return ns_e_no_pda;
+case NS_E_NO_PDA:
+	return ns_e_no_pda;
+case NS_E_NO_PDA:
+	return ns_e_no_pda;
+case NS_E_PDA_UNSPECIFIED_ERROR:
+	return ns_e_pda_unspecified_error;
+case NS_E_PDA_UNSPECIFIED_ERROR:
+	return ns_e_pda_unspecified_error;
+case NS_E_PDA_UNSPECIFIED_ERROR:
+	return ns_e_pda_unspecified_error;
+case NS_E_MEMSTORAGE_BAD_DATA:
+	return ns_e_memstorage_bad_data;
+case NS_E_MEMSTORAGE_BAD_DATA:
+	return ns_e_memstorage_bad_data;
+case NS_E_MEMSTORAGE_BAD_DATA:
+	return ns_e_memstorage_bad_data;
+case NS_E_PDA_FAIL_SELECT_DEVICE:
+	return ns_e_pda_fail_select_device;
+case NS_E_PDA_FAIL_SELECT_DEVICE:
+	return ns_e_pda_fail_select_device;
+case NS_E_PDA_FAIL_SELECT_DEVICE:
+	return ns_e_pda_fail_select_device;
+case NS_E_PDA_FAIL_READ_WAVE_FILE:
+	return ns_e_pda_fail_read_wave_file;
+case NS_E_PDA_FAIL_READ_WAVE_FILE:
+	return ns_e_pda_fail_read_wave_file;
+case NS_E_PDA_FAIL_READ_WAVE_FILE:
+	return ns_e_pda_fail_read_wave_file;
+case NS_E_IMAPI_LOSSOFSTREAMING:
+	return ns_e_imapi_lossofstreaming;
+case NS_E_IMAPI_LOSSOFSTREAMING:
+	return ns_e_imapi_lossofstreaming;
+case NS_E_IMAPI_LOSSOFSTREAMING:
+	return ns_e_imapi_lossofstreaming;
+case NS_E_PDA_DEVICE_FULL:
+	return ns_e_pda_device_full;
+case NS_E_PDA_DEVICE_FULL:
+	return ns_e_pda_device_full;
+case NS_E_PDA_DEVICE_FULL:
+	return ns_e_pda_device_full;
+case NS_E_FAIL_LAUNCH_ROXIO_PLUGIN:
+	return ns_e_fail_launch_roxio_plugin;
+case NS_E_FAIL_LAUNCH_ROXIO_PLUGIN:
+	return ns_e_fail_launch_roxio_plugin;
+case NS_E_FAIL_LAUNCH_ROXIO_PLUGIN:
+	return ns_e_fail_launch_roxio_plugin;
+case NS_E_PDA_DEVICE_FULL_IN_SESSION:
+	return ns_e_pda_device_full_in_session;
+case NS_E_PDA_DEVICE_FULL_IN_SESSION:
+	return ns_e_pda_device_full_in_session;
+case NS_E_PDA_DEVICE_FULL_IN_SESSION:
+	return ns_e_pda_device_full_in_session;
+case NS_E_IMAPI_MEDIUM_INVALIDTYPE:
+	return ns_e_imapi_medium_invalidtype;
+case NS_E_IMAPI_MEDIUM_INVALIDTYPE:
+	return ns_e_imapi_medium_invalidtype;
+case NS_E_IMAPI_MEDIUM_INVALIDTYPE:
+	return ns_e_imapi_medium_invalidtype;
+case NS_E_PDA_MANUALDEVICE:
+	return ns_e_pda_manualdevice;
+case NS_E_PDA_MANUALDEVICE:
+	return ns_e_pda_manualdevice;
+case NS_E_PDA_MANUALDEVICE:
+	return ns_e_pda_manualdevice;
+case NS_E_PDA_PARTNERSHIPNOTEXIST:
+	return ns_e_pda_partnershipnotexist;
+case NS_E_PDA_PARTNERSHIPNOTEXIST:
+	return ns_e_pda_partnershipnotexist;
+case NS_E_PDA_PARTNERSHIPNOTEXIST:
+	return ns_e_pda_partnershipnotexist;
+case NS_E_PDA_CANNOT_CREATE_ADDITIONAL_SYNC_RELATIONSHIP:
+	return ns_e_pda_cannot_create_additional_sync_relationship;
+case NS_E_PDA_CANNOT_CREATE_ADDITIONAL_SYNC_RELATIONSHIP:
+	return ns_e_pda_cannot_create_additional_sync_relationship;
+case NS_E_PDA_CANNOT_CREATE_ADDITIONAL_SYNC_RELATIONSHIP:
+	return ns_e_pda_cannot_create_additional_sync_relationship;
+case NS_E_PDA_NO_TRANSCODE_OF_DRM:
+	return ns_e_pda_no_transcode_of_drm;
+case NS_E_PDA_NO_TRANSCODE_OF_DRM:
+	return ns_e_pda_no_transcode_of_drm;
+case NS_E_PDA_NO_TRANSCODE_OF_DRM:
+	return ns_e_pda_no_transcode_of_drm;
+case NS_E_PDA_TRANSCODECACHEFULL:
+	return ns_e_pda_transcodecachefull;
+case NS_E_PDA_TRANSCODECACHEFULL:
+	return ns_e_pda_transcodecachefull;
+case NS_E_PDA_TRANSCODECACHEFULL:
+	return ns_e_pda_transcodecachefull;
+case NS_E_PDA_TOO_MANY_FILE_COLLISIONS:
+	return ns_e_pda_too_many_file_collisions;
+case NS_E_PDA_TOO_MANY_FILE_COLLISIONS:
+	return ns_e_pda_too_many_file_collisions;
+case NS_E_PDA_TOO_MANY_FILE_COLLISIONS:
+	return ns_e_pda_too_many_file_collisions;
+case NS_E_PDA_CANNOT_TRANSCODE:
+	return ns_e_pda_cannot_transcode;
+case NS_E_PDA_CANNOT_TRANSCODE:
+	return ns_e_pda_cannot_transcode;
+case NS_E_PDA_CANNOT_TRANSCODE:
+	return ns_e_pda_cannot_transcode;
+case NS_E_PDA_TOO_MANY_FILES_IN_DIRECTORY:
+	return ns_e_pda_too_many_files_in_directory;
+case NS_E_PDA_TOO_MANY_FILES_IN_DIRECTORY:
+	return ns_e_pda_too_many_files_in_directory;
+case NS_E_PDA_TOO_MANY_FILES_IN_DIRECTORY:
+	return ns_e_pda_too_many_files_in_directory;
+case NS_E_PROCESSINGSHOWSYNCWIZARD:
+	return ns_e_processingshowsyncwizard;
+case NS_E_PROCESSINGSHOWSYNCWIZARD:
+	return ns_e_processingshowsyncwizard;
+case NS_E_PROCESSINGSHOWSYNCWIZARD:
+	return ns_e_processingshowsyncwizard;
+case NS_E_PDA_TRANSCODE_NOT_PERMITTED:
+	return ns_e_pda_transcode_not_permitted;
+case NS_E_PDA_TRANSCODE_NOT_PERMITTED:
+	return ns_e_pda_transcode_not_permitted;
+case NS_E_PDA_TRANSCODE_NOT_PERMITTED:
+	return ns_e_pda_transcode_not_permitted;
+case NS_E_PDA_INITIALIZINGDEVICES:
+	return ns_e_pda_initializingdevices;
+case NS_E_PDA_INITIALIZINGDEVICES:
+	return ns_e_pda_initializingdevices;
+case NS_E_PDA_INITIALIZINGDEVICES:
+	return ns_e_pda_initializingdevices;
+case NS_E_PDA_OBSOLETE_SP:
+	return ns_e_pda_obsolete_sp;
+case NS_E_PDA_OBSOLETE_SP:
+	return ns_e_pda_obsolete_sp;
+case NS_E_PDA_OBSOLETE_SP:
+	return ns_e_pda_obsolete_sp;
+case NS_E_PDA_TITLE_COLLISION:
+	return ns_e_pda_title_collision;
+case NS_E_PDA_TITLE_COLLISION:
+	return ns_e_pda_title_collision;
+case NS_E_PDA_TITLE_COLLISION:
+	return ns_e_pda_title_collision;
+case NS_E_PDA_DEVICESUPPORTDISABLED:
+	return ns_e_pda_devicesupportdisabled;
+case NS_E_PDA_DEVICESUPPORTDISABLED:
+	return ns_e_pda_devicesupportdisabled;
+case NS_E_PDA_DEVICESUPPORTDISABLED:
+	return ns_e_pda_devicesupportdisabled;
+case NS_E_PDA_NO_LONGER_AVAILABLE:
+	return ns_e_pda_no_longer_available;
+case NS_E_PDA_NO_LONGER_AVAILABLE:
+	return ns_e_pda_no_longer_available;
+case NS_E_PDA_NO_LONGER_AVAILABLE:
+	return ns_e_pda_no_longer_available;
+case NS_E_PDA_ENCODER_NOT_RESPONDING:
+	return ns_e_pda_encoder_not_responding;
+case NS_E_PDA_ENCODER_NOT_RESPONDING:
+	return ns_e_pda_encoder_not_responding;
+case NS_E_PDA_ENCODER_NOT_RESPONDING:
+	return ns_e_pda_encoder_not_responding;
+case NS_E_PDA_CANNOT_SYNC_FROM_LOCATION:
+	return ns_e_pda_cannot_sync_from_location;
+case NS_E_PDA_CANNOT_SYNC_FROM_LOCATION:
+	return ns_e_pda_cannot_sync_from_location;
+case NS_E_PDA_CANNOT_SYNC_FROM_LOCATION:
+	return ns_e_pda_cannot_sync_from_location;
+case NS_E_WMP_PROTOCOL_PROBLEM:
+	return ns_e_wmp_protocol_problem;
+case NS_E_WMP_PROTOCOL_PROBLEM:
+	return ns_e_wmp_protocol_problem;
+case NS_E_WMP_PROTOCOL_PROBLEM:
+	return ns_e_wmp_protocol_problem;
+case NS_E_WMP_NO_DISK_SPACE:
+	return ns_e_wmp_no_disk_space;
+case NS_E_WMP_NO_DISK_SPACE:
+	return ns_e_wmp_no_disk_space;
+case NS_E_WMP_NO_DISK_SPACE:
+	return ns_e_wmp_no_disk_space;
+case NS_E_WMP_LOGON_FAILURE:
+	return ns_e_wmp_logon_failure;
+case NS_E_WMP_LOGON_FAILURE:
+	return ns_e_wmp_logon_failure;
+case NS_E_WMP_LOGON_FAILURE:
+	return ns_e_wmp_logon_failure;
+case NS_E_WMP_CANNOT_FIND_FILE:
+	return ns_e_wmp_cannot_find_file;
+case NS_E_WMP_CANNOT_FIND_FILE:
+	return ns_e_wmp_cannot_find_file;
+case NS_E_WMP_CANNOT_FIND_FILE:
+	return ns_e_wmp_cannot_find_file;
+case NS_E_WMP_SERVER_INACCESSIBLE:
+	return ns_e_wmp_server_inaccessible;
+case NS_E_WMP_SERVER_INACCESSIBLE:
+	return ns_e_wmp_server_inaccessible;
+case NS_E_WMP_SERVER_INACCESSIBLE:
+	return ns_e_wmp_server_inaccessible;
+case NS_E_WMP_UNSUPPORTED_FORMAT:
+	return ns_e_wmp_unsupported_format;
+case NS_E_WMP_UNSUPPORTED_FORMAT:
+	return ns_e_wmp_unsupported_format;
+case NS_E_WMP_UNSUPPORTED_FORMAT:
+	return ns_e_wmp_unsupported_format;
+case NS_E_WMP_DSHOW_UNSUPPORTED_FORMAT:
+	return ns_e_wmp_dshow_unsupported_format;
+case NS_E_WMP_DSHOW_UNSUPPORTED_FORMAT:
+	return ns_e_wmp_dshow_unsupported_format;
+case NS_E_WMP_DSHOW_UNSUPPORTED_FORMAT:
+	return ns_e_wmp_dshow_unsupported_format;
+case NS_E_WMP_PLAYLIST_EXISTS:
+	return ns_e_wmp_playlist_exists;
+case NS_E_WMP_PLAYLIST_EXISTS:
+	return ns_e_wmp_playlist_exists;
+case NS_E_WMP_PLAYLIST_EXISTS:
+	return ns_e_wmp_playlist_exists;
+case NS_E_WMP_NONMEDIA_FILES:
+	return ns_e_wmp_nonmedia_files;
+case NS_E_WMP_NONMEDIA_FILES:
+	return ns_e_wmp_nonmedia_files;
+case NS_E_WMP_NONMEDIA_FILES:
+	return ns_e_wmp_nonmedia_files;
+case NS_E_WMP_INVALID_ASX:
+	return ns_e_wmp_invalid_asx;
+case NS_E_WMP_INVALID_ASX:
+	return ns_e_wmp_invalid_asx;
+case NS_E_WMP_INVALID_ASX:
+	return ns_e_wmp_invalid_asx;
+case NS_E_WMP_ALREADY_IN_USE:
+	return ns_e_wmp_already_in_use;
+case NS_E_WMP_ALREADY_IN_USE:
+	return ns_e_wmp_already_in_use;
+case NS_E_WMP_ALREADY_IN_USE:
+	return ns_e_wmp_already_in_use;
+case NS_E_WMP_IMAPI_FAILURE:
+	return ns_e_wmp_imapi_failure;
+case NS_E_WMP_IMAPI_FAILURE:
+	return ns_e_wmp_imapi_failure;
+case NS_E_WMP_IMAPI_FAILURE:
+	return ns_e_wmp_imapi_failure;
+case NS_E_WMP_WMDM_FAILURE:
+	return ns_e_wmp_wmdm_failure;
+case NS_E_WMP_WMDM_FAILURE:
+	return ns_e_wmp_wmdm_failure;
+case NS_E_WMP_WMDM_FAILURE:
+	return ns_e_wmp_wmdm_failure;
+case NS_E_WMP_WMDM_FAILURE:
+	return ns_e_wmp_wmdm_failure;
+case NS_E_WMP_WMDM_FAILURE:
+	return ns_e_wmp_wmdm_failure;
+case NS_E_WMP_WMDM_FAILURE:
+	return ns_e_wmp_wmdm_failure;
+case NS_E_WMP_CODEC_NEEDED_WITH_FORMATTAG:
+	return ns_e_wmp_codec_needed_with_formattag;
+case NS_E_WMP_CODEC_NEEDED_WITH_FORMATTAG:
+	return ns_e_wmp_codec_needed_with_formattag;
+case NS_E_WMP_CODEC_NEEDED_WITH_FORMATTAG:
+	return ns_e_wmp_codec_needed_with_formattag;
+case NS_E_WMP_MSSAP_NOT_AVAILABLE:
+	return ns_e_wmp_mssap_not_available;
+case NS_E_WMP_MSSAP_NOT_AVAILABLE:
+	return ns_e_wmp_mssap_not_available;
+case NS_E_WMP_MSSAP_NOT_AVAILABLE:
+	return ns_e_wmp_mssap_not_available;
+case NS_E_WMP_WMDM_INTERFACEDEAD:
+	return ns_e_wmp_wmdm_interfacedead;
+case NS_E_WMP_WMDM_INTERFACEDEAD:
+	return ns_e_wmp_wmdm_interfacedead;
+case NS_E_WMP_WMDM_INTERFACEDEAD:
+	return ns_e_wmp_wmdm_interfacedead;
+case NS_E_WMP_WMDM_NOTCERTIFIED:
+	return ns_e_wmp_wmdm_notcertified;
+case NS_E_WMP_WMDM_NOTCERTIFIED:
+	return ns_e_wmp_wmdm_notcertified;
+case NS_E_WMP_WMDM_NOTCERTIFIED:
+	return ns_e_wmp_wmdm_notcertified;
+case NS_E_WMP_WMDM_LICENSE_NOTEXIST:
+	return ns_e_wmp_wmdm_license_notexist;
+case NS_E_WMP_WMDM_LICENSE_NOTEXIST:
+	return ns_e_wmp_wmdm_license_notexist;
+case NS_E_WMP_WMDM_LICENSE_NOTEXIST:
+	return ns_e_wmp_wmdm_license_notexist;
+case NS_E_WMP_WMDM_LICENSE_EXPIRED:
+	return ns_e_wmp_wmdm_license_expired;
+case NS_E_WMP_WMDM_LICENSE_EXPIRED:
+	return ns_e_wmp_wmdm_license_expired;
+case NS_E_WMP_WMDM_LICENSE_EXPIRED:
+	return ns_e_wmp_wmdm_license_expired;
+case NS_E_WMP_WMDM_BUSY:
+	return ns_e_wmp_wmdm_busy;
+case NS_E_WMP_WMDM_BUSY:
+	return ns_e_wmp_wmdm_busy;
+case NS_E_WMP_WMDM_BUSY:
+	return ns_e_wmp_wmdm_busy;
+case NS_E_WMP_WMDM_NORIGHTS:
+	return ns_e_wmp_wmdm_norights;
+case NS_E_WMP_WMDM_NORIGHTS:
+	return ns_e_wmp_wmdm_norights;
+case NS_E_WMP_WMDM_NORIGHTS:
+	return ns_e_wmp_wmdm_norights;
+case NS_E_WMP_WMDM_INCORRECT_RIGHTS:
+	return ns_e_wmp_wmdm_incorrect_rights;
+case NS_E_WMP_WMDM_INCORRECT_RIGHTS:
+	return ns_e_wmp_wmdm_incorrect_rights;
+case NS_E_WMP_WMDM_INCORRECT_RIGHTS:
+	return ns_e_wmp_wmdm_incorrect_rights;
+case NS_E_WMP_IMAPI_GENERIC:
+	return ns_e_wmp_imapi_generic;
+case NS_E_WMP_IMAPI_GENERIC:
+	return ns_e_wmp_imapi_generic;
+case NS_E_WMP_IMAPI_GENERIC:
+	return ns_e_wmp_imapi_generic;
+case NS_E_WMP_IMAPI_DEVICE_NOTPRESENT:
+	return ns_e_wmp_imapi_device_notpresent;
+case NS_E_WMP_IMAPI_DEVICE_NOTPRESENT:
+	return ns_e_wmp_imapi_device_notpresent;
+case NS_E_WMP_IMAPI_DEVICE_NOTPRESENT:
+	return ns_e_wmp_imapi_device_notpresent;
+case NS_E_WMP_IMAPI_DEVICE_BUSY:
+	return ns_e_wmp_imapi_device_busy;
+case NS_E_WMP_IMAPI_DEVICE_BUSY:
+	return ns_e_wmp_imapi_device_busy;
+case NS_E_WMP_IMAPI_DEVICE_BUSY:
+	return ns_e_wmp_imapi_device_busy;
+case NS_E_WMP_IMAPI_LOSS_OF_STREAMING:
+	return ns_e_wmp_imapi_loss_of_streaming;
+case NS_E_WMP_IMAPI_LOSS_OF_STREAMING:
+	return ns_e_wmp_imapi_loss_of_streaming;
+case NS_E_WMP_IMAPI_LOSS_OF_STREAMING:
+	return ns_e_wmp_imapi_loss_of_streaming;
+case NS_E_WMP_SERVER_UNAVAILABLE:
+	return ns_e_wmp_server_unavailable;
+case NS_E_WMP_SERVER_UNAVAILABLE:
+	return ns_e_wmp_server_unavailable;
+case NS_E_WMP_SERVER_UNAVAILABLE:
+	return ns_e_wmp_server_unavailable;
+case NS_E_WMP_FILE_OPEN_FAILED:
+	return ns_e_wmp_file_open_failed;
+case NS_E_WMP_FILE_OPEN_FAILED:
+	return ns_e_wmp_file_open_failed;
+case NS_E_WMP_FILE_OPEN_FAILED:
+	return ns_e_wmp_file_open_failed;
+case NS_E_WMP_VERIFY_ONLINE:
+	return ns_e_wmp_verify_online;
+case NS_E_WMP_VERIFY_ONLINE:
+	return ns_e_wmp_verify_online;
+case NS_E_WMP_VERIFY_ONLINE:
+	return ns_e_wmp_verify_online;
+case NS_E_WMP_SERVER_NOT_RESPONDING:
+	return ns_e_wmp_server_not_responding;
+case NS_E_WMP_SERVER_NOT_RESPONDING:
+	return ns_e_wmp_server_not_responding;
+case NS_E_WMP_SERVER_NOT_RESPONDING:
+	return ns_e_wmp_server_not_responding;
+case NS_E_WMP_DRM_CORRUPT_BACKUP:
+	return ns_e_wmp_drm_corrupt_backup;
+case NS_E_WMP_DRM_CORRUPT_BACKUP:
+	return ns_e_wmp_drm_corrupt_backup;
+case NS_E_WMP_DRM_CORRUPT_BACKUP:
+	return ns_e_wmp_drm_corrupt_backup;
+case NS_E_WMP_DRM_LICENSE_SERVER_UNAVAILABLE:
+	return ns_e_wmp_drm_license_server_unavailable;
+case NS_E_WMP_DRM_LICENSE_SERVER_UNAVAILABLE:
+	return ns_e_wmp_drm_license_server_unavailable;
+case NS_E_WMP_DRM_LICENSE_SERVER_UNAVAILABLE:
+	return ns_e_wmp_drm_license_server_unavailable;
+case NS_E_WMP_NETWORK_FIREWALL:
+	return ns_e_wmp_network_firewall;
+case NS_E_WMP_NETWORK_FIREWALL:
+	return ns_e_wmp_network_firewall;
+case NS_E_WMP_NETWORK_FIREWALL:
+	return ns_e_wmp_network_firewall;
+case NS_E_WMP_NO_REMOVABLE_MEDIA:
+	return ns_e_wmp_no_removable_media;
+case NS_E_WMP_NO_REMOVABLE_MEDIA:
+	return ns_e_wmp_no_removable_media;
+case NS_E_WMP_NO_REMOVABLE_MEDIA:
+	return ns_e_wmp_no_removable_media;
+case NS_E_WMP_PROXY_CONNECT_TIMEOUT:
+	return ns_e_wmp_proxy_connect_timeout;
+case NS_E_WMP_PROXY_CONNECT_TIMEOUT:
+	return ns_e_wmp_proxy_connect_timeout;
+case NS_E_WMP_PROXY_CONNECT_TIMEOUT:
+	return ns_e_wmp_proxy_connect_timeout;
+case NS_E_WMP_NEED_UPGRADE:
+	return ns_e_wmp_need_upgrade;
+case NS_E_WMP_NEED_UPGRADE:
+	return ns_e_wmp_need_upgrade;
+case NS_E_WMP_NEED_UPGRADE:
+	return ns_e_wmp_need_upgrade;
+case NS_E_WMP_AUDIO_HW_PROBLEM:
+	return ns_e_wmp_audio_hw_problem;
+case NS_E_WMP_AUDIO_HW_PROBLEM:
+	return ns_e_wmp_audio_hw_problem;
+case NS_E_WMP_AUDIO_HW_PROBLEM:
+	return ns_e_wmp_audio_hw_problem;
+case NS_E_WMP_INVALID_PROTOCOL:
+	return ns_e_wmp_invalid_protocol;
+case NS_E_WMP_INVALID_PROTOCOL:
+	return ns_e_wmp_invalid_protocol;
+case NS_E_WMP_INVALID_PROTOCOL:
+	return ns_e_wmp_invalid_protocol;
+case NS_E_WMP_INVALID_LIBRARY_ADD:
+	return ns_e_wmp_invalid_library_add;
+case NS_E_WMP_INVALID_LIBRARY_ADD:
+	return ns_e_wmp_invalid_library_add;
+case NS_E_WMP_INVALID_LIBRARY_ADD:
+	return ns_e_wmp_invalid_library_add;
+case NS_E_WMP_MMS_NOT_SUPPORTED:
+	return ns_e_wmp_mms_not_supported;
+case NS_E_WMP_MMS_NOT_SUPPORTED:
+	return ns_e_wmp_mms_not_supported;
+case NS_E_WMP_MMS_NOT_SUPPORTED:
+	return ns_e_wmp_mms_not_supported;
+case NS_E_WMP_NO_PROTOCOLS_SELECTED:
+	return ns_e_wmp_no_protocols_selected;
+case NS_E_WMP_NO_PROTOCOLS_SELECTED:
+	return ns_e_wmp_no_protocols_selected;
+case NS_E_WMP_NO_PROTOCOLS_SELECTED:
+	return ns_e_wmp_no_protocols_selected;
+case NS_E_WMP_GOFULLSCREEN_FAILED:
+	return ns_e_wmp_gofullscreen_failed;
+case NS_E_WMP_GOFULLSCREEN_FAILED:
+	return ns_e_wmp_gofullscreen_failed;
+case NS_E_WMP_GOFULLSCREEN_FAILED:
+	return ns_e_wmp_gofullscreen_failed;
+case NS_E_WMP_NETWORK_ERROR:
+	return ns_e_wmp_network_error;
+case NS_E_WMP_NETWORK_ERROR:
+	return ns_e_wmp_network_error;
+case NS_E_WMP_NETWORK_ERROR:
+	return ns_e_wmp_network_error;
+case NS_E_WMP_CONNECT_TIMEOUT:
+	return ns_e_wmp_connect_timeout;
+case NS_E_WMP_CONNECT_TIMEOUT:
+	return ns_e_wmp_connect_timeout;
+case NS_E_WMP_CONNECT_TIMEOUT:
+	return ns_e_wmp_connect_timeout;
+case NS_E_WMP_MULTICAST_DISABLED:
+	return ns_e_wmp_multicast_disabled;
+case NS_E_WMP_MULTICAST_DISABLED:
+	return ns_e_wmp_multicast_disabled;
+case NS_E_WMP_MULTICAST_DISABLED:
+	return ns_e_wmp_multicast_disabled;
+case NS_E_WMP_SERVER_DNS_TIMEOUT:
+	return ns_e_wmp_server_dns_timeout;
+case NS_E_WMP_SERVER_DNS_TIMEOUT:
+	return ns_e_wmp_server_dns_timeout;
+case NS_E_WMP_SERVER_DNS_TIMEOUT:
+	return ns_e_wmp_server_dns_timeout;
+case NS_E_WMP_PROXY_NOT_FOUND:
+	return ns_e_wmp_proxy_not_found;
+case NS_E_WMP_PROXY_NOT_FOUND:
+	return ns_e_wmp_proxy_not_found;
+case NS_E_WMP_PROXY_NOT_FOUND:
+	return ns_e_wmp_proxy_not_found;
+case NS_E_WMP_TAMPERED_CONTENT:
+	return ns_e_wmp_tampered_content;
+case NS_E_WMP_TAMPERED_CONTENT:
+	return ns_e_wmp_tampered_content;
+case NS_E_WMP_TAMPERED_CONTENT:
+	return ns_e_wmp_tampered_content;
+case NS_E_WMP_OUTOFMEMORY:
+	return ns_e_wmp_outofmemory;
+case NS_E_WMP_OUTOFMEMORY:
+	return ns_e_wmp_outofmemory;
+case NS_E_WMP_OUTOFMEMORY:
+	return ns_e_wmp_outofmemory;
+case NS_E_WMP_AUDIO_CODEC_NOT_INSTALLED:
+	return ns_e_wmp_audio_codec_not_installed;
+case NS_E_WMP_AUDIO_CODEC_NOT_INSTALLED:
+	return ns_e_wmp_audio_codec_not_installed;
+case NS_E_WMP_AUDIO_CODEC_NOT_INSTALLED:
+	return ns_e_wmp_audio_codec_not_installed;
+case NS_E_WMP_VIDEO_CODEC_NOT_INSTALLED:
+	return ns_e_wmp_video_codec_not_installed;
+case NS_E_WMP_VIDEO_CODEC_NOT_INSTALLED:
+	return ns_e_wmp_video_codec_not_installed;
+case NS_E_WMP_VIDEO_CODEC_NOT_INSTALLED:
+	return ns_e_wmp_video_codec_not_installed;
+case NS_E_WMP_IMAPI_DEVICE_INVALIDTYPE:
+	return ns_e_wmp_imapi_device_invalidtype;
+case NS_E_WMP_IMAPI_DEVICE_INVALIDTYPE:
+	return ns_e_wmp_imapi_device_invalidtype;
+case NS_E_WMP_IMAPI_DEVICE_INVALIDTYPE:
+	return ns_e_wmp_imapi_device_invalidtype;
+case NS_E_WMP_DRM_DRIVER_AUTH_FAILURE:
+	return ns_e_wmp_drm_driver_auth_failure;
+case NS_E_WMP_DRM_DRIVER_AUTH_FAILURE:
+	return ns_e_wmp_drm_driver_auth_failure;
+case NS_E_WMP_DRM_DRIVER_AUTH_FAILURE:
+	return ns_e_wmp_drm_driver_auth_failure;
+case NS_E_WMP_NETWORK_RESOURCE_FAILURE:
+	return ns_e_wmp_network_resource_failure;
+case NS_E_WMP_NETWORK_RESOURCE_FAILURE:
+	return ns_e_wmp_network_resource_failure;
+case NS_E_WMP_NETWORK_RESOURCE_FAILURE:
+	return ns_e_wmp_network_resource_failure;
+case NS_E_WMP_UPGRADE_APPLICATION:
+	return ns_e_wmp_upgrade_application;
+case NS_E_WMP_UPGRADE_APPLICATION:
+	return ns_e_wmp_upgrade_application;
+case NS_E_WMP_UPGRADE_APPLICATION:
+	return ns_e_wmp_upgrade_application;
+case NS_E_WMP_UNKNOWN_ERROR:
+	return ns_e_wmp_unknown_error;
+case NS_E_WMP_UNKNOWN_ERROR:
+	return ns_e_wmp_unknown_error;
+case NS_E_WMP_UNKNOWN_ERROR:
+	return ns_e_wmp_unknown_error;
+case NS_E_WMP_INVALID_KEY:
+	return ns_e_wmp_invalid_key;
+case NS_E_WMP_INVALID_KEY:
+	return ns_e_wmp_invalid_key;
+case NS_E_WMP_INVALID_KEY:
+	return ns_e_wmp_invalid_key;
+case NS_E_WMP_CD_ANOTHER_USER:
+	return ns_e_wmp_cd_another_user;
+case NS_E_WMP_CD_ANOTHER_USER:
+	return ns_e_wmp_cd_another_user;
+case NS_E_WMP_CD_ANOTHER_USER:
+	return ns_e_wmp_cd_another_user;
+case NS_E_WMP_DRM_NEEDS_AUTHORIZATION:
+	return ns_e_wmp_drm_needs_authorization;
+case NS_E_WMP_DRM_NEEDS_AUTHORIZATION:
+	return ns_e_wmp_drm_needs_authorization;
+case NS_E_WMP_DRM_NEEDS_AUTHORIZATION:
+	return ns_e_wmp_drm_needs_authorization;
+case NS_E_WMP_BAD_DRIVER:
+	return ns_e_wmp_bad_driver;
+case NS_E_WMP_BAD_DRIVER:
+	return ns_e_wmp_bad_driver;
+case NS_E_WMP_BAD_DRIVER:
+	return ns_e_wmp_bad_driver;
+case NS_E_WMP_ACCESS_DENIED:
+	return ns_e_wmp_access_denied;
+case NS_E_WMP_ACCESS_DENIED:
+	return ns_e_wmp_access_denied;
+case NS_E_WMP_ACCESS_DENIED:
+	return ns_e_wmp_access_denied;
+case NS_E_WMP_LICENSE_RESTRICTS:
+	return ns_e_wmp_license_restricts;
+case NS_E_WMP_LICENSE_RESTRICTS:
+	return ns_e_wmp_license_restricts;
+case NS_E_WMP_LICENSE_RESTRICTS:
+	return ns_e_wmp_license_restricts;
+case NS_E_WMP_INVALID_REQUEST:
+	return ns_e_wmp_invalid_request;
+case NS_E_WMP_INVALID_REQUEST:
+	return ns_e_wmp_invalid_request;
+case NS_E_WMP_INVALID_REQUEST:
+	return ns_e_wmp_invalid_request;
+case NS_E_WMP_CD_STASH_NO_SPACE:
+	return ns_e_wmp_cd_stash_no_space;
+case NS_E_WMP_CD_STASH_NO_SPACE:
+	return ns_e_wmp_cd_stash_no_space;
+case NS_E_WMP_CD_STASH_NO_SPACE:
+	return ns_e_wmp_cd_stash_no_space;
+case NS_E_WMP_DRM_NEW_HARDWARE:
+	return ns_e_wmp_drm_new_hardware;
+case NS_E_WMP_DRM_NEW_HARDWARE:
+	return ns_e_wmp_drm_new_hardware;
+case NS_E_WMP_DRM_NEW_HARDWARE:
+	return ns_e_wmp_drm_new_hardware;
+case NS_E_WMP_DRM_INVALID_SIG:
+	return ns_e_wmp_drm_invalid_sig;
+case NS_E_WMP_DRM_INVALID_SIG:
+	return ns_e_wmp_drm_invalid_sig;
+case NS_E_WMP_DRM_INVALID_SIG:
+	return ns_e_wmp_drm_invalid_sig;
+case NS_E_WMP_DRM_CANNOT_RESTORE:
+	return ns_e_wmp_drm_cannot_restore;
+case NS_E_WMP_DRM_CANNOT_RESTORE:
+	return ns_e_wmp_drm_cannot_restore;
+case NS_E_WMP_DRM_CANNOT_RESTORE:
+	return ns_e_wmp_drm_cannot_restore;
+case NS_E_WMP_BURN_DISC_OVERFLOW:
+	return ns_e_wmp_burn_disc_overflow;
+case NS_E_WMP_BURN_DISC_OVERFLOW:
+	return ns_e_wmp_burn_disc_overflow;
+case NS_E_WMP_BURN_DISC_OVERFLOW:
+	return ns_e_wmp_burn_disc_overflow;
+case NS_E_WMP_DRM_GENERIC_LICENSE_FAILURE:
+	return ns_e_wmp_drm_generic_license_failure;
+case NS_E_WMP_DRM_GENERIC_LICENSE_FAILURE:
+	return ns_e_wmp_drm_generic_license_failure;
+case NS_E_WMP_DRM_GENERIC_LICENSE_FAILURE:
+	return ns_e_wmp_drm_generic_license_failure;
+case NS_E_WMP_DRM_NO_SECURE_CLOCK:
+	return ns_e_wmp_drm_no_secure_clock;
+case NS_E_WMP_DRM_NO_SECURE_CLOCK:
+	return ns_e_wmp_drm_no_secure_clock;
+case NS_E_WMP_DRM_NO_SECURE_CLOCK:
+	return ns_e_wmp_drm_no_secure_clock;
+case NS_E_WMP_DRM_NO_RIGHTS:
+	return ns_e_wmp_drm_no_rights;
+case NS_E_WMP_DRM_NO_RIGHTS:
+	return ns_e_wmp_drm_no_rights;
+case NS_E_WMP_DRM_NO_RIGHTS:
+	return ns_e_wmp_drm_no_rights;
+case NS_E_WMP_DRM_INDIV_FAILED:
+	return ns_e_wmp_drm_indiv_failed;
+case NS_E_WMP_DRM_INDIV_FAILED:
+	return ns_e_wmp_drm_indiv_failed;
+case NS_E_WMP_DRM_INDIV_FAILED:
+	return ns_e_wmp_drm_indiv_failed;
+case NS_E_WMP_SERVER_NONEWCONNECTIONS:
+	return ns_e_wmp_server_nonewconnections;
+case NS_E_WMP_SERVER_NONEWCONNECTIONS:
+	return ns_e_wmp_server_nonewconnections;
+case NS_E_WMP_SERVER_NONEWCONNECTIONS:
+	return ns_e_wmp_server_nonewconnections;
+case NS_E_WMP_MULTIPLE_ERROR_IN_PLAYLIST:
+	return ns_e_wmp_multiple_error_in_playlist;
+case NS_E_WMP_MULTIPLE_ERROR_IN_PLAYLIST:
+	return ns_e_wmp_multiple_error_in_playlist;
+case NS_E_WMP_MULTIPLE_ERROR_IN_PLAYLIST:
+	return ns_e_wmp_multiple_error_in_playlist;
+case NS_E_WMP_MULTIPLE_ERROR_IN_PLAYLIST:
+	return ns_e_wmp_multiple_error_in_playlist;
+case NS_E_WMP_MULTIPLE_ERROR_IN_PLAYLIST:
+	return ns_e_wmp_multiple_error_in_playlist;
+case NS_E_WMP_MULTIPLE_ERROR_IN_PLAYLIST:
+	return ns_e_wmp_multiple_error_in_playlist;
+case NS_E_WMP_MULTIPLE_ERROR_IN_PLAYLIST:
+	return ns_e_wmp_multiple_error_in_playlist;
+case NS_E_WMP_MULTIPLE_ERROR_IN_PLAYLIST:
+	return ns_e_wmp_multiple_error_in_playlist;
+case NS_E_WMP_MULTIPLE_ERROR_IN_PLAYLIST:
+	return ns_e_wmp_multiple_error_in_playlist;
+case NS_E_WMP_DRM_COMPONENT_FAILURE:
+	return ns_e_wmp_drm_component_failure;
+case NS_E_WMP_DRM_COMPONENT_FAILURE:
+	return ns_e_wmp_drm_component_failure;
+case NS_E_WMP_DRM_COMPONENT_FAILURE:
+	return ns_e_wmp_drm_component_failure;
+case NS_E_WMP_DRM_NO_DEVICE_CERT:
+	return ns_e_wmp_drm_no_device_cert;
+case NS_E_WMP_DRM_NO_DEVICE_CERT:
+	return ns_e_wmp_drm_no_device_cert;
+case NS_E_WMP_DRM_NO_DEVICE_CERT:
+	return ns_e_wmp_drm_no_device_cert;
+case NS_E_WMP_SERVER_SECURITY_ERROR:
+	return ns_e_wmp_server_security_error;
+case NS_E_WMP_SERVER_SECURITY_ERROR:
+	return ns_e_wmp_server_security_error;
+case NS_E_WMP_SERVER_SECURITY_ERROR:
+	return ns_e_wmp_server_security_error;
+case NS_E_WMP_AUDIO_DEVICE_LOST:
+	return ns_e_wmp_audio_device_lost;
+case NS_E_WMP_AUDIO_DEVICE_LOST:
+	return ns_e_wmp_audio_device_lost;
+case NS_E_WMP_AUDIO_DEVICE_LOST:
+	return ns_e_wmp_audio_device_lost;
+case NS_E_WMP_IMAPI_MEDIA_INCOMPATIBLE:
+	return ns_e_wmp_imapi_media_incompatible;
+case NS_E_WMP_IMAPI_MEDIA_INCOMPATIBLE:
+	return ns_e_wmp_imapi_media_incompatible;
+case NS_E_WMP_IMAPI_MEDIA_INCOMPATIBLE:
+	return ns_e_wmp_imapi_media_incompatible;
+case NS_E_SYNCWIZ_DEVICE_FULL:
+	return ns_e_syncwiz_device_full;
+case NS_E_SYNCWIZ_DEVICE_FULL:
+	return ns_e_syncwiz_device_full;
+case NS_E_SYNCWIZ_DEVICE_FULL:
+	return ns_e_syncwiz_device_full;
+case NS_E_SYNCWIZ_CANNOT_CHANGE_SETTINGS:
+	return ns_e_syncwiz_cannot_change_settings;
+case NS_E_SYNCWIZ_CANNOT_CHANGE_SETTINGS:
+	return ns_e_syncwiz_cannot_change_settings;
+case NS_E_SYNCWIZ_CANNOT_CHANGE_SETTINGS:
+	return ns_e_syncwiz_cannot_change_settings;
+case NS_E_TRANSCODE_DELETECACHEERROR:
+	return ns_e_transcode_deletecacheerror;
+case NS_E_TRANSCODE_DELETECACHEERROR:
+	return ns_e_transcode_deletecacheerror;
+case NS_E_TRANSCODE_DELETECACHEERROR:
+	return ns_e_transcode_deletecacheerror;
+case NS_E_CD_NO_BUFFERS_READ:
+	return ns_e_cd_no_buffers_read;
+case NS_E_CD_NO_BUFFERS_READ:
+	return ns_e_cd_no_buffers_read;
+case NS_E_CD_NO_BUFFERS_READ:
+	return ns_e_cd_no_buffers_read;
+case NS_E_CD_EMPTY_TRACK_QUEUE:
+	return ns_e_cd_empty_track_queue;
+case NS_E_CD_EMPTY_TRACK_QUEUE:
+	return ns_e_cd_empty_track_queue;
+case NS_E_CD_EMPTY_TRACK_QUEUE:
+	return ns_e_cd_empty_track_queue;
+case NS_E_CD_NO_READER:
+	return ns_e_cd_no_reader;
+case NS_E_CD_NO_READER:
+	return ns_e_cd_no_reader;
+case NS_E_CD_NO_READER:
+	return ns_e_cd_no_reader;
+case NS_E_CD_ISRC_INVALID:
+	return ns_e_cd_isrc_invalid;
+case NS_E_CD_ISRC_INVALID:
+	return ns_e_cd_isrc_invalid;
+case NS_E_CD_ISRC_INVALID:
+	return ns_e_cd_isrc_invalid;
+case NS_E_CD_MEDIA_CATALOG_NUMBER_INVALID:
+	return ns_e_cd_media_catalog_number_invalid;
+case NS_E_CD_MEDIA_CATALOG_NUMBER_INVALID:
+	return ns_e_cd_media_catalog_number_invalid;
+case NS_E_CD_MEDIA_CATALOG_NUMBER_INVALID:
+	return ns_e_cd_media_catalog_number_invalid;
+case NS_E_SLOW_READ_DIGITAL_WITH_ERRORCORRECTION:
+	return ns_e_slow_read_digital_with_errorcorrection;
+case NS_E_SLOW_READ_DIGITAL_WITH_ERRORCORRECTION:
+	return ns_e_slow_read_digital_with_errorcorrection;
+case NS_E_SLOW_READ_DIGITAL_WITH_ERRORCORRECTION:
+	return ns_e_slow_read_digital_with_errorcorrection;
+case NS_E_CD_SPEEDDETECT_NOT_ENOUGH_READS:
+	return ns_e_cd_speeddetect_not_enough_reads;
+case NS_E_CD_SPEEDDETECT_NOT_ENOUGH_READS:
+	return ns_e_cd_speeddetect_not_enough_reads;
+case NS_E_CD_SPEEDDETECT_NOT_ENOUGH_READS:
+	return ns_e_cd_speeddetect_not_enough_reads;
+case NS_E_CD_QUEUEING_DISABLED:
+	return ns_e_cd_queueing_disabled;
+case NS_E_CD_QUEUEING_DISABLED:
+	return ns_e_cd_queueing_disabled;
+case NS_E_CD_QUEUEING_DISABLED:
+	return ns_e_cd_queueing_disabled;
+case NS_E_WMP_DRM_ACQUIRING_LICENSE:
+	return ns_e_wmp_drm_acquiring_license;
+case NS_E_WMP_DRM_ACQUIRING_LICENSE:
+	return ns_e_wmp_drm_acquiring_license;
+case NS_E_WMP_DRM_ACQUIRING_LICENSE:
+	return ns_e_wmp_drm_acquiring_license;
+case NS_E_WMP_DRM_LICENSE_EXPIRED:
+	return ns_e_wmp_drm_license_expired;
+case NS_E_WMP_DRM_LICENSE_EXPIRED:
+	return ns_e_wmp_drm_license_expired;
+case NS_E_WMP_DRM_LICENSE_EXPIRED:
+	return ns_e_wmp_drm_license_expired;
+case NS_E_WMP_DRM_LICENSE_NOTACQUIRED:
+	return ns_e_wmp_drm_license_notacquired;
+case NS_E_WMP_DRM_LICENSE_NOTACQUIRED:
+	return ns_e_wmp_drm_license_notacquired;
+case NS_E_WMP_DRM_LICENSE_NOTACQUIRED:
+	return ns_e_wmp_drm_license_notacquired;
+case NS_E_WMP_DRM_LICENSE_NOTENABLED:
+	return ns_e_wmp_drm_license_notenabled;
+case NS_E_WMP_DRM_LICENSE_NOTENABLED:
+	return ns_e_wmp_drm_license_notenabled;
+case NS_E_WMP_DRM_LICENSE_NOTENABLED:
+	return ns_e_wmp_drm_license_notenabled;
+case NS_E_WMP_DRM_LICENSE_UNUSABLE:
+	return ns_e_wmp_drm_license_unusable;
+case NS_E_WMP_DRM_LICENSE_UNUSABLE:
+	return ns_e_wmp_drm_license_unusable;
+case NS_E_WMP_DRM_LICENSE_UNUSABLE:
+	return ns_e_wmp_drm_license_unusable;
+case NS_E_WMP_DRM_LICENSE_CONTENT_REVOKED:
+	return ns_e_wmp_drm_license_content_revoked;
+case NS_E_WMP_DRM_LICENSE_CONTENT_REVOKED:
+	return ns_e_wmp_drm_license_content_revoked;
+case NS_E_WMP_DRM_LICENSE_CONTENT_REVOKED:
+	return ns_e_wmp_drm_license_content_revoked;
+case NS_E_WMP_DRM_LICENSE_NOSAP:
+	return ns_e_wmp_drm_license_nosap;
+case NS_E_WMP_DRM_LICENSE_NOSAP:
+	return ns_e_wmp_drm_license_nosap;
+case NS_E_WMP_DRM_LICENSE_NOSAP:
+	return ns_e_wmp_drm_license_nosap;
+case NS_E_WMP_DRM_UNABLE_TO_ACQUIRE_LICENSE:
+	return ns_e_wmp_drm_unable_to_acquire_license;
+case NS_E_WMP_DRM_UNABLE_TO_ACQUIRE_LICENSE:
+	return ns_e_wmp_drm_unable_to_acquire_license;
+case NS_E_WMP_DRM_UNABLE_TO_ACQUIRE_LICENSE:
+	return ns_e_wmp_drm_unable_to_acquire_license;
+case NS_E_WMP_LICENSE_REQUIRED:
+	return ns_e_wmp_license_required;
+case NS_E_WMP_LICENSE_REQUIRED:
+	return ns_e_wmp_license_required;
+case NS_E_WMP_LICENSE_REQUIRED:
+	return ns_e_wmp_license_required;
+case NS_E_WMP_PROTECTED_CONTENT:
+	return ns_e_wmp_protected_content;
+case NS_E_WMP_PROTECTED_CONTENT:
+	return ns_e_wmp_protected_content;
+case NS_E_WMP_PROTECTED_CONTENT:
+	return ns_e_wmp_protected_content;
+case NS_E_WMP_POLICY_VALUE_NOT_CONFIGURED:
+	return ns_e_wmp_policy_value_not_configured;
+case NS_E_WMP_POLICY_VALUE_NOT_CONFIGURED:
+	return ns_e_wmp_policy_value_not_configured;
+case NS_E_WMP_POLICY_VALUE_NOT_CONFIGURED:
+	return ns_e_wmp_policy_value_not_configured;
+case NS_E_PDA_CANNOT_SYNC_FROM_INTERNET:
+	return ns_e_pda_cannot_sync_from_internet;
+case NS_E_PDA_CANNOT_SYNC_FROM_INTERNET:
+	return ns_e_pda_cannot_sync_from_internet;
+case NS_E_PDA_CANNOT_SYNC_FROM_INTERNET:
+	return ns_e_pda_cannot_sync_from_internet;
+case NS_E_PDA_CANNOT_SYNC_INVALID_PLAYLIST:
+	return ns_e_pda_cannot_sync_invalid_playlist;
+case NS_E_PDA_CANNOT_SYNC_INVALID_PLAYLIST:
+	return ns_e_pda_cannot_sync_invalid_playlist;
+case NS_E_PDA_CANNOT_SYNC_INVALID_PLAYLIST:
+	return ns_e_pda_cannot_sync_invalid_playlist;
+case NS_E_PDA_FAILED_TO_SYNCHRONIZE_FILE:
+	return ns_e_pda_failed_to_synchronize_file;
+case NS_E_PDA_FAILED_TO_SYNCHRONIZE_FILE:
+	return ns_e_pda_failed_to_synchronize_file;
+case NS_E_PDA_FAILED_TO_SYNCHRONIZE_FILE:
+	return ns_e_pda_failed_to_synchronize_file;
+case NS_E_PDA_SYNC_FAILED:
+	return ns_e_pda_sync_failed;
+case NS_E_PDA_SYNC_FAILED:
+	return ns_e_pda_sync_failed;
+case NS_E_PDA_SYNC_FAILED:
+	return ns_e_pda_sync_failed;
+case NS_E_PDA_DELETE_FAILED:
+	return ns_e_pda_delete_failed;
+case NS_E_PDA_DELETE_FAILED:
+	return ns_e_pda_delete_failed;
+case NS_E_PDA_DELETE_FAILED:
+	return ns_e_pda_delete_failed;
+case NS_E_PDA_FAILED_TO_RETRIEVE_FILE:
+	return ns_e_pda_failed_to_retrieve_file;
+case NS_E_PDA_FAILED_TO_RETRIEVE_FILE:
+	return ns_e_pda_failed_to_retrieve_file;
+case NS_E_PDA_FAILED_TO_RETRIEVE_FILE:
+	return ns_e_pda_failed_to_retrieve_file;
+case NS_E_PDA_DEVICE_NOT_RESPONDING:
+	return ns_e_pda_device_not_responding;
+case NS_E_PDA_DEVICE_NOT_RESPONDING:
+	return ns_e_pda_device_not_responding;
+case NS_E_PDA_DEVICE_NOT_RESPONDING:
+	return ns_e_pda_device_not_responding;
+case NS_E_PDA_FAILED_TO_TRANSCODE_PHOTO:
+	return ns_e_pda_failed_to_transcode_photo;
+case NS_E_PDA_FAILED_TO_TRANSCODE_PHOTO:
+	return ns_e_pda_failed_to_transcode_photo;
+case NS_E_PDA_FAILED_TO_TRANSCODE_PHOTO:
+	return ns_e_pda_failed_to_transcode_photo;
+case NS_E_PDA_FAILED_TO_ENCRYPT_TRANSCODED_FILE:
+	return ns_e_pda_failed_to_encrypt_transcoded_file;
+case NS_E_PDA_FAILED_TO_ENCRYPT_TRANSCODED_FILE:
+	return ns_e_pda_failed_to_encrypt_transcoded_file;
+case NS_E_PDA_FAILED_TO_ENCRYPT_TRANSCODED_FILE:
+	return ns_e_pda_failed_to_encrypt_transcoded_file;
+case NS_E_PDA_CANNOT_TRANSCODE_TO_AUDIO:
+	return ns_e_pda_cannot_transcode_to_audio;
+case NS_E_PDA_CANNOT_TRANSCODE_TO_AUDIO:
+	return ns_e_pda_cannot_transcode_to_audio;
+case NS_E_PDA_CANNOT_TRANSCODE_TO_AUDIO:
+	return ns_e_pda_cannot_transcode_to_audio;
+case NS_E_PDA_CANNOT_TRANSCODE_TO_VIDEO:
+	return ns_e_pda_cannot_transcode_to_video;
+case NS_E_PDA_CANNOT_TRANSCODE_TO_VIDEO:
+	return ns_e_pda_cannot_transcode_to_video;
+case NS_E_PDA_CANNOT_TRANSCODE_TO_VIDEO:
+	return ns_e_pda_cannot_transcode_to_video;
+case NS_E_PDA_CANNOT_TRANSCODE_TO_IMAGE:
+	return ns_e_pda_cannot_transcode_to_image;
+case NS_E_PDA_CANNOT_TRANSCODE_TO_IMAGE:
+	return ns_e_pda_cannot_transcode_to_image;
+case NS_E_PDA_CANNOT_TRANSCODE_TO_IMAGE:
+	return ns_e_pda_cannot_transcode_to_image;
+case NS_E_PDA_RETRIEVED_FILE_FILENAME_TOO_LONG:
+	return ns_e_pda_retrieved_file_filename_too_long;
+case NS_E_PDA_RETRIEVED_FILE_FILENAME_TOO_LONG:
+	return ns_e_pda_retrieved_file_filename_too_long;
+case NS_E_PDA_RETRIEVED_FILE_FILENAME_TOO_LONG:
+	return ns_e_pda_retrieved_file_filename_too_long;
+case NS_E_PDA_CEWMDM_DRM_ERROR:
+	return ns_e_pda_cewmdm_drm_error;
+case NS_E_PDA_CEWMDM_DRM_ERROR:
+	return ns_e_pda_cewmdm_drm_error;
+case NS_E_PDA_CEWMDM_DRM_ERROR:
+	return ns_e_pda_cewmdm_drm_error;
+case NS_E_INCOMPLETE_PLAYLIST:
+	return ns_e_incomplete_playlist;
+case NS_E_INCOMPLETE_PLAYLIST:
+	return ns_e_incomplete_playlist;
+case NS_E_INCOMPLETE_PLAYLIST:
+	return ns_e_incomplete_playlist;
+case NS_E_PDA_SYNC_RUNNING:
+	return ns_e_pda_sync_running;
+case NS_E_PDA_SYNC_RUNNING:
+	return ns_e_pda_sync_running;
+case NS_E_PDA_SYNC_RUNNING:
+	return ns_e_pda_sync_running;
+case NS_E_PDA_SYNC_LOGIN_ERROR:
+	return ns_e_pda_sync_login_error;
+case NS_E_PDA_SYNC_LOGIN_ERROR:
+	return ns_e_pda_sync_login_error;
+case NS_E_PDA_SYNC_LOGIN_ERROR:
+	return ns_e_pda_sync_login_error;
+case NS_E_PDA_TRANSCODE_CODEC_NOT_FOUND:
+	return ns_e_pda_transcode_codec_not_found;
+case NS_E_PDA_TRANSCODE_CODEC_NOT_FOUND:
+	return ns_e_pda_transcode_codec_not_found;
+case NS_E_PDA_TRANSCODE_CODEC_NOT_FOUND:
+	return ns_e_pda_transcode_codec_not_found;
+case NS_E_CANNOT_SYNC_DRM_TO_NON_JANUS_DEVICE:
+	return ns_e_cannot_sync_drm_to_non_janus_device;
+case NS_E_CANNOT_SYNC_DRM_TO_NON_JANUS_DEVICE:
+	return ns_e_cannot_sync_drm_to_non_janus_device;
+case NS_E_CANNOT_SYNC_DRM_TO_NON_JANUS_DEVICE:
+	return ns_e_cannot_sync_drm_to_non_janus_device;
+case NS_E_CANNOT_SYNC_PREVIOUS_SYNC_RUNNING:
+	return ns_e_cannot_sync_previous_sync_running;
+case NS_E_CANNOT_SYNC_PREVIOUS_SYNC_RUNNING:
+	return ns_e_cannot_sync_previous_sync_running;
+case NS_E_CANNOT_SYNC_PREVIOUS_SYNC_RUNNING:
+	return ns_e_cannot_sync_previous_sync_running;
+case NS_E_WMP_HWND_NOTFOUND:
+	return ns_e_wmp_hwnd_notfound;
+case NS_E_WMP_HWND_NOTFOUND:
+	return ns_e_wmp_hwnd_notfound;
+case NS_E_WMP_HWND_NOTFOUND:
+	return ns_e_wmp_hwnd_notfound;
+case NS_E_BKGDOWNLOAD_WRONG_NO_FILES:
+	return ns_e_bkgdownload_wrong_no_files;
+case NS_E_BKGDOWNLOAD_WRONG_NO_FILES:
+	return ns_e_bkgdownload_wrong_no_files;
+case NS_E_BKGDOWNLOAD_WRONG_NO_FILES:
+	return ns_e_bkgdownload_wrong_no_files;
+case NS_E_BKGDOWNLOAD_COMPLETECANCELLEDJOB:
+	return ns_e_bkgdownload_completecancelledjob;
+case NS_E_BKGDOWNLOAD_COMPLETECANCELLEDJOB:
+	return ns_e_bkgdownload_completecancelledjob;
+case NS_E_BKGDOWNLOAD_COMPLETECANCELLEDJOB:
+	return ns_e_bkgdownload_completecancelledjob;
+case NS_E_BKGDOWNLOAD_CANCELCOMPLETEDJOB:
+	return ns_e_bkgdownload_cancelcompletedjob;
+case NS_E_BKGDOWNLOAD_CANCELCOMPLETEDJOB:
+	return ns_e_bkgdownload_cancelcompletedjob;
+case NS_E_BKGDOWNLOAD_CANCELCOMPLETEDJOB:
+	return ns_e_bkgdownload_cancelcompletedjob;
+case NS_E_BKGDOWNLOAD_NOJOBPOINTER:
+	return ns_e_bkgdownload_nojobpointer;
+case NS_E_BKGDOWNLOAD_NOJOBPOINTER:
+	return ns_e_bkgdownload_nojobpointer;
+case NS_E_BKGDOWNLOAD_NOJOBPOINTER:
+	return ns_e_bkgdownload_nojobpointer;
+case NS_E_BKGDOWNLOAD_INVALIDJOBSIGNATURE:
+	return ns_e_bkgdownload_invalidjobsignature;
+case NS_E_BKGDOWNLOAD_INVALIDJOBSIGNATURE:
+	return ns_e_bkgdownload_invalidjobsignature;
+case NS_E_BKGDOWNLOAD_INVALIDJOBSIGNATURE:
+	return ns_e_bkgdownload_invalidjobsignature;
+case NS_E_BKGDOWNLOAD_FAILED_TO_CREATE_TEMPFILE:
+	return ns_e_bkgdownload_failed_to_create_tempfile;
+case NS_E_BKGDOWNLOAD_FAILED_TO_CREATE_TEMPFILE:
+	return ns_e_bkgdownload_failed_to_create_tempfile;
+case NS_E_BKGDOWNLOAD_FAILED_TO_CREATE_TEMPFILE:
+	return ns_e_bkgdownload_failed_to_create_tempfile;
+case NS_E_BKGDOWNLOAD_PLUGIN_FAILEDINITIALIZE:
+	return ns_e_bkgdownload_plugin_failedinitialize;
+case NS_E_BKGDOWNLOAD_PLUGIN_FAILEDINITIALIZE:
+	return ns_e_bkgdownload_plugin_failedinitialize;
+case NS_E_BKGDOWNLOAD_PLUGIN_FAILEDINITIALIZE:
+	return ns_e_bkgdownload_plugin_failedinitialize;
+case NS_E_BKGDOWNLOAD_PLUGIN_FAILEDTOMOVEFILE:
+	return ns_e_bkgdownload_plugin_failedtomovefile;
+case NS_E_BKGDOWNLOAD_PLUGIN_FAILEDTOMOVEFILE:
+	return ns_e_bkgdownload_plugin_failedtomovefile;
+case NS_E_BKGDOWNLOAD_PLUGIN_FAILEDTOMOVEFILE:
+	return ns_e_bkgdownload_plugin_failedtomovefile;
+case NS_E_BKGDOWNLOAD_CALLFUNCFAILED:
+	return ns_e_bkgdownload_callfuncfailed;
+case NS_E_BKGDOWNLOAD_CALLFUNCFAILED:
+	return ns_e_bkgdownload_callfuncfailed;
+case NS_E_BKGDOWNLOAD_CALLFUNCFAILED:
+	return ns_e_bkgdownload_callfuncfailed;
+case NS_E_BKGDOWNLOAD_CALLFUNCTIMEOUT:
+	return ns_e_bkgdownload_callfunctimeout;
+case NS_E_BKGDOWNLOAD_CALLFUNCTIMEOUT:
+	return ns_e_bkgdownload_callfunctimeout;
+case NS_E_BKGDOWNLOAD_CALLFUNCTIMEOUT:
+	return ns_e_bkgdownload_callfunctimeout;
+case NS_E_BKGDOWNLOAD_CALLFUNCENDED:
+	return ns_e_bkgdownload_callfuncended;
+case NS_E_BKGDOWNLOAD_CALLFUNCENDED:
+	return ns_e_bkgdownload_callfuncended;
+case NS_E_BKGDOWNLOAD_CALLFUNCENDED:
+	return ns_e_bkgdownload_callfuncended;
+case NS_E_BKGDOWNLOAD_WMDUNPACKFAILED:
+	return ns_e_bkgdownload_wmdunpackfailed;
+case NS_E_BKGDOWNLOAD_WMDUNPACKFAILED:
+	return ns_e_bkgdownload_wmdunpackfailed;
+case NS_E_BKGDOWNLOAD_WMDUNPACKFAILED:
+	return ns_e_bkgdownload_wmdunpackfailed;
+case NS_E_BKGDOWNLOAD_FAILEDINITIALIZE:
+	return ns_e_bkgdownload_failedinitialize;
+case NS_E_BKGDOWNLOAD_FAILEDINITIALIZE:
+	return ns_e_bkgdownload_failedinitialize;
+case NS_E_BKGDOWNLOAD_FAILEDINITIALIZE:
+	return ns_e_bkgdownload_failedinitialize;
+case NS_E_INTERFACE_NOT_REGISTERED_IN_GIT:
+	return ns_e_interface_not_registered_in_git;
+case NS_E_INTERFACE_NOT_REGISTERED_IN_GIT:
+	return ns_e_interface_not_registered_in_git;
+case NS_E_INTERFACE_NOT_REGISTERED_IN_GIT:
+	return ns_e_interface_not_registered_in_git;
+case NS_E_BKGDOWNLOAD_INVALID_FILE_NAME:
+	return ns_e_bkgdownload_invalid_file_name;
+case NS_E_BKGDOWNLOAD_INVALID_FILE_NAME:
+	return ns_e_bkgdownload_invalid_file_name;
+case NS_E_BKGDOWNLOAD_INVALID_FILE_NAME:
+	return ns_e_bkgdownload_invalid_file_name;
+case NS_E_IMAGE_DOWNLOAD_FAILED:
+	return ns_e_image_download_failed;
+case NS_E_IMAGE_DOWNLOAD_FAILED:
+	return ns_e_image_download_failed;
+case NS_E_IMAGE_DOWNLOAD_FAILED:
+	return ns_e_image_download_failed;
+case NS_E_WMP_UDRM_NOUSERLIST:
+	return ns_e_wmp_udrm_nouserlist;
+case NS_E_WMP_UDRM_NOUSERLIST:
+	return ns_e_wmp_udrm_nouserlist;
+case NS_E_WMP_UDRM_NOUSERLIST:
+	return ns_e_wmp_udrm_nouserlist;
+case NS_E_WMP_DRM_NOT_ACQUIRING:
+	return ns_e_wmp_drm_not_acquiring;
+case NS_E_WMP_DRM_NOT_ACQUIRING:
+	return ns_e_wmp_drm_not_acquiring;
+case NS_E_WMP_DRM_NOT_ACQUIRING:
+	return ns_e_wmp_drm_not_acquiring;
+case NS_E_WMP_BSTR_TOO_LONG:
+	return ns_e_wmp_bstr_too_long;
+case NS_E_WMP_BSTR_TOO_LONG:
+	return ns_e_wmp_bstr_too_long;
+case NS_E_WMP_BSTR_TOO_LONG:
+	return ns_e_wmp_bstr_too_long;
+case NS_E_WMP_AUTOPLAY_INVALID_STATE:
+	return ns_e_wmp_autoplay_invalid_state;
+case NS_E_WMP_AUTOPLAY_INVALID_STATE:
+	return ns_e_wmp_autoplay_invalid_state;
+case NS_E_WMP_AUTOPLAY_INVALID_STATE:
+	return ns_e_wmp_autoplay_invalid_state;
+case NS_E_WMP_COMPONENT_REVOKED:
+	return ns_e_wmp_component_revoked;
+case NS_E_WMP_COMPONENT_REVOKED:
+	return ns_e_wmp_component_revoked;
+case NS_E_WMP_COMPONENT_REVOKED:
+	return ns_e_wmp_component_revoked;
+case NS_E_CURL_NOTSAFE:
+	return ns_e_curl_notsafe;
+case NS_E_CURL_NOTSAFE:
+	return ns_e_curl_notsafe;
+case NS_E_CURL_NOTSAFE:
+	return ns_e_curl_notsafe;
+case NS_E_CURL_INVALIDCHAR:
+	return ns_e_curl_invalidchar;
+case NS_E_CURL_INVALIDCHAR:
+	return ns_e_curl_invalidchar;
+case NS_E_CURL_INVALIDCHAR:
+	return ns_e_curl_invalidchar;
+case NS_E_CURL_INVALIDHOSTNAME:
+	return ns_e_curl_invalidhostname;
+case NS_E_CURL_INVALIDHOSTNAME:
+	return ns_e_curl_invalidhostname;
+case NS_E_CURL_INVALIDHOSTNAME:
+	return ns_e_curl_invalidhostname;
+case NS_E_CURL_INVALIDPATH:
+	return ns_e_curl_invalidpath;
+case NS_E_CURL_INVALIDPATH:
+	return ns_e_curl_invalidpath;
+case NS_E_CURL_INVALIDPATH:
+	return ns_e_curl_invalidpath;
+case NS_E_CURL_INVALIDSCHEME:
+	return ns_e_curl_invalidscheme;
+case NS_E_CURL_INVALIDSCHEME:
+	return ns_e_curl_invalidscheme;
+case NS_E_CURL_INVALIDSCHEME:
+	return ns_e_curl_invalidscheme;
+case NS_E_CURL_INVALIDURL:
+	return ns_e_curl_invalidurl;
+case NS_E_CURL_INVALIDURL:
+	return ns_e_curl_invalidurl;
+case NS_E_CURL_INVALIDURL:
+	return ns_e_curl_invalidurl;
+case NS_E_CURL_CANTWALK:
+	return ns_e_curl_cantwalk;
+case NS_E_CURL_CANTWALK:
+	return ns_e_curl_cantwalk;
+case NS_E_CURL_CANTWALK:
+	return ns_e_curl_cantwalk;
+case NS_E_CURL_INVALIDPORT:
+	return ns_e_curl_invalidport;
+case NS_E_CURL_INVALIDPORT:
+	return ns_e_curl_invalidport;
+case NS_E_CURL_INVALIDPORT:
+	return ns_e_curl_invalidport;
+case NS_E_CURLHELPER_NOTADIRECTORY:
+	return ns_e_curlhelper_notadirectory;
+case NS_E_CURLHELPER_NOTADIRECTORY:
+	return ns_e_curlhelper_notadirectory;
+case NS_E_CURLHELPER_NOTADIRECTORY:
+	return ns_e_curlhelper_notadirectory;
+case NS_E_CURLHELPER_NOTAFILE:
+	return ns_e_curlhelper_notafile;
+case NS_E_CURLHELPER_NOTAFILE:
+	return ns_e_curlhelper_notafile;
+case NS_E_CURLHELPER_NOTAFILE:
+	return ns_e_curlhelper_notafile;
+case NS_E_CURL_CANTDECODE:
+	return ns_e_curl_cantdecode;
+case NS_E_CURL_CANTDECODE:
+	return ns_e_curl_cantdecode;
+case NS_E_CURL_CANTDECODE:
+	return ns_e_curl_cantdecode;
+case NS_E_CURLHELPER_NOTRELATIVE:
+	return ns_e_curlhelper_notrelative;
+case NS_E_CURLHELPER_NOTRELATIVE:
+	return ns_e_curlhelper_notrelative;
+case NS_E_CURLHELPER_NOTRELATIVE:
+	return ns_e_curlhelper_notrelative;
+case NS_E_CURL_INVALIDBUFFERSIZE:
+	return ns_e_curl_invalidbuffersize;
+case NS_E_CURL_INVALIDBUFFERSIZE:
+	return ns_e_curl_invalidbuffersize;
+case NS_E_CURL_INVALIDBUFFERSIZE:
+	return ns_e_curl_invalidbuffersize;
+case NS_E_SUBSCRIPTIONSERVICE_PLAYBACK_DISALLOWED:
+	return ns_e_subscriptionservice_playback_disallowed;
+case NS_E_SUBSCRIPTIONSERVICE_PLAYBACK_DISALLOWED:
+	return ns_e_subscriptionservice_playback_disallowed;
+case NS_E_SUBSCRIPTIONSERVICE_PLAYBACK_DISALLOWED:
+	return ns_e_subscriptionservice_playback_disallowed;
+case NS_E_CANNOT_BUY_OR_DOWNLOAD_FROM_MULTIPLE_SERVICES:
+	return ns_e_cannot_buy_or_download_from_multiple_services;
+case NS_E_CANNOT_BUY_OR_DOWNLOAD_FROM_MULTIPLE_SERVICES:
+	return ns_e_cannot_buy_or_download_from_multiple_services;
+case NS_E_CANNOT_BUY_OR_DOWNLOAD_FROM_MULTIPLE_SERVICES:
+	return ns_e_cannot_buy_or_download_from_multiple_services;
+case NS_E_CANNOT_BUY_OR_DOWNLOAD_CONTENT:
+	return ns_e_cannot_buy_or_download_content;
+case NS_E_CANNOT_BUY_OR_DOWNLOAD_CONTENT:
+	return ns_e_cannot_buy_or_download_content;
+case NS_E_CANNOT_BUY_OR_DOWNLOAD_CONTENT:
+	return ns_e_cannot_buy_or_download_content;
+case NS_E_NOT_CONTENT_PARTNER_TRACK:
+	return ns_e_not_content_partner_track;
+case NS_E_NOT_CONTENT_PARTNER_TRACK:
+	return ns_e_not_content_partner_track;
+case NS_E_NOT_CONTENT_PARTNER_TRACK:
+	return ns_e_not_content_partner_track;
+case NS_E_TRACK_DOWNLOAD_REQUIRES_ALBUM_PURCHASE:
+	return ns_e_track_download_requires_album_purchase;
+case NS_E_TRACK_DOWNLOAD_REQUIRES_ALBUM_PURCHASE:
+	return ns_e_track_download_requires_album_purchase;
+case NS_E_TRACK_DOWNLOAD_REQUIRES_ALBUM_PURCHASE:
+	return ns_e_track_download_requires_album_purchase;
+case NS_E_TRACK_DOWNLOAD_REQUIRES_PURCHASE:
+	return ns_e_track_download_requires_purchase;
+case NS_E_TRACK_DOWNLOAD_REQUIRES_PURCHASE:
+	return ns_e_track_download_requires_purchase;
+case NS_E_TRACK_DOWNLOAD_REQUIRES_PURCHASE:
+	return ns_e_track_download_requires_purchase;
+case NS_E_TRACK_PURCHASE_MAXIMUM_EXCEEDED:
+	return ns_e_track_purchase_maximum_exceeded;
+case NS_E_TRACK_PURCHASE_MAXIMUM_EXCEEDED:
+	return ns_e_track_purchase_maximum_exceeded;
+case NS_E_TRACK_PURCHASE_MAXIMUM_EXCEEDED:
+	return ns_e_track_purchase_maximum_exceeded;
+case NS_E_SUBSCRIPTIONSERVICE_LOGIN_FAILED:
+	return ns_e_subscriptionservice_login_failed;
+case NS_E_SUBSCRIPTIONSERVICE_LOGIN_FAILED:
+	return ns_e_subscriptionservice_login_failed;
+case NS_E_SUBSCRIPTIONSERVICE_LOGIN_FAILED:
+	return ns_e_subscriptionservice_login_failed;
+case NS_E_SUBSCRIPTIONSERVICE_DOWNLOAD_TIMEOUT:
+	return ns_e_subscriptionservice_download_timeout;
+case NS_E_SUBSCRIPTIONSERVICE_DOWNLOAD_TIMEOUT:
+	return ns_e_subscriptionservice_download_timeout;
+case NS_E_SUBSCRIPTIONSERVICE_DOWNLOAD_TIMEOUT:
+	return ns_e_subscriptionservice_download_timeout;
+case NS_E_CONTENT_PARTNER_STILL_INITIALIZING:
+	return ns_e_content_partner_still_initializing;
+case NS_E_CONTENT_PARTNER_STILL_INITIALIZING:
+	return ns_e_content_partner_still_initializing;
+case NS_E_CONTENT_PARTNER_STILL_INITIALIZING:
+	return ns_e_content_partner_still_initializing;
+case NS_E_OPEN_CONTAINING_FOLDER_FAILED:
+	return ns_e_open_containing_folder_failed;
+case NS_E_OPEN_CONTAINING_FOLDER_FAILED:
+	return ns_e_open_containing_folder_failed;
+case NS_E_OPEN_CONTAINING_FOLDER_FAILED:
+	return ns_e_open_containing_folder_failed;
+case NS_E_ADVANCEDEDIT_TOO_MANY_PICTURES:
+	return ns_e_advancededit_too_many_pictures;
+case NS_E_ADVANCEDEDIT_TOO_MANY_PICTURES:
+	return ns_e_advancededit_too_many_pictures;
+case NS_E_ADVANCEDEDIT_TOO_MANY_PICTURES:
+	return ns_e_advancededit_too_many_pictures;
+case NS_E_REDIRECT:
+	return ns_e_redirect;
+case NS_E_REDIRECT:
+	return ns_e_redirect;
+case NS_E_REDIRECT:
+	return ns_e_redirect;
+case NS_E_STALE_PRESENTATION:
+	return ns_e_stale_presentation;
+case NS_E_STALE_PRESENTATION:
+	return ns_e_stale_presentation;
+case NS_E_STALE_PRESENTATION:
+	return ns_e_stale_presentation;
+case NS_E_NAMESPACE_WRONG_PERSIST:
+	return ns_e_namespace_wrong_persist;
+case NS_E_NAMESPACE_WRONG_PERSIST:
+	return ns_e_namespace_wrong_persist;
+case NS_E_NAMESPACE_WRONG_PERSIST:
+	return ns_e_namespace_wrong_persist;
+case NS_E_NAMESPACE_WRONG_TYPE:
+	return ns_e_namespace_wrong_type;
+case NS_E_NAMESPACE_WRONG_TYPE:
+	return ns_e_namespace_wrong_type;
+case NS_E_NAMESPACE_WRONG_TYPE:
+	return ns_e_namespace_wrong_type;
+case NS_E_NAMESPACE_NODE_CONFLICT:
+	return ns_e_namespace_node_conflict;
+case NS_E_NAMESPACE_NODE_CONFLICT:
+	return ns_e_namespace_node_conflict;
+case NS_E_NAMESPACE_NODE_CONFLICT:
+	return ns_e_namespace_node_conflict;
+case NS_E_NAMESPACE_NODE_NOT_FOUND:
+	return ns_e_namespace_node_not_found;
+case NS_E_NAMESPACE_NODE_NOT_FOUND:
+	return ns_e_namespace_node_not_found;
+case NS_E_NAMESPACE_NODE_NOT_FOUND:
+	return ns_e_namespace_node_not_found;
+case NS_E_NAMESPACE_BUFFER_TOO_SMALL:
+	return ns_e_namespace_buffer_too_small;
+case NS_E_NAMESPACE_BUFFER_TOO_SMALL:
+	return ns_e_namespace_buffer_too_small;
+case NS_E_NAMESPACE_BUFFER_TOO_SMALL:
+	return ns_e_namespace_buffer_too_small;
+case NS_E_NAMESPACE_TOO_MANY_CALLBACKS:
+	return ns_e_namespace_too_many_callbacks;
+case NS_E_NAMESPACE_TOO_MANY_CALLBACKS:
+	return ns_e_namespace_too_many_callbacks;
+case NS_E_NAMESPACE_TOO_MANY_CALLBACKS:
+	return ns_e_namespace_too_many_callbacks;
+case NS_E_NAMESPACE_DUPLICATE_CALLBACK:
+	return ns_e_namespace_duplicate_callback;
+case NS_E_NAMESPACE_DUPLICATE_CALLBACK:
+	return ns_e_namespace_duplicate_callback;
+case NS_E_NAMESPACE_DUPLICATE_CALLBACK:
+	return ns_e_namespace_duplicate_callback;
+case NS_E_NAMESPACE_CALLBACK_NOT_FOUND:
+	return ns_e_namespace_callback_not_found;
+case NS_E_NAMESPACE_CALLBACK_NOT_FOUND:
+	return ns_e_namespace_callback_not_found;
+case NS_E_NAMESPACE_CALLBACK_NOT_FOUND:
+	return ns_e_namespace_callback_not_found;
+case NS_E_NAMESPACE_NAME_TOO_LONG:
+	return ns_e_namespace_name_too_long;
+case NS_E_NAMESPACE_NAME_TOO_LONG:
+	return ns_e_namespace_name_too_long;
+case NS_E_NAMESPACE_NAME_TOO_LONG:
+	return ns_e_namespace_name_too_long;
+case NS_E_NAMESPACE_DUPLICATE_NAME:
+	return ns_e_namespace_duplicate_name;
+case NS_E_NAMESPACE_DUPLICATE_NAME:
+	return ns_e_namespace_duplicate_name;
+case NS_E_NAMESPACE_DUPLICATE_NAME:
+	return ns_e_namespace_duplicate_name;
+case NS_E_NAMESPACE_EMPTY_NAME:
+	return ns_e_namespace_empty_name;
+case NS_E_NAMESPACE_EMPTY_NAME:
+	return ns_e_namespace_empty_name;
+case NS_E_NAMESPACE_EMPTY_NAME:
+	return ns_e_namespace_empty_name;
+case NS_E_NAMESPACE_INDEX_TOO_LARGE:
+	return ns_e_namespace_index_too_large;
+case NS_E_NAMESPACE_INDEX_TOO_LARGE:
+	return ns_e_namespace_index_too_large;
+case NS_E_NAMESPACE_INDEX_TOO_LARGE:
+	return ns_e_namespace_index_too_large;
+case NS_E_NAMESPACE_BAD_NAME:
+	return ns_e_namespace_bad_name;
+case NS_E_NAMESPACE_BAD_NAME:
+	return ns_e_namespace_bad_name;
+case NS_E_NAMESPACE_BAD_NAME:
+	return ns_e_namespace_bad_name;
+case NS_E_NAMESPACE_WRONG_SECURITY:
+	return ns_e_namespace_wrong_security;
+case NS_E_NAMESPACE_WRONG_SECURITY:
+	return ns_e_namespace_wrong_security;
+case NS_E_NAMESPACE_WRONG_SECURITY:
+	return ns_e_namespace_wrong_security;
+case NS_E_CACHE_ARCHIVE_CONFLICT:
+	return ns_e_cache_archive_conflict;
+case NS_E_CACHE_ARCHIVE_CONFLICT:
+	return ns_e_cache_archive_conflict;
+case NS_E_CACHE_ARCHIVE_CONFLICT:
+	return ns_e_cache_archive_conflict;
+case NS_E_CACHE_ORIGIN_SERVER_NOT_FOUND:
+	return ns_e_cache_origin_server_not_found;
+case NS_E_CACHE_ORIGIN_SERVER_NOT_FOUND:
+	return ns_e_cache_origin_server_not_found;
+case NS_E_CACHE_ORIGIN_SERVER_NOT_FOUND:
+	return ns_e_cache_origin_server_not_found;
+case NS_E_CACHE_ORIGIN_SERVER_TIMEOUT:
+	return ns_e_cache_origin_server_timeout;
+case NS_E_CACHE_ORIGIN_SERVER_TIMEOUT:
+	return ns_e_cache_origin_server_timeout;
+case NS_E_CACHE_ORIGIN_SERVER_TIMEOUT:
+	return ns_e_cache_origin_server_timeout;
+case NS_E_CACHE_NOT_BROADCAST:
+	return ns_e_cache_not_broadcast;
+case NS_E_CACHE_NOT_BROADCAST:
+	return ns_e_cache_not_broadcast;
+case NS_E_CACHE_NOT_BROADCAST:
+	return ns_e_cache_not_broadcast;
+case NS_E_CACHE_CANNOT_BE_CACHED:
+	return ns_e_cache_cannot_be_cached;
+case NS_E_CACHE_CANNOT_BE_CACHED:
+	return ns_e_cache_cannot_be_cached;
+case NS_E_CACHE_CANNOT_BE_CACHED:
+	return ns_e_cache_cannot_be_cached;
+case NS_E_CACHE_NOT_MODIFIED:
+	return ns_e_cache_not_modified;
+case NS_E_CACHE_NOT_MODIFIED:
+	return ns_e_cache_not_modified;
+case NS_E_CACHE_NOT_MODIFIED:
+	return ns_e_cache_not_modified;
+case NS_E_CANNOT_REMOVE_PUBLISHING_POINT:
+	return ns_e_cannot_remove_publishing_point;
+case NS_E_CANNOT_REMOVE_PUBLISHING_POINT:
+	return ns_e_cannot_remove_publishing_point;
+case NS_E_CANNOT_REMOVE_PUBLISHING_POINT:
+	return ns_e_cannot_remove_publishing_point;
+case NS_E_CANNOT_REMOVE_PLUGIN:
+	return ns_e_cannot_remove_plugin;
+case NS_E_CANNOT_REMOVE_PLUGIN:
+	return ns_e_cannot_remove_plugin;
+case NS_E_CANNOT_REMOVE_PLUGIN:
+	return ns_e_cannot_remove_plugin;
+case NS_E_WRONG_PUBLISHING_POINT_TYPE:
+	return ns_e_wrong_publishing_point_type;
+case NS_E_WRONG_PUBLISHING_POINT_TYPE:
+	return ns_e_wrong_publishing_point_type;
+case NS_E_WRONG_PUBLISHING_POINT_TYPE:
+	return ns_e_wrong_publishing_point_type;
+case NS_E_UNSUPPORTED_LOAD_TYPE:
+	return ns_e_unsupported_load_type;
+case NS_E_UNSUPPORTED_LOAD_TYPE:
+	return ns_e_unsupported_load_type;
+case NS_E_UNSUPPORTED_LOAD_TYPE:
+	return ns_e_unsupported_load_type;
+case NS_E_INVALID_PLUGIN_LOAD_TYPE_CONFIGURATION:
+	return ns_e_invalid_plugin_load_type_configuration;
+case NS_E_INVALID_PLUGIN_LOAD_TYPE_CONFIGURATION:
+	return ns_e_invalid_plugin_load_type_configuration;
+case NS_E_INVALID_PLUGIN_LOAD_TYPE_CONFIGURATION:
+	return ns_e_invalid_plugin_load_type_configuration;
+case NS_E_INVALID_PUBLISHING_POINT_NAME:
+	return ns_e_invalid_publishing_point_name;
+case NS_E_INVALID_PUBLISHING_POINT_NAME:
+	return ns_e_invalid_publishing_point_name;
+case NS_E_INVALID_PUBLISHING_POINT_NAME:
+	return ns_e_invalid_publishing_point_name;
+case NS_E_TOO_MANY_MULTICAST_SINKS:
+	return ns_e_too_many_multicast_sinks;
+case NS_E_TOO_MANY_MULTICAST_SINKS:
+	return ns_e_too_many_multicast_sinks;
+case NS_E_TOO_MANY_MULTICAST_SINKS:
+	return ns_e_too_many_multicast_sinks;
+case NS_E_PUBLISHING_POINT_INVALID_REQUEST_WHILE_STARTED:
+	return ns_e_publishing_point_invalid_request_while_started;
+case NS_E_PUBLISHING_POINT_INVALID_REQUEST_WHILE_STARTED:
+	return ns_e_publishing_point_invalid_request_while_started;
+case NS_E_PUBLISHING_POINT_INVALID_REQUEST_WHILE_STARTED:
+	return ns_e_publishing_point_invalid_request_while_started;
+case NS_E_MULTICAST_PLUGIN_NOT_ENABLED:
+	return ns_e_multicast_plugin_not_enabled;
+case NS_E_MULTICAST_PLUGIN_NOT_ENABLED:
+	return ns_e_multicast_plugin_not_enabled;
+case NS_E_MULTICAST_PLUGIN_NOT_ENABLED:
+	return ns_e_multicast_plugin_not_enabled;
+case NS_E_INVALID_OPERATING_SYSTEM_VERSION:
+	return ns_e_invalid_operating_system_version;
+case NS_E_INVALID_OPERATING_SYSTEM_VERSION:
+	return ns_e_invalid_operating_system_version;
+case NS_E_INVALID_OPERATING_SYSTEM_VERSION:
+	return ns_e_invalid_operating_system_version;
+case NS_E_PUBLISHING_POINT_REMOVED:
+	return ns_e_publishing_point_removed;
+case NS_E_PUBLISHING_POINT_REMOVED:
+	return ns_e_publishing_point_removed;
+case NS_E_PUBLISHING_POINT_REMOVED:
+	return ns_e_publishing_point_removed;
+case NS_E_INVALID_PUSH_PUBLISHING_POINT_START_REQUEST:
+	return ns_e_invalid_push_publishing_point_start_request;
+case NS_E_INVALID_PUSH_PUBLISHING_POINT_START_REQUEST:
+	return ns_e_invalid_push_publishing_point_start_request;
+case NS_E_INVALID_PUSH_PUBLISHING_POINT_START_REQUEST:
+	return ns_e_invalid_push_publishing_point_start_request;
+case NS_E_UNSUPPORTED_LANGUAGE:
+	return ns_e_unsupported_language;
+case NS_E_UNSUPPORTED_LANGUAGE:
+	return ns_e_unsupported_language;
+case NS_E_UNSUPPORTED_LANGUAGE:
+	return ns_e_unsupported_language;
+case NS_E_WRONG_OS_VERSION:
+	return ns_e_wrong_os_version;
+case NS_E_WRONG_OS_VERSION:
+	return ns_e_wrong_os_version;
+case NS_E_WRONG_OS_VERSION:
+	return ns_e_wrong_os_version;
+case NS_E_PUBLISHING_POINT_STOPPED:
+	return ns_e_publishing_point_stopped;
+case NS_E_PUBLISHING_POINT_STOPPED:
+	return ns_e_publishing_point_stopped;
+case NS_E_PUBLISHING_POINT_STOPPED:
+	return ns_e_publishing_point_stopped;
+case NS_E_PLAYLIST_ENTRY_ALREADY_PLAYING:
+	return ns_e_playlist_entry_already_playing;
+case NS_E_PLAYLIST_ENTRY_ALREADY_PLAYING:
+	return ns_e_playlist_entry_already_playing;
+case NS_E_PLAYLIST_ENTRY_ALREADY_PLAYING:
+	return ns_e_playlist_entry_already_playing;
+case NS_E_EMPTY_PLAYLIST:
+	return ns_e_empty_playlist;
+case NS_E_EMPTY_PLAYLIST:
+	return ns_e_empty_playlist;
+case NS_E_EMPTY_PLAYLIST:
+	return ns_e_empty_playlist;
+case NS_E_PLAYLIST_PARSE_FAILURE:
+	return ns_e_playlist_parse_failure;
+case NS_E_PLAYLIST_PARSE_FAILURE:
+	return ns_e_playlist_parse_failure;
+case NS_E_PLAYLIST_PARSE_FAILURE:
+	return ns_e_playlist_parse_failure;
+case NS_E_PLAYLIST_UNSUPPORTED_ENTRY:
+	return ns_e_playlist_unsupported_entry;
+case NS_E_PLAYLIST_UNSUPPORTED_ENTRY:
+	return ns_e_playlist_unsupported_entry;
+case NS_E_PLAYLIST_UNSUPPORTED_ENTRY:
+	return ns_e_playlist_unsupported_entry;
+case NS_E_PLAYLIST_ENTRY_NOT_IN_PLAYLIST:
+	return ns_e_playlist_entry_not_in_playlist;
+case NS_E_PLAYLIST_ENTRY_NOT_IN_PLAYLIST:
+	return ns_e_playlist_entry_not_in_playlist;
+case NS_E_PLAYLIST_ENTRY_NOT_IN_PLAYLIST:
+	return ns_e_playlist_entry_not_in_playlist;
+case NS_E_PLAYLIST_ENTRY_SEEK:
+	return ns_e_playlist_entry_seek;
+case NS_E_PLAYLIST_ENTRY_SEEK:
+	return ns_e_playlist_entry_seek;
+case NS_E_PLAYLIST_ENTRY_SEEK:
+	return ns_e_playlist_entry_seek;
+case NS_E_PLAYLIST_RECURSIVE_PLAYLISTS:
+	return ns_e_playlist_recursive_playlists;
+case NS_E_PLAYLIST_RECURSIVE_PLAYLISTS:
+	return ns_e_playlist_recursive_playlists;
+case NS_E_PLAYLIST_RECURSIVE_PLAYLISTS:
+	return ns_e_playlist_recursive_playlists;
+case NS_E_PLAYLIST_TOO_MANY_NESTED_PLAYLISTS:
+	return ns_e_playlist_too_many_nested_playlists;
+case NS_E_PLAYLIST_TOO_MANY_NESTED_PLAYLISTS:
+	return ns_e_playlist_too_many_nested_playlists;
+case NS_E_PLAYLIST_TOO_MANY_NESTED_PLAYLISTS:
+	return ns_e_playlist_too_many_nested_playlists;
+case NS_E_PLAYLIST_SHUTDOWN:
+	return ns_e_playlist_shutdown;
+case NS_E_PLAYLIST_SHUTDOWN:
+	return ns_e_playlist_shutdown;
+case NS_E_PLAYLIST_SHUTDOWN:
+	return ns_e_playlist_shutdown;
+case NS_E_PLAYLIST_END_RECEDING:
+	return ns_e_playlist_end_receding;
+case NS_E_PLAYLIST_END_RECEDING:
+	return ns_e_playlist_end_receding;
+case NS_E_PLAYLIST_END_RECEDING:
+	return ns_e_playlist_end_receding;
+case NS_E_DATAPATH_NO_SINK:
+	return ns_e_datapath_no_sink;
+case NS_E_DATAPATH_NO_SINK:
+	return ns_e_datapath_no_sink;
+case NS_E_DATAPATH_NO_SINK:
+	return ns_e_datapath_no_sink;
+case NS_E_INVALID_PUSH_TEMPLATE:
+	return ns_e_invalid_push_template;
+case NS_E_INVALID_PUSH_TEMPLATE:
+	return ns_e_invalid_push_template;
+case NS_E_INVALID_PUSH_TEMPLATE:
+	return ns_e_invalid_push_template;
+case NS_E_INVALID_PUSH_PUBLISHING_POINT:
+	return ns_e_invalid_push_publishing_point;
+case NS_E_INVALID_PUSH_PUBLISHING_POINT:
+	return ns_e_invalid_push_publishing_point;
+case NS_E_INVALID_PUSH_PUBLISHING_POINT:
+	return ns_e_invalid_push_publishing_point;
+case NS_E_CRITICAL_ERROR:
+	return ns_e_critical_error;
+case NS_E_CRITICAL_ERROR:
+	return ns_e_critical_error;
+case NS_E_CRITICAL_ERROR:
+	return ns_e_critical_error;
+case NS_E_NO_NEW_CONNECTIONS:
+	return ns_e_no_new_connections;
+case NS_E_NO_NEW_CONNECTIONS:
+	return ns_e_no_new_connections;
+case NS_E_NO_NEW_CONNECTIONS:
+	return ns_e_no_new_connections;
+case NS_E_WSX_INVALID_VERSION:
+	return ns_e_wsx_invalid_version;
+case NS_E_WSX_INVALID_VERSION:
+	return ns_e_wsx_invalid_version;
+case NS_E_WSX_INVALID_VERSION:
+	return ns_e_wsx_invalid_version;
+case NS_E_HEADER_MISMATCH:
+	return ns_e_header_mismatch;
+case NS_E_HEADER_MISMATCH:
+	return ns_e_header_mismatch;
+case NS_E_HEADER_MISMATCH:
+	return ns_e_header_mismatch;
+case NS_E_PUSH_DUPLICATE_PUBLISHING_POINT_NAME:
+	return ns_e_push_duplicate_publishing_point_name;
+case NS_E_PUSH_DUPLICATE_PUBLISHING_POINT_NAME:
+	return ns_e_push_duplicate_publishing_point_name;
+case NS_E_PUSH_DUPLICATE_PUBLISHING_POINT_NAME:
+	return ns_e_push_duplicate_publishing_point_name;
+case NS_E_NO_SCRIPT_ENGINE:
+	return ns_e_no_script_engine;
+case NS_E_NO_SCRIPT_ENGINE:
+	return ns_e_no_script_engine;
+case NS_E_NO_SCRIPT_ENGINE:
+	return ns_e_no_script_engine;
+case NS_E_PLUGIN_ERROR_REPORTED:
+	return ns_e_plugin_error_reported;
+case NS_E_PLUGIN_ERROR_REPORTED:
+	return ns_e_plugin_error_reported;
+case NS_E_PLUGIN_ERROR_REPORTED:
+	return ns_e_plugin_error_reported;
+case NS_E_SOURCE_PLUGIN_NOT_FOUND:
+	return ns_e_source_plugin_not_found;
+case NS_E_SOURCE_PLUGIN_NOT_FOUND:
+	return ns_e_source_plugin_not_found;
+case NS_E_SOURCE_PLUGIN_NOT_FOUND:
+	return ns_e_source_plugin_not_found;
+case NS_E_PLAYLIST_PLUGIN_NOT_FOUND:
+	return ns_e_playlist_plugin_not_found;
+case NS_E_PLAYLIST_PLUGIN_NOT_FOUND:
+	return ns_e_playlist_plugin_not_found;
+case NS_E_PLAYLIST_PLUGIN_NOT_FOUND:
+	return ns_e_playlist_plugin_not_found;
+case NS_E_DATA_SOURCE_ENUMERATION_NOT_SUPPORTED:
+	return ns_e_data_source_enumeration_not_supported;
+case NS_E_DATA_SOURCE_ENUMERATION_NOT_SUPPORTED:
+	return ns_e_data_source_enumeration_not_supported;
+case NS_E_DATA_SOURCE_ENUMERATION_NOT_SUPPORTED:
+	return ns_e_data_source_enumeration_not_supported;
+case NS_E_MEDIA_PARSER_INVALID_FORMAT:
+	return ns_e_media_parser_invalid_format;
+case NS_E_MEDIA_PARSER_INVALID_FORMAT:
+	return ns_e_media_parser_invalid_format;
+case NS_E_MEDIA_PARSER_INVALID_FORMAT:
+	return ns_e_media_parser_invalid_format;
+case NS_E_SCRIPT_DEBUGGER_NOT_INSTALLED:
+	return ns_e_script_debugger_not_installed;
+case NS_E_SCRIPT_DEBUGGER_NOT_INSTALLED:
+	return ns_e_script_debugger_not_installed;
+case NS_E_SCRIPT_DEBUGGER_NOT_INSTALLED:
+	return ns_e_script_debugger_not_installed;
+case NS_E_FEATURE_REQUIRES_ENTERPRISE_SERVER:
+	return ns_e_feature_requires_enterprise_server;
+case NS_E_FEATURE_REQUIRES_ENTERPRISE_SERVER:
+	return ns_e_feature_requires_enterprise_server;
+case NS_E_FEATURE_REQUIRES_ENTERPRISE_SERVER:
+	return ns_e_feature_requires_enterprise_server;
+case NS_E_WIZARD_RUNNING:
+	return ns_e_wizard_running;
+case NS_E_WIZARD_RUNNING:
+	return ns_e_wizard_running;
+case NS_E_WIZARD_RUNNING:
+	return ns_e_wizard_running;
+case NS_E_INVALID_LOG_URL:
+	return ns_e_invalid_log_url;
+case NS_E_INVALID_LOG_URL:
+	return ns_e_invalid_log_url;
+case NS_E_INVALID_LOG_URL:
+	return ns_e_invalid_log_url;
+case NS_E_INVALID_MTU_RANGE:
+	return ns_e_invalid_mtu_range;
+case NS_E_INVALID_MTU_RANGE:
+	return ns_e_invalid_mtu_range;
+case NS_E_INVALID_MTU_RANGE:
+	return ns_e_invalid_mtu_range;
+case NS_E_INVALID_PLAY_STATISTICS:
+	return ns_e_invalid_play_statistics;
+case NS_E_INVALID_PLAY_STATISTICS:
+	return ns_e_invalid_play_statistics;
+case NS_E_INVALID_PLAY_STATISTICS:
+	return ns_e_invalid_play_statistics;
+case NS_E_LOG_NEED_TO_BE_SKIPPED:
+	return ns_e_log_need_to_be_skipped;
+case NS_E_LOG_NEED_TO_BE_SKIPPED:
+	return ns_e_log_need_to_be_skipped;
+case NS_E_LOG_NEED_TO_BE_SKIPPED:
+	return ns_e_log_need_to_be_skipped;
+case NS_E_HTTP_TEXT_DATACONTAINER_SIZE_LIMIT_EXCEEDED:
+	return ns_e_http_text_datacontainer_size_limit_exceeded;
+case NS_E_HTTP_TEXT_DATACONTAINER_SIZE_LIMIT_EXCEEDED:
+	return ns_e_http_text_datacontainer_size_limit_exceeded;
+case NS_E_HTTP_TEXT_DATACONTAINER_SIZE_LIMIT_EXCEEDED:
+	return ns_e_http_text_datacontainer_size_limit_exceeded;
+case NS_E_PORT_IN_USE:
+	return ns_e_port_in_use;
+case NS_E_PORT_IN_USE:
+	return ns_e_port_in_use;
+case NS_E_PORT_IN_USE:
+	return ns_e_port_in_use;
+case NS_E_PORT_IN_USE_HTTP:
+	return ns_e_port_in_use_http;
+case NS_E_PORT_IN_USE_HTTP:
+	return ns_e_port_in_use_http;
+case NS_E_PORT_IN_USE_HTTP:
+	return ns_e_port_in_use_http;
+case NS_E_HTTP_TEXT_DATACONTAINER_INVALID_SERVER_RESPONSE:
+	return ns_e_http_text_datacontainer_invalid_server_response;
+case NS_E_HTTP_TEXT_DATACONTAINER_INVALID_SERVER_RESPONSE:
+	return ns_e_http_text_datacontainer_invalid_server_response;
+case NS_E_HTTP_TEXT_DATACONTAINER_INVALID_SERVER_RESPONSE:
+	return ns_e_http_text_datacontainer_invalid_server_response;
+case NS_E_ARCHIVE_REACH_QUOTA:
+	return ns_e_archive_reach_quota;
+case NS_E_ARCHIVE_REACH_QUOTA:
+	return ns_e_archive_reach_quota;
+case NS_E_ARCHIVE_REACH_QUOTA:
+	return ns_e_archive_reach_quota;
+case NS_E_ARCHIVE_ABORT_DUE_TO_BCAST:
+	return ns_e_archive_abort_due_to_bcast;
+case NS_E_ARCHIVE_ABORT_DUE_TO_BCAST:
+	return ns_e_archive_abort_due_to_bcast;
+case NS_E_ARCHIVE_ABORT_DUE_TO_BCAST:
+	return ns_e_archive_abort_due_to_bcast;
+case NS_E_ARCHIVE_GAP_DETECTED:
+	return ns_e_archive_gap_detected;
+case NS_E_ARCHIVE_GAP_DETECTED:
+	return ns_e_archive_gap_detected;
+case NS_E_ARCHIVE_GAP_DETECTED:
+	return ns_e_archive_gap_detected;
+case NS_E_AUTHORIZATION_FILE_NOT_FOUND:
+	return ns_e_authorization_file_not_found;
+case NS_E_AUTHORIZATION_FILE_NOT_FOUND:
+	return ns_e_authorization_file_not_found;
+case NS_E_AUTHORIZATION_FILE_NOT_FOUND:
+	return ns_e_authorization_file_not_found;
+case NS_E_BAD_MARKIN:
+	return ns_e_bad_markin;
+case NS_E_BAD_MARKIN:
+	return ns_e_bad_markin;
+case NS_E_BAD_MARKIN:
+	return ns_e_bad_markin;
+case NS_E_BAD_MARKOUT:
+	return ns_e_bad_markout;
+case NS_E_BAD_MARKOUT:
+	return ns_e_bad_markout;
+case NS_E_BAD_MARKOUT:
+	return ns_e_bad_markout;
+case NS_E_NOMATCHING_MEDIASOURCE:
+	return ns_e_nomatching_mediasource;
+case NS_E_NOMATCHING_MEDIASOURCE:
+	return ns_e_nomatching_mediasource;
+case NS_E_NOMATCHING_MEDIASOURCE:
+	return ns_e_nomatching_mediasource;
+case NS_E_UNSUPPORTED_SOURCETYPE:
+	return ns_e_unsupported_sourcetype;
+case NS_E_UNSUPPORTED_SOURCETYPE:
+	return ns_e_unsupported_sourcetype;
+case NS_E_UNSUPPORTED_SOURCETYPE:
+	return ns_e_unsupported_sourcetype;
+case NS_E_TOO_MANY_AUDIO:
+	return ns_e_too_many_audio;
+case NS_E_TOO_MANY_AUDIO:
+	return ns_e_too_many_audio;
+case NS_E_TOO_MANY_AUDIO:
+	return ns_e_too_many_audio;
+case NS_E_TOO_MANY_VIDEO:
+	return ns_e_too_many_video;
+case NS_E_TOO_MANY_VIDEO:
+	return ns_e_too_many_video;
+case NS_E_TOO_MANY_VIDEO:
+	return ns_e_too_many_video;
+case NS_E_NOMATCHING_ELEMENT:
+	return ns_e_nomatching_element;
+case NS_E_NOMATCHING_ELEMENT:
+	return ns_e_nomatching_element;
+case NS_E_NOMATCHING_ELEMENT:
+	return ns_e_nomatching_element;
+case NS_E_MISMATCHED_MEDIACONTENT:
+	return ns_e_mismatched_mediacontent;
+case NS_E_MISMATCHED_MEDIACONTENT:
+	return ns_e_mismatched_mediacontent;
+case NS_E_MISMATCHED_MEDIACONTENT:
+	return ns_e_mismatched_mediacontent;
+case NS_E_CANNOT_DELETE_ACTIVE_SOURCEGROUP:
+	return ns_e_cannot_delete_active_sourcegroup;
+case NS_E_CANNOT_DELETE_ACTIVE_SOURCEGROUP:
+	return ns_e_cannot_delete_active_sourcegroup;
+case NS_E_CANNOT_DELETE_ACTIVE_SOURCEGROUP:
+	return ns_e_cannot_delete_active_sourcegroup;
+case NS_E_AUDIODEVICE_BUSY:
+	return ns_e_audiodevice_busy;
+case NS_E_AUDIODEVICE_BUSY:
+	return ns_e_audiodevice_busy;
+case NS_E_AUDIODEVICE_BUSY:
+	return ns_e_audiodevice_busy;
+case NS_E_AUDIODEVICE_UNEXPECTED:
+	return ns_e_audiodevice_unexpected;
+case NS_E_AUDIODEVICE_UNEXPECTED:
+	return ns_e_audiodevice_unexpected;
+case NS_E_AUDIODEVICE_UNEXPECTED:
+	return ns_e_audiodevice_unexpected;
+case NS_E_AUDIODEVICE_BADFORMAT:
+	return ns_e_audiodevice_badformat;
+case NS_E_AUDIODEVICE_BADFORMAT:
+	return ns_e_audiodevice_badformat;
+case NS_E_AUDIODEVICE_BADFORMAT:
+	return ns_e_audiodevice_badformat;
+case NS_E_VIDEODEVICE_BUSY:
+	return ns_e_videodevice_busy;
+case NS_E_VIDEODEVICE_BUSY:
+	return ns_e_videodevice_busy;
+case NS_E_VIDEODEVICE_BUSY:
+	return ns_e_videodevice_busy;
+case NS_E_VIDEODEVICE_UNEXPECTED:
+	return ns_e_videodevice_unexpected;
+case NS_E_VIDEODEVICE_UNEXPECTED:
+	return ns_e_videodevice_unexpected;
+case NS_E_VIDEODEVICE_UNEXPECTED:
+	return ns_e_videodevice_unexpected;
+case NS_E_INVALIDCALL_WHILE_ENCODER_RUNNING:
+	return ns_e_invalidcall_while_encoder_running;
+case NS_E_INVALIDCALL_WHILE_ENCODER_RUNNING:
+	return ns_e_invalidcall_while_encoder_running;
+case NS_E_INVALIDCALL_WHILE_ENCODER_RUNNING:
+	return ns_e_invalidcall_while_encoder_running;
+case NS_E_NO_PROFILE_IN_SOURCEGROUP:
+	return ns_e_no_profile_in_sourcegroup;
+case NS_E_NO_PROFILE_IN_SOURCEGROUP:
+	return ns_e_no_profile_in_sourcegroup;
+case NS_E_NO_PROFILE_IN_SOURCEGROUP:
+	return ns_e_no_profile_in_sourcegroup;
+case NS_E_VIDEODRIVER_UNSTABLE:
+	return ns_e_videodriver_unstable;
+case NS_E_VIDEODRIVER_UNSTABLE:
+	return ns_e_videodriver_unstable;
+case NS_E_VIDEODRIVER_UNSTABLE:
+	return ns_e_videodriver_unstable;
+case NS_E_VIDCAPSTARTFAILED:
+	return ns_e_vidcapstartfailed;
+case NS_E_VIDCAPSTARTFAILED:
+	return ns_e_vidcapstartfailed;
+case NS_E_VIDCAPSTARTFAILED:
+	return ns_e_vidcapstartfailed;
+case NS_E_VIDSOURCECOMPRESSION:
+	return ns_e_vidsourcecompression;
+case NS_E_VIDSOURCECOMPRESSION:
+	return ns_e_vidsourcecompression;
+case NS_E_VIDSOURCECOMPRESSION:
+	return ns_e_vidsourcecompression;
+case NS_E_VIDSOURCESIZE:
+	return ns_e_vidsourcesize;
+case NS_E_VIDSOURCESIZE:
+	return ns_e_vidsourcesize;
+case NS_E_VIDSOURCESIZE:
+	return ns_e_vidsourcesize;
+case NS_E_ICMQUERYFORMAT:
+	return ns_e_icmqueryformat;
+case NS_E_ICMQUERYFORMAT:
+	return ns_e_icmqueryformat;
+case NS_E_ICMQUERYFORMAT:
+	return ns_e_icmqueryformat;
+case NS_E_VIDCAPCREATEWINDOW:
+	return ns_e_vidcapcreatewindow;
+case NS_E_VIDCAPCREATEWINDOW:
+	return ns_e_vidcapcreatewindow;
+case NS_E_VIDCAPCREATEWINDOW:
+	return ns_e_vidcapcreatewindow;
+case NS_E_VIDCAPDRVINUSE:
+	return ns_e_vidcapdrvinuse;
+case NS_E_VIDCAPDRVINUSE:
+	return ns_e_vidcapdrvinuse;
+case NS_E_VIDCAPDRVINUSE:
+	return ns_e_vidcapdrvinuse;
+case NS_E_NO_MEDIAFORMAT_IN_SOURCE:
+	return ns_e_no_mediaformat_in_source;
+case NS_E_NO_MEDIAFORMAT_IN_SOURCE:
+	return ns_e_no_mediaformat_in_source;
+case NS_E_NO_MEDIAFORMAT_IN_SOURCE:
+	return ns_e_no_mediaformat_in_source;
+case NS_E_NO_VALID_OUTPUT_STREAM:
+	return ns_e_no_valid_output_stream;
+case NS_E_NO_VALID_OUTPUT_STREAM:
+	return ns_e_no_valid_output_stream;
+case NS_E_NO_VALID_OUTPUT_STREAM:
+	return ns_e_no_valid_output_stream;
+case NS_E_NO_VALID_SOURCE_PLUGIN:
+	return ns_e_no_valid_source_plugin;
+case NS_E_NO_VALID_SOURCE_PLUGIN:
+	return ns_e_no_valid_source_plugin;
+case NS_E_NO_VALID_SOURCE_PLUGIN:
+	return ns_e_no_valid_source_plugin;
+case NS_E_NO_ACTIVE_SOURCEGROUP:
+	return ns_e_no_active_sourcegroup;
+case NS_E_NO_ACTIVE_SOURCEGROUP:
+	return ns_e_no_active_sourcegroup;
+case NS_E_NO_ACTIVE_SOURCEGROUP:
+	return ns_e_no_active_sourcegroup;
+case NS_E_NO_SCRIPT_STREAM:
+	return ns_e_no_script_stream;
+case NS_E_NO_SCRIPT_STREAM:
+	return ns_e_no_script_stream;
+case NS_E_NO_SCRIPT_STREAM:
+	return ns_e_no_script_stream;
+case NS_E_INVALIDCALL_WHILE_ARCHIVAL_RUNNING:
+	return ns_e_invalidcall_while_archival_running;
+case NS_E_INVALIDCALL_WHILE_ARCHIVAL_RUNNING:
+	return ns_e_invalidcall_while_archival_running;
+case NS_E_INVALIDCALL_WHILE_ARCHIVAL_RUNNING:
+	return ns_e_invalidcall_while_archival_running;
+case NS_E_INVALIDPACKETSIZE:
+	return ns_e_invalidpacketsize;
+case NS_E_INVALIDPACKETSIZE:
+	return ns_e_invalidpacketsize;
+case NS_E_INVALIDPACKETSIZE:
+	return ns_e_invalidpacketsize;
+case NS_E_PLUGIN_CLSID_INVALID:
+	return ns_e_plugin_clsid_invalid;
+case NS_E_PLUGIN_CLSID_INVALID:
+	return ns_e_plugin_clsid_invalid;
+case NS_E_PLUGIN_CLSID_INVALID:
+	return ns_e_plugin_clsid_invalid;
+case NS_E_UNSUPPORTED_ARCHIVETYPE:
+	return ns_e_unsupported_archivetype;
+case NS_E_UNSUPPORTED_ARCHIVETYPE:
+	return ns_e_unsupported_archivetype;
+case NS_E_UNSUPPORTED_ARCHIVETYPE:
+	return ns_e_unsupported_archivetype;
+case NS_E_UNSUPPORTED_ARCHIVEOPERATION:
+	return ns_e_unsupported_archiveoperation;
+case NS_E_UNSUPPORTED_ARCHIVEOPERATION:
+	return ns_e_unsupported_archiveoperation;
+case NS_E_UNSUPPORTED_ARCHIVEOPERATION:
+	return ns_e_unsupported_archiveoperation;
+case NS_E_ARCHIVE_FILENAME_NOTSET:
+	return ns_e_archive_filename_notset;
+case NS_E_ARCHIVE_FILENAME_NOTSET:
+	return ns_e_archive_filename_notset;
+case NS_E_ARCHIVE_FILENAME_NOTSET:
+	return ns_e_archive_filename_notset;
+case NS_E_SOURCEGROUP_NOTPREPARED:
+	return ns_e_sourcegroup_notprepared;
+case NS_E_SOURCEGROUP_NOTPREPARED:
+	return ns_e_sourcegroup_notprepared;
+case NS_E_SOURCEGROUP_NOTPREPARED:
+	return ns_e_sourcegroup_notprepared;
+case NS_E_PROFILE_MISMATCH:
+	return ns_e_profile_mismatch;
+case NS_E_PROFILE_MISMATCH:
+	return ns_e_profile_mismatch;
+case NS_E_PROFILE_MISMATCH:
+	return ns_e_profile_mismatch;
+case NS_E_INCORRECTCLIPSETTINGS:
+	return ns_e_incorrectclipsettings;
+case NS_E_INCORRECTCLIPSETTINGS:
+	return ns_e_incorrectclipsettings;
+case NS_E_INCORRECTCLIPSETTINGS:
+	return ns_e_incorrectclipsettings;
+case NS_E_NOSTATSAVAILABLE:
+	return ns_e_nostatsavailable;
+case NS_E_NOSTATSAVAILABLE:
+	return ns_e_nostatsavailable;
+case NS_E_NOSTATSAVAILABLE:
+	return ns_e_nostatsavailable;
+case NS_E_NOTARCHIVING:
+	return ns_e_notarchiving;
+case NS_E_NOTARCHIVING:
+	return ns_e_notarchiving;
+case NS_E_NOTARCHIVING:
+	return ns_e_notarchiving;
+case NS_E_INVALIDCALL_WHILE_ENCODER_STOPPED:
+	return ns_e_invalidcall_while_encoder_stopped;
+case NS_E_INVALIDCALL_WHILE_ENCODER_STOPPED:
+	return ns_e_invalidcall_while_encoder_stopped;
+case NS_E_INVALIDCALL_WHILE_ENCODER_STOPPED:
+	return ns_e_invalidcall_while_encoder_stopped;
+case NS_E_NOSOURCEGROUPS:
+	return ns_e_nosourcegroups;
+case NS_E_NOSOURCEGROUPS:
+	return ns_e_nosourcegroups;
+case NS_E_NOSOURCEGROUPS:
+	return ns_e_nosourcegroups;
+case NS_E_INVALIDINPUTFPS:
+	return ns_e_invalidinputfps;
+case NS_E_INVALIDINPUTFPS:
+	return ns_e_invalidinputfps;
+case NS_E_INVALIDINPUTFPS:
+	return ns_e_invalidinputfps;
+case NS_E_NO_DATAVIEW_SUPPORT:
+	return ns_e_no_dataview_support;
+case NS_E_NO_DATAVIEW_SUPPORT:
+	return ns_e_no_dataview_support;
+case NS_E_NO_DATAVIEW_SUPPORT:
+	return ns_e_no_dataview_support;
+case NS_E_CODEC_UNAVAILABLE:
+	return ns_e_codec_unavailable;
+case NS_E_CODEC_UNAVAILABLE:
+	return ns_e_codec_unavailable;
+case NS_E_CODEC_UNAVAILABLE:
+	return ns_e_codec_unavailable;
+case NS_E_ARCHIVE_SAME_AS_INPUT:
+	return ns_e_archive_same_as_input;
+case NS_E_ARCHIVE_SAME_AS_INPUT:
+	return ns_e_archive_same_as_input;
+case NS_E_ARCHIVE_SAME_AS_INPUT:
+	return ns_e_archive_same_as_input;
+case NS_E_SOURCE_NOTSPECIFIED:
+	return ns_e_source_notspecified;
+case NS_E_SOURCE_NOTSPECIFIED:
+	return ns_e_source_notspecified;
+case NS_E_SOURCE_NOTSPECIFIED:
+	return ns_e_source_notspecified;
+case NS_E_NO_REALTIME_TIMECOMPRESSION:
+	return ns_e_no_realtime_timecompression;
+case NS_E_NO_REALTIME_TIMECOMPRESSION:
+	return ns_e_no_realtime_timecompression;
+case NS_E_NO_REALTIME_TIMECOMPRESSION:
+	return ns_e_no_realtime_timecompression;
+case NS_E_UNSUPPORTED_ENCODER_DEVICE:
+	return ns_e_unsupported_encoder_device;
+case NS_E_UNSUPPORTED_ENCODER_DEVICE:
+	return ns_e_unsupported_encoder_device;
+case NS_E_UNSUPPORTED_ENCODER_DEVICE:
+	return ns_e_unsupported_encoder_device;
+case NS_E_UNEXPECTED_DISPLAY_SETTINGS:
+	return ns_e_unexpected_display_settings;
+case NS_E_UNEXPECTED_DISPLAY_SETTINGS:
+	return ns_e_unexpected_display_settings;
+case NS_E_UNEXPECTED_DISPLAY_SETTINGS:
+	return ns_e_unexpected_display_settings;
+case NS_E_NO_AUDIODATA:
+	return ns_e_no_audiodata;
+case NS_E_NO_AUDIODATA:
+	return ns_e_no_audiodata;
+case NS_E_NO_AUDIODATA:
+	return ns_e_no_audiodata;
+case NS_E_INPUTSOURCE_PROBLEM:
+	return ns_e_inputsource_problem;
+case NS_E_INPUTSOURCE_PROBLEM:
+	return ns_e_inputsource_problem;
+case NS_E_INPUTSOURCE_PROBLEM:
+	return ns_e_inputsource_problem;
+case NS_E_WME_VERSION_MISMATCH:
+	return ns_e_wme_version_mismatch;
+case NS_E_WME_VERSION_MISMATCH:
+	return ns_e_wme_version_mismatch;
+case NS_E_WME_VERSION_MISMATCH:
+	return ns_e_wme_version_mismatch;
+case NS_E_NO_REALTIME_PREPROCESS:
+	return ns_e_no_realtime_preprocess;
+case NS_E_NO_REALTIME_PREPROCESS:
+	return ns_e_no_realtime_preprocess;
+case NS_E_NO_REALTIME_PREPROCESS:
+	return ns_e_no_realtime_preprocess;
+case NS_E_NO_REPEAT_PREPROCESS:
+	return ns_e_no_repeat_preprocess;
+case NS_E_NO_REPEAT_PREPROCESS:
+	return ns_e_no_repeat_preprocess;
+case NS_E_NO_REPEAT_PREPROCESS:
+	return ns_e_no_repeat_preprocess;
+case NS_E_CANNOT_PAUSE_LIVEBROADCAST:
+	return ns_e_cannot_pause_livebroadcast;
+case NS_E_CANNOT_PAUSE_LIVEBROADCAST:
+	return ns_e_cannot_pause_livebroadcast;
+case NS_E_CANNOT_PAUSE_LIVEBROADCAST:
+	return ns_e_cannot_pause_livebroadcast;
+case NS_E_DRM_PROFILE_NOT_SET:
+	return ns_e_drm_profile_not_set;
+case NS_E_DRM_PROFILE_NOT_SET:
+	return ns_e_drm_profile_not_set;
+case NS_E_DRM_PROFILE_NOT_SET:
+	return ns_e_drm_profile_not_set;
+case NS_E_DUPLICATE_DRMPROFILE:
+	return ns_e_duplicate_drmprofile;
+case NS_E_DUPLICATE_DRMPROFILE:
+	return ns_e_duplicate_drmprofile;
+case NS_E_DUPLICATE_DRMPROFILE:
+	return ns_e_duplicate_drmprofile;
+case NS_E_INVALID_DEVICE:
+	return ns_e_invalid_device;
+case NS_E_INVALID_DEVICE:
+	return ns_e_invalid_device;
+case NS_E_INVALID_DEVICE:
+	return ns_e_invalid_device;
+case NS_E_SPEECHEDL_ON_NON_MIXEDMODE:
+	return ns_e_speechedl_on_non_mixedmode;
+case NS_E_SPEECHEDL_ON_NON_MIXEDMODE:
+	return ns_e_speechedl_on_non_mixedmode;
+case NS_E_SPEECHEDL_ON_NON_MIXEDMODE:
+	return ns_e_speechedl_on_non_mixedmode;
+case NS_E_DRM_PASSWORD_TOO_LONG:
+	return ns_e_drm_password_too_long;
+case NS_E_DRM_PASSWORD_TOO_LONG:
+	return ns_e_drm_password_too_long;
+case NS_E_DRM_PASSWORD_TOO_LONG:
+	return ns_e_drm_password_too_long;
+case NS_E_DEVCONTROL_FAILED_SEEK:
+	return ns_e_devcontrol_failed_seek;
+case NS_E_DEVCONTROL_FAILED_SEEK:
+	return ns_e_devcontrol_failed_seek;
+case NS_E_DEVCONTROL_FAILED_SEEK:
+	return ns_e_devcontrol_failed_seek;
+case NS_E_INTERLACE_REQUIRE_SAMESIZE:
+	return ns_e_interlace_require_samesize;
+case NS_E_INTERLACE_REQUIRE_SAMESIZE:
+	return ns_e_interlace_require_samesize;
+case NS_E_INTERLACE_REQUIRE_SAMESIZE:
+	return ns_e_interlace_require_samesize;
+case NS_E_TOO_MANY_DEVICECONTROL:
+	return ns_e_too_many_devicecontrol;
+case NS_E_TOO_MANY_DEVICECONTROL:
+	return ns_e_too_many_devicecontrol;
+case NS_E_TOO_MANY_DEVICECONTROL:
+	return ns_e_too_many_devicecontrol;
+case NS_E_NO_MULTIPASS_FOR_LIVEDEVICE:
+	return ns_e_no_multipass_for_livedevice;
+case NS_E_NO_MULTIPASS_FOR_LIVEDEVICE:
+	return ns_e_no_multipass_for_livedevice;
+case NS_E_NO_MULTIPASS_FOR_LIVEDEVICE:
+	return ns_e_no_multipass_for_livedevice;
+case NS_E_MISSING_AUDIENCE:
+	return ns_e_missing_audience;
+case NS_E_MISSING_AUDIENCE:
+	return ns_e_missing_audience;
+case NS_E_MISSING_AUDIENCE:
+	return ns_e_missing_audience;
+case NS_E_AUDIENCE_CONTENTTYPE_MISMATCH:
+	return ns_e_audience_contenttype_mismatch;
+case NS_E_AUDIENCE_CONTENTTYPE_MISMATCH:
+	return ns_e_audience_contenttype_mismatch;
+case NS_E_AUDIENCE_CONTENTTYPE_MISMATCH:
+	return ns_e_audience_contenttype_mismatch;
+case NS_E_MISSING_SOURCE_INDEX:
+	return ns_e_missing_source_index;
+case NS_E_MISSING_SOURCE_INDEX:
+	return ns_e_missing_source_index;
+case NS_E_MISSING_SOURCE_INDEX:
+	return ns_e_missing_source_index;
+case NS_E_NUM_LANGUAGE_MISMATCH:
+	return ns_e_num_language_mismatch;
+case NS_E_NUM_LANGUAGE_MISMATCH:
+	return ns_e_num_language_mismatch;
+case NS_E_NUM_LANGUAGE_MISMATCH:
+	return ns_e_num_language_mismatch;
+case NS_E_LANGUAGE_MISMATCH:
+	return ns_e_language_mismatch;
+case NS_E_LANGUAGE_MISMATCH:
+	return ns_e_language_mismatch;
+case NS_E_LANGUAGE_MISMATCH:
+	return ns_e_language_mismatch;
+case NS_E_VBRMODE_MISMATCH:
+	return ns_e_vbrmode_mismatch;
+case NS_E_VBRMODE_MISMATCH:
+	return ns_e_vbrmode_mismatch;
+case NS_E_VBRMODE_MISMATCH:
+	return ns_e_vbrmode_mismatch;
+case NS_E_INVALID_INPUT_AUDIENCE_INDEX:
+	return ns_e_invalid_input_audience_index;
+case NS_E_INVALID_INPUT_AUDIENCE_INDEX:
+	return ns_e_invalid_input_audience_index;
+case NS_E_INVALID_INPUT_AUDIENCE_INDEX:
+	return ns_e_invalid_input_audience_index;
+case NS_E_INVALID_INPUT_LANGUAGE:
+	return ns_e_invalid_input_language;
+case NS_E_INVALID_INPUT_LANGUAGE:
+	return ns_e_invalid_input_language;
+case NS_E_INVALID_INPUT_LANGUAGE:
+	return ns_e_invalid_input_language;
+case NS_E_INVALID_INPUT_STREAM:
+	return ns_e_invalid_input_stream;
+case NS_E_INVALID_INPUT_STREAM:
+	return ns_e_invalid_input_stream;
+case NS_E_INVALID_INPUT_STREAM:
+	return ns_e_invalid_input_stream;
+case NS_E_EXPECT_MONO_WAV_INPUT:
+	return ns_e_expect_mono_wav_input;
+case NS_E_EXPECT_MONO_WAV_INPUT:
+	return ns_e_expect_mono_wav_input;
+case NS_E_EXPECT_MONO_WAV_INPUT:
+	return ns_e_expect_mono_wav_input;
+case NS_E_INPUT_WAVFORMAT_MISMATCH:
+	return ns_e_input_wavformat_mismatch;
+case NS_E_INPUT_WAVFORMAT_MISMATCH:
+	return ns_e_input_wavformat_mismatch;
+case NS_E_INPUT_WAVFORMAT_MISMATCH:
+	return ns_e_input_wavformat_mismatch;
+case NS_E_RECORDQ_DISK_FULL:
+	return ns_e_recordq_disk_full;
+case NS_E_RECORDQ_DISK_FULL:
+	return ns_e_recordq_disk_full;
+case NS_E_RECORDQ_DISK_FULL:
+	return ns_e_recordq_disk_full;
+case NS_E_NO_PAL_INVERSE_TELECINE:
+	return ns_e_no_pal_inverse_telecine;
+case NS_E_NO_PAL_INVERSE_TELECINE:
+	return ns_e_no_pal_inverse_telecine;
+case NS_E_NO_PAL_INVERSE_TELECINE:
+	return ns_e_no_pal_inverse_telecine;
+case NS_E_ACTIVE_SG_DEVICE_DISCONNECTED:
+	return ns_e_active_sg_device_disconnected;
+case NS_E_ACTIVE_SG_DEVICE_DISCONNECTED:
+	return ns_e_active_sg_device_disconnected;
+case NS_E_ACTIVE_SG_DEVICE_DISCONNECTED:
+	return ns_e_active_sg_device_disconnected;
+case NS_E_ACTIVE_SG_DEVICE_CONTROL_DISCONNECTED:
+	return ns_e_active_sg_device_control_disconnected;
+case NS_E_ACTIVE_SG_DEVICE_CONTROL_DISCONNECTED:
+	return ns_e_active_sg_device_control_disconnected;
+case NS_E_ACTIVE_SG_DEVICE_CONTROL_DISCONNECTED:
+	return ns_e_active_sg_device_control_disconnected;
+case NS_E_NO_FRAMES_SUBMITTED_TO_ANALYZER:
+	return ns_e_no_frames_submitted_to_analyzer;
+case NS_E_NO_FRAMES_SUBMITTED_TO_ANALYZER:
+	return ns_e_no_frames_submitted_to_analyzer;
+case NS_E_NO_FRAMES_SUBMITTED_TO_ANALYZER:
+	return ns_e_no_frames_submitted_to_analyzer;
+case NS_E_INPUT_DOESNOT_SUPPORT_SMPTE:
+	return ns_e_input_doesnot_support_smpte;
+case NS_E_INPUT_DOESNOT_SUPPORT_SMPTE:
+	return ns_e_input_doesnot_support_smpte;
+case NS_E_INPUT_DOESNOT_SUPPORT_SMPTE:
+	return ns_e_input_doesnot_support_smpte;
+case NS_E_NO_SMPTE_WITH_MULTIPLE_SOURCEGROUPS:
+	return ns_e_no_smpte_with_multiple_sourcegroups;
+case NS_E_NO_SMPTE_WITH_MULTIPLE_SOURCEGROUPS:
+	return ns_e_no_smpte_with_multiple_sourcegroups;
+case NS_E_NO_SMPTE_WITH_MULTIPLE_SOURCEGROUPS:
+	return ns_e_no_smpte_with_multiple_sourcegroups;
+case NS_E_BAD_CONTENTEDL:
+	return ns_e_bad_contentedl;
+case NS_E_BAD_CONTENTEDL:
+	return ns_e_bad_contentedl;
+case NS_E_BAD_CONTENTEDL:
+	return ns_e_bad_contentedl;
+case NS_E_INTERLACEMODE_MISMATCH:
+	return ns_e_interlacemode_mismatch;
+case NS_E_INTERLACEMODE_MISMATCH:
+	return ns_e_interlacemode_mismatch;
+case NS_E_INTERLACEMODE_MISMATCH:
+	return ns_e_interlacemode_mismatch;
+case NS_E_NONSQUAREPIXELMODE_MISMATCH:
+	return ns_e_nonsquarepixelmode_mismatch;
+case NS_E_NONSQUAREPIXELMODE_MISMATCH:
+	return ns_e_nonsquarepixelmode_mismatch;
+case NS_E_NONSQUAREPIXELMODE_MISMATCH:
+	return ns_e_nonsquarepixelmode_mismatch;
+case NS_E_SMPTEMODE_MISMATCH:
+	return ns_e_smptemode_mismatch;
+case NS_E_SMPTEMODE_MISMATCH:
+	return ns_e_smptemode_mismatch;
+case NS_E_SMPTEMODE_MISMATCH:
+	return ns_e_smptemode_mismatch;
+case NS_E_END_OF_TAPE:
+	return ns_e_end_of_tape;
+case NS_E_END_OF_TAPE:
+	return ns_e_end_of_tape;
+case NS_E_END_OF_TAPE:
+	return ns_e_end_of_tape;
+case NS_E_NO_MEDIA_IN_AUDIENCE:
+	return ns_e_no_media_in_audience;
+case NS_E_NO_MEDIA_IN_AUDIENCE:
+	return ns_e_no_media_in_audience;
+case NS_E_NO_MEDIA_IN_AUDIENCE:
+	return ns_e_no_media_in_audience;
+case NS_E_NO_AUDIENCES:
+	return ns_e_no_audiences;
+case NS_E_NO_AUDIENCES:
+	return ns_e_no_audiences;
+case NS_E_NO_AUDIENCES:
+	return ns_e_no_audiences;
+case NS_E_NO_AUDIO_COMPAT:
+	return ns_e_no_audio_compat;
+case NS_E_NO_AUDIO_COMPAT:
+	return ns_e_no_audio_compat;
+case NS_E_NO_AUDIO_COMPAT:
+	return ns_e_no_audio_compat;
+case NS_E_INVALID_VBR_COMPAT:
+	return ns_e_invalid_vbr_compat;
+case NS_E_INVALID_VBR_COMPAT:
+	return ns_e_invalid_vbr_compat;
+case NS_E_INVALID_VBR_COMPAT:
+	return ns_e_invalid_vbr_compat;
+case NS_E_NO_PROFILE_NAME:
+	return ns_e_no_profile_name;
+case NS_E_NO_PROFILE_NAME:
+	return ns_e_no_profile_name;
+case NS_E_NO_PROFILE_NAME:
+	return ns_e_no_profile_name;
+case NS_E_INVALID_VBR_WITH_UNCOMP:
+	return ns_e_invalid_vbr_with_uncomp;
+case NS_E_INVALID_VBR_WITH_UNCOMP:
+	return ns_e_invalid_vbr_with_uncomp;
+case NS_E_INVALID_VBR_WITH_UNCOMP:
+	return ns_e_invalid_vbr_with_uncomp;
+case NS_E_MULTIPLE_VBR_AUDIENCES:
+	return ns_e_multiple_vbr_audiences;
+case NS_E_MULTIPLE_VBR_AUDIENCES:
+	return ns_e_multiple_vbr_audiences;
+case NS_E_MULTIPLE_VBR_AUDIENCES:
+	return ns_e_multiple_vbr_audiences;
+case NS_E_UNCOMP_COMP_COMBINATION:
+	return ns_e_uncomp_comp_combination;
+case NS_E_UNCOMP_COMP_COMBINATION:
+	return ns_e_uncomp_comp_combination;
+case NS_E_UNCOMP_COMP_COMBINATION:
+	return ns_e_uncomp_comp_combination;
+case NS_E_MULTIPLE_AUDIO_CODECS:
+	return ns_e_multiple_audio_codecs;
+case NS_E_MULTIPLE_AUDIO_CODECS:
+	return ns_e_multiple_audio_codecs;
+case NS_E_MULTIPLE_AUDIO_CODECS:
+	return ns_e_multiple_audio_codecs;
+case NS_E_MULTIPLE_AUDIO_FORMATS:
+	return ns_e_multiple_audio_formats;
+case NS_E_MULTIPLE_AUDIO_FORMATS:
+	return ns_e_multiple_audio_formats;
+case NS_E_MULTIPLE_AUDIO_FORMATS:
+	return ns_e_multiple_audio_formats;
+case NS_E_AUDIO_BITRATE_STEPDOWN:
+	return ns_e_audio_bitrate_stepdown;
+case NS_E_AUDIO_BITRATE_STEPDOWN:
+	return ns_e_audio_bitrate_stepdown;
+case NS_E_AUDIO_BITRATE_STEPDOWN:
+	return ns_e_audio_bitrate_stepdown;
+case NS_E_INVALID_AUDIO_PEAKRATE:
+	return ns_e_invalid_audio_peakrate;
+case NS_E_INVALID_AUDIO_PEAKRATE:
+	return ns_e_invalid_audio_peakrate;
+case NS_E_INVALID_AUDIO_PEAKRATE:
+	return ns_e_invalid_audio_peakrate;
+case NS_E_INVALID_AUDIO_PEAKRATE:
+	return ns_e_invalid_audio_peakrate;
+case NS_E_INVALID_AUDIO_PEAKRATE:
+	return ns_e_invalid_audio_peakrate;
+case NS_E_INVALID_AUDIO_PEAKRATE:
+	return ns_e_invalid_audio_peakrate;
+case NS_E_INVALID_AUDIO_BUFFERMAX:
+	return ns_e_invalid_audio_buffermax;
+case NS_E_INVALID_AUDIO_BUFFERMAX:
+	return ns_e_invalid_audio_buffermax;
+case NS_E_INVALID_AUDIO_BUFFERMAX:
+	return ns_e_invalid_audio_buffermax;
+case NS_E_MULTIPLE_VIDEO_CODECS:
+	return ns_e_multiple_video_codecs;
+case NS_E_MULTIPLE_VIDEO_CODECS:
+	return ns_e_multiple_video_codecs;
+case NS_E_MULTIPLE_VIDEO_CODECS:
+	return ns_e_multiple_video_codecs;
+case NS_E_MULTIPLE_VIDEO_SIZES:
+	return ns_e_multiple_video_sizes;
+case NS_E_MULTIPLE_VIDEO_SIZES:
+	return ns_e_multiple_video_sizes;
+case NS_E_MULTIPLE_VIDEO_SIZES:
+	return ns_e_multiple_video_sizes;
+case NS_E_INVALID_VIDEO_BITRATE:
+	return ns_e_invalid_video_bitrate;
+case NS_E_INVALID_VIDEO_BITRATE:
+	return ns_e_invalid_video_bitrate;
+case NS_E_INVALID_VIDEO_BITRATE:
+	return ns_e_invalid_video_bitrate;
+case NS_E_VIDEO_BITRATE_STEPDOWN:
+	return ns_e_video_bitrate_stepdown;
+case NS_E_VIDEO_BITRATE_STEPDOWN:
+	return ns_e_video_bitrate_stepdown;
+case NS_E_VIDEO_BITRATE_STEPDOWN:
+	return ns_e_video_bitrate_stepdown;
+case NS_E_INVALID_VIDEO_PEAKRATE:
+	return ns_e_invalid_video_peakrate;
+case NS_E_INVALID_VIDEO_PEAKRATE:
+	return ns_e_invalid_video_peakrate;
+case NS_E_INVALID_VIDEO_PEAKRATE:
+	return ns_e_invalid_video_peakrate;
+case NS_E_INVALID_VIDEO_PEAKRATE:
+	return ns_e_invalid_video_peakrate;
+case NS_E_INVALID_VIDEO_PEAKRATE:
+	return ns_e_invalid_video_peakrate;
+case NS_E_INVALID_VIDEO_PEAKRATE:
+	return ns_e_invalid_video_peakrate;
+case NS_E_INVALID_VIDEO_WIDTH:
+	return ns_e_invalid_video_width;
+case NS_E_INVALID_VIDEO_WIDTH:
+	return ns_e_invalid_video_width;
+case NS_E_INVALID_VIDEO_WIDTH:
+	return ns_e_invalid_video_width;
+case NS_E_INVALID_VIDEO_HEIGHT:
+	return ns_e_invalid_video_height;
+case NS_E_INVALID_VIDEO_HEIGHT:
+	return ns_e_invalid_video_height;
+case NS_E_INVALID_VIDEO_HEIGHT:
+	return ns_e_invalid_video_height;
+case NS_E_INVALID_VIDEO_FPS:
+	return ns_e_invalid_video_fps;
+case NS_E_INVALID_VIDEO_FPS:
+	return ns_e_invalid_video_fps;
+case NS_E_INVALID_VIDEO_FPS:
+	return ns_e_invalid_video_fps;
+case NS_E_INVALID_VIDEO_KEYFRAME:
+	return ns_e_invalid_video_keyframe;
+case NS_E_INVALID_VIDEO_KEYFRAME:
+	return ns_e_invalid_video_keyframe;
+case NS_E_INVALID_VIDEO_KEYFRAME:
+	return ns_e_invalid_video_keyframe;
+case NS_E_INVALID_VIDEO_IQUALITY:
+	return ns_e_invalid_video_iquality;
+case NS_E_INVALID_VIDEO_IQUALITY:
+	return ns_e_invalid_video_iquality;
+case NS_E_INVALID_VIDEO_IQUALITY:
+	return ns_e_invalid_video_iquality;
+case NS_E_INVALID_VIDEO_CQUALITY:
+	return ns_e_invalid_video_cquality;
+case NS_E_INVALID_VIDEO_CQUALITY:
+	return ns_e_invalid_video_cquality;
+case NS_E_INVALID_VIDEO_CQUALITY:
+	return ns_e_invalid_video_cquality;
+case NS_E_INVALID_VIDEO_BUFFER:
+	return ns_e_invalid_video_buffer;
+case NS_E_INVALID_VIDEO_BUFFER:
+	return ns_e_invalid_video_buffer;
+case NS_E_INVALID_VIDEO_BUFFER:
+	return ns_e_invalid_video_buffer;
+case NS_E_INVALID_VIDEO_BUFFERMAX:
+	return ns_e_invalid_video_buffermax;
+case NS_E_INVALID_VIDEO_BUFFERMAX:
+	return ns_e_invalid_video_buffermax;
+case NS_E_INVALID_VIDEO_BUFFERMAX:
+	return ns_e_invalid_video_buffermax;
+case NS_E_INVALID_VIDEO_BUFFERMAX:
+	return ns_e_invalid_video_buffermax;
+case NS_E_INVALID_VIDEO_BUFFERMAX:
+	return ns_e_invalid_video_buffermax;
+case NS_E_INVALID_VIDEO_BUFFERMAX:
+	return ns_e_invalid_video_buffermax;
+case NS_E_INVALID_VIDEO_WIDTH_ALIGN:
+	return ns_e_invalid_video_width_align;
+case NS_E_INVALID_VIDEO_WIDTH_ALIGN:
+	return ns_e_invalid_video_width_align;
+case NS_E_INVALID_VIDEO_WIDTH_ALIGN:
+	return ns_e_invalid_video_width_align;
+case NS_E_INVALID_VIDEO_HEIGHT_ALIGN:
+	return ns_e_invalid_video_height_align;
+case NS_E_INVALID_VIDEO_HEIGHT_ALIGN:
+	return ns_e_invalid_video_height_align;
+case NS_E_INVALID_VIDEO_HEIGHT_ALIGN:
+	return ns_e_invalid_video_height_align;
+case NS_E_MULTIPLE_SCRIPT_BITRATES:
+	return ns_e_multiple_script_bitrates;
+case NS_E_MULTIPLE_SCRIPT_BITRATES:
+	return ns_e_multiple_script_bitrates;
+case NS_E_MULTIPLE_SCRIPT_BITRATES:
+	return ns_e_multiple_script_bitrates;
+case NS_E_INVALID_SCRIPT_BITRATE:
+	return ns_e_invalid_script_bitrate;
+case NS_E_INVALID_SCRIPT_BITRATE:
+	return ns_e_invalid_script_bitrate;
+case NS_E_INVALID_SCRIPT_BITRATE:
+	return ns_e_invalid_script_bitrate;
+case NS_E_MULTIPLE_FILE_BITRATES:
+	return ns_e_multiple_file_bitrates;
+case NS_E_MULTIPLE_FILE_BITRATES:
+	return ns_e_multiple_file_bitrates;
+case NS_E_MULTIPLE_FILE_BITRATES:
+	return ns_e_multiple_file_bitrates;
+case NS_E_INVALID_FILE_BITRATE:
+	return ns_e_invalid_file_bitrate;
+case NS_E_INVALID_FILE_BITRATE:
+	return ns_e_invalid_file_bitrate;
+case NS_E_INVALID_FILE_BITRATE:
+	return ns_e_invalid_file_bitrate;
+case NS_E_SAME_AS_INPUT_COMBINATION:
+	return ns_e_same_as_input_combination;
+case NS_E_SAME_AS_INPUT_COMBINATION:
+	return ns_e_same_as_input_combination;
+case NS_E_SAME_AS_INPUT_COMBINATION:
+	return ns_e_same_as_input_combination;
+case NS_E_SOURCE_CANNOT_LOOP:
+	return ns_e_source_cannot_loop;
+case NS_E_SOURCE_CANNOT_LOOP:
+	return ns_e_source_cannot_loop;
+case NS_E_SOURCE_CANNOT_LOOP:
+	return ns_e_source_cannot_loop;
+case NS_E_INVALID_FOLDDOWN_COEFFICIENTS:
+	return ns_e_invalid_folddown_coefficients;
+case NS_E_INVALID_FOLDDOWN_COEFFICIENTS:
+	return ns_e_invalid_folddown_coefficients;
+case NS_E_INVALID_FOLDDOWN_COEFFICIENTS:
+	return ns_e_invalid_folddown_coefficients;
+case NS_E_DRMPROFILE_NOTFOUND:
+	return ns_e_drmprofile_notfound;
+case NS_E_DRMPROFILE_NOTFOUND:
+	return ns_e_drmprofile_notfound;
+case NS_E_DRMPROFILE_NOTFOUND:
+	return ns_e_drmprofile_notfound;
+case NS_E_INVALID_TIMECODE:
+	return ns_e_invalid_timecode;
+case NS_E_INVALID_TIMECODE:
+	return ns_e_invalid_timecode;
+case NS_E_INVALID_TIMECODE:
+	return ns_e_invalid_timecode;
+case NS_E_NO_AUDIO_TIMECOMPRESSION:
+	return ns_e_no_audio_timecompression;
+case NS_E_NO_AUDIO_TIMECOMPRESSION:
+	return ns_e_no_audio_timecompression;
+case NS_E_NO_AUDIO_TIMECOMPRESSION:
+	return ns_e_no_audio_timecompression;
+case NS_E_NO_TWOPASS_TIMECOMPRESSION:
+	return ns_e_no_twopass_timecompression;
+case NS_E_NO_TWOPASS_TIMECOMPRESSION:
+	return ns_e_no_twopass_timecompression;
+case NS_E_NO_TWOPASS_TIMECOMPRESSION:
+	return ns_e_no_twopass_timecompression;
+case NS_E_TIMECODE_REQUIRES_VIDEOSTREAM:
+	return ns_e_timecode_requires_videostream;
+case NS_E_TIMECODE_REQUIRES_VIDEOSTREAM:
+	return ns_e_timecode_requires_videostream;
+case NS_E_TIMECODE_REQUIRES_VIDEOSTREAM:
+	return ns_e_timecode_requires_videostream;
+case NS_E_NO_MBR_WITH_TIMECODE:
+	return ns_e_no_mbr_with_timecode;
+case NS_E_NO_MBR_WITH_TIMECODE:
+	return ns_e_no_mbr_with_timecode;
+case NS_E_NO_MBR_WITH_TIMECODE:
+	return ns_e_no_mbr_with_timecode;
+case NS_E_INVALID_INTERLACEMODE:
+	return ns_e_invalid_interlacemode;
+case NS_E_INVALID_INTERLACEMODE:
+	return ns_e_invalid_interlacemode;
+case NS_E_INVALID_INTERLACEMODE:
+	return ns_e_invalid_interlacemode;
+case NS_E_INVALID_INTERLACE_COMPAT:
+	return ns_e_invalid_interlace_compat;
+case NS_E_INVALID_INTERLACE_COMPAT:
+	return ns_e_invalid_interlace_compat;
+case NS_E_INVALID_INTERLACE_COMPAT:
+	return ns_e_invalid_interlace_compat;
+case NS_E_INVALID_NONSQUAREPIXEL_COMPAT:
+	return ns_e_invalid_nonsquarepixel_compat;
+case NS_E_INVALID_NONSQUAREPIXEL_COMPAT:
+	return ns_e_invalid_nonsquarepixel_compat;
+case NS_E_INVALID_NONSQUAREPIXEL_COMPAT:
+	return ns_e_invalid_nonsquarepixel_compat;
+case NS_E_INVALID_SOURCE_WITH_DEVICE_CONTROL:
+	return ns_e_invalid_source_with_device_control;
+case NS_E_INVALID_SOURCE_WITH_DEVICE_CONTROL:
+	return ns_e_invalid_source_with_device_control;
+case NS_E_INVALID_SOURCE_WITH_DEVICE_CONTROL:
+	return ns_e_invalid_source_with_device_control;
+case NS_E_CANNOT_GENERATE_BROADCAST_INFO_FOR_QUALITYVBR:
+	return ns_e_cannot_generate_broadcast_info_for_qualityvbr;
+case NS_E_CANNOT_GENERATE_BROADCAST_INFO_FOR_QUALITYVBR:
+	return ns_e_cannot_generate_broadcast_info_for_qualityvbr;
+case NS_E_CANNOT_GENERATE_BROADCAST_INFO_FOR_QUALITYVBR:
+	return ns_e_cannot_generate_broadcast_info_for_qualityvbr;
+case NS_E_EXCEED_MAX_DRM_PROFILE_LIMIT:
+	return ns_e_exceed_max_drm_profile_limit;
+case NS_E_EXCEED_MAX_DRM_PROFILE_LIMIT:
+	return ns_e_exceed_max_drm_profile_limit;
+case NS_E_EXCEED_MAX_DRM_PROFILE_LIMIT:
+	return ns_e_exceed_max_drm_profile_limit;
+case NS_E_DEVICECONTROL_UNSTABLE:
+	return ns_e_devicecontrol_unstable;
+case NS_E_DEVICECONTROL_UNSTABLE:
+	return ns_e_devicecontrol_unstable;
+case NS_E_DEVICECONTROL_UNSTABLE:
+	return ns_e_devicecontrol_unstable;
+case NS_E_INVALID_PIXEL_ASPECT_RATIO:
+	return ns_e_invalid_pixel_aspect_ratio;
+case NS_E_INVALID_PIXEL_ASPECT_RATIO:
+	return ns_e_invalid_pixel_aspect_ratio;
+case NS_E_INVALID_PIXEL_ASPECT_RATIO:
+	return ns_e_invalid_pixel_aspect_ratio;
+case NS_E_AUDIENCE__LANGUAGE_CONTENTTYPE_MISMATCH:
+	return ns_e_audience__language_contenttype_mismatch;
+case NS_E_AUDIENCE__LANGUAGE_CONTENTTYPE_MISMATCH:
+	return ns_e_audience__language_contenttype_mismatch;
+case NS_E_AUDIENCE__LANGUAGE_CONTENTTYPE_MISMATCH:
+	return ns_e_audience__language_contenttype_mismatch;
+case NS_E_INVALID_PROFILE_CONTENTTYPE:
+	return ns_e_invalid_profile_contenttype;
+case NS_E_INVALID_PROFILE_CONTENTTYPE:
+	return ns_e_invalid_profile_contenttype;
+case NS_E_INVALID_PROFILE_CONTENTTYPE:
+	return ns_e_invalid_profile_contenttype;
+case NS_E_TRANSFORM_PLUGIN_NOT_FOUND:
+	return ns_e_transform_plugin_not_found;
+case NS_E_TRANSFORM_PLUGIN_NOT_FOUND:
+	return ns_e_transform_plugin_not_found;
+case NS_E_TRANSFORM_PLUGIN_NOT_FOUND:
+	return ns_e_transform_plugin_not_found;
+case NS_E_TRANSFORM_PLUGIN_INVALID:
+	return ns_e_transform_plugin_invalid;
+case NS_E_TRANSFORM_PLUGIN_INVALID:
+	return ns_e_transform_plugin_invalid;
+case NS_E_TRANSFORM_PLUGIN_INVALID:
+	return ns_e_transform_plugin_invalid;
+case NS_E_EDL_REQUIRED_FOR_DEVICE_MULTIPASS:
+	return ns_e_edl_required_for_device_multipass;
+case NS_E_EDL_REQUIRED_FOR_DEVICE_MULTIPASS:
+	return ns_e_edl_required_for_device_multipass;
+case NS_E_EDL_REQUIRED_FOR_DEVICE_MULTIPASS:
+	return ns_e_edl_required_for_device_multipass;
+case NS_E_INVALID_VIDEO_WIDTH_FOR_INTERLACED_ENCODING:
+	return ns_e_invalid_video_width_for_interlaced_encoding;
+case NS_E_INVALID_VIDEO_WIDTH_FOR_INTERLACED_ENCODING:
+	return ns_e_invalid_video_width_for_interlaced_encoding;
+case NS_E_INVALID_VIDEO_WIDTH_FOR_INTERLACED_ENCODING:
+	return ns_e_invalid_video_width_for_interlaced_encoding;
+case NS_E_MARKIN_UNSUPPORTED:
+	return ns_e_markin_unsupported;
+case NS_E_MARKIN_UNSUPPORTED:
+	return ns_e_markin_unsupported;
+case NS_E_MARKIN_UNSUPPORTED:
+	return ns_e_markin_unsupported;
+case NS_E_DRM_INVALID_APPLICATION:
+	return ns_e_drm_invalid_application;
+case NS_E_DRM_INVALID_APPLICATION:
+	return ns_e_drm_invalid_application;
+case NS_E_DRM_INVALID_APPLICATION:
+	return ns_e_drm_invalid_application;
+case NS_E_DRM_LICENSE_STORE_ERROR:
+	return ns_e_drm_license_store_error;
+case NS_E_DRM_LICENSE_STORE_ERROR:
+	return ns_e_drm_license_store_error;
+case NS_E_DRM_LICENSE_STORE_ERROR:
+	return ns_e_drm_license_store_error;
+case NS_E_DRM_SECURE_STORE_ERROR:
+	return ns_e_drm_secure_store_error;
+case NS_E_DRM_SECURE_STORE_ERROR:
+	return ns_e_drm_secure_store_error;
+case NS_E_DRM_SECURE_STORE_ERROR:
+	return ns_e_drm_secure_store_error;
+case NS_E_DRM_LICENSE_STORE_SAVE_ERROR:
+	return ns_e_drm_license_store_save_error;
+case NS_E_DRM_LICENSE_STORE_SAVE_ERROR:
+	return ns_e_drm_license_store_save_error;
+case NS_E_DRM_LICENSE_STORE_SAVE_ERROR:
+	return ns_e_drm_license_store_save_error;
+case NS_E_DRM_SECURE_STORE_UNLOCK_ERROR:
+	return ns_e_drm_secure_store_unlock_error;
+case NS_E_DRM_SECURE_STORE_UNLOCK_ERROR:
+	return ns_e_drm_secure_store_unlock_error;
+case NS_E_DRM_SECURE_STORE_UNLOCK_ERROR:
+	return ns_e_drm_secure_store_unlock_error;
+case NS_E_DRM_INVALID_CONTENT:
+	return ns_e_drm_invalid_content;
+case NS_E_DRM_INVALID_CONTENT:
+	return ns_e_drm_invalid_content;
+case NS_E_DRM_INVALID_CONTENT:
+	return ns_e_drm_invalid_content;
+case NS_E_DRM_UNABLE_TO_OPEN_LICENSE:
+	return ns_e_drm_unable_to_open_license;
+case NS_E_DRM_UNABLE_TO_OPEN_LICENSE:
+	return ns_e_drm_unable_to_open_license;
+case NS_E_DRM_UNABLE_TO_OPEN_LICENSE:
+	return ns_e_drm_unable_to_open_license;
+case NS_E_DRM_INVALID_LICENSE:
+	return ns_e_drm_invalid_license;
+case NS_E_DRM_INVALID_LICENSE:
+	return ns_e_drm_invalid_license;
+case NS_E_DRM_INVALID_LICENSE:
+	return ns_e_drm_invalid_license;
+case NS_E_DRM_INVALID_MACHINE:
+	return ns_e_drm_invalid_machine;
+case NS_E_DRM_INVALID_MACHINE:
+	return ns_e_drm_invalid_machine;
+case NS_E_DRM_INVALID_MACHINE:
+	return ns_e_drm_invalid_machine;
+case NS_E_DRM_ENUM_LICENSE_FAILED:
+	return ns_e_drm_enum_license_failed;
+case NS_E_DRM_ENUM_LICENSE_FAILED:
+	return ns_e_drm_enum_license_failed;
+case NS_E_DRM_ENUM_LICENSE_FAILED:
+	return ns_e_drm_enum_license_failed;
+case NS_E_DRM_INVALID_LICENSE_REQUEST:
+	return ns_e_drm_invalid_license_request;
+case NS_E_DRM_INVALID_LICENSE_REQUEST:
+	return ns_e_drm_invalid_license_request;
+case NS_E_DRM_INVALID_LICENSE_REQUEST:
+	return ns_e_drm_invalid_license_request;
+case NS_E_DRM_UNABLE_TO_INITIALIZE:
+	return ns_e_drm_unable_to_initialize;
+case NS_E_DRM_UNABLE_TO_INITIALIZE:
+	return ns_e_drm_unable_to_initialize;
+case NS_E_DRM_UNABLE_TO_INITIALIZE:
+	return ns_e_drm_unable_to_initialize;
+case NS_E_DRM_UNABLE_TO_ACQUIRE_LICENSE:
+	return ns_e_drm_unable_to_acquire_license;
+case NS_E_DRM_UNABLE_TO_ACQUIRE_LICENSE:
+	return ns_e_drm_unable_to_acquire_license;
+case NS_E_DRM_UNABLE_TO_ACQUIRE_LICENSE:
+	return ns_e_drm_unable_to_acquire_license;
+case NS_E_DRM_INVALID_LICENSE_ACQUIRED:
+	return ns_e_drm_invalid_license_acquired;
+case NS_E_DRM_INVALID_LICENSE_ACQUIRED:
+	return ns_e_drm_invalid_license_acquired;
+case NS_E_DRM_INVALID_LICENSE_ACQUIRED:
+	return ns_e_drm_invalid_license_acquired;
+case NS_E_DRM_NO_RIGHTS:
+	return ns_e_drm_no_rights;
+case NS_E_DRM_NO_RIGHTS:
+	return ns_e_drm_no_rights;
+case NS_E_DRM_NO_RIGHTS:
+	return ns_e_drm_no_rights;
+case NS_E_DRM_KEY_ERROR:
+	return ns_e_drm_key_error;
+case NS_E_DRM_KEY_ERROR:
+	return ns_e_drm_key_error;
+case NS_E_DRM_KEY_ERROR:
+	return ns_e_drm_key_error;
+case NS_E_DRM_ENCRYPT_ERROR:
+	return ns_e_drm_encrypt_error;
+case NS_E_DRM_ENCRYPT_ERROR:
+	return ns_e_drm_encrypt_error;
+case NS_E_DRM_ENCRYPT_ERROR:
+	return ns_e_drm_encrypt_error;
+case NS_E_DRM_DECRYPT_ERROR:
+	return ns_e_drm_decrypt_error;
+case NS_E_DRM_DECRYPT_ERROR:
+	return ns_e_drm_decrypt_error;
+case NS_E_DRM_DECRYPT_ERROR:
+	return ns_e_drm_decrypt_error;
+case NS_E_DRM_LICENSE_INVALID_XML:
+	return ns_e_drm_license_invalid_xml;
+case NS_E_DRM_LICENSE_INVALID_XML:
+	return ns_e_drm_license_invalid_xml;
+case NS_E_DRM_LICENSE_INVALID_XML:
+	return ns_e_drm_license_invalid_xml;
+case NS_E_DRM_NEEDS_INDIVIDUALIZATION:
+	return ns_e_drm_needs_individualization;
+case NS_E_DRM_NEEDS_INDIVIDUALIZATION:
+	return ns_e_drm_needs_individualization;
+case NS_E_DRM_NEEDS_INDIVIDUALIZATION:
+	return ns_e_drm_needs_individualization;
+case NS_E_DRM_ALREADY_INDIVIDUALIZED:
+	return ns_e_drm_already_individualized;
+case NS_E_DRM_ALREADY_INDIVIDUALIZED:
+	return ns_e_drm_already_individualized;
+case NS_E_DRM_ALREADY_INDIVIDUALIZED:
+	return ns_e_drm_already_individualized;
+case NS_E_DRM_ACTION_NOT_QUERIED:
+	return ns_e_drm_action_not_queried;
+case NS_E_DRM_ACTION_NOT_QUERIED:
+	return ns_e_drm_action_not_queried;
+case NS_E_DRM_ACTION_NOT_QUERIED:
+	return ns_e_drm_action_not_queried;
+case NS_E_DRM_ACQUIRING_LICENSE:
+	return ns_e_drm_acquiring_license;
+case NS_E_DRM_ACQUIRING_LICENSE:
+	return ns_e_drm_acquiring_license;
+case NS_E_DRM_ACQUIRING_LICENSE:
+	return ns_e_drm_acquiring_license;
+case NS_E_DRM_INDIVIDUALIZING:
+	return ns_e_drm_individualizing;
+case NS_E_DRM_INDIVIDUALIZING:
+	return ns_e_drm_individualizing;
+case NS_E_DRM_INDIVIDUALIZING:
+	return ns_e_drm_individualizing;
+case NS_E_BACKUP_RESTORE_FAILURE:
+	return ns_e_backup_restore_failure;
+case NS_E_BACKUP_RESTORE_FAILURE:
+	return ns_e_backup_restore_failure;
+case NS_E_BACKUP_RESTORE_FAILURE:
+	return ns_e_backup_restore_failure;
+case NS_E_BACKUP_RESTORE_BAD_REQUEST_ID:
+	return ns_e_backup_restore_bad_request_id;
+case NS_E_BACKUP_RESTORE_BAD_REQUEST_ID:
+	return ns_e_backup_restore_bad_request_id;
+case NS_E_BACKUP_RESTORE_BAD_REQUEST_ID:
+	return ns_e_backup_restore_bad_request_id;
+case NS_E_DRM_PARAMETERS_MISMATCHED:
+	return ns_e_drm_parameters_mismatched;
+case NS_E_DRM_PARAMETERS_MISMATCHED:
+	return ns_e_drm_parameters_mismatched;
+case NS_E_DRM_PARAMETERS_MISMATCHED:
+	return ns_e_drm_parameters_mismatched;
+case NS_E_DRM_UNABLE_TO_CREATE_LICENSE_OBJECT:
+	return ns_e_drm_unable_to_create_license_object;
+case NS_E_DRM_UNABLE_TO_CREATE_LICENSE_OBJECT:
+	return ns_e_drm_unable_to_create_license_object;
+case NS_E_DRM_UNABLE_TO_CREATE_LICENSE_OBJECT:
+	return ns_e_drm_unable_to_create_license_object;
+case NS_E_DRM_UNABLE_TO_CREATE_INDI_OBJECT:
+	return ns_e_drm_unable_to_create_indi_object;
+case NS_E_DRM_UNABLE_TO_CREATE_INDI_OBJECT:
+	return ns_e_drm_unable_to_create_indi_object;
+case NS_E_DRM_UNABLE_TO_CREATE_INDI_OBJECT:
+	return ns_e_drm_unable_to_create_indi_object;
+case NS_E_DRM_UNABLE_TO_CREATE_ENCRYPT_OBJECT:
+	return ns_e_drm_unable_to_create_encrypt_object;
+case NS_E_DRM_UNABLE_TO_CREATE_ENCRYPT_OBJECT:
+	return ns_e_drm_unable_to_create_encrypt_object;
+case NS_E_DRM_UNABLE_TO_CREATE_ENCRYPT_OBJECT:
+	return ns_e_drm_unable_to_create_encrypt_object;
+case NS_E_DRM_UNABLE_TO_CREATE_DECRYPT_OBJECT:
+	return ns_e_drm_unable_to_create_decrypt_object;
+case NS_E_DRM_UNABLE_TO_CREATE_DECRYPT_OBJECT:
+	return ns_e_drm_unable_to_create_decrypt_object;
+case NS_E_DRM_UNABLE_TO_CREATE_DECRYPT_OBJECT:
+	return ns_e_drm_unable_to_create_decrypt_object;
+case NS_E_DRM_UNABLE_TO_CREATE_PROPERTIES_OBJECT:
+	return ns_e_drm_unable_to_create_properties_object;
+case NS_E_DRM_UNABLE_TO_CREATE_PROPERTIES_OBJECT:
+	return ns_e_drm_unable_to_create_properties_object;
+case NS_E_DRM_UNABLE_TO_CREATE_PROPERTIES_OBJECT:
+	return ns_e_drm_unable_to_create_properties_object;
+case NS_E_DRM_UNABLE_TO_CREATE_BACKUP_OBJECT:
+	return ns_e_drm_unable_to_create_backup_object;
+case NS_E_DRM_UNABLE_TO_CREATE_BACKUP_OBJECT:
+	return ns_e_drm_unable_to_create_backup_object;
+case NS_E_DRM_UNABLE_TO_CREATE_BACKUP_OBJECT:
+	return ns_e_drm_unable_to_create_backup_object;
+case NS_E_DRM_INDIVIDUALIZE_ERROR:
+	return ns_e_drm_individualize_error;
+case NS_E_DRM_INDIVIDUALIZE_ERROR:
+	return ns_e_drm_individualize_error;
+case NS_E_DRM_INDIVIDUALIZE_ERROR:
+	return ns_e_drm_individualize_error;
+case NS_E_DRM_LICENSE_OPEN_ERROR:
+	return ns_e_drm_license_open_error;
+case NS_E_DRM_LICENSE_OPEN_ERROR:
+	return ns_e_drm_license_open_error;
+case NS_E_DRM_LICENSE_OPEN_ERROR:
+	return ns_e_drm_license_open_error;
+case NS_E_DRM_LICENSE_CLOSE_ERROR:
+	return ns_e_drm_license_close_error;
+case NS_E_DRM_LICENSE_CLOSE_ERROR:
+	return ns_e_drm_license_close_error;
+case NS_E_DRM_LICENSE_CLOSE_ERROR:
+	return ns_e_drm_license_close_error;
+case NS_E_DRM_GET_LICENSE_ERROR:
+	return ns_e_drm_get_license_error;
+case NS_E_DRM_GET_LICENSE_ERROR:
+	return ns_e_drm_get_license_error;
+case NS_E_DRM_GET_LICENSE_ERROR:
+	return ns_e_drm_get_license_error;
+case NS_E_DRM_QUERY_ERROR:
+	return ns_e_drm_query_error;
+case NS_E_DRM_QUERY_ERROR:
+	return ns_e_drm_query_error;
+case NS_E_DRM_QUERY_ERROR:
+	return ns_e_drm_query_error;
+case NS_E_DRM_REPORT_ERROR:
+	return ns_e_drm_report_error;
+case NS_E_DRM_REPORT_ERROR:
+	return ns_e_drm_report_error;
+case NS_E_DRM_REPORT_ERROR:
+	return ns_e_drm_report_error;
+case NS_E_DRM_GET_LICENSESTRING_ERROR:
+	return ns_e_drm_get_licensestring_error;
+case NS_E_DRM_GET_LICENSESTRING_ERROR:
+	return ns_e_drm_get_licensestring_error;
+case NS_E_DRM_GET_LICENSESTRING_ERROR:
+	return ns_e_drm_get_licensestring_error;
+case NS_E_DRM_GET_CONTENTSTRING_ERROR:
+	return ns_e_drm_get_contentstring_error;
+case NS_E_DRM_GET_CONTENTSTRING_ERROR:
+	return ns_e_drm_get_contentstring_error;
+case NS_E_DRM_GET_CONTENTSTRING_ERROR:
+	return ns_e_drm_get_contentstring_error;
+case NS_E_DRM_MONITOR_ERROR:
+	return ns_e_drm_monitor_error;
+case NS_E_DRM_MONITOR_ERROR:
+	return ns_e_drm_monitor_error;
+case NS_E_DRM_MONITOR_ERROR:
+	return ns_e_drm_monitor_error;
+case NS_E_DRM_UNABLE_TO_SET_PARAMETER:
+	return ns_e_drm_unable_to_set_parameter;
+case NS_E_DRM_UNABLE_TO_SET_PARAMETER:
+	return ns_e_drm_unable_to_set_parameter;
+case NS_E_DRM_UNABLE_TO_SET_PARAMETER:
+	return ns_e_drm_unable_to_set_parameter;
+case NS_E_DRM_INVALID_APPDATA:
+	return ns_e_drm_invalid_appdata;
+case NS_E_DRM_INVALID_APPDATA:
+	return ns_e_drm_invalid_appdata;
+case NS_E_DRM_INVALID_APPDATA:
+	return ns_e_drm_invalid_appdata;
+case NS_E_DRM_INVALID_APPDATA_VERSION:
+	return ns_e_drm_invalid_appdata_version;
+case NS_E_DRM_INVALID_APPDATA_VERSION:
+	return ns_e_drm_invalid_appdata_version;
+case NS_E_DRM_INVALID_APPDATA_VERSION:
+	return ns_e_drm_invalid_appdata_version;
+case NS_E_DRM_BACKUP_EXISTS:
+	return ns_e_drm_backup_exists;
+case NS_E_DRM_BACKUP_EXISTS:
+	return ns_e_drm_backup_exists;
+case NS_E_DRM_BACKUP_EXISTS:
+	return ns_e_drm_backup_exists;
+case NS_E_DRM_BACKUP_CORRUPT:
+	return ns_e_drm_backup_corrupt;
+case NS_E_DRM_BACKUP_CORRUPT:
+	return ns_e_drm_backup_corrupt;
+case NS_E_DRM_BACKUP_CORRUPT:
+	return ns_e_drm_backup_corrupt;
+case NS_E_DRM_BACKUPRESTORE_BUSY:
+	return ns_e_drm_backuprestore_busy;
+case NS_E_DRM_BACKUPRESTORE_BUSY:
+	return ns_e_drm_backuprestore_busy;
+case NS_E_DRM_BACKUPRESTORE_BUSY:
+	return ns_e_drm_backuprestore_busy;
+case NS_E_BACKUP_RESTORE_BAD_DATA:
+	return ns_e_backup_restore_bad_data;
+case NS_E_BACKUP_RESTORE_BAD_DATA:
+	return ns_e_backup_restore_bad_data;
+case NS_E_BACKUP_RESTORE_BAD_DATA:
+	return ns_e_backup_restore_bad_data;
+case NS_E_DRM_LICENSE_UNUSABLE:
+	return ns_e_drm_license_unusable;
+case NS_E_DRM_LICENSE_UNUSABLE:
+	return ns_e_drm_license_unusable;
+case NS_E_DRM_LICENSE_UNUSABLE:
+	return ns_e_drm_license_unusable;
+case NS_E_DRM_INVALID_PROPERTY:
+	return ns_e_drm_invalid_property;
+case NS_E_DRM_INVALID_PROPERTY:
+	return ns_e_drm_invalid_property;
+case NS_E_DRM_INVALID_PROPERTY:
+	return ns_e_drm_invalid_property;
+case NS_E_DRM_SECURE_STORE_NOT_FOUND:
+	return ns_e_drm_secure_store_not_found;
+case NS_E_DRM_SECURE_STORE_NOT_FOUND:
+	return ns_e_drm_secure_store_not_found;
+case NS_E_DRM_SECURE_STORE_NOT_FOUND:
+	return ns_e_drm_secure_store_not_found;
+case NS_E_DRM_CACHED_CONTENT_ERROR:
+	return ns_e_drm_cached_content_error;
+case NS_E_DRM_CACHED_CONTENT_ERROR:
+	return ns_e_drm_cached_content_error;
+case NS_E_DRM_CACHED_CONTENT_ERROR:
+	return ns_e_drm_cached_content_error;
+case NS_E_DRM_INDIVIDUALIZATION_INCOMPLETE:
+	return ns_e_drm_individualization_incomplete;
+case NS_E_DRM_INDIVIDUALIZATION_INCOMPLETE:
+	return ns_e_drm_individualization_incomplete;
+case NS_E_DRM_INDIVIDUALIZATION_INCOMPLETE:
+	return ns_e_drm_individualization_incomplete;
+case NS_E_DRM_DRIVER_AUTH_FAILURE:
+	return ns_e_drm_driver_auth_failure;
+case NS_E_DRM_DRIVER_AUTH_FAILURE:
+	return ns_e_drm_driver_auth_failure;
+case NS_E_DRM_DRIVER_AUTH_FAILURE:
+	return ns_e_drm_driver_auth_failure;
+case NS_E_DRM_NEED_UPGRADE_MSSAP:
+	return ns_e_drm_need_upgrade_mssap;
+case NS_E_DRM_NEED_UPGRADE_MSSAP:
+	return ns_e_drm_need_upgrade_mssap;
+case NS_E_DRM_NEED_UPGRADE_MSSAP:
+	return ns_e_drm_need_upgrade_mssap;
+case NS_E_DRM_REOPEN_CONTENT:
+	return ns_e_drm_reopen_content;
+case NS_E_DRM_REOPEN_CONTENT:
+	return ns_e_drm_reopen_content;
+case NS_E_DRM_REOPEN_CONTENT:
+	return ns_e_drm_reopen_content;
+case NS_E_DRM_DRIVER_DIGIOUT_FAILURE:
+	return ns_e_drm_driver_digiout_failure;
+case NS_E_DRM_DRIVER_DIGIOUT_FAILURE:
+	return ns_e_drm_driver_digiout_failure;
+case NS_E_DRM_DRIVER_DIGIOUT_FAILURE:
+	return ns_e_drm_driver_digiout_failure;
+case NS_E_DRM_INVALID_SECURESTORE_PASSWORD:
+	return ns_e_drm_invalid_securestore_password;
+case NS_E_DRM_INVALID_SECURESTORE_PASSWORD:
+	return ns_e_drm_invalid_securestore_password;
+case NS_E_DRM_INVALID_SECURESTORE_PASSWORD:
+	return ns_e_drm_invalid_securestore_password;
+case NS_E_DRM_APPCERT_REVOKED:
+	return ns_e_drm_appcert_revoked;
+case NS_E_DRM_APPCERT_REVOKED:
+	return ns_e_drm_appcert_revoked;
+case NS_E_DRM_APPCERT_REVOKED:
+	return ns_e_drm_appcert_revoked;
+case NS_E_DRM_RESTORE_FRAUD:
+	return ns_e_drm_restore_fraud;
+case NS_E_DRM_RESTORE_FRAUD:
+	return ns_e_drm_restore_fraud;
+case NS_E_DRM_RESTORE_FRAUD:
+	return ns_e_drm_restore_fraud;
+case NS_E_DRM_HARDWARE_INCONSISTENT:
+	return ns_e_drm_hardware_inconsistent;
+case NS_E_DRM_HARDWARE_INCONSISTENT:
+	return ns_e_drm_hardware_inconsistent;
+case NS_E_DRM_HARDWARE_INCONSISTENT:
+	return ns_e_drm_hardware_inconsistent;
+case NS_E_DRM_SDMI_TRIGGER:
+	return ns_e_drm_sdmi_trigger;
+case NS_E_DRM_SDMI_TRIGGER:
+	return ns_e_drm_sdmi_trigger;
+case NS_E_DRM_SDMI_TRIGGER:
+	return ns_e_drm_sdmi_trigger;
+case NS_E_DRM_SDMI_NOMORECOPIES:
+	return ns_e_drm_sdmi_nomorecopies;
+case NS_E_DRM_SDMI_NOMORECOPIES:
+	return ns_e_drm_sdmi_nomorecopies;
+case NS_E_DRM_SDMI_NOMORECOPIES:
+	return ns_e_drm_sdmi_nomorecopies;
+case NS_E_DRM_UNABLE_TO_CREATE_HEADER_OBJECT:
+	return ns_e_drm_unable_to_create_header_object;
+case NS_E_DRM_UNABLE_TO_CREATE_HEADER_OBJECT:
+	return ns_e_drm_unable_to_create_header_object;
+case NS_E_DRM_UNABLE_TO_CREATE_HEADER_OBJECT:
+	return ns_e_drm_unable_to_create_header_object;
+case NS_E_DRM_UNABLE_TO_CREATE_KEYS_OBJECT:
+	return ns_e_drm_unable_to_create_keys_object;
+case NS_E_DRM_UNABLE_TO_CREATE_KEYS_OBJECT:
+	return ns_e_drm_unable_to_create_keys_object;
+case NS_E_DRM_UNABLE_TO_CREATE_KEYS_OBJECT:
+	return ns_e_drm_unable_to_create_keys_object;
+case NS_E_DRM_LICENSE_NOTACQUIRED:
+	return ns_e_drm_license_notacquired;
+case NS_E_DRM_LICENSE_NOTACQUIRED:
+	return ns_e_drm_license_notacquired;
+case NS_E_DRM_LICENSE_NOTACQUIRED:
+	return ns_e_drm_license_notacquired;
+case NS_E_DRM_UNABLE_TO_CREATE_CODING_OBJECT:
+	return ns_e_drm_unable_to_create_coding_object;
+case NS_E_DRM_UNABLE_TO_CREATE_CODING_OBJECT:
+	return ns_e_drm_unable_to_create_coding_object;
+case NS_E_DRM_UNABLE_TO_CREATE_CODING_OBJECT:
+	return ns_e_drm_unable_to_create_coding_object;
+case NS_E_DRM_UNABLE_TO_CREATE_STATE_DATA_OBJECT:
+	return ns_e_drm_unable_to_create_state_data_object;
+case NS_E_DRM_UNABLE_TO_CREATE_STATE_DATA_OBJECT:
+	return ns_e_drm_unable_to_create_state_data_object;
+case NS_E_DRM_UNABLE_TO_CREATE_STATE_DATA_OBJECT:
+	return ns_e_drm_unable_to_create_state_data_object;
+case NS_E_DRM_BUFFER_TOO_SMALL:
+	return ns_e_drm_buffer_too_small;
+case NS_E_DRM_BUFFER_TOO_SMALL:
+	return ns_e_drm_buffer_too_small;
+case NS_E_DRM_BUFFER_TOO_SMALL:
+	return ns_e_drm_buffer_too_small;
+case NS_E_DRM_UNSUPPORTED_PROPERTY:
+	return ns_e_drm_unsupported_property;
+case NS_E_DRM_UNSUPPORTED_PROPERTY:
+	return ns_e_drm_unsupported_property;
+case NS_E_DRM_UNSUPPORTED_PROPERTY:
+	return ns_e_drm_unsupported_property;
+case NS_E_DRM_ERROR_BAD_NET_RESP:
+	return ns_e_drm_error_bad_net_resp;
+case NS_E_DRM_ERROR_BAD_NET_RESP:
+	return ns_e_drm_error_bad_net_resp;
+case NS_E_DRM_ERROR_BAD_NET_RESP:
+	return ns_e_drm_error_bad_net_resp;
+case NS_E_DRM_STORE_NOTALLSTORED:
+	return ns_e_drm_store_notallstored;
+case NS_E_DRM_STORE_NOTALLSTORED:
+	return ns_e_drm_store_notallstored;
+case NS_E_DRM_STORE_NOTALLSTORED:
+	return ns_e_drm_store_notallstored;
+case NS_E_DRM_SECURITY_COMPONENT_SIGNATURE_INVALID:
+	return ns_e_drm_security_component_signature_invalid;
+case NS_E_DRM_SECURITY_COMPONENT_SIGNATURE_INVALID:
+	return ns_e_drm_security_component_signature_invalid;
+case NS_E_DRM_SECURITY_COMPONENT_SIGNATURE_INVALID:
+	return ns_e_drm_security_component_signature_invalid;
+case NS_E_DRM_INVALID_DATA:
+	return ns_e_drm_invalid_data;
+case NS_E_DRM_INVALID_DATA:
+	return ns_e_drm_invalid_data;
+case NS_E_DRM_INVALID_DATA:
+	return ns_e_drm_invalid_data;
+case NS_E_DRM_POLICY_DISABLE_ONLINE:
+	return ns_e_drm_policy_disable_online;
+case NS_E_DRM_POLICY_DISABLE_ONLINE:
+	return ns_e_drm_policy_disable_online;
+case NS_E_DRM_POLICY_DISABLE_ONLINE:
+	return ns_e_drm_policy_disable_online;
+case NS_E_DRM_UNABLE_TO_CREATE_AUTHENTICATION_OBJECT:
+	return ns_e_drm_unable_to_create_authentication_object;
+case NS_E_DRM_UNABLE_TO_CREATE_AUTHENTICATION_OBJECT:
+	return ns_e_drm_unable_to_create_authentication_object;
+case NS_E_DRM_UNABLE_TO_CREATE_AUTHENTICATION_OBJECT:
+	return ns_e_drm_unable_to_create_authentication_object;
+case NS_E_DRM_NOT_CONFIGURED:
+	return ns_e_drm_not_configured;
+case NS_E_DRM_NOT_CONFIGURED:
+	return ns_e_drm_not_configured;
+case NS_E_DRM_NOT_CONFIGURED:
+	return ns_e_drm_not_configured;
+case NS_E_DRM_DEVICE_ACTIVATION_CANCELED:
+	return ns_e_drm_device_activation_canceled;
+case NS_E_DRM_DEVICE_ACTIVATION_CANCELED:
+	return ns_e_drm_device_activation_canceled;
+case NS_E_DRM_DEVICE_ACTIVATION_CANCELED:
+	return ns_e_drm_device_activation_canceled;
+case NS_E_BACKUP_RESTORE_TOO_MANY_RESETS:
+	return ns_e_backup_restore_too_many_resets;
+case NS_E_BACKUP_RESTORE_TOO_MANY_RESETS:
+	return ns_e_backup_restore_too_many_resets;
+case NS_E_BACKUP_RESTORE_TOO_MANY_RESETS:
+	return ns_e_backup_restore_too_many_resets;
+case NS_E_DRM_DEBUGGING_NOT_ALLOWED:
+	return ns_e_drm_debugging_not_allowed;
+case NS_E_DRM_DEBUGGING_NOT_ALLOWED:
+	return ns_e_drm_debugging_not_allowed;
+case NS_E_DRM_DEBUGGING_NOT_ALLOWED:
+	return ns_e_drm_debugging_not_allowed;
+case NS_E_DRM_OPERATION_CANCELED:
+	return ns_e_drm_operation_canceled;
+case NS_E_DRM_OPERATION_CANCELED:
+	return ns_e_drm_operation_canceled;
+case NS_E_DRM_OPERATION_CANCELED:
+	return ns_e_drm_operation_canceled;
+case NS_E_DRM_RESTRICTIONS_NOT_RETRIEVED:
+	return ns_e_drm_restrictions_not_retrieved;
+case NS_E_DRM_RESTRICTIONS_NOT_RETRIEVED:
+	return ns_e_drm_restrictions_not_retrieved;
+case NS_E_DRM_RESTRICTIONS_NOT_RETRIEVED:
+	return ns_e_drm_restrictions_not_retrieved;
+case NS_E_DRM_UNABLE_TO_CREATE_PLAYLIST_OBJECT:
+	return ns_e_drm_unable_to_create_playlist_object;
+case NS_E_DRM_UNABLE_TO_CREATE_PLAYLIST_OBJECT:
+	return ns_e_drm_unable_to_create_playlist_object;
+case NS_E_DRM_UNABLE_TO_CREATE_PLAYLIST_OBJECT:
+	return ns_e_drm_unable_to_create_playlist_object;
+case NS_E_DRM_UNABLE_TO_CREATE_PLAYLIST_BURN_OBJECT:
+	return ns_e_drm_unable_to_create_playlist_burn_object;
+case NS_E_DRM_UNABLE_TO_CREATE_PLAYLIST_BURN_OBJECT:
+	return ns_e_drm_unable_to_create_playlist_burn_object;
+case NS_E_DRM_UNABLE_TO_CREATE_PLAYLIST_BURN_OBJECT:
+	return ns_e_drm_unable_to_create_playlist_burn_object;
+case NS_E_DRM_UNABLE_TO_CREATE_DEVICE_REGISTRATION_OBJECT:
+	return ns_e_drm_unable_to_create_device_registration_object;
+case NS_E_DRM_UNABLE_TO_CREATE_DEVICE_REGISTRATION_OBJECT:
+	return ns_e_drm_unable_to_create_device_registration_object;
+case NS_E_DRM_UNABLE_TO_CREATE_DEVICE_REGISTRATION_OBJECT:
+	return ns_e_drm_unable_to_create_device_registration_object;
+case NS_E_DRM_UNABLE_TO_CREATE_METERING_OBJECT:
+	return ns_e_drm_unable_to_create_metering_object;
+case NS_E_DRM_UNABLE_TO_CREATE_METERING_OBJECT:
+	return ns_e_drm_unable_to_create_metering_object;
+case NS_E_DRM_UNABLE_TO_CREATE_METERING_OBJECT:
+	return ns_e_drm_unable_to_create_metering_object;
+case NS_E_DRM_TRACK_EXCEEDED_PLAYLIST_RESTICTION:
+	return ns_e_drm_track_exceeded_playlist_restiction;
+case NS_E_DRM_TRACK_EXCEEDED_PLAYLIST_RESTICTION:
+	return ns_e_drm_track_exceeded_playlist_restiction;
+case NS_E_DRM_TRACK_EXCEEDED_PLAYLIST_RESTICTION:
+	return ns_e_drm_track_exceeded_playlist_restiction;
+case NS_E_DRM_TRACK_EXCEEDED_TRACKBURN_RESTRICTION:
+	return ns_e_drm_track_exceeded_trackburn_restriction;
+case NS_E_DRM_TRACK_EXCEEDED_TRACKBURN_RESTRICTION:
+	return ns_e_drm_track_exceeded_trackburn_restriction;
+case NS_E_DRM_TRACK_EXCEEDED_TRACKBURN_RESTRICTION:
+	return ns_e_drm_track_exceeded_trackburn_restriction;
+case NS_E_DRM_UNABLE_TO_GET_DEVICE_CERT:
+	return ns_e_drm_unable_to_get_device_cert;
+case NS_E_DRM_UNABLE_TO_GET_DEVICE_CERT:
+	return ns_e_drm_unable_to_get_device_cert;
+case NS_E_DRM_UNABLE_TO_GET_DEVICE_CERT:
+	return ns_e_drm_unable_to_get_device_cert;
+case NS_E_DRM_UNABLE_TO_GET_SECURE_CLOCK:
+	return ns_e_drm_unable_to_get_secure_clock;
+case NS_E_DRM_UNABLE_TO_GET_SECURE_CLOCK:
+	return ns_e_drm_unable_to_get_secure_clock;
+case NS_E_DRM_UNABLE_TO_GET_SECURE_CLOCK:
+	return ns_e_drm_unable_to_get_secure_clock;
+case NS_E_DRM_UNABLE_TO_SET_SECURE_CLOCK:
+	return ns_e_drm_unable_to_set_secure_clock;
+case NS_E_DRM_UNABLE_TO_SET_SECURE_CLOCK:
+	return ns_e_drm_unable_to_set_secure_clock;
+case NS_E_DRM_UNABLE_TO_SET_SECURE_CLOCK:
+	return ns_e_drm_unable_to_set_secure_clock;
+case NS_E_DRM_UNABLE_TO_GET_SECURE_CLOCK_FROM_SERVER:
+	return ns_e_drm_unable_to_get_secure_clock_from_server;
+case NS_E_DRM_UNABLE_TO_GET_SECURE_CLOCK_FROM_SERVER:
+	return ns_e_drm_unable_to_get_secure_clock_from_server;
+case NS_E_DRM_UNABLE_TO_GET_SECURE_CLOCK_FROM_SERVER:
+	return ns_e_drm_unable_to_get_secure_clock_from_server;
+case NS_E_DRM_POLICY_METERING_DISABLED:
+	return ns_e_drm_policy_metering_disabled;
+case NS_E_DRM_POLICY_METERING_DISABLED:
+	return ns_e_drm_policy_metering_disabled;
+case NS_E_DRM_POLICY_METERING_DISABLED:
+	return ns_e_drm_policy_metering_disabled;
+case NS_E_DRM_TRANSFER_CHAINED_LICENSES_UNSUPPORTED:
+	return ns_e_drm_transfer_chained_licenses_unsupported;
+case NS_E_DRM_TRANSFER_CHAINED_LICENSES_UNSUPPORTED:
+	return ns_e_drm_transfer_chained_licenses_unsupported;
+case NS_E_DRM_TRANSFER_CHAINED_LICENSES_UNSUPPORTED:
+	return ns_e_drm_transfer_chained_licenses_unsupported;
+case NS_E_DRM_SDK_VERSIONMISMATCH:
+	return ns_e_drm_sdk_versionmismatch;
+case NS_E_DRM_SDK_VERSIONMISMATCH:
+	return ns_e_drm_sdk_versionmismatch;
+case NS_E_DRM_SDK_VERSIONMISMATCH:
+	return ns_e_drm_sdk_versionmismatch;
+case NS_E_DRM_LIC_NEEDS_DEVICE_CLOCK_SET:
+	return ns_e_drm_lic_needs_device_clock_set;
+case NS_E_DRM_LIC_NEEDS_DEVICE_CLOCK_SET:
+	return ns_e_drm_lic_needs_device_clock_set;
+case NS_E_DRM_LIC_NEEDS_DEVICE_CLOCK_SET:
+	return ns_e_drm_lic_needs_device_clock_set;
+case NS_E_LICENSE_HEADER_MISSING_URL:
+	return ns_e_license_header_missing_url;
+case NS_E_LICENSE_HEADER_MISSING_URL:
+	return ns_e_license_header_missing_url;
+case NS_E_LICENSE_HEADER_MISSING_URL:
+	return ns_e_license_header_missing_url;
+case NS_E_DEVICE_NOT_WMDRM_DEVICE:
+	return ns_e_device_not_wmdrm_device;
+case NS_E_DEVICE_NOT_WMDRM_DEVICE:
+	return ns_e_device_not_wmdrm_device;
+case NS_E_DEVICE_NOT_WMDRM_DEVICE:
+	return ns_e_device_not_wmdrm_device;
+case NS_E_DRM_INVALID_APPCERT:
+	return ns_e_drm_invalid_appcert;
+case NS_E_DRM_INVALID_APPCERT:
+	return ns_e_drm_invalid_appcert;
+case NS_E_DRM_INVALID_APPCERT:
+	return ns_e_drm_invalid_appcert;
+case NS_E_DRM_PROTOCOL_FORCEFUL_TERMINATION_ON_PETITION:
+	return ns_e_drm_protocol_forceful_termination_on_petition;
+case NS_E_DRM_PROTOCOL_FORCEFUL_TERMINATION_ON_PETITION:
+	return ns_e_drm_protocol_forceful_termination_on_petition;
+case NS_E_DRM_PROTOCOL_FORCEFUL_TERMINATION_ON_PETITION:
+	return ns_e_drm_protocol_forceful_termination_on_petition;
+case NS_E_DRM_PROTOCOL_FORCEFUL_TERMINATION_ON_CHALLENGE:
+	return ns_e_drm_protocol_forceful_termination_on_challenge;
+case NS_E_DRM_PROTOCOL_FORCEFUL_TERMINATION_ON_CHALLENGE:
+	return ns_e_drm_protocol_forceful_termination_on_challenge;
+case NS_E_DRM_PROTOCOL_FORCEFUL_TERMINATION_ON_CHALLENGE:
+	return ns_e_drm_protocol_forceful_termination_on_challenge;
+case NS_E_DRM_CHECKPOINT_FAILED:
+	return ns_e_drm_checkpoint_failed;
+case NS_E_DRM_CHECKPOINT_FAILED:
+	return ns_e_drm_checkpoint_failed;
+case NS_E_DRM_CHECKPOINT_FAILED:
+	return ns_e_drm_checkpoint_failed;
+case NS_E_DRM_BB_UNABLE_TO_INITIALIZE:
+	return ns_e_drm_bb_unable_to_initialize;
+case NS_E_DRM_BB_UNABLE_TO_INITIALIZE:
+	return ns_e_drm_bb_unable_to_initialize;
+case NS_E_DRM_BB_UNABLE_TO_INITIALIZE:
+	return ns_e_drm_bb_unable_to_initialize;
+case NS_E_DRM_UNABLE_TO_LOAD_HARDWARE_ID:
+	return ns_e_drm_unable_to_load_hardware_id;
+case NS_E_DRM_UNABLE_TO_LOAD_HARDWARE_ID:
+	return ns_e_drm_unable_to_load_hardware_id;
+case NS_E_DRM_UNABLE_TO_LOAD_HARDWARE_ID:
+	return ns_e_drm_unable_to_load_hardware_id;
+case NS_E_DRM_UNABLE_TO_OPEN_DATA_STORE:
+	return ns_e_drm_unable_to_open_data_store;
+case NS_E_DRM_UNABLE_TO_OPEN_DATA_STORE:
+	return ns_e_drm_unable_to_open_data_store;
+case NS_E_DRM_UNABLE_TO_OPEN_DATA_STORE:
+	return ns_e_drm_unable_to_open_data_store;
+case NS_E_DRM_DATASTORE_CORRUPT:
+	return ns_e_drm_datastore_corrupt;
+case NS_E_DRM_DATASTORE_CORRUPT:
+	return ns_e_drm_datastore_corrupt;
+case NS_E_DRM_DATASTORE_CORRUPT:
+	return ns_e_drm_datastore_corrupt;
+case NS_E_DRM_UNABLE_TO_CREATE_INMEMORYSTORE_OBJECT:
+	return ns_e_drm_unable_to_create_inmemorystore_object;
+case NS_E_DRM_UNABLE_TO_CREATE_INMEMORYSTORE_OBJECT:
+	return ns_e_drm_unable_to_create_inmemorystore_object;
+case NS_E_DRM_UNABLE_TO_CREATE_INMEMORYSTORE_OBJECT:
+	return ns_e_drm_unable_to_create_inmemorystore_object;
+case NS_E_DRM_STUBLIB_REQUIRED:
+	return ns_e_drm_stublib_required;
+case NS_E_DRM_STUBLIB_REQUIRED:
+	return ns_e_drm_stublib_required;
+case NS_E_DRM_STUBLIB_REQUIRED:
+	return ns_e_drm_stublib_required;
+case NS_E_DRM_UNABLE_TO_CREATE_CERTIFICATE_OBJECT:
+	return ns_e_drm_unable_to_create_certificate_object;
+case NS_E_DRM_UNABLE_TO_CREATE_CERTIFICATE_OBJECT:
+	return ns_e_drm_unable_to_create_certificate_object;
+case NS_E_DRM_UNABLE_TO_CREATE_CERTIFICATE_OBJECT:
+	return ns_e_drm_unable_to_create_certificate_object;
+case NS_E_DRM_MIGRATION_TARGET_NOT_ONLINE:
+	return ns_e_drm_migration_target_not_online;
+case NS_E_DRM_MIGRATION_TARGET_NOT_ONLINE:
+	return ns_e_drm_migration_target_not_online;
+case NS_E_DRM_MIGRATION_TARGET_NOT_ONLINE:
+	return ns_e_drm_migration_target_not_online;
+case NS_E_DRM_INVALID_MIGRATION_IMAGE:
+	return ns_e_drm_invalid_migration_image;
+case NS_E_DRM_INVALID_MIGRATION_IMAGE:
+	return ns_e_drm_invalid_migration_image;
+case NS_E_DRM_INVALID_MIGRATION_IMAGE:
+	return ns_e_drm_invalid_migration_image;
+case NS_E_DRM_MIGRATION_TARGET_STATES_CORRUPTED:
+	return ns_e_drm_migration_target_states_corrupted;
+case NS_E_DRM_MIGRATION_TARGET_STATES_CORRUPTED:
+	return ns_e_drm_migration_target_states_corrupted;
+case NS_E_DRM_MIGRATION_TARGET_STATES_CORRUPTED:
+	return ns_e_drm_migration_target_states_corrupted;
+case NS_E_DRM_MIGRATION_IMPORTER_NOT_AVAILABLE:
+	return ns_e_drm_migration_importer_not_available;
+case NS_E_DRM_MIGRATION_IMPORTER_NOT_AVAILABLE:
+	return ns_e_drm_migration_importer_not_available;
+case NS_E_DRM_MIGRATION_IMPORTER_NOT_AVAILABLE:
+	return ns_e_drm_migration_importer_not_available;
+case NS_DRM_E_MIGRATION_UPGRADE_WITH_DIFF_SID:
+	return ns_drm_e_migration_upgrade_with_diff_sid;
+case NS_DRM_E_MIGRATION_UPGRADE_WITH_DIFF_SID:
+	return ns_drm_e_migration_upgrade_with_diff_sid;
+case NS_DRM_E_MIGRATION_UPGRADE_WITH_DIFF_SID:
+	return ns_drm_e_migration_upgrade_with_diff_sid;
+case NS_DRM_E_MIGRATION_SOURCE_MACHINE_IN_USE:
+	return ns_drm_e_migration_source_machine_in_use;
+case NS_DRM_E_MIGRATION_SOURCE_MACHINE_IN_USE:
+	return ns_drm_e_migration_source_machine_in_use;
+case NS_DRM_E_MIGRATION_SOURCE_MACHINE_IN_USE:
+	return ns_drm_e_migration_source_machine_in_use;
+case NS_DRM_E_MIGRATION_TARGET_MACHINE_LESS_THAN_LH:
+	return ns_drm_e_migration_target_machine_less_than_lh;
+case NS_DRM_E_MIGRATION_TARGET_MACHINE_LESS_THAN_LH:
+	return ns_drm_e_migration_target_machine_less_than_lh;
+case NS_DRM_E_MIGRATION_TARGET_MACHINE_LESS_THAN_LH:
+	return ns_drm_e_migration_target_machine_less_than_lh;
+case NS_DRM_E_MIGRATION_IMAGE_ALREADY_EXISTS:
+	return ns_drm_e_migration_image_already_exists;
+case NS_DRM_E_MIGRATION_IMAGE_ALREADY_EXISTS:
+	return ns_drm_e_migration_image_already_exists;
+case NS_DRM_E_MIGRATION_IMAGE_ALREADY_EXISTS:
+	return ns_drm_e_migration_image_already_exists;
+case NS_E_DRM_HARDWAREID_MISMATCH:
+	return ns_e_drm_hardwareid_mismatch;
+case NS_E_DRM_HARDWAREID_MISMATCH:
+	return ns_e_drm_hardwareid_mismatch;
+case NS_E_DRM_HARDWAREID_MISMATCH:
+	return ns_e_drm_hardwareid_mismatch;
+case NS_E_DRM_HARDWAREID_MISMATCH:
+	return ns_e_drm_hardwareid_mismatch;
+case NS_E_DRM_HARDWAREID_MISMATCH:
+	return ns_e_drm_hardwareid_mismatch;
+case NS_E_DRM_HARDWAREID_MISMATCH:
+	return ns_e_drm_hardwareid_mismatch;
+case NS_E_DRM_HARDWAREID_MISMATCH:
+	return ns_e_drm_hardwareid_mismatch;
+case NS_E_DRM_HARDWAREID_MISMATCH:
+	return ns_e_drm_hardwareid_mismatch;
+case NS_E_DRM_HARDWAREID_MISMATCH:
+	return ns_e_drm_hardwareid_mismatch;
+case NS_E_DRM_MIGRATION_LICENSE_ALREADY_EXISTS:
+	return ns_e_drm_migration_license_already_exists;
+case NS_E_DRM_MIGRATION_LICENSE_ALREADY_EXISTS:
+	return ns_e_drm_migration_license_already_exists;
+case NS_E_DRM_MIGRATION_LICENSE_ALREADY_EXISTS:
+	return ns_e_drm_migration_license_already_exists;
+case NS_E_DRM_MIGRATION_LICENSE_ALREADY_EXISTS:
+	return ns_e_drm_migration_license_already_exists;
+case NS_E_DRM_MIGRATION_LICENSE_ALREADY_EXISTS:
+	return ns_e_drm_migration_license_already_exists;
+case NS_E_DRM_MIGRATION_LICENSE_ALREADY_EXISTS:
+	return ns_e_drm_migration_license_already_exists;
+case NS_E_DRM_MIGRATION_NOT_SUPPORTED:
+	return ns_e_drm_migration_not_supported;
+case NS_E_DRM_MIGRATION_NOT_SUPPORTED:
+	return ns_e_drm_migration_not_supported;
+case NS_E_DRM_MIGRATION_NOT_SUPPORTED:
+	return ns_e_drm_migration_not_supported;
+case NS_E_DRM_UNABLE_TO_CREATE_MIGRATION_IMPORTER_OBJECT:
+	return ns_e_drm_unable_to_create_migration_importer_object;
+case NS_E_DRM_UNABLE_TO_CREATE_MIGRATION_IMPORTER_OBJECT:
+	return ns_e_drm_unable_to_create_migration_importer_object;
+case NS_E_DRM_UNABLE_TO_CREATE_MIGRATION_IMPORTER_OBJECT:
+	return ns_e_drm_unable_to_create_migration_importer_object;
+case NS_E_DRM_CHECKPOINT_MISMATCH:
+	return ns_e_drm_checkpoint_mismatch;
+case NS_E_DRM_CHECKPOINT_MISMATCH:
+	return ns_e_drm_checkpoint_mismatch;
+case NS_E_DRM_CHECKPOINT_MISMATCH:
+	return ns_e_drm_checkpoint_mismatch;
+case NS_E_DRM_CHECKPOINT_CORRUPT:
+	return ns_e_drm_checkpoint_corrupt;
+case NS_E_DRM_CHECKPOINT_CORRUPT:
+	return ns_e_drm_checkpoint_corrupt;
+case NS_E_DRM_CHECKPOINT_CORRUPT:
+	return ns_e_drm_checkpoint_corrupt;
+case NS_E_REG_FLUSH_FAILURE:
+	return ns_e_reg_flush_failure;
+case NS_E_REG_FLUSH_FAILURE:
+	return ns_e_reg_flush_failure;
+case NS_E_REG_FLUSH_FAILURE:
+	return ns_e_reg_flush_failure;
+case NS_E_HDS_KEY_MISMATCH:
+	return ns_e_hds_key_mismatch;
+case NS_E_HDS_KEY_MISMATCH:
+	return ns_e_hds_key_mismatch;
+case NS_E_HDS_KEY_MISMATCH:
+	return ns_e_hds_key_mismatch;
+case NS_E_DRM_MIGRATION_OPERATION_CANCELLED:
+	return ns_e_drm_migration_operation_cancelled;
+case NS_E_DRM_MIGRATION_OPERATION_CANCELLED:
+	return ns_e_drm_migration_operation_cancelled;
+case NS_E_DRM_MIGRATION_OPERATION_CANCELLED:
+	return ns_e_drm_migration_operation_cancelled;
+case NS_E_DRM_MIGRATION_OBJECT_IN_USE:
+	return ns_e_drm_migration_object_in_use;
+case NS_E_DRM_MIGRATION_OBJECT_IN_USE:
+	return ns_e_drm_migration_object_in_use;
+case NS_E_DRM_MIGRATION_OBJECT_IN_USE:
+	return ns_e_drm_migration_object_in_use;
+case NS_E_DRM_MALFORMED_CONTENT_HEADER:
+	return ns_e_drm_malformed_content_header;
+case NS_E_DRM_MALFORMED_CONTENT_HEADER:
+	return ns_e_drm_malformed_content_header;
+case NS_E_DRM_MALFORMED_CONTENT_HEADER:
+	return ns_e_drm_malformed_content_header;
+case NS_E_DRM_LICENSE_EXPIRED:
+	return ns_e_drm_license_expired;
+case NS_E_DRM_LICENSE_EXPIRED:
+	return ns_e_drm_license_expired;
+case NS_E_DRM_LICENSE_EXPIRED:
+	return ns_e_drm_license_expired;
+case NS_E_DRM_LICENSE_NOTENABLED:
+	return ns_e_drm_license_notenabled;
+case NS_E_DRM_LICENSE_NOTENABLED:
+	return ns_e_drm_license_notenabled;
+case NS_E_DRM_LICENSE_NOTENABLED:
+	return ns_e_drm_license_notenabled;
+case NS_E_DRM_LICENSE_APPSECLOW:
+	return ns_e_drm_license_appseclow;
+case NS_E_DRM_LICENSE_APPSECLOW:
+	return ns_e_drm_license_appseclow;
+case NS_E_DRM_LICENSE_APPSECLOW:
+	return ns_e_drm_license_appseclow;
+case NS_E_DRM_STORE_NEEDINDI:
+	return ns_e_drm_store_needindi;
+case NS_E_DRM_STORE_NEEDINDI:
+	return ns_e_drm_store_needindi;
+case NS_E_DRM_STORE_NEEDINDI:
+	return ns_e_drm_store_needindi;
+case NS_E_DRM_STORE_NOTALLOWED:
+	return ns_e_drm_store_notallowed;
+case NS_E_DRM_STORE_NOTALLOWED:
+	return ns_e_drm_store_notallowed;
+case NS_E_DRM_STORE_NOTALLOWED:
+	return ns_e_drm_store_notallowed;
+case NS_E_DRM_LICENSE_APP_NOTALLOWED:
+	return ns_e_drm_license_app_notallowed;
+case NS_E_DRM_LICENSE_APP_NOTALLOWED:
+	return ns_e_drm_license_app_notallowed;
+case NS_E_DRM_LICENSE_APP_NOTALLOWED:
+	return ns_e_drm_license_app_notallowed;
+case NS_E_DRM_LICENSE_CERT_EXPIRED:
+	return ns_e_drm_license_cert_expired;
+case NS_E_DRM_LICENSE_CERT_EXPIRED:
+	return ns_e_drm_license_cert_expired;
+case NS_E_DRM_LICENSE_CERT_EXPIRED:
+	return ns_e_drm_license_cert_expired;
+case NS_E_DRM_LICENSE_SECLOW:
+	return ns_e_drm_license_seclow;
+case NS_E_DRM_LICENSE_SECLOW:
+	return ns_e_drm_license_seclow;
+case NS_E_DRM_LICENSE_SECLOW:
+	return ns_e_drm_license_seclow;
+case NS_E_DRM_LICENSE_CONTENT_REVOKED:
+	return ns_e_drm_license_content_revoked;
+case NS_E_DRM_LICENSE_CONTENT_REVOKED:
+	return ns_e_drm_license_content_revoked;
+case NS_E_DRM_LICENSE_CONTENT_REVOKED:
+	return ns_e_drm_license_content_revoked;
+case NS_E_DRM_DEVICE_NOT_REGISTERED:
+	return ns_e_drm_device_not_registered;
+case NS_E_DRM_DEVICE_NOT_REGISTERED:
+	return ns_e_drm_device_not_registered;
+case NS_E_DRM_DEVICE_NOT_REGISTERED:
+	return ns_e_drm_device_not_registered;
+case NS_E_DRM_LICENSE_NOSAP:
+	return ns_e_drm_license_nosap;
+case NS_E_DRM_LICENSE_NOSAP:
+	return ns_e_drm_license_nosap;
+case NS_E_DRM_LICENSE_NOSAP:
+	return ns_e_drm_license_nosap;
+case NS_E_DRM_LICENSE_NOSVP:
+	return ns_e_drm_license_nosvp;
+case NS_E_DRM_LICENSE_NOSVP:
+	return ns_e_drm_license_nosvp;
+case NS_E_DRM_LICENSE_NOSVP:
+	return ns_e_drm_license_nosvp;
+case NS_E_DRM_LICENSE_NOWDM:
+	return ns_e_drm_license_nowdm;
+case NS_E_DRM_LICENSE_NOWDM:
+	return ns_e_drm_license_nowdm;
+case NS_E_DRM_LICENSE_NOWDM:
+	return ns_e_drm_license_nowdm;
+case NS_E_DRM_LICENSE_NOTRUSTEDCODEC:
+	return ns_e_drm_license_notrustedcodec;
+case NS_E_DRM_LICENSE_NOTRUSTEDCODEC:
+	return ns_e_drm_license_notrustedcodec;
+case NS_E_DRM_LICENSE_NOTRUSTEDCODEC:
+	return ns_e_drm_license_notrustedcodec;
+case NS_E_DRM_SOURCEID_NOT_SUPPORTED:
+	return ns_e_drm_sourceid_not_supported;
+case NS_E_DRM_SOURCEID_NOT_SUPPORTED:
+	return ns_e_drm_sourceid_not_supported;
+case NS_E_DRM_SOURCEID_NOT_SUPPORTED:
+	return ns_e_drm_sourceid_not_supported;
+case NS_E_DRM_NEEDS_UPGRADE_TEMPFILE:
+	return ns_e_drm_needs_upgrade_tempfile;
+case NS_E_DRM_NEEDS_UPGRADE_TEMPFILE:
+	return ns_e_drm_needs_upgrade_tempfile;
+case NS_E_DRM_NEEDS_UPGRADE_TEMPFILE:
+	return ns_e_drm_needs_upgrade_tempfile;
+case NS_E_DRM_NEED_UPGRADE_PD:
+	return ns_e_drm_need_upgrade_pd;
+case NS_E_DRM_NEED_UPGRADE_PD:
+	return ns_e_drm_need_upgrade_pd;
+case NS_E_DRM_NEED_UPGRADE_PD:
+	return ns_e_drm_need_upgrade_pd;
+case NS_E_DRM_SIGNATURE_FAILURE:
+	return ns_e_drm_signature_failure;
+case NS_E_DRM_SIGNATURE_FAILURE:
+	return ns_e_drm_signature_failure;
+case NS_E_DRM_SIGNATURE_FAILURE:
+	return ns_e_drm_signature_failure;
+case NS_E_DRM_LICENSE_SERVER_INFO_MISSING:
+	return ns_e_drm_license_server_info_missing;
+case NS_E_DRM_LICENSE_SERVER_INFO_MISSING:
+	return ns_e_drm_license_server_info_missing;
+case NS_E_DRM_LICENSE_SERVER_INFO_MISSING:
+	return ns_e_drm_license_server_info_missing;
+case NS_E_DRM_BUSY:
+	return ns_e_drm_busy;
+case NS_E_DRM_BUSY:
+	return ns_e_drm_busy;
+case NS_E_DRM_BUSY:
+	return ns_e_drm_busy;
+case NS_E_DRM_PD_TOO_MANY_DEVICES:
+	return ns_e_drm_pd_too_many_devices;
+case NS_E_DRM_PD_TOO_MANY_DEVICES:
+	return ns_e_drm_pd_too_many_devices;
+case NS_E_DRM_PD_TOO_MANY_DEVICES:
+	return ns_e_drm_pd_too_many_devices;
+case NS_E_DRM_INDIV_FRAUD:
+	return ns_e_drm_indiv_fraud;
+case NS_E_DRM_INDIV_FRAUD:
+	return ns_e_drm_indiv_fraud;
+case NS_E_DRM_INDIV_FRAUD:
+	return ns_e_drm_indiv_fraud;
+case NS_E_DRM_INDIV_NO_CABS:
+	return ns_e_drm_indiv_no_cabs;
+case NS_E_DRM_INDIV_NO_CABS:
+	return ns_e_drm_indiv_no_cabs;
+case NS_E_DRM_INDIV_NO_CABS:
+	return ns_e_drm_indiv_no_cabs;
+case NS_E_DRM_INDIV_SERVICE_UNAVAILABLE:
+	return ns_e_drm_indiv_service_unavailable;
+case NS_E_DRM_INDIV_SERVICE_UNAVAILABLE:
+	return ns_e_drm_indiv_service_unavailable;
+case NS_E_DRM_INDIV_SERVICE_UNAVAILABLE:
+	return ns_e_drm_indiv_service_unavailable;
+case NS_E_DRM_RESTORE_SERVICE_UNAVAILABLE:
+	return ns_e_drm_restore_service_unavailable;
+case NS_E_DRM_RESTORE_SERVICE_UNAVAILABLE:
+	return ns_e_drm_restore_service_unavailable;
+case NS_E_DRM_RESTORE_SERVICE_UNAVAILABLE:
+	return ns_e_drm_restore_service_unavailable;
+case NS_E_DRM_CLIENT_CODE_EXPIRED:
+	return ns_e_drm_client_code_expired;
+case NS_E_DRM_CLIENT_CODE_EXPIRED:
+	return ns_e_drm_client_code_expired;
+case NS_E_DRM_CLIENT_CODE_EXPIRED:
+	return ns_e_drm_client_code_expired;
+case NS_E_DRM_NO_UPLINK_LICENSE:
+	return ns_e_drm_no_uplink_license;
+case NS_E_DRM_NO_UPLINK_LICENSE:
+	return ns_e_drm_no_uplink_license;
+case NS_E_DRM_NO_UPLINK_LICENSE:
+	return ns_e_drm_no_uplink_license;
+case NS_E_DRM_INVALID_KID:
+	return ns_e_drm_invalid_kid;
+case NS_E_DRM_INVALID_KID:
+	return ns_e_drm_invalid_kid;
+case NS_E_DRM_INVALID_KID:
+	return ns_e_drm_invalid_kid;
+case NS_E_DRM_LICENSE_INITIALIZATION_ERROR:
+	return ns_e_drm_license_initialization_error;
+case NS_E_DRM_LICENSE_INITIALIZATION_ERROR:
+	return ns_e_drm_license_initialization_error;
+case NS_E_DRM_LICENSE_INITIALIZATION_ERROR:
+	return ns_e_drm_license_initialization_error;
+case NS_E_DRM_CHAIN_TOO_LONG:
+	return ns_e_drm_chain_too_long;
+case NS_E_DRM_CHAIN_TOO_LONG:
+	return ns_e_drm_chain_too_long;
+case NS_E_DRM_CHAIN_TOO_LONG:
+	return ns_e_drm_chain_too_long;
+case NS_E_DRM_UNSUPPORTED_ALGORITHM:
+	return ns_e_drm_unsupported_algorithm;
+case NS_E_DRM_UNSUPPORTED_ALGORITHM:
+	return ns_e_drm_unsupported_algorithm;
+case NS_E_DRM_UNSUPPORTED_ALGORITHM:
+	return ns_e_drm_unsupported_algorithm;
+case NS_E_DRM_LICENSE_DELETION_ERROR:
+	return ns_e_drm_license_deletion_error;
+case NS_E_DRM_LICENSE_DELETION_ERROR:
+	return ns_e_drm_license_deletion_error;
+case NS_E_DRM_LICENSE_DELETION_ERROR:
+	return ns_e_drm_license_deletion_error;
+case NS_E_DRM_INVALID_CERTIFICATE:
+	return ns_e_drm_invalid_certificate;
+case NS_E_DRM_INVALID_CERTIFICATE:
+	return ns_e_drm_invalid_certificate;
+case NS_E_DRM_INVALID_CERTIFICATE:
+	return ns_e_drm_invalid_certificate;
+case NS_E_DRM_CERTIFICATE_REVOKED:
+	return ns_e_drm_certificate_revoked;
+case NS_E_DRM_CERTIFICATE_REVOKED:
+	return ns_e_drm_certificate_revoked;
+case NS_E_DRM_CERTIFICATE_REVOKED:
+	return ns_e_drm_certificate_revoked;
+case NS_E_DRM_LICENSE_UNAVAILABLE:
+	return ns_e_drm_license_unavailable;
+case NS_E_DRM_LICENSE_UNAVAILABLE:
+	return ns_e_drm_license_unavailable;
+case NS_E_DRM_LICENSE_UNAVAILABLE:
+	return ns_e_drm_license_unavailable;
+case NS_E_DRM_DEVICE_LIMIT_REACHED:
+	return ns_e_drm_device_limit_reached;
+case NS_E_DRM_DEVICE_LIMIT_REACHED:
+	return ns_e_drm_device_limit_reached;
+case NS_E_DRM_DEVICE_LIMIT_REACHED:
+	return ns_e_drm_device_limit_reached;
+case NS_E_DRM_UNABLE_TO_VERIFY_PROXIMITY:
+	return ns_e_drm_unable_to_verify_proximity;
+case NS_E_DRM_UNABLE_TO_VERIFY_PROXIMITY:
+	return ns_e_drm_unable_to_verify_proximity;
+case NS_E_DRM_UNABLE_TO_VERIFY_PROXIMITY:
+	return ns_e_drm_unable_to_verify_proximity;
+case NS_E_DRM_MUST_REGISTER:
+	return ns_e_drm_must_register;
+case NS_E_DRM_MUST_REGISTER:
+	return ns_e_drm_must_register;
+case NS_E_DRM_MUST_REGISTER:
+	return ns_e_drm_must_register;
+case NS_E_DRM_MUST_APPROVE:
+	return ns_e_drm_must_approve;
+case NS_E_DRM_MUST_APPROVE:
+	return ns_e_drm_must_approve;
+case NS_E_DRM_MUST_APPROVE:
+	return ns_e_drm_must_approve;
+case NS_E_DRM_MUST_REVALIDATE:
+	return ns_e_drm_must_revalidate;
+case NS_E_DRM_MUST_REVALIDATE:
+	return ns_e_drm_must_revalidate;
+case NS_E_DRM_MUST_REVALIDATE:
+	return ns_e_drm_must_revalidate;
+case NS_E_DRM_INVALID_PROXIMITY_RESPONSE:
+	return ns_e_drm_invalid_proximity_response;
+case NS_E_DRM_INVALID_PROXIMITY_RESPONSE:
+	return ns_e_drm_invalid_proximity_response;
+case NS_E_DRM_INVALID_PROXIMITY_RESPONSE:
+	return ns_e_drm_invalid_proximity_response;
+case NS_E_DRM_INVALID_SESSION:
+	return ns_e_drm_invalid_session;
+case NS_E_DRM_INVALID_SESSION:
+	return ns_e_drm_invalid_session;
+case NS_E_DRM_INVALID_SESSION:
+	return ns_e_drm_invalid_session;
+case NS_E_DRM_DEVICE_NOT_OPEN:
+	return ns_e_drm_device_not_open;
+case NS_E_DRM_DEVICE_NOT_OPEN:
+	return ns_e_drm_device_not_open;
+case NS_E_DRM_DEVICE_NOT_OPEN:
+	return ns_e_drm_device_not_open;
+case NS_E_DRM_DEVICE_ALREADY_REGISTERED:
+	return ns_e_drm_device_already_registered;
+case NS_E_DRM_DEVICE_ALREADY_REGISTERED:
+	return ns_e_drm_device_already_registered;
+case NS_E_DRM_DEVICE_ALREADY_REGISTERED:
+	return ns_e_drm_device_already_registered;
+case NS_E_DRM_UNSUPPORTED_PROTOCOL_VERSION:
+	return ns_e_drm_unsupported_protocol_version;
+case NS_E_DRM_UNSUPPORTED_PROTOCOL_VERSION:
+	return ns_e_drm_unsupported_protocol_version;
+case NS_E_DRM_UNSUPPORTED_PROTOCOL_VERSION:
+	return ns_e_drm_unsupported_protocol_version;
+case NS_E_DRM_UNSUPPORTED_ACTION:
+	return ns_e_drm_unsupported_action;
+case NS_E_DRM_UNSUPPORTED_ACTION:
+	return ns_e_drm_unsupported_action;
+case NS_E_DRM_UNSUPPORTED_ACTION:
+	return ns_e_drm_unsupported_action;
+case NS_E_DRM_CERTIFICATE_SECURITY_LEVEL_INADEQUATE:
+	return ns_e_drm_certificate_security_level_inadequate;
+case NS_E_DRM_CERTIFICATE_SECURITY_LEVEL_INADEQUATE:
+	return ns_e_drm_certificate_security_level_inadequate;
+case NS_E_DRM_CERTIFICATE_SECURITY_LEVEL_INADEQUATE:
+	return ns_e_drm_certificate_security_level_inadequate;
+case NS_E_DRM_UNABLE_TO_OPEN_PORT:
+	return ns_e_drm_unable_to_open_port;
+case NS_E_DRM_UNABLE_TO_OPEN_PORT:
+	return ns_e_drm_unable_to_open_port;
+case NS_E_DRM_UNABLE_TO_OPEN_PORT:
+	return ns_e_drm_unable_to_open_port;
+case NS_E_DRM_BAD_REQUEST:
+	return ns_e_drm_bad_request;
+case NS_E_DRM_BAD_REQUEST:
+	return ns_e_drm_bad_request;
+case NS_E_DRM_BAD_REQUEST:
+	return ns_e_drm_bad_request;
+case NS_E_DRM_INVALID_CRL:
+	return ns_e_drm_invalid_crl;
+case NS_E_DRM_INVALID_CRL:
+	return ns_e_drm_invalid_crl;
+case NS_E_DRM_INVALID_CRL:
+	return ns_e_drm_invalid_crl;
+case NS_E_DRM_ATTRIBUTE_TOO_LONG:
+	return ns_e_drm_attribute_too_long;
+case NS_E_DRM_ATTRIBUTE_TOO_LONG:
+	return ns_e_drm_attribute_too_long;
+case NS_E_DRM_ATTRIBUTE_TOO_LONG:
+	return ns_e_drm_attribute_too_long;
+case NS_E_DRM_EXPIRED_LICENSEBLOB:
+	return ns_e_drm_expired_licenseblob;
+case NS_E_DRM_EXPIRED_LICENSEBLOB:
+	return ns_e_drm_expired_licenseblob;
+case NS_E_DRM_EXPIRED_LICENSEBLOB:
+	return ns_e_drm_expired_licenseblob;
+case NS_E_DRM_INVALID_LICENSEBLOB:
+	return ns_e_drm_invalid_licenseblob;
+case NS_E_DRM_INVALID_LICENSEBLOB:
+	return ns_e_drm_invalid_licenseblob;
+case NS_E_DRM_INVALID_LICENSEBLOB:
+	return ns_e_drm_invalid_licenseblob;
+case NS_E_DRM_INCLUSION_LIST_REQUIRED:
+	return ns_e_drm_inclusion_list_required;
+case NS_E_DRM_INCLUSION_LIST_REQUIRED:
+	return ns_e_drm_inclusion_list_required;
+case NS_E_DRM_INCLUSION_LIST_REQUIRED:
+	return ns_e_drm_inclusion_list_required;
+case NS_E_DRM_INCLUSION_LIST_REQUIRED:
+	return ns_e_drm_inclusion_list_required;
+case NS_E_DRM_INCLUSION_LIST_REQUIRED:
+	return ns_e_drm_inclusion_list_required;
+case NS_E_DRM_INCLUSION_LIST_REQUIRED:
+	return ns_e_drm_inclusion_list_required;
+case NS_E_DRM_RIV_TOO_SMALL:
+	return ns_e_drm_riv_too_small;
+case NS_E_DRM_RIV_TOO_SMALL:
+	return ns_e_drm_riv_too_small;
+case NS_E_DRM_RIV_TOO_SMALL:
+	return ns_e_drm_riv_too_small;
+case NS_E_OUTPUT_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_output_protection_level_unsupported;
+case NS_E_OUTPUT_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_output_protection_level_unsupported;
+case NS_E_OUTPUT_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_output_protection_level_unsupported;
+case NS_E_COMPRESSED_DIGITAL_VIDEO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_compressed_digital_video_protection_level_unsupported;
+case NS_E_COMPRESSED_DIGITAL_VIDEO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_compressed_digital_video_protection_level_unsupported;
+case NS_E_COMPRESSED_DIGITAL_VIDEO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_compressed_digital_video_protection_level_unsupported;
+case NS_E_UNCOMPRESSED_DIGITAL_VIDEO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_uncompressed_digital_video_protection_level_unsupported;
+case NS_E_UNCOMPRESSED_DIGITAL_VIDEO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_uncompressed_digital_video_protection_level_unsupported;
+case NS_E_UNCOMPRESSED_DIGITAL_VIDEO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_uncompressed_digital_video_protection_level_unsupported;
+case NS_E_ANALOG_VIDEO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_analog_video_protection_level_unsupported;
+case NS_E_ANALOG_VIDEO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_analog_video_protection_level_unsupported;
+case NS_E_ANALOG_VIDEO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_analog_video_protection_level_unsupported;
+case NS_E_COMPRESSED_DIGITAL_AUDIO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_compressed_digital_audio_protection_level_unsupported;
+case NS_E_COMPRESSED_DIGITAL_AUDIO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_compressed_digital_audio_protection_level_unsupported;
+case NS_E_COMPRESSED_DIGITAL_AUDIO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_compressed_digital_audio_protection_level_unsupported;
+case NS_E_UNCOMPRESSED_DIGITAL_AUDIO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_uncompressed_digital_audio_protection_level_unsupported;
+case NS_E_UNCOMPRESSED_DIGITAL_AUDIO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_uncompressed_digital_audio_protection_level_unsupported;
+case NS_E_UNCOMPRESSED_DIGITAL_AUDIO_PROTECTION_LEVEL_UNSUPPORTED:
+	return ns_e_uncompressed_digital_audio_protection_level_unsupported;
+case NS_E_OUTPUT_PROTECTION_SCHEME_UNSUPPORTED:
+	return ns_e_output_protection_scheme_unsupported;
+case NS_E_OUTPUT_PROTECTION_SCHEME_UNSUPPORTED:
+	return ns_e_output_protection_scheme_unsupported;
+case NS_E_OUTPUT_PROTECTION_SCHEME_UNSUPPORTED:
+	return ns_e_output_protection_scheme_unsupported;
+case NS_E_REBOOT_RECOMMENDED:
+	return ns_e_reboot_recommended;
+case NS_E_REBOOT_RECOMMENDED:
+	return ns_e_reboot_recommended;
+case NS_E_REBOOT_RECOMMENDED:
+	return ns_e_reboot_recommended;
+case NS_E_REBOOT_REQUIRED:
+	return ns_e_reboot_required;
+case NS_E_REBOOT_REQUIRED:
+	return ns_e_reboot_required;
+case NS_E_REBOOT_REQUIRED:
+	return ns_e_reboot_required;
+case NS_E_SETUP_INCOMPLETE:
+	return ns_e_setup_incomplete;
+case NS_E_SETUP_INCOMPLETE:
+	return ns_e_setup_incomplete;
+case NS_E_SETUP_INCOMPLETE:
+	return ns_e_setup_incomplete;
+case NS_E_SETUP_DRM_MIGRATION_FAILED:
+	return ns_e_setup_drm_migration_failed;
+case NS_E_SETUP_DRM_MIGRATION_FAILED:
+	return ns_e_setup_drm_migration_failed;
+case NS_E_SETUP_DRM_MIGRATION_FAILED:
+	return ns_e_setup_drm_migration_failed;
+case NS_E_SETUP_IGNORABLE_FAILURE:
+	return ns_e_setup_ignorable_failure;
+case NS_E_SETUP_IGNORABLE_FAILURE:
+	return ns_e_setup_ignorable_failure;
+case NS_E_SETUP_IGNORABLE_FAILURE:
+	return ns_e_setup_ignorable_failure;
+case NS_E_SETUP_DRM_MIGRATION_FAILED_AND_IGNORABLE_FAILURE:
+	return ns_e_setup_drm_migration_failed_and_ignorable_failure;
+case NS_E_SETUP_DRM_MIGRATION_FAILED_AND_IGNORABLE_FAILURE:
+	return ns_e_setup_drm_migration_failed_and_ignorable_failure;
+case NS_E_SETUP_DRM_MIGRATION_FAILED_AND_IGNORABLE_FAILURE:
+	return ns_e_setup_drm_migration_failed_and_ignorable_failure;
+case NS_E_SETUP_BLOCKED:
+	return ns_e_setup_blocked;
+case NS_E_SETUP_BLOCKED:
+	return ns_e_setup_blocked;
+case NS_E_SETUP_BLOCKED:
+	return ns_e_setup_blocked;
+case NS_E_UNKNOWN_PROTOCOL:
+	return ns_e_unknown_protocol;
+case NS_E_UNKNOWN_PROTOCOL:
+	return ns_e_unknown_protocol;
+case NS_E_UNKNOWN_PROTOCOL:
+	return ns_e_unknown_protocol;
+case NS_E_REDIRECT_TO_PROXY:
+	return ns_e_redirect_to_proxy;
+case NS_E_REDIRECT_TO_PROXY:
+	return ns_e_redirect_to_proxy;
+case NS_E_REDIRECT_TO_PROXY:
+	return ns_e_redirect_to_proxy;
+case NS_E_INTERNAL_SERVER_ERROR:
+	return ns_e_internal_server_error;
+case NS_E_INTERNAL_SERVER_ERROR:
+	return ns_e_internal_server_error;
+case NS_E_INTERNAL_SERVER_ERROR:
+	return ns_e_internal_server_error;
+case NS_E_BAD_REQUEST:
+	return ns_e_bad_request;
+case NS_E_BAD_REQUEST:
+	return ns_e_bad_request;
+case NS_E_BAD_REQUEST:
+	return ns_e_bad_request;
+case NS_E_ERROR_FROM_PROXY:
+	return ns_e_error_from_proxy;
+case NS_E_ERROR_FROM_PROXY:
+	return ns_e_error_from_proxy;
+case NS_E_ERROR_FROM_PROXY:
+	return ns_e_error_from_proxy;
+case NS_E_PROXY_TIMEOUT:
+	return ns_e_proxy_timeout;
+case NS_E_PROXY_TIMEOUT:
+	return ns_e_proxy_timeout;
+case NS_E_PROXY_TIMEOUT:
+	return ns_e_proxy_timeout;
+case NS_E_SERVER_UNAVAILABLE:
+	return ns_e_server_unavailable;
+case NS_E_SERVER_UNAVAILABLE:
+	return ns_e_server_unavailable;
+case NS_E_SERVER_UNAVAILABLE:
+	return ns_e_server_unavailable;
+case NS_E_REFUSED_BY_SERVER:
+	return ns_e_refused_by_server;
+case NS_E_REFUSED_BY_SERVER:
+	return ns_e_refused_by_server;
+case NS_E_REFUSED_BY_SERVER:
+	return ns_e_refused_by_server;
+case NS_E_INCOMPATIBLE_SERVER:
+	return ns_e_incompatible_server;
+case NS_E_INCOMPATIBLE_SERVER:
+	return ns_e_incompatible_server;
+case NS_E_INCOMPATIBLE_SERVER:
+	return ns_e_incompatible_server;
+case NS_E_MULTICAST_DISABLED:
+	return ns_e_multicast_disabled;
+case NS_E_MULTICAST_DISABLED:
+	return ns_e_multicast_disabled;
+case NS_E_MULTICAST_DISABLED:
+	return ns_e_multicast_disabled;
+case NS_E_INVALID_REDIRECT:
+	return ns_e_invalid_redirect;
+case NS_E_INVALID_REDIRECT:
+	return ns_e_invalid_redirect;
+case NS_E_INVALID_REDIRECT:
+	return ns_e_invalid_redirect;
+case NS_E_ALL_PROTOCOLS_DISABLED:
+	return ns_e_all_protocols_disabled;
+case NS_E_ALL_PROTOCOLS_DISABLED:
+	return ns_e_all_protocols_disabled;
+case NS_E_ALL_PROTOCOLS_DISABLED:
+	return ns_e_all_protocols_disabled;
+case NS_E_MSBD_NO_LONGER_SUPPORTED:
+	return ns_e_msbd_no_longer_supported;
+case NS_E_MSBD_NO_LONGER_SUPPORTED:
+	return ns_e_msbd_no_longer_supported;
+case NS_E_MSBD_NO_LONGER_SUPPORTED:
+	return ns_e_msbd_no_longer_supported;
+case NS_E_PROXY_NOT_FOUND:
+	return ns_e_proxy_not_found;
+case NS_E_PROXY_NOT_FOUND:
+	return ns_e_proxy_not_found;
+case NS_E_PROXY_NOT_FOUND:
+	return ns_e_proxy_not_found;
+case NS_E_CANNOT_CONNECT_TO_PROXY:
+	return ns_e_cannot_connect_to_proxy;
+case NS_E_CANNOT_CONNECT_TO_PROXY:
+	return ns_e_cannot_connect_to_proxy;
+case NS_E_CANNOT_CONNECT_TO_PROXY:
+	return ns_e_cannot_connect_to_proxy;
+case NS_E_SERVER_DNS_TIMEOUT:
+	return ns_e_server_dns_timeout;
+case NS_E_SERVER_DNS_TIMEOUT:
+	return ns_e_server_dns_timeout;
+case NS_E_SERVER_DNS_TIMEOUT:
+	return ns_e_server_dns_timeout;
+case NS_E_PROXY_DNS_TIMEOUT:
+	return ns_e_proxy_dns_timeout;
+case NS_E_PROXY_DNS_TIMEOUT:
+	return ns_e_proxy_dns_timeout;
+case NS_E_PROXY_DNS_TIMEOUT:
+	return ns_e_proxy_dns_timeout;
+case NS_E_CLOSED_ON_SUSPEND:
+	return ns_e_closed_on_suspend;
+case NS_E_CLOSED_ON_SUSPEND:
+	return ns_e_closed_on_suspend;
+case NS_E_CLOSED_ON_SUSPEND:
+	return ns_e_closed_on_suspend;
+case NS_E_CANNOT_READ_PLAYLIST_FROM_MEDIASERVER:
+	return ns_e_cannot_read_playlist_from_mediaserver;
+case NS_E_CANNOT_READ_PLAYLIST_FROM_MEDIASERVER:
+	return ns_e_cannot_read_playlist_from_mediaserver;
+case NS_E_CANNOT_READ_PLAYLIST_FROM_MEDIASERVER:
+	return ns_e_cannot_read_playlist_from_mediaserver;
+case NS_E_SESSION_NOT_FOUND:
+	return ns_e_session_not_found;
+case NS_E_SESSION_NOT_FOUND:
+	return ns_e_session_not_found;
+case NS_E_SESSION_NOT_FOUND:
+	return ns_e_session_not_found;
+case NS_E_REQUIRE_STREAMING_CLIENT:
+	return ns_e_require_streaming_client;
+case NS_E_REQUIRE_STREAMING_CLIENT:
+	return ns_e_require_streaming_client;
+case NS_E_REQUIRE_STREAMING_CLIENT:
+	return ns_e_require_streaming_client;
+case NS_E_PLAYLIST_ENTRY_HAS_CHANGED:
+	return ns_e_playlist_entry_has_changed;
+case NS_E_PLAYLIST_ENTRY_HAS_CHANGED:
+	return ns_e_playlist_entry_has_changed;
+case NS_E_PLAYLIST_ENTRY_HAS_CHANGED:
+	return ns_e_playlist_entry_has_changed;
+case NS_E_PROXY_ACCESSDENIED:
+	return ns_e_proxy_accessdenied;
+case NS_E_PROXY_ACCESSDENIED:
+	return ns_e_proxy_accessdenied;
+case NS_E_PROXY_ACCESSDENIED:
+	return ns_e_proxy_accessdenied;
+case NS_E_PROXY_SOURCE_ACCESSDENIED:
+	return ns_e_proxy_source_accessdenied;
+case NS_E_PROXY_SOURCE_ACCESSDENIED:
+	return ns_e_proxy_source_accessdenied;
+case NS_E_PROXY_SOURCE_ACCESSDENIED:
+	return ns_e_proxy_source_accessdenied;
+case NS_E_NETWORK_SINK_WRITE:
+	return ns_e_network_sink_write;
+case NS_E_NETWORK_SINK_WRITE:
+	return ns_e_network_sink_write;
+case NS_E_NETWORK_SINK_WRITE:
+	return ns_e_network_sink_write;
+case NS_E_FIREWALL:
+	return ns_e_firewall;
+case NS_E_FIREWALL:
+	return ns_e_firewall;
+case NS_E_FIREWALL:
+	return ns_e_firewall;
+case NS_E_MMS_NOT_SUPPORTED:
+	return ns_e_mms_not_supported;
+case NS_E_MMS_NOT_SUPPORTED:
+	return ns_e_mms_not_supported;
+case NS_E_MMS_NOT_SUPPORTED:
+	return ns_e_mms_not_supported;
+case NS_E_SERVER_ACCESSDENIED:
+	return ns_e_server_accessdenied;
+case NS_E_SERVER_ACCESSDENIED:
+	return ns_e_server_accessdenied;
+case NS_E_SERVER_ACCESSDENIED:
+	return ns_e_server_accessdenied;
+case NS_E_RESOURCE_GONE:
+	return ns_e_resource_gone;
+case NS_E_RESOURCE_GONE:
+	return ns_e_resource_gone;
+case NS_E_RESOURCE_GONE:
+	return ns_e_resource_gone;
+case NS_E_NO_EXISTING_PACKETIZER:
+	return ns_e_no_existing_packetizer;
+case NS_E_NO_EXISTING_PACKETIZER:
+	return ns_e_no_existing_packetizer;
+case NS_E_NO_EXISTING_PACKETIZER:
+	return ns_e_no_existing_packetizer;
+case NS_E_BAD_SYNTAX_IN_SERVER_RESPONSE:
+	return ns_e_bad_syntax_in_server_response;
+case NS_E_BAD_SYNTAX_IN_SERVER_RESPONSE:
+	return ns_e_bad_syntax_in_server_response;
+case NS_E_BAD_SYNTAX_IN_SERVER_RESPONSE:
+	return ns_e_bad_syntax_in_server_response;
+case NS_E_RESET_SOCKET_CONNECTION:
+	return ns_e_reset_socket_connection;
+case NS_E_RESET_SOCKET_CONNECTION:
+	return ns_e_reset_socket_connection;
+case NS_E_RESET_SOCKET_CONNECTION:
+	return ns_e_reset_socket_connection;
+case NS_E_TOO_MANY_HOPS:
+	return ns_e_too_many_hops;
+case NS_E_TOO_MANY_HOPS:
+	return ns_e_too_many_hops;
+case NS_E_TOO_MANY_HOPS:
+	return ns_e_too_many_hops;
+case NS_E_TOO_MUCH_DATA_FROM_SERVER:
+	return ns_e_too_much_data_from_server;
+case NS_E_TOO_MUCH_DATA_FROM_SERVER:
+	return ns_e_too_much_data_from_server;
+case NS_E_TOO_MUCH_DATA_FROM_SERVER:
+	return ns_e_too_much_data_from_server;
+case NS_E_CONNECT_TIMEOUT:
+	return ns_e_connect_timeout;
+case NS_E_CONNECT_TIMEOUT:
+	return ns_e_connect_timeout;
+case NS_E_CONNECT_TIMEOUT:
+	return ns_e_connect_timeout;
+case NS_E_PROXY_CONNECT_TIMEOUT:
+	return ns_e_proxy_connect_timeout;
+case NS_E_PROXY_CONNECT_TIMEOUT:
+	return ns_e_proxy_connect_timeout;
+case NS_E_PROXY_CONNECT_TIMEOUT:
+	return ns_e_proxy_connect_timeout;
+case NS_E_SESSION_INVALID:
+	return ns_e_session_invalid;
+case NS_E_SESSION_INVALID:
+	return ns_e_session_invalid;
+case NS_E_SESSION_INVALID:
+	return ns_e_session_invalid;
+case NS_E_PACKETSINK_UNKNOWN_FEC_STREAM:
+	return ns_e_packetsink_unknown_fec_stream;
+case NS_E_PACKETSINK_UNKNOWN_FEC_STREAM:
+	return ns_e_packetsink_unknown_fec_stream;
+case NS_E_PACKETSINK_UNKNOWN_FEC_STREAM:
+	return ns_e_packetsink_unknown_fec_stream;
+case NS_E_PUSH_CANNOTCONNECT:
+	return ns_e_push_cannotconnect;
+case NS_E_PUSH_CANNOTCONNECT:
+	return ns_e_push_cannotconnect;
+case NS_E_PUSH_CANNOTCONNECT:
+	return ns_e_push_cannotconnect;
+case NS_E_INCOMPATIBLE_PUSH_SERVER:
+	return ns_e_incompatible_push_server;
+case NS_E_INCOMPATIBLE_PUSH_SERVER:
+	return ns_e_incompatible_push_server;
+case NS_E_INCOMPATIBLE_PUSH_SERVER:
+	return ns_e_incompatible_push_server;
+case NS_E_END_OF_PLAYLIST:
+	return ns_e_end_of_playlist;
+case NS_E_END_OF_PLAYLIST:
+	return ns_e_end_of_playlist;
+case NS_E_END_OF_PLAYLIST:
+	return ns_e_end_of_playlist;
+case NS_E_USE_FILE_SOURCE:
+	return ns_e_use_file_source;
+case NS_E_USE_FILE_SOURCE:
+	return ns_e_use_file_source;
+case NS_E_USE_FILE_SOURCE:
+	return ns_e_use_file_source;
+case NS_E_PROPERTY_NOT_FOUND:
+	return ns_e_property_not_found;
+case NS_E_PROPERTY_NOT_FOUND:
+	return ns_e_property_not_found;
+case NS_E_PROPERTY_NOT_FOUND:
+	return ns_e_property_not_found;
+case NS_E_PROPERTY_READ_ONLY:
+	return ns_e_property_read_only;
+case NS_E_PROPERTY_READ_ONLY:
+	return ns_e_property_read_only;
+case NS_E_PROPERTY_READ_ONLY:
+	return ns_e_property_read_only;
+case NS_E_TABLE_KEY_NOT_FOUND:
+	return ns_e_table_key_not_found;
+case NS_E_TABLE_KEY_NOT_FOUND:
+	return ns_e_table_key_not_found;
+case NS_E_TABLE_KEY_NOT_FOUND:
+	return ns_e_table_key_not_found;
+case NS_E_INVALID_QUERY_OPERATOR:
+	return ns_e_invalid_query_operator;
+case NS_E_INVALID_QUERY_OPERATOR:
+	return ns_e_invalid_query_operator;
+case NS_E_INVALID_QUERY_OPERATOR:
+	return ns_e_invalid_query_operator;
+case NS_E_INVALID_QUERY_PROPERTY:
+	return ns_e_invalid_query_property;
+case NS_E_INVALID_QUERY_PROPERTY:
+	return ns_e_invalid_query_property;
+case NS_E_INVALID_QUERY_PROPERTY:
+	return ns_e_invalid_query_property;
+case NS_E_PROPERTY_NOT_SUPPORTED:
+	return ns_e_property_not_supported;
+case NS_E_PROPERTY_NOT_SUPPORTED:
+	return ns_e_property_not_supported;
+case NS_E_PROPERTY_NOT_SUPPORTED:
+	return ns_e_property_not_supported;
+case NS_E_SCHEMA_CLASSIFY_FAILURE:
+	return ns_e_schema_classify_failure;
+case NS_E_SCHEMA_CLASSIFY_FAILURE:
+	return ns_e_schema_classify_failure;
+case NS_E_SCHEMA_CLASSIFY_FAILURE:
+	return ns_e_schema_classify_failure;
+case NS_E_METADATA_FORMAT_NOT_SUPPORTED:
+	return ns_e_metadata_format_not_supported;
+case NS_E_METADATA_FORMAT_NOT_SUPPORTED:
+	return ns_e_metadata_format_not_supported;
+case NS_E_METADATA_FORMAT_NOT_SUPPORTED:
+	return ns_e_metadata_format_not_supported;
+case NS_E_METADATA_NO_EDITING_CAPABILITY:
+	return ns_e_metadata_no_editing_capability;
+case NS_E_METADATA_NO_EDITING_CAPABILITY:
+	return ns_e_metadata_no_editing_capability;
+case NS_E_METADATA_NO_EDITING_CAPABILITY:
+	return ns_e_metadata_no_editing_capability;
+case NS_E_METADATA_CANNOT_SET_LOCALE:
+	return ns_e_metadata_cannot_set_locale;
+case NS_E_METADATA_CANNOT_SET_LOCALE:
+	return ns_e_metadata_cannot_set_locale;
+case NS_E_METADATA_CANNOT_SET_LOCALE:
+	return ns_e_metadata_cannot_set_locale;
+case NS_E_METADATA_LANGUAGE_NOT_SUPORTED:
+	return ns_e_metadata_language_not_suported;
+case NS_E_METADATA_LANGUAGE_NOT_SUPORTED:
+	return ns_e_metadata_language_not_suported;
+case NS_E_METADATA_LANGUAGE_NOT_SUPORTED:
+	return ns_e_metadata_language_not_suported;
+case NS_E_METADATA_LANGUAGE_NOT_SUPORTED:
+	return ns_e_metadata_language_not_suported;
+case NS_E_METADATA_LANGUAGE_NOT_SUPORTED:
+	return ns_e_metadata_language_not_suported;
+case NS_E_METADATA_LANGUAGE_NOT_SUPORTED:
+	return ns_e_metadata_language_not_suported;
+case NS_E_METADATA_NOT_AVAILABLE:
+	return ns_e_metadata_not_available;
+case NS_E_METADATA_NOT_AVAILABLE:
+	return ns_e_metadata_not_available;
+case NS_E_METADATA_NOT_AVAILABLE:
+	return ns_e_metadata_not_available;
+case NS_E_METADATA_CACHE_DATA_NOT_AVAILABLE:
+	return ns_e_metadata_cache_data_not_available;
+case NS_E_METADATA_CACHE_DATA_NOT_AVAILABLE:
+	return ns_e_metadata_cache_data_not_available;
+case NS_E_METADATA_CACHE_DATA_NOT_AVAILABLE:
+	return ns_e_metadata_cache_data_not_available;
+case NS_E_METADATA_INVALID_DOCUMENT_TYPE:
+	return ns_e_metadata_invalid_document_type;
+case NS_E_METADATA_INVALID_DOCUMENT_TYPE:
+	return ns_e_metadata_invalid_document_type;
+case NS_E_METADATA_INVALID_DOCUMENT_TYPE:
+	return ns_e_metadata_invalid_document_type;
+case NS_E_METADATA_IDENTIFIER_NOT_AVAILABLE:
+	return ns_e_metadata_identifier_not_available;
+case NS_E_METADATA_IDENTIFIER_NOT_AVAILABLE:
+	return ns_e_metadata_identifier_not_available;
+case NS_E_METADATA_IDENTIFIER_NOT_AVAILABLE:
+	return ns_e_metadata_identifier_not_available;
+case NS_E_METADATA_CANNOT_RETRIEVE_FROM_OFFLINE_CACHE:
+	return ns_e_metadata_cannot_retrieve_from_offline_cache;
+case NS_E_METADATA_CANNOT_RETRIEVE_FROM_OFFLINE_CACHE:
+	return ns_e_metadata_cannot_retrieve_from_offline_cache;
+case NS_E_METADATA_CANNOT_RETRIEVE_FROM_OFFLINE_CACHE:
+	return ns_e_metadata_cannot_retrieve_from_offline_cache;
+case ERROR_MONITOR_INVALID_DESCRIPTOR_CHECKSUM:
+	return error_monitor_invalid_descriptor_checksum;
+case ERROR_MONITOR_INVALID_DESCRIPTOR_CHECKSUM:
+	return error_monitor_invalid_descriptor_checksum;
+case ERROR_MONITOR_INVALID_DESCRIPTOR_CHECKSUM:
+	return error_monitor_invalid_descriptor_checksum;
+case ERROR_MONITOR_INVALID_STANDARD_TIMING_BLOCK:
+	return error_monitor_invalid_standard_timing_block;
+case ERROR_MONITOR_INVALID_STANDARD_TIMING_BLOCK:
+	return error_monitor_invalid_standard_timing_block;
+case ERROR_MONITOR_INVALID_STANDARD_TIMING_BLOCK:
+	return error_monitor_invalid_standard_timing_block;
+case ERROR_MONITOR_WMI_DATABLOCK_REGISTRATION_FAILED:
+	return error_monitor_wmi_datablock_registration_failed;
+case ERROR_MONITOR_WMI_DATABLOCK_REGISTRATION_FAILED:
+	return error_monitor_wmi_datablock_registration_failed;
+case ERROR_MONITOR_WMI_DATABLOCK_REGISTRATION_FAILED:
+	return error_monitor_wmi_datablock_registration_failed;
+case ERROR_MONITOR_INVALID_SERIAL_NUMBER_MONDSC_BLOCK:
+	return error_monitor_invalid_serial_number_mondsc_block;
+case ERROR_MONITOR_INVALID_SERIAL_NUMBER_MONDSC_BLOCK:
+	return error_monitor_invalid_serial_number_mondsc_block;
+case ERROR_MONITOR_INVALID_SERIAL_NUMBER_MONDSC_BLOCK:
+	return error_monitor_invalid_serial_number_mondsc_block;
+case ERROR_MONITOR_INVALID_USER_FRIENDLY_MONDSC_BLOCK:
+	return error_monitor_invalid_user_friendly_mondsc_block;
+case ERROR_MONITOR_INVALID_USER_FRIENDLY_MONDSC_BLOCK:
+	return error_monitor_invalid_user_friendly_mondsc_block;
+case ERROR_MONITOR_INVALID_USER_FRIENDLY_MONDSC_BLOCK:
+	return error_monitor_invalid_user_friendly_mondsc_block;
+case ERROR_MONITOR_NO_MORE_DESCRIPTOR_DATA:
+	return error_monitor_no_more_descriptor_data;
+case ERROR_MONITOR_NO_MORE_DESCRIPTOR_DATA:
+	return error_monitor_no_more_descriptor_data;
+case ERROR_MONITOR_NO_MORE_DESCRIPTOR_DATA:
+	return error_monitor_no_more_descriptor_data;
+case ERROR_MONITOR_INVALID_DETAILED_TIMING_BLOCK:
+	return error_monitor_invalid_detailed_timing_block;
+case ERROR_MONITOR_INVALID_DETAILED_TIMING_BLOCK:
+	return error_monitor_invalid_detailed_timing_block;
+case ERROR_MONITOR_INVALID_DETAILED_TIMING_BLOCK:
+	return error_monitor_invalid_detailed_timing_block;
+case ERROR_GRAPHICS_NOT_EXCLUSIVE_MODE_OWNER:
+	return error_graphics_not_exclusive_mode_owner;
+case ERROR_GRAPHICS_NOT_EXCLUSIVE_MODE_OWNER:
+	return error_graphics_not_exclusive_mode_owner;
+case ERROR_GRAPHICS_NOT_EXCLUSIVE_MODE_OWNER:
+	return error_graphics_not_exclusive_mode_owner;
+case ERROR_GRAPHICS_INSUFFICIENT_DMA_BUFFER:
+	return error_graphics_insufficient_dma_buffer;
+case ERROR_GRAPHICS_INSUFFICIENT_DMA_BUFFER:
+	return error_graphics_insufficient_dma_buffer;
+case ERROR_GRAPHICS_INSUFFICIENT_DMA_BUFFER:
+	return error_graphics_insufficient_dma_buffer;
+case ERROR_GRAPHICS_INVALID_DISPLAY_ADAPTER:
+	return error_graphics_invalid_display_adapter;
+case ERROR_GRAPHICS_INVALID_DISPLAY_ADAPTER:
+	return error_graphics_invalid_display_adapter;
+case ERROR_GRAPHICS_INVALID_DISPLAY_ADAPTER:
+	return error_graphics_invalid_display_adapter;
+case ERROR_GRAPHICS_ADAPTER_WAS_RESET:
+	return error_graphics_adapter_was_reset;
+case ERROR_GRAPHICS_ADAPTER_WAS_RESET:
+	return error_graphics_adapter_was_reset;
+case ERROR_GRAPHICS_ADAPTER_WAS_RESET:
+	return error_graphics_adapter_was_reset;
+case ERROR_GRAPHICS_INVALID_DRIVER_MODEL:
+	return error_graphics_invalid_driver_model;
+case ERROR_GRAPHICS_INVALID_DRIVER_MODEL:
+	return error_graphics_invalid_driver_model;
+case ERROR_GRAPHICS_INVALID_DRIVER_MODEL:
+	return error_graphics_invalid_driver_model;
+case ERROR_GRAPHICS_PRESENT_MODE_CHANGED:
+	return error_graphics_present_mode_changed;
+case ERROR_GRAPHICS_PRESENT_MODE_CHANGED:
+	return error_graphics_present_mode_changed;
+case ERROR_GRAPHICS_PRESENT_MODE_CHANGED:
+	return error_graphics_present_mode_changed;
+case ERROR_GRAPHICS_PRESENT_OCCLUDED:
+	return error_graphics_present_occluded;
+case ERROR_GRAPHICS_PRESENT_OCCLUDED:
+	return error_graphics_present_occluded;
+case ERROR_GRAPHICS_PRESENT_OCCLUDED:
+	return error_graphics_present_occluded;
+case ERROR_GRAPHICS_PRESENT_DENIED:
+	return error_graphics_present_denied;
+case ERROR_GRAPHICS_PRESENT_DENIED:
+	return error_graphics_present_denied;
+case ERROR_GRAPHICS_PRESENT_DENIED:
+	return error_graphics_present_denied;
+case ERROR_GRAPHICS_CANNOTCOLORCONVERT:
+	return error_graphics_cannotcolorconvert;
+case ERROR_GRAPHICS_CANNOTCOLORCONVERT:
+	return error_graphics_cannotcolorconvert;
+case ERROR_GRAPHICS_CANNOTCOLORCONVERT:
+	return error_graphics_cannotcolorconvert;
+case ERROR_GRAPHICS_NO_VIDEO_MEMORY:
+	return error_graphics_no_video_memory;
+case ERROR_GRAPHICS_NO_VIDEO_MEMORY:
+	return error_graphics_no_video_memory;
+case ERROR_GRAPHICS_NO_VIDEO_MEMORY:
+	return error_graphics_no_video_memory;
+case ERROR_GRAPHICS_CANT_LOCK_MEMORY:
+	return error_graphics_cant_lock_memory;
+case ERROR_GRAPHICS_CANT_LOCK_MEMORY:
+	return error_graphics_cant_lock_memory;
+case ERROR_GRAPHICS_CANT_LOCK_MEMORY:
+	return error_graphics_cant_lock_memory;
+case ERROR_GRAPHICS_ALLOCATION_BUSY:
+	return error_graphics_allocation_busy;
+case ERROR_GRAPHICS_ALLOCATION_BUSY:
+	return error_graphics_allocation_busy;
+case ERROR_GRAPHICS_ALLOCATION_BUSY:
+	return error_graphics_allocation_busy;
+case ERROR_GRAPHICS_TOO_MANY_REFERENCES:
+	return error_graphics_too_many_references;
+case ERROR_GRAPHICS_TOO_MANY_REFERENCES:
+	return error_graphics_too_many_references;
+case ERROR_GRAPHICS_TOO_MANY_REFERENCES:
+	return error_graphics_too_many_references;
+case ERROR_GRAPHICS_TRY_AGAIN_LATER:
+	return error_graphics_try_again_later;
+case ERROR_GRAPHICS_TRY_AGAIN_LATER:
+	return error_graphics_try_again_later;
+case ERROR_GRAPHICS_TRY_AGAIN_LATER:
+	return error_graphics_try_again_later;
+case ERROR_GRAPHICS_TRY_AGAIN_NOW:
+	return error_graphics_try_again_now;
+case ERROR_GRAPHICS_TRY_AGAIN_NOW:
+	return error_graphics_try_again_now;
+case ERROR_GRAPHICS_TRY_AGAIN_NOW:
+	return error_graphics_try_again_now;
+case ERROR_GRAPHICS_ALLOCATION_INVALID:
+	return error_graphics_allocation_invalid;
+case ERROR_GRAPHICS_ALLOCATION_INVALID:
+	return error_graphics_allocation_invalid;
+case ERROR_GRAPHICS_ALLOCATION_INVALID:
+	return error_graphics_allocation_invalid;
+case ERROR_GRAPHICS_UNSWIZZLING_APERTURE_UNAVAILABLE:
+	return error_graphics_unswizzling_aperture_unavailable;
+case ERROR_GRAPHICS_UNSWIZZLING_APERTURE_UNAVAILABLE:
+	return error_graphics_unswizzling_aperture_unavailable;
+case ERROR_GRAPHICS_UNSWIZZLING_APERTURE_UNAVAILABLE:
+	return error_graphics_unswizzling_aperture_unavailable;
+case ERROR_GRAPHICS_UNSWIZZLING_APERTURE_UNSUPPORTED:
+	return error_graphics_unswizzling_aperture_unsupported;
+case ERROR_GRAPHICS_UNSWIZZLING_APERTURE_UNSUPPORTED:
+	return error_graphics_unswizzling_aperture_unsupported;
+case ERROR_GRAPHICS_UNSWIZZLING_APERTURE_UNSUPPORTED:
+	return error_graphics_unswizzling_aperture_unsupported;
+case ERROR_GRAPHICS_CANT_EVICT_PINNED_ALLOCATION:
+	return error_graphics_cant_evict_pinned_allocation;
+case ERROR_GRAPHICS_CANT_EVICT_PINNED_ALLOCATION:
+	return error_graphics_cant_evict_pinned_allocation;
+case ERROR_GRAPHICS_CANT_EVICT_PINNED_ALLOCATION:
+	return error_graphics_cant_evict_pinned_allocation;
+case ERROR_GRAPHICS_INVALID_ALLOCATION_USAGE:
+	return error_graphics_invalid_allocation_usage;
+case ERROR_GRAPHICS_INVALID_ALLOCATION_USAGE:
+	return error_graphics_invalid_allocation_usage;
+case ERROR_GRAPHICS_INVALID_ALLOCATION_USAGE:
+	return error_graphics_invalid_allocation_usage;
+case ERROR_GRAPHICS_CANT_RENDER_LOCKED_ALLOCATION:
+	return error_graphics_cant_render_locked_allocation;
+case ERROR_GRAPHICS_CANT_RENDER_LOCKED_ALLOCATION:
+	return error_graphics_cant_render_locked_allocation;
+case ERROR_GRAPHICS_CANT_RENDER_LOCKED_ALLOCATION:
+	return error_graphics_cant_render_locked_allocation;
+case ERROR_GRAPHICS_ALLOCATION_CLOSED:
+	return error_graphics_allocation_closed;
+case ERROR_GRAPHICS_ALLOCATION_CLOSED:
+	return error_graphics_allocation_closed;
+case ERROR_GRAPHICS_ALLOCATION_CLOSED:
+	return error_graphics_allocation_closed;
+case ERROR_GRAPHICS_INVALID_ALLOCATION_INSTANCE:
+	return error_graphics_invalid_allocation_instance;
+case ERROR_GRAPHICS_INVALID_ALLOCATION_INSTANCE:
+	return error_graphics_invalid_allocation_instance;
+case ERROR_GRAPHICS_INVALID_ALLOCATION_INSTANCE:
+	return error_graphics_invalid_allocation_instance;
+case ERROR_GRAPHICS_INVALID_ALLOCATION_HANDLE:
+	return error_graphics_invalid_allocation_handle;
+case ERROR_GRAPHICS_INVALID_ALLOCATION_HANDLE:
+	return error_graphics_invalid_allocation_handle;
+case ERROR_GRAPHICS_INVALID_ALLOCATION_HANDLE:
+	return error_graphics_invalid_allocation_handle;
+case ERROR_GRAPHICS_WRONG_ALLOCATION_DEVICE:
+	return error_graphics_wrong_allocation_device;
+case ERROR_GRAPHICS_WRONG_ALLOCATION_DEVICE:
+	return error_graphics_wrong_allocation_device;
+case ERROR_GRAPHICS_WRONG_ALLOCATION_DEVICE:
+	return error_graphics_wrong_allocation_device;
+case ERROR_GRAPHICS_ALLOCATION_CONTENT_LOST:
+	return error_graphics_allocation_content_lost;
+case ERROR_GRAPHICS_ALLOCATION_CONTENT_LOST:
+	return error_graphics_allocation_content_lost;
+case ERROR_GRAPHICS_ALLOCATION_CONTENT_LOST:
+	return error_graphics_allocation_content_lost;
+case ERROR_GRAPHICS_GPU_EXCEPTION_ON_DEVICE:
+	return error_graphics_gpu_exception_on_device;
+case ERROR_GRAPHICS_GPU_EXCEPTION_ON_DEVICE:
+	return error_graphics_gpu_exception_on_device;
+case ERROR_GRAPHICS_GPU_EXCEPTION_ON_DEVICE:
+	return error_graphics_gpu_exception_on_device;
+case ERROR_GRAPHICS_INVALID_VIDPN_TOPOLOGY:
+	return error_graphics_invalid_vidpn_topology;
+case ERROR_GRAPHICS_INVALID_VIDPN_TOPOLOGY:
+	return error_graphics_invalid_vidpn_topology;
+case ERROR_GRAPHICS_INVALID_VIDPN_TOPOLOGY:
+	return error_graphics_invalid_vidpn_topology;
+case ERROR_GRAPHICS_VIDPN_TOPOLOGY_NOT_SUPPORTED:
+	return error_graphics_vidpn_topology_not_supported;
+case ERROR_GRAPHICS_VIDPN_TOPOLOGY_NOT_SUPPORTED:
+	return error_graphics_vidpn_topology_not_supported;
+case ERROR_GRAPHICS_VIDPN_TOPOLOGY_NOT_SUPPORTED:
+	return error_graphics_vidpn_topology_not_supported;
+case ERROR_GRAPHICS_VIDPN_TOPOLOGY_CURRENTLY_NOT_SUPPORTED:
+	return error_graphics_vidpn_topology_currently_not_supported;
+case ERROR_GRAPHICS_VIDPN_TOPOLOGY_CURRENTLY_NOT_SUPPORTED:
+	return error_graphics_vidpn_topology_currently_not_supported;
+case ERROR_GRAPHICS_VIDPN_TOPOLOGY_CURRENTLY_NOT_SUPPORTED:
+	return error_graphics_vidpn_topology_currently_not_supported;
+case ERROR_GRAPHICS_INVALID_VIDPN:
+	return error_graphics_invalid_vidpn;
+case ERROR_GRAPHICS_INVALID_VIDPN:
+	return error_graphics_invalid_vidpn;
+case ERROR_GRAPHICS_INVALID_VIDPN:
+	return error_graphics_invalid_vidpn;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE:
+	return error_graphics_invalid_video_present_source;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE:
+	return error_graphics_invalid_video_present_source;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE:
+	return error_graphics_invalid_video_present_source;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET:
+	return error_graphics_invalid_video_present_target;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET:
+	return error_graphics_invalid_video_present_target;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET:
+	return error_graphics_invalid_video_present_target;
+case ERROR_GRAPHICS_VIDPN_MODALITY_NOT_SUPPORTED:
+	return error_graphics_vidpn_modality_not_supported;
+case ERROR_GRAPHICS_VIDPN_MODALITY_NOT_SUPPORTED:
+	return error_graphics_vidpn_modality_not_supported;
+case ERROR_GRAPHICS_VIDPN_MODALITY_NOT_SUPPORTED:
+	return error_graphics_vidpn_modality_not_supported;
+case ERROR_GRAPHICS_INVALID_VIDPN_SOURCEMODESET:
+	return error_graphics_invalid_vidpn_sourcemodeset;
+case ERROR_GRAPHICS_INVALID_VIDPN_SOURCEMODESET:
+	return error_graphics_invalid_vidpn_sourcemodeset;
+case ERROR_GRAPHICS_INVALID_VIDPN_SOURCEMODESET:
+	return error_graphics_invalid_vidpn_sourcemodeset;
+case ERROR_GRAPHICS_INVALID_VIDPN_TARGETMODESET:
+	return error_graphics_invalid_vidpn_targetmodeset;
+case ERROR_GRAPHICS_INVALID_VIDPN_TARGETMODESET:
+	return error_graphics_invalid_vidpn_targetmodeset;
+case ERROR_GRAPHICS_INVALID_VIDPN_TARGETMODESET:
+	return error_graphics_invalid_vidpn_targetmodeset;
+case ERROR_GRAPHICS_INVALID_FREQUENCY:
+	return error_graphics_invalid_frequency;
+case ERROR_GRAPHICS_INVALID_FREQUENCY:
+	return error_graphics_invalid_frequency;
+case ERROR_GRAPHICS_INVALID_FREQUENCY:
+	return error_graphics_invalid_frequency;
+case ERROR_GRAPHICS_INVALID_ACTIVE_REGION:
+	return error_graphics_invalid_active_region;
+case ERROR_GRAPHICS_INVALID_ACTIVE_REGION:
+	return error_graphics_invalid_active_region;
+case ERROR_GRAPHICS_INVALID_ACTIVE_REGION:
+	return error_graphics_invalid_active_region;
+case ERROR_GRAPHICS_INVALID_TOTAL_REGION:
+	return error_graphics_invalid_total_region;
+case ERROR_GRAPHICS_INVALID_TOTAL_REGION:
+	return error_graphics_invalid_total_region;
+case ERROR_GRAPHICS_INVALID_TOTAL_REGION:
+	return error_graphics_invalid_total_region;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE_MODE:
+	return error_graphics_invalid_video_present_source_mode;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE_MODE:
+	return error_graphics_invalid_video_present_source_mode;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE_MODE:
+	return error_graphics_invalid_video_present_source_mode;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET_MODE:
+	return error_graphics_invalid_video_present_target_mode;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET_MODE:
+	return error_graphics_invalid_video_present_target_mode;
+case ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET_MODE:
+	return error_graphics_invalid_video_present_target_mode;
+case ERROR_GRAPHICS_PINNED_MODE_MUST_REMAIN_IN_SET:
+	return error_graphics_pinned_mode_must_remain_in_set;
+case ERROR_GRAPHICS_PINNED_MODE_MUST_REMAIN_IN_SET:
+	return error_graphics_pinned_mode_must_remain_in_set;
+case ERROR_GRAPHICS_PINNED_MODE_MUST_REMAIN_IN_SET:
+	return error_graphics_pinned_mode_must_remain_in_set;
+case ERROR_GRAPHICS_PATH_ALREADY_IN_TOPOLOGY:
+	return error_graphics_path_already_in_topology;
+case ERROR_GRAPHICS_PATH_ALREADY_IN_TOPOLOGY:
+	return error_graphics_path_already_in_topology;
+case ERROR_GRAPHICS_PATH_ALREADY_IN_TOPOLOGY:
+	return error_graphics_path_already_in_topology;
+case ERROR_GRAPHICS_MODE_ALREADY_IN_MODESET:
+	return error_graphics_mode_already_in_modeset;
+case ERROR_GRAPHICS_MODE_ALREADY_IN_MODESET:
+	return error_graphics_mode_already_in_modeset;
+case ERROR_GRAPHICS_MODE_ALREADY_IN_MODESET:
+	return error_graphics_mode_already_in_modeset;
+case ERROR_GRAPHICS_INVALID_VIDEOPRESENTSOURCESET:
+	return error_graphics_invalid_videopresentsourceset;
+case ERROR_GRAPHICS_INVALID_VIDEOPRESENTSOURCESET:
+	return error_graphics_invalid_videopresentsourceset;
+case ERROR_GRAPHICS_INVALID_VIDEOPRESENTSOURCESET:
+	return error_graphics_invalid_videopresentsourceset;
+case ERROR_GRAPHICS_INVALID_VIDEOPRESENTTARGETSET:
+	return error_graphics_invalid_videopresenttargetset;
+case ERROR_GRAPHICS_INVALID_VIDEOPRESENTTARGETSET:
+	return error_graphics_invalid_videopresenttargetset;
+case ERROR_GRAPHICS_INVALID_VIDEOPRESENTTARGETSET:
+	return error_graphics_invalid_videopresenttargetset;
+case ERROR_GRAPHICS_SOURCE_ALREADY_IN_SET:
+	return error_graphics_source_already_in_set;
+case ERROR_GRAPHICS_SOURCE_ALREADY_IN_SET:
+	return error_graphics_source_already_in_set;
+case ERROR_GRAPHICS_SOURCE_ALREADY_IN_SET:
+	return error_graphics_source_already_in_set;
+case ERROR_GRAPHICS_TARGET_ALREADY_IN_SET:
+	return error_graphics_target_already_in_set;
+case ERROR_GRAPHICS_TARGET_ALREADY_IN_SET:
+	return error_graphics_target_already_in_set;
+case ERROR_GRAPHICS_TARGET_ALREADY_IN_SET:
+	return error_graphics_target_already_in_set;
+case ERROR_GRAPHICS_INVALID_VIDPN_PRESENT_PATH:
+	return error_graphics_invalid_vidpn_present_path;
+case ERROR_GRAPHICS_INVALID_VIDPN_PRESENT_PATH:
+	return error_graphics_invalid_vidpn_present_path;
+case ERROR_GRAPHICS_INVALID_VIDPN_PRESENT_PATH:
+	return error_graphics_invalid_vidpn_present_path;
+case ERROR_GRAPHICS_NO_RECOMMENDED_VIDPN_TOPOLOGY:
+	return error_graphics_no_recommended_vidpn_topology;
+case ERROR_GRAPHICS_NO_RECOMMENDED_VIDPN_TOPOLOGY:
+	return error_graphics_no_recommended_vidpn_topology;
+case ERROR_GRAPHICS_NO_RECOMMENDED_VIDPN_TOPOLOGY:
+	return error_graphics_no_recommended_vidpn_topology;
+case ERROR_GRAPHICS_INVALID_MONITOR_FREQUENCYRANGESET:
+	return error_graphics_invalid_monitor_frequencyrangeset;
+case ERROR_GRAPHICS_INVALID_MONITOR_FREQUENCYRANGESET:
+	return error_graphics_invalid_monitor_frequencyrangeset;
+case ERROR_GRAPHICS_INVALID_MONITOR_FREQUENCYRANGESET:
+	return error_graphics_invalid_monitor_frequencyrangeset;
+case ERROR_GRAPHICS_INVALID_MONITOR_FREQUENCYRANGE:
+	return error_graphics_invalid_monitor_frequencyrange;
+case ERROR_GRAPHICS_INVALID_MONITOR_FREQUENCYRANGE:
+	return error_graphics_invalid_monitor_frequencyrange;
+case ERROR_GRAPHICS_INVALID_MONITOR_FREQUENCYRANGE:
+	return error_graphics_invalid_monitor_frequencyrange;
+case ERROR_GRAPHICS_FREQUENCYRANGE_NOT_IN_SET:
+	return error_graphics_frequencyrange_not_in_set;
+case ERROR_GRAPHICS_FREQUENCYRANGE_NOT_IN_SET:
+	return error_graphics_frequencyrange_not_in_set;
+case ERROR_GRAPHICS_FREQUENCYRANGE_NOT_IN_SET:
+	return error_graphics_frequencyrange_not_in_set;
+case ERROR_GRAPHICS_FREQUENCYRANGE_ALREADY_IN_SET:
+	return error_graphics_frequencyrange_already_in_set;
+case ERROR_GRAPHICS_FREQUENCYRANGE_ALREADY_IN_SET:
+	return error_graphics_frequencyrange_already_in_set;
+case ERROR_GRAPHICS_FREQUENCYRANGE_ALREADY_IN_SET:
+	return error_graphics_frequencyrange_already_in_set;
+case ERROR_GRAPHICS_STALE_MODESET:
+	return error_graphics_stale_modeset;
+case ERROR_GRAPHICS_STALE_MODESET:
+	return error_graphics_stale_modeset;
+case ERROR_GRAPHICS_STALE_MODESET:
+	return error_graphics_stale_modeset;
+case ERROR_GRAPHICS_INVALID_MONITOR_SOURCEMODESET:
+	return error_graphics_invalid_monitor_sourcemodeset;
+case ERROR_GRAPHICS_INVALID_MONITOR_SOURCEMODESET:
+	return error_graphics_invalid_monitor_sourcemodeset;
+case ERROR_GRAPHICS_INVALID_MONITOR_SOURCEMODESET:
+	return error_graphics_invalid_monitor_sourcemodeset;
+case ERROR_GRAPHICS_INVALID_MONITOR_SOURCE_MODE:
+	return error_graphics_invalid_monitor_source_mode;
+case ERROR_GRAPHICS_INVALID_MONITOR_SOURCE_MODE:
+	return error_graphics_invalid_monitor_source_mode;
+case ERROR_GRAPHICS_INVALID_MONITOR_SOURCE_MODE:
+	return error_graphics_invalid_monitor_source_mode;
+case ERROR_GRAPHICS_NO_RECOMMENDED_FUNCTIONAL_VIDPN:
+	return error_graphics_no_recommended_functional_vidpn;
+case ERROR_GRAPHICS_NO_RECOMMENDED_FUNCTIONAL_VIDPN:
+	return error_graphics_no_recommended_functional_vidpn;
+case ERROR_GRAPHICS_NO_RECOMMENDED_FUNCTIONAL_VIDPN:
+	return error_graphics_no_recommended_functional_vidpn;
+case ERROR_GRAPHICS_MODE_ID_MUST_BE_UNIQUE:
+	return error_graphics_mode_id_must_be_unique;
+case ERROR_GRAPHICS_MODE_ID_MUST_BE_UNIQUE:
+	return error_graphics_mode_id_must_be_unique;
+case ERROR_GRAPHICS_MODE_ID_MUST_BE_UNIQUE:
+	return error_graphics_mode_id_must_be_unique;
+case ERROR_GRAPHICS_EMPTY_ADAPTER_MONITOR_MODE_SUPPORT_INTERSECTION:
+	return error_graphics_empty_adapter_monitor_mode_support_intersection;
+case ERROR_GRAPHICS_EMPTY_ADAPTER_MONITOR_MODE_SUPPORT_INTERSECTION:
+	return error_graphics_empty_adapter_monitor_mode_support_intersection;
+case ERROR_GRAPHICS_EMPTY_ADAPTER_MONITOR_MODE_SUPPORT_INTERSECTION:
+	return error_graphics_empty_adapter_monitor_mode_support_intersection;
+case ERROR_GRAPHICS_VIDEO_PRESENT_TARGETS_LESS_THAN_SOURCES:
+	return error_graphics_video_present_targets_less_than_sources;
+case ERROR_GRAPHICS_VIDEO_PRESENT_TARGETS_LESS_THAN_SOURCES:
+	return error_graphics_video_present_targets_less_than_sources;
+case ERROR_GRAPHICS_VIDEO_PRESENT_TARGETS_LESS_THAN_SOURCES:
+	return error_graphics_video_present_targets_less_than_sources;
+case ERROR_GRAPHICS_PATH_NOT_IN_TOPOLOGY:
+	return error_graphics_path_not_in_topology;
+case ERROR_GRAPHICS_PATH_NOT_IN_TOPOLOGY:
+	return error_graphics_path_not_in_topology;
+case ERROR_GRAPHICS_PATH_NOT_IN_TOPOLOGY:
+	return error_graphics_path_not_in_topology;
+case ERROR_GRAPHICS_ADAPTER_MUST_HAVE_AT_LEAST_ONE_SOURCE:
+	return error_graphics_adapter_must_have_at_least_one_source;
+case ERROR_GRAPHICS_ADAPTER_MUST_HAVE_AT_LEAST_ONE_SOURCE:
+	return error_graphics_adapter_must_have_at_least_one_source;
+case ERROR_GRAPHICS_ADAPTER_MUST_HAVE_AT_LEAST_ONE_SOURCE:
+	return error_graphics_adapter_must_have_at_least_one_source;
+case ERROR_GRAPHICS_ADAPTER_MUST_HAVE_AT_LEAST_ONE_TARGET:
+	return error_graphics_adapter_must_have_at_least_one_target;
+case ERROR_GRAPHICS_ADAPTER_MUST_HAVE_AT_LEAST_ONE_TARGET:
+	return error_graphics_adapter_must_have_at_least_one_target;
+case ERROR_GRAPHICS_ADAPTER_MUST_HAVE_AT_LEAST_ONE_TARGET:
+	return error_graphics_adapter_must_have_at_least_one_target;
+case ERROR_GRAPHICS_INVALID_MONITORDESCRIPTORSET:
+	return error_graphics_invalid_monitordescriptorset;
+case ERROR_GRAPHICS_INVALID_MONITORDESCRIPTORSET:
+	return error_graphics_invalid_monitordescriptorset;
+case ERROR_GRAPHICS_INVALID_MONITORDESCRIPTORSET:
+	return error_graphics_invalid_monitordescriptorset;
+case ERROR_GRAPHICS_INVALID_MONITORDESCRIPTOR:
+	return error_graphics_invalid_monitordescriptor;
+case ERROR_GRAPHICS_INVALID_MONITORDESCRIPTOR:
+	return error_graphics_invalid_monitordescriptor;
+case ERROR_GRAPHICS_INVALID_MONITORDESCRIPTOR:
+	return error_graphics_invalid_monitordescriptor;
+case ERROR_GRAPHICS_MONITORDESCRIPTOR_NOT_IN_SET:
+	return error_graphics_monitordescriptor_not_in_set;
+case ERROR_GRAPHICS_MONITORDESCRIPTOR_NOT_IN_SET:
+	return error_graphics_monitordescriptor_not_in_set;
+case ERROR_GRAPHICS_MONITORDESCRIPTOR_NOT_IN_SET:
+	return error_graphics_monitordescriptor_not_in_set;
+case ERROR_GRAPHICS_MONITORDESCRIPTOR_ALREADY_IN_SET:
+	return error_graphics_monitordescriptor_already_in_set;
+case ERROR_GRAPHICS_MONITORDESCRIPTOR_ALREADY_IN_SET:
+	return error_graphics_monitordescriptor_already_in_set;
+case ERROR_GRAPHICS_MONITORDESCRIPTOR_ALREADY_IN_SET:
+	return error_graphics_monitordescriptor_already_in_set;
+case ERROR_GRAPHICS_MONITORDESCRIPTOR_ID_MUST_BE_UNIQUE:
+	return error_graphics_monitordescriptor_id_must_be_unique;
+case ERROR_GRAPHICS_MONITORDESCRIPTOR_ID_MUST_BE_UNIQUE:
+	return error_graphics_monitordescriptor_id_must_be_unique;
+case ERROR_GRAPHICS_MONITORDESCRIPTOR_ID_MUST_BE_UNIQUE:
+	return error_graphics_monitordescriptor_id_must_be_unique;
+case ERROR_GRAPHICS_INVALID_VIDPN_TARGET_SUBSET_TYPE:
+	return error_graphics_invalid_vidpn_target_subset_type;
+case ERROR_GRAPHICS_INVALID_VIDPN_TARGET_SUBSET_TYPE:
+	return error_graphics_invalid_vidpn_target_subset_type;
+case ERROR_GRAPHICS_INVALID_VIDPN_TARGET_SUBSET_TYPE:
+	return error_graphics_invalid_vidpn_target_subset_type;
+case ERROR_GRAPHICS_RESOURCES_NOT_RELATED:
+	return error_graphics_resources_not_related;
+case ERROR_GRAPHICS_RESOURCES_NOT_RELATED:
+	return error_graphics_resources_not_related;
+case ERROR_GRAPHICS_RESOURCES_NOT_RELATED:
+	return error_graphics_resources_not_related;
+case ERROR_GRAPHICS_SOURCE_ID_MUST_BE_UNIQUE:
+	return error_graphics_source_id_must_be_unique;
+case ERROR_GRAPHICS_SOURCE_ID_MUST_BE_UNIQUE:
+	return error_graphics_source_id_must_be_unique;
+case ERROR_GRAPHICS_SOURCE_ID_MUST_BE_UNIQUE:
+	return error_graphics_source_id_must_be_unique;
+case ERROR_GRAPHICS_TARGET_ID_MUST_BE_UNIQUE:
+	return error_graphics_target_id_must_be_unique;
+case ERROR_GRAPHICS_TARGET_ID_MUST_BE_UNIQUE:
+	return error_graphics_target_id_must_be_unique;
+case ERROR_GRAPHICS_TARGET_ID_MUST_BE_UNIQUE:
+	return error_graphics_target_id_must_be_unique;
+case ERROR_GRAPHICS_NO_AVAILABLE_VIDPN_TARGET:
+	return error_graphics_no_available_vidpn_target;
+case ERROR_GRAPHICS_NO_AVAILABLE_VIDPN_TARGET:
+	return error_graphics_no_available_vidpn_target;
+case ERROR_GRAPHICS_NO_AVAILABLE_VIDPN_TARGET:
+	return error_graphics_no_available_vidpn_target;
+case ERROR_GRAPHICS_MONITOR_COULD_NOT_BE_ASSOCIATED_WITH_ADAPTER:
+	return error_graphics_monitor_could_not_be_associated_with_adapter;
+case ERROR_GRAPHICS_MONITOR_COULD_NOT_BE_ASSOCIATED_WITH_ADAPTER:
+	return error_graphics_monitor_could_not_be_associated_with_adapter;
+case ERROR_GRAPHICS_MONITOR_COULD_NOT_BE_ASSOCIATED_WITH_ADAPTER:
+	return error_graphics_monitor_could_not_be_associated_with_adapter;
+case ERROR_GRAPHICS_NO_VIDPNMGR:
+	return error_graphics_no_vidpnmgr;
+case ERROR_GRAPHICS_NO_VIDPNMGR:
+	return error_graphics_no_vidpnmgr;
+case ERROR_GRAPHICS_NO_VIDPNMGR:
+	return error_graphics_no_vidpnmgr;
+case ERROR_GRAPHICS_NO_ACTIVE_VIDPN:
+	return error_graphics_no_active_vidpn;
+case ERROR_GRAPHICS_NO_ACTIVE_VIDPN:
+	return error_graphics_no_active_vidpn;
+case ERROR_GRAPHICS_NO_ACTIVE_VIDPN:
+	return error_graphics_no_active_vidpn;
+case ERROR_GRAPHICS_STALE_VIDPN_TOPOLOGY:
+	return error_graphics_stale_vidpn_topology;
+case ERROR_GRAPHICS_STALE_VIDPN_TOPOLOGY:
+	return error_graphics_stale_vidpn_topology;
+case ERROR_GRAPHICS_STALE_VIDPN_TOPOLOGY:
+	return error_graphics_stale_vidpn_topology;
+case ERROR_GRAPHICS_MONITOR_NOT_CONNECTED:
+	return error_graphics_monitor_not_connected;
+case ERROR_GRAPHICS_MONITOR_NOT_CONNECTED:
+	return error_graphics_monitor_not_connected;
+case ERROR_GRAPHICS_MONITOR_NOT_CONNECTED:
+	return error_graphics_monitor_not_connected;
+case ERROR_GRAPHICS_SOURCE_NOT_IN_TOPOLOGY:
+	return error_graphics_source_not_in_topology;
+case ERROR_GRAPHICS_SOURCE_NOT_IN_TOPOLOGY:
+	return error_graphics_source_not_in_topology;
+case ERROR_GRAPHICS_SOURCE_NOT_IN_TOPOLOGY:
+	return error_graphics_source_not_in_topology;
+case ERROR_GRAPHICS_INVALID_PRIMARYSURFACE_SIZE:
+	return error_graphics_invalid_primarysurface_size;
+case ERROR_GRAPHICS_INVALID_PRIMARYSURFACE_SIZE:
+	return error_graphics_invalid_primarysurface_size;
+case ERROR_GRAPHICS_INVALID_PRIMARYSURFACE_SIZE:
+	return error_graphics_invalid_primarysurface_size;
+case ERROR_GRAPHICS_INVALID_VISIBLEREGION_SIZE:
+	return error_graphics_invalid_visibleregion_size;
+case ERROR_GRAPHICS_INVALID_VISIBLEREGION_SIZE:
+	return error_graphics_invalid_visibleregion_size;
+case ERROR_GRAPHICS_INVALID_VISIBLEREGION_SIZE:
+	return error_graphics_invalid_visibleregion_size;
+case ERROR_GRAPHICS_INVALID_STRIDE:
+	return error_graphics_invalid_stride;
+case ERROR_GRAPHICS_INVALID_STRIDE:
+	return error_graphics_invalid_stride;
+case ERROR_GRAPHICS_INVALID_STRIDE:
+	return error_graphics_invalid_stride;
+case ERROR_GRAPHICS_INVALID_PIXELFORMAT:
+	return error_graphics_invalid_pixelformat;
+case ERROR_GRAPHICS_INVALID_PIXELFORMAT:
+	return error_graphics_invalid_pixelformat;
+case ERROR_GRAPHICS_INVALID_PIXELFORMAT:
+	return error_graphics_invalid_pixelformat;
+case ERROR_GRAPHICS_INVALID_COLORBASIS:
+	return error_graphics_invalid_colorbasis;
+case ERROR_GRAPHICS_INVALID_COLORBASIS:
+	return error_graphics_invalid_colorbasis;
+case ERROR_GRAPHICS_INVALID_COLORBASIS:
+	return error_graphics_invalid_colorbasis;
+case ERROR_GRAPHICS_INVALID_PIXELVALUEACCESSMODE:
+	return error_graphics_invalid_pixelvalueaccessmode;
+case ERROR_GRAPHICS_INVALID_PIXELVALUEACCESSMODE:
+	return error_graphics_invalid_pixelvalueaccessmode;
+case ERROR_GRAPHICS_INVALID_PIXELVALUEACCESSMODE:
+	return error_graphics_invalid_pixelvalueaccessmode;
+case ERROR_GRAPHICS_TARGET_NOT_IN_TOPOLOGY:
+	return error_graphics_target_not_in_topology;
+case ERROR_GRAPHICS_TARGET_NOT_IN_TOPOLOGY:
+	return error_graphics_target_not_in_topology;
+case ERROR_GRAPHICS_TARGET_NOT_IN_TOPOLOGY:
+	return error_graphics_target_not_in_topology;
+case ERROR_GRAPHICS_NO_DISPLAY_MODE_MANAGEMENT_SUPPORT:
+	return error_graphics_no_display_mode_management_support;
+case ERROR_GRAPHICS_NO_DISPLAY_MODE_MANAGEMENT_SUPPORT:
+	return error_graphics_no_display_mode_management_support;
+case ERROR_GRAPHICS_NO_DISPLAY_MODE_MANAGEMENT_SUPPORT:
+	return error_graphics_no_display_mode_management_support;
+case ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE:
+	return error_graphics_vidpn_source_in_use;
+case ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE:
+	return error_graphics_vidpn_source_in_use;
+case ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE:
+	return error_graphics_vidpn_source_in_use;
+case ERROR_GRAPHICS_CANT_ACCESS_ACTIVE_VIDPN:
+	return error_graphics_cant_access_active_vidpn;
+case ERROR_GRAPHICS_CANT_ACCESS_ACTIVE_VIDPN:
+	return error_graphics_cant_access_active_vidpn;
+case ERROR_GRAPHICS_CANT_ACCESS_ACTIVE_VIDPN:
+	return error_graphics_cant_access_active_vidpn;
+case ERROR_GRAPHICS_INVALID_PATH_IMPORTANCE_ORDINAL:
+	return error_graphics_invalid_path_importance_ordinal;
+case ERROR_GRAPHICS_INVALID_PATH_IMPORTANCE_ORDINAL:
+	return error_graphics_invalid_path_importance_ordinal;
+case ERROR_GRAPHICS_INVALID_PATH_IMPORTANCE_ORDINAL:
+	return error_graphics_invalid_path_importance_ordinal;
+case ERROR_GRAPHICS_INVALID_PATH_CONTENT_GEOMETRY_TRANSFORMATION:
+	return error_graphics_invalid_path_content_geometry_transformation;
+case ERROR_GRAPHICS_INVALID_PATH_CONTENT_GEOMETRY_TRANSFORMATION:
+	return error_graphics_invalid_path_content_geometry_transformation;
+case ERROR_GRAPHICS_INVALID_PATH_CONTENT_GEOMETRY_TRANSFORMATION:
+	return error_graphics_invalid_path_content_geometry_transformation;
+case ERROR_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_SUPPORTED:
+	return error_graphics_path_content_geometry_transformation_not_supported;
+case ERROR_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_SUPPORTED:
+	return error_graphics_path_content_geometry_transformation_not_supported;
+case ERROR_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_SUPPORTED:
+	return error_graphics_path_content_geometry_transformation_not_supported;
+case ERROR_GRAPHICS_INVALID_GAMMA_RAMP:
+	return error_graphics_invalid_gamma_ramp;
+case ERROR_GRAPHICS_INVALID_GAMMA_RAMP:
+	return error_graphics_invalid_gamma_ramp;
+case ERROR_GRAPHICS_INVALID_GAMMA_RAMP:
+	return error_graphics_invalid_gamma_ramp;
+case ERROR_GRAPHICS_GAMMA_RAMP_NOT_SUPPORTED:
+	return error_graphics_gamma_ramp_not_supported;
+case ERROR_GRAPHICS_GAMMA_RAMP_NOT_SUPPORTED:
+	return error_graphics_gamma_ramp_not_supported;
+case ERROR_GRAPHICS_GAMMA_RAMP_NOT_SUPPORTED:
+	return error_graphics_gamma_ramp_not_supported;
+case ERROR_GRAPHICS_MULTISAMPLING_NOT_SUPPORTED:
+	return error_graphics_multisampling_not_supported;
+case ERROR_GRAPHICS_MULTISAMPLING_NOT_SUPPORTED:
+	return error_graphics_multisampling_not_supported;
+case ERROR_GRAPHICS_MULTISAMPLING_NOT_SUPPORTED:
+	return error_graphics_multisampling_not_supported;
+case ERROR_GRAPHICS_MODE_NOT_IN_MODESET:
+	return error_graphics_mode_not_in_modeset;
+case ERROR_GRAPHICS_MODE_NOT_IN_MODESET:
+	return error_graphics_mode_not_in_modeset;
+case ERROR_GRAPHICS_MODE_NOT_IN_MODESET:
+	return error_graphics_mode_not_in_modeset;
+case ERROR_GRAPHICS_INVALID_VIDPN_TOPOLOGY_RECOMMENDATION_REASON:
+	return error_graphics_invalid_vidpn_topology_recommendation_reason;
+case ERROR_GRAPHICS_INVALID_VIDPN_TOPOLOGY_RECOMMENDATION_REASON:
+	return error_graphics_invalid_vidpn_topology_recommendation_reason;
+case ERROR_GRAPHICS_INVALID_VIDPN_TOPOLOGY_RECOMMENDATION_REASON:
+	return error_graphics_invalid_vidpn_topology_recommendation_reason;
+case ERROR_GRAPHICS_INVALID_PATH_CONTENT_TYPE:
+	return error_graphics_invalid_path_content_type;
+case ERROR_GRAPHICS_INVALID_PATH_CONTENT_TYPE:
+	return error_graphics_invalid_path_content_type;
+case ERROR_GRAPHICS_INVALID_PATH_CONTENT_TYPE:
+	return error_graphics_invalid_path_content_type;
+case ERROR_GRAPHICS_INVALID_COPYPROTECTION_TYPE:
+	return error_graphics_invalid_copyprotection_type;
+case ERROR_GRAPHICS_INVALID_COPYPROTECTION_TYPE:
+	return error_graphics_invalid_copyprotection_type;
+case ERROR_GRAPHICS_INVALID_COPYPROTECTION_TYPE:
+	return error_graphics_invalid_copyprotection_type;
+case ERROR_GRAPHICS_UNASSIGNED_MODESET_ALREADY_EXISTS:
+	return error_graphics_unassigned_modeset_already_exists;
+case ERROR_GRAPHICS_UNASSIGNED_MODESET_ALREADY_EXISTS:
+	return error_graphics_unassigned_modeset_already_exists;
+case ERROR_GRAPHICS_UNASSIGNED_MODESET_ALREADY_EXISTS:
+	return error_graphics_unassigned_modeset_already_exists;
+case ERROR_GRAPHICS_INVALID_SCANLINE_ORDERING:
+	return error_graphics_invalid_scanline_ordering;
+case ERROR_GRAPHICS_INVALID_SCANLINE_ORDERING:
+	return error_graphics_invalid_scanline_ordering;
+case ERROR_GRAPHICS_INVALID_SCANLINE_ORDERING:
+	return error_graphics_invalid_scanline_ordering;
+case ERROR_GRAPHICS_TOPOLOGY_CHANGES_NOT_ALLOWED:
+	return error_graphics_topology_changes_not_allowed;
+case ERROR_GRAPHICS_TOPOLOGY_CHANGES_NOT_ALLOWED:
+	return error_graphics_topology_changes_not_allowed;
+case ERROR_GRAPHICS_TOPOLOGY_CHANGES_NOT_ALLOWED:
+	return error_graphics_topology_changes_not_allowed;
+case ERROR_GRAPHICS_NO_AVAILABLE_IMPORTANCE_ORDINALS:
+	return error_graphics_no_available_importance_ordinals;
+case ERROR_GRAPHICS_NO_AVAILABLE_IMPORTANCE_ORDINALS:
+	return error_graphics_no_available_importance_ordinals;
+case ERROR_GRAPHICS_NO_AVAILABLE_IMPORTANCE_ORDINALS:
+	return error_graphics_no_available_importance_ordinals;
+case ERROR_GRAPHICS_INCOMPATIBLE_PRIVATE_FORMAT:
+	return error_graphics_incompatible_private_format;
+case ERROR_GRAPHICS_INCOMPATIBLE_PRIVATE_FORMAT:
+	return error_graphics_incompatible_private_format;
+case ERROR_GRAPHICS_INCOMPATIBLE_PRIVATE_FORMAT:
+	return error_graphics_incompatible_private_format;
+case ERROR_GRAPHICS_INVALID_MODE_PRUNING_ALGORITHM:
+	return error_graphics_invalid_mode_pruning_algorithm;
+case ERROR_GRAPHICS_INVALID_MODE_PRUNING_ALGORITHM:
+	return error_graphics_invalid_mode_pruning_algorithm;
+case ERROR_GRAPHICS_INVALID_MODE_PRUNING_ALGORITHM:
+	return error_graphics_invalid_mode_pruning_algorithm;
+case ERROR_GRAPHICS_SPECIFIED_CHILD_ALREADY_CONNECTED:
+	return error_graphics_specified_child_already_connected;
+case ERROR_GRAPHICS_SPECIFIED_CHILD_ALREADY_CONNECTED:
+	return error_graphics_specified_child_already_connected;
+case ERROR_GRAPHICS_SPECIFIED_CHILD_ALREADY_CONNECTED:
+	return error_graphics_specified_child_already_connected;
+case ERROR_GRAPHICS_CHILD_DESCRIPTOR_NOT_SUPPORTED:
+	return error_graphics_child_descriptor_not_supported;
+case ERROR_GRAPHICS_CHILD_DESCRIPTOR_NOT_SUPPORTED:
+	return error_graphics_child_descriptor_not_supported;
+case ERROR_GRAPHICS_CHILD_DESCRIPTOR_NOT_SUPPORTED:
+	return error_graphics_child_descriptor_not_supported;
+case ERROR_GRAPHICS_NOT_A_LINKED_ADAPTER:
+	return error_graphics_not_a_linked_adapter;
+case ERROR_GRAPHICS_NOT_A_LINKED_ADAPTER:
+	return error_graphics_not_a_linked_adapter;
+case ERROR_GRAPHICS_NOT_A_LINKED_ADAPTER:
+	return error_graphics_not_a_linked_adapter;
+case ERROR_GRAPHICS_LEADLINK_NOT_ENUMERATED:
+	return error_graphics_leadlink_not_enumerated;
+case ERROR_GRAPHICS_LEADLINK_NOT_ENUMERATED:
+	return error_graphics_leadlink_not_enumerated;
+case ERROR_GRAPHICS_LEADLINK_NOT_ENUMERATED:
+	return error_graphics_leadlink_not_enumerated;
+case ERROR_GRAPHICS_CHAINLINKS_NOT_ENUMERATED:
+	return error_graphics_chainlinks_not_enumerated;
+case ERROR_GRAPHICS_CHAINLINKS_NOT_ENUMERATED:
+	return error_graphics_chainlinks_not_enumerated;
+case ERROR_GRAPHICS_CHAINLINKS_NOT_ENUMERATED:
+	return error_graphics_chainlinks_not_enumerated;
+case ERROR_GRAPHICS_ADAPTER_CHAIN_NOT_READY:
+	return error_graphics_adapter_chain_not_ready;
+case ERROR_GRAPHICS_ADAPTER_CHAIN_NOT_READY:
+	return error_graphics_adapter_chain_not_ready;
+case ERROR_GRAPHICS_ADAPTER_CHAIN_NOT_READY:
+	return error_graphics_adapter_chain_not_ready;
+case ERROR_GRAPHICS_CHAINLINKS_NOT_STARTED:
+	return error_graphics_chainlinks_not_started;
+case ERROR_GRAPHICS_CHAINLINKS_NOT_STARTED:
+	return error_graphics_chainlinks_not_started;
+case ERROR_GRAPHICS_CHAINLINKS_NOT_STARTED:
+	return error_graphics_chainlinks_not_started;
+case ERROR_GRAPHICS_CHAINLINKS_NOT_POWERED_ON:
+	return error_graphics_chainlinks_not_powered_on;
+case ERROR_GRAPHICS_CHAINLINKS_NOT_POWERED_ON:
+	return error_graphics_chainlinks_not_powered_on;
+case ERROR_GRAPHICS_CHAINLINKS_NOT_POWERED_ON:
+	return error_graphics_chainlinks_not_powered_on;
+case ERROR_GRAPHICS_INCONSISTENT_DEVICE_LINK_STATE:
+	return error_graphics_inconsistent_device_link_state;
+case ERROR_GRAPHICS_INCONSISTENT_DEVICE_LINK_STATE:
+	return error_graphics_inconsistent_device_link_state;
+case ERROR_GRAPHICS_INCONSISTENT_DEVICE_LINK_STATE:
+	return error_graphics_inconsistent_device_link_state;
+case ERROR_GRAPHICS_NOT_POST_DEVICE_DRIVER:
+	return error_graphics_not_post_device_driver;
+case ERROR_GRAPHICS_NOT_POST_DEVICE_DRIVER:
+	return error_graphics_not_post_device_driver;
+case ERROR_GRAPHICS_NOT_POST_DEVICE_DRIVER:
+	return error_graphics_not_post_device_driver;
+case ERROR_GRAPHICS_OPM_NOT_SUPPORTED:
+	return error_graphics_opm_not_supported;
+case ERROR_GRAPHICS_OPM_NOT_SUPPORTED:
+	return error_graphics_opm_not_supported;
+case ERROR_GRAPHICS_OPM_NOT_SUPPORTED:
+	return error_graphics_opm_not_supported;
+case ERROR_GRAPHICS_COPP_NOT_SUPPORTED:
+	return error_graphics_copp_not_supported;
+case ERROR_GRAPHICS_COPP_NOT_SUPPORTED:
+	return error_graphics_copp_not_supported;
+case ERROR_GRAPHICS_COPP_NOT_SUPPORTED:
+	return error_graphics_copp_not_supported;
+case ERROR_GRAPHICS_UAB_NOT_SUPPORTED:
+	return error_graphics_uab_not_supported;
+case ERROR_GRAPHICS_UAB_NOT_SUPPORTED:
+	return error_graphics_uab_not_supported;
+case ERROR_GRAPHICS_UAB_NOT_SUPPORTED:
+	return error_graphics_uab_not_supported;
+case ERROR_GRAPHICS_OPM_INVALID_ENCRYPTED_PARAMETERS:
+	return error_graphics_opm_invalid_encrypted_parameters;
+case ERROR_GRAPHICS_OPM_INVALID_ENCRYPTED_PARAMETERS:
+	return error_graphics_opm_invalid_encrypted_parameters;
+case ERROR_GRAPHICS_OPM_INVALID_ENCRYPTED_PARAMETERS:
+	return error_graphics_opm_invalid_encrypted_parameters;
+case ERROR_GRAPHICS_OPM_PARAMETER_ARRAY_TOO_SMALL:
+	return error_graphics_opm_parameter_array_too_small;
+case ERROR_GRAPHICS_OPM_PARAMETER_ARRAY_TOO_SMALL:
+	return error_graphics_opm_parameter_array_too_small;
+case ERROR_GRAPHICS_OPM_PARAMETER_ARRAY_TOO_SMALL:
+	return error_graphics_opm_parameter_array_too_small;
+case ERROR_GRAPHICS_OPM_NO_VIDEO_OUTPUTS_EXIST:
+	return error_graphics_opm_no_video_outputs_exist;
+case ERROR_GRAPHICS_OPM_NO_VIDEO_OUTPUTS_EXIST:
+	return error_graphics_opm_no_video_outputs_exist;
+case ERROR_GRAPHICS_OPM_NO_VIDEO_OUTPUTS_EXIST:
+	return error_graphics_opm_no_video_outputs_exist;
+case ERROR_GRAPHICS_PVP_NO_DISPLAY_DEVICE_CORRESPONDS_TO_NAME:
+	return error_graphics_pvp_no_display_device_corresponds_to_name;
+case ERROR_GRAPHICS_PVP_NO_DISPLAY_DEVICE_CORRESPONDS_TO_NAME:
+	return error_graphics_pvp_no_display_device_corresponds_to_name;
+case ERROR_GRAPHICS_PVP_NO_DISPLAY_DEVICE_CORRESPONDS_TO_NAME:
+	return error_graphics_pvp_no_display_device_corresponds_to_name;
+case ERROR_GRAPHICS_PVP_DISPLAY_DEVICE_NOT_ATTACHED_TO_DESKTOP:
+	return error_graphics_pvp_display_device_not_attached_to_desktop;
+case ERROR_GRAPHICS_PVP_DISPLAY_DEVICE_NOT_ATTACHED_TO_DESKTOP:
+	return error_graphics_pvp_display_device_not_attached_to_desktop;
+case ERROR_GRAPHICS_PVP_DISPLAY_DEVICE_NOT_ATTACHED_TO_DESKTOP:
+	return error_graphics_pvp_display_device_not_attached_to_desktop;
+case ERROR_GRAPHICS_PVP_MIRRORING_DEVICES_NOT_SUPPORTED:
+	return error_graphics_pvp_mirroring_devices_not_supported;
+case ERROR_GRAPHICS_PVP_MIRRORING_DEVICES_NOT_SUPPORTED:
+	return error_graphics_pvp_mirroring_devices_not_supported;
+case ERROR_GRAPHICS_PVP_MIRRORING_DEVICES_NOT_SUPPORTED:
+	return error_graphics_pvp_mirroring_devices_not_supported;
+case ERROR_GRAPHICS_OPM_INVALID_POINTER:
+	return error_graphics_opm_invalid_pointer;
+case ERROR_GRAPHICS_OPM_INVALID_POINTER:
+	return error_graphics_opm_invalid_pointer;
+case ERROR_GRAPHICS_OPM_INVALID_POINTER:
+	return error_graphics_opm_invalid_pointer;
+case ERROR_GRAPHICS_OPM_INTERNAL_ERROR:
+	return error_graphics_opm_internal_error;
+case ERROR_GRAPHICS_OPM_INTERNAL_ERROR:
+	return error_graphics_opm_internal_error;
+case ERROR_GRAPHICS_OPM_INTERNAL_ERROR:
+	return error_graphics_opm_internal_error;
+case ERROR_GRAPHICS_OPM_INVALID_HANDLE:
+	return error_graphics_opm_invalid_handle;
+case ERROR_GRAPHICS_OPM_INVALID_HANDLE:
+	return error_graphics_opm_invalid_handle;
+case ERROR_GRAPHICS_OPM_INVALID_HANDLE:
+	return error_graphics_opm_invalid_handle;
+case ERROR_GRAPHICS_PVP_NO_MONITORS_CORRESPOND_TO_DISPLAY_DEVICE:
+	return error_graphics_pvp_no_monitors_correspond_to_display_device;
+case ERROR_GRAPHICS_PVP_NO_MONITORS_CORRESPOND_TO_DISPLAY_DEVICE:
+	return error_graphics_pvp_no_monitors_correspond_to_display_device;
+case ERROR_GRAPHICS_PVP_NO_MONITORS_CORRESPOND_TO_DISPLAY_DEVICE:
+	return error_graphics_pvp_no_monitors_correspond_to_display_device;
+case ERROR_GRAPHICS_PVP_INVALID_CERTIFICATE_LENGTH:
+	return error_graphics_pvp_invalid_certificate_length;
+case ERROR_GRAPHICS_PVP_INVALID_CERTIFICATE_LENGTH:
+	return error_graphics_pvp_invalid_certificate_length;
+case ERROR_GRAPHICS_PVP_INVALID_CERTIFICATE_LENGTH:
+	return error_graphics_pvp_invalid_certificate_length;
+case ERROR_GRAPHICS_OPM_SPANNING_MODE_ENABLED:
+	return error_graphics_opm_spanning_mode_enabled;
+case ERROR_GRAPHICS_OPM_SPANNING_MODE_ENABLED:
+	return error_graphics_opm_spanning_mode_enabled;
+case ERROR_GRAPHICS_OPM_SPANNING_MODE_ENABLED:
+	return error_graphics_opm_spanning_mode_enabled;
+case ERROR_GRAPHICS_OPM_THEATER_MODE_ENABLED:
+	return error_graphics_opm_theater_mode_enabled;
+case ERROR_GRAPHICS_OPM_THEATER_MODE_ENABLED:
+	return error_graphics_opm_theater_mode_enabled;
+case ERROR_GRAPHICS_OPM_THEATER_MODE_ENABLED:
+	return error_graphics_opm_theater_mode_enabled;
+case ERROR_GRAPHICS_PVP_HFS_FAILED:
+	return error_graphics_pvp_hfs_failed;
+case ERROR_GRAPHICS_PVP_HFS_FAILED:
+	return error_graphics_pvp_hfs_failed;
+case ERROR_GRAPHICS_PVP_HFS_FAILED:
+	return error_graphics_pvp_hfs_failed;
+case ERROR_GRAPHICS_OPM_INVALID_SRM:
+	return error_graphics_opm_invalid_srm;
+case ERROR_GRAPHICS_OPM_INVALID_SRM:
+	return error_graphics_opm_invalid_srm;
+case ERROR_GRAPHICS_OPM_INVALID_SRM:
+	return error_graphics_opm_invalid_srm;
+case ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_HDCP:
+	return error_graphics_opm_output_does_not_support_hdcp;
+case ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_HDCP:
+	return error_graphics_opm_output_does_not_support_hdcp;
+case ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_HDCP:
+	return error_graphics_opm_output_does_not_support_hdcp;
+case ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_ACP:
+	return error_graphics_opm_output_does_not_support_acp;
+case ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_ACP:
+	return error_graphics_opm_output_does_not_support_acp;
+case ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_ACP:
+	return error_graphics_opm_output_does_not_support_acp;
+case ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_CGMSA:
+	return error_graphics_opm_output_does_not_support_cgmsa;
+case ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_CGMSA:
+	return error_graphics_opm_output_does_not_support_cgmsa;
+case ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_CGMSA:
+	return error_graphics_opm_output_does_not_support_cgmsa;
+case ERROR_GRAPHICS_OPM_HDCP_SRM_NEVER_SET:
+	return error_graphics_opm_hdcp_srm_never_set;
+case ERROR_GRAPHICS_OPM_HDCP_SRM_NEVER_SET:
+	return error_graphics_opm_hdcp_srm_never_set;
+case ERROR_GRAPHICS_OPM_HDCP_SRM_NEVER_SET:
+	return error_graphics_opm_hdcp_srm_never_set;
+case ERROR_GRAPHICS_OPM_RESOLUTION_TOO_HIGH:
+	return error_graphics_opm_resolution_too_high;
+case ERROR_GRAPHICS_OPM_RESOLUTION_TOO_HIGH:
+	return error_graphics_opm_resolution_too_high;
+case ERROR_GRAPHICS_OPM_RESOLUTION_TOO_HIGH:
+	return error_graphics_opm_resolution_too_high;
+case ERROR_GRAPHICS_OPM_ALL_HDCP_HARDWARE_ALREADY_IN_USE:
+	return error_graphics_opm_all_hdcp_hardware_already_in_use;
+case ERROR_GRAPHICS_OPM_ALL_HDCP_HARDWARE_ALREADY_IN_USE:
+	return error_graphics_opm_all_hdcp_hardware_already_in_use;
+case ERROR_GRAPHICS_OPM_ALL_HDCP_HARDWARE_ALREADY_IN_USE:
+	return error_graphics_opm_all_hdcp_hardware_already_in_use;
+case ERROR_GRAPHICS_OPM_VIDEO_OUTPUT_NO_LONGER_EXISTS:
+	return error_graphics_opm_video_output_no_longer_exists;
+case ERROR_GRAPHICS_OPM_VIDEO_OUTPUT_NO_LONGER_EXISTS:
+	return error_graphics_opm_video_output_no_longer_exists;
+case ERROR_GRAPHICS_OPM_VIDEO_OUTPUT_NO_LONGER_EXISTS:
+	return error_graphics_opm_video_output_no_longer_exists;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS:
+	return error_graphics_opm_session_type_change_in_progress;
+case ERROR_GRAPHICS_DDCCI_VCP_NOT_SUPPORTED:
+	return error_graphics_ddcci_vcp_not_supported;
+case ERROR_GRAPHICS_DDCCI_VCP_NOT_SUPPORTED:
+	return error_graphics_ddcci_vcp_not_supported;
+case ERROR_GRAPHICS_DDCCI_VCP_NOT_SUPPORTED:
+	return error_graphics_ddcci_vcp_not_supported;
+case ERROR_GRAPHICS_DDCCI_INVALID_DATA:
+	return error_graphics_ddcci_invalid_data;
+case ERROR_GRAPHICS_DDCCI_INVALID_DATA:
+	return error_graphics_ddcci_invalid_data;
+case ERROR_GRAPHICS_DDCCI_INVALID_DATA:
+	return error_graphics_ddcci_invalid_data;
+case ERROR_GRAPHICS_DDCCI_MONITOR_RETURNED_INVALID_TIMING_STATUS_BYTE:
+	return error_graphics_ddcci_monitor_returned_invalid_timing_status_byte;
+case ERROR_GRAPHICS_DDCCI_MONITOR_RETURNED_INVALID_TIMING_STATUS_BYTE:
+	return error_graphics_ddcci_monitor_returned_invalid_timing_status_byte;
+case ERROR_GRAPHICS_DDCCI_MONITOR_RETURNED_INVALID_TIMING_STATUS_BYTE:
+	return error_graphics_ddcci_monitor_returned_invalid_timing_status_byte;
+case ERROR_GRAPHICS_MCA_INVALID_CAPABILITIES_STRING:
+	return error_graphics_mca_invalid_capabilities_string;
+case ERROR_GRAPHICS_MCA_INVALID_CAPABILITIES_STRING:
+	return error_graphics_mca_invalid_capabilities_string;
+case ERROR_GRAPHICS_MCA_INVALID_CAPABILITIES_STRING:
+	return error_graphics_mca_invalid_capabilities_string;
+case ERROR_GRAPHICS_MCA_INTERNAL_ERROR:
+	return error_graphics_mca_internal_error;
+case ERROR_GRAPHICS_MCA_INTERNAL_ERROR:
+	return error_graphics_mca_internal_error;
+case ERROR_GRAPHICS_MCA_INTERNAL_ERROR:
+	return error_graphics_mca_internal_error;
+case ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_COMMAND:
+	return error_graphics_ddcci_invalid_message_command;
+case ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_COMMAND:
+	return error_graphics_ddcci_invalid_message_command;
+case ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_COMMAND:
+	return error_graphics_ddcci_invalid_message_command;
+case ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_LENGTH:
+	return error_graphics_ddcci_invalid_message_length;
+case ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_LENGTH:
+	return error_graphics_ddcci_invalid_message_length;
+case ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_LENGTH:
+	return error_graphics_ddcci_invalid_message_length;
+case ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_CHECKSUM:
+	return error_graphics_ddcci_invalid_message_checksum;
+case ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_CHECKSUM:
+	return error_graphics_ddcci_invalid_message_checksum;
+case ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_CHECKSUM:
+	return error_graphics_ddcci_invalid_message_checksum;
+case ERROR_GRAPHICS_PMEA_INVALID_MONITOR:
+	return error_graphics_pmea_invalid_monitor;
+case ERROR_GRAPHICS_PMEA_INVALID_MONITOR:
+	return error_graphics_pmea_invalid_monitor;
+case ERROR_GRAPHICS_PMEA_INVALID_MONITOR:
+	return error_graphics_pmea_invalid_monitor;
+case ERROR_GRAPHICS_PMEA_INVALID_MONITOR:
+	return error_graphics_pmea_invalid_monitor;
+case ERROR_GRAPHICS_PMEA_INVALID_MONITOR:
+	return error_graphics_pmea_invalid_monitor;
+case ERROR_GRAPHICS_PMEA_INVALID_MONITOR:
+	return error_graphics_pmea_invalid_monitor;
+case ERROR_GRAPHICS_DDCCI_CURRENT_CURRENT_VALUE_GREATER_THAN_MAXIMUM_VALUE:
+	return error_graphics_ddcci_current_current_value_greater_than_maximum_value;
+case ERROR_GRAPHICS_DDCCI_CURRENT_CURRENT_VALUE_GREATER_THAN_MAXIMUM_VALUE:
+	return error_graphics_ddcci_current_current_value_greater_than_maximum_value;
+case ERROR_GRAPHICS_DDCCI_CURRENT_CURRENT_VALUE_GREATER_THAN_MAXIMUM_VALUE:
+	return error_graphics_ddcci_current_current_value_greater_than_maximum_value;
+case ERROR_GRAPHICS_MCA_INVALID_VCP_VERSION:
+	return error_graphics_mca_invalid_vcp_version;
+case ERROR_GRAPHICS_MCA_INVALID_VCP_VERSION:
+	return error_graphics_mca_invalid_vcp_version;
+case ERROR_GRAPHICS_MCA_INVALID_VCP_VERSION:
+	return error_graphics_mca_invalid_vcp_version;
+case ERROR_GRAPHICS_MCA_MONITOR_VIOLATES_MCCS_SPECIFICATION:
+	return error_graphics_mca_monitor_violates_mccs_specification;
+case ERROR_GRAPHICS_MCA_MONITOR_VIOLATES_MCCS_SPECIFICATION:
+	return error_graphics_mca_monitor_violates_mccs_specification;
+case ERROR_GRAPHICS_MCA_MONITOR_VIOLATES_MCCS_SPECIFICATION:
+	return error_graphics_mca_monitor_violates_mccs_specification;
+case ERROR_GRAPHICS_MCA_MCCS_VERSION_MISMATCH:
+	return error_graphics_mca_mccs_version_mismatch;
+case ERROR_GRAPHICS_MCA_MCCS_VERSION_MISMATCH:
+	return error_graphics_mca_mccs_version_mismatch;
+case ERROR_GRAPHICS_MCA_MCCS_VERSION_MISMATCH:
+	return error_graphics_mca_mccs_version_mismatch;
+case ERROR_GRAPHICS_MCA_UNSUPPORTED_MCCS_VERSION:
+	return error_graphics_mca_unsupported_mccs_version;
+case ERROR_GRAPHICS_MCA_UNSUPPORTED_MCCS_VERSION:
+	return error_graphics_mca_unsupported_mccs_version;
+case ERROR_GRAPHICS_MCA_UNSUPPORTED_MCCS_VERSION:
+	return error_graphics_mca_unsupported_mccs_version;
+case ERROR_GRAPHICS_MCA_INVALID_TECHNOLOGY_TYPE_RETURNED:
+	return error_graphics_mca_invalid_technology_type_returned;
+case ERROR_GRAPHICS_MCA_INVALID_TECHNOLOGY_TYPE_RETURNED:
+	return error_graphics_mca_invalid_technology_type_returned;
+case ERROR_GRAPHICS_MCA_INVALID_TECHNOLOGY_TYPE_RETURNED:
+	return error_graphics_mca_invalid_technology_type_returned;
+case ERROR_GRAPHICS_MCA_UNSUPPORTED_COLOR_TEMPERATURE:
+	return error_graphics_mca_unsupported_color_temperature;
+case ERROR_GRAPHICS_MCA_UNSUPPORTED_COLOR_TEMPERATURE:
+	return error_graphics_mca_unsupported_color_temperature;
+case ERROR_GRAPHICS_MCA_UNSUPPORTED_COLOR_TEMPERATURE:
+	return error_graphics_mca_unsupported_color_temperature;
+case ERROR_GRAPHICS_ONLY_CONSOLE_SESSION_SUPPORTED:
+	return error_graphics_only_console_session_supported;
+case ERROR_GRAPHICS_ONLY_CONSOLE_SESSION_SUPPORTED:
+	return error_graphics_only_console_session_supported;
+case ERROR_GRAPHICS_ONLY_CONSOLE_SESSION_SUPPORTED:
+	return error_graphics_only_console_session_supported;
+
+default:
+	return unknown_code;
+}
