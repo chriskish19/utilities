@@ -1,0 +1,24 @@
+/**********************************************************/
+//
+// File: dirt_api.hpp
+//
+// Purpose: helper functions
+//
+// Project: dirt.core
+//
+/**********************************************************/
+
+#pragma once
+#include CORE_NAMES_INCLUDE
+#include CORE_STL_INCLUDE_PATH
+#include CORE_CODES_INCLUDE_PATH
+#include CORE_ARGS_INCLUDE_PATH
+
+namespace core {
+	arg_pkg match_arg_enum(args arg);
+	arg_pkg match_s_arg(const std::string& arg);
+	code_pkg match_code(codes code);
+	std::string get_location(std::source_location sl = std::source_location::current());
+	void output_em(const code_pkg& cp, const std::string location = get_location());
+	std::vector<args> validate_args(const std::vector<arg_pkg>& args);
+}
