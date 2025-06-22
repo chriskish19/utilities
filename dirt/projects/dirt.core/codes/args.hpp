@@ -46,8 +46,8 @@ namespace core {
 	inline const arg_pkg new_files_only_pkg(args::new_files_only, "-new_files_only");
 	inline const arg_pkg no_deletes_pkg(args::no_deletes, "-no_deletes");
 	inline const arg_pkg unknown_pkg(args::unknown, "-unknown");
-	inline const arg_pkg src_pkg(args::src, "-src");
-	inline const arg_pkg dst_pkg(args::dst, "-dst");
+	inline const arg_pkg src_pkg(args::src, "src");
+	inline const arg_pkg dst_pkg(args::dst, "dst");
 
 
 	inline const std::unordered_map<std::string, args> gbl_args_mp = {
@@ -59,8 +59,8 @@ namespace core {
 		{"-new_files_only",args::new_files_only},
 		{"-no_deletes", args::no_deletes},
 		{"-unknown", args::unknown},
-		{"-src" , args::src},
-		{"-dst" , args::dst}
+		{"src" , args::src},
+		{"dst" , args::dst}
 	};
 
 	class base_group {
@@ -219,5 +219,14 @@ namespace core {
 			return new_files_only_count == 1 and base_match == true;
 		}
 
+	};
+
+
+	class arg_entry {
+	public:
+		std::vector<args> args_v;
+		std::filesystem::path dst_p;
+		std::filesystem::path src_p;
+		std::size_t entry_number;
 	};
 }

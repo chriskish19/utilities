@@ -27,6 +27,9 @@ int main(int argc, char* argv[]) {
     bool next_is_path = false;
     std::vector<core::arg_pkg> found_args_v;
     bool dlist_path_is_valid = false;
+    core::arg_entry cmdline_entry;
+    cmdline_entry.entry_number = 1;
+    core::args last_arg = core::args();
 
     // check the arguments for the dirt_lists.txt path
     for (const auto& s : args_v) {
@@ -51,20 +54,50 @@ int main(int argc, char* argv[]) {
             if (pkg.m_arg == core::args::dirt_list_path) {
                 next_is_path = true;
             }
+            else if (pkg.m_arg == core::args::src) {
+                // next arg should be the path
+                last_arg = pkg.m_arg;
+            }
+            else if (pkg.m_arg == core::args::dst) {
+                // next arg should be the path
+                last_arg = pkg.m_arg;
+            }
+
             found_args_v.push_back(pkg);
         }
+
+        if (last_arg == core::args::src and std::filesystem::exists(s) == true) {
+            cmdline_entry.src_p = s;
+        }
+
+        if (last_arg == core::args::dst and std::filesystem::exists(s) == true) {
+            cmdline_entry.dst_p = s;
+        }
     }
+
+    std::vector<core::args> _args_v_ = core::arg_pkg_to_args(found_args_v);
+    cmdline_entry.args_v = _args_v_;
+    
 
     if (dlist_path_is_valid == true) {
         // read the list file and parse it, ignoring any other cmd args
 
         // parse the list file
+        core::codes code;
+        std::vector<core::arg_entry> entrys_v = core::parse_file(dirt_list_txt_path, &code);
+
+        if (code != core::codes::success) {
+            auto error_code = core::match_code(code);
+            core::output_em(error_code);
+            return static_cast<int>(error_code.m_code);
+        }
+
+        
     }
     else {
-        // validate the cmd args
-        std::vector<core::args> validated_args_v = core::validate_args(found_args_v);
+        bool cmdline_validated = core::validate_entry(cmdline_entry);
 
-        if (validated_args_v.empty() == true) {
+        if (cmdline_validated == false) {
             auto error_code = core::match_code(core::codes::invalid_cmd_args);
             core::output_em(error_code);
             return static_cast<int>(error_code.m_code);

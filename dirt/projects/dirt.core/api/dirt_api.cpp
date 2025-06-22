@@ -129,3 +129,123 @@ std::vector<core::args> core::validate_args(const std::vector<arg_pkg>& args)
 		return {};
 	}
 }
+
+std::vector<core::arg_entry> core::parse_file(const std::filesystem::path& p, core::codes* code_p)
+{
+	std::ifstream file;
+	file.open(p);
+
+	if (file.is_open() == false) {
+		*code_p = codes::file_open_fail;
+		return {};
+	}
+
+	arg_entry entry;
+	std::vector<arg_entry> entry_v;
+	std::string line;
+	std::size_t entry_number = 0;
+
+	while (std::getline(file, line)) {
+		// ignore blank lines
+		if (line.empty() == true) {
+			continue;
+		}
+
+		// ignore comments
+		std::size_t comment_slash_pos = line.find_first_of("//");
+		std::size_t comment_start_pos = line.find_first_not_of("//");
+		std::size_t comment_end_pos = line.find_first_of("\n");
+		if (comment_start_pos != std::string::npos 
+			and comment_slash_pos != std::string::npos
+			and comment_end_pos != std::string::npos) {
+			// we have a comment so skip the line
+			continue;
+		}
+
+		std::string word;
+		std::istringstream iss(line);
+		std::string last_word;
+		while (iss >> word) {
+			
+			auto found = core::gbl_args_mp.find(word);
+			if (found != gbl_args_mp.end()) {
+				entry.args_v.push_back(found->second);
+			}
+			else if(word == "args"){
+				last_word = word;
+				continue;
+			}
+			else if (word == "{") {
+				// the next word should be src
+				last_word = word;
+				continue;
+			}
+			
+
+
+			if (last_word == "args" and word == ":") {
+				// the next words should be arguments
+				while (iss >> word) {
+					auto found = core::gbl_args_mp.find(word);
+					if (found != gbl_args_mp.end()) {
+						entry.args_v.push_back(found->second);
+					}
+				}
+				
+			}
+
+			if (last_word == "{" and word == "src") {
+				// the next should be the src path
+				iss >> word;
+				entry.src_p = word;
+			}
+
+			if (word == "dst") {
+				// the next should be the dst path
+				iss >> word;
+				entry.dst_p = word;
+			}
+		}
+
+		if (line.find_first_of("}") != std::string::npos) {
+			entry_number++;
+			entry.entry_number = entry_number;
+			
+			// end of entry
+			entry_v.push_back(entry);
+			entry = arg_entry(); // reset
+		}
+	}
+
+	*code_p = codes::success;
+}
+
+std::vector<core::args> core::arg_pkg_to_args(const std::vector<arg_pkg>& args_pkg_v)
+{
+	std::vector<core::args> args_v;
+	for (auto arg : args_pkg_v) {
+		args_v.push_back(arg.m_arg);
+	}
+	return args_v;
+}
+
+bool core::validate_entry(const arg_entry& e)
+{
+	
+	group_2 g2;
+	group_3 g3;
+	group_4 g4;
+	group_5 g5;
+
+	if (g2.match_group(e.args_v) == true or
+		g3.match_group(e.args_v) == true or
+		g4.match_group(e.args_v) == true or
+		g5.match_group(e.args_v) == true)
+	{}
+	else {
+		return false;
+	}
+
+	return	std::filesystem::exists(e.src_p) and
+			std::filesystem::exists(e.dst_p);
+}

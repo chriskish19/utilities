@@ -21,4 +21,7 @@ namespace core {
 	std::string get_location(std::source_location sl = std::source_location::current());
 	void output_em(const code_pkg& cp, const std::string location = get_location());
 	std::vector<args> validate_args(const std::vector<arg_pkg>& args);
+	std::vector<arg_entry> parse_file(const std::filesystem::path& p, core::codes* code_p);
+	std::vector<args> arg_pkg_to_args(const std::vector<arg_pkg>& args_pkg_v);
+	bool validate_entry(const arg_entry& e);
 }

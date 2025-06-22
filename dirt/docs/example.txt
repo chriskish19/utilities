@@ -4,8 +4,8 @@
 
 args : -copy -watch
 {
-	src : ./test
-	dst : ./hello
+	src ./test
+	dst ./hello
 }
 
 
