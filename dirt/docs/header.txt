@@ -7,3 +7,16 @@
 // Project:
 //
 /**********************************************************/
+
+
+
+
+try {
+		
+}
+catch (const std::filesystem::filesystem_error& e) {
+	output_fse(e);
+}
+catch (...) {
+	std::cout << "unknown exception caught...\n";
+}

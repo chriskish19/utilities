@@ -20,3 +20,7 @@
 
 // api
 #define CORE_API_INCLUDE_PATH					CORE_dirt_api_hpp					// helper functions
+
+// classes
+#define CORE_PROCESSOR_INCLUDE_PATH				CORE_processor_hpp					// processes files
+#define CORE_CMDLINE_INCLUDE_PATH				CORE_cmdline_hpp					// processes cmd line args

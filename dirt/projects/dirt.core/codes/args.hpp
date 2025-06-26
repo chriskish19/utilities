@@ -229,4 +229,57 @@ namespace core {
 		std::filesystem::path src_p;
 		std::size_t entry_number;
 	};
+
+	enum class file_action {
+		copy,
+		uninit = 1,
+		delete_dst,
+		modified,
+		previous_name,
+		new_name,
+		unknown
+	};
+
+	enum class directory_completed_action {
+		recursive_copy,
+		uninit = 1,
+		delete_all,
+		previous_name,
+		new_name,
+		unknown,
+	};
+
+	class directory_info {
+	public:
+		std::filesystem::path p;
+		std::uintmax_t number_of_files;
+		directory_completed_action action;
+
+		// Equality operator for unordered_set
+		bool operator==(const directory_info& other) const {
+			return p == other.p && number_of_files == other.number_of_files;
+		}
+	};
+
+	class file_entry {
+	public:
+		directory_completed_action completed_action;
+		file_action action;
+		std::filesystem::path dst_p;
+		std::filesystem::path src_p;
+		std::filesystem::file_status s;
+		std::unordered_set<directory_info>* p_di_set;
+	};
+}
+
+// Hash specialization for directory_info
+namespace std {
+	template<>
+	struct hash<core::directory_info> {
+		std::size_t operator()(const core::directory_info& d) const noexcept {
+			std::size_t h1 = std::hash<std::filesystem::path>{}(d.p);
+			std::size_t h2 = std::hash<std::uintmax_t>{}(d.number_of_files);
+			return h1 ^ (h2 << 1);
+		}
+	};
 }

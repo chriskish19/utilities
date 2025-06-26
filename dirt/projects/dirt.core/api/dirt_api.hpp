@@ -14,6 +14,8 @@
 #include CORE_CODES_INCLUDE_PATH
 #include CORE_ARGS_INCLUDE_PATH
 
+#include <Windows.h>
+
 namespace core {
 	arg_pkg match_arg_enum(args arg);
 	arg_pkg match_s_arg(const std::string& arg);
@@ -24,4 +26,10 @@ namespace core {
 	std::vector<arg_entry> parse_file(const std::filesystem::path& p, core::codes* code_p);
 	std::vector<args> arg_pkg_to_args(const std::vector<arg_pkg>& args_pkg_v);
 	bool validate_entry(const arg_entry& e);
+	std::string get_last_error_w32();
+	void output_entry(const arg_entry& e);
+	void output_fse(const std::filesystem::filesystem_error& e);
+	std::uintmax_t file_numbers(const std::filesystem::path& p);
+	std::unordered_set<directory_info> get_all_directories(const std::filesystem::path& p);
+	void background_task(const file_entry& entry);
 }

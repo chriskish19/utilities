@@ -84,6 +84,12 @@ core::code_pkg core::match_code(codes code)
 		return c_uninit_pkg;
 	case codes::invalid_cmd_args:
 		return invalid_cmd_args_pkg;
+	case codes::invalid_io_handle:
+		return invalid_io_handle_pkg;
+	case codes::no_valid_entries:
+		return no_valid_entries_pkg;
+	case codes::read_dir_changes_fail:
+		return read_dir_changes_fail_pkg;
 	default:
 		return c_unknown_pkg;
 	}
@@ -248,4 +254,177 @@ bool core::validate_entry(const arg_entry& e)
 
 	return	std::filesystem::exists(e.src_p) and
 			std::filesystem::exists(e.dst_p);
+}
+
+std::string core::get_last_error_w32()
+{
+	DWORD errorMessageID = GetLastError();
+	if (errorMessageID == 0) {
+		return {}; // No error message has been recorded 
+	}
+
+	LPSTR messageBuffer = nullptr;
+
+	// Format the error message 
+	size_t size = FormatMessage(
+		FORMAT_MESSAGE_ALLOCATE_BUFFER |
+		FORMAT_MESSAGE_FROM_SYSTEM |
+		FORMAT_MESSAGE_IGNORE_INSERTS,
+		NULL,
+		errorMessageID,
+		MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
+		(LPSTR)&messageBuffer,
+		0,
+		NULL
+	);
+
+	// Copy the error message into a wide string
+	std::string message(messageBuffer, size);
+
+	// Free the buffer allocated by FormatMessage 
+	LocalFree(messageBuffer);
+
+	return message;
+}
+
+void core::output_entry(const arg_entry& e)
+{
+	std::vector<std::string> s_v;
+	for (auto arg : e.args_v) {
+		auto pkg = match_arg_enum(arg);
+		s_v.push_back(pkg.m_s_arg);
+	}
+
+	// outputing to the console:
+	std::cout << "Entry number: " << e.entry_number << '\n';
+	for (const auto& s : s_v) {
+		std::cout << "arg: " << s << '\n';
+	}
+	std::cout << "Destination Path: " << e.dst_p << '\n';
+	std::cout << "Source Path: " << e.src_p << '\n';
+	
+}
+
+void core::output_fse(const std::filesystem::filesystem_error& e)
+{
+	std::cout << "Message: " << e.what() << '\n' << "Path 1: " 
+		<< e.path1() << '\n' << "Path 2: " << e.path2() << '\n';
+}
+
+std::uintmax_t core::file_numbers(const std::filesystem::path& p)
+{
+	try {
+		std::uintmax_t count = 0;
+		if (std::filesystem::exists(p) && std::filesystem::is_directory(p)) {
+			for (const auto& entry : std::filesystem::directory_iterator(p)) {
+				if (entry.is_regular_file()) {
+					++count;
+				}
+			}
+		}
+		return count;
+	}
+	catch (const std::filesystem::filesystem_error& e) {
+		output_fse(e);
+	}
+	catch (...) {
+		std::cout << "unknown exception caught...\n";
+	}
+	return 0;
+}
+
+std::unordered_set<core::directory_info> core::get_all_directories(const std::filesystem::path& p)
+{
+	try {
+		if (std::filesystem::exists(p) == false or std::filesystem::is_directory(p) == false) {
+			return {};
+		}
+
+		std::unordered_set<core::directory_info> di_set;
+
+		for (const auto& entry : std::filesystem::recursive_directory_iterator(p)) {
+			directory_info di;
+			if (entry.is_directory() == true) {
+				di.p = entry.path();
+				di.number_of_files = file_numbers(entry.path());
+				di_set.emplace(di);
+			}
+		}
+
+		return di_set;
+	}
+	catch (const std::filesystem::filesystem_error& e) {
+		output_fse(e);
+	}
+	catch (...) {
+		std::cout << "unknown exception caught...\n";
+	}
+	return {};
+}
+
+void core::background_task(const file_entry& entry)
+{
+	switch (entry.completed_action) {
+	case directory_completed_action::recursive_copy:
+	{
+		try {
+			auto set = entry.p_di_set;
+			for (const auto& i : std::filesystem::recursive_directory_iterator(entry.dst_p)) {
+				directory_info di;
+				if (i.is_directory() == true) {
+					di.number_of_files = file_numbers(i.path());
+					di.p = i.path();
+					di.action = entry.completed_action;
+					set->emplace(di);
+				}
+			}
+		}
+		catch (const std::filesystem::filesystem_error& e) {
+			output_fse(e);
+		}
+		catch (...) {
+			std::cout << "unknown exception caught...\n";
+		}
+		break;
+	}
+
+	case directory_completed_action::delete_all:
+	{
+		try {
+			auto set = entry.p_di_set;
+			for (const auto& i : std::filesystem::recursive_directory_iterator(entry.dst_p)) {
+				directory_info di;
+				if (i.is_directory() == true) {
+					di.number_of_files = file_numbers(i.path());
+					di.p = i.path();
+					di.action = entry.completed_action;
+					set->erase(di);
+				}
+			}
+		}
+		catch (const std::filesystem::filesystem_error& e) {
+			output_fse(e);
+		}
+		catch (...) {
+			std::cout << "unknown exception caught...\n";
+		}
+		break;
+	}
+
+	case directory_completed_action::previous_name:
+	{
+
+		break;
+	}
+
+	case directory_completed_action::new_name:
+	{
+
+		break;
+	}
+
+	default:
+		// do
+		break;
+	}
 }

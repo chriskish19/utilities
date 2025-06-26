@@ -19,6 +19,10 @@ namespace core {
         file_open_fail,
         unknown,
         invalid_cmd_args,
+        invalid_io_handle,
+        handle_nullptr,
+        read_dir_changes_fail,
+        no_valid_entries,
     };
 
     class code_pkg {
@@ -37,4 +41,8 @@ namespace core {
     inline const code_pkg file_open_fail_pkg(codes::file_open_fail, "core::codes::file_open_fail | message: error occurred while attempting to open a file.");
     inline const code_pkg c_unknown_pkg(codes::unknown, "core::codes::unknown | message: unknown error code.");
     inline const code_pkg invalid_cmd_args_pkg(codes::invalid_cmd_args, "core::codes::invalid_cmd_args | message: one or more command line arguments is invalid.");
+    inline const code_pkg invalid_io_handle_pkg(codes::invalid_io_handle, "core::codes::invalid_io_handle | message: the handle was not created call the win32 function GetLastError() for more info.");
+    inline const code_pkg handle_nullptr_pkg(codes::handle_nullptr, "core::codes::handle_nullptr | message: the windows win32 handle is nullptr,call the win32 function GetLastError() for more info.");
+    inline const code_pkg read_dir_changes_fail_pkg(codes::read_dir_changes_fail, "core::codes::read_dir_changes_fail | message: the windows function ReadDirectoryChangesW() failed ,call the win32 function GetLastError() for more info.");
+    inline const code_pkg no_valid_entries_pkg(codes::no_valid_entries, "core::codes::no_valid_entries | message: in the dirt_list.txt file given no valid entries were found, probably a syntax error.");
 }
