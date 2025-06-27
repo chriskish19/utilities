@@ -25,7 +25,7 @@ namespace core {
 		unknown,
 		src,
 		dst,
-
+		recursive,
 	};
 
 
@@ -48,7 +48,7 @@ namespace core {
 	inline const arg_pkg unknown_pkg(args::unknown, "-unknown");
 	inline const arg_pkg src_pkg(args::src, "src");
 	inline const arg_pkg dst_pkg(args::dst, "dst");
-
+	inline const arg_pkg recursive_pkg(args::recursive, "-recursive");
 
 	inline const std::unordered_map<std::string, args> gbl_args_mp = {
 		{"-copy", args::copy},
@@ -60,7 +60,8 @@ namespace core {
 		{"-no_deletes", args::no_deletes},
 		{"-unknown", args::unknown},
 		{"src" , args::src},
-		{"dst" , args::dst}
+		{"dst" , args::dst},
+		{"-recursive" , args::recursive}
 	};
 
 	class base_group {
@@ -89,7 +90,7 @@ namespace core {
 
 	class group_2 : public base_group {
 	public:
-		// initial copy of src to dst, and copy any future changes
+		// initial copy of src to dst
 		args arg1 = args::copy;  
 
 		// mirrors src to dst, any changes in src are reflected in dst
@@ -192,7 +193,7 @@ namespace core {
 		}
 	};
 
-	class group_5 : public group_3 ,public base_group {
+	class group_5 : public group_3 {
 	public:
 		args arg1 = args::new_files_only;
 

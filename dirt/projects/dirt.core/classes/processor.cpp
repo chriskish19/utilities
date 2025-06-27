@@ -20,26 +20,7 @@ core::process::process(const std::vector<arg_entry>& entry_v)
 
 core::process::~process()
 {
-    for (auto handle : m_file_handle_v) {
-        CloseHandle(handle);
-    }
-
-    for (auto c : m_context_v) {
-        if (c != nullptr) {
-            delete c;
-            c = nullptr;
-        }
-    }
-
-    for (auto p : m_di_set_p_v) {
-        if (p != nullptr) {
-            delete p;
-            p = nullptr;
-        }
-    }
-
-
-    CloseHandle(m_hIOCP);
+    clean_up();
 }
 
 core::codes core::process::process_entry()
@@ -70,7 +51,7 @@ core::codes core::process::process_entry()
         ctx->dst = entry.dst_p;
         ctx->di_set = new std::unordered_set(get_all_directories(entry.src_p));
 
-        CreateIoCompletionPort(hDir, m_hIOCP, (ULONG_PTR)ctx, 0);
+        m_hCompletionPort = CreateIoCompletionPort(hDir, m_hIOCP, (ULONG_PTR)ctx, 0);
 
         if (!ReadDirectoryChangesW(
             hDir,
@@ -85,6 +66,7 @@ core::codes core::process::process_entry()
         )) {
             CloseHandle(hDir);
             delete ctx;
+            clean_up();
             return codes::read_dir_changes_fail;
         }
 
@@ -98,6 +80,9 @@ core::codes core::process::process_entry()
 
 core::codes core::process::watch()
 {
+    std::jthread queue_sys_t(&queue_system::process_entry, this);
+    
+    
     while (
         GetQueuedCompletionStatus(m_hCompletionPort,&m_bytesTransferred,&m_completionKey,&m_pOverlapped,INFINITE)) {
 
@@ -118,9 +103,11 @@ core::codes core::process::watch()
                 entry.s = std::filesystem::status(entry.src_p);
             }
             catch (const std::filesystem::filesystem_error& e) {
+                output_em(std_filesystem_exception_caught_pkg);
                 output_fse(e);
             }
             catch (...) {
+                output_em(unknown_exception_caught_pkg);
                 std::cout << "unknown exception caught...\n";
             }
 
@@ -133,6 +120,11 @@ core::codes core::process::watch()
                 break;
             pNotify = (FILE_NOTIFY_INFORMATION*)((BYTE*)pNotify + pNotify->NextEntryOffset);
         } while (true);
+
+
+        // signal queue system
+        m_launch_b.store(true);
+        m_launch_cv.notify_all();
 
         // Re-issue the read
         ZeroMemory(&ctx->overlapped, sizeof(OVERLAPPED));
@@ -147,9 +139,20 @@ core::codes core::process::watch()
             &ctx->overlapped,
             NULL
         )) {
+            // signal queue system to finish
+            m_launch_b.store(true);
+            m_launch_cv.notify_all();
+
+            // break while loop
+            m_runner.store(false);
+
+            // queue_sys_t thread will auto join on exit
+
             return codes::read_dir_changes_fail;
         }
     }
+
+    return codes::success;
 }
 
 core::file_action core::process::convert_action(DWORD action)
@@ -186,11 +189,45 @@ core::directory_completed_action core::process::convert_directory_action(DWORD a
     }
 }
 
+void core::process::clean_up()
+{
+    for (auto handle : m_file_handle_v) {
+        CloseHandle(handle);
+    }
+
+    for (auto c : m_context_v) {
+        if (c != nullptr) {
+            delete c;
+            c = nullptr;
+        }
+    }
+
+    for (auto p : m_di_set_p_v) {
+        if (p != nullptr) {
+            delete p;
+            p = nullptr;
+        }
+    }
+
+    CloseHandle(m_hCompletionPort);
+    CloseHandle(m_hIOCP);
+}
+
 void core::queue_system::process_entry()
 {
-    while (true) {
+    while (m_runner.load() == true) {
         
         // trigger here
+        {
+            std::unique_lock<std::mutex> local_lock(m_launch_mtx);
+            m_launch_cv.wait(local_lock, [this]
+                {
+                    return m_launch_b.load();
+                });
+        }
+
+
+
 
         {
             std::unique_lock<std::mutex> local_lock(m_queue_mtx);
@@ -239,7 +276,7 @@ void core::queue_system::process_entry()
             }
 
             if (entry.completed_action != directory_completed_action::uninit) {
-                m_bgtv.push_back(std::thread(&background_task, &entry));
+                m_bgtv.push_back(std::thread(&background_task, entry));
             }
             
             m_entry_buffer.pop();
@@ -252,6 +289,7 @@ void core::queue_system::process_entry()
             }
         }
 
+        m_launch_b.store(false);
         m_bgtv.clear();
     }
 }
@@ -273,9 +311,11 @@ void core::queue_system::regular_file(file_entry& entry)
                 std::filesystem::copy_options::update_existing);
         }
         catch (const std::filesystem::filesystem_error& e) {
+            output_em(std_filesystem_exception_caught_pkg);
             output_fse(e);
         }
         catch (...) {
+            output_em(unknown_exception_caught_pkg);
             std::cout << "unknown exception caught...\n";
         }
 
@@ -290,9 +330,11 @@ void core::queue_system::regular_file(file_entry& entry)
             removed = std::filesystem::remove(entry.dst_p);
         }
         catch (const std::filesystem::filesystem_error& e) {
+            output_em(std_filesystem_exception_caught_pkg);
             output_fse(e);
         }
         catch (...) {
+            output_em(unknown_exception_caught_pkg);
             std::cout << "unknown exception caught...\n";
         }
 
@@ -310,9 +352,11 @@ void core::queue_system::regular_file(file_entry& entry)
                 std::filesystem::copy_options::update_existing);
         }
         catch (const std::filesystem::filesystem_error& e) {
+            output_em(std_filesystem_exception_caught_pkg);
             output_fse(e);
         }
         catch (...) {
+            output_em(unknown_exception_caught_pkg);
             std::cout << "unknown exception caught...\n";
         }
 
@@ -356,6 +400,7 @@ void core::queue_system::directory(file_entry& entry)
             entry.completed_action = directory_completed_action::recursive_copy;
         }
         catch (const std::filesystem::filesystem_error& e) {
+            output_em(std_filesystem_exception_caught_pkg);
             output_fse(e);
         }
         catch (...) {
@@ -373,6 +418,7 @@ void core::queue_system::directory(file_entry& entry)
             removed = std::filesystem::remove_all(entry.dst_p);
         }
         catch (const std::filesystem::filesystem_error& e) {
+            output_em(std_filesystem_exception_caught_pkg);
             output_fse(e);
         }
         catch (...) {
@@ -399,6 +445,7 @@ void core::queue_system::directory(file_entry& entry)
                 std::filesystem::copy_options::update_existing);
         }
         catch (const std::filesystem::filesystem_error& e) {
+            output_em(std_filesystem_exception_caught_pkg);
             output_fse(e);
         }
         catch (...) {

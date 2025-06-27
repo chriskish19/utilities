@@ -41,6 +41,18 @@ namespace core {
 
 		// background task thread vector
 		std::vector<std::thread> m_bgtv;
+
+		// process entry loop runner
+		std::atomic<bool> m_runner = true;
+
+		// mutex for launching process entry
+		std::mutex m_launch_mtx;
+
+		// condition variable for launching process entry
+		std::condition_variable m_launch_cv;
+
+		// boolean for launching process entry
+		std::atomic<bool> m_launch_b;
 	};
 
 
@@ -72,13 +84,15 @@ namespace core {
 		DWORD m_bytesTransferred = 0;
 		ULONG_PTR m_completionKey = {};
 		LPOVERLAPPED m_pOverlapped = {nullptr};
-		HANDLE m_hCompletionPort = {nullptr};
+		HANDLE m_hCompletionPort = { nullptr };
 		HANDLE m_hIOCP = {nullptr};
 
 		file_action convert_action(DWORD action);
 		directory_completed_action convert_directory_action(DWORD action);
 
 		std::vector<std::unordered_set<directory_info>*> m_di_set_p_v;
+
+		void clean_up();
 	};
 
 

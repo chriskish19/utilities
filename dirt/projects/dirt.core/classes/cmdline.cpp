@@ -22,27 +22,27 @@ core::cmdline::cmdline(int argc, char* argv[])
 core::codes core::cmdline::parse()
 {
     
-    std::size_t args_count = m_args_v.size();
-
-    // dirt_list_txt used
-    if (args_count == 2) {
-        for (const auto& s : m_args_v) {
-            if (m_next_is_dirt_path == true) {
-                m_dirt_list_txt_path = s;
-                break;
-            }
-
-
-            // look for dirt_lists.txt
-            auto found = core::gbl_args_mp.find(s);
-            if (found != core::gbl_args_mp.end()) {
-                if (found->second == core::args::dirt_list_path) {
-                    m_next_is_dirt_path = true;
-                }
-            }
+    for (const auto& s : m_args_v) {
+        if (m_next_is_dirt_path == true) {
+            m_dirt_list_txt_path = s;
+            m_dirt_lists_used = true;
+            break;
         }
 
-        if (std::filesystem::is_directory(m_dirt_list_txt_path) == false) {
+
+        // look for dirt_lists.txt
+        auto found = core::gbl_args_mp.find(s);
+        if (found != core::gbl_args_mp.end()) {
+            if (found->second == core::args::dirt_list_path) {
+                m_next_is_dirt_path = true;
+            }
+        }
+    }
+
+
+    // dirt_list_txt used
+    if (m_dirt_lists_used == true) {
+        if (std::filesystem::is_regular_file(m_dirt_list_txt_path) == false) {
             return codes::invalid_file_path;
         }
 
@@ -53,8 +53,6 @@ core::codes core::cmdline::parse()
         if (code != core::codes::success) {
             return code;
         }
-
-        m_dirt_lists_used = true;
 
     } // cmdline args : used one entry
     else {
@@ -86,7 +84,7 @@ core::codes core::cmdline::parse()
         }
 
     }
-    
+    return codes::success;
 }
 
 core::codes core::cmdline::validate()
@@ -103,7 +101,7 @@ core::codes core::cmdline::validate()
         }
 
         for (auto i : invalid_entrys_v) {
-            m_entrys_v.erase(m_entrys_v.begin() + i);
+            m_entrys_v.erase(m_entrys_v.begin() + (i -1));
         }
 
         if (m_entrys_v.empty()) {
@@ -116,6 +114,8 @@ core::codes core::cmdline::validate()
             output_entry(m_cmdline_entry);
             return codes::no_valid_entries;
         }
+
+        m_entrys_v.push_back(m_cmdline_entry);
     }
     return codes::success;
 }

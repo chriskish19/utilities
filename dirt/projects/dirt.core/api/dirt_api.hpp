@@ -32,4 +32,6 @@ namespace core {
 	std::uintmax_t file_numbers(const std::filesystem::path& p);
 	std::unordered_set<directory_info> get_all_directories(const std::filesystem::path& p);
 	void background_task(const file_entry& entry);
+	codes copy_directory_only(const std::filesystem::path& dst, const std::filesystem::path& src);
+	codes copy_directory_recursive(const std::filesystem::path& dst, const std::filesystem::path& src);
 }

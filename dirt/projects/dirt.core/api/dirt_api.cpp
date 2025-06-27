@@ -33,6 +33,8 @@ core::arg_pkg core::match_arg_enum(args arg)
 		return src_pkg;
 	case args::dst:
 		return dst_pkg;
+	case args::recursive:
+		return recursive_pkg;
 	default:
 		return unknown_pkg;
 	}
@@ -67,6 +69,10 @@ core::arg_pkg core::match_s_arg(const std::string& arg)
 	if (arg == dst_pkg.m_s_arg) {
 		return dst_pkg;
 	}
+	if (arg == recursive_pkg.m_s_arg) {
+		return recursive_pkg;
+	}
+	return unknown_pkg;
 }
 
 core::code_pkg core::match_code(codes code)
@@ -90,6 +96,14 @@ core::code_pkg core::match_code(codes code)
 		return no_valid_entries_pkg;
 	case codes::read_dir_changes_fail:
 		return read_dir_changes_fail_pkg;
+	case codes::std_filesystem_exception_caught:
+		return std_filesystem_exception_caught_pkg;
+	case codes::invalid_directory_path:
+		return invalid_directory_path_pkg;
+	case codes::unknown_exception_caught:
+		return unknown_exception_caught_pkg;
+	case codes::exception_thrown_and_handled:
+		return exception_thrown_and_handled_pkg;
 	default:
 		return c_unknown_pkg;
 	}
@@ -150,6 +164,7 @@ std::vector<core::arg_entry> core::parse_file(const std::filesystem::path& p, co
 	std::vector<arg_entry> entry_v;
 	std::string line;
 	std::size_t entry_number = 0;
+	std::string last_word;
 
 	while (std::getline(file, line)) {
 		// ignore blank lines
@@ -170,7 +185,6 @@ std::vector<core::arg_entry> core::parse_file(const std::filesystem::path& p, co
 
 		std::string word;
 		std::istringstream iss(line);
-		std::string last_word;
 		while (iss >> word) {
 			
 			auto found = core::gbl_args_mp.find(word);
@@ -224,12 +238,13 @@ std::vector<core::arg_entry> core::parse_file(const std::filesystem::path& p, co
 	}
 
 	*code_p = codes::success;
+	return entry_v;
 }
 
 std::vector<core::args> core::arg_pkg_to_args(const std::vector<arg_pkg>& args_pkg_v)
 {
 	std::vector<core::args> args_v;
-	for (auto arg : args_pkg_v) {
+	for (auto& arg : args_pkg_v) {
 		args_v.push_back(arg.m_arg);
 	}
 	return args_v;
@@ -252,8 +267,8 @@ bool core::validate_entry(const arg_entry& e)
 		return false;
 	}
 
-	return	std::filesystem::exists(e.src_p) and
-			std::filesystem::exists(e.dst_p);
+	return	std::filesystem::is_directory(e.src_p) and
+			std::filesystem::is_directory(e.dst_p);
 }
 
 std::string core::get_last_error_w32()
@@ -325,6 +340,7 @@ std::uintmax_t core::file_numbers(const std::filesystem::path& p)
 		return count;
 	}
 	catch (const std::filesystem::filesystem_error& e) {
+		output_em(std_filesystem_exception_caught_pkg);
 		output_fse(e);
 	}
 	catch (...) {
@@ -354,6 +370,7 @@ std::unordered_set<core::directory_info> core::get_all_directories(const std::fi
 		return di_set;
 	}
 	catch (const std::filesystem::filesystem_error& e) {
+		output_em(std_filesystem_exception_caught_pkg);
 		output_fse(e);
 	}
 	catch (...) {
@@ -380,6 +397,7 @@ void core::background_task(const file_entry& entry)
 			}
 		}
 		catch (const std::filesystem::filesystem_error& e) {
+			output_em(std_filesystem_exception_caught_pkg);
 			output_fse(e);
 		}
 		catch (...) {
@@ -403,6 +421,7 @@ void core::background_task(const file_entry& entry)
 			}
 		}
 		catch (const std::filesystem::filesystem_error& e) {
+			output_em(std_filesystem_exception_caught_pkg);
 			output_fse(e);
 		}
 		catch (...) {
@@ -427,4 +446,50 @@ void core::background_task(const file_entry& entry)
 		// do
 		break;
 	}
+}
+
+core::codes core::copy_directory_only(const std::filesystem::path& dst, const std::filesystem::path& src)
+{
+	try {
+		if (std::filesystem::is_directory(dst) == false or std::filesystem::is_directory(src) == false) {
+			return codes::invalid_directory_path;
+		}
+
+		std::filesystem::copy(src, dst, std::filesystem::copy_options::update_existing);
+
+		return codes::success;
+	}
+	catch (const std::filesystem::filesystem_error& e) {
+		output_em(std_filesystem_exception_caught_pkg);
+		output_fse(e);
+	}
+	catch (...) {
+		output_em(unknown_exception_caught_pkg);
+		std::cout << "unknown exception caught...\n";
+	}
+	return codes::exception_thrown_and_handled;
+}
+
+core::codes core::copy_directory_recursive(const std::filesystem::path& dst, const std::filesystem::path& src)
+{
+	try {
+		if (std::filesystem::is_directory(dst) == false or std::filesystem::is_directory(src) == false) {
+			return codes::invalid_directory_path;
+		}
+
+		std::filesystem::copy(src, dst, 
+			std::filesystem::copy_options::update_existing |
+			std::filesystem::copy_options::recursive);
+
+		return codes::success;
+	}
+	catch (const std::filesystem::filesystem_error& e) {
+		output_em(std_filesystem_exception_caught_pkg);
+		output_fse(e);
+	}
+	catch (...) {
+		output_em(unknown_exception_caught_pkg);
+		std::cout << "unknown exception caught...\n";
+	}
+	return codes::exception_thrown_and_handled;
 }
