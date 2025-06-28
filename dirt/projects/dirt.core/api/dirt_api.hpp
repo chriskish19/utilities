@@ -34,4 +34,7 @@ namespace core {
 	void background_task(const file_entry& entry);
 	codes copy_directory_only(const std::filesystem::path& dst, const std::filesystem::path& src);
 	codes copy_directory_recursive(const std::filesystem::path& dst, const std::filesystem::path& src);
+	std::string action_to_string(file_action action);
+	void output_entry_data(const file_entry& entry);
+	std::string file_type_to_string(std::filesystem::file_type type);
 }

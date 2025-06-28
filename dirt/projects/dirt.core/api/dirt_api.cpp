@@ -493,3 +493,58 @@ core::codes core::copy_directory_recursive(const std::filesystem::path& dst, con
 	}
 	return codes::exception_thrown_and_handled;
 }
+
+std::string core::action_to_string(file_action action)
+{
+	switch (action) {
+	case file_action::copy:
+		return "copy the file from the source directory to the destination directory";
+	case file_action::delete_dst:
+		return "delete the file in the destination directory";
+	case file_action::modified:
+		return "file has been modified";
+	case file_action::new_name:
+		return "file has been renamed, this is the new name";
+	case file_action::previous_name:
+		return "file has been renamed, this is the old name";
+	case file_action::uninit:
+		return "the file action enum is uninitialized, no value has been set";
+	default:
+		return "no matching file action enum found";
+	}
+}
+
+std::string core::file_type_to_string(std::filesystem::file_type type) {
+	switch (type) {
+	case std::filesystem::file_type::none:
+		return "No file type information available.";
+	case std::filesystem::file_type::not_found:
+		return "The file does not exist.";
+	case std::filesystem::file_type::regular:
+		return "A regular file (like a text or binary file).";
+	case std::filesystem::file_type::directory:
+		return "A directory or folder.";
+	case std::filesystem::file_type::symlink:
+		return "A symbolic link (symlink).";
+	case std::filesystem::file_type::block:
+		return "A block device (like a hard drive or disk partition).";
+	case std::filesystem::file_type::character:
+		return "A character device (like a serial port or terminal).";
+	case std::filesystem::file_type::fifo:
+		return "A FIFO (named pipe).";
+	case std::filesystem::file_type::socket:
+		return "A Unix domain socket.";
+	case std::filesystem::file_type::unknown:
+		return "The file type is unknown.";
+	default:
+		return "Unrecognized or unsupported file type.";
+	}
+}
+
+void core::output_entry_data(const file_entry& entry)
+{
+	std::cout << "\nDisplaying Entry: \n" << "Source Path: " << entry.src_p
+		<< '\n' << "Destination Path: " << entry.dst_p << '\n'
+		<< "Action: " << action_to_string(entry.action) << '\n'
+		<< "File type: " << file_type_to_string(entry.s.type()) << '\n';
+}

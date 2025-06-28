@@ -224,6 +224,9 @@ void core::queue_system::process_entry()
                 {
                     return m_launch_b.load();
                 });
+
+            // timer here, seconds to wait time
+            std::this_thread::sleep_for(std::chrono::seconds(BUFFER_TIME));
         }
 
 
@@ -237,6 +240,7 @@ void core::queue_system::process_entry()
         
         while (m_entry_buffer.empty() == false) {
             file_entry entry = m_entry_buffer.front();
+            output_entry_data(entry);
 
             switch (entry.s.type())
             {
@@ -307,6 +311,11 @@ void core::queue_system::regular_file(file_entry& entry)
     {
 
         try {
+            if (std::filesystem::exists(entry.src_p) == false) {
+                // the file has been deleted during the wait time
+                break;
+            }
+
             std::filesystem::copy_file(entry.src_p, entry.dst_p,
                 std::filesystem::copy_options::update_existing);
         }
@@ -327,6 +336,11 @@ void core::queue_system::regular_file(file_entry& entry)
 
         bool removed = false;
         try {
+            if (std::filesystem::exists(entry.dst_p) == false) {
+                // the file has been deleted manually
+                break;
+            }
+
             removed = std::filesystem::remove(entry.dst_p);
         }
         catch (const std::filesystem::filesystem_error& e) {
@@ -348,6 +362,11 @@ void core::queue_system::regular_file(file_entry& entry)
     case file_action::modified:
     {
         try {
+            if (std::filesystem::exists(entry.src_p) == false) {
+                // the file has been deleted during the wait time
+                break;
+            }
+
             std::filesystem::copy_file(entry.src_p, entry.dst_p,
                 std::filesystem::copy_options::update_existing);
         }
@@ -393,6 +412,11 @@ void core::queue_system::directory(file_entry& entry)
     {
 
         try {
+            if (std::filesystem::exists(entry.src_p) == false) {
+                // the directory has been deleted during the wait time
+                break;
+            }
+
             std::filesystem::copy(entry.src_p, entry.dst_p,
                 std::filesystem::copy_options::update_existing | 
                 std::filesystem::copy_options::recursive);
@@ -415,6 +439,11 @@ void core::queue_system::directory(file_entry& entry)
         
         std::uintmax_t removed = 0;
         try {
+            if (std::filesystem::exists(entry.dst_p) == false) {
+                // the directory has been deleted manually
+                break;
+            }
+
             removed = std::filesystem::remove_all(entry.dst_p);
         }
         catch (const std::filesystem::filesystem_error& e) {
@@ -441,7 +470,12 @@ void core::queue_system::directory(file_entry& entry)
     case file_action::modified:
     {
         try {
-            std::filesystem::copy_file(entry.src_p, entry.dst_p,
+            if (std::filesystem::exists(entry.src_p) == false) {
+                // the directory has been deleted during the wait time
+                break;
+            }
+
+            std::filesystem::copy(entry.src_p, entry.dst_p,
                 std::filesystem::copy_options::update_existing);
         }
         catch (const std::filesystem::filesystem_error& e) {

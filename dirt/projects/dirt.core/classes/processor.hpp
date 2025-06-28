@@ -20,7 +20,7 @@
 
 // 4 MB Buffer
 #define BUFFER_SIZE 1024 * 1024 * 4
-
+#define BUFFER_TIME 10
 
 namespace core {
 	class queue_system {
@@ -62,7 +62,7 @@ namespace core {
 		HANDLE hDir = {nullptr};
 		std::filesystem::path src;
 		std::filesystem::path dst;
-		std::unordered_set<directory_info>* di_set;
+		std::unordered_set<directory_info>* di_set = nullptr;
 	};
 
 
