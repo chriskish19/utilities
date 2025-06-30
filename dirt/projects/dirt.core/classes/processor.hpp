@@ -23,7 +23,45 @@
 #define BUFFER_TIME 10
 
 namespace core {
-	class queue_system {
+	class background_queue_system {
+	public:
+		background_queue_system() = default;
+
+		void delayed_process_entry();
+
+		void add_delayed_entry(const file_entry& entry);
+	protected:
+		virtual void regular_file(file_entry& entry);
+		virtual void directory(file_entry& entry);
+		virtual void not_found(file_entry& entry);
+
+		virtual void switch_entry_type(file_entry& entry);
+
+		std::queue<file_entry> m_delayed_q;
+
+		virtual void filesystem_ec(const std::filesystem::filesystem_error& e, const file_entry& entry);
+
+		// mutex for m_delayed_q
+		std::mutex m_dq_mtx;
+		
+		// delayed process entry loop runner
+		std::atomic<bool> m_run_dpe = true;
+
+		// mutex for launching delayed process entry
+		std::mutex m_launch_dpe_mtx;
+
+		// condition variable for launching delayed process entry
+		std::condition_variable m_launch_dpe_cv;
+
+		// boolean for launching delayed process entry
+		std::atomic<bool> m_launch_dpe_b;
+
+		// exit delayed process entry function
+		void exit_dpe();
+	};
+
+
+	class queue_system : public background_queue_system {
 	public:
 		queue_system() = default;
 
@@ -31,12 +69,13 @@ namespace core {
 
 		void add_entry(const file_entry& entry);
 	protected:
-		void regular_file(file_entry& entry);
-		void directory(file_entry& entry);
+		void regular_file(file_entry& entry) override;
+		void directory(file_entry& entry) override;
+		void not_found(file_entry& entry) override;
 
 		std::queue<file_entry> m_entry_buffer;
 		std::queue<file_entry> m_entry_q;
-
+		
 		std::mutex m_queue_mtx;
 
 		// background task thread vector
@@ -53,6 +92,17 @@ namespace core {
 
 		// boolean for launching process entry
 		std::atomic<bool> m_launch_b;
+
+		void background_task(const file_entry& entry);
+		
+		// mutex for std::unordered_set<directory_info>* di_set in each entry
+		std::mutex m_set_mtx;
+
+		void filesystem_ec(const std::filesystem::filesystem_error& e, const file_entry& entry) override;
+
+		void switch_entry_type(file_entry& entry) override;
+
+		void exit_process_entry();
 	};
 
 
@@ -75,7 +125,12 @@ namespace core {
 
 		codes watch();
 	protected:
-		std::vector<arg_entry> m_entry_v;
+		codes process_watch_entries();
+		codes process_copy_entries();
+
+		std::vector<arg_entry> m_watch_entries_v;
+		std::vector<arg_entry> m_copy_entries_v;
+
 
 		std::vector<DirWatchContext*> m_context_v;
 

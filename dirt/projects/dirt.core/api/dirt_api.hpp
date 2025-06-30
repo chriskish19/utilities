@@ -31,10 +31,13 @@ namespace core {
 	void output_fse(const std::filesystem::filesystem_error& e);
 	std::uintmax_t file_numbers(const std::filesystem::path& p);
 	std::unordered_set<directory_info> get_all_directories(const std::filesystem::path& p);
-	void background_task(const file_entry& entry);
 	codes copy_directory_only(const std::filesystem::path& dst, const std::filesystem::path& src);
 	codes copy_directory_recursive(const std::filesystem::path& dst, const std::filesystem::path& src);
 	std::string action_to_string(file_action action);
 	void output_entry_data(const file_entry& entry);
 	std::string file_type_to_string(std::filesystem::file_type type);
+	void output_filesystem_ec(std::error_code ec);
+	std::vector<arg_entry> get_specific_entries(const std::vector<arg_entry>& v,args specific_arg);
+	std::uintmax_t total_size(const std::filesystem::path& p);
+	void progress_dots_in_terminal(int count = 3, int delay_ms = 300, int repeat = 3);
 }

@@ -344,7 +344,7 @@ std::uintmax_t core::file_numbers(const std::filesystem::path& p)
 		output_fse(e);
 	}
 	catch (...) {
-		std::cout << "unknown exception caught...\n";
+		output_em(unknown_exception_caught_pkg);
 	}
 	return 0;
 }
@@ -374,78 +374,9 @@ std::unordered_set<core::directory_info> core::get_all_directories(const std::fi
 		output_fse(e);
 	}
 	catch (...) {
-		std::cout << "unknown exception caught...\n";
+		output_em(unknown_exception_caught_pkg);
 	}
 	return {};
-}
-
-void core::background_task(const file_entry& entry)
-{
-	switch (entry.completed_action) {
-	case directory_completed_action::recursive_copy:
-	{
-		try {
-			auto set = entry.p_di_set;
-			for (const auto& i : std::filesystem::recursive_directory_iterator(entry.dst_p)) {
-				directory_info di;
-				if (i.is_directory() == true) {
-					di.number_of_files = file_numbers(i.path());
-					di.p = i.path();
-					di.action = entry.completed_action;
-					set->emplace(di);
-				}
-			}
-		}
-		catch (const std::filesystem::filesystem_error& e) {
-			output_em(std_filesystem_exception_caught_pkg);
-			output_fse(e);
-		}
-		catch (...) {
-			std::cout << "unknown exception caught...\n";
-		}
-		break;
-	}
-
-	case directory_completed_action::delete_all:
-	{
-		try {
-			auto set = entry.p_di_set;
-			for (const auto& i : std::filesystem::recursive_directory_iterator(entry.dst_p)) {
-				directory_info di;
-				if (i.is_directory() == true) {
-					di.number_of_files = file_numbers(i.path());
-					di.p = i.path();
-					di.action = entry.completed_action;
-					set->erase(di);
-				}
-			}
-		}
-		catch (const std::filesystem::filesystem_error& e) {
-			output_em(std_filesystem_exception_caught_pkg);
-			output_fse(e);
-		}
-		catch (...) {
-			std::cout << "unknown exception caught...\n";
-		}
-		break;
-	}
-
-	case directory_completed_action::previous_name:
-	{
-
-		break;
-	}
-
-	case directory_completed_action::new_name:
-	{
-
-		break;
-	}
-
-	default:
-		// do
-		break;
-	}
 }
 
 core::codes core::copy_directory_only(const std::filesystem::path& dst, const std::filesystem::path& src)
@@ -465,7 +396,6 @@ core::codes core::copy_directory_only(const std::filesystem::path& dst, const st
 	}
 	catch (...) {
 		output_em(unknown_exception_caught_pkg);
-		std::cout << "unknown exception caught...\n";
 	}
 	return codes::exception_thrown_and_handled;
 }
@@ -489,7 +419,6 @@ core::codes core::copy_directory_recursive(const std::filesystem::path& dst, con
 	}
 	catch (...) {
 		output_em(unknown_exception_caught_pkg);
-		std::cout << "unknown exception caught...\n";
 	}
 	return codes::exception_thrown_and_handled;
 }
@@ -541,10 +470,61 @@ std::string core::file_type_to_string(std::filesystem::file_type type) {
 	}
 }
 
+void core::output_filesystem_ec(std::error_code ec)
+{
+	std::cout << "filesystem error (" << ec.value() << "): " << ec.message() << '\n';
+}
+
+std::vector<core::arg_entry> core::get_specific_entries(const std::vector<arg_entry>& v, args specific_arg)
+{
+	std::vector<core::arg_entry> watch_entries_v;
+	for (const auto& e : v) {
+		auto found = std::find(e.args_v.begin(), e.args_v.end(), specific_arg);
+		if (found != e.args_v.end()) {
+			watch_entries_v.push_back(e);
+		}
+	}
+	return watch_entries_v;
+}
+
+std::uintmax_t core::total_size(const std::filesystem::path& p)
+{
+	try {
+		std::uintmax_t total_file_size = 0;
+		if (std::filesystem::exists(p) == true && std::filesystem::is_directory(p) == true) {
+			for (const auto& entry : std::filesystem::directory_iterator(p)) {
+				total_file_size += entry.file_size();
+			}
+		}
+		return total_file_size;
+	}
+	catch (const std::filesystem::filesystem_error& e) {
+		output_em(std_filesystem_exception_caught_pkg);
+		output_fse(e);
+	}
+	catch (...) {
+		output_em(unknown_exception_caught_pkg);
+	}
+	return 0;
+}
+
+void core::progress_dots_in_terminal(int count, int delay_ms, int repeat)
+{
+	for (int r = 0; r < repeat; ++r) {
+		for (int i = 1; i <= count; ++i) {
+			std::cout << "\rProcessing";
+			for (int j = 0; j < i; ++j) std::cout << '.';
+			std::cout << std::flush;
+			std::this_thread::sleep_for(std::chrono::milliseconds(delay_ms));
+		}
+	}
+	std::cout << "\rProcessing   \r"; // Clear line after animation
+}
+
 void core::output_entry_data(const file_entry& entry)
 {
 	std::cout << "\nDisplaying Entry: \n" << "Source Path: " << entry.src_p
 		<< '\n' << "Destination Path: " << entry.dst_p << '\n'
 		<< "Action: " << action_to_string(entry.action) << '\n'
-		<< "File type: " << file_type_to_string(entry.s.type()) << '\n';
+		<< "File type: " << file_type_to_string(entry.src_s.type()) << '\n';
 }

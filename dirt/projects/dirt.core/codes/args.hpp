@@ -268,7 +268,7 @@ namespace core {
 		file_action action;
 		std::filesystem::path dst_p;
 		std::filesystem::path src_p;
-		std::filesystem::file_status s;
+		std::filesystem::file_status src_s;
 		std::unordered_set<directory_info>* p_di_set;
 	};
 }
@@ -279,8 +279,7 @@ namespace std {
 	struct hash<core::directory_info> {
 		std::size_t operator()(const core::directory_info& d) const noexcept {
 			std::size_t h1 = std::hash<std::filesystem::path>{}(d.p);
-			std::size_t h2 = std::hash<std::uintmax_t>{}(d.number_of_files);
-			return h1 ^ (h2 << 1);
+			return h1;
 		}
 	};
 }

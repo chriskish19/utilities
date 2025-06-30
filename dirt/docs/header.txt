@@ -15,9 +15,9 @@ try {
 		
 }
 catch (const std::filesystem::filesystem_error& e) {
+	output_em(std_filesystem_exception_caught_pkg);
 	output_fse(e);
 }
 catch (...) {
 	output_em(unknown_exception_caught_pkg);
-	std::cout << "unknown exception caught...\n";
 }
