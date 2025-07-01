@@ -1,7 +1,5 @@
 // dirt_lists.txt example code
 
-
-
 args : -copy -watch
 {
 	src ./test
