@@ -122,7 +122,8 @@ std::string core::get_location(std::source_location sl)
 
 void core::output_em(const code_pkg& cp, const std::string location)
 {
-	std::cout << cp.m_s_code << '\n' << location << '\n';
+	std::osyncstream synced_cout(std::cout);
+	synced_cout << cp.m_s_code << '\n' << location << '\n';
 }
 
 std::vector<core::args> core::validate_args(const std::vector<arg_pkg>& args)
@@ -310,19 +311,22 @@ void core::output_entry(const arg_entry& e)
 		s_v.push_back(pkg.m_s_arg);
 	}
 
+	std::osyncstream synced_cout(std::cout);
+
 	// outputing to the console:
-	std::cout << "Entry number: " << e.entry_number << '\n';
+	synced_cout << "Entry number: " << e.entry_number << '\n';
 	for (const auto& s : s_v) {
-		std::cout << "arg: " << s << '\n';
+		synced_cout << "arg: " << s << '\n';
 	}
-	std::cout << "Destination Path: " << e.dst_p << '\n';
-	std::cout << "Source Path: " << e.src_p << '\n';
+	synced_cout << "Destination Path: " << e.dst_p << '\n';
+	synced_cout << "Source Path: " << e.src_p << '\n';
 	
 }
 
 void core::output_fse(const std::filesystem::filesystem_error& e)
 {
-	std::cout << "Message: " << e.what() << '\n' << "Path 1: " 
+	std::osyncstream synced_cout(std::cout);
+	synced_cout << "Message: " << e.what() << '\n' << "Path 1: " 
 		<< e.path1() << '\n' << "Path 2: " << e.path2() << '\n';
 }
 
@@ -472,7 +476,8 @@ std::string core::file_type_to_string(std::filesystem::file_type type) {
 
 void core::output_filesystem_ec(std::error_code ec)
 {
-	std::cout << "filesystem error (" << ec.value() << "): " << ec.message() << '\n';
+	std::osyncstream synced_cout(std::cout);
+	synced_cout << "filesystem error (" << ec.value() << "): " << ec.message() << '\n';
 }
 
 std::vector<core::arg_entry> core::get_specific_entries(const std::vector<arg_entry>& v, args specific_arg)
@@ -521,9 +526,33 @@ void core::progress_dots_in_terminal(int count, int delay_ms, int repeat)
 	std::cout << "\rProcessing   \r"; // Clear line after animation
 }
 
+std::vector<std::queue<core::file_entry>> core::split_queue(std::queue<file_entry> buffer_q, std::size_t number_of_qs)
+{
+	std::vector<std::queue<core::file_entry>> file_entry_v_q;
+	auto buffer_q_size = buffer_q.size();
+
+	if (buffer_q_size == 0) {
+		return {};
+	}
+
+	auto q_size = buffer_q_size / number_of_qs;
+
+	while (buffer_q.empty() == false) {
+		std::queue<file_entry> q;
+		while (q.size() < q_size and buffer_q.empty() == false) {
+			file_entry entry = buffer_q.front();
+			q.emplace(entry);
+			buffer_q.pop();
+		}
+		file_entry_v_q.push_back(q);
+	}
+	return file_entry_v_q;
+}
+
 void core::output_entry_data(const file_entry& entry)
 {
-	std::cout << "\nDisplaying Entry: \n" << "Source Path: " << entry.src_p
+	std::osyncstream synced_cout(std::cout);
+	synced_cout << "\nDisplaying Entry: \n" << "Source Path: " << entry.src_p
 		<< '\n' << "Destination Path: " << entry.dst_p << '\n'
 		<< "Action: " << action_to_string(entry.action) << '\n'
 		<< "File type: " << file_type_to_string(entry.src_s.type()) << '\n';

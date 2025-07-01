@@ -21,6 +21,7 @@
 // 4 MB Buffer
 #define BUFFER_SIZE 1024 * 1024 * 4
 #define BUFFER_TIME 10
+#define MAX_THREADS 8
 
 namespace core {
 	class background_queue_system {
@@ -78,9 +79,6 @@ namespace core {
 		
 		std::mutex m_queue_mtx;
 
-		// background task thread vector
-		std::vector<std::thread> m_bgtv;
-
 		// process entry loop runner
 		std::atomic<bool> m_runner = true;
 
@@ -94,7 +92,7 @@ namespace core {
 		std::atomic<bool> m_launch_b;
 
 		void background_task(const file_entry& entry);
-		
+
 		// mutex for std::unordered_set<directory_info>* di_set in each entry
 		std::mutex m_set_mtx;
 
@@ -103,6 +101,8 @@ namespace core {
 		void switch_entry_type(file_entry& entry) override;
 
 		void exit_process_entry();
+
+		void process_queue(std::queue<file_entry> buffer_q);
 	};
 
 

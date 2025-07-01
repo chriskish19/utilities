@@ -312,29 +312,14 @@ void core::queue_system::process_entry()
             m_entry_q.swap(m_entry_buffer);
         }
 
+        std::vector<std::queue<file_entry>> fe_qv = split_queue(m_entry_buffer,MAX_THREADS);
+        std::vector<std::jthread> pq_tv;
+
+        for (auto q : fe_qv) {
+            pq_tv.push_back(std::jthread(&core::queue_system::process_queue,this,q));
+        }
         
-        while (m_entry_buffer.empty() == false) {
-            file_entry entry = m_entry_buffer.front();
-            output_entry_data(entry);
-
-            switch_entry_type(entry);
-
-            if (entry.completed_action != directory_completed_action::uninit) {
-                m_bgtv.push_back(std::thread(&core::queue_system::background_task, this, entry));
-            }
-            
-            m_entry_buffer.pop();
-
-        }
-
-        for (auto& t : m_bgtv) {
-            if (t.joinable()) {
-                t.join();
-            }
-        }
-
         m_launch_b.store(false);
-        m_bgtv.clear();
     }
 
     // exit background queue system
@@ -650,11 +635,9 @@ void core::queue_system::background_task(const file_entry& entry)
         try {
             auto set = entry.p_di_set;
             for (const auto& i : std::filesystem::recursive_directory_iterator(entry.dst_p)) {
-                directory_info di;
                 if (i.is_directory() == true) {
-                    di.number_of_files = file_numbers(i.path());
+                    directory_info di;
                     di.p = i.path();
-                    di.action = entry.completed_action;
                     
                     {
                         std::unique_lock<std::mutex> local_lock(m_set_mtx);
@@ -775,6 +758,31 @@ void core::queue_system::exit_process_entry()
 
     // break while loop
     m_runner.store(false);
+}
+
+void core::queue_system::process_queue(std::queue<file_entry> buffer_q)
+{
+    // background task thread vector
+    std::vector<std::thread> bgtv;
+    
+    while (buffer_q.empty() == false) {
+        file_entry entry = buffer_q.front();
+        output_entry_data(entry);
+
+        switch_entry_type(entry);
+
+        if (entry.completed_action != directory_completed_action::uninit) {
+            bgtv.push_back(std::thread(&core::queue_system::background_task, this, entry));
+        }
+
+        buffer_q.pop();
+    }
+
+    for (auto& t : bgtv) {
+        if (t.joinable()) {
+            t.join();
+        }
+    }
 }
 
 void core::background_queue_system::regular_file(file_entry& entry)
