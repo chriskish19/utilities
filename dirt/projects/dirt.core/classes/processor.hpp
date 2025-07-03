@@ -22,6 +22,7 @@
 #define BUFFER_SIZE 1024 * 1024 * 4
 #define BUFFER_TIME 10
 #define MAX_THREADS 8
+#define MAX_QUEUE_SPLIT 1000
 
 namespace core {
 	class background_queue_system {
@@ -35,6 +36,9 @@ namespace core {
 		virtual void regular_file(file_entry& entry);
 		virtual void directory(file_entry& entry);
 		virtual void not_found(file_entry& entry);
+		virtual void rename(file_entry& entry);
+
+		std::filesystem::path m_old_name;
 
 		virtual void switch_entry_type(file_entry& entry);
 
@@ -73,6 +77,9 @@ namespace core {
 		void regular_file(file_entry& entry) override;
 		void directory(file_entry& entry) override;
 		void not_found(file_entry& entry) override;
+		void rename(file_entry& entry) override;
+
+		std::filesystem::path m_old_name;
 
 		std::queue<file_entry> m_entry_buffer;
 		std::queue<file_entry> m_entry_q;

@@ -34,7 +34,7 @@ namespace core {
 	codes copy_directory_only(const std::filesystem::path& dst, const std::filesystem::path& src);
 	codes copy_directory_recursive(const std::filesystem::path& dst, const std::filesystem::path& src);
 	std::string action_to_string(file_action action);
-	void output_entry_data(const file_entry& entry);
+	void output_entry_data(const file_entry& entry,const std::string& name);
 	std::string file_type_to_string(std::filesystem::file_type type);
 	void output_filesystem_ec(std::error_code ec);
 	std::vector<arg_entry> get_specific_entries(const std::vector<arg_entry>& v,args specific_arg);

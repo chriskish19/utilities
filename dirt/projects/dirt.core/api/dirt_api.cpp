@@ -497,7 +497,7 @@ std::uintmax_t core::total_size(const std::filesystem::path& p)
 	try {
 		std::uintmax_t total_file_size = 0;
 		if (std::filesystem::exists(p) == true && std::filesystem::is_directory(p) == true) {
-			for (const auto& entry : std::filesystem::directory_iterator(p)) {
+			for (const auto& entry : std::filesystem::recursive_directory_iterator(p)) {
 				total_file_size += entry.file_size();
 			}
 		}
@@ -563,10 +563,10 @@ bool core::find_directory(const std::filesystem::path& p, const std::filesystem:
 	}
 }
 
-void core::output_entry_data(const file_entry& entry)
+void core::output_entry_data(const file_entry& entry, const std::string& name)
 {
 	std::osyncstream synced_cout(std::cout);
-	synced_cout << "\nDisplaying Entry: \n" << "Source Path: " << entry.src_p
+	synced_cout << '\n' << name << '\n' << "Source Path: " << entry.src_p
 		<< '\n' << "Destination Path: " << entry.dst_p << '\n'
 		<< "Action: " << action_to_string(entry.action) << '\n'
 		<< "File type: " << file_type_to_string(entry.src_s.type()) << '\n';

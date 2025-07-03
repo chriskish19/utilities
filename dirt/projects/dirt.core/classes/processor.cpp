@@ -47,8 +47,7 @@ core::codes core::process::process_entry()
 
 core::codes core::process::watch()
 {
-    std::jthread queue_sys_t(&queue_system::process_entry, this);
-    
+    std::thread queue_sys_t(&queue_system::process_entry, this);
     
     while (
         GetQueuedCompletionStatus(m_hCompletionPort,&m_bytesTransferred,&m_completionKey,&m_pOverlapped,INFINITE)) {
@@ -104,11 +103,19 @@ core::codes core::process::watch()
             NULL
         )) {
             exit_process_entry();
-
-            // queue_sys_t thread will auto join on exit
+            
+            if (queue_sys_t.joinable()) {
+                queue_sys_t.join();
+            }
 
             return codes::read_dir_changes_fail;
         }
+    }
+
+    exit_process_entry();
+
+    if (queue_sys_t.joinable()) {
+        queue_sys_t.join();
     }
 
     return codes::success;
@@ -302,7 +309,7 @@ void core::queue_system::process_entry()
             std::unique_lock<std::mutex> local_lock(m_launch_mtx);
             m_launch_cv.wait(local_lock, [this]
                 {
-                    return m_launch_b.load();
+                    return m_launch_b.load() or (m_entry_q.empty() == false);
                 });
 
             // timer here, seconds to wait time
@@ -314,13 +321,23 @@ void core::queue_system::process_entry()
             m_entry_q.swap(m_entry_buffer);
         }
 
-        std::vector<std::queue<file_entry>> fe_qv = split_queue(m_entry_buffer,MAX_THREADS);
-        std::vector<std::jthread> pq_tv;
+        if (m_entry_buffer.size() > MAX_QUEUE_SPLIT) {
+            std::vector<std::queue<file_entry>> fe_qv = split_queue(m_entry_buffer, MAX_THREADS);
+            std::vector<std::jthread> pq_tv;
 
-        for (auto q : fe_qv) {
-            pq_tv.push_back(std::jthread(&core::queue_system::process_queue,this,q));
+            for (auto q : fe_qv) {
+                pq_tv.push_back(std::jthread(&core::queue_system::process_queue, this, q));
+            }
+        }
+        else {
+            process_queue(m_entry_buffer);
         }
         
+
+        std::queue<file_entry> empty_buffer;
+        m_entry_buffer.swap(empty_buffer);
+
+
         m_launch_b.store(false);
     }
 
@@ -425,13 +442,13 @@ void core::queue_system::regular_file(file_entry& entry)
 
     case file_action::new_name:
     {
-        // do
+        rename(entry);
         break;
     }
 
     case file_action::previous_name:
     {
-        // do
+        m_old_name = entry.src_p;
         break;
     }
 
@@ -541,13 +558,13 @@ void core::queue_system::directory(file_entry& entry)
 
     case file_action::new_name:
     {
-        // do
+        rename(entry);
         break;
     }
 
     case file_action::previous_name:
     {
-        // do
+        m_old_name = entry.src_p;
         break;
     }
 
@@ -612,6 +629,25 @@ void core::queue_system::not_found(file_entry& entry)
     default:
         // do
         break;
+    }
+}
+
+void core::queue_system::rename(file_entry& entry)
+{
+    try {
+        std::filesystem::path old_file_name = m_old_name.filename();
+        std::filesystem::path dst_parent = entry.dst_p.parent_path();
+        std::filesystem::path old_path = dst_parent / old_file_name;
+
+        std::filesystem::rename(old_path, entry.dst_p);
+    }
+    catch (const std::filesystem::filesystem_error& e) {
+        output_em(std_filesystem_exception_caught_pkg);
+        output_fse(e);
+        filesystem_ec(e, entry);
+    }
+    catch (...) {
+        output_em(unknown_exception_caught_pkg);
     }
 }
 
@@ -783,7 +819,7 @@ void core::queue_system::process_queue(std::queue<file_entry> buffer_q)
     
     while (buffer_q.empty() == false) {
         file_entry entry = buffer_q.front();
-        output_entry_data(entry);
+        output_entry_data(entry, "Main Processor, Entry:");
 
         if (skip_entry(entry) == true) {
             buffer_q.pop();
@@ -839,6 +875,13 @@ void core::background_queue_system::regular_file(file_entry& entry)
 
             copied = std::filesystem::copy_file(entry.src_p, entry.dst_p,
                 std::filesystem::copy_options::update_existing);
+
+            if (copied == false and std::filesystem::exists(entry.dst_p) == false) {
+                std::cout << "File not copied: " << entry.src_p << '\n';
+            }
+            else {
+                m_delayed_q.pop();
+            }
         }
         catch (const std::filesystem::filesystem_error& e) {
             output_em(std_filesystem_exception_caught_pkg);
@@ -847,13 +890,6 @@ void core::background_queue_system::regular_file(file_entry& entry)
         }
         catch (...) {
             output_em(unknown_exception_caught_pkg);
-        }
-
-        if (copied == false) {
-            std::cout << "File not copied: " << entry.src_p << '\n';
-        }
-        else {
-            m_delayed_q.pop();
         }
 
         break;
@@ -875,6 +911,13 @@ void core::background_queue_system::regular_file(file_entry& entry)
             }
 
             removed = std::filesystem::remove(entry.dst_p);
+
+            if (removed == false) {
+                std::cout << "Failed to delete: " << entry.dst_p << '\n';
+            }
+            else {
+                m_delayed_q.pop();
+            }
         }
         catch (const std::filesystem::filesystem_error& e) {
             output_em(std_filesystem_exception_caught_pkg);
@@ -883,13 +926,6 @@ void core::background_queue_system::regular_file(file_entry& entry)
         }
         catch (...) {
             output_em(unknown_exception_caught_pkg);
-        }
-
-        if (removed == false) {
-            std::cout << "Failed to delete: " << entry.dst_p << '\n';
-        }
-        else {
-            m_delayed_q.pop();
         }
 
         break;
@@ -922,13 +958,13 @@ void core::background_queue_system::regular_file(file_entry& entry)
 
     case file_action::new_name:
     {
-        // do
+        rename(entry);
         break;
     }
 
     case file_action::previous_name:
     {
-        // do
+        m_old_name = entry.src_p;
         break;
     }
 
@@ -1043,13 +1079,13 @@ void core::background_queue_system::directory(file_entry& entry)
 
     case file_action::new_name:
     {
-        // do
+        rename(entry);
         break;
     }
 
     case file_action::previous_name:
     {
-        // do
+        m_old_name = entry.src_p;
         break;
     }
 
@@ -1117,6 +1153,25 @@ void core::background_queue_system::not_found(file_entry& entry)
     }
 }
 
+void core::background_queue_system::rename(file_entry& entry)
+{
+    try {
+        std::filesystem::path old_file_name = m_old_name.filename();
+        std::filesystem::path dst_parent = entry.dst_p.parent_path();
+        std::filesystem::path old_path = dst_parent / old_file_name;
+
+        std::filesystem::rename(old_path, entry.dst_p);
+    }
+    catch (const std::filesystem::filesystem_error& e) {
+        output_em(std_filesystem_exception_caught_pkg);
+        output_fse(e);
+        filesystem_ec(e, entry);
+    }
+    catch (...) {
+        output_em(unknown_exception_caught_pkg);
+    }
+}
+
 void core::background_queue_system::switch_entry_type(file_entry& entry)
 {
     switch (entry.src_s.type())
@@ -1174,7 +1229,7 @@ void core::background_queue_system::delayed_process_entry()
         while (m_delayed_q.empty() == false and m_run_dpe.load() == true) {
             file_entry entry = m_delayed_q.front();
 
-            output_entry_data(entry);
+            output_entry_data(entry,"Background Processor, Entry:");
             switch_entry_type(entry);
 
             // timer here, seconds to wait time
