@@ -103,6 +103,8 @@ namespace core {
 		void exit_process_entry();
 
 		void process_queue(std::queue<file_entry> buffer_q);
+
+		bool skip_entry(file_entry& entry);
 	};
 
 
@@ -113,6 +115,7 @@ namespace core {
 		std::filesystem::path src;
 		std::filesystem::path dst;
 		std::unordered_set<directory_info>* di_set = nullptr;
+		std::vector<args> args_v;
 	};
 
 

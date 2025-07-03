@@ -120,7 +120,7 @@ std::string core::get_location(std::source_location sl)
 	return temp;
 }
 
-void core::output_em(const code_pkg& cp, const std::string location)
+void core::output_em(const code_pkg cp, const std::string location)
 {
 	std::osyncstream synced_cout(std::cout);
 	synced_cout << cp.m_s_code << '\n' << location << '\n';
@@ -363,8 +363,8 @@ std::unordered_set<core::directory_info> core::get_all_directories(const std::fi
 		std::unordered_set<core::directory_info> di_set;
 
 		for (const auto& entry : std::filesystem::recursive_directory_iterator(p)) {
-			directory_info di;
 			if (entry.is_directory() == true) {
+				directory_info di;
 				di.p = entry.path();
 				di.number_of_files = file_numbers(entry.path());
 				di_set.emplace(di);
@@ -547,6 +547,20 @@ std::vector<std::queue<core::file_entry>> core::split_queue(std::queue<file_entr
 		file_entry_v_q.push_back(q);
 	}
 	return file_entry_v_q;
+}
+
+bool core::find_directory(const std::filesystem::path& p, const std::filesystem::path& d)
+{
+	std::string sp = p.string();
+	std::string sd = d.string();
+
+	std::size_t found = sp.find_first_of(sd);
+	if (found != std::string::npos) {
+		return true;
+	}
+	else {
+		return false;
+	}
 }
 
 void core::output_entry_data(const file_entry& entry)

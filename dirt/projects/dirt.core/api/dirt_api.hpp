@@ -21,7 +21,7 @@ namespace core {
 	arg_pkg match_s_arg(const std::string& arg);
 	code_pkg match_code(codes code);
 	std::string get_location(std::source_location sl = std::source_location::current());
-	void output_em(const code_pkg& cp, const std::string location = get_location());
+	void output_em(const code_pkg cp, const std::string location = get_location());
 	std::vector<args> validate_args(const std::vector<arg_pkg>& args);
 	std::vector<arg_entry> parse_file(const std::filesystem::path& p, core::codes* code_p);
 	std::vector<args> arg_pkg_to_args(const std::vector<arg_pkg>& args_pkg_v);
@@ -41,4 +41,6 @@ namespace core {
 	std::uintmax_t total_size(const std::filesystem::path& p);
 	void progress_dots_in_terminal(int count = 3, int delay_ms = 300, int repeat = 3);
 	std::vector<std::queue<file_entry>> split_queue(std::queue<file_entry> buffer_q, std::size_t number_of_qs);
+	bool find_directory(const std::filesystem::path& p, const std::filesystem::path& d);
+
 }

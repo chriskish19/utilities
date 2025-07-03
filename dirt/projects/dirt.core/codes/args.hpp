@@ -270,6 +270,7 @@ namespace core {
 		std::filesystem::path src_p;
 		std::filesystem::file_status src_s;
 		std::unordered_set<directory_info>* p_di_set;
+		std::vector<args> args_v;
 	};
 }
 

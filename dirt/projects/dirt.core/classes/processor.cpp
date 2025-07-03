@@ -65,6 +65,7 @@ core::codes core::process::watch()
             entry.dst_p = ctx->dst / fileName;
             entry.action = convert_action(pNotify->Action);
             entry.p_di_set = ctx->di_set;
+            entry.args_v = ctx->args_v;
 
             try {
                 entry.src_s = std::filesystem::status(entry.src_p);
@@ -140,6 +141,7 @@ core::codes core::process::process_watch_entries()
         ctx->src = entry.src_p;
         ctx->dst = entry.dst_p;
         ctx->di_set = new std::unordered_set(get_all_directories(entry.src_p));
+        ctx->args_v = entry.args_v;
 
         m_hCompletionPort = CreateIoCompletionPort(hDir, m_hIOCP, (ULONG_PTR)ctx, 0);
 
@@ -346,6 +348,11 @@ void core::queue_system::regular_file(file_entry& entry)
 
             copied = std::filesystem::copy_file(entry.src_p, entry.dst_p,
                 std::filesystem::copy_options::update_existing);
+
+            if (copied == false) {
+                std::osyncstream synced_cout(std::cout);
+                synced_cout << "File not copied: " << entry.src_p << '\n';
+            }
         }
         catch (const std::filesystem::filesystem_error& e) {
             output_em(std_filesystem_exception_caught_pkg);
@@ -354,10 +361,6 @@ void core::queue_system::regular_file(file_entry& entry)
         }
         catch (...) {
             output_em(unknown_exception_caught_pkg);
-        }
-
-        if (copied == false) {
-            std::cout << "File not copied: " << entry.src_p << '\n';
         }
 
         break;
@@ -373,7 +376,17 @@ void core::queue_system::regular_file(file_entry& entry)
                 break;
             }
 
+            auto found = std::find(entry.args_v.begin(), entry.args_v.end(), args::no_deletes);
+            if (found != entry.args_v.end()) {
+                break;
+            }
+
             removed = std::filesystem::remove(entry.dst_p);
+
+            if (removed == false) {
+                std::osyncstream synced_cout(std::cout);
+                synced_cout << "Failed to delete: " << entry.dst_p << '\n';
+            }
         }
         catch (const std::filesystem::filesystem_error& e) {
             output_em(std_filesystem_exception_caught_pkg);
@@ -382,10 +395,6 @@ void core::queue_system::regular_file(file_entry& entry)
         }
         catch (...) {
             output_em(unknown_exception_caught_pkg);
-        }
-
-        if (removed == false) {
-            std::cout << "Failed to delete: " << entry.dst_p << '\n';
         }
 
         break;
@@ -477,7 +486,24 @@ void core::queue_system::directory(file_entry& entry)
                 break;
             }
 
+            auto found = std::find(entry.args_v.begin(), entry.args_v.end(), args::no_deletes);
+            if (found != entry.args_v.end()) {
+                break;
+            }
+
             removed = std::filesystem::remove_all(entry.dst_p);
+
+
+            std::osyncstream synced_cout(std::cout);
+            if (removed == 0) {
+                synced_cout << "Failed to delete: " << entry.dst_p << '\n';
+            }
+            else {
+                synced_cout << "Removed files from: " << entry.dst_p << '\n'
+                    << "Total files removed: " << removed << '\n';
+
+                entry.completed_action = directory_completed_action::delete_all;
+            }
         }
         catch (const std::filesystem::filesystem_error& e) {
             output_em(std_filesystem_exception_caught_pkg);
@@ -486,16 +512,6 @@ void core::queue_system::directory(file_entry& entry)
         }
         catch (...) {
             output_em(unknown_exception_caught_pkg);
-        }
-
-        if (removed == 0) {
-            std::cout << "Failed to delete: " << entry.dst_p << '\n';
-        }
-        else {
-            std::cout << "Removed files from: " << entry.dst_p << '\n' 
-                << "Total files removed: " << removed << '\n';
-
-            entry.completed_action = directory_completed_action::delete_all;
         }
 
         break;
@@ -607,8 +623,8 @@ void core::queue_system::background_task(const file_entry& entry)
         try {
             auto set = entry.p_di_set;
             for (const auto& i : std::filesystem::recursive_directory_iterator(entry.dst_p)) {
-                directory_info di;
                 if (i.is_directory() == true) {
+                    directory_info di;
                     di.number_of_files = file_numbers(i.path());
                     di.p = i.path();
                     di.action = entry.completed_action;
@@ -769,6 +785,11 @@ void core::queue_system::process_queue(std::queue<file_entry> buffer_q)
         file_entry entry = buffer_q.front();
         output_entry_data(entry);
 
+        if (skip_entry(entry) == true) {
+            buffer_q.pop();
+            continue;
+        }
+
         switch_entry_type(entry);
 
         if (entry.completed_action != directory_completed_action::uninit) {
@@ -783,6 +804,25 @@ void core::queue_system::process_queue(std::queue<file_entry> buffer_q)
             t.join();
         }
     }
+}
+
+bool core::queue_system::skip_entry(file_entry& entry)
+{
+    auto set = entry.p_di_set;
+    for (const auto& part : entry.src_p) {
+        if (std::filesystem::is_directory(part)) {
+            {
+                std::unique_lock<std::mutex> local_lock(m_set_mtx);
+                directory_info di;
+                di.p = part;
+                auto found = set->find(di);
+                if (found != set->end()) {
+                    return true;
+                }
+            }
+        }
+    }
+    return false;
 }
 
 void core::background_queue_system::regular_file(file_entry& entry)
@@ -826,6 +866,11 @@ void core::background_queue_system::regular_file(file_entry& entry)
         try {
             if (std::filesystem::exists(entry.dst_p) == false) {
                 // the file has been deleted manually
+                break;
+            }
+
+            auto found = std::find(entry.args_v.begin(), entry.args_v.end(), args::no_deletes);
+            if (found != entry.args_v.end()) {
                 break;
             }
 
@@ -937,6 +982,11 @@ void core::background_queue_system::directory(file_entry& entry)
         try {
             if (std::filesystem::exists(entry.dst_p) == false) {
                 // the directory has been deleted manually
+                break;
+            }
+
+            auto found = std::find(entry.args_v.begin(), entry.args_v.end(), args::no_deletes);
+            if (found != entry.args_v.end()) {
                 break;
             }
 
