@@ -658,18 +658,15 @@ void core::queue_system::background_task(const file_entry& entry)
     {
         try {
             auto set = entry.p_di_set;
-            for (const auto& i : std::filesystem::recursive_directory_iterator(entry.dst_p)) {
-                if (i.is_directory() == true) {
-                    directory_info di;
-                    di.number_of_files = file_numbers(i.path());
-                    di.p = i.path();
-                    di.action = entry.completed_action;
+            
+            directory_info di;
+            di.number_of_files = file_numbers(entry.dst_p);
+            di.p = entry.dst_p;
+            di.action = entry.completed_action;
 
-                    {
-                        std::unique_lock<std::mutex> local_lock(m_set_mtx);
-                        set->emplace(di);
-                    }
-                }
+            {
+                std::unique_lock<std::mutex> local_lock(m_set_mtx);
+                set->emplace(di);
             }
         }
         catch (const std::filesystem::filesystem_error& e) {
@@ -686,16 +683,13 @@ void core::queue_system::background_task(const file_entry& entry)
     {
         try {
             auto set = entry.p_di_set;
-            for (const auto& i : std::filesystem::recursive_directory_iterator(entry.dst_p)) {
-                if (i.is_directory() == true) {
-                    directory_info di;
-                    di.p = i.path();
-                    
-                    {
-                        std::unique_lock<std::mutex> local_lock(m_set_mtx);
-                        set->erase(di);
-                    }
-                }
+            
+            directory_info di;
+            di.p = entry.dst_p;
+            
+            {
+                std::unique_lock<std::mutex> local_lock(m_set_mtx);
+                set->erase(di);
             }
         }
         catch (const std::filesystem::filesystem_error& e) {
@@ -1172,6 +1166,81 @@ void core::background_queue_system::rename(file_entry& entry)
     }
 }
 
+void core::background_queue_system::background_task(const file_entry& entry)
+{
+    switch (entry.completed_action) {
+    case directory_completed_action::recursive_copy:
+    {
+        try {
+            auto set = entry.p_di_set;
+            for (const auto& i : std::filesystem::recursive_directory_iterator(entry.dst_p)) {
+                if (i.is_directory() == true) {
+                    directory_info di;
+                    di.number_of_files = file_numbers(i.path());
+                    di.p = i.path();
+                    di.action = entry.completed_action;
+
+                    {
+                        std::unique_lock<std::mutex> local_lock(m_set_mtx);
+                        set->emplace(di);
+                    }
+                }
+            }
+        }
+        catch (const std::filesystem::filesystem_error& e) {
+            output_em(std_filesystem_exception_caught_pkg);
+            output_fse(e);
+        }
+        catch (...) {
+            output_em(unknown_exception_caught_pkg);
+        }
+        break;
+    }
+
+    case directory_completed_action::delete_all:
+    {
+        try {
+            auto set = entry.p_di_set;
+            for (const auto& i : std::filesystem::recursive_directory_iterator(entry.dst_p)) {
+                if (i.is_directory() == true) {
+                    directory_info di;
+                    di.p = i.path();
+
+                    {
+                        std::unique_lock<std::mutex> local_lock(m_set_mtx);
+                        set->erase(di);
+                    }
+                }
+            }
+        }
+        catch (const std::filesystem::filesystem_error& e) {
+            output_em(std_filesystem_exception_caught_pkg);
+            output_fse(e);
+        }
+        catch (...) {
+            output_em(unknown_exception_caught_pkg);
+        }
+        break;
+    }
+
+    case directory_completed_action::previous_name:
+    {
+
+        break;
+    }
+
+    case directory_completed_action::new_name:
+    {
+
+        break;
+    }
+
+    default:
+        // do
+        break;
+    }
+}
+
 void core::background_queue_system::switch_entry_type(file_entry& entry)
 {
     switch (entry.src_s.type())
@@ -1231,6 +1300,8 @@ void core::background_queue_system::delayed_process_entry()
 
             output_entry_data(entry,"Background Processor, Entry:");
             switch_entry_type(entry);
+            
+            background_task(entry);
 
             // timer here, seconds to wait time
             std::this_thread::sleep_for(std::chrono::seconds(BUFFER_TIME));

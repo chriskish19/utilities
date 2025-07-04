@@ -38,6 +38,8 @@ namespace core {
 		virtual void not_found(file_entry& entry);
 		virtual void rename(file_entry& entry);
 
+		virtual void background_task(const file_entry& entry);
+
 		std::filesystem::path m_old_name;
 
 		virtual void switch_entry_type(file_entry& entry);
@@ -63,6 +65,9 @@ namespace core {
 
 		// exit delayed process entry function
 		void exit_dpe();
+
+		// mutex for std::unordered_set<directory_info>* di_set in each entry
+		std::mutex m_set_mtx;
 	};
 
 
@@ -98,10 +103,7 @@ namespace core {
 		// boolean for launching process entry
 		std::atomic<bool> m_launch_b;
 
-		void background_task(const file_entry& entry);
-
-		// mutex for std::unordered_set<directory_info>* di_set in each entry
-		std::mutex m_set_mtx;
+		void background_task(const file_entry& entry) override;
 
 		void filesystem_ec(const std::filesystem::filesystem_error& e, const file_entry& entry) override;
 
