@@ -17,6 +17,7 @@
 // keyword objects
 #define CORE_KEYWORDS_INCLUDE_PATH				CORE_keywords_hpp					// keywords
 #define CORE_LOOP_INCLUDE_PATH					CORE_loop_hpp						// loop object
+#define CORE_VAR_INCLUDE_PATH					CORE_var_hpp						// variable
 
 // codes
 #define CORE_CODES_INCLUDE_PATH					CORE_codes_hpp						// error codes

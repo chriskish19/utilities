@@ -1,10 +1,10 @@
 /**********************************************************/
 //
-// File:
+// File: keywords.hpp
 //
-// Purpose:
+// Purpose: define all slowly keywords
 //
-// Project:
+// Project: slowly.core
 //
 /**********************************************************/
 

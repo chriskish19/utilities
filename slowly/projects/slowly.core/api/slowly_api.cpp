@@ -152,11 +152,16 @@ std::vector<std::string> core::add_tokens(const std::filesystem::path& file, cor
     return tokens_v;
 }
 
-core::codes core::translate(std::filesystem::path sl_file)
+std::filesystem::path core::translate(const std::filesystem::path& sl_file, codes* code)
 {
-    // check if file exists
+    if (code == nullptr) {
+        return {};
+    }
+    
+   
     if (std::filesystem::exists(sl_file) == false) {
-        return codes::invalid_file_path;
+        *code = codes::invalid_file_path;
+        return {};
     }
 
 

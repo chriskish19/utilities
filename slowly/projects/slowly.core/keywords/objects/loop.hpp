@@ -35,5 +35,9 @@ namespace core {
         };
 
         std::string m_main_arg;
+
+        std::string m_cpp_template = {
+            "for (auto& i : array){ }"
+        };
     };
 }
