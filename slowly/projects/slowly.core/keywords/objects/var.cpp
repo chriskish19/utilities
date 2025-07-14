@@ -1,3 +1,4 @@
+#include "var.hpp"
 /**********************************************************/
 //
 // File: var.cpp
@@ -11,4 +12,8 @@
 #include CORE_NAMES_INCLUDE
 #include CORE_VAR_INCLUDE_PATH
 
+core::var::var(const std::string& code)
+	:m_code(code)
+{
 
+}

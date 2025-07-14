@@ -19,5 +19,4 @@ namespace core {
 	slowly_package match_in_slowly(const std::string& name);
 	bool is_keyword(const std::string& keyword, const std::vector<std::string>& container);
 	std::vector<std::string> add_tokens(const std::filesystem::path& file,core::codes* code);
-	std::filesystem::path translate(const std::filesystem::path& sl_file, codes* code);
 }

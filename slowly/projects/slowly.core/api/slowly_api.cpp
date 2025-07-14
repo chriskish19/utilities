@@ -1,3 +1,4 @@
+#include "slowly_api.hpp"
 
 /**********************************************************/
 //
@@ -150,19 +151,4 @@ std::vector<std::string> core::add_tokens(const std::filesystem::path& file, cor
 
     *code = core::codes::success;
     return tokens_v;
-}
-
-std::filesystem::path core::translate(const std::filesystem::path& sl_file, codes* code)
-{
-    if (code == nullptr) {
-        return {};
-    }
-    
-   
-    if (std::filesystem::exists(sl_file) == false) {
-        *code = codes::invalid_file_path;
-        return {};
-    }
-
-
 }

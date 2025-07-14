@@ -19,6 +19,7 @@ namespace core {
         invalid_file_path,
         syntax_mistake,
         file_open_fail,
+        missing_brace,
     };
 
 

@@ -30,6 +30,8 @@ namespace core {
         backslash,
         single_quote,
         double_foward_slash,
+        open_brace,
+        closed_brace
     };
 
     class slowly_package {
@@ -62,4 +64,6 @@ namespace core {
     inline const slowly_package backslash_package(keywords::backslash, "\\");
     inline const slowly_package single_quote_package(keywords::single_quote, "'");
     inline const slowly_package double_foward_slash_package(keywords::double_foward_slash, "//");
+    inline const slowly_package open_brace_package(keywords::open_brace, "{");
+    inline const slowly_package closed_brace_package(keywords::closed_brace, "}");
 }

@@ -15,11 +15,11 @@
 namespace core {
 	class var {
 	public:
-
+		var(const std::string& code);
 
 
 	protected:
-
+		std::string m_code;
 
 	};
 }
