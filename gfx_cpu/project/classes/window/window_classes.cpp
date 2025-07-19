@@ -85,7 +85,7 @@ UINT core::standard_window::height()
 core::drawing::drawing()
 {
     fill_buffer(m_draw_width * m_draw_height * PIXEL);
-    std::vector<std::complex<float>> path = generate_koch_snowflake(4); // or any shape
+    std::vector<std::complex<float>> path = generate_koch_snowflake(5); // or any shape
     fourier = compute_dft(path);
 }
 
@@ -134,10 +134,6 @@ void core::drawing::update(float dt)
     for (const auto& p : trail) {
         put_pixel((int)p.real(), (int)p.imag(), 255, 255, 0);
     }
-
-    m_accum_time += 1.0f / fourier.size(); // loop once per cycle
-    if (m_accum_time > 1.0f)
-        m_accum_time = 0;
 }
 
 void core::drawing::put_pixel(int x, int y, uint8_t r, uint8_t g, uint8_t b)

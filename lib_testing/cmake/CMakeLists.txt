@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.18)
 
 # set the name of the project
-set(sdl_core "city.core")
+set(sdl_core "city")
 
 # create the main project
 project(${sdl_core})
@@ -35,20 +35,43 @@ endif()
 # packages required
 find_package(SDL2 CONFIG REQUIRED)
 find_package(assimp CONFIG REQUIRED)
-
+find_package(glm CONFIG REQUIRED)
+find_package(spdlog CONFIG REQUIRED)
+find_package(bgfx CONFIG REQUIRED)
 
 # get core source and header files
 file(GLOB_RECURSE core_sf "../projects/*.cpp") # core_sf (core source files)
 file(GLOB_RECURSE core_hf "../projects/*.hpp") # core_sf (core header files)
 
+
+# ImGui
+set(IMGUI_DIR ${CMAKE_SOURCE_DIR}/../libs/imgui)
+include_directories(${IMGUI_DIR} ${IMGUI_DIR}/backends)
+
+set(IMGUI_SOURCES
+    ${IMGUI_DIR}/imgui.cpp
+    ${IMGUI_DIR}/imgui_draw.cpp
+    ${IMGUI_DIR}/imgui_widgets.cpp
+    ${IMGUI_DIR}/imgui_tables.cpp
+    ${IMGUI_DIR}/imgui_demo.cpp
+    ${IMGUI_DIR}/backends/imgui_impl_sdl2.cpp
+    ${IMGUI_DIR}/backends/imgui_impl_opengl3.cpp
+)
+
 # core exe
-add_executable(${sdl_core} ${core_sf} ${core_hf})
+add_executable(${sdl_core} ${core_sf} ${core_hf} ${IMGUI_SOURCES})
 
 target_link_libraries(${sdl_core}
         PRIVATE
         $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>
         $<IF:$<TARGET_EXISTS:SDL2::SDL2>,SDL2::SDL2,SDL2::SDL2-static>
         assimp::assimp
+        glm::glm
+        spdlog::spdlog
+        bgfx::bx 
+        bgfx::bgfx 
+        bgfx::bimg 
+        bgfx::bimg_decode
 )
 
 
@@ -67,6 +90,7 @@ foreach(HEADER_FILE ${core_hf})
         target_compile_definitions(${sdl_core} PRIVATE -DCORE_NAMES_INCLUDE=${FILE_NAME_HPP})
     endif()
 endforeach()
+
 #############################
 # End of sdl core exe
 #############################

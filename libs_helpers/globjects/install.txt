@@ -1,0 +1,11 @@
+# install package
+vcpkg install globjects
+
+# cmake
+find_package(globjects CONFIG REQUIRED)
+
+# link
+globjects::globjects
+
+# names include
+#define CORE_GLOBJ_INCLUDE_PATH					CORE_all_globjects_hpp				// all globjects includes
